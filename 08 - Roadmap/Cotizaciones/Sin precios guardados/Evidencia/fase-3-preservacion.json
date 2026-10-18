@@ -1,0 +1,137 @@
+{
+  "flutter": {
+    "head_initial": "56ddbc49f7369b2598aabe3c67b03135b7c89b46",
+    "head_final": "56ddbc49f7369b2598aabe3c67b03135b7c89b46",
+    "initial_count": 825,
+    "unchanged_count": 811,
+    "modified": {
+      "lib/presentation/pages/cotizaciones/quotation_detail_screen.dart": {
+        "before": "f1beef01dc12dca037b13a0fd16e3e163326dc4a0847088bd189c1a683f704b4",
+        "after": "825f938a7fd4ed5e6ee46ca9ec959e298f8da5d75c40c2c30db362e2b95fd306"
+      },
+      "test/presentation/pages/cotizaciones/quotation_ticket_test.dart": {
+        "before": "60f4c8008ca4227612c91dfcded879195612425744c3b826006f991e48fd0606",
+        "after": "787dd7caf560c120cf86b85045d8ab824efe5ceb16ebbf32ba380c4b3fb9eb35"
+      },
+      "test/presentation/pages/cotizaciones/caja_quotation_test.dart": {
+        "before": "669186e467cc029796c59bc6b42e7426e17260b2e63ae822730f1c648b5e761b",
+        "after": "daab2d4ebd2f7c7181a294f80bd54057e8598608c6711815de44bce969a95f1a"
+      },
+      "lib/presentation/pages/cotizaciones/quotation_ticket_screen.dart": {
+        "before": "0da0b13d67062dc99b637c5cd7e232fd861762b76281249df4f2f40af48922db",
+        "after": "e8a310e90a75eb29b40beff2b379d6436c91b816d05ec05c0d0965b4ea8d56b9"
+      },
+      "lib/domain/repositories/quotation_repository.dart": {
+        "before": "d18ce63a649ac553614fd89d68b123fdb3c6b7f4889b8be7f8350ae2fb297c05",
+        "after": "5e998011ff1ddee77a7712a2ba979dc26575334925719e7b4ebb737cf2defef7"
+      },
+      "test/presentation/pages/cotizaciones/quotation_navigation_test.dart": {
+        "before": "7b2ad796b80d9756d3da7c6c4c71cce2881efd63650ed38bff0bc6b04cb64f5a",
+        "after": "4442d02ff38d1b3c8766db12f307b988c6c9dd12a0387e51f67d3a43598688c4"
+      },
+      "test/support/quotation_ui_fixtures.dart": {
+        "before": "05a722c719aeece60adada580fc1269110fc8329ca43f07fcf5677a06e3a4c32",
+        "after": "64acdfbb6fce348eb131f14232bf540a727b7d4ecaca4b7df3a433be2f60d57d"
+      },
+      "lib/presentation/pages/cotizaciones/quotation_estimate_builder.dart": {
+        "before": "f6aff9a67291ee5cbdfdc91120a4a1d3e534501ee42e0033c026a7d7c2c9a0fd",
+        "after": "e52813b75d052eb31b8d32fd958a97f91446b6309866f3b426fd309ff99e834c"
+      },
+      "lib/presentation/pages/cotizaciones/models/quotation_display.dart": {
+        "before": "c18c1bb6471ec37fabf498f20de71acc56d9b497c89173078135ff4fbeec9462",
+        "after": "204ea0da2bb7157e09662f6a4367726859ebe4bf0efc359b9dda02f284fbd97c"
+      },
+      "lib/presentation/tickets/ticket_image_generator.dart": {
+        "before": "db03cd1b58a605eb7f3060b2d08b317769e224c6fecd60dce88696bfb43b2040",
+        "after": "37d8eb46fc5f0e67ff997d797c1c4ee5f8334e986864d1d9200e154a3f9a1c98"
+      },
+      "test/presentation/pages/cotizaciones/quotations_screen_test.dart": {
+        "before": "a4e2058ce6ef3ed5c81643514d37a6c8e31a5b4612b53e1fdfbae931d1e33221",
+        "after": "628717d8e85739b6f7e401cd5acdccd6faff5035e9470a2e3439615614bb267c"
+      },
+      "lib/data/local/drift/daos/quotation_dao.dart": {
+        "before": "7495345f993ffc3f79af4f87251a065df3ac4a598a36b663c21c05b0f309f3c2",
+        "after": "f8681468d6a370eff9d9bf034c5c4151c69d18be3817fdfb2a6f00117ed439c0"
+      },
+      "lib/presentation/pages/cotizaciones/quotations_screen.dart": {
+        "before": "3b9ec895b6abadaaa60da91be183c01713929f1bb919854aee91c14ae9667d45",
+        "after": "362e399ffd3e382e1dda41f933c239dfdc1e2dc55af035bd0d0320aeeeec6188"
+      },
+      "lib/presentation/tickets/ticket_document.dart": {
+        "before": "388ab3d0d848c953062390ad2ec500cfbcde220485e4613b99177cb8d4f06f99",
+        "after": "34e013e6240e97e061575947f63e388c54a783a663cb1291ecb7d6303598b8f6"
+      }
+    },
+    "new": {
+      "test/data/repositories/quotation_estimation_test.dart": "0e323ac11a9a85dd6181517b6030a82e3f155d85dd6fe429c7f08058cb881192"
+    },
+    "deleted": []
+  },
+  "analisis": {
+    "head_initial": "424c8bb7995f49a2255e97c778155efd31b1f648",
+    "head_final": "424c8bb7995f49a2255e97c778155efd31b1f648",
+    "initial_count": 431,
+    "unchanged_count": 427,
+    "modified": {
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Estado y continuidad.md": {
+        "before": "a1ad3cdc33e4d6f13a82ef893d13e4ff8b6241c682b4e6510961b24bfcaf9692",
+        "after": "f0dae06a6f3e71fa0d0b41580b3759a634f8e5c364e84be1ac9a7fb6d72b0f4e"
+      },
+      ".obsidian/workspace.json": {
+        "before": "0494253a94393aa23e72a6675f13af5f7681d82f3300106392ea46f06baccb14",
+        "after": "e5114be5952c6a5dd5f2137b1fdfbcc1cace7b0ab95f445fb3a3341e95a778ff"
+      },
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Sesiones/03 - Consulta y ticket.md": {
+        "before": "aa9af88a82bd44774f395815e0690cbb550e2d1f380cca470b661d8c52943da3",
+        "after": "93a8d49a09c10392fddc6a5ea6fb787bfb98738738d3c10315b98350ffabb483"
+      },
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Casos de aceptacion.md": {
+        "before": "0898b9b0c22b7e4462a1f8732a4c9bba55e699549abdb1a976ec881265bdcca8",
+        "after": "bdb4d912a56b28b136610388b8272dcbe08eab84846b441f741a11fed534dec9"
+      }
+    },
+    "new": {
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-cancel.png": "5222f667b42ba3497e06bd7b05d6331424d7881c828b3ef6a34be5c7b492b05d",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-consulta-y-ticket.md": "3bd3fc71aaf65a60b4b5b921b3e3c3ab912e404d9026387fe696d0577ede3d46",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-dart-analyze.txt": "647c0365bc804adf3eb128df7629b74b9b1cfe6ac56a0a04d7220f882242b155",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-flutter-status-final.txt": "fb651f9b6178b3237fc204743f108c16b5f398e0bff432565e00c15c176bd17f",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-png/cotizacion-precio-antes.png": "4cc0bcc10f217ebb8ee70ff1b94547f455bccefd31cabaf2f3a247453788fd1a",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-whatsapp.xml": "24d4bfb99587d3afdd9b91d3847eb8e4d39723fb350d0b2f42f21297c32f3401",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-png/recibo-cash.png": "b82acacc7d7af7b501ca9c03a78f6becde4ce034ab491c64d156e75dfeab31d1",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-png/cotizacion-precio-despues.png": "57ee54ef220e7fbd50a870ed59012eb5e842fa576660946fee5be192ea500902",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-reactividad.txt": "8b89729718f733d6e18cf4f7d29cb3c9df3e3523a6afb588ca0560f0b080b44e",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-arboles-iniciales.json": "02ee22b355f9e01f951c41ed593365daae613a31a3e9fa8b4f55445cb51d40e5",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-analisis-status-final.txt": "9c9f98ef6ce911bf16c2549c120e1f21892be7de2bb773917b6424c0ca15c362",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-whatsapp-cancel.xml": "281518b3f5cef158c404ea4af9b8ae683c0e9ad9045998d0e8c65b9803f8b8c1",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-widgets-segunda.txt": "99428c1a591830df8ef5f2b7a4051fb290fcf4a2b261fb2b5612c8526c266e21",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-analisis-status-inicial.txt": "9c9f98ef6ce911bf16c2549c120e1f21892be7de2bb773917b6424c0ca15c362",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-widgets-tercera.txt": "4ca58e12e252f747109714b39175980754801c1eb3400fcd41b99524077c0837",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-lectura.txt": "18c25d087401ac4bac47c9812761124351e138c6383741258a5b12e628fb8f0c",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-whatsapp.png": "0b10dac99f5835c1a7b7043e4d7194bc4da714b95873a469b817defcd9670dc6",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-png-manifiesto.json": "4ef52f6d8122b25f3c6919066875522bef1b3a8d1a4c073f306c6ea32bf09282",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-flutter-test.txt": "12f7de5b4e08963077156855746389cdfbeef76f910b167ad2b214833b300e8f",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-png/cotizacion-muchas-lineas.png": "3f2a8a155f194c5c0965258deb5ddd7fb11cb7e8242fd6b5a71c2b58069ff1c7",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-dirigidas.txt": "7f96e7bb578554ed4a0330dcce8c597a1920bba1e5fe1445471164fa1dc3907a",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-shared.png": "3a05df41bd00ec7ee1ae3ad4753582041c9c7517f0587049ee42033912af9331",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-png/cotizacion-quotation-1.png": "9cec0b396c1a14df31df1acdd21ba714652d5cbd6b243f6d8e4cb056e979ced2",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-limpieza.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-resultados.json": "0ed1e51371d6538908a00f179c757f2691c2d06dbbaa680ed01740756c076981",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-png/recibo-credit.png": "2cdb7f88c983b0bad72b09013ec06329c9a4e9845a73ae347b42a208500a1090",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-tickets.txt": "c586b1ab133fd3a7577362c3b5708fda57968edfe4462636e230183a505055b1",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-png/cotizacion-no-disponible.png": "789820503a7c7474eb13401da977471c114d3b0714596d5b2845200fc6a9db11",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-ticket.png": "cfc6ee877d040f8fa9179c24f12d0af2816fb8320c284d352c433baea4295a91",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-git-diff-check.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-png-test.txt": "7dd7f75c7cc3a283e290ceec20499dce9d447324fce7475019dbe30992a16665",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-widgets-inicial.txt": "5835136fb16931f2297b57f344ab9db788082e341874002f8bb0b5de68832a26",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-archivos.md": "6c6d15fe2654aae84d05e6423883a412d7faab8c75686cad8ce2ffc27632e3f6",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-probe.dart.txt": "bbc3231d24f9c8ef62f69d141cdbec14b8076b7d83000564ec76d5daff07677f",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-png/recibo-transfer.png": "f61bd58b55668b260ce423d4a80fd8474103f98c8c971bb95279654fa75d0622",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-selector.png": "a93ed540ec044fa034fecad8a839799b4e5f24dff0a9d8404b1c516d6eb31fd4",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-cancel.xml": "281518b3f5cef158c404ea4af9b8ae683c0e9ad9045998d0e8c65b9803f8b8c1",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-flutter-status-inicial.txt": "ca29545b29c21eaebd7f2f125eec5303c775ee46a04f9a0c9c7c42816d1a2265",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-3-native-selector.xml": "24d4bfb99587d3afdd9b91d3847eb8e4d39723fb350d0b2f42f21297c32f3401"
+    },
+    "deleted": [],
+    "external_variation": ".obsidian/workspace.json varió fuera de las ediciones del trabajo; preservado sin restauración."
+  }
+}

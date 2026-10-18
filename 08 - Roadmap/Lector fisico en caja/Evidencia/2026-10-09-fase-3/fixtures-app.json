@@ -1,0 +1,42 @@
+{
+  "database": "/Users/benjamin/Library/Containers/com.example.posFlutter.physicalReaderPhase3/Data/Documents/pos_db.sqlite",
+  "fixtures": [
+    {
+      "product": "A",
+      "barcode": "001",
+      "price_minor": 100,
+      "measured": false
+    },
+    {
+      "product": "B",
+      "barcode": "002",
+      "price_minor": 200,
+      "measured": false
+    },
+    {
+      "product": "C",
+      "barcode": "003",
+      "price_minor": 300,
+      "measured": false
+    },
+    {
+      "product": "D",
+      "barcode": "003",
+      "price_minor": 400,
+      "measured": false
+    },
+    {
+      "product": "M",
+      "barcode": "004",
+      "price_minor": 20000,
+      "measured": true
+    }
+  ],
+  "event_count_before": 0,
+  "table_definitions": {
+    "events": "CREATE TABLE \"events\" (\"event_id\" TEXT NOT NULL, \"aggregate_type\" TEXT NOT NULL, \"aggregate_id\" TEXT NOT NULL, \"event_type\" TEXT NOT NULL, \"device_id\" TEXT NOT NULL, \"user_id\" TEXT NOT NULL, \"local_sequence\" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, \"server_sequence\" INTEGER NULL, \"base_server_sequence\" INTEGER NULL, \"base_version\" INTEGER NULL, \"created_at_local\" INTEGER NOT NULL, \"created_at_server\" INTEGER NULL, \"payload\" TEXT NOT NULL, \"application_status\" TEXT NOT NULL DEFAULT 'applied', \"delivery_status\" TEXT NOT NULL DEFAULT 'pending', \"rejection_reason\" TEXT NULL, UNIQUE (\"event_id\"))",
+    "event_refs": "CREATE TABLE \"event_refs\" (\"event_ref_id\" TEXT NOT NULL, \"event_id\" TEXT NOT NULL, \"ref_type\" TEXT NOT NULL, \"ref_id\" TEXT NOT NULL, \"relationship\" TEXT NOT NULL, \"server_sequence\" INTEGER NULL, \"source\" TEXT NOT NULL, PRIMARY KEY (\"event_ref_id\"))",
+    "sales": "CREATE TABLE \"sales\" (\"id\" TEXT NOT NULL, \"active\" INTEGER NOT NULL DEFAULT 1 CHECK (\"active\" IN (0, 1)), \"version\" INTEGER NOT NULL DEFAULT 1, \"created_event_id\" TEXT NULL, \"last_event_id\" TEXT NULL, \"last_server_sequence\" INTEGER NULL, \"cliente_id\" TEXT NULL REFERENCES clientes (id), \"user_id\" TEXT NOT NULL, \"device_id\" TEXT NOT NULL, \"status\" TEXT NOT NULL DEFAULT 'borrador', \"total_minor\" INTEGER NOT NULL, \"created_at_local\" INTEGER NOT NULL, \"updated_at_local\" INTEGER NOT NULL, PRIMARY KEY (\"id\"), CHECK(status IN ('borrador', 'descartada', 'confirmada')), CHECK(total_minor >= 0 AND total_minor <= 9007199254740991))",
+    "sale_items": "CREATE TABLE \"sale_items\" (\"id\" TEXT NOT NULL, \"active\" INTEGER NOT NULL DEFAULT 1 CHECK (\"active\" IN (0, 1)), \"version\" INTEGER NOT NULL DEFAULT 1, \"created_event_id\" TEXT NULL, \"last_event_id\" TEXT NULL, \"last_server_sequence\" INTEGER NULL, \"sale_id\" TEXT NOT NULL REFERENCES sales (id) ON DELETE RESTRICT, \"variant_id\" TEXT NOT NULL REFERENCES product_variants (id) ON DELETE RESTRICT, \"consumption_configuration_key\" TEXT NULL, \"product_name_snapshot\" TEXT NOT NULL, \"variant_name_snapshot\" TEXT NULL, \"sale_mode_snapshot\" TEXT NOT NULL, \"quantity\" INTEGER NULL, \"measured_quantity_atomic\" INTEGER NULL, \"unit_price_minor\" INTEGER NOT NULL, \"standard_cost_minor_snapshot\" INTEGER NULL, \"price_reference_quantity_atomic_snapshot\" INTEGER NULL, \"sale_unit_code_snapshot\" TEXT NULL, \"sale_unit_symbol_snapshot\" TEXT NULL, \"sale_unit_atomic_factor_snapshot\" INTEGER NULL, \"total_minor\" INTEGER NOT NULL, \"sort_order\" INTEGER NOT NULL, PRIMARY KEY (\"id\"), CHECK(unit_price_minor > 0 AND unit_price_minor <= 9007199254740991), CHECK(total_minor >= 0 AND total_minor <= 9007199254740991), CHECK(standard_cost_minor_snapshot IS NULL OR (standard_cost_minor_snapshot >= 0 AND standard_cost_minor_snapshot <= 9007199254740991)), CHECK(sort_order >= 0), CHECK((sale_mode_snapshot = 'unit' AND quantity IS NOT NULL AND quantity > 0 AND quantity <= 9007199254740991\n      AND measured_quantity_atomic IS NULL AND price_reference_quantity_atomic_snapshot IS NULL\n      AND sale_unit_code_snapshot IS NULL AND sale_unit_symbol_snapshot IS NULL AND sale_unit_atomic_factor_snapshot IS NULL)\n      OR (sale_mode_snapshot = 'measured' AND quantity IS NULL\n      AND measured_quantity_atomic IS NOT NULL AND measured_quantity_atomic > 0 AND measured_quantity_atomic <= 9007199254740991\n      AND price_reference_quantity_atomic_snapshot IS NOT NULL AND price_reference_quantity_atomic_snapshot > 0 AND price_reference_quantity_atomic_snapshot <= 9007199254740991\n      AND sale_unit_atomic_factor_snapshot IS NOT NULL AND sale_unit_atomic_factor_snapshot > 0 AND sale_unit_atomic_factor_snapshot <= 9007199254740991\n      AND sale_unit_code_snapshot IS NOT NULL AND length(trim(sale_unit_code_snapshot)) > 0\n      AND sale_unit_symbol_snapshot IS NOT NULL AND length(trim(sale_unit_symbol_snapshot)) > 0)))"
+  }
+}

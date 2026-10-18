@@ -1,0 +1,89 @@
+[
+  {
+    "command": "dart analyze",
+    "log": "dart-analyze-inicial.log",
+    "status": "aprobado"
+  },
+  {
+    "command": "flutter test --reporter expanded",
+    "log": "flutter-test-inicial.log",
+    "status": "aprobado",
+    "passed": 1559,
+    "skipped_remote": 1
+  },
+  {
+    "command": "dart format test/data/local/drift/supplier_local_acceptance_test.dart; dart analyze test/data/local/drift/supplier_local_acceptance_test.dart",
+    "status": "fallido_en_preparacion",
+    "reason": "API de fixture corregida antes de ejecutar; no es validación del producto"
+  },
+  {
+    "command": "flutter test test/data/local/drift/supplier_local_acceptance_test.dart --reporter expanded",
+    "log": "acceptance-primera.log",
+    "status": "interrumpido"
+  },
+  {
+    "command": "flutter test test/data/local/drift/supplier_local_acceptance_test.dart --plain-name 'F5 respaldo other-schema' --reporter expanded",
+    "log": "incompatibilidad-reproducida.log",
+    "status": "fallido_en_fixture"
+  },
+  {
+    "command": "flutter test test/data/local/drift/supplier_local_acceptance_test.dart --plain-name 'catálogo con proveedores' --reporter expanded",
+    "log": "acceptance-diagnostico.log",
+    "status": "interrumpido"
+  },
+  {
+    "command": "flutter test test/data/local/drift/supplier_local_acceptance_test.dart --plain-name 'F5 respaldo' --reporter expanded",
+    "log": "acceptance-segunda.log",
+    "status": "fallido_defecto_reproducido",
+    "passed": 4,
+    "failed": 3
+  },
+  {
+    "command": "dart format lib/data/local/drift/current_database_schema.dart lib/data/local/drift/app_database.dart lib/data/local/backup/database_restore_service.dart test/data/local/drift/supplier_local_acceptance_test.dart; dart analyze",
+    "log": "dart-analyze-correccion.log",
+    "status": "avisos_trazas_temporales_eliminadas",
+    "issues": 6
+  },
+  {
+    "command": "POS_SUPPLIER_VERIFICATION_DIR=<evidencia> flutter test test/data/local/drift/supplier_local_acceptance_test.dart test/data/local/drift/supplier_backup_test.dart test/data/local/drift/quotation_backup_test.dart test/data/local/drift/cash_backup_test.dart --reporter expanded",
+    "log": "acceptance-respaldo-correccion.log",
+    "status": "aprobado",
+    "passed": 48
+  },
+  {
+    "command": [
+      "dart",
+      "analyze"
+    ],
+    "log": "dart-analyze-final.log",
+    "exit_code": 0,
+    "duration_seconds": 4.73
+  },
+  {
+    "command": [
+      "flutter",
+      "test",
+      "--reporter",
+      "json"
+    ],
+    "log": "flutter-test-final.jsonl",
+    "exit_code": 0,
+    "duration_seconds": 64.16
+  },
+  {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "log": "git-diff-check-final.log",
+    "exit_code": 0,
+    "duration_seconds": 0.05
+  },
+  {
+    "command": "git diff --check",
+    "log": "git-diff-check-final.log",
+    "exit_code": 0,
+    "status": "aprobado_tras_documentacion"
+  }
+]

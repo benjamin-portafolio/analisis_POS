@@ -1,0 +1,41 @@
+{
+  "evidenceType": "synthetic_fixture_not_physical_print",
+  "profile": {
+    "address": "AA:BB:CC:DD:EE:02",
+    "alias": "B80",
+    "paper": "mm80",
+    "printableWidthDots": 576,
+    "imageCommand": "gsL",
+    "supportsCut": false
+  },
+  "document": {
+    "title": "PRUEBA DE IMPRESIÓN",
+    "identifier": "B80",
+    "date": "Prueba manual",
+    "dateLabel": "Fecha",
+    "currency": "MXN",
+    "details": [
+      "Dirección: AA:BB:CC:DD:EE:02",
+      "Papel: 80 mm",
+      "Ancho: 576 puntos",
+      "Método: gsL",
+      "Las líneas horizontales delimitan los márgenes del contenido."
+    ],
+    "summary": null,
+    "itemRows": [
+      [
+        "Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ]
+    ],
+    "totals": [
+      [
+        "Total de prueba",
+        "$150.00"
+      ]
+    ],
+    "footer": "Fin de prueba. ñ Ñ á é í ó ú ü € °\nRevisa márgenes y continuidad en papel. El envío no confirma impresión física."
+  }
+}

@@ -1,0 +1,1127 @@
+[
+  {
+    "id": 10673917198614,
+    "title": "Flan de Vainilla Pronto 1 kg",
+    "handle": "flan-de-vainilla-pronto-1-kg",
+    "body_html": "<p>Con el polvo para preparar flan de Pronto podrás darle a tu familia un postre para disfrutar después de cada comida, sabor inigualable. Fortificado con vitaminas y minerales. Rinde hasta 1 litro.</p>",
+    "published_at": "2026-08-18T17:13:49-06:00",
+    "created_at": "2026-08-18T17:10:54-06:00",
+    "updated_at": "2026-10-16T12:43:38-06:00",
+    "vendor": "Pronto",
+    "product_type": "Flanes y Gelatinas",
+    "tags": [],
+    "variants": [
+      {
+        "id": 51733866381590,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "UNI043340",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "73.50",
+        "grams": 0,
+        "compare_at_price": "22.00",
+        "position": 1,
+        "product_id": 10673917198614,
+        "created_at": "2026-08-18T17:10:54-06:00",
+        "updated_at": "2026-10-16T12:43:38-06:00"
+      },
+      {
+        "id": 51733866414358,
+        "title": "10 Piezas",
+        "option1": "10 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "UNI04334",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "699.00",
+        "grams": 0,
+        "compare_at_price": "468.50",
+        "position": 2,
+        "product_id": 10673917198614,
+        "created_at": "2026-08-18T17:10:54-06:00",
+        "updated_at": "2026-10-16T12:43:38-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 56223076253974,
+        "created_at": "2026-08-18T17:12:24-06:00",
+        "position": 1,
+        "updated_at": "2026-08-18T17:12:26-06:00",
+        "product_id": 10673917198614,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/UNI043340.png?v=1787094746",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "10 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10658348957974,
+    "title": "Jarabe de Maple Corina 339 gr",
+    "handle": "jarabe-de-maple-corina-339-gr",
+    "body_html": "<p>Endulza tus mañanas con el auténtico Jarabe Sabor Maple Corina, la opción práctica y deliciosa para acompañar hot cakes, waffles, crepas y postres.  Con su consistencia viscosa y color ámbar característico, este jarabe ofrece el sabor clásico del maple a un precio accesible, siendo ideal para el consumo diario en el hogar o negocios de alimentos. </p>",
+    "published_at": "2026-08-05T11:00:16-06:00",
+    "created_at": "2026-08-05T10:52:49-06:00",
+    "updated_at": "2026-10-16T12:43:38-06:00",
+    "vendor": "Pronto",
+    "product_type": "Mermeladas, Miel y Untables",
+    "tags": [],
+    "variants": [
+      {
+        "id": 51649450541334,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "43.00",
+        "grams": 680,
+        "compare_at_price": "68.00",
+        "position": 1,
+        "product_id": 10658348957974,
+        "created_at": "2026-08-05T10:52:49-06:00",
+        "updated_at": "2026-10-16T12:43:38-06:00"
+      },
+      {
+        "id": 51649450574102,
+        "title": "12 Piezas",
+        "option1": "12 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "494.50",
+        "grams": 8380,
+        "compare_at_price": "777.00",
+        "position": 2,
+        "product_id": 10658348957974,
+        "created_at": "2026-08-05T10:52:49-06:00",
+        "updated_at": "2026-10-16T12:43:38-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 56079438315798,
+        "created_at": "2026-08-05T11:00:00-06:00",
+        "position": 1,
+        "updated_at": "2026-08-05T11:00:03-06:00",
+        "product_id": 10658348957974,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/MSC2656320.png?v=1785949203",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "12 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8306526880022,
+    "title": "Salsa para Pizza en Bolsa La Costeña 3 kg",
+    "handle": "salsa-para-pizza-en-bolsa-la-costena-3-kg",
+    "body_html": "<p>Con la salsa para pizza La Costeña, cocina fácil tus recetas italianas, logrando una consistencia y sabor inigualables. Su rendidora presentación con 3 kg, te alcanzará perfecto para preparar pizzas hawaianas, mexicanas, de pepperoni y muchos platillos más.</p>",
+    "published_at": "2026-07-20T10:51:43-06:00",
+    "created_at": "2023-06-07T09:16:55-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "La Costeña",
+    "product_type": "Aderezos, Salsas y Vinagres",
+    "tags": [],
+    "variants": [
+      {
+        "id": 51059098779926,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO911090",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "128.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 8306526880022,
+        "created_at": "2026-02-25T17:12:13-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 51059098812694,
+        "title": "4 Piezas",
+        "option1": "4 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO91109",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "490.00",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 8306526880022,
+        "created_at": "2026-02-25T17:12:13-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 50268176744726,
+        "created_at": "2025-06-06T09:37:22-06:00",
+        "position": 1,
+        "updated_at": "2025-06-06T09:37:23-06:00",
+        "product_id": 8306526880022,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/CCO911090.png?v=1749224243",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "4 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8306526781718,
+    "title": "Salsa de Tomate para Aderezar La Costeña 4 kg",
+    "handle": "salsa-de-tomate-para-aderezar-la-costena-4-kg",
+    "body_html": "<p>Esta rica salsa es ideal para tus hamburguesas caseras. Está elaborada con ingredientes frescos y de calidad.</p>",
+    "published_at": "2026-07-13T14:19:35-06:00",
+    "created_at": "2023-06-07T09:16:54-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "La Costeña",
+    "product_type": "Aderezos, Salsas y Vinagres",
+    "tags": [],
+    "variants": [
+      {
+        "id": 51059098517782,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO8510",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "133.50",
+        "grams": 4060,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 8306526781718,
+        "created_at": "2026-02-25T17:12:08-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 51059098550550,
+        "title": "4 Piezas",
+        "option1": "4 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO851",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "507.50",
+        "grams": 16560,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 8306526781718,
+        "created_at": "2026-02-25T17:12:08-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 50264276107542,
+        "created_at": "2025-06-05T23:19:40-06:00",
+        "position": 1,
+        "updated_at": "2025-06-05T23:19:41-06:00",
+        "product_id": 8306526781718,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/CCO8510.png?v=1749187181",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "4 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8306526617878,
+    "title": "Puré de Tomate en Bolsa La Costeña 3 kg",
+    "handle": "pure-de-tomate-en-bolsa-la-costena-3-kg",
+    "body_html": "<p>El clásico puré que no puede faltar en tu cocina, lo tiene La Costeña para que prepares unas ricas entomatadas.</p>",
+    "published_at": "2026-07-13T13:59:21-06:00",
+    "created_at": "2023-06-07T09:16:51-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "La Costeña",
+    "product_type": "Aderezos, Salsas y Vinagres",
+    "tags": [],
+    "variants": [
+      {
+        "id": 51059098059030,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO81840",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "96.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 8306526617878,
+        "created_at": "2026-02-25T17:12:00-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 51059098091798,
+        "title": "4 Piezas",
+        "option1": "4 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO8184",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "368.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 8306526617878,
+        "created_at": "2026-02-25T17:12:00-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 50268097511702,
+        "created_at": "2025-06-06T09:17:33-06:00",
+        "position": 1,
+        "updated_at": "2025-06-06T09:17:34-06:00",
+        "product_id": 8306526617878,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/CCO81840.png?v=1749223054",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "4 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8306526454038,
+    "title": "Puré de Tomate La Costeña 2.95 kg",
+    "handle": "pure-de-tomate-la-costena-2-95-kg",
+    "body_html": "<p>El clásico puré que no puede faltar en tu cocina, lo tiene La Costeña para que prepares unas ricas entomatadas.</p>",
+    "published_at": "2026-07-07T19:27:18-06:00",
+    "created_at": "2023-06-07T09:16:49-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "La Costeña",
+    "product_type": "Aderezos, Salsas y Vinagres",
+    "tags": [],
+    "variants": [
+      {
+        "id": 51059097796886,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO8070",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "107.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 8306526454038,
+        "created_at": "2026-02-25T17:11:54-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 51059097829654,
+        "title": "6 Piezas",
+        "option1": "6 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO807",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "616.00",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 8306526454038,
+        "created_at": "2026-02-25T17:11:54-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 50264268013846,
+        "created_at": "2025-06-05T23:17:43-06:00",
+        "position": 1,
+        "updated_at": "2025-06-05T23:17:45-06:00",
+        "product_id": 8306526454038,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/CCO8070.png?v=1749187065",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "6 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10230890332438,
+    "title": "Ate de Guayaba La Costeña 240 gr",
+    "handle": "ate-de-guayaba-la-costena-240-gr",
+    "body_html": "<p>Disfruta del delicioso Ate de Guayaba La Costeña, un dulce tradicional mexicano elaborado con auténtica pulpa de guayaba. Su textura suave y su sabor naturalmente dulce lo hacen perfecto para acompañar quesos, pan dulce o como postre después de las comidas. Elaborado con ingredientes de alta calidad, sin conservadores artificiales, este ate conserva el auténtico sabor de la fruta. Ideal para compartir en reuniones, usar en repostería o disfrutar en familia.</p>",
+    "published_at": "2025-10-01T16:15:15-06:00",
+    "created_at": "2025-10-01T16:15:13-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "La Costeña",
+    "product_type": "Mermeladas, Miel y Untables",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50564830593302,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO011120",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "31.00",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10230890332438,
+        "created_at": "2025-10-01T16:15:13-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 50564830626070,
+        "title": "12 Piezas",
+        "option1": "12 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO01112",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "353.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 10230890332438,
+        "created_at": "2025-10-01T16:15:13-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 52201266610454,
+        "created_at": "2025-10-01T15:27:29-06:00",
+        "position": 1,
+        "updated_at": "2025-10-01T15:27:31-06:00",
+        "product_id": 10230890332438,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/CAF8762_2.png?v=1759354051",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "12 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10028918964502,
+    "title": "Chile Nacho de Jalapeño en Bolsa La Costeña 3 kg",
+    "handle": "chiles-nachos-en-bolsa-la-costena-3-kg",
+    "body_html": "<p>Los clásicos, sin conservadores y con la calidad que le da un sabor especial a tus platillos.</p>",
+    "published_at": "2025-06-13T10:47:20-06:00",
+    "created_at": "2025-06-13T10:47:19-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "La Costeña",
+    "product_type": "Enlatados y Conservas",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50133736161558,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO24130",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "147.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10028918964502,
+        "created_at": "2025-06-13T10:47:19-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 50133736194326,
+        "title": "4 Piezas",
+        "option1": "4 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO2413",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "561.00",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 10028918964502,
+        "created_at": "2025-06-13T10:47:19-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 53895291306262,
+        "created_at": "2026-01-08T09:14:16-06:00",
+        "position": 1,
+        "updated_at": "2026-01-08T09:14:18-06:00",
+        "product_id": 10028918964502,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/CCO24130_05c8f96e-8a47-4a15-adcf-6370c4f7e5e8.png?v=1767885258",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "4 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10023977713942,
+    "title": "Pure de Manzana La Costeña 230 gr",
+    "handle": "pure-de-manzana-la-costena-230-gr",
+    "body_html": "<p>La Costeña convierte una estricta selección de manzanas en un puré delicioso, para tus recetas y guarniciones.</p>",
+    "published_at": "2025-06-09T13:51:00-06:00",
+    "created_at": "2025-06-09T13:50:59-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "La Costeña",
+    "product_type": "Enlatados y Conservas",
+    "tags": [],
+    "variants": [
+      {
+        "id": 51059099304214,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO78720",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "19.00",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10023977713942,
+        "created_at": "2026-02-25T17:12:23-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 51059099336982,
+        "title": "24 Piezas",
+        "option1": "24 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO7872",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "433.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 10023977713942,
+        "created_at": "2026-02-25T17:12:23-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 50305057816854,
+        "created_at": "2025-06-09T13:49:55-06:00",
+        "position": 1,
+        "updated_at": "2025-06-09T13:49:56-06:00",
+        "product_id": 10023977713942,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/CCO78720.png?v=1749498596",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "24 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10023977517334,
+    "title": "Mermelada de Piña La Costeña 440 gr",
+    "handle": "mermelada-de-pina-la-costena-440-gr",
+    "body_html": "<p>La Mermelada de Piña La Costeña es un producto delicioso y versátil, ideal para untar en pan tostado, usar en repostería o como acompañamiento para quesos y carnes. La piña fresca y la calidad de la marca La Costeña aseguran un sabor dulce y tropical</p>",
+    "published_at": "2025-06-09T13:49:06-06:00",
+    "created_at": "2025-06-09T13:49:05-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "La Costeña",
+    "product_type": "Mermeladas, Miel y Untables",
+    "tags": [],
+    "variants": [
+      {
+        "id": 51059063030038,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO75820",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "42.00",
+        "grams": 681,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10023977517334,
+        "created_at": "2026-02-25T16:45:29-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 51059063062806,
+        "title": "12 Piezas",
+        "option1": "12 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO7582",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "480.50",
+        "grams": 8260,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 10023977517334,
+        "created_at": "2026-02-25T16:45:29-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 50304992510230,
+        "created_at": "2025-06-09T13:46:42-06:00",
+        "position": 1,
+        "updated_at": "2025-06-09T13:46:43-06:00",
+        "product_id": 10023977517334,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/CCO75820.png?v=1749498403",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "12 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10023976272150,
+    "title": "Chicharo con Zanahoria La Costeña 220 gr",
+    "handle": "chicharo-con-zanahoria-la-costena-220-gr",
+    "body_html": "<p>Los chícharos con zanahoria La Costeña son un producto enlatado que combina chícharos (guisantes) y zanahorias en una preparación lista para consumir. Es una opción práctica y nutritiva para agregar a comidas y recetas. La marca La Costeña es conocida por su calidad y sabor en productos enlatados y conservas.</p>",
+    "published_at": "2025-06-09T13:44:39-06:00",
+    "created_at": "2025-06-09T13:44:38-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "La Costeña",
+    "product_type": "Enlatados y Conservas",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50124289736982,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO09670",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "11.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10023976272150,
+        "created_at": "2025-06-09T13:44:39-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 50124289769750,
+        "title": "24 Piezas",
+        "option1": "24 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO0967",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "269.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 10023976272150,
+        "created_at": "2025-06-09T13:44:39-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 50304901841174,
+        "created_at": "2025-06-09T13:42:36-06:00",
+        "position": 1,
+        "updated_at": "2025-06-09T13:42:37-06:00",
+        "product_id": 10023976272150,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/CCO09670.png?v=1749498157",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "24 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10023975813398,
+    "title": "Chicharo con Zanahoria La Costeña 420 gr",
+    "handle": "chicharo-con-zanahoria-la-costena-420-gr",
+    "body_html": "<p>Los chícharos con zanahoria La Costeña son un producto enlatado que combina chícharos (guisantes) y zanahorias en una preparación lista para consumir. Es una opción práctica y nutritiva para agregar a comidas y recetas. La marca La Costeña es conocida por su calidad y sabor en productos enlatados y conservas.</p>",
+    "published_at": "2025-06-09T13:41:50-06:00",
+    "created_at": "2025-06-09T13:41:50-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "La Costeña",
+    "product_type": "Enlatados y Conservas",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50124288557334,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO09650",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "16.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10023975813398,
+        "created_at": "2025-06-09T13:41:50-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 50124288590102,
+        "title": "24 Piezas",
+        "option1": "24 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "CCO0965",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "370.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 10023975813398,
+        "created_at": "2025-06-09T13:41:50-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 50304836763926,
+        "created_at": "2025-06-09T13:38:49-06:00",
+        "position": 1,
+        "updated_at": "2025-06-09T13:38:50-06:00",
+        "product_id": 10023975813398,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/CCO09650.png?v=1749497930",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "24 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8306576720150,
+    "title": "Harina para Hot Cakes Pronto 500 gr",
+    "handle": "harina-para-hot-cakes-pronto-500-gr",
+    "body_html": "<p>Sabor delicioso y característico que solo tiene Pronto. Fortificados con 9 vitaminas y minerales. Esponjaditos. Con la misma harina puedes preparar waffles, crepas, muffins, pasteles, platillos capeados y mucho más.</p>",
+    "published_at": "2023-06-07T09:24:44-06:00",
+    "created_at": "2023-06-07T09:24:44-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "Pronto",
+    "product_type": "Harinas y Repostería",
+    "tags": [],
+    "variants": [
+      {
+        "id": 44894468309270,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "UNI702250",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "35.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 8306576720150,
+        "created_at": "2023-06-07T10:15:36-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 44894468342038,
+        "title": "12 Piezas",
+        "option1": "12 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "UNI70225",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "406.00",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 8306576720150,
+        "created_at": "2023-06-07T10:15:36-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 51051588550934,
+        "created_at": "2025-07-31T02:57:44-06:00",
+        "position": 1,
+        "updated_at": "2025-07-31T02:57:45-06:00",
+        "product_id": 8306576720150,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/UNI702250.png?v=1753952265",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "12 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8306575311126,
+    "title": "Leche Condensada Pronto 380 gr",
+    "handle": "leche-condensada-pronto-380-gr",
+    "body_html": "<p>Es un producto lácteo con grasa vegetal, reconstituido y azucarado. Su consistencia es perfecta para la elaboración de diversos postres dulces. Producto pasteurizado.</p>",
+    "published_at": "2023-06-07T09:24:34-06:00",
+    "created_at": "2023-06-07T09:24:34-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "Pronto",
+    "product_type": "Lácteos y Huevo",
+    "tags": [],
+    "variants": [
+      {
+        "id": 51109319639318,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "UNI0486000",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "13.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 8306575311126,
+        "created_at": "2026-03-17T13:29:10-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 51109319672086,
+        "title": "24 Piezas",
+        "option1": "24 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "UNI048600",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "312.50",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 8306575311126,
+        "created_at": "2026-03-17T13:29:10-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 51051517411606,
+        "created_at": "2025-07-31T02:51:18-06:00",
+        "position": 1,
+        "updated_at": "2025-07-31T02:51:20-06:00",
+        "product_id": 8306575311126,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/UNI0486000.png?v=1753951880",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "24 Piezas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8306575212822,
+    "title": "Flan con Caramelo Pronto 136 gr",
+    "handle": "flan-con-caramelo-pronto-136-gr",
+    "body_html": "<p>Con el polvo para preparar flan de Pronto podrás darle a tu familia un postre para disfrutar después de cada comida, sabor inigualable. Fortificado con vitaminas y minerales. Rinde hasta 1 litro.</p>",
+    "published_at": "2023-06-07T09:24:33-06:00",
+    "created_at": "2023-06-07T09:24:33-06:00",
+    "updated_at": "2026-10-16T12:43:56-06:00",
+    "vendor": "Pronto",
+    "product_type": "Flanes y Gelatinas",
+    "tags": [],
+    "variants": [
+      {
+        "id": 44894465196310,
+        "title": "1 Pieza",
+        "option1": "1 Pieza",
+        "option2": null,
+        "option3": null,
+        "sku": "UNI0432820",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "20.00",
+        "grams": 0,
+        "compare_at_price": "22.00",
+        "position": 1,
+        "product_id": 8306575212822,
+        "created_at": "2023-06-07T10:15:25-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      },
+      {
+        "id": 44894465229078,
+        "title": "24 Piezas",
+        "option1": "24 Piezas",
+        "option2": null,
+        "option3": null,
+        "sku": "UNI043282",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "451.50",
+        "grams": 0,
+        "compare_at_price": "468.50",
+        "position": 2,
+        "product_id": 8306575212822,
+        "created_at": "2023-06-07T10:15:25-06:00",
+        "updated_at": "2026-10-16T12:43:56-06:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 51051491131670,
+        "created_at": "2025-07-31T02:50:24-06:00",
+        "position": 1,
+        "updated_at": "2025-07-31T02:50:25-06:00",
+        "product_id": 8306575212822,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0746/3419/9318/files/UNI0432820.png?v=1753951825",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Presentación (Pieza o Caja)",
+        "position": 1,
+        "values": [
+          "1 Pieza",
+          "24 Piezas"
+        ]
+      }
+    ]
+  }
+]

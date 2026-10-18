@@ -1,0 +1,97 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: P09: consulta conserva selección con precio/total no disponibles
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: P09: consulta conserva selección con precio/total no disponibles
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: P09: consulta conserva selección con precio/total no disponibles
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "Ver venta": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:90:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart line 90
+The test description was:
+  Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:00 +5 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +5 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar [E]
+  Test failed. See exception logs above.
+  The test description was: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+  
+00:00 +6 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +7 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +8 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +9 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +10 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +11 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +12 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +13 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +14 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +14 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Continuar usa comando actual; los cambios de estado vienen del repositorio
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "Ver venta": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:263:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart line 263
+The test description was:
+  Continuar usa comando actual; los cambios de estado vienen del repositorio
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +14 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +14 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Continuar usa comando actual; los cambios de estado vienen del repositorio [E]
+  Test failed. See exception logs above.
+  The test description was: Continuar usa comando actual; los cambios de estado vienen del repositorio
+  
+00:01 +15 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +16 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +17 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +18 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +19 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +20 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +21 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +22 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +23 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +24 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +25 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +26 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +27 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +28 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +29 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +30 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +31 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:05 +32 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: P09/P10/P26: listado y detalle abiertos reaccionan a precio, producto y unidad sin escribir
+01:14 +32 -3: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart [E]
+  Bad state: Cannot close sink while adding stream.
+  package:stream_channel/src/guarantee_channel.dart 180:7      _GuaranteeSink.close
+  package:flutter_tools/src/test/flutter_platform.dart 766:43  FlutterPlatform._startTest
+  
+One or more uncaught errors occurred shutting down:
+  Bad state: Cannot add event while adding stream.
+01:14 +32 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: P09/P10/P26: listado y detalle abiertos reaccionan a precio, producto y unidad sin escribir - did not complete [E]
+01:14 +32 -3: Some tests failed.

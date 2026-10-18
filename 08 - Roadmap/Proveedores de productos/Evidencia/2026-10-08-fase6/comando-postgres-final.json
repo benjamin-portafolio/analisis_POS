@@ -1,0 +1,19 @@
+{
+  "command": [
+    "npm",
+    "test",
+    "--",
+    "--runInBand",
+    "--json",
+    "--outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/postgres-final.json"
+  ],
+  "env": {
+    "RUN_POSTGRES_INTEGRATION": "1",
+    "DATABASE_HOST": "127.0.0.1",
+    "DATABASE_PORT": "60832",
+    "DATABASE_USER": "phase6",
+    "DATABASE_PASSWORD": "isolated-test",
+    "DATABASE_NAME": "pos_cash_test_fase6"
+  },
+  "exit": 0
+}

@@ -1,0 +1,124 @@
+{
+  "flutter": {
+    "head_initial": "56ddbc49f7369b2598aabe3c67b03135b7c89b46",
+    "head_final": "56ddbc49f7369b2598aabe3c67b03135b7c89b46",
+    "initial_count": 826,
+    "unchanged_count": 823,
+    "modified": {
+      "test/application/commands/cotizaciones/quotation_verification_test.dart": {
+        "before": "e9922c3bb85a1ecf9af893c610d025339520b16de230d21f9d4194a50a3535f7",
+        "after": "54c6b6cf0f695564bef6e6ab2c21a73d109393995db0014cb5d21d40605ff3e4"
+      },
+      "test/core/di/quotation_dependencies_test.dart": {
+        "before": "7b5576a4b77ffb9b402116cd5f75e635b6d434367dbb7dd1071076213fee471a",
+        "after": "fe420c0f17a5b14572d958d3ec261214814bc82d67507523ae566d81b40f236e"
+      },
+      "test/data/local/drift/quotation_backup_test.dart": {
+        "before": "352b3cf0bc84506fb336fee1d7a266cdf19a2691044a4902e49de79ba75df2a7",
+        "after": "4d621eeb7fc20aa46bb43aa9f77fff5f665da4f96155f8f8ab58818e9bb15ca7"
+      }
+    },
+    "new": {
+      "test/application/commands/cotizaciones/quotation_mode_verification_test.dart": "b608a7d42ad3f5a6d213e395032463eec4599364f50e71faa77002d5332f29db"
+    },
+    "deleted": []
+  },
+  "analisis": {
+    "head_initial": "424c8bb7995f49a2255e97c778155efd31b1f648",
+    "head_final": "424c8bb7995f49a2255e97c778155efd31b1f648",
+    "initial_count": 473,
+    "unchanged_count": 472,
+    "modified": {
+      ".obsidian/workspace.json": {
+        "before": "e4ea02ca32f3152532d2b857a185ca815217a64ed354a78c9caa9735b2884566",
+        "after": "5ad4f58a4ae0b189c1a1c0b08f6fae4e579c3cf4f6ed4e7767788cb23a2e05b8"
+      }
+    },
+    "new": {
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-png/cotizacion-precio-antes.png": "9f7ef15ec0ecc6b227dbd370609498e0412c09730ba48aca2c0903a74103c9e8",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/restore-standalone-vendida.json": "734ea05e17f939fab31e892aae1d6e92ffe35e04c259d6a220b4766fe2332067",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-probe.dart.txt": "51997ee787b14d3a053184cbdaf18fbb30c6b6253d0e715fc4df6a43e4bfced1",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-standalone-vendida.json": "9652a0a058174e11ab2f81a45963d6a11f20f4ef4b821c496e902d83299b8f87",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/restore-standalone-en-venta.json": "e76312f6e53c616b99dce224c14254dea991415fd4c45a083bd9446fcb331b7a",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-ticket.png": "ffb09cf64bd071b399228fdc65fcb186b4e29577db6bb2c8de299998fca54a88",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-core/fase-2-sqlite-serverSync.json": "3dad37c70ea0828bc297922a81b5e877d3b5f882739041a8348975585d43e353",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-auditoria-sqlite.json": "5cd5638d7ba29506d73bfa65cdcff6d9f9fde6f6bbf34ae65ad1fb6e2772876e",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-selector-ax.txt": "b5ae01600467f30e5386399493155f665f4f39cec5a3f748565a15ead00fe9f6",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-revalidacion-fase3.json": "5ffe450e77bfeb346d47650aecec3604f272d919f52c498c1870b11846bba2c7",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-arboles-iniciales.json": "8342b56302a50c34841557ffaeb0dc03113c1854116360fcfa5546d473220bb3",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-serverSync-vendida.sqlite": "d9b0d7037a5daadb6c575ff45dd08f412d58d5f5bae523bb1316f107feea288b",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-auditoria-sqlite-inicial.txt": "05e23d5e60a08fb397da42ba97e8587cc4b18907572958fa70bb5528c3175625",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-selector.png": "1884ef3bafe3d147e8514c503a3db9d97ce2ca4013c6633536b0893b650a5748",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-png/recibo-cash.png": "b82acacc7d7af7b501ca9c03a78f6becde4ce034ab491c64d156e75dfeab31d1",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-serverSync-disponible.sqlite": "73715ff58c4636b65484271fbfbc23fa90f9b097dd3261235018228c17813bc7",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-dart-analyze.txt": "647c0365bc804adf3eb128df7629b74b9b1cfe6ac56a0a04d7220f882242b155",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-serverSync-vendida.json": "f7cb35bb0c600270fe36411a7be5922529f9160933f68dfc9d23a2ecbf539f6a",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-whatsapp.png": "b63c5ee9007cc4df4d88b48198f1b2b6b7673df8c56c5d200d165e37190a3c51",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-run.txt": "4fc0101b4742aeb4f0e56338171adedc3c3eb52445c168c1ebf7230f6bb3be86",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-auditoria-sqlite.txt": "b384206f678e603a590c03d976d4b8b0229f49c5b285b336c61fd944fa806cdf",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/saldos-serverSync-cash.json": "b518df9ef0483015fbfb2474132c516d50d898fc55eff270b9637a7f0fd58702",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/saldos-standalone-transfer.json": "9cc5e1d149b6f8348123ddab440f3badf37d949603670a56e1c77c5aa2ad4bb5",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/saldos-serverSync-transfer.json": "21b02f3ada1580575cec0b6aeaa65560f9cf042689e3ece1374eb8739e7f4eb6",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-core/fase-2-sqlite-standalone.json": "e52d29b32041f64ef332f3a7aca8ef89aa5e95a1317e44e6eb0212f283cd8711",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-png/cotizacion-muchas-lineas.png": "3f2a8a155f194c5c0965258deb5ddd7fb11cb7e8242fd6b5a71c2b58069ff1c7",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/restore-standalone-en-venta.sqlite": "667dc0ab5c083652d76e0c9721613c96a98954f9465db9187f0f0cb6709c2540",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-png/recibo-transfer.png": "f61bd58b55668b260ce423d4a80fd8474103f98c8c971bb95279654fa75d0622",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/saldos-standalone-cash.json": "d206cf4e6be00fe123bf5a36c261e41fe40dc1ccecd9d1aa33a691b9216ac64d",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/restore-serverSync-vendida.json": "9cf15f41fcfbf7b3eaabf9dbb58c749330f54136ecc4e11afcd6811fedc2c90c",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/saldos-serverSync-credit.json": "7e9685d07c930a0af1d0bfc9fca9782a704d1c2d357ac6ced5a7b7cee22efe70",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-nest-status-inicial.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-standalone-enVenta.json": "e95175c786228448edd2c6e7083d332842bb2b0aa4eba64606d83122ed1b8dba",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-core-inicial.txt": "8d7290a523af12a1bf79bbf5ed441c2230e9f0658bde85288903a90bcad53770",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-png-manifiesto.json": "094b00085a41d7895d56f35901c3180c16feb950f1c21147c77ad05b6e15227e",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-whatsapp-ax.txt": "3dcb8a4de2ef5dbccf45edd8b57c0ea37f7492975d0a82b7e8a3692f77be529d",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/legacy-all-columns-protected-true.sqlite": "e972e682979dbb7253e9bcf5e025d6980bdeb7cea65da9587630d56c263aa45d",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-nest-busqueda.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-campos-validos.txt": "1f91738b002abcc17f9132cc7dbabe7562f02815d2ac6f05a7401d641d6b63f0",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-limpieza.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-standalone-enVenta.sqlite": "f67e24eadbb4ec0ac9ad1738e2f8412d93fe17757163d76eeda8655851de4b57",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-cancel.png": "838ed0746333654f2f0d58fe0c93efbdcee604773d6add917c6333d54a09cc11",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-flutter-test.txt": "bf99740aae142374d340cfe1a70cc47e8da0b5bbf3a1fbc62bf570f584d60870",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-shared.png": "d886c55f8125185fc24a139b0bb0268affaecec82c5d6a95846e144939b17696",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-standalone-disponible.json": "5259dbc2ffe58689d8999fc6f179e6bcc965f2908b2c12f68b2594d6a87f3445",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-png/recibo-credit.png": "2cdb7f88c983b0bad72b09013ec06329c9a4e9845a73ae347b42a208500a1090",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-analisis-status-inicial.txt": "9c9f98ef6ce911bf16c2549c120e1f21892be7de2bb773917b6424c0ca15c362",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-serverSync-enVenta.json": "721ade004f8a63678c0b080076c356db5a38c601c019576f7560f0fc5195e804",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-git-diff-check.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/legacy-all-columns-protected-true.json": "3caa0135dac5957e170f38af0df55dc97befba63ae67e91bd267523363c18f88",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-standalone-disponible.sqlite": "bc8e7cea95f196129aacb1db241d9278a10027862c9e5f60c184e5da83290031",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-serverSync-enVenta.sqlite": "4ef5d04349f1729f49143ebe8e9ca6d21cc8b66a7c18bbd9952a27b7d9f3e5ee",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-png/cotizacion-precio-despues.png": "ccffab47862ab1e2e61ae8dcaf73881592c08a9eaec20b2a9507ed17d531e726",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-cobro-backup.txt": "5006b38b3a1eb911f80592b4eb4f16b944f52d1bb3fb93f92f9aa21242e69b4f",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-png/cotizacion-quotation-1.png": "9cec0b396c1a14df31df1acdd21ba714652d5cbd6b243f6d8e4cb056e979ced2",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/restore-serverSync-vendida.sqlite": "1258eb1c6ab3cd9a29bed412694ed461b1499bc66fbe3b22e2e2a225d86f833c",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/refs-standalone.json": "719f4f29d85bb7f506300ac8febc4749eb8b06b5b2fef3272005b2dd7324e345",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-serverSync-disponible.json": "a87784cbe9ef52ad232e055f310b721cbf2b6d3a8bb850383bf5856aaf4640dd",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-whatsapp-cancel.png": "dc23081468c80b7fcdd2d64ed85747e4195006bdc721aad7bc01bb93d428b16d",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/backup-standalone-vendida.sqlite": "8dfcd78c701d77c413b830f5af26579d094e76ce4e662bbc61e0730242339650",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-build-macos.txt": "8d50f7ad5bf72852f51fab3a2fb931f721fcaf40344e59cd3afafdc9d52cffc0",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-png/cotizacion-no-disponible.png": "789820503a7c7474eb13401da977471c114d3b0714596d5b2845200fc6a9db11",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/restore-standalone-vendida.sqlite": "6aa6d545344d70c9edf78355e5d4dd173fb9a35481b465123ee07a01d4bc784c",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-build-macos-debug.txt": "1a7a82906c4be46542d30edd21c3b63f5d4d11ff58e4e1755f7b566ab66a4d17",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-lipo-diagnostico.json": "673440f7c23e4452b017f69bd29e158931e37b9984a5c716c74216c125b9f5d8",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-native-resultados.json": "d23994cf3a38a4a16d9b0f82c815d90a24a4428e0e31d7403ebc374611fdeb30",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/restore-serverSync-en-venta.sqlite": "16a999c25b8588202bc77a14786b32a1ab2ef29077e7ebf957753cb7c9bef124",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-build-macos-arm64.txt": "0552b121a3712db2a38fd4dfc6f4a8194dc225588e5985486fdd009704d203bf",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-auditar.py": "66f2612242e6a2a8cc090a6a5e32d59e3fbd80a9c9c32de8ee8aa1c0c4e215e1",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/refs-serverSync.json": "52559c40890e2383a33a68dc4dcc564f5c4c44ad19aa2e898976c02aa0319d8d",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/legacy-all-columns-protected-false.sqlite": "1262455dd1de9c3f5ebc11ba978b9cd9da9f548084b87210720b8e0c84c59561",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/restore-serverSync-en-venta.json": "c1338f61129b92f345373c791451c4e26a1ebbb81b766b931af986630c048bdc",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/saldos-standalone-credit.json": "067a08b973b757c066789e0df096eb7b224574a8ac8d1ca327fe4c39197fdb8b",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-sqlite/legacy-all-columns-protected-false.json": "de52841a362a1c12e576ce055999e9e2a47caeffe8b7ab53f39ae4cf0fb68ed4"
+    },
+    "deleted": []
+  },
+  "nest": {
+    "head_initial": "e451d1b4d9b9a4182aa41d3e8a525bf60c465c3e",
+    "head_final": "e451d1b4d9b9a4182aa41d3e8a525bf60c465c3e",
+    "initial_count": 173,
+    "unchanged_count": 173,
+    "modified": {},
+    "new": {},
+    "deleted": []
+  }
+}

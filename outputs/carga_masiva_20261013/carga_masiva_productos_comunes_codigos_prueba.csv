@@ -1,0 +1,51 @@
+﻿categoria,nombre_articulo,tipo_venta,unidad_venta,nombre_variante,precio_venta,precio_coste,seguimiento_existencias,existencias,codigo_barras
+,Agua natural 600 ml,unidad,,,12.00,7.00,si,48,2000000000015
+,Agua natural 1.5 l,unidad,,,18.00,11.00,si,24,2000000000022
+,Refresco de cola 600 ml,unidad,,,22.00,15.00,si,36,2000000000039
+,Refresco de limón 600 ml,unidad,,,22.00,15.00,si,24,2000000000046
+,Jugo de naranja 1 l,unidad,,,30.00,21.00,si,18,2000000000053
+,Bebida deportiva 600 ml,unidad,,,28.00,19.00,si,24,2000000000060
+,Té helado 600 ml,unidad,,,24.00,16.00,si,18,2000000000077
+,Agua mineral 600 ml,unidad,,,20.00,13.00,si,24,2000000000084
+,Leche entera 1 l,unidad,,,28.00,21.00,si,24,2000000000091
+,Leche deslactosada 1 l,unidad,,,30.00,23.00,si,24,2000000000107
+,Yogur natural 125 g,unidad,,,12.00,8.00,si,24,2000000000114
+,Yogur bebible 220 ml,unidad,,,18.00,12.00,si,24,2000000000121
+,Queso panela 200 g,unidad,,,45.00,33.00,si,12,2000000000138
+,Mantequilla 90 g,unidad,,,24.00,17.00,si,12,2000000000145
+,Crema 250 ml,unidad,,,25.00,18.00,si,12,2000000000152
+,Huevo paquete de 12 piezas,unidad,,,42.00,32.00,si,18,2000000000169
+,Arroz 1 kg,unidad,,,32.00,23.00,si,20,2000000000176
+,Frijol negro 1 kg,unidad,,,40.00,29.00,si,20,2000000000183
+,Azúcar 1 kg,unidad,,,30.00,22.00,si,20,2000000000190
+,Sal 1 kg,unidad,,,18.00,12.00,si,20,2000000000206
+,Harina de trigo 1 kg,unidad,,,26.00,18.00,si,20,2000000000213
+,Aceite vegetal 1 l,unidad,,,42.00,31.00,si,18,2000000000220
+,Pasta para sopa 200 g,unidad,,,12.00,8.00,si,36,2000000000237
+,Avena 500 g,unidad,,,28.00,19.00,si,18,2000000000244
+,Lenteja 500 g,unidad,,,25.00,17.00,si,18,2000000000251
+,Café soluble 100 g,unidad,,,75.00,54.00,si,12,2000000000268
+,Chocolate en polvo 400 g,unidad,,,48.00,34.00,si,12,2000000000275
+,Atún en agua lata de 140 g,unidad,,,24.00,17.00,si,36,2000000000282
+,Sardina lata de 425 g,unidad,,,38.00,27.00,si,18,2000000000299
+,Elote en lata 220 g,unidad,,,19.00,13.00,si,24,2000000000305
+,Puré de tomate 210 g,unidad,,,12.00,8.00,si,36,2000000000312
+,Mayonesa 390 g,unidad,,,38.00,27.00,si,18,2000000000329
+,Salsa cátsup 397 g,unidad,,,28.00,19.00,si,18,2000000000336
+,Galletas maría 170 g,unidad,,,18.00,12.00,si,36,2000000000343
+,Galletas de chocolate 180 g,unidad,,,24.00,16.00,si,24,2000000000350
+,Pan blanco 680 g,unidad,,,45.00,33.00,si,12,2000000000367
+,Tortillas de maíz paquete de 1 kg,unidad,,,24.00,17.00,si,20,2000000000374
+,Cereal de maíz 500 g,unidad,,,58.00,42.00,si,12,2000000000381
+,Papas fritas 45 g,unidad,,,18.00,12.00,si,48,2000000000398
+,Cacahuates 100 g,unidad,,,20.00,13.00,si,24,2000000000404
+,Chocolate con leche 40 g,unidad,,,18.00,12.00,si,36,2000000000411
+,Chicles paquete de 10 piezas,unidad,,,12.00,7.00,si,48,2000000000428
+,Detergente en polvo 1 kg,unidad,,,42.00,29.00,si,18,2000000000435
+,Suavizante de telas 850 ml,unidad,,,35.00,24.00,si,18,2000000000442
+,Cloro 1 l,unidad,,,18.00,11.00,si,24,2000000000459
+,Lavatrastes líquido 750 ml,unidad,,,32.00,22.00,si,18,2000000000466
+,Papel higiénico paquete de 4 rollos,unidad,,,38.00,26.00,si,18,2000000000473
+,Jabón de tocador 150 g,unidad,,,18.00,11.00,si,24,2000000000480
+,Pasta dental 100 ml,unidad,,,32.00,22.00,si,18,2000000000497
+,Champú 400 ml,unidad,,,55.00,38.00,si,12,2000000000503

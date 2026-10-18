@@ -1,0 +1,3088 @@
+{
+  "file_databases": [
+    {
+      "file": "backup-serverSync-disponible.sqlite",
+      "sha256": "73715ff58c4636b65484271fbfbc23fa90f9b097dd3261235018228c17813bc7",
+      "quotation_events": [
+        "b6edb103-9b9a-40a8-962f-9865f6761e0b"
+      ],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    },
+    {
+      "file": "backup-serverSync-enVenta.sqlite",
+      "sha256": "4ef5d04349f1729f49143ebe8e9ca6d21cc8b66a7c18bbd9952a27b7d9f3e5ee",
+      "quotation_events": [
+        "67b5f95c-8fc8-4716-af1e-7af96f1270bb"
+      ],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    },
+    {
+      "file": "backup-serverSync-vendida.sqlite",
+      "sha256": "d9b0d7037a5daadb6c575ff45dd08f412d58d5f5bae523bb1316f107feea288b",
+      "quotation_events": [
+        "fc115429-7c31-4cb0-9b97-70d8f5012caa"
+      ],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    },
+    {
+      "file": "backup-standalone-disponible.sqlite",
+      "sha256": "bc8e7cea95f196129aacb1db241d9278a10027862c9e5f60c184e5da83290031",
+      "quotation_events": [
+        "052cd372-6f1d-4cae-98a2-561c68b83f90"
+      ],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    },
+    {
+      "file": "backup-standalone-enVenta.sqlite",
+      "sha256": "f67e24eadbb4ec0ac9ad1738e2f8412d93fe17757163d76eeda8655851de4b57",
+      "quotation_events": [
+        "28e7408f-4cbf-4a46-b5e7-3cd6f8b562a5"
+      ],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    },
+    {
+      "file": "backup-standalone-vendida.sqlite",
+      "sha256": "8dfcd78c701d77c413b830f5af26579d094e76ce4e662bbc61e0730242339650",
+      "quotation_events": [
+        "0bed18bd-18f4-4d1b-a161-9c8954b8b094"
+      ],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    },
+    {
+      "file": "legacy-all-columns-protected-false.sqlite",
+      "sha256": "1262455dd1de9c3f5ebc11ba978b9cd9da9f548084b87210720b8e0c84c59561",
+      "quotation_events": [],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    },
+    {
+      "file": "restore-serverSync-en-venta.sqlite",
+      "sha256": "16a999c25b8588202bc77a14786b32a1ab2ef29077e7ebf957753cb7c9bef124",
+      "quotation_events": [
+        "243d6b75-3b33-418b-a1f7-82ce3f84abac",
+        "15ef3bec-4cd4-40dc-a9fe-19209d71c9eb",
+        "31b8566f-19ee-4e74-80a8-ec050ee78849"
+      ],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    },
+    {
+      "file": "restore-serverSync-vendida.sqlite",
+      "sha256": "1258eb1c6ab3cd9a29bed412694ed461b1499bc66fbe3b22e2e2a225d86f833c",
+      "quotation_events": [
+        "ff84a896-4c9b-4a40-8de0-da18cedd8e08",
+        "73853d08-f5bd-485c-9cd5-2b8ae2663c3d",
+        "0936e486-1beb-41ac-bdf1-ece211769480"
+      ],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    },
+    {
+      "file": "restore-standalone-en-venta.sqlite",
+      "sha256": "667dc0ab5c083652d76e0c9721613c96a98954f9465db9187f0f0cb6709c2540",
+      "quotation_events": [
+        "07b03d3f-0c5d-4d29-bce4-046ea730564e",
+        "d2a5a81d-f838-40ab-811a-5ed1d2882d14",
+        "9c6e07a6-36d4-4bca-8169-70e6c64e060e"
+      ],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    },
+    {
+      "file": "restore-standalone-vendida.sqlite",
+      "sha256": "6aa6d545344d70c9edf78355e5d4dd173fb9a35481b465123ee07a01d4bc784c",
+      "quotation_events": [
+        "cbfcaba9-6bc2-4755-8f98-8829128cc27e",
+        "32c72613-88ad-4603-b2c0-0ead483130b3",
+        "7ac74d44-bc1c-4f5e-a96d-3ee24a627fd8"
+      ],
+      "schema": {
+        "quotations": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "user_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "device_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "issued_at_local",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "source_sale_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "source_draft_event_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "current_sale_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ],
+        "quotation_items": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 1
+          },
+          {
+            "cid": 1,
+            "name": "active",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 2,
+            "name": "version",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": "1",
+            "pk": 0
+          },
+          {
+            "cid": 3,
+            "name": "created_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 4,
+            "name": "last_event_id",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 5,
+            "name": "last_server_sequence",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 6,
+            "name": "quotation_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 7,
+            "name": "variant_id",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 8,
+            "name": "product_name_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 9,
+            "name": "variant_name_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 10,
+            "name": "sale_mode_snapshot",
+            "type": "TEXT",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 11,
+            "name": "quantity",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 12,
+            "name": "measured_quantity_atomic",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 13,
+            "name": "sale_unit_code_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 14,
+            "name": "sale_unit_symbol_snapshot",
+            "type": "TEXT",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 15,
+            "name": "sale_unit_atomic_factor_snapshot",
+            "type": "INTEGER",
+            "notnull": 0,
+            "dflt_value": null,
+            "pk": 0
+          },
+          {
+            "cid": 16,
+            "name": "sort_order",
+            "type": "INTEGER",
+            "notnull": 1,
+            "dflt_value": null,
+            "pk": 0
+          }
+        ]
+      },
+      "monetary_sale_catalog_columns": {
+        "product_variants": [
+          "sale_price_minor",
+          "standard_cost_minor"
+        ],
+        "sales": [
+          "total_minor"
+        ],
+        "sale_items": [
+          "price_reference_quantity_atomic_snapshot",
+          "standard_cost_minor_snapshot",
+          "total_minor",
+          "unit_price_minor"
+        ]
+      },
+      "integrity_check": "ok",
+      "foreign_key_check": []
+    }
+  ],
+  "payment_scenarios": [
+    {
+      "file": "saldos-serverSync-cash.json",
+      "quotation_events": [
+        "f48463f8-1415-42de-877e-ce432ba83233",
+        "599df591-fcaa-4258-a9f2-bbccb8e740e8"
+      ],
+      "balances": {
+        "account_balance_minor": "-13401",
+        "cash_expected_minor": "62802"
+      },
+      "captured_total_minor": 29401,
+      "estimate_minor": 30401,
+      "receipt": "Recibo 050b3737-ab67-482e-891a-31d27549574c\nFecha: 06/10/2026 18:27\nCliente: Ana\nEfectivo. 3 productos diferentes. 2 pzas · 0.750 kg.\nMonto: $294.01 MXN\nPan\nOriginal, precio $120.00, cantidad 1, importe $120.00\nPan\nPor receta, precio $24.00, cantidad 1, importe $24.00\nCafé medido\nOriginal, precio $200.01 / 1 kg, cantidad 0.750 kg, importe $150.01\nSubtotal: $294.01\nTotal general: $294.01\nEfectivo recibido: $294.01\nCambio: $0.00"
+    },
+    {
+      "file": "saldos-serverSync-credit.json",
+      "quotation_events": [
+        "1af769bb-e01f-4c53-b8d7-4039327f05e6",
+        "cea01122-7606-4cd7-96e4-892afc5addf1"
+      ],
+      "balances": {
+        "account_balance_minor": "-42802",
+        "cash_expected_minor": "33401"
+      },
+      "captured_total_minor": 29401,
+      "estimate_minor": 30401,
+      "receipt": "Recibo 0b25d972-5c6c-4abc-b881-14d09e85832f\nFecha: 06/10/2026 18:27\nCliente: Ana\nCrédito. 3 productos diferentes. 2 pzas · 0.750 kg.\nMonto: $294.01 MXN\nPan\nOriginal, precio $120.00, cantidad 1, importe $120.00\nPan\nPor receta, precio $24.00, cantidad 1, importe $24.00\nCafé medido\nOriginal, precio $200.01 / 1 kg, cantidad 0.750 kg, importe $150.01\nSubtotal: $294.01\nTotal general: $294.01\nCargo a la cuenta: $294.01"
+    },
+    {
+      "file": "saldos-serverSync-transfer.json",
+      "quotation_events": [
+        "1fc1a40f-ed32-4670-a6c0-af1be9e9d87a",
+        "3abf6551-b703-4951-88df-84234f3667de"
+      ],
+      "balances": {
+        "account_balance_minor": "-13401",
+        "cash_expected_minor": "33401"
+      },
+      "captured_total_minor": 29401,
+      "estimate_minor": 30401,
+      "receipt": "Recibo 7721c1b9-30af-4e9c-97de-3c6cccafcee3\nFecha: 06/10/2026 18:27\nReferencia: SPEI-123\nCliente: Ana\nTransferencia. 3 productos diferentes. 2 pzas · 0.750 kg.\nMonto: $294.01 MXN\nPan\nOriginal, precio $120.00, cantidad 1, importe $120.00\nPan\nPor receta, precio $24.00, cantidad 1, importe $24.00\nCafé medido\nOriginal, precio $200.01 / 1 kg, cantidad 0.750 kg, importe $150.01\nSubtotal: $294.01\nTotal general: $294.01\nTransferencia recibida: $294.01"
+    },
+    {
+      "file": "saldos-standalone-cash.json",
+      "quotation_events": [
+        "eee788ca-b2b2-4e8b-808b-e8e7c8246b17",
+        "b8eaacab-b2d2-4fca-84a2-f56f5ff941a0"
+      ],
+      "balances": {
+        "account_balance_minor": "-13401",
+        "cash_expected_minor": "62802"
+      },
+      "captured_total_minor": 29401,
+      "estimate_minor": 30401,
+      "receipt": "Recibo a07f6866-21ec-4009-8faf-73db65fb3d7c\nFecha: 06/10/2026 18:27\nCliente: Ana\nEfectivo. 3 productos diferentes. 2 pzas · 0.750 kg.\nMonto: $294.01 MXN\nPan\nOriginal, precio $120.00, cantidad 1, importe $120.00\nPan\nPor receta, precio $24.00, cantidad 1, importe $24.00\nCafé medido\nOriginal, precio $200.01 / 1 kg, cantidad 0.750 kg, importe $150.01\nSubtotal: $294.01\nTotal general: $294.01\nEfectivo recibido: $294.01\nCambio: $0.00"
+    },
+    {
+      "file": "saldos-standalone-credit.json",
+      "quotation_events": [
+        "4380ed6e-213f-4d7a-9747-4ae3aa44ea52",
+        "bf83cb1a-e13a-4296-ba97-d0e9522ff1a6"
+      ],
+      "balances": {
+        "account_balance_minor": "-42802",
+        "cash_expected_minor": "33401"
+      },
+      "captured_total_minor": 29401,
+      "estimate_minor": 30401,
+      "receipt": "Recibo c8d2332b-01a9-4a68-844a-3fc3d62e4404\nFecha: 06/10/2026 18:27\nCliente: Ana\nCrédito. 3 productos diferentes. 2 pzas · 0.750 kg.\nMonto: $294.01 MXN\nPan\nOriginal, precio $120.00, cantidad 1, importe $120.00\nPan\nPor receta, precio $24.00, cantidad 1, importe $24.00\nCafé medido\nOriginal, precio $200.01 / 1 kg, cantidad 0.750 kg, importe $150.01\nSubtotal: $294.01\nTotal general: $294.01\nCargo a la cuenta: $294.01"
+    },
+    {
+      "file": "saldos-standalone-transfer.json",
+      "quotation_events": [
+        "c4698bf5-d364-4be3-b174-c1d1b54ee9ea",
+        "c86d5063-aeab-492d-9db7-9963c67342eb"
+      ],
+      "balances": {
+        "account_balance_minor": "-13401",
+        "cash_expected_minor": "33401"
+      },
+      "captured_total_minor": 29401,
+      "estimate_minor": 30401,
+      "receipt": "Recibo d01c2eda-3792-45c2-8b92-95fdab113d6c\nFecha: 06/10/2026 18:27\nReferencia: SPEI-123\nCliente: Ana\nTransferencia. 3 productos diferentes. 2 pzas · 0.750 kg.\nMonto: $294.01 MXN\nPan\nOriginal, precio $120.00, cantidad 1, importe $120.00\nPan\nPor receta, precio $24.00, cantidad 1, importe $24.00\nCafé medido\nOriginal, precio $200.01 / 1 kg, cantidad 0.750 kg, importe $150.01\nSubtotal: $294.01\nTotal general: $294.01\nTransferencia recibida: $294.01"
+    }
+  ],
+  "core_fixtures": [
+    {
+      "file": "fase-4-core/fase-2-sqlite-serverSync.json",
+      "mode": "serverSync",
+      "sale_total_minor": 39000,
+      "new_ref_count": 13
+    },
+    {
+      "file": "fase-4-core/fase-2-sqlite-standalone.json",
+      "mode": "standalone",
+      "sale_total_minor": 39000,
+      "new_ref_count": 0
+    }
+  ],
+  "legacy_protected": {
+    "schema_version": 8,
+    "protected": true,
+    "columns": {
+      "quotations": [
+        "id",
+        "active",
+        "version",
+        "created_event_id",
+        "last_event_id",
+        "last_server_sequence",
+        "user_id",
+        "device_id",
+        "issued_at_local",
+        "source_sale_id",
+        "source_draft_event_id",
+        "current_sale_id",
+        "currency",
+        "total_minor"
+      ],
+      "quotation_items": [
+        "id",
+        "active",
+        "version",
+        "created_event_id",
+        "last_event_id",
+        "last_server_sequence",
+        "quotation_id",
+        "variant_id",
+        "product_name_snapshot",
+        "variant_name_snapshot",
+        "sale_mode_snapshot",
+        "quantity",
+        "measured_quantity_atomic",
+        "sale_unit_code_snapshot",
+        "sale_unit_symbol_snapshot",
+        "sale_unit_atomic_factor_snapshot",
+        "sort_order",
+        "unit_price_minor",
+        "standard_cost_minor_snapshot",
+        "total_minor",
+        "price_reference_quantity_atomic_snapshot",
+        "consumption_configuration_key"
+      ]
+    },
+    "before_sha256": "e972e682979dbb7253e9bcf5e025d6980bdeb7cea65da9587630d56c263aa45d",
+    "after_sha256": "e972e682979dbb7253e9bcf5e025d6980bdeb7cea65da9587630d56c263aa45d",
+    "legacy_marker_preserved": true,
+    "legacy_event_preserved": true,
+    "whole_database_reset": false,
+    "restore_service_executed": true
+  },
+  "closed_payload_keys": {
+    "saved": [
+      "format_version",
+      "issued_at_ms",
+      "lines",
+      "source_draft_event_id",
+      "source_sale_id"
+    ],
+    "line": [
+      "id",
+      "selection",
+      "sort_order",
+      "source_sale_item_id"
+    ],
+    "selection": [
+      "measured_quantity_atomic",
+      "product_name_snapshot",
+      "quantity",
+      "sale_mode_snapshot",
+      "sale_unit_atomic_factor_snapshot",
+      "sale_unit_code_snapshot",
+      "sale_unit_symbol_snapshot",
+      "variant_id",
+      "variant_name_snapshot"
+    ],
+    "recovered": [
+      "base_quotation_event_id",
+      "draft_created_event_id",
+      "draft_last_event_id",
+      "draft_version",
+      "format_version",
+      "lines",
+      "previous_sale_id",
+      "recovered_at_ms",
+      "sale_id"
+    ],
+    "recovery_identity": [
+      "draft_event_id",
+      "quotation_item_id",
+      "sale_item_id",
+      "sort_order"
+    ]
+  },
+  "result": "pass"
+}

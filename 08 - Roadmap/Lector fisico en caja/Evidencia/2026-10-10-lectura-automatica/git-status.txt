@@ -1,0 +1,12 @@
+ M lib/presentation/pages/caja/barcode/physical_barcode_reader.dart
+ M lib/presentation/pages/caja/caja_screen.dart
+ M lib/presentation/pages/pantalla_principal/home_screen.dart
+ M lib/presentation/pages/pantalla_principal/menu_lateral.dart
+ M test/presentation/pages/articulos/article_search_screen_test.dart
+ M test/presentation/pages/articulos/articles_screen_test.dart
+ M test/presentation/pages/caja/caja_screen_test.dart
+ M test/presentation/pages/caja/physical_barcode_reader_test.dart
+ M test/presentation/pages/cotizaciones/caja_quotation_test.dart
+ M test/widget_test.dart
+?? test/support/fake_producto_repository.dart
+?? test/support/fake_venta_borrador_command_service.dart

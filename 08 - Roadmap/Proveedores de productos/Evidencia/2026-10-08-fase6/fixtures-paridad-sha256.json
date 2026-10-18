@@ -1,0 +1,44 @@
+[
+  {
+    "fixture": "producto_creado.json",
+    "dart_sha256": "94487cc6c5d4411582b21e91563f6e6d813d296a10282d8b4bf47ba5ae38e22a",
+    "typescript_sha256": "94487cc6c5d4411582b21e91563f6e6d813d296a10282d8b4bf47ba5ae38e22a",
+    "identical": true
+  },
+  {
+    "fixture": "producto_legado.json",
+    "dart_sha256": "ba1d382504c5a707bfdf3886aa470a41fb7351d0a2d8b0fdfffb67174e77f76e",
+    "typescript_sha256": "ba1d382504c5a707bfdf3886aa470a41fb7351d0a2d8b0fdfffb67174e77f76e",
+    "identical": true
+  },
+  {
+    "fixture": "producto_medido_con_receta.json",
+    "dart_sha256": "4a2d0b3ca5b53f44596b36b0224b22a4ff23778c81ca93ac1ceeeee8eabd264a",
+    "typescript_sha256": "4a2d0b3ca5b53f44596b36b0224b22a4ff23778c81ca93ac1ceeeee8eabd264a",
+    "identical": true
+  },
+  {
+    "fixture": "producto_retirada_explicita.json",
+    "dart_sha256": "a26f2b26b2cc8bb57beab4b105fc5309abf2a7b10e8afba77551dd6dd3c2b660",
+    "typescript_sha256": "a26f2b26b2cc8bb57beab4b105fc5309abf2a7b10e8afba77551dd6dd3c2b660",
+    "identical": true
+  },
+  {
+    "fixture": "producto_sin_proveedores.json",
+    "dart_sha256": "678a98dc203f249e13af8ba1fa57391d47dc7601986e6013bfe2383b624b5c19",
+    "typescript_sha256": "678a98dc203f249e13af8ba1fa57391d47dc7601986e6013bfe2383b624b5c19",
+    "identical": true
+  },
+  {
+    "fixture": "proveedor_actualizado.json",
+    "dart_sha256": "207dfeb1ba73401ef9e21461ce5856685a48f0a85ecbcb79bb4426340e31f3cb",
+    "typescript_sha256": "207dfeb1ba73401ef9e21461ce5856685a48f0a85ecbcb79bb4426340e31f3cb",
+    "identical": true
+  },
+  {
+    "fixture": "proveedor_creado.json",
+    "dart_sha256": "d9aa43f52bc3060c0ef1512ec4088d636075d59f412263c0837ea4495fa22b9d",
+    "typescript_sha256": "d9aa43f52bc3060c0ef1512ec4088d636075d59f412263c0837ea4495fa22b9d",
+    "identical": true
+  }
+]

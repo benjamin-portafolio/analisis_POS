@@ -1,0 +1,45 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/variant_tracking_phase3_test.dart
+00:00 +0: standalone el handler deriva memoria y mantiene su fuente al desvincular con historial
+00:00 +1: standalone recupera saldo cero con historial sin repetir inicial ni balance
+00:00 +2: standalone legado sin memoria ni origen recupera por cadena causal completa
+00:00 +3: standalone historia incompleta requiere selección; elegir legado no crea saldo
+00:00 +4: standalone cadena completa nunca seguida permite su primer recurso
+00:00 +5: standalone recurso recordado faltante sin descarte válido no permite crear otro
+00:00 +6: standalone error al sembrar memoria revierte alta, balance y eventos
+00:00 +7: standalone venta medida conserva identidad y escala atómica al recuperar
+00:00 +8: serverSync el handler deriva memoria y mantiene su fuente al desvincular con historial
+00:00 +9: serverSync recupera saldo cero con historial sin repetir inicial ni balance
+00:00 +10: serverSync legado sin memoria ni origen recupera por cadena causal completa
+00:00 +11: serverSync historia incompleta requiere selección; elegir legado no crea saldo
+00:00 +12: serverSync cadena completa nunca seguida permite su primer recurso
+00:00 +13: serverSync recurso recordado faltante sin descarte válido no permite crear otro
+00:00 +14: serverSync error al sembrar memoria revierte alta, balance y eventos
+00:00 +15: serverSync venta medida conserva identidad y escala atómica al recuperar
+00:01 +16: standalone discard desvinculación, descarte, repetición y reconstrucción causal real
+00:01 +17: standalone discard fallo SQL al borrar revierte toda la edición y el tombstone
+00:01 +18: standalone discard conserva por unknown origin e informa el motivo después del commit
+00:01 +19: standalone discard conserva por missing balance e informa el motivo después del commit
+00:01 +20: standalone discard conserva por on hand e informa el motivo después del commit
+00:01 +21: standalone discard conserva por available e informa el motivo después del commit
+00:01 +22: standalone discard conserva por inactive e informa el motivo después del commit
+00:01 +23: standalone discard receta de otra variante inactiva conserva referencias y recurso
+00:01 +24: standalone discard eliminar lógicamente producto no dispara descarte
+00:01 +25: standalone discard la receta posterior del mismo producto impide descartar
+00:01 +26: standalone discard otra memoria, incluso de variante inactiva, protege el recurso
+00:01 +27: standalone discard un vínculo inactivo aparecido al quitar el directo impide descarte y recuperación
+00:01 +28: standalone discard captura real de borrador protege sin event_refs
+00:01 +29: standalone discard captura inconsistente no se interpreta como autorización de borrado
+00:01 +30: standalone discard movimiento operativo no aplicado protege el recurso
+00:01 +31: standalone discard un descarte faltante o adulterado no es idempotente
+00:01 +32: server sync undo and echo conserva autogenerado vacío y rechaza descarte remoto incluso como eco
+00:01 +33: server sync undo and echo dos altas de origen común y edición perdedora conservan hechos cobrados
+00:01 +34: server sync undo and echo recuperación bloqueada por inactive no crea reemplazo
+00:01 +35: server sync undo and echo recuperación bloqueada por incompatible no crea reemplazo
+00:01 +36: server sync undo and echo recuperación bloqueada por missing balance no crea reemplazo
+00:01 +37: server sync undo and echo recuperación bloqueada por foreign origin no crea reemplazo
+00:01 +38: server sync undo and echo restaura exactamente la ausencia de memoria anterior
+00:01 +39: server sync undo and echo cadena pendiente se deshace al revés y conserva fuente confirmada por push
+00:01 +40: server sync undo and echo pull oficial deshace cadenas y conserva la venta local ya cobrada
+00:01 +41: server sync undo and echo eco antiguo no pisa memoria de una configuración posterior
+00:01 +42: respaldo y restauración reales con paths aislados conservan memoria y descarte
+00:01 +43: All tests passed!

@@ -1,0 +1,13 @@
+{
+  "descripcion": "Configuracion_directa que B capturo antes de que A desvinculara. Es la unica fuente admisible del consumo historico.",
+  "product_id": "a1000000-0000-4000-8000-000000000001",
+  "configuration_event_id": "b3000000-0000-4000-8000-000000000001",
+  "server_sequence": 41,
+  "variants": [
+    {
+      "variant_id": "a2000000-0000-4000-8000-000000000001",
+      "inventory_item_id": "a3000000-0000-4000-8000-000000000001",
+      "consumption_mode": "direct"
+    }
+  ]
+}

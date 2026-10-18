@@ -1,0 +1,2556 @@
+{
+  "headers": [
+    "categoria",
+    "nombre_articulo",
+    "tipo_venta",
+    "unidad_venta",
+    "nombre_variante",
+    "precio_venta",
+    "precio_coste",
+    "seguimiento_existencias",
+    "existencias",
+    "codigo_barras"
+  ],
+  "sources": [
+    {
+      "sourceId": 1,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Barritas Fresa, Moras y Piña 75g",
+      "cost": 13.44,
+      "sale": 16,
+      "note": ""
+    },
+    {
+      "sourceId": 2,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Barritas Two Pack 110g",
+      "cost": 16.8,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 3,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Bites Canelitas y Triki Trakes 80g",
+      "cost": 12.6,
+      "sale": 15,
+      "note": ""
+    },
+    {
+      "sourceId": 4,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Bombonete 55g",
+      "cost": 12.6,
+      "sale": 15,
+      "note": ""
+    },
+    {
+      "sourceId": 5,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Canelitas 120g +2p",
+      "cost": 18.48,
+      "sale": 22,
+      "note": ""
+    },
+    {
+      "sourceId": 6,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Galleta Gansito 43g y Pingüino 40g",
+      "cost": 8.4,
+      "sale": 10,
+      "note": ""
+    },
+    {
+      "sourceId": 7,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Galleta Pingüino 160g y Gansito 215g",
+      "cost": 28.56,
+      "sale": 34,
+      "note": ""
+    },
+    {
+      "sourceId": 8,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Fruti Sponch 8p 124g",
+      "cost": 20.16,
+      "sale": 24,
+      "note": ""
+    },
+    {
+      "sourceId": 9,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Lors 98g",
+      "cost": 15.12,
+      "sale": 18,
+      "note": ""
+    },
+    {
+      "sourceId": 10,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Mini Barritas Fresa 8p 98g",
+      "cost": 16.8,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 11,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Mini Rocko 10g",
+      "cost": 3.36,
+      "sale": 4,
+      "note": ""
+    },
+    {
+      "sourceId": 12,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Mobi 30g",
+      "cost": 6.72,
+      "sale": 8,
+      "note": ""
+    },
+    {
+      "sourceId": 13,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Platívolos 90g",
+      "cost": 15.12,
+      "sale": 18,
+      "note": ""
+    },
+    {
+      "sourceId": 14,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Polvorones 6p 148g +2p",
+      "cost": 18.48,
+      "sale": 22,
+      "note": ""
+    },
+    {
+      "sourceId": 15,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Príncipe 126g 12p (Chocolate, Avellana, Choc. Blanco, Limón)",
+      "cost": 18.48,
+      "sale": 22,
+      "note": ""
+    },
+    {
+      "sourceId": 16,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Rocko 44g",
+      "cost": 8.4,
+      "sale": 10,
+      "note": ""
+    },
+    {
+      "sourceId": 17,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Sponch 120g",
+      "cost": 18.48,
+      "sale": 22,
+      "note": ""
+    },
+    {
+      "sourceId": 18,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Suavicremas 100g (Chocolate, Fresa, Vainilla)",
+      "cost": 16.8,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 19,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Triki Trakes 85g",
+      "cost": 16.8,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 20,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "Triki Trakes Bombon 10p 85g",
+      "cost": 16.8,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 21,
+      "brand": "Marinela",
+      "category": "Galletas",
+      "printed": "MaxiTubos (Príncipe, Triki Trakes, Canelitas, Sponch, Lors, Polvorones, Mini Barritas Fresa y Piña)",
+      "cost": 26.88,
+      "sale": 32,
+      "note": "El PDF no indica el gramaje de los MaxiTubos."
+    },
+    {
+      "sourceId": 22,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Bigotes Cajeta y Chocolate 80g",
+      "cost": 13.28,
+      "sale": 16,
+      "note": ""
+    },
+    {
+      "sourceId": 23,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Bigotes Duo Chocolate 160g",
+      "cost": 23.24,
+      "sale": 28,
+      "note": ""
+    },
+    {
+      "sourceId": 24,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Conchas 2p 130g",
+      "cost": 18.26,
+      "sale": 22,
+      "note": ""
+    },
+    {
+      "sourceId": 25,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Cuernitos 2p 100g",
+      "cost": 16.6,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 26,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Divididas en Tiras Doraditas 127g",
+      "cost": 14.94,
+      "sale": 18,
+      "note": ""
+    },
+    {
+      "sourceId": 27,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Doraditas Nuez 127g",
+      "cost": 14.94,
+      "sale": 18,
+      "note": ""
+    },
+    {
+      "sourceId": 28,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Madalenas Cuadradas 44g",
+      "cost": 8.3,
+      "sale": 10,
+      "note": ""
+    },
+    {
+      "sourceId": 29,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Mantecadas Vainilla 3p 157g",
+      "cost": 21.58,
+      "sale": 26,
+      "note": ""
+    },
+    {
+      "sourceId": 30,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Mantecadas Vainilla 52.5g",
+      "cost": 8.3,
+      "sale": 10,
+      "note": ""
+    },
+    {
+      "sourceId": 31,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Mantecadas Chocolate 3p 143g",
+      "cost": 21.58,
+      "sale": 26,
+      "note": ""
+    },
+    {
+      "sourceId": 32,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Mantecadas Naranja 3p 165g",
+      "cost": 21.58,
+      "sale": 26,
+      "note": ""
+    },
+    {
+      "sourceId": 33,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Mini Divididas en Tiras Doraditas 58g",
+      "cost": 8.3,
+      "sale": 10,
+      "note": ""
+    },
+    {
+      "sourceId": 34,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Muffin Casero 130g",
+      "cost": 14.94,
+      "sale": 18,
+      "note": ""
+    },
+    {
+      "sourceId": 35,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Pachoncitos 2p 140g",
+      "cost": 18.26,
+      "sale": 22,
+      "note": ""
+    },
+    {
+      "sourceId": 36,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Panqué Casero 235g",
+      "cost": 29.05,
+      "sale": 35,
+      "note": ""
+    },
+    {
+      "sourceId": 37,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Semitas 1p 92g",
+      "cost": 11.62,
+      "sale": 14,
+      "note": ""
+    },
+    {
+      "sourceId": 38,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Semitas 2p 184g",
+      "cost": 20.75,
+      "sale": 25,
+      "note": ""
+    },
+    {
+      "sourceId": 39,
+      "brand": "Tía Rosa",
+      "category": "Pan dulce (Tía Rosa)",
+      "printed": "Julitas 40 g",
+      "cost": 5.1,
+      "sale": 6,
+      "note": ""
+    },
+    {
+      "sourceId": 40,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Animalitos Karamelo 200g",
+      "cost": 18.48,
+      "sale": 22,
+      "note": ""
+    },
+    {
+      "sourceId": 41,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Canapinas 80g",
+      "cost": 11.76,
+      "sale": 14,
+      "note": ""
+    },
+    {
+      "sourceId": 42,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Canapinas 140g",
+      "cost": 16.8,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 43,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Decanelas Rosquillas 185g",
+      "cost": 20.16,
+      "sale": 24,
+      "note": ""
+    },
+    {
+      "sourceId": 44,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Deliciosas Chocochispas y Vainilla 60g",
+      "cost": 8.4,
+      "sale": 10,
+      "note": ""
+    },
+    {
+      "sourceId": 45,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Deliciosas Chocochispas y Vainilla 130g",
+      "cost": 16.8,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 46,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Deliciosas Bombon 170g",
+      "cost": 25.2,
+      "sale": 30,
+      "note": ""
+    },
+    {
+      "sourceId": 47,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Deliciosas 230g (Betunadas, Chochitos, Chocochispas y Vainilla)",
+      "cost": 23.52,
+      "sale": 28,
+      "note": ""
+    },
+    {
+      "sourceId": 48,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Favoritas 100g Nuez y Vainilla",
+      "cost": 10.08,
+      "sale": 12,
+      "note": ""
+    },
+    {
+      "sourceId": 49,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Favoritas 155g Nuez y Vainilla",
+      "cost": 15.12,
+      "sale": 18,
+      "note": ""
+    },
+    {
+      "sourceId": 50,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Magnas 200g",
+      "cost": 21,
+      "sale": 25,
+      "note": ""
+    },
+    {
+      "sourceId": 51,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Marías 170g",
+      "cost": 15.12,
+      "sale": 18,
+      "note": ""
+    },
+    {
+      "sourceId": 52,
+      "brand": "Lara",
+      "category": "Galletas",
+      "printed": "Saladas 175g",
+      "cost": 16.8,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 53,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Choco Roles 25pct más 2p 100g",
+      "cost": 18.26,
+      "sale": 22,
+      "note": ""
+    },
+    {
+      "sourceId": 54,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Dona Gansito 1p 85g",
+      "cost": 12.45,
+      "sale": 15,
+      "note": ""
+    },
+    {
+      "sourceId": 55,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Dúo Mini Pay Piña 110g / Nuez 96g",
+      "cost": 20.75,
+      "sale": 25,
+      "note": ""
+    },
+    {
+      "sourceId": 56,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Dúo Napolitano 140g",
+      "cost": 20.75,
+      "sale": 25,
+      "note": ""
+    },
+    {
+      "sourceId": 57,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Gansito 50g",
+      "cost": 14.94,
+      "sale": 18,
+      "note": ""
+    },
+    {
+      "sourceId": 58,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Mini Choco Roles 28g",
+      "cost": 6.64,
+      "sale": 8,
+      "note": ""
+    },
+    {
+      "sourceId": 59,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Mini Gansito 24g",
+      "cost": 6.64,
+      "sale": 8,
+      "note": ""
+    },
+    {
+      "sourceId": 60,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Mini Pingüino 25g",
+      "cost": 6.64,
+      "sale": 8,
+      "note": ""
+    },
+    {
+      "sourceId": 61,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Pastelito Hershey’s 1p 40g",
+      "cost": 11.62,
+      "sale": 14,
+      "note": ""
+    },
+    {
+      "sourceId": 62,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Pastelito Bocadin 40g",
+      "cost": 6.64,
+      "sale": 8,
+      "note": ""
+    },
+    {
+      "sourceId": 63,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Pingüinos 2p 80g",
+      "cost": 18.26,
+      "sale": 22,
+      "note": ""
+    },
+    {
+      "sourceId": 64,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Pingüinos 3p 120g",
+      "cost": 23.24,
+      "sale": 28,
+      "note": ""
+    },
+    {
+      "sourceId": 65,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Pingüinos Hershey’s 2p 80g",
+      "cost": 18.26,
+      "sale": 22,
+      "note": ""
+    },
+    {
+      "sourceId": 66,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Rollo Fresa 75g",
+      "cost": 14.94,
+      "sale": 18,
+      "note": ""
+    },
+    {
+      "sourceId": 67,
+      "brand": "Marinela",
+      "category": "Pasteles",
+      "printed": "Submarinos 105g (Chocolate, Fresa, Vainilla)",
+      "cost": 16.6,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 68,
+      "brand": "Marinela",
+      "category": "Bebidas lácteas",
+      "printed": "Leche Gansito 236ml",
+      "cost": 12.45,
+      "sale": 15,
+      "note": ""
+    },
+    {
+      "sourceId": 69,
+      "brand": "Marinela",
+      "category": "Bebidas lácteas",
+      "printed": "Leche Nito 236ml",
+      "cost": 12.45,
+      "sale": 15,
+      "note": ""
+    },
+    {
+      "sourceId": 70,
+      "brand": "Tía Rosa",
+      "category": "Galletas (Tía Rosa)",
+      "printed": "Galleta con Avena, Arándano 66g",
+      "cost": 10.08,
+      "sale": 12,
+      "note": ""
+    },
+    {
+      "sourceId": 71,
+      "brand": "Tía Rosa",
+      "category": "Galletas (Tía Rosa)",
+      "printed": "Panera Polvoroncitos Caseros 20p 300g",
+      "cost": 1.68,
+      "sale": 2,
+      "note": "El PDF publica $1.68 / $2.00. Confirmar si son precios por pieza o por panera de 20 p."
+    },
+    {
+      "sourceId": 72,
+      "brand": "Tía Rosa",
+      "category": "Galletas (Tía Rosa)",
+      "printed": "Pastitas Cuadradas 54g",
+      "cost": 10.08,
+      "sale": 12,
+      "note": ""
+    },
+    {
+      "sourceId": 73,
+      "brand": "Tía Rosa",
+      "category": "Galletas (Tía Rosa)",
+      "printed": "Polvoroncitos 6p 90g",
+      "cost": 15.12,
+      "sale": 18,
+      "note": ""
+    },
+    {
+      "sourceId": 74,
+      "brand": "Tía Rosa",
+      "category": "Galletas (Tía Rosa)",
+      "printed": "Tartinas 8p 133.3g (Fresa, Piña, Zarzamora)",
+      "cost": 16.8,
+      "sale": 20,
+      "note": ""
+    },
+    {
+      "sourceId": 75,
+      "brand": "Tía Rosa",
+      "category": "Galletas (Tía Rosa)",
+      "printed": "Mini Polvoroncitos 5p 50g",
+      "cost": 10.08,
+      "sale": 12,
+      "note": ""
+    },
+    {
+      "sourceId": 76,
+      "brand": "Suandy",
+      "category": "Suandy",
+      "printed": "Pastisetas 90g",
+      "cost": 23.52,
+      "sale": 28,
+      "note": ""
+    },
+    {
+      "sourceId": 77,
+      "brand": "Suandy",
+      "category": "Suandy",
+      "printed": "Pastisetas Chocolate 125g",
+      "cost": 25.2,
+      "sale": 30,
+      "note": ""
+    },
+    {
+      "sourceId": 78,
+      "brand": "Suandy",
+      "category": "Suandy",
+      "printed": "Pastisetas Sin Azúcar 84g",
+      "cost": 25.2,
+      "sale": 30,
+      "note": ""
+    },
+    {
+      "sourceId": 79,
+      "brand": "Suandy",
+      "category": "Suandy",
+      "printed": "Tartaletas Cuadradas de Fresa",
+      "cost": 23.52,
+      "sale": 28,
+      "note": "El PDF no indica gramaje ni número de piezas."
+    },
+    {
+      "sourceId": 80,
+      "brand": "Gabi",
+      "category": "Gabi",
+      "printed": "Besos de Nuez y Chocolate 1p 60g",
+      "cost": 8.3,
+      "sale": 10,
+      "note": ""
+    },
+    {
+      "sourceId": 81,
+      "brand": "Gabi",
+      "category": "Gabi",
+      "printed": "Besos de Nuez 1p 90g",
+      "cost": 11.62,
+      "sale": 14,
+      "note": ""
+    },
+    {
+      "sourceId": 82,
+      "brand": "Gabi",
+      "category": "Gabi",
+      "printed": "Mias de Arandano 12p 96g",
+      "cost": 13.28,
+      "sale": 16,
+      "note": ""
+    },
+    {
+      "sourceId": 83,
+      "brand": "Gabi",
+      "category": "Gabi",
+      "printed": "Orejitas de Mantequilla 71g",
+      "cost": 11.62,
+      "sale": 14,
+      "note": ""
+    },
+    {
+      "sourceId": 84,
+      "brand": "Gabi",
+      "category": "Gabi",
+      "printed": "Panera Orejita 22p 180g",
+      "cost": 24.9,
+      "sale": 30,
+      "note": ""
+    },
+    {
+      "sourceId": 85,
+      "brand": "Gabi",
+      "category": "Gabi",
+      "printed": "Surtido Fino Variedad 200g",
+      "cost": 31.54,
+      "sale": 38,
+      "note": ""
+    },
+    {
+      "sourceId": 86,
+      "brand": "Gabi",
+      "category": "Gabi",
+      "printed": "Surtido Fino Variedad 375g",
+      "cost": 51.46,
+      "sale": 62,
+      "note": ""
+    },
+    {
+      "sourceId": 87,
+      "brand": "Gabi",
+      "category": "Gabi",
+      "printed": "Qé Chox",
+      "cost": 10.08,
+      "sale": 12,
+      "note": "El PDF no indica gramaje ni número de piezas."
+    }
+  ],
+  "mapped": [
+    {
+      "sourceId": 1,
+      "row": [
+        "",
+        "Marinela Barritas 75 g",
+        "unidad",
+        "",
+        "Fresa",
+        16,
+        13.44,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 1,
+      "row": [
+        "",
+        "Marinela Barritas 75 g",
+        "unidad",
+        "",
+        "Moras",
+        16,
+        13.44,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 1,
+      "row": [
+        "",
+        "Marinela Barritas 75 g",
+        "unidad",
+        "",
+        "Piña",
+        16,
+        13.44,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 2,
+      "row": [
+        "",
+        "Marinela Barritas Two Pack 110 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 3,
+      "row": [
+        "",
+        "Marinela Bites 80 g",
+        "unidad",
+        "",
+        "Canelitas",
+        15,
+        12.6,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 3,
+      "row": [
+        "",
+        "Marinela Bites 80 g",
+        "unidad",
+        "",
+        "Triki Trakes",
+        15,
+        12.6,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 4,
+      "row": [
+        "",
+        "Marinela Bombonete 55 g",
+        "unidad",
+        "",
+        "",
+        15,
+        12.6,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 5,
+      "row": [
+        "",
+        "Marinela Canelitas 120 g +2 p",
+        "unidad",
+        "",
+        "",
+        22,
+        18.48,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 6,
+      "row": [
+        "",
+        "Marinela Galleta Gansito 43 g",
+        "unidad",
+        "",
+        "",
+        10,
+        8.4,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 6,
+      "row": [
+        "",
+        "Marinela Galleta Pingüino 40 g",
+        "unidad",
+        "",
+        "",
+        10,
+        8.4,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 7,
+      "row": [
+        "",
+        "Marinela Galleta Pingüino 160 g",
+        "unidad",
+        "",
+        "",
+        34,
+        28.56,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 7,
+      "row": [
+        "",
+        "Marinela Galleta Gansito 215 g",
+        "unidad",
+        "",
+        "",
+        34,
+        28.56,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 8,
+      "row": [
+        "",
+        "Marinela Fruti Sponch 8 p 124 g",
+        "unidad",
+        "",
+        "",
+        24,
+        20.16,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 9,
+      "row": [
+        "",
+        "Marinela Lors 98 g",
+        "unidad",
+        "",
+        "",
+        18,
+        15.12,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 10,
+      "row": [
+        "",
+        "Marinela Mini Barritas Fresa 8 p 98 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 11,
+      "row": [
+        "",
+        "Marinela Mini Rocko 10 g",
+        "unidad",
+        "",
+        "",
+        4,
+        3.36,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 12,
+      "row": [
+        "",
+        "Marinela Mobi 30 g",
+        "unidad",
+        "",
+        "",
+        8,
+        6.72,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 13,
+      "row": [
+        "",
+        "Marinela Platívolos 90 g",
+        "unidad",
+        "",
+        "",
+        18,
+        15.12,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 14,
+      "row": [
+        "",
+        "Marinela Polvorones 6 p 148 g +2 p",
+        "unidad",
+        "",
+        "",
+        22,
+        18.48,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 15,
+      "row": [
+        "",
+        "Marinela Príncipe 12 p 126 g",
+        "unidad",
+        "",
+        "Chocolate",
+        22,
+        18.48,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 15,
+      "row": [
+        "",
+        "Marinela Príncipe 12 p 126 g",
+        "unidad",
+        "",
+        "Avellana",
+        22,
+        18.48,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 15,
+      "row": [
+        "",
+        "Marinela Príncipe 12 p 126 g",
+        "unidad",
+        "",
+        "Chocolate blanco",
+        22,
+        18.48,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 15,
+      "row": [
+        "",
+        "Marinela Príncipe 12 p 126 g",
+        "unidad",
+        "",
+        "Limón",
+        22,
+        18.48,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 16,
+      "row": [
+        "",
+        "Marinela Rocko 44 g",
+        "unidad",
+        "",
+        "",
+        10,
+        8.4,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 17,
+      "row": [
+        "",
+        "Marinela Sponch 120 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.48,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 18,
+      "row": [
+        "",
+        "Marinela Suavicremas 100 g",
+        "unidad",
+        "",
+        "Chocolate",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 18,
+      "row": [
+        "",
+        "Marinela Suavicremas 100 g",
+        "unidad",
+        "",
+        "Fresa",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 18,
+      "row": [
+        "",
+        "Marinela Suavicremas 100 g",
+        "unidad",
+        "",
+        "Vainilla",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 19,
+      "row": [
+        "",
+        "Marinela Triki Trakes 85 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 20,
+      "row": [
+        "",
+        "Marinela Triki Trakes Bombón 10 p 85 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 21,
+      "row": [
+        "",
+        "Marinela MaxiTubos",
+        "unidad",
+        "",
+        "Príncipe",
+        32,
+        26.88,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 21,
+      "row": [
+        "",
+        "Marinela MaxiTubos",
+        "unidad",
+        "",
+        "Triki Trakes",
+        32,
+        26.88,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 21,
+      "row": [
+        "",
+        "Marinela MaxiTubos",
+        "unidad",
+        "",
+        "Canelitas",
+        32,
+        26.88,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 21,
+      "row": [
+        "",
+        "Marinela MaxiTubos",
+        "unidad",
+        "",
+        "Sponch",
+        32,
+        26.88,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 21,
+      "row": [
+        "",
+        "Marinela MaxiTubos",
+        "unidad",
+        "",
+        "Lors",
+        32,
+        26.88,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 21,
+      "row": [
+        "",
+        "Marinela MaxiTubos",
+        "unidad",
+        "",
+        "Polvorones",
+        32,
+        26.88,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 21,
+      "row": [
+        "",
+        "Marinela MaxiTubos",
+        "unidad",
+        "",
+        "Mini Barritas Fresa",
+        32,
+        26.88,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 21,
+      "row": [
+        "",
+        "Marinela MaxiTubos",
+        "unidad",
+        "",
+        "Mini Barritas Piña",
+        32,
+        26.88,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 22,
+      "row": [
+        "",
+        "Tía Rosa Bigotes 80 g",
+        "unidad",
+        "",
+        "Cajeta",
+        16,
+        13.28,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 22,
+      "row": [
+        "",
+        "Tía Rosa Bigotes 80 g",
+        "unidad",
+        "",
+        "Chocolate",
+        16,
+        13.28,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 23,
+      "row": [
+        "",
+        "Tía Rosa Bigotes Dúo Chocolate 160 g",
+        "unidad",
+        "",
+        "",
+        28,
+        23.24,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 24,
+      "row": [
+        "",
+        "Tía Rosa Conchas 2 p 130 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.26,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 25,
+      "row": [
+        "",
+        "Tía Rosa Cuernitos 2 p 100 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.6,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 26,
+      "row": [
+        "",
+        "Tía Rosa Divididas en Tiras Doraditas 127 g",
+        "unidad",
+        "",
+        "",
+        18,
+        14.94,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 27,
+      "row": [
+        "",
+        "Tía Rosa Doraditas Nuez 127 g",
+        "unidad",
+        "",
+        "",
+        18,
+        14.94,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 28,
+      "row": [
+        "",
+        "Tía Rosa Madalenas Cuadradas 44 g",
+        "unidad",
+        "",
+        "",
+        10,
+        8.3,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 29,
+      "row": [
+        "",
+        "Tía Rosa Mantecadas Vainilla 3 p 157 g",
+        "unidad",
+        "",
+        "",
+        26,
+        21.58,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 30,
+      "row": [
+        "",
+        "Tía Rosa Mantecadas Vainilla 52.5 g",
+        "unidad",
+        "",
+        "",
+        10,
+        8.3,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 31,
+      "row": [
+        "",
+        "Tía Rosa Mantecadas Chocolate 3 p 143 g",
+        "unidad",
+        "",
+        "",
+        26,
+        21.58,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 32,
+      "row": [
+        "",
+        "Tía Rosa Mantecadas Naranja 3 p 165 g",
+        "unidad",
+        "",
+        "",
+        26,
+        21.58,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 33,
+      "row": [
+        "",
+        "Tía Rosa Mini Divididas en Tiras Doraditas 58 g",
+        "unidad",
+        "",
+        "",
+        10,
+        8.3,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 34,
+      "row": [
+        "",
+        "Tía Rosa Muffin Casero 130 g",
+        "unidad",
+        "",
+        "",
+        18,
+        14.94,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 35,
+      "row": [
+        "",
+        "Tía Rosa Pachoncitos 2 p 140 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.26,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 36,
+      "row": [
+        "",
+        "Tía Rosa Panqué Casero 235 g",
+        "unidad",
+        "",
+        "",
+        35,
+        29.05,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 37,
+      "row": [
+        "",
+        "Tía Rosa Semitas 1 p 92 g",
+        "unidad",
+        "",
+        "",
+        14,
+        11.62,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 38,
+      "row": [
+        "",
+        "Tía Rosa Semitas 2 p 184 g",
+        "unidad",
+        "",
+        "",
+        25,
+        20.75,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 39,
+      "row": [
+        "",
+        "Tía Rosa Julitas 40 g",
+        "unidad",
+        "",
+        "",
+        6,
+        5.1,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 40,
+      "row": [
+        "",
+        "Lara Animalitos Karamelo 200 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.48,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 41,
+      "row": [
+        "",
+        "Lara Canapinas 80 g",
+        "unidad",
+        "",
+        "",
+        14,
+        11.76,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 42,
+      "row": [
+        "",
+        "Lara Canapinas 140 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 43,
+      "row": [
+        "",
+        "Lara Decanelas Rosquillas 185 g",
+        "unidad",
+        "",
+        "",
+        24,
+        20.16,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 44,
+      "row": [
+        "",
+        "Lara Deliciosas 60 g",
+        "unidad",
+        "",
+        "Chocochispas",
+        10,
+        8.4,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 44,
+      "row": [
+        "",
+        "Lara Deliciosas 60 g",
+        "unidad",
+        "",
+        "Vainilla",
+        10,
+        8.4,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 45,
+      "row": [
+        "",
+        "Lara Deliciosas 130 g",
+        "unidad",
+        "",
+        "Chocochispas",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 45,
+      "row": [
+        "",
+        "Lara Deliciosas 130 g",
+        "unidad",
+        "",
+        "Vainilla",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 46,
+      "row": [
+        "",
+        "Lara Deliciosas Bombón 170 g",
+        "unidad",
+        "",
+        "",
+        30,
+        25.2,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 47,
+      "row": [
+        "",
+        "Lara Deliciosas 230 g",
+        "unidad",
+        "",
+        "Betunadas",
+        28,
+        23.52,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 47,
+      "row": [
+        "",
+        "Lara Deliciosas 230 g",
+        "unidad",
+        "",
+        "Chochitos",
+        28,
+        23.52,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 47,
+      "row": [
+        "",
+        "Lara Deliciosas 230 g",
+        "unidad",
+        "",
+        "Chocochispas",
+        28,
+        23.52,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 47,
+      "row": [
+        "",
+        "Lara Deliciosas 230 g",
+        "unidad",
+        "",
+        "Vainilla",
+        28,
+        23.52,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 48,
+      "row": [
+        "",
+        "Lara Favoritas 100 g",
+        "unidad",
+        "",
+        "Nuez",
+        12,
+        10.08,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 48,
+      "row": [
+        "",
+        "Lara Favoritas 100 g",
+        "unidad",
+        "",
+        "Vainilla",
+        12,
+        10.08,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 49,
+      "row": [
+        "",
+        "Lara Favoritas 155 g",
+        "unidad",
+        "",
+        "Nuez",
+        18,
+        15.12,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 49,
+      "row": [
+        "",
+        "Lara Favoritas 155 g",
+        "unidad",
+        "",
+        "Vainilla",
+        18,
+        15.12,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 50,
+      "row": [
+        "",
+        "Lara Magnas 200 g",
+        "unidad",
+        "",
+        "",
+        25,
+        21,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 51,
+      "row": [
+        "",
+        "Lara Marías 170 g",
+        "unidad",
+        "",
+        "",
+        18,
+        15.12,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 52,
+      "row": [
+        "",
+        "Lara Saladas 175 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 53,
+      "row": [
+        "",
+        "Marinela Choco Roles 25% más 2 p 100 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.26,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 54,
+      "row": [
+        "",
+        "Marinela Dona Gansito 1 p 85 g",
+        "unidad",
+        "",
+        "",
+        15,
+        12.45,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 55,
+      "row": [
+        "",
+        "Marinela Dúo Mini Pay",
+        "unidad",
+        "",
+        "Piña 110 g",
+        25,
+        20.75,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 55,
+      "row": [
+        "",
+        "Marinela Dúo Mini Pay",
+        "unidad",
+        "",
+        "Nuez 96 g",
+        25,
+        20.75,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 56,
+      "row": [
+        "",
+        "Marinela Dúo Napolitano 140 g",
+        "unidad",
+        "",
+        "",
+        25,
+        20.75,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 57,
+      "row": [
+        "",
+        "Marinela Gansito 50 g",
+        "unidad",
+        "",
+        "",
+        18,
+        14.94,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 58,
+      "row": [
+        "",
+        "Marinela Mini Choco Roles 28 g",
+        "unidad",
+        "",
+        "",
+        8,
+        6.64,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 59,
+      "row": [
+        "",
+        "Marinela Mini Gansito 24 g",
+        "unidad",
+        "",
+        "",
+        8,
+        6.64,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 60,
+      "row": [
+        "",
+        "Marinela Mini Pingüino 25 g",
+        "unidad",
+        "",
+        "",
+        8,
+        6.64,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 61,
+      "row": [
+        "",
+        "Marinela Pastelito Hershey's 1 p 40 g",
+        "unidad",
+        "",
+        "",
+        14,
+        11.62,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 62,
+      "row": [
+        "",
+        "Marinela Pastelito Bocadín 40 g",
+        "unidad",
+        "",
+        "",
+        8,
+        6.64,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 63,
+      "row": [
+        "",
+        "Marinela Pingüinos 2 p 80 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.26,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 64,
+      "row": [
+        "",
+        "Marinela Pingüinos 3 p 120 g",
+        "unidad",
+        "",
+        "",
+        28,
+        23.24,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 65,
+      "row": [
+        "",
+        "Marinela Pingüinos Hershey's 2 p 80 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.26,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 66,
+      "row": [
+        "",
+        "Marinela Rollo Fresa 75 g",
+        "unidad",
+        "",
+        "",
+        18,
+        14.94,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 67,
+      "row": [
+        "",
+        "Marinela Submarinos 105 g",
+        "unidad",
+        "",
+        "Chocolate",
+        20,
+        16.6,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 67,
+      "row": [
+        "",
+        "Marinela Submarinos 105 g",
+        "unidad",
+        "",
+        "Fresa",
+        20,
+        16.6,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 67,
+      "row": [
+        "",
+        "Marinela Submarinos 105 g",
+        "unidad",
+        "",
+        "Vainilla",
+        20,
+        16.6,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 68,
+      "row": [
+        "",
+        "Marinela Leche Gansito 236 ml",
+        "unidad",
+        "",
+        "",
+        15,
+        12.45,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 69,
+      "row": [
+        "",
+        "Marinela Leche Nito 236 ml",
+        "unidad",
+        "",
+        "",
+        15,
+        12.45,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 70,
+      "row": [
+        "",
+        "Tía Rosa Galleta con Avena y Arándano 66 g",
+        "unidad",
+        "",
+        "",
+        12,
+        10.08,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 71,
+      "row": [
+        "",
+        "Tía Rosa Panera Polvoroncitos Caseros 20 p 300 g",
+        "unidad",
+        "",
+        "",
+        2,
+        1.68,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 72,
+      "row": [
+        "",
+        "Tía Rosa Pastitas Cuadradas 54 g",
+        "unidad",
+        "",
+        "",
+        12,
+        10.08,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 73,
+      "row": [
+        "",
+        "Tía Rosa Polvoroncitos 6 p 90 g",
+        "unidad",
+        "",
+        "",
+        18,
+        15.12,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 74,
+      "row": [
+        "",
+        "Tía Rosa Tartinas 8 p 133.3 g",
+        "unidad",
+        "",
+        "Fresa",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 74,
+      "row": [
+        "",
+        "Tía Rosa Tartinas 8 p 133.3 g",
+        "unidad",
+        "",
+        "Piña",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 74,
+      "row": [
+        "",
+        "Tía Rosa Tartinas 8 p 133.3 g",
+        "unidad",
+        "",
+        "Zarzamora",
+        20,
+        16.8,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 75,
+      "row": [
+        "",
+        "Tía Rosa Mini Polvoroncitos 5 p 50 g",
+        "unidad",
+        "",
+        "",
+        12,
+        10.08,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 76,
+      "row": [
+        "",
+        "Suandy Pastisetas 90 g",
+        "unidad",
+        "",
+        "",
+        28,
+        23.52,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 77,
+      "row": [
+        "",
+        "Suandy Pastisetas Chocolate 125 g",
+        "unidad",
+        "",
+        "",
+        30,
+        25.2,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 78,
+      "row": [
+        "",
+        "Suandy Pastisetas Sin Azúcar 84 g",
+        "unidad",
+        "",
+        "",
+        30,
+        25.2,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 79,
+      "row": [
+        "",
+        "Suandy Tartaletas Cuadradas de Fresa",
+        "unidad",
+        "",
+        "",
+        28,
+        23.52,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 80,
+      "row": [
+        "",
+        "Gabi Besos de Nuez y Chocolate 1 p 60 g",
+        "unidad",
+        "",
+        "",
+        10,
+        8.3,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 81,
+      "row": [
+        "",
+        "Gabi Besos de Nuez 1 p 90 g",
+        "unidad",
+        "",
+        "",
+        14,
+        11.62,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 82,
+      "row": [
+        "",
+        "Gabi Mias de Arándano 12 p 96 g",
+        "unidad",
+        "",
+        "",
+        16,
+        13.28,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 83,
+      "row": [
+        "",
+        "Gabi Orejitas de Mantequilla 71 g",
+        "unidad",
+        "",
+        "",
+        14,
+        11.62,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 84,
+      "row": [
+        "",
+        "Gabi Panera Orejita 22 p 180 g",
+        "unidad",
+        "",
+        "",
+        30,
+        24.9,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 85,
+      "row": [
+        "",
+        "Gabi Surtido Fino Variedad 200 g",
+        "unidad",
+        "",
+        "",
+        38,
+        31.54,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 86,
+      "row": [
+        "",
+        "Gabi Surtido Fino Variedad 375 g",
+        "unidad",
+        "",
+        "",
+        62,
+        51.46,
+        "no",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": 87,
+      "row": [
+        "",
+        "Gabi Qé Chox",
+        "unidad",
+        "",
+        "",
+        12,
+        10.08,
+        "no",
+        "",
+        ""
+      ]
+    }
+  ]
+}

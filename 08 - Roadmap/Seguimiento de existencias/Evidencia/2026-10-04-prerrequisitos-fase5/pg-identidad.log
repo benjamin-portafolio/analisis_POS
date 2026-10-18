@@ -1,0 +1,5 @@
+ current_database | current_user | inet_server_port |                                                             version                                                             
+------------------+--------------+------------------+---------------------------------------------------------------------------------------------------------------------------------
+ seg_fase5_audit  | seg_audit    |            55839 | PostgreSQL 18.4 (Postgres.app) on aarch64-apple-darwin23.6.0, compiled by Apple clang version 15.0.0 (clang-1500.3.9.4), 64-bit
+(1 row)
+

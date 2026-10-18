@@ -1,0 +1,11 @@
+import 'package:flutter/material.dart';
+import 'package:pos_flutter/presentation/pages/cotizaciones/quotation_ticket_screen.dart';
+import '../test/support/quotation_ui_fixtures.dart';
+
+// Entrada temporal de QA: no inicializa DI, SQLite, sync ni comandos.
+void main() => runApp(MaterialApp(
+  home: QuotationTicketScreen(
+    quotationId: 'quotation-1',
+    repository: FakeQuotationRepository(),
+  ),
+));

@@ -1,0 +1,51 @@
+{
+  "evidenceType": "synthetic_fixture_not_physical_print",
+  "profile": {
+    "address": "AA:BB:CC:DD:EE:01",
+    "alias": "A58",
+    "paper": "mm58",
+    "printableWidthDots": 384,
+    "imageCommand": "gsV0",
+    "supportsCut": false
+  },
+  "document": {
+    "title": "COTIZACIÓN",
+    "identifier": "Cotización # quotation-1",
+    "date": "05/10/2026 09:30",
+    "dateLabel": "Fecha de creación",
+    "currency": "MXN",
+    "details": [
+      "Precios vigentes al generar",
+      "Cálculo: 06/10/2026 12:00:00",
+      "El precio se recalcula al recuperar en Caja"
+    ],
+    "summary": null,
+    "itemRows": [
+      [
+        "Pan artesanal\nIntegral",
+        "$35.00",
+        "2",
+        "$70.00"
+      ],
+      [
+        "Café de especialidad de la sierra con nombre largo para verificar el ticket completo\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "Leche de almendra",
+        "$100.00 / 1 L",
+        "0.250 L",
+        "$25.00"
+      ]
+    ],
+    "totals": [
+      [
+        "Total estimado actual",
+        "$245.00"
+      ]
+    ],
+    "footer": "No representa un pago ni reserva existencias"
+  }
+}

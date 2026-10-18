@@ -1,0 +1,4 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart
+00:00 +0: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +1: compuerta → consulta → comando → evento → borrador en serverSync
+00:00 +2: All tests passed!

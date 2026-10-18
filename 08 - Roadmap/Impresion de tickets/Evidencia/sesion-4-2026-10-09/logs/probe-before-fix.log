@@ -1,0 +1,8 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart
+00:00 +0: configuration probe uses the captured raster profile and Spanish document
+00:00 +0 -1: configuration probe uses the captured raster profile and Spanish document [E]
+  Bad state: No element
+  dart:core                                                            List.single
+  test/application/printing/ticket_generation_service_test.dart 29:29  main.<fn>
+  
+00:00 +0 -1: Some tests failed.

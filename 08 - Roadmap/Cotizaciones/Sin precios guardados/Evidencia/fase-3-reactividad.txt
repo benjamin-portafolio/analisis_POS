@@ -1,0 +1,11 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart
+00:00 +0: P09/P10/P26: listado y detalle abiertos reaccionan a precio, producto y unidad sin escribir
+00:22 +0 -1: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart [E]
+  Bad state: Cannot close sink while adding stream.
+  package:stream_channel/src/guarantee_channel.dart 180:7      _GuaranteeSink.close
+  package:flutter_tools/src/test/flutter_platform.dart 766:43  FlutterPlatform._startTest
+  
+One or more uncaught errors occurred shutting down:
+  Bad state: Cannot add event while adding stream.
+00:22 +0 -1: P09/P10/P26: listado y detalle abiertos reaccionan a precio, producto y unidad sin escribir - did not complete [E]
+00:22 +0 -1: Some tests failed.

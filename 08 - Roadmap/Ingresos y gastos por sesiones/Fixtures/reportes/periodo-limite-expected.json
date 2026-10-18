@@ -1,0 +1,30 @@
+{
+  "escenario": "Límites [inicio, fin): inclusivo en from, exclusivo en to.",
+  "casos": [
+    {
+      "occurred_at_ms": 1790812800000,
+      "incluido": false,
+      "nota": "exactamente to_ms"
+    },
+    {
+      "occurred_at_ms": 1790812799999,
+      "incluido": true,
+      "nota": "to_ms - 1"
+    },
+    {
+      "occurred_at_ms": 1788220799999,
+      "incluido": false,
+      "nota": "from_ms - 1"
+    },
+    {
+      "occurred_at_ms": 1788220800000,
+      "incluido": true,
+      "nota": "exactamente from_ms"
+    }
+  ],
+  "futuro": {
+    "occurred_at_ms": 1798804800000,
+    "nivel": "command",
+    "resultado": "rechazado (> now + 5 min)"
+  }
+}

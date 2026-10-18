@@ -1,0 +1,107 @@
+65c07bc393ef723c38b74c0b0928136f44bb426a
+5155be754c0ebbc6d57b8c20921ddb683936f931  pubspec.lock
+5155be754c0ebbc6d57b8c20921ddb683936f931  /tmp/pos-barcode-baseline.p6ysE1/pubspec.lock
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (96.0.0 available)
+  analyzer 10.0.1 (10.2.0 available)
+  meta 1.17.0 (1.18.2 available)
+! path_provider_foundation 2.4.2 (overridden) (2.6.0 available)
+  sqlite3_flutter_libs 0.5.42 (0.6.0+eol available)
+Got dependencies!
+5 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (108.0.0 available)
+  analyzer 10.0.1 (14.4.0 available)
+  archive 4.0.9 (4.3.0 available)
+  build 4.0.6 (4.0.11 available)
+  build_config 1.3.0 (1.3.3 available)
+  build_daemon 4.1.1 (4.1.6 available)
+  build_runner 2.15.0 (2.16.1 available)
+  built_collection 5.1.1 (5.1.2 available)
+  built_value 8.12.6 (8.13.0 available)
+  cli_util 0.4.2 (0.6.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  connectivity_plus 7.2.0 (7.3.2 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  dart_style 3.1.7 (3.1.13 available)
+  dbus 0.7.14 (0.8.0 available)
+  drift 2.34.0 (2.35.1 available)
+  drift_dev 2.34.0 (2.35.1 available)
+  file_picker 11.0.3 (13.1.0 available)
+  get_it 7.7.0 (9.3.0 available)
+  glob 2.1.3 (2.2.0 available)
+  google_sign_in_android 7.2.11 (7.2.17 available)
+  google_sign_in_ios 6.3.0 (6.3.6 available)
+  hooks 2.0.2 (2.2.0 available)
+  io 1.0.5 (1.1.0 available)
+  jni 1.0.0 (1.1.0 available)
+  jni_flutter 1.0.1 (1.0.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  mime 2.0.0 (2.1.0 available)
+  native_toolchain_c 0.19.1 (0.19.5 available)
+  nm 0.5.0 (0.6.0 available)
+  package_config 2.2.0 (3.0.0 available)
+! path_provider_foundation 2.4.2 (overridden) (2.6.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  pdf 3.12.0 (3.13.1 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  pool 1.5.2 (1.5.3 available)
+  pub_semver 2.2.0 (2.2.1 available)
+  pubspec_parse 1.5.0 (1.6.0 available)
+  qr 3.0.2 (4.0.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  share_plus 11.1.0 (13.3.1 available)
+  share_plus_platform_interface 6.1.0 (7.2.0 available)
+  source_gen 4.2.3 (4.3.0 available)
+  sqlite3 3.3.4 (3.7.0 available)
+  sqlite3_flutter_libs 0.5.42 (0.6.0+eol available)
+  sqlparser 0.44.5 (0.45.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  stream_transform 2.1.1 (2.1.2 available)
+  test_api 0.7.10 (0.7.14 available)
+  uuid 4.5.3 (4.6.0 available)
+  vector_math 2.2.0 (2.4.3 available)
+  vm_service 15.2.0 (15.3.0 available)
+  win32 5.15.0 (6.4.0 available)
+  workmanager_android 0.9.0+2 (0.10.9 available)
+  workmanager_platform_interface 0.9.1+1 (0.10.5 available)
+  xml 6.6.1 (7.1.0 available)
+  yaml 3.1.3 (3.1.4 available)
+Got dependencies!
+61 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /private/tmp/pos-barcode-baseline.p6ysE1/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart
+00:00 +0: busca con debounce y conserva búsqueda y filtros al cambiar de pestaña
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+The finder "Found 0 widgets with key [<'clear_article_search_button'>]: []" (used in a call to
+"tap()") could not find any matching widgets.
+
+When the exception was thrown, this was the stack:
+#0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2090:7)
+#1      WidgetController.getCenter (package:flutter_test/src/controller.dart:1942:12)
+#2      WidgetController.tap (package:flutter_test/src/controller.dart:1075:7)
+#3      main.<anonymous closure> (file:///private/tmp/pos-barcode-baseline.p6ysE1/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart:379:20)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  busca con debounce y conserva búsqueda y filtros al cambiar de pestaña
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:00 +0 -1: busca con debounce y conserva búsqueda y filtros al cambiar de pestaña [E]
+  Test failed. See exception logs above.
+  The test description was: busca con debounce y conserva búsqueda y filtros al cambiar de pestaña
+  
+00:00 +0 -1: Some tests failed.

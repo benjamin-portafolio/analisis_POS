@@ -1,0 +1,2318 @@
+[
+  {
+    "file": "src/sync/product-suppliers.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente alta/edición canónicas, refs, deduplicación después de editar y pull aceptado",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente idempotencia concurrente del alta, sin duplicar refs ni versiones",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente dos altas distintas de misma identidad producen un conflicto oficial",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente ediciones concurrentes de proveedor tienen un ganador por base",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente proveedor rechaza base version sin alterar catálogo",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente proveedor rechaza base base-event sin alterar catálogo",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente proveedor rechaza base sequence sin alterar catálogo",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente proveedor rechaza base before sin alterar catálogo",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente proveedor rechaza base missing sin alterar catálogo",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente sobre proveedor inválido identity da rechazo funcional",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente sobre proveedor inválido date da rechazo funcional",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente sobre proveedor inválido local-sequence da rechazo funcional",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente sobre proveedor inválido version da rechazo funcional",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente sobre proveedor inválido cursor da rechazo funcional",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente sobre proveedor inválido aggregate da rechazo funcional",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente payload rechazado se deduplica y no entra a pull; no permite reutilizar ID con otro contenido",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente colisión device/local_sequence revierte el intento completo y devuelve rechazo",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente fallo tras alta/edición/refs revierte todos los datos",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente varias variantes/proveedores, compartido, cero y máximo bigint; editar otros campos conserva precios",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente producto medido con receta mantiene base, receta, costo e inventario al cambiar precio de proveedor",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente rollback tras proyectar producto/variantes/recetas/precios/evento/refs restaura snapshot",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente dependencia de producto missing-row sin proyección parcial",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente dependencia de producto missing-event sin proyección parcial",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente dependencia de producto other-supplier sin proyección parcial",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente dependencia de producto update-event sin proyección parcial",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente dependencia de producto not-accepted sin proyección parcial",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente dependencia de producto other-creation sin proyección parcial",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente proveedor confirmado sin dependencia causal y alta editada siguen siendo utilizables",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente retirar último proveedor guarda [] y refs de ambos conjuntos retirados, sin borrar catálogo",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente quitar variante conserva precios inactivos; borrado físico aplica CASCADE y deja proveedor",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente borrado lógico conserva precios históricos, incluye refs inactivas y replay no resucita",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente replay legado mantiene omisión; promoción exacta before vacío agrega precios explícitos",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente promoción no inventa una base no vacía y rechaza pérdida de conocimiento con []",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente parser antiguo que descarta suppliers en before/after no puede borrar precios conocidos",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente before compara precios/fechas y protege evento/versión/secuencia base",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente dos precios concurrentes de proveedores distintos compiten por el producto completo",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente edición inválida price-string no escribe producto, precios ni refs",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente edición inválida price-range no escribe producto, precios ni refs",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente edición inválida date-zero no escribe producto, precios ni refs",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente edición inválida duplicate no escribe producto, precios ni refs",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente edición inválida null-set no escribe producto, precios ni refs",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente retirada no requiere entregar la dependencia histórica de before",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente el alta original sigue siendo dependencia válida después de editar el proveedor",
+        "status": "passed"
+      },
+      {
+        "name": "Proveedores/productos: PostgreSQL, atomicidad y sync existente seguimiento directo pasa a receta y luego a ninguno conservando proveedores, fechas y saldo",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/variant-inventory-memory.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "Memoria de variante con PostgreSQL real acredita la memoria y conserva la procedencia al vincular por primera vez",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real no mueve la memoria al cambiar el nombre ni al pasar a receta",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real asegura la memoria del vínculo anterior al desvincular sin reacreditarla",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real reconstruye la memoria ausente desde la configuración acreditada por el evento",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real acepta la recuperación del mismo recurso y deja la fila intacta",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real reutiliza el mismo recurso al volver de receta a directo (SEG-19)",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real sustituye el recurso recordado cuando el vínculo cambia a otro",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real es idempotente al repetir la creación y la desvinculación",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real no retrocede la memoria con un eco de base vieja",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real conserva vínculo y memoria al desactivar el producto",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real rechaza vincular un recurso generado para otra variante",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real acepta un recurso de procedencia desconocida",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real rechaza un recurso inactivo",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real rechaza un recurso ya vinculado a otra variante",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real rechaza una unidad de inventario incompatible con la forma de venta",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real convierte una carrera por el mismo producto en conflicto, no en error",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real acredita la memoria del fixture de desvinculación del escenario compartido",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real no cambia el recurso recordado al pasar a receta con el escenario compartido",
+        "status": "passed"
+      },
+      {
+        "name": "Memoria de variante con PostgreSQL real rechaza el descarte por push sin borrar nada ni distribuirlo",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/venta-event.handler.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "Venta efectivo PostgreSQL aislado caja: sale_payment aplicado sin cambio y abono real, corte por movimientos",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado transferencia conserva referencia undefined durante reintento y pull",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado transferencia conserva referencia null durante reintento y pull",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado transferencia conserva referencia  durante reintento y pull",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado transferencia conserva referencia     durante reintento y pull",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado transferencia conserva referencia   REF-BANK   durante reintento y pull",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado transferencia conserva referencia xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx durante reintento y pull",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado transferencia concurrente y rollback preservan unicidad de pago y consumo",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado reporte combina pagos y abonos por fecha de recepción sin contar aplicaciones",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado persiste none unit y measured, redondeo y saldo negativo",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado persiste direct unit y measured, redondeo y saldo negativo",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado persiste recipe unit y measured, redondeo y saldo negativo",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado respuesta perdida: reintento, pull y confirmación con otro evento",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado ventas concurrentes sin pérdida de saldo ni conflictos por versión",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado dos confirmaciones concurrentes del mismo sale_id cobran una vez",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado rollback de evento, refs, venta, pago y saldo ante fallo intermedio",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado acepta historia cobrada tras cambio de precio, receta y desactivación",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado rechaza manipulación del total/delta y conserva resultado original en duplicados",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado dependencia ausente queda en incidencia sin crear proyecciones",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado no permite doble movimiento ni pago con IDs reutilizados",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado crédito y abonos FIFO: no crea efectivo y conserva distribución al reintentar",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado anticipos concurrentes antes de la venta convergen sin sobreaplicar",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado rechaza crédito sin cliente y abono inválido sin alterar cuentas",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado pagos fuera de orden y créditos de otra tablet usan el mismo FIFO",
+        "status": "passed"
+      },
+      {
+        "name": "Venta efectivo PostgreSQL aislado preflight y pull incluyen movimientos de la cuenta de otra tablet",
+        "status": "passed"
+      },
+      {
+        "name": "aritmética compartida redondea half-up una vez y limita el resultado",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/financial-events.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado acepta categoría y dos registros que comparten la categoría oficial",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado reintento duplicado conserva una sola fila y el estado original",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado colisión de identidad de categoría no sobrescribe la existente",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado colisión de identidad de registro conserva el monto original",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado push concurrente del mismo event_id produce accepted + duplicate",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado push concurrente del mismo aggregate_id produce accepted + conflicto controlado",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado rollback de evento, proyección y refs ante fallo intermedio",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado dependencia inexistente queda en incidencia sin crear proyecciones",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado categoría con evento de creación pendiente no habilita el registro",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado categoría con created_event_id distinto al del payload no es oficial",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado snapshot de dirección o naturaleza distinto es conflicto de clasificación",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado pull expone solo eventos synced (no conflictos ni rechazados)",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado preflight devuelve eventos que impactan la categoría por refs",
+        "status": "passed"
+      },
+      {
+        "name": "Ingresos y gastos PostgreSQL aislado reporte financiero respeta [from, to) y suma totales por dirección y método",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/producto-event.handler.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "ProductoEventHandler con PostgreSQL real desactiva producto y variantes históricas con none conservando inventario",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler con PostgreSQL real desactiva producto y variantes históricas con inventory conservando inventario",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler con PostgreSQL real desactiva producto y variantes históricas con recipe conservando inventario",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler con PostgreSQL real actualiza precios, costo, nombre y orden sin reemplazar identidades",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler con PostgreSQL real rechaza forma de venta adulterada incluso cambiando ambos estados",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler con PostgreSQL real persiste el orden de variantes y refs atómica e idempotentemente",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler con PostgreSQL real una colisión de la segunda variante no escribe parcialmente",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler con PostgreSQL real persiste una receta y su referencia de inventario atómicamente",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/cash-events.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "Caja PostgreSQL temporal, transacciones y causalidad fixtures compartidos y rechazo de totales divergentes",
+        "status": "passed"
+      },
+      {
+        "name": "Caja PostgreSQL temporal, transacciones y causalidad event_id con contenido distinto se rechaza sin mutar caja",
+        "status": "passed"
+      },
+      {
+        "name": "Caja PostgreSQL temporal, transacciones y causalidad apertura repetida y dos aperturas concurrentes, una sola abierta",
+        "status": "passed"
+      },
+      {
+        "name": "Caja PostgreSQL temporal, transacciones y causalidad cash in/out, transfer excluido, corte recalculado, reintento y tardío conservado",
+        "status": "passed"
+      },
+      {
+        "name": "Caja PostgreSQL temporal, transacciones y causalidad cierre antes de dependencia queda pending y acepta retry tras recibir operación",
+        "status": "passed"
+      },
+      {
+        "name": "Caja PostgreSQL temporal, transacciones y causalidad dependencia conflictiva y segundo escritor nunca aceptan cierre ni operación",
+        "status": "passed"
+      },
+      {
+        "name": "Caja PostgreSQL temporal, transacciones y causalidad concurrencia operación/cierre no cambia un corte aceptado",
+        "status": "passed"
+      },
+      {
+        "name": "Caja PostgreSQL temporal, transacciones y causalidad corte con lista incompleta o total alterado no es aceptado",
+        "status": "passed"
+      },
+      {
+        "name": "Caja PostgreSQL temporal, transacciones y causalidad migración aditiva y down protegido en esquema temporal",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/variant-tracking-late-sale.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "Venta posterior a la desvinculación (PostgreSQL real) acepta una sola vez la venta contra el recurso de su configuración capturada",
+        "status": "passed"
+      },
+      {
+        "name": "Venta posterior a la desvinculación (PostgreSQL real) no reactiva el vínculo ni altera la memoria con la venta tardía",
+        "status": "passed"
+      },
+      {
+        "name": "Venta posterior a la desvinculación (PostgreSQL real) confirma la venta una sola vez por event_id y una sola vez por venta",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/cliente-event.handler.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado push, referencia, notificación, preflight y pull comparten el contrato canónico",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado acepta solo nombre y permite repetir nombre y teléfono entre identidades",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado rechaza entrada inválida sin proyección ni referencias {\"payload\": [Object]}",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado rechaza entrada inválida sin proyección ni referencias {\"payload\": [Object]}",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado rechaza entrada inválida sin proyección ni referencias {\"base_version\": 2}",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado rechaza entrada inválida sin proyección ni referencias {\"base_server_sequence\": 1}",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado rechaza entrada inválida sin proyección ni referencias {\"aggregate_type\": \"otro\"}",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado altas concurrentes con el mismo id conservan un ganador y registran conflicto",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado reintentos concurrentes del mismo evento son idempotentes",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado acepta el reporte del conflicto detectado por preflight en otro dispositivo",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado edita, limpia teléfono y conserva identidad; pull y reintentos son idempotentes",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado ediciones concurrentes conservan un ganador y reportan la base obsoleta",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado rechaza payload inválido y detecta before manipulado sin cambiar el cliente",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado acepta reportar un conflicto de edición detectado localmente",
+        "status": "passed"
+      },
+      {
+        "name": "Clientes: PostgreSQL y sincronización en esquema aislado la migración no permite retirar una tabla con clientes",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/inventory-event.handler.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "InventoryEventHandler con PostgreSQL real aplica atómicamente un movimiento inicial 250",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler con PostgreSQL real aplica atómicamente un movimiento inicial -250",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler con PostgreSQL real sin movimiento crea balance cero y ninguna cantidad cero",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler con PostgreSQL real sincroniza push/pull entre dispositivos sin duplicar el movimiento",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler con PostgreSQL real convierte un movement_id duplicado en conflicto funcional",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler con PostgreSQL real revierte evento, refs, recurso y balance ante fallo del movimiento",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/categoria-event.handler.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "CategoriaEventHandler con PostgreSQL real mantiene la FK de products.category_id con RESTRICT",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler con PostgreSQL real revierte productos, categoría, orden, evento y refs ante un fallo intermedio",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler con PostgreSQL real serializa dos operaciones que toman pos.category_order",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/account-balance-baselines.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "Saldo en cuenta bancaria PostgreSQL temporal acepta la declaración y la fila queda sincronizada",
+        "status": "passed"
+      },
+      {
+        "name": "Saldo en cuenta bancaria PostgreSQL temporal admite un saldo sobregirado y no lo recorta",
+        "status": "passed"
+      },
+      {
+        "name": "Saldo en cuenta bancaria PostgreSQL temporal la segunda declaración se conserva como conflicto y no borra la primera",
+        "status": "passed"
+      },
+      {
+        "name": "Saldo en cuenta bancaria PostgreSQL temporal misma identidad con otro event_id también se conserva sin pisar la fila",
+        "status": "passed"
+      },
+      {
+        "name": "Saldo en cuenta bancaria PostgreSQL temporal el reintento del mismo event_id se reconoce como duplicado",
+        "status": "passed"
+      },
+      {
+        "name": "Saldo en cuenta bancaria PostgreSQL temporal sobre inválido se rechaza sin guardar evento",
+        "status": "passed"
+      },
+      {
+        "name": "Saldo en cuenta bancaria PostgreSQL temporal una declaración con dependencia ausente se conserva como pendiente",
+        "status": "passed"
+      },
+      {
+        "name": "Saldo en cuenta bancaria PostgreSQL temporal migración aditiva y down protegido en esquema temporal",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1790860800000-ReconstructLegacyVariantInventoryMemory.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "ReconstructLegacyVariantInventoryMemory con PostgreSQL real reconstruye solo las memorias demostrables, con la evidencia más reciente",
+        "status": "passed"
+      },
+      {
+        "name": "ReconstructLegacyVariantInventoryMemory con PostgreSQL real deja sin memoria las variantes sin evidencia demostrable",
+        "status": "passed"
+      },
+      {
+        "name": "ReconstructLegacyVariantInventoryMemory con PostgreSQL real no sobrescribe la memoria que ya existe",
+        "status": "passed"
+      },
+      {
+        "name": "ReconstructLegacyVariantInventoryMemory con PostgreSQL real no inventa la procedencia de los recursos legados",
+        "status": "passed"
+      },
+      {
+        "name": "ReconstructLegacyVariantInventoryMemory con PostgreSQL real no modifica los eventos históricos",
+        "status": "passed"
+      },
+      {
+        "name": "ReconstructLegacyVariantInventoryMemory con PostgreSQL real informa los casos no resueltos en vez de inventar memoria",
+        "status": "passed"
+      },
+      {
+        "name": "ReconstructLegacyVariantInventoryMemory con PostgreSQL real es idempotente: un segundo up no agrega ni cambia filas",
+        "status": "passed"
+      },
+      {
+        "name": "ReconstructLegacyVariantInventoryMemory con PostgreSQL real down conserva las filas: la proyección no se puede perder",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1791417600000-CreateProductSuppliers.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "Migración proveedores sobre esquema anterior con datos TypeORM runMigrations conserva literalmente filas previas y no inventa relaciones",
+        "status": "passed"
+      },
+      {
+        "name": "Migración proveedores sobre esquema anterior con datos sin unicidad de nombre y CHECK nombre requerido",
+        "status": "passed"
+      },
+      {
+        "name": "Migración proveedores sobre esquema anterior con datos tipos bigint y PK compuesta, sin versiones de relación",
+        "status": "passed"
+      },
+      {
+        "name": "Migración proveedores sobre esquema anterior con datos rechaza fuera de rango -1/1",
+        "status": "passed"
+      },
+      {
+        "name": "Migración proveedores sobre esquema anterior con datos rechaza fuera de rango 9007199254740992/1",
+        "status": "passed"
+      },
+      {
+        "name": "Migración proveedores sobre esquema anterior con datos rechaza fuera de rango 0/0",
+        "status": "passed"
+      },
+      {
+        "name": "Migración proveedores sobre esquema anterior con datos rechaza fuera de rango 0/9007199254740992",
+        "status": "passed"
+      },
+      {
+        "name": "Migración proveedores sobre esquema anterior con datos rechaza fracciones bigint y mantiene el rango máximo de ambos campos",
+        "status": "passed"
+      },
+      {
+        "name": "Migración proveedores sobre esquema anterior con datos FK rechazan huérfanos y RESTRICT impide borrar proveedor relacionado",
+        "status": "passed"
+      },
+      {
+        "name": "Migración proveedores sobre esquema anterior con datos down protege datos; CASCADE de variante solo elimina relaciones, nunca catálogo",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1788177600000-UpdateInventoryMovementFlow.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "UpdateInventoryMovementFlow con PostgreSQL real migra reason nullable, agrega versión y aplica checks condicionales",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/sync.service.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "SyncService health devuelve el ultimo server_sequence sincronizado",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService parseEspacioCreadoPayload acepta los valores de evento que envia Flutter",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService parseEspacioCreadoPayload mantiene compatibilidad con indices legados",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService parseEspacioCreadoPayload rechaza valores de visibilidad desconocidos",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService pullEvents devuelve eventos sincronizados posteriores al cursor",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService pullEvents marca has_more cuando el servidor devuelve mas de un lote",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService pushEvents despacha categoria_creada y publica el aviso de eventos",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService pushEvents despacha producto_creado al handler de producto",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService pushEvents despacha recurso_inventario_creado y notifica para pull",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService pushEvents despacha categoria_eliminada al handler de categoría",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService pushEvents rechaza recurso_inventario_descartado sin abrir transacción",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService pushEvents informa original_sync_status cuando el duplicado era conflictivo",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService preflightEvents omite consulta de eventos cuando no hay pendientes",
+        "status": "passed"
+      },
+      {
+        "name": "SyncService preflightEvents devuelve eventos impactantes por event_refs y exige pull si rebasa limite",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1790251200000-CreateFinancialCategoriesAndEntries.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "migración de categorías y registros financieros preserva datos previos, crea restricciones/índices y protege downgrade",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1790774400000-AddInventoryOriginAndVariantMemory.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "AddInventoryOriginAndVariantMemory con PostgreSQL real preserva filas, movimientos, saldos, recetas y eventos",
+        "status": "passed"
+      },
+      {
+        "name": "AddInventoryOriginAndVariantMemory con PostgreSQL real deja el origen de los recursos legados en NULL sin inventarlo",
+        "status": "passed"
+      },
+      {
+        "name": "AddInventoryOriginAndVariantMemory con PostgreSQL real siembra memoria solo con evidencia de producto comprobable",
+        "status": "passed"
+      },
+      {
+        "name": "AddInventoryOriginAndVariantMemory con PostgreSQL real el índice de procedencia no es único y no invarian las cascadas",
+        "status": "passed"
+      },
+      {
+        "name": "AddInventoryOriginAndVariantMemory con PostgreSQL real la cascada de variante retira su memoria y conserva el recurso",
+        "status": "passed"
+      },
+      {
+        "name": "AddInventoryOriginAndVariantMemory con PostgreSQL real down retira memoria, índice y columna, y no se ofrece como recuperación",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1790208000000-AddTransferSales.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "migración de transferencias preserva efectivo histórico, restricciones y protege downgrade",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1787140800000-CreateInventoryResources.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "CreateInventoryResources con PostgreSQL real crea recursos y unidades sin modificar las variantes",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/categoria-event.handler.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "CategoriaEventHandler declara los eventos de categoría que puede procesar",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler acepta categoria_creada, la agrega al final y guarda su referencia",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler rechaza colores fuera de la paleta controlada",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler permite guardar nombres duplicados en ids distintos",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler acepta categoria_actualizada y conserva trazabilidad",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler fusiona una edición cuando el servidor cambió otra columna",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler marca conflicto cuando el servidor cambió la misma columna",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler rechaza actualizaciones sin base o con campos no permitidos",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler acepta categoria_movida y actualiza ambas categorías",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler marca conflicto si una posición oficial ya cambió",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler marca conflicto si el movimiento depende de una versión no aceptada",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler acepta categoria_eliminada, hace hard delete, compacta y guarda refs",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler elimina categoría primera y conserva orden consecutivo",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler elimina categoría intermedia y conserva orden consecutivo",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler elimina categoría última y conserva orden consecutivo",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler elimina categoría única y conserva orden consecutivo",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler categoría con producto active=true produce category_linked_products_changed",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler categoría con producto active=false produce category_linked_products_changed",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler mueve productos activos e inactivos, compacta y guarda refs oficiales",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler deja varios productos sin categoría sin modificar active",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler marca cambio del conjunto cuando aparece un producto nuevo",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler marca producto concurrente si cambió su categoría o base",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler marca missing_aggregate si falta un producto confirmado",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler marca concurrent_category_delete si cambió la base del destino",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler destino ausente produce missing_aggregate y destino igual se rechaza",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler marca concurrent_category_delete si cambió la instantánea",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler marca missing_aggregate si la categoría ya no existe",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEventHandler rechaza un payload de eliminación inválido",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/producto-event.handler.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "ProductoEventHandler declara la creación del agregado producto",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler acepta producto_creado y guarda producto, variante y referencias",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler guarda varias variantes, costos y referencias de nombre",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler vincula una variante con un recurso activo y conserva la referencia uses",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler guarda la receta, su referencia y el payload canónico",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler no crea la receta cuando un ingrediente está inactivo",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler rechaza seguimiento por unidad cuando el recurso no usa piezas",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler una colisión de cualquier variant_id no crea proyecciones parciales",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler crea un artículo con venta unit",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler crea un artículo con venta measured",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler rechaza unidad inexistente sin crear proyecciones",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler rechaza unidad inactiva sin crear proyecciones",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler rechaza unidad de conteo sin crear proyecciones",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler rechaza unidad con factor distinto sin crear proyecciones",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler rechaza measured sin unidad",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler rechaza campos medidos bajo unit",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler aplica idempotentemente el mismo evento",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler marca conflicto cuando la categoría dependiente no existe",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler acepta una categoría existente y conserva su referencia uses",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler acepta una categoría oficial sin dependencia de evento",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler acepta dependencia al evento de creación de una categoría local",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler acepta una categoría desplazada por el último movimiento legado",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler acepta una actualización cuyo único cambio es el barcode de la variante",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler rechaza una actualización cuyo before no refleja el barcode persistido",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoEventHandler marca dependency_failed si la base local de categoría no llegó",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/financial-entry-event.handler.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "FinancialEntryEventHandler registra únicamente movimiento_financiero_registrado",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler rechaza el sobre sobre-base-version-invalid.json sin guardar evento",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler rechaza el sobre sobre-base-server-sequence-invalid.json sin guardar evento",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler rechaza el sobre sobre-aggregate-type-invalid.json sin guardar evento",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler rechaza payload inválido sin guardar evento",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler devuelve duplicate preservando el estado original",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler colisión de identidad: conflicto sin ganador y sin sobrescribir",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler dependencia inexistente produce conflicto (sin categoría ni evento)",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler categoría con created_event_id distinto del payload no es oficial",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler evento de creación no sincronizado no habilita la categoría",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler snapshot de dirección distinto a la categoría es un conflicto de clasificación",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler acepta el registro: evento synced, proyección y refs affects/uses",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialEntryEventHandler carrera 23505 resuelve como conflicto controlado sin 500",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1789516800000-AddCashSales.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "migración de ventas crea relaciones sin perder inventario y bloquea downgrade con cobros",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1790035200000-AddCustomerCredit.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "migración de crédito preserva ventas, crea relaciones y protege downgrade con datos",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1790683200000-AddVariantBarcode.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "AddVariantBarcode con PostgreSQL real conserva filas, agrega la columna y valida solo dígitos",
+        "status": "passed"
+      },
+      {
+        "name": "AddVariantBarcode con PostgreSQL real revierte la columna y su check con down",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/inventory-mutation-flow.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "InventoryEventHandler mutations actualiza nombre y después aplica reposición transaccional sin cambiar unidad",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler mutations convierte una base obsoleta en conflicto optimista",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1787745600000-AddDirectVariantInventoryTracking.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "AddDirectVariantInventoryTracking con PostgreSQL real agrega un vínculo opcional, único y protegido contra borrado",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1787227200000-AddProductSaleConfiguration.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "AddProductSaleConfiguration con PostgreSQL real migra productos existentes a unit sin perderlos",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1787400000000-AddAdvancedProductVariants.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "AddAdvancedProductVariants con PostgreSQL real conserva filas, agrega nulls y aplica checks e índice",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1787313600000-RemoveVariantInventoryConfiguration.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "RemoveVariantInventoryConfiguration con PostgreSQL real elimina tabla y columnas de inventario asociadas a variantes",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/inventory-event.handler.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "InventoryEventHandler registra únicamente el alta de recursos de inventario",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler crea recurso, balance y movimiento con delta 250",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler crea recurso, balance y movimiento con delta -250",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler sin cantidad deja balance cero y no crea movimiento",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler rechaza unidad inexistente, inactiva o inválida",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler rechaza unidad inexistente, inactiva o inválida",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryEventHandler rechaza unidad inexistente, inactiva o inválida",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1788264000000-CreateRecipeComponents.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "CreateRecipeComponents con PostgreSQL real crea PK, FKs, límites de cantidad e índice de ingredientes",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/financial-category-event.handler.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "FinancialCategoryEventHandler registra únicamente categoria_financiera_creada",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialCategoryEventHandler rechaza el sobre sobre-base-version-invalid.json sin guardar evento",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialCategoryEventHandler rechaza el sobre sobre-base-server-sequence-invalid.json sin guardar evento",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialCategoryEventHandler rechaza el sobre sobre-aggregate-type-invalid.json sin guardar evento",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialCategoryEventHandler rechaza payload inválido sin guardar evento",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialCategoryEventHandler devuelve duplicate con estado original si el event_id ya existe",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialCategoryEventHandler colisión de identidad produce conflicto sin sobrescribir la fila",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialCategoryEventHandler acepta la categoría: evento synced, proyección y refs canónicas",
+        "status": "passed"
+      },
+      {
+        "name": "FinancialCategoryEventHandler carrera 23505 guarda conflicto controlado sin 500",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/supplier-contracts.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart roundtrip producto_creado",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart roundtrip producto_legado",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart roundtrip producto_medido_con_receta",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart roundtrip producto_sin_proveedores",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart roundtrip proveedor y edición",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart recorta sin NFKC, conserva teléfono y normaliza vacíos, ignorando extras",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto name=1",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto name=true",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto name=[]",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto name={}",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto phone=1",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto phone=true",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto phone=[]",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto phone={}",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto notes=1",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto notes=true",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto notes=[]",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza texto notes={}",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart nombre obligatorio null",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart nombre obligatorio \"\"",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart nombre obligatorio \" \"",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart nombre obligatorio \"\\n\\t\"",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart edición requiere base_event_id",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart edición requiere before",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart edición requiere after",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart base UUID canónica",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_price_minor=null",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_price_minor=\"\"",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_price_minor=\"0\"",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_price_minor=-1",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_price_minor=1.5",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_price_minor=true",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_price_minor=9007199254740992",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_at_ms=null",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_at_ms=\"\"",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_at_ms=\"0\"",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_at_ms=-1",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_at_ms=1.5",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_at_ms=true",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_at_ms=9007199254740992",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza entero JSON quoted_at_ms=0",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart requiere supplier_id",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart requiere quoted_price_minor",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart requiere quoted_at_ms",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza supplier_id null",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza supplier_id \"\"",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza supplier_id \"bad\"",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza supplier_id 1",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart rechaza supplier_id true",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart suppliers explícito inválido null",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart suppliers explícito inválido {}",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart suppliers explícito inválido \"\"",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart suppliers explícito inválido 0",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart suppliers explícito inválido [null]",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart límite seguro completo, fecha sin Date, normalización y listas inmutables",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart duplica proveedor aun normalizando mayúsculas y campos futuros ignorados",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart dependencias supplier missing",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart dependencias supplier extra",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart dependencias supplier duplicate",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart dependencias supplier invalid-id",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart dependencias supplier invalid-event",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart varias variantes comparten proveedor y no admite snapshots parciales",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart retirada conserva before, after vacío y solo requiere la base",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart sameState compara dinero, fecha y presencia independientemente del orden",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart sameEditingBase permite solo promover la base legada vacía",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart constructores de precio y dependencia aplican invariantes",
+        "status": "passed"
+      },
+      {
+        "name": "Contrato suppliers_v1: mismos fixtures canónicos de Dart constructores completos no evaden conocimiento, duplicados ni dependencias",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1788998400000-RemoveVariantDefault.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "eliminación de is_default en PostgreSQL conserva filas y relaciones, admite repetir up y reconstruye la regla anterior al revertir",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/migrations/1788912000000-AddActiveVariantUniqueness.postgres.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "unicidad de variantes activas en PostgreSQL migra constraints previas, permite historial duplicado y mantiene unicidad activa",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/producto-creado.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "ProductoCreadoPayload parsea y serializa canónicamente una y varias variantes",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload acepta un barcode de dígitos y lo conserva al serializar",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload trata barcode ausente o vacío como null y conserva los ceros a la izquierda",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza barcode con letras",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza barcode con signo",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza barcode con decimal",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza barcode con guion bajo",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza barcode con texto mixto",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza barcode con 33 dígitos",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload sigue rechazando un sku informado",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload acepta eventos históricos sin standard_cost_minor como null",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload vincula exactamente un recurso por variante y limpia la dependencia local",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza vínculos sin dependencia y recursos repetidos",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload parsea y serializa canónicamente una receta por variante",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza receta vacía, cantidades inválidas y componentes repetidos",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza receta junto con vínculo directo o sin dependencias exactas",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload comparte vectores NFKC, trim, name_key y referencia con Dart",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload mide 160 puntos de código y rechaza 161",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload acepta standard_cost_minor null",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload acepta standard_cost_minor 0",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload acepta standard_cost_minor 1",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload acepta standard_cost_minor 9007199254740991",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza costo negativo",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload lee eventos anteriores sin conservar is_default ni alterar orden o precios",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza IDs repetidos",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza orden con hueco",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoCreadoPayload rechaza name_key repetido",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/venta-confirmada.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "VentaConfirmadaPayload transfer lee efectivo legado sin referencia y conserva cambio",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer normaliza undefined",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer normaliza null",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer normaliza ",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer normaliza   ",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer normaliza   BANK-1  ",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer normaliza xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"payment_method\":\"card\"}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"received_minor\":10001,\"change_minor\":1}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"received_minor\":9999}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"change_minor\":1}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"change_minor\":-1}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"total_minor\":10}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"received_minor\":10.5}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"received_minor\":9007199254740992}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"payment_reference\":45}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"payment_reference\":\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"payment_id\":null}",
+        "status": "passed"
+      },
+      {
+        "name": "VentaConfirmadaPayload transfer rechaza {\"currency\":\"USD\"}",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/movimiento-financiero-registrado.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) parsea un registro cash canónico",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) parsea transfer con referencia y registro de ingreso",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) normaliza notas/referencia vacías o de solo espacios a null",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) acepta 500 code points en notas y el mayor importe seguro",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) entry-notas-501-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) entry-monto-cero-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) entry-monto-negativo-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) entry-monto-fraccionario-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) entry-monto-superior-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) entry-moneda-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) entry-metodo-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) entry-occurred-cero-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) entry-category-id-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "MovimientoFinancieroRegistradoPayload (fixtures del contrato) acepta dirección/naturaleza que solo difieren de la categoría (decisiones del handler)",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/recurso-inventario-descartado.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "RecursoInventarioDescartadoPayload declara el agregado y la política admitida",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload lee y reemite el descarte válido",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload acepta el sobre completo sin declarar referencias de entrega",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload no incluye inventory_item_id en el payload",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload rechaza campos desconocidos",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload rechaza policy_version distinta de 1 en descarte/descarte-policy-version-cero.json",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload rechaza policy_version distinta de 1 en descarte/descarte-policy-version-invalida.json",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload exige policy_version",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload exige base_event_id",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload exige trigger_product_id",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload exige trigger_product_event_id",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload exige origin_variant_id",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload rechaza que el disparador sea el alta del recurso",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload rechaza procedencia no v4",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioDescartadoPayload no declara referencias de entrega",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/recurso-inventario-creado.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "RecursoInventarioCreadoPayload acepta payload sin movimiento y normaliza NFKC",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload acepta delta atómico entero 250",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload acepta delta atómico entero -250",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload rechaza cantidad inválida 0",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload rechaza cantidad inválida 1.5",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload rechaza cantidad inválida 9007199254740992",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload rechaza movimiento sin motivo",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload rechaza UUID inválidos",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload · origin_variant_id lee y reemite la procedencia del recurso autogenerado",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload · origin_variant_id omite la clave en recursos independientes",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload · origin_variant_id lee como desconocido el alta legada sin procedencia",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload · origin_variant_id acepta el sobre del alta autogenerada con la misma procedencia",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload · origin_variant_id rechaza procedencia inválida en alta/alta-autogenerada-origen-no-string.json",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload · origin_variant_id rechaza procedencia inválida en alta/alta-autogenerada-origen-no-uuid.json",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload · origin_variant_id rechaza el alta legada con UUID no v4 sin degradarla a null",
+        "status": "passed"
+      },
+      {
+        "name": "RecursoInventarioCreadoPayload · origin_variant_id no declara referencias de entrega en el servidor",
+        "status": "passed"
+      },
+      {
+        "name": "readOriginVariantId trata ausencia y null como desconocido",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/producto-actualizado.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "ProductoActualizadoPayload normaliza cambios y conserva null para quitar costo",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoActualizadoPayload borrado explícito conserva base, serializa y rechaza estados adulterados",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoActualizadoPayload normaliza flags legados en ambos snapshots sin afectar la actualización",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoActualizadoPayload rechaza cambios de forma de venta",
+        "status": "passed"
+      },
+      {
+        "name": "ProductoActualizadoPayload permite retirar variantes e incorporar nuevas y rechaza bases inválidas",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/categoria-eliminada.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "CategoriaEliminadaPayload parsea y produce el payload canónico",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEliminadaPayload parsea move y uncategorize con productos canónicos",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEliminadaPayload rechaza delete, productos inválidos y orden inválido",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEliminadaPayload rechaza duplicados, bases inválidas y destino incompatible",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaEliminadaPayload ignora campos adicionales conocidos por versiones futuras",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/categoria-financiera-creada.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) payload-renta-valid.json se parsea y serializa canónicamente",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) payload-aportacion-valid.json se parsea y serializa canónicamente",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) payload-nombre-100-valid.json se parsea y serializa canónicamente",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) normaliza NFKC+trim antes de validar longitud",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) payload-nombre-101-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) payload-nombre-vacio-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) payload-nombre-no-string-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) payload-direction-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) payload-direction-ausente-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) payload-nature-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) payload-nature-incompatible-invalid.json se rechaza con error canónico",
+        "status": "passed"
+      },
+      {
+        "name": "CategoriaFinancieraCreadaPayload (fixtures del contrato) rechaza sobres con aggregate_type ajeno (pares del contrato §6.1)",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/inventory-movement.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "InventoryMovementPayload acepta initial_balance positivo sin motivo",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryMovementPayload acepta stock_receipt positivo sin motivo",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryMovementPayload normaliza NFKC y exige motivo para manual_adjustment",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryMovementPayload rechaza combinación inválida 0",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryMovementPayload rechaza combinación inválida 1",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryMovementPayload rechaza combinación inválida 2",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryMovementPayload rechaza combinación inválida 3",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryMovementPayload rechaza combinación inválida 4",
+        "status": "passed"
+      },
+      {
+        "name": "InventoryMovementPayload reversal requiere una referencia diferente y los demás tipos la prohíben",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/cliente-creado.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "ClienteCreadoPayload normaliza nombre y teléfono conservando prefijos y ceros",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload acepta teléfono opcional undefined",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload acepta teléfono opcional null",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload acepta teléfono opcional \"\"",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload acepta teléfono opcional \"   \"",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza nombre inválido undefined",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza nombre inválido null",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza nombre inválido \"\"",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza nombre inválido \" \"",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza nombre inválido 123",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza nombre inválido {}",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza nombre inválido []",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza teléfono no textual 123",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza teléfono no textual {}",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza teléfono no textual []",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteCreadoPayload rechaza teléfono no textual true",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/cliente-actualizado.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "ClienteActualizadoPayload normaliza y conserva el contrato de ida y vuelta",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteActualizadoPayload rechaza entradas inválidas {\"after\": [Object], \"base_event_id\": \"\", \"before\": [Object]}",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteActualizadoPayload rechaza entradas inválidas {\"after\": [Object], \"base_event_id\": \"320b082b-2a97-443d-8386-02a57c401448\", \"before\": null}",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteActualizadoPayload rechaza entradas inválidas {\"after\": [Array], \"base_event_id\": \"320b082b-2a97-443d-8386-02a57c401448\", \"before\": [Object]}",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteActualizadoPayload rechaza entradas inválidas {\"after\": [Object], \"base_event_id\": \"320b082b-2a97-443d-8386-02a57c401448\", \"before\": [Object]}",
+        "status": "passed"
+      },
+      {
+        "name": "ClienteActualizadoPayload rechaza entradas inválidas {\"after\": [Object], \"base_event_id\": \"320b082b-2a97-443d-8386-02a57c401448\", \"before\": [Object]}",
+        "status": "passed"
+      }
+    ]
+  },
+  {
+    "file": "src/sync/payloads/inventory-item-mutation.payload.spec.ts",
+    "status": "passed",
+    "tests": [
+      {
+        "name": "payloads mutables de inventario actualiza únicamente name y normaliza NFKC",
+        "status": "passed"
+      },
+      {
+        "name": "payloads mutables de inventario rechaza campos mutables distintos del nombre",
+        "status": "passed"
+      },
+      {
+        "name": "payloads mutables de inventario decodifica un stock_receipt sin motivo",
+        "status": "passed"
+      }
+    ]
+  }
+]

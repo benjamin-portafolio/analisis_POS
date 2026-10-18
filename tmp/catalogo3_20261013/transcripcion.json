@@ -1,0 +1,235 @@
+{
+  "source": "catalogo3.pdf",
+  "sale_basis": "pieza, confirmado por el usuario; paquetes de panificados conservan la presentación de venta de la lista",
+  "groups": [
+    {"page": 1, "brand": "Bimbo", "section": "Pan dulce", "validity": "Desde 11 de agosto de 2025", "rows": [
+      ["Bimbuñuelos 6 p 99 g (Canela)",18.26,22],
+      ["Colchones 6 p 130 g",13.28,16],
+      ["Concha Vainilla 1 p 60 g",8.30,10],
+      ["Conchas 2 p 120 g",16.60,20],
+      ["Crossantines Choco 1 p 32 g",6.64,8],
+      ["Crossantines Choco 3 p 96 g",16.60,20],
+      ["Donas Azucaradas 6 p 158 g",18.26,22],
+      ["Doners 120 g",20.75,25],
+      ["Donitas Espolvoreadas 52.5 g",8.30,10],
+      ["Donitas Espolvoreadas 8 p 140 g",18.26,22],
+      ["Dúo Nito 124 g",23.52,28],
+      ["Hotkis Cajeta 1 p 38 g",6.64,8],
+      ["Little Bites Chispas 69 g",12.45,15],
+      ["Madalenas 3 p 93 g",18.26,22],
+      ["Mantecadas Vainilla 2 p 62.5 g",9.96,12],
+      ["Mantecadas Chispas de Chocolate 190 g",26.56,32],
+      ["Mantecadas 6 p",26.56,32,{"variants":["Nuez 184 g","Vainilla 188 g"],"original":"Mantecadas Nuez 6 p 184 g / Vainilla 6 p 188 g"}],
+      ["Mantechox Hershey's 2 p 80 g",12.45,15],
+      ["Nito 1 p 62 g",14.11,17],
+      ["Panqué 280 g",34.86,42,{"variants":["Mármol","Pasas","Nuez"],"original":"Panqué Mármol, Pasas y Nuez 280 g"}],
+      ["Panquecitos Gota de Chocolate 2 p 140 g",18.26,22],
+      ["Rebanadas 55 g",8.30,10],
+      ["Roles Canela 3 p 180 g",20.75,25],
+      ["Roles Glass 3 p 205 g",20.75,25],
+      ["Roles Canela 6 p 365 g",34.86,42]
+    ]},
+    {"page":1,"brand":"Bimbo","section":"Bimbo panes y bollería","validity":"Desde 11 de agosto de 2025","rows":[
+      ["Bimbollos 8 p 450 g",43.16,52],
+      ["Bimbollos Brioche 6 p 465 g",53.12,64],
+      ["Bimbollos Súper 6 p 480 g",44.82,54],
+      ["Bimbollos Parrilleros 6 p 516 g",46.48,56],
+      ["Bollos Súper 12 p 960 g",74.70,90],
+      ["Medias Noches 8 p 340 g",38.18,46],
+      ["Pan Artesano 567 g",43.16,52],
+      ["Pan Blanco 300 g (Barrilito)",20.75,25],
+      ["Pan Blanco Grande 620 g",40.67,49],
+      ["Pan Cero Cero 610 g",53.12,64],
+      ["Pan Integral 300 g (Barrilito)",23.24,28],
+      ["Pan Integral Grande 620 g",43.16,52],
+      ["Pan Linaza 610 g",51.46,62],
+      ["Pan Multigrano Cero Cero 610 g",53.12,64]
+    ]},
+    {"page":1,"brand":"Bimbo","section":"Secos y molidos","validity":"Desde 11 de agosto de 2025","rows":[
+      ["Mini Pan Tostado Mantequilla 115 g",20.75,25],
+      ["Molido Clásico 210 g",23.24,28],
+      ["Molido Clásico 400 g",33.20,40],
+      ["Molido Crujiente 175 g",23.24,28],
+      ["Tostado Brioche 14 p 210 g",29.88,36],
+      ["Tostado Clásico 210 g",28.22,34],
+      ["Tostado Doble Fibra 250 g",29.88,36],
+      ["Tostado Integral 250 g",29.88,36]
+    ]},
+    {"page":1,"brand":"Bimbo","section":"Barras","validity":"Desde 11 de agosto de 2025","rows":[
+      ["Bran Frut 58 g",9.96,12,{"variants":["Fresa","Piña"],"original":"Bran Frut Fresa / Piña 58 g"}],
+      ["Bran Frut Granos Ancestrales 60 g",9.96,12],
+      ["Bran Frut Cheesecake 58 g",9.96,12],
+      ["Multigrano Linaza 32 g",9.96,12],
+      ["Multigrano Nuez 34 g",9.96,12],
+      ["Fruit Grain Salvfresa 67 g",12.45,15],
+      ["Fruit Grain Strudel Manzana 1 p 65 g",9.96,12]
+    ]},
+    {"page":1,"brand":"Wonder","section":"Wonder pasteles","validity":"Desde 11 de agosto de 2025","rows":[
+      ["Chocotorro 50 g / Dálmata 55 g",12.45,15,{"products":["Wonder Chocotorro 50 g","Wonder Dálmata 55 g"]}],
+      ["Mini Chocotorro 1 p 24 g",5.81,7],
+      ["Twinkies 3 p 114 g",15.77,19,{"variants":["Vainilla","Chocolate"],"original":"Twinkies 3 p Vainilla y Chocolate 114 g"}]
+    ]},
+    {"page":1,"brand":"Wonder","section":"Wonder panes y bollería","validity":"Desde 11 de agosto de 2025","rows":[
+      ["Hot Dogs 8 p 340 g",39.84,48],
+      ["Súper Bollos 8 p 540 g",53.95,65],
+      ["Súper Hot Dogs 8 p 526 g",48.14,58],
+      ["Integral 100% con Ajonjolí 567 g",46.48,56],
+      ["Súper Pan Blanco con Ajonjolí 567 g",44.82,54]
+    ]},
+    {"page":1,"brand":"Tía Rosa","section":"Tortillas","validity":"Desde 11 de agosto de 2025","rows":[
+      ["Tortilla de Harina 15 p 300 g DH",15.12,18,{"product":"Del Hogar Tortilla de Harina 15 p 300 g"}],
+      ["Tortillinas 15 p 382.5 g TR",20.75,25,{"product":"Tía Rosa Tortillinas 15 p 382.5 g"}],
+      ["Tortillinas 22 p 561 g TR",31.54,38,{"product":"Tía Rosa Tortillinas 22 p 561 g"}],
+      ["Tortillinas 30 p 765 g TR",41.50,50,{"product":"Tía Rosa Tortillinas 30 p 765 g"}],
+      ["Tortillinas Parrilleras 10 p 290 g",24.90,30]
+    ]},
+    {"page":1,"brand":"Del Hogar / Milpa Real","section":"Tostadas - totopos - salsas","validity":"Desde 11 de agosto de 2025","rows":[
+      ["Tostada Ondulada 30 p 360 g MR",30.34,37,{"product":"Milpa Real Tostada Ondulada 30 p 360 g"}],
+      ["Tostada Plana 15 p 175 g MR",21.32,26,{"product":"Milpa Real Tostada Plana 15 p 175 g"}],
+      ["Totopos Chilaquiles 280 g MR",26.24,32,{"product":"Milpa Real Totopos Chilaquiles 280 g"}],
+      ["Totopos Chilaquiles 500 g MR",41.00,50,{"product":"Milpa Real Totopos Chilaquiles 500 g"}],
+      ["Totopos 280 g DH",24.60,30,{"product":"Del Hogar Totopos 280 g"}],
+      ["Salsa 240 g",16.80,20,{"product":"Salsa 240 g","variants":["Mora","Chile de Árbol","Verde","Taquera"],"original":"Salsa Mora, Chile de Árbol, Verde, Taquera 240 g","note":"La lista agrupa Del Hogar y Milpa Real; no asigna explícitamente una marca a las salsas."}]
+    ]},
+    {"page":1,"brand":"Oroweat","section":"Oroweat","validity":"Desde 11 de agosto de 2025","rows":[
+      ["100% Integral 680 g",65.60,80],
+      ["12 Granos 680 g",65.60,80],
+      ["Mantequilla ButterMilk 680 g",65.60,80],
+      ["Multigrano 680 g",65.60,80],
+      ["Thins Multigrano 6 p 255 g",28.70,35]
+    ]},
+    {"page":1,"brand":"Sanissimo","section":"Sanissimo","validity":"Desde 11 de agosto de 2025","rows":[
+      ["Galleta de Arroz y Quinoa 1 p 12 g",6.48,8],
+      ["Rosquitas Horneadas 20 g",12.15,15],
+      ["Salmas 90 g",17.82,22],
+      ["Flow Pack Salmas 8 p 144 g",25.11,31],
+      ["Tostada Clásica 216 g",29.16,36],
+      ["Tostaditas Horneadas 20 p 160 g",21.87,27]
+    ]},
+    {"page":2,"brand":"Coca-Cola","section":"Retornables","validity":"Marzo de 2026","rows":[
+      ["CC 235 ml",210,10,{"product":"Coca-Cola 235 ml","variants":["Vidrio retornable"],"units":24,"pack":"Vidrio Ret","utility":30}],
+      ["CC 500 ml",316,15,{"product":"Coca-Cola 500 ml","variants":["Vidrio retornable"],"units":24,"pack":"Vidrio Ret","utility":44}],
+      ["CC 1.5 L",255,24,{"product":"Coca-Cola 1.5 L","variants":["PET retornable"],"units":12,"pack":"Pet Ret","utility":33}],
+      ["CC 2.5 L",245,35,{"product":"Coca-Cola 2.5 L","variants":["PET retornable"],"units":8,"pack":"Pet Ret","utility":35}]
+    ]},
+    {"page":2,"brand":"Coca-Cola","section":"Colas personales","validity":"Marzo de 2026","rows":[
+      ["CC 235 ml",103,10,{"product":"Coca-Cola 235 ml","variants":["PET no retornable"],"units":12,"pack":"Pet NR","utility":17}],
+      ["CC 235 ml",378,18,{"product":"Coca-Cola 235 ml","variants":["Vidrio no retornable"],"units":24,"pack":"Vidrio NR","utility":54}],
+      ["CC 355 ml",461,22,{"product":"Coca-Cola 355 ml","variants":["Lata"],"units":24,"pack":"Lata","utility":67}],
+      ["CC 355 ml",314,15,{"product":"Coca-Cola 355 ml","variants":["PET no retornable"],"units":24,"pack":"Pet NR","utility":46}],
+      ["CC 500 ml",210,20,{"product":"Coca-Cola 500 ml","variants":["PET no retornable"],"units":12,"pack":"Pet NR","utility":30}],
+      ["CC 600 ml",464,22,{"product":"Coca-Cola 600 ml","variants":["PET no retornable"],"units":24,"pack":"Pet NR","utility":64,"note":"Coste impreso 464.00; anotación manuscrita parece 435. Se usa el impreso: 24 × 22 - 464 = 64, igual a la utilidad de la lista."}]
+    ]},
+    {"page":2,"brand":"Coca-Cola","section":"Colas familiares","validity":"Marzo de 2026","rows":[
+      ["CC 1 L",284,27,{"product":"Coca-Cola 1 L","variants":["PET no retornable"],"units":12,"pack":"Pet NR","utility":40}],
+      ["CC 1.5 L",336,32,{"product":"Coca-Cola 1.5 L","variants":["PET no retornable"],"units":12,"pack":"Pet NR","utility":48}],
+      ["CC 2 L",318,40,{"product":"Coca-Cola 2 L","variants":["PET no retornable"],"units":9,"pack":"Pet NR","utility":42}],
+      ["CC 2.5 L",336,43,{"product":"Coca-Cola 2.5 L","variants":["PET no retornable"],"units":9,"pack":"Pet NR","utility":51}],
+      ["CC 3 L",420,53,{"product":"Coca-Cola 3 L","variants":["PET no retornable"],"units":9,"pack":"Pet NR","utility":57}]
+    ]},
+    {"page":2,"brand":"Coca-Cola","section":"Colas no calóricos","validity":"Marzo de 2026","rows":[
+      ["CC Light 355 ml",464,22,{"product":"Coca-Cola Light 355 ml","variants":["Lata"],"units":24,"pack":"Lata","utility":64}],
+      ["CC Light 600 ml",232,22,{"product":"Coca-Cola Light 600 ml","variants":["PET no retornable"],"units":12,"pack":"Pet NR","utility":32}],
+      ["CC Light 2 L",212,40,{"product":"Coca-Cola Light 2 L","variants":["PET no retornable"],"units":6,"pack":"Pet NR","utility":28}],
+      ["CC Zero 300 ml",92,9,{"product":"Coca-Cola Zero 300 ml","variants":["PET no retornable"],"units":12,"pack":"Pet NR","utility":16}],
+      ["CC Zero 355 ml",232,22,{"product":"Coca-Cola Zero 355 ml","variants":["Lata"],"units":12,"pack":"Lata","utility":32}],
+      ["CC Zero 355 ml",137,13,{"product":"Coca-Cola Zero 355 ml","variants":["PET no retornable"],"units":12,"pack":"Pet NR","utility":19}],
+      ["CC Zero 600 ml",105.5,20,{"product":"Coca-Cola Zero 600 ml","variants":["PET no retornable"],"units":6,"pack":"Pet NR","utility":14.5}],
+      ["CC Zero 1.5 L",147,28,{"product":"Coca-Cola Zero 1.5 L","variants":["PET no retornable"],"units":6,"pack":"Pet NR","utility":21}],
+      ["CC Zero 2 L",134,38,{"product":"Coca-Cola Zero 2 L","variants":["PET no retornable"],"units":4,"pack":"Pet NR","utility":18}]
+    ]},
+    {"page":2,"brand":"Refrescos","section":"Sabores retornables","validity":"Marzo de 2026","rows":[
+      ["Sabores 500 ml",265,13,{"product":"Refrescos de Sabores 500 ml","variants":["Vidrio retornable"],"units":24,"pack":"Vidrio Ret","utility":47,"note":"La lista agrupa sabores y marcas; no especifica cada sabor. Entrada genérica por presentación."}],
+      ["Sabores + VF + CCZ 2.5 L",189,27,{"product":"Refrescos Sabores / VF / CCZ 2.5 L","variants":["PET retornable"],"units":8,"pack":"Pet Ret","utility":27,"note":"Se conserva la agrupación y las siglas de la lista; no se inventan marcas o sabores."}]
+    ]},
+    {"page":2,"brand":"Refrescos","section":"Sabores no retornables","validity":"Marzo de 2026","rows":[
+      ["Sabores 300 ml",46,9,{"product":"Refrescos de Sabores 300 ml","variants":["PET no retornable"],"units":6,"pack":"Pet NR","utility":8,"note":"Entrada genérica: marcas y sabores individuales no enumerados."}],
+      ["Sabores Sin Azúcar 300 ml",46,9,{"product":"Refrescos de Sabores Sin Azúcar 300 ml","variants":["PET no retornable"],"units":6,"pack":"Pet NR","utility":8,"note":"Entrada genérica: marcas y sabores individuales no enumerados."}],
+      ["Sabores 355 ml",114,22,{"product":"Refrescos de Sabores 355 ml","variants":["Lata"],"units":6,"pack":"Lata","utility":18,"note":"Entrada genérica: marcas y sabores individuales no enumerados."}],
+      ["Sab + Delaware + VF 600 ml",202,20,{"product":"Refrescos Sabores / Delaware / VF 600 ml","variants":["PET no retornable"],"units":12,"pack":"Pet NR","utility":38,"note":"La lista agrupa Sab + Delaware + VF; no enumera los sabores."}],
+      ["Sabores 2 L",104,30,{"product":"Refrescos de Sabores 2 L","variants":["PET no retornable"],"units":4,"pack":"Pet NR","utility":16,"note":"Entrada genérica: marcas y sabores individuales no enumerados."}],
+      ["Sabores 3 L",138,40,{"product":"Refrescos de Sabores 3 L","variants":["PET no retornable"],"units":4,"pack":"Pet NR","utility":22,"note":"Entrada genérica: marcas y sabores individuales no enumerados."}]
+    ]},
+    {"page":2,"brand":"Ciel","section":"Agua purificada","validity":"Marzo de 2026","rows":[
+      ["Ciel Purificada 355 ml",156,8,{"product":"Ciel Purificada 355 ml","units":24,"pack":"Pet NR","utility":36}],
+      ["Ciel Purificada 600 ml",240,12,{"product":"Ciel Purificada 600 ml","units":24,"pack":"Pet NR","utility":48}],
+      ["Ciel Purificada 1 L",140,14,{"product":"Ciel Purificada 1 L","units":12,"pack":"Pet NR","utility":28}],
+      ["Ciel Purificada 1.5 L",171,17,{"product":"Ciel Purificada 1.5 L","units":12,"pack":"Pet NR","utility":33}],
+      ["Ciel Purificada 5 L",133,38,{"product":"Ciel Purificada 5 L","units":4,"pack":"Pet NR","utility":19}],
+      ["Ciel Exprim 0% Azúcar 1 L",84,17,{"product":"Ciel Exprim 0% Azúcar 1 L","units":6,"pack":"Pet NR","utility":18}]
+    ]},
+    {"page":2,"brand":"Ciel / Topo Chico","section":"Agua mineralizada","validity":"Marzo de 2026","rows":[
+      ["Ciel Mineralizada 355 ml",114,22,{"product":"Ciel Mineralizada 355 ml","units":6,"pack":"Lata","utility":18}],
+      ["Ciel Mineralizada 600 ml",180,19,{"product":"Ciel Mineralizada 600 ml","units":12,"pack":"Pet NR","utility":48}],
+      ["Ciel Mineralizada 2 L",97,28,{"product":"Ciel Mineralizada 2 L","units":4,"pack":"Pet NR","utility":15}],
+      ["Topo Chico 600 ml",216,21,{"product":"Topo Chico 600 ml","units":12,"pack":"Pet NR","utility":36}],
+      ["Topo Chico Twist 600 ml",113,22,{"product":"Topo Chico Twist 600 ml","units":6,"pack":"Pet NR","utility":19}],
+      ["Topo Chico 1.5 L",149,29,{"product":"Topo Chico 1.5 L","units":6,"pack":"Pet NR","utility":25}]
+    ]},
+    {"page":2,"brand":"Bebidas","section":"Bebidas no carbonatadas","validity":"Marzo de 2026","rows":[
+      ["FUZE TEA 600 ml",115,23,{"product":"Fuze Tea 600 ml","units":6,"pack":"Pet NR","utility":23}],
+      ["PowerADE 1 L",173,34,{"product":"Powerade 1 L","units":6,"pack":"Pet NR","utility":31}],
+      ["PowerADE 500 ml",119,24,{"product":"Powerade 500 ml","units":6,"pack":"Pet NR","utility":25}],
+      ["PowerADE 600 ml",128,26,{"product":"Powerade 600 ml","units":6,"pack":"Pet NR","utility":28}],
+      ["Flashlyte Suero 625 ml",109,22,{"product":"Flashlyte Suero 625 ml","units":6,"pack":"Pet NR","utility":23}]
+    ]},
+    {"page":2,"brand":"Jugos","section":"Jugos y néctares","validity":"Marzo de 2026","rows":[
+      ["Del Valle 237 ml",120,12,{"product":"Del Valle 237 ml","units":12,"pack":"Pet NR","utility":24}],
+      ["Del Valle 413 ml",213,20,{"product":"Del Valle 413 ml","units":12,"pack":"Vidrio NR","utility":27}],
+      ["Frutsi 250 ml",53,11,{"product":"Frutsi 250 ml","units":6,"pack":"Pet NR","utility":13}],
+      ["Del Valle 1 L",160,32,{"product":"Del Valle 1 L","units":6,"pack":"Pet NR","utility":32}],
+      ["Valle Frut 600 ml",202,20,{"product":"Valle Frut 600 ml","units":12,"pack":"Pet NR","utility":38}],
+      ["Valle Frut 2 L",155,31,{"product":"Valle Frut 2 L","units":6,"pack":"Pet NR","utility":31}],
+      ["Valle Frut 3 L",206,41,{"product":"Valle Frut 3 L","units":6,"pack":"Pet NR","utility":40}]
+    ]},
+    {"page":2,"brand":"Santa Clara","section":"Lácteos","validity":"Marzo de 2026","rows":[
+      ["UHT Sta. C. 1 L Entera, Light, Semi",174,31,{"product":"Santa Clara Leche UHT 1 L","variants":["Entera","Light","Semi"],"units":6,"pack":"TetraPack","utility":12}],
+      ["UHT Sta. Clara 1 L Deslactosada",180,32,{"product":"Santa Clara Leche UHT 1 L","variants":["Deslactosada"],"units":6,"pack":"TetraPack","utility":12}],
+      ["UHT Santa Clara 180 ml",48,13,{"product":"Santa Clara UHT 180 ml","units":4,"pack":"TetraPack","utility":4}],
+      ["UHT Santa Clara 250 ml",106,20,{"product":"Santa Clara UHT 250 ml","units":6,"pack":"Pet NR","utility":14}]
+    ]},
+    {"page":2,"brand":"Ades","section":"Bebidas de soya","validity":"Marzo de 2026","rows":[
+      ["Ades Soya Frutal 200 ml",37,11,{"product":"Ades Soya Frutal 200 ml","units":4,"pack":"TetraPack","utility":7}],
+      ["Ades Soya Milk Almendra 946 ml",110,42,{"product":"Ades Soya Milk Almendra 946 ml","units":3,"pack":"TetraPack","utility":16}],
+      ["Ades Soya Milk Nat 946 ml",86,34,{"product":"Ades Soya Milk Natural 946 ml","units":3,"pack":"TetraPack","utility":16}]
+    ]},
+    {"page":2,"brand":"Energéticos","section":"Energéticos","validity":"Marzo de 2026","rows":[
+      ["Monster 473 ml",134,41,{"product":"Monster 473 ml","units":4,"pack":"Lata","utility":30}],
+      ["Predator 473 ml",105,22,{"product":"Predator 473 ml","units":6,"pack":"Lata","utility":27}]
+    ]},
+    {"page":2,"brand":"Bebidas alcohólicas","section":"Bebidas alcohólicas","validity":"Marzo de 2026","rows":[
+      ["Bacardí 473 ml",168,35,{"product":"Bacardí 473 ml","units":6,"pack":"Lata","utility":42}],
+      ["Topo Chico Paloma / Cantarito 473 ml",164,34,{"product":"Topo Chico 473 ml","variants":["Paloma","Cantarito"],"units":6,"pack":"Lata","utility":40}]
+    ]},
+    {"page":3,"brand":"Danone","section":"Danone","validity":"Desde 7 de septiembre de 2026","rows":[
+      ["Dany 125 g",8.8,11,{"product":"Dany 125 g"}],
+      ["Dany Pouch 125 g",13.2,16,{"product":"Dany Pouch 125 g"}],
+      ["Danette Flan 200 g (Par)",20.8,13,{"product":"Danette Flan - pieza de par 200 g","units":2,"pack":"Par","note":"Venta por pieza. Los 200 g identifican el par de origen; no se presume el peso de cada pieza."}],
+      ["Gelatina Leche (Par)",24.4,15,{"product":"Danone Gelatina Leche - pieza de par","units":2,"pack":"Par","note":"Venta por pieza; la lista no indica gramaje."}],
+      ["Danette Natilla 100 g (Par)",25.2,15,{"product":"Danette Natilla - pieza de par 100 g","units":2,"pack":"Par","note":"Venta por pieza. Se conserva el gramaje como referencia de la presentación indicada en la lista."}],
+      ["Danonino Maxi 336 g (Cuadro)",35.3,11,{"product":"Danonino Maxi - pieza de cuadro 336 g","units":4,"pack":"Cuadro","note":"Venta por pieza. Los 336 g identifican el multipaquete de origen."}],
+      ["Danonino 168 g (Cuadro)",25.6,8,{"product":"Danonino - pieza de cuadro 168 g","units":4,"pack":"Cuadro","note":"Venta por pieza. Los 168 g identifican el multipaquete de origen."}],
+      ["Danonino Pouch 70 g",12.2,15,{"product":"Danonino Pouch 70 g"}],
+      ["Danonino Bebible 90 g",8.2,10,{"product":"Danonino Bebible 90 g"}],
+      ["Danonino Bebible 170 g",10.4,13,{"product":"Danonino Bebible 170 g"}],
+      ["Danup 220 g",15.2,19,{"product":"Danup 220 g"}],
+      ["Danup 350 g",19.4,24,{"product":"Danup 350 g"}],
+      ["Danup 435 g",21.9,27,{"product":"Danup 435 g"}],
+      ["Danone Licuado 475 g",21.9,27,{"product":"Danone Licuado 475 g","note":"Descripción próxima al texto superpuesto del pie; se lee Licuado 475 g."}],
+      ["Activia 225 g",15.8,19,{"product":"Activia 225 g"}],
+      ["Benegastro 240 g",16.6,20,{"product":"Benegastro 240 g"}],
+      ["Danone 220 g",15.2,19,{"product":"Danone 220 g"}],
+      ["Danone Bipack 140 g",13.7,17,{"product":"Danone Bipack 140 g","pack":"Bipack","note":"Se conserva el bipack como unidad de venta: la lista ya indica 17.00 por pieza para esta presentación; no incluye la marca Par o Cuadro."}],
+      ["Danone Fruta 240 g (Par)",7.2,9,{"product":"Danone Fruta - pieza de par 240 g","units":2,"pack":"Par","note":"REVISAR: la lista muestra 7.20 y Par. Se divide entre 2 conforme al criterio confirmado; coste 3.60 por pieza. Confirmar si el proveedor ya cotiza 7.20 por pieza."}],
+      ["Griegos 120 g",8.9,11,{"product":"Danone Griegos 120 g"}],
+      ["Oikos Selecto 220 g",18.3,23,{"product":"Oikos Selecto 220 g"}],
+      ["Oikos Pro 220 g",24,30,{"product":"Oikos Pro 220 g"}],
+      ["Oikos Pro UHT 300 ml",24,30,{"product":"Oikos Pro UHT 300 ml"}],
+      ["Oikos 125 g",13.8,17,{"product":"Oikos 125 g"}],
+      ["Danmix 110 g",19.7,24,{"product":"Danmix 110 g"}],
+      ["Leche Hershey's 200 ml",14,17,{"product":"Leche Hershey's 200 ml"}],
+      ["Ocean Spray 1 L",35,43,{"product":"Ocean Spray 1 L"}],
+      ["Silk 946 ml",48,57,{"product":"Silk 946 ml"}]
+    ]}
+  ]
+}

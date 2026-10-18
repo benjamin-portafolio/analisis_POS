@@ -1,0 +1,21 @@
+{
+  "fecha_consulta": "2026-10-16",
+  "metodo": "Precio regular publicado por una tienda mexicana para una bolsa de la presentación indicada. No representa una tarifa nacional ni un precio sugerido oficial del fabricante. Se excluyen envíos, mayoreo, paquetes y descuentos. Se conserva el precio anterior cuando no hay una referencia actual para el mismo producto y gramaje.",
+  "referencias": [
+    {"barcode":"7500810000441","grams":70,"price":23,"shop":"Mercados Natura","url":"https://mercadosnatura.com/product/takis-original-70g-barcel","status":"Precio al público consultado","note":"También se consultó Fénix: $22.80 para el mismo código y presentación."},
+    {"barcode":"7500810000502","grams":70,"price":22,"shop":"Super D Todo","url":"https://superdtodo.com/product/takis-salsa-brava-70-gr","status":"Precio al público consultado","note":"Otras referencias del mismo código: H&H $20.00 y Fénix $22.80. Se usa el precio publicado de Super D Todo."},
+    {"barcode":"7500810028353","grams":70,"price":22,"shop":"Maxder","url":"https://maxder.mx/maxder/compras/producto/takis-blue-heat-70g/7500810028353-8288/","status":"Precio al público consultado","note":"Fénix publica $22.80 para el mismo código y presentación."},
+    {"barcode":"7500810013564","grams":45,"price":20,"shop":"Super Farmacias Macvar","url":"https://store13343.store.link/product/sp-barcel-pop-queso-cheddar-45-gr-popsenque45g-7500810013564/","status":"Precio regular identificado","note":"Precio regular $20.00. La página también muestra una oferta de $19.00; no se usó el descuento."},
+    {"barcode":"7500810027813","grams":45,"price":18.50,"shop":"Fénix","url":"https://superfenix.mx/producto/papas-fritas-barcel-toreadas-chile-habanero-45-g/","status":"Precio regular consultado","note":"Precio regular y precio actual de la tienda coinciden: $18.50."},
+    {"barcode":"7500810027646","grams":65,"price":23,"shop":"Farmacia Coyoacán","url":"https://farmaciacoyoacan.com/products/chipotle-65g","status":"Precio publicado; sin existencias","note":"La tienda publica $23.00 y muestra el artículo agotado. Es una referencia de precio, no una confirmación de disponibilidad."},
+    {"barcode":"7500810027820","grams":72,"price":22,"shop":"El Mexicano en línea","url":"https://elmexicanoenlinea.com/collections/types?q=frituras","status":"Precio al público consultado","note":"La ficha de la colección identifica Runners Fuego 72 g. El código proviene de la fuente de identificación original; la colección no lo muestra."},
+    {"barcode":"7500810027837","grams":72,"price":20,"shop":"Super D Todo","url":"https://superdtodo.com/product/runners-barcel-62-gr","status":"Precio al público consultado","note":"Fénix publica $20.50 y El Mexicano $22.00 para la presentación de 72 g."},
+    {"barcode":"7500810013199","grams":75,"price":22,"shop":"Cremería Lulubel","url":"https://cremerialulubel.com/product/big-mix-fuego-75g","status":"Precio al público consultado","note":"H&H también publica $22.00 para este código. Super D Todo publica $25.00."},
+    {"barcode":"7503031361551","grams":75,"price":16,"shop":"Freslo","url":"https://freslo.tienda/products/big-mix-jalapeno-barcel-cont-75g","status":"Precio al público consultado","note":"La tienda indica impuestos incluidos y disponibilidad. Super D Todo publica $25.00 para el mismo código, pero sin existencias; los precios difieren entre tiendas."},
+    {"barcode":"7500810027714","grams":60,"price":17.10,"shop":"Fénix","url":"https://superfenix.mx/producto/cacahuates-kiyakis-japoneses-60-g/","status":"Precio al público consultado","note":"Se mantiene la referencia de $17.10 que ya llevaba el archivo anterior."}
+  ],
+  "sin_referencia_actual": [
+    {"barcode":"7500810000489","note":"No se confirmó un precio actual en México para Huakamoles 70 g. Se conserva $20.00 de la foto. No se convierten precios de tiendas extranjeras ni se sustituyen por otra presentación."},
+    {"barcode":"7500478023516","note":"No se confirmó un precio actual para Karate japonés 75 g con este código. Se conserva $10.00, interpretado de la foto. Las ofertas actuales localizadas de 70 g, 85 g, 127 g y Churrumais 75 g corresponden a otras presentaciones o productos."}
+  ]
+}

@@ -1,0 +1,11 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand --json --outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/unit-final.json
+
+
+Test Suites: 27 skipped, 21 passed, 21 of 48 total
+Tests:       193 skipped, 314 passed, 507 total
+Snapshots:   0 total
+Time:        1.87 s, estimated 7 s
+Ran all test suites.
+Test results written to: ../analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/unit-final.json

@@ -1,14 +1,24 @@
 ---
 tipo: datos
 estado: canonico
-actualizado: 2026-08-26
+actualizado: 2026-10-04
 ---
 
 # Catalogo e inventario
 
+> Actualización implementada 2026-09-16: el cobro directo completo en efectivo confirma
+> venta, pago y consumo histórico en una transacción. Admite negativos y recetas,
+> conserva precios capturados y acepta desactivaciones remotas posteriores. Ver
+> [[04 - Sincronizacion/Confirmacion de ventas en efectivo|contrato vigente y límites]].
+> Las propuestas adicionales del diagrama (SKU, cancelaciones, etc.) no describen
+> necesariamente el código actual.
+
 Esta nota es la referencia ER canónica del catálogo, sus variantes y su
 relación con inventario. Si otro diagrama difiere, prevalecen esta nota y
-ADR-0014.
+ADR-0014, con la excepción de recuperación/descarte especificada por ADR-0017.
+Procedencia y memoria ya existen en los esquemas declarados SQLite/PG; el
+receptor está verificado. Recuperación/descarte Flutter core están verificados y la UI
+pendiente. El diagrama añade esos elementos físicos sin dar por completo el flujo.
 
 ## Estado del analisis
 
@@ -19,10 +29,11 @@ interpretarse todo el modelo como esquema final.
 |---|---|---|
 | Categorias | Concluido funcionalmente | Estructura plana implementada en Flutter |
 | Productos | Contrato de Articulos confirmado | Categoria opcional, nombre no unico, configuracion comun de venta y ciclo funcional |
-| Variantes | Contrato de Articulos confirmado | Precio de venta, costo estandar opcional, SKU/codigo unicos, predeterminada y orden comun |
+| Variantes | Contrato de Articulos confirmado | Precio de venta, costo estandar opcional, SKU/codigo unicos y orden comun |
 | Unidades y cantidades | Decidido | Escala por dimension, factores enteros, conversion exacta y catalogo metrico inicial confirmados en ADR-0012 |
 | Inventario | Implementado para seguimiento directo | Vínculo directo opcional por variante; saldos y movimientos siguen perteneciendo al recurso |
-| Integracion con ventas | Parcialmente decidida | El consumo nace al confirmar operativamente la linea; la accion concreta de Ventas sigue pendiente |
+| Recuperación y descarte de seguimiento | Esquemas/receptor/core Flutter verificados; UI pendiente | [[08 - Roadmap/Seguimiento de existencias/Plan de implementacion\|Cinco fases]]: memoria durable, procedencia y descarte vacío solo standalone |
+| Integracion con ventas | Implementada para efectivo completo | El consumo nace al confirmar el cobro de caja directa; comandas fuera de alcance |
 
 ## Decisiones confirmadas para articulos
 
@@ -39,8 +50,7 @@ su identidad como agregado de Inventario aunque la variante los use.
   una segunda variante, todas las variantes activas deben tener nombres que
   permitan distinguirlas dentro del producto.
 - Producto y variantes se desactivan y reactivan; no se borran fisicamente.
-- Un producto activo debe tener al menos una variante activa y exactamente una
-  variante activa predeterminada.
+- Un producto activo debe tener al menos una variante activa.
 - Solo las variantes se ordenan manualmente. `sort_order` es consecutivo desde
   cero dentro de cada `product_id`, incluyendo activas e inactivas; no existe
   orden manual de productos.
@@ -127,8 +137,10 @@ dimension, factor y precision son inmutables una vez referenciados.
 Las existencias pertenecen a `inventory_items`; `product_variants` solo guarda
 la referencia opcional al recurso. Activar seguimiento en el alta avanzada
 crea, en un lote atómico, el recurso y su único balance. Una existencia inicial
-positiva agrega además un movimiento `manual_adjustment`; cero o ausencia dejan
-el balance en cero sin crear un movimiento de cantidad cero.
+positiva agrega además un movimiento `initial_balance`; cero o ausencia dejan
+el balance en cero sin crear un movimiento de cantidad cero. Los eventos
+históricos de `recurso_inventario_creado` que usaron `manual_adjustment` se
+siguen interpretando con su tipo original y nunca se reescriben.
 
 `inventory_movements` es el historial inmutable y auditable.
 `inventory_balances` es una proyección materializada que el mismo handler
@@ -136,18 +148,58 @@ actualiza dentro de la transacción del movimiento. Por ello, mostrar la
 existencia no suma todo el historial: consulta una fila de balance en O(1). La
 suma de movimientos se reserva para reconstrucción, auditoría o reparación.
 
+Los movimientos operativos distinguen estas intenciones:
+
+| Tipo | Delta | `reason` | Uso |
+|---|---:|---|---|
+| `initial_balance` | Positivo | Opcional | Existencia inicial creada junto con el recurso |
+| `stock_receipt` | Positivo | Opcional | Compra, devolución, transferencia u otra reposición común |
+| `manual_adjustment` | Positivo o negativo, nunca cero | Obligatorio | Corrección justificada, por ejemplo conteo, merma o error de captura |
+| `reversal` | Distinto de cero | Opcional | Reservado; exige `reversal_of_movement_id` |
+
+Todo motivo presente se normaliza con NFKC y `trim`, mide entre 1 y 500
+caracteres y se persiste como `null` cuando está ausente, nunca como cadena
+vacía. Los tipos distintos de `reversal` exigen
+`reversal_of_movement_id = null`; una reversión no puede autorreferenciarse y
+la FK autorreferenciada conserva `ON DELETE RESTRICT`.
+
+`quantity_delta_atomic` es el único dato de cantidad en el movimiento. No se
+guardan snapshots de cantidad anterior ni posterior: el saldo vigente se consulta en
+`inventory_balances`. `total_cost_minor` continúa nullable y en este alcance se
+escribe `null`; la valuación real de entradas queda para una decisión futura.
+
+La misma pantalla móvil crea y edita recursos. En edición el nombre puede
+cambiar, la unidad es inmutable porque el historial ya la utiliza y el saldo
+solo se muestra. Un guardado con nombre y cantidad produce dos eventos
+independientes y causalmente encadenados: `recurso_inventario_actualizado` y
+`movimiento_inventario_registrado`. El movimiento, el nuevo saldo y las
+versiones de recurso/balance se aplican en una transacción.
+
 Para venta `unit`, el recurso directo usa una unidad `count` con factor atómico
 `1`. Para venta `measured`, la unidad del recurso debe compartir la dimensión
 de la unidad de venta. Todas las cantidades persisten como enteros atómicos.
 
 El `inventory_item` conserva identidad, saldo, historial y ciclo de vida
-independientes. Desactivar o desvincular producto o variante no lo borra ni
-reinicia. Entradas, conteos, mermas y ajustes se registran contra el recurso.
+independientes. Desactivar producto o variante no lo borra ni reinicia.
+La decisión ADR-0017 requiere conservar memoria
+al desvincular para recuperar el mismo recurso; solo admite descarte de
+autogenerados vacíos standalone, sin movimientos ni dependencias. En server_sync
+se conservan siempre recurso y balance. Entradas, conteos, mermas y ajustes se
+registran contra el recurso.
 
-Las recetas y los descuentos automáticos por venta permanecen fuera de este
-alcance. Todavía no existe un evento operativo de confirmación en Ventas. Ese
-evento futuro resolverá el vínculo directo, insertará el movimiento negativo y
-actualizará el balance en una sola transacción.
+El esquema actual añade `inventory_items.origin_variant_id` y
+`variant_inventory_memory`, proyección auxiliar sin stock ni consumo. SQLite
+también contiene `inventory_item_discards`, aún sin handler/emisor ejecutable.
+Campos/cascadas y discrepancias entre esquema y aplicación están en
+[[08 - Roadmap/Seguimiento de existencias/Mapeo fisico de esquemas|Mapeo físico]].
+La auditoría [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-prerrequisitos-fase5/Resultados|Auditoría de entrada a fase 5, 2026-10-04]] confirma que el plan no puede cerrarse: memoria/legado/
+descarte/undo Flutter fallan y la interfaz no se implementó.
+
+El código actual ya admite recetas y consumo histórico en la confirmación de
+ventas conforme a
+[[04 - Sincronizacion/Confirmacion de ventas en efectivo|contrato de confirmación]].
+Una venta tardía conserva el recurso capturado aunque el vínculo actual sea nulo;
+por ello la limpieza remota no forma parte de esta entrega.
 `inventory_movements.total_cost_minor`, cuando exista, seguirá representando
 el costo real del movimiento y no se inferirá del costo estándar.
 
@@ -240,6 +292,8 @@ erDiagram
     UNITS ||--o{ INVENTORY_ITEMS : "defines default capture unit"
     UNITS o|--o{ PRODUCTS : "defines sale measure"
 
+    PRODUCT_VARIANTS ||--o| VARIANT_INVENTORY_MEMORY : remembers
+    INVENTORY_ITEMS ||--o{ VARIANT_INVENTORY_MEMORY : "remembered resource"
     INVENTORY_ITEMS ||--o| INVENTORY_BALANCES : summarizes
     INVENTORY_ITEMS ||--o{ INVENTORY_MOVEMENTS : affects
 
@@ -286,7 +340,6 @@ erDiagram
         integer sale_price_minor
         integer standard_cost_minor "nullable"
         string inventory_item_id FK, UK "nullable; direct tracking"
-        boolean is_default
         integer sort_order
         boolean active
         integer version
@@ -308,6 +361,7 @@ erDiagram
 
     INVENTORY_ITEMS {
         string inventory_item_id PK
+        string origin_variant_id "nullable; provenance without FK"
         string default_unit_id FK
         string name
         boolean active
@@ -317,10 +371,24 @@ erDiagram
         integer last_server_sequence "nullable"
     }
 
+    VARIANT_INVENTORY_MEMORY {
+        string variant_id PK, FK
+        string inventory_item_id FK
+        string source_event_id "without FK"
+        integer source_server_sequence "nullable"
+    }
+
+    INVENTORY_ITEM_DISCARDS {
+        string inventory_item_id PK "SQLite only; without FK"
+        string discard_event_id
+        string trigger_product_event_id
+    }
+
     INVENTORY_BALANCES {
         string inventory_item_id PK, FK
         integer quantity_on_hand_atomic
         integer quantity_available_atomic
+        integer version
         string last_event_id
         integer last_server_sequence "nullable"
     }
@@ -413,8 +481,7 @@ erDiagram
 - `products.active` y `product_variants.active` representan el ciclo funcional
   confirmado; no se agregan campos de borrado fisico.
 - Todo producto debe conservar al menos una variante. Si el producto esta
-  activo, debe existir al menos una variante activa y exactamente una de ellas
-  debe tener `is_default = true`.
+  activo, debe existir al menos una variante activa.
 - La variante unica creada en modo sencillo puede tener `name = null`. Antes de
   activar una segunda variante, todas las variantes activas deben recibir
   nombres distinguibles dentro del producto.
@@ -432,7 +499,7 @@ erDiagram
   repetirse dentro del catalogo actual.
 - El unico dato de negocio que el usuario debe capturar obligatoriamente para
   toda variante es `sale_price_minor`; `standard_cost_minor` es opcional.
-  Predeterminada, orden, estado, version y trazabilidad siguen siendo columnas
+  Orden, estado, version y trazabilidad siguen siendo columnas
   no nulas o administradas por el sistema.
 
 ## Reglas de sincronizacion para categorias
@@ -480,14 +547,11 @@ en `event_refs`.
 - Diseñar conversiones contextuales de compra o empaque, como caja de 24
   piezas o costal de 25 kg, dentro del articulo de inventario y no como unidad
   fisica global.
-- Definir que accion concreta de Ventas o Comandas confirma operativamente una
-  linea.
-- Definir disponibilidad y la regla general ante stock insuficiente. Alertas,
-  reposicion, politicas configurables, lotes y vencimiento requeriran un
-  analisis futuro propio si llegan a incorporarse.
-- Definir la politica offline cuando el stock local o central sea insuficiente.
-- Definir la politica del servidor cuando una venta offline uso una variante o
-  articulo de inventario que fue desactivado remotamente.
+- Comandas: definir en su propio alcance cuándo se confirma una línea; caja directa
+  ya consume al confirmar efectivo.
+- Alertas, reposición, políticas configurables, lotes y vencimiento quedan pendientes.
+  El efectivo completo permite stock negativo y conserva los consumos históricos de
+  variantes o recursos desactivados después de las condiciones conocidas.
 
 ## Enlaces
 
@@ -499,3 +563,12 @@ en `event_refs`.
 - [[05 - Datos/Eventos|Eventos]]
 - [[05 - Datos/Tablas de lectura|Tablas de lectura]]
 - [[04 - Sincronizacion/Patron para nuevas funcionalidades offline first|Patron para nuevas funcionalidades offline first]]
+
+## Estado actualizado del seguimiento — corrección de fase 3, 2026-10-04
+
+La auditoría inicial fallida se conserva como historial. El core Flutter ahora
+mantiene memoria por eventos, recupera el mismo recurso con historial, descarta
+solo standalone elegible con rollback/replay comprobados y restaura memoria exacta.
+Server_sync conserva recurso/balance; transporte HTTP/PG/SQLite y pull a cliente
+vacío están verificados en su alcance. UI de fase 4 y cierre de fase 5 pendientes;
+no se acredita uso físico ni despliegue. Evidencia y comandos: [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-correccion-fase3/Resultados|Corrección y verificación de fase 3, 2026-10-04]].

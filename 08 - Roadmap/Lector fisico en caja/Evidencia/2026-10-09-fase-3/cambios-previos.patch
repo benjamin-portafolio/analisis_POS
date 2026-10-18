@@ -1,0 +1,976 @@
+diff --git a/lib/presentation/pages/caja/barcode/physical_barcode_reader_controller.dart b/lib/presentation/pages/caja/barcode/physical_barcode_reader_controller.dart
+index 4f7920d..3fad65c 100644
+--- a/lib/presentation/pages/caja/barcode/physical_barcode_reader_controller.dart
++++ b/lib/presentation/pages/caja/barcode/physical_barcode_reader_controller.dart
+@@ -36,7 +36,9 @@ class PhysicalBarcodeReaderController extends ChangeNotifier {
+   bool _paused = false;
+   bool _dialogOpen = false;
+   bool _processing = false;
++  bool _hasCurrentRead = false;
+   bool _saving = false;
++  bool _commandStarted = false;
+   bool _finishing = false;
+   bool _terminated = false;
+   bool _disposed = false;
+@@ -54,6 +56,11 @@ class PhysicalBarcodeReaderController extends ChangeNotifier {
+ 
+   /// Excluye la intención en curso, incluso si espera consulta o diálogo.
+   int get pendingReadCount => _queue.length;
++
++  /// Incluye la consulta/diálogo actual si todavía no inició su comando.
++  /// Es lo que se pierde al confirmar `finish(discardPending: true)`.
++  int get unstartedReadCount =>
++      _queue.length + (_hasCurrentRead && !_commandStarted ? 1 : 0);
+   Object? get error => _error;
+   SaleBarcodeReadResult? get lastResult => _lastResult;
+ 
+@@ -163,6 +170,7 @@ class PhysicalBarcodeReaderController extends ChangeNotifier {
+     try {
+       while (_queue.isNotEmpty && !_terminated && !_paused && _error == null) {
+         final code = _queue.removeFirst();
++        _hasCurrentRead = true;
+         _lastResult = null;
+         _notify();
+         try {
+@@ -178,12 +186,15 @@ class PhysicalBarcodeReaderController extends ChangeNotifier {
+               _saving = true;
+               _notify();
+             },
++            onCommandStarted: () => _commandStarted = true,
+           );
+           if (!_terminated) _lastResult = result;
+         } catch (error) {
+           if (!_terminated) _error = error;
+         } finally {
++          _hasCurrentRead = false;
+           _saving = false;
++          _commandStarted = false;
+           _notify();
+         }
+       }
+diff --git a/lib/presentation/pages/caja/barcode/sale_barcode_read_coordinator.dart b/lib/presentation/pages/caja/barcode/sale_barcode_read_coordinator.dart
+index d58f950..6c4d908 100644
+--- a/lib/presentation/pages/caja/barcode/sale_barcode_read_coordinator.dart
++++ b/lib/presentation/pages/caja/barcode/sale_barcode_read_coordinator.dart
+@@ -30,6 +30,7 @@ class SaleBarcodeReadCoordinator {
+     requestQuantity,
+     Future<void> Function()? waitUntilReady,
+     void Function()? onSaving,
++    void Function()? onCommandStarted,
+   }) async {
+     SaleBarcodeReadResult result(
+       SaleBarcodeReadOutcome outcome, {
+@@ -83,6 +84,7 @@ class SaleBarcodeReadCoordinator {
+     // comando de una sesión que terminó mientras esperaba. Una vez llamado,
+     // el command service completa su operación atómica sin rollback de UI.
+     if (!canContinue()) return result(SaleBarcodeReadOutcome.interrupted);
++    onCommandStarted?.call();
+     await _commands.agregar(
+       AgregarProductoBorradorCommand(
+         variantId: candidate.varianteId,
+diff --git a/lib/presentation/pages/caja/caja_screen.dart b/lib/presentation/pages/caja/caja_screen.dart
+index b5173aa..6040eb6 100644
+--- a/lib/presentation/pages/caja/caja_screen.dart
++++ b/lib/presentation/pages/caja/caja_screen.dart
+@@ -1,23 +1,27 @@
++import 'package:flutter/foundation.dart';
++import 'package:flutter/material.dart';
++
+ import '../../../application/commands/cotizaciones/cotizacion_command_service.dart';
+ import '../../../application/commands/cotizaciones/guardar_cotizacion_command.dart';
+ import '../../../application/commands/cotizaciones/quotation_already_linked_exception.dart';
+-import '../../../domain/repositories/quotation_repository.dart';
+-import '../cotizaciones/quotation_ticket_screen.dart';
+-import '../../../domain/repositories/confirmed_sale_repository.dart';
+-import 'confirmed_sales_screen.dart';
+-import 'package:flutter/material.dart';
+-
+ import '../../../application/commands/ventas/limpiar_venta_borrador_command.dart';
+ import '../../../application/commands/ventas/venta_borrador_command_service.dart';
+ import '../../../core/di/injection.dart';
++import '../../../domain/repositories/confirmed_sale_repository.dart';
+ import '../../../domain/repositories/producto_repository.dart';
++import '../../../domain/repositories/quotation_repository.dart';
+ import '../../../domain/repositories/sale_draft_repository.dart';
+ import '../../../domain/repositories/unidad_inventario_repository.dart';
+ import '../../../domain/ventas/sale_draft.dart';
+ import '../../../domain/ventas/sale_draft_item.dart';
+ import '../../widgets/article_search_bar.dart';
+-import 'draft_item_edit_sheet.dart';
++import '../articulos/article_search_screen.dart';
++import '../cotizaciones/quotation_ticket_screen.dart';
+ import 'barcode/barcode_read_gate.dart';
++import 'barcode/physical_barcode_reader.dart';
++import 'barcode/sale_barcode_read_coordinator.dart';
++import 'confirmed_sales_screen.dart';
++import 'draft_item_edit_sheet.dart';
+ import 'models/sale_draft_display.dart';
+ import 'payment_method_screen.dart';
+ import 'sale_barcode_scanner_screen.dart';
+@@ -43,22 +47,93 @@ class CajaScreen extends StatefulWidget {
+   final VoidCallback? onOpenCaja;
+ 
+   @override
+-  State<CajaScreen> createState() => _CajaScreenState();
++  CajaScreenState createState() => CajaScreenState();
+ }
+ 
+-class _CajaScreenState extends State<CajaScreen> {
++class CajaScreenState extends State<CajaScreen> {
+   late final _repository =
+       widget.saleDraftRepository ?? getIt<SaleDraftRepository>();
+   late final _draft = _repository.watchCurrentDraft();
++  final _physicalReader = GlobalKey<PhysicalBarcodeReaderState>();
++  bool _resolvingReads = false;
++  bool get isReaderEnabled => _physicalReader.currentState?.isEnabled == true;
++  int? get readerInterruptionGeneration =>
++      _physicalReader.currentState?.interruptionGeneration;
++
++  void restoreReader(int? generation) {
++    if (mounted && !_busy) {
++      _physicalReader.currentState?.enableReader(
++        restoringGeneration: generation,
++      );
++    }
++  }
++
++  bool get _desktopReader =>
++      defaultTargetPlatform == TargetPlatform.macOS ||
++      defaultTargetPlatform == TargetPlatform.windows;
++
++  /// Home/menu deben esperar esta barrera antes de salir o abrir otra ruta.
++  Future<bool> prepareToLeave() async {
++    if (_busy) return false;
++    setState(() => _resolvingReads = true);
++    try {
++      await _physicalReader.currentState?.finish();
++      return mounted;
++    } finally {
++      if (mounted) setState(() => _resolvingReads = false);
++    }
++  }
++
++  Future<void> _runAction(Future<void> Function() action) async {
++    if (_busy) return;
++    final reader = _physicalReader.currentState;
++    final restoreMode = reader?.isEnabled == true;
++    final generation = reader?.interruptionGeneration;
++    setState(() => _resolvingReads = true);
++    try {
++      await reader?.finish();
++      if (mounted) await action();
++    } finally {
++      if (mounted) {
++        setState(() => _resolvingReads = false);
++        if (restoreMode) reader?.enableReader(restoringGeneration: generation);
++      }
++    }
++  }
++
++  Future<void> _openSearch() => _runAction(
++    () => Navigator.of(context).push<void>(
++      MaterialPageRoute(
++        builder: (_) => ArticleSearchScreen(
++          productoRepository:
++              widget.productoRepository ?? getIt<ProductoRepository>(),
++          saleDraftRepository: _repository,
++          ventaBorradorCommandService: widget.ventaBorradorCommandService,
++          onOpenCaja: widget.onOpenCaja,
++        ),
++      ),
++    ),
++  );
++
++  Future<void> _openConfirmedSales() => _runAction(
++    () => Navigator.of(context).push<void>(
++      MaterialPageRoute(builder: (_) => const ConfirmedSalesScreen()),
++    ),
++  );
++
+   bool _clearing = false;
+-  bool _scannerOpen = false;
+   bool _quoting = false;
+-  bool _routeOpen = false;
+   GuardarCotizacionCommand? _quotationIntent;
+-  bool get _busy => _clearing || _quoting || _scannerOpen || _routeOpen;
++  bool get _busy => _resolvingReads;
+ 
+-  Future<void> _quote(SaleDraft sale) async {
+-    if (_busy || sale.items.isEmpty || sale.lastEventId == null) return;
++  Future<void> _quote() => _runAction(() async {
++    final sale = await _repository.watchCurrentDraft().first;
++    if (!mounted ||
++        sale == null ||
++        sale.items.isEmpty ||
++        sale.lastEventId == null) {
++      return;
++    }
+     setState(() => _quoting = true);
+     try {
+       if (_quotationIntent?.saleId != sale.id ||
+@@ -109,47 +184,37 @@ class _CajaScreenState extends State<CajaScreen> {
+     } finally {
+       if (mounted) setState(() => _quoting = false);
+     }
+-  }
++  });
+ 
+-  Future<void> _openPayment(SaleDraft sale) async {
+-    if (_busy) return;
+-    setState(() => _routeOpen = true);
+-    try {
+-      await Navigator.of(context).push<void>(
+-        MaterialPageRoute(
+-          builder: (_) => PaymentMethodScreen(
+-            totalMinor: sale.totalMinor,
+-            saleId: sale.id,
+-            expectedDraftEventId: sale.lastEventId,
+-          ),
++  Future<void> _openPayment() => _runAction(() async {
++    final sale = await _repository.watchCurrentDraft().first;
++    if (!mounted || sale == null || sale.items.isEmpty) return;
++    await Navigator.of(context).push<void>(
++      MaterialPageRoute(
++        builder: (_) => PaymentMethodScreen(
++          totalMinor: sale.totalMinor,
++          saleId: sale.id,
++          expectedDraftEventId: sale.lastEventId,
+         ),
+-      );
+-    } finally {
+-      if (mounted) setState(() => _routeOpen = false);
+-    }
+-  }
++      ),
++    );
++  });
+ 
+   final _barcodeClock = Stopwatch()..start();
+   late final _barcodeGate = BarcodeReadGate(clock: () => _barcodeClock.elapsed);
+ 
+-  Future<void> _openBarcodeScanner() async {
+-    if (_busy) return;
+-    setState(() => _scannerOpen = true);
+-    try {
+-      await Navigator.of(context).push<void>(
+-        MaterialPageRoute(
+-          builder: (_) => SaleBarcodeScannerScreen(
+-            productoRepository: widget.productoRepository,
+-            saleDraftRepository: _repository,
+-            ventaBorradorCommandService: widget.ventaBorradorCommandService,
+-            readGate: _barcodeGate,
+-          ),
++  Future<void> _openBarcodeScanner() => _runAction(() async {
++    await Navigator.of(context).push<void>(
++      MaterialPageRoute(
++        builder: (_) => SaleBarcodeScannerScreen(
++          productoRepository: widget.productoRepository,
++          saleDraftRepository: _repository,
++          ventaBorradorCommandService: widget.ventaBorradorCommandService,
++          readGate: _barcodeGate,
+         ),
+-      );
+-    } finally {
+-      if (mounted) setState(() => _scannerOpen = false);
+-    }
+-  }
++      ),
++    );
++  });
+ 
+   @override
+   void dispose() {
+@@ -157,8 +222,9 @@ class _CajaScreenState extends State<CajaScreen> {
+     super.dispose();
+   }
+ 
+-  Future<void> _clear(SaleDraft sale) async {
+-    if (_busy) return;
++  Future<void> _clear() => _runAction(() async {
++    final sale = await _repository.watchCurrentDraft().first;
++    if (!mounted || sale == null) return;
+     setState(() => _clearing = true);
+     try {
+       await (widget.ventaBorradorCommandService ??
+@@ -180,27 +246,26 @@ class _CajaScreenState extends State<CajaScreen> {
+     } finally {
+       if (mounted) setState(() => _clearing = false);
+     }
+-  }
++  });
+ 
+-  Future<void> _openEditor(SaleDraftItem item) async {
+-    if (_busy) return;
+-    setState(() => _routeOpen = true);
+-    try {
+-      await showModalBottomSheet<void>(
+-        context: context,
+-        isScrollControlled: true,
+-        builder: (_) => DraftItemEditSheet(
+-          item: item,
+-          ventaBorradorCommandService: widget.ventaBorradorCommandService,
+-          unidadInventarioRepository:
+-              widget.unidadInventarioRepository ??
+-              getIt<UnidadInventarioRepository>(),
+-        ),
+-      );
+-    } finally {
+-      if (mounted) setState(() => _routeOpen = false);
+-    }
+-  }
++  Future<void> _openEditor(String itemId) => _runAction(() async {
++    final sale = await _repository.watchCurrentDraft().first;
++    if (!mounted || sale == null) return;
++    final items = sale.items.where((item) => item.id == itemId);
++    if (items.isEmpty) return;
++    final item = items.single;
++    await showModalBottomSheet<void>(
++      context: context,
++      isScrollControlled: true,
++      builder: (_) => DraftItemEditSheet(
++        item: item,
++        ventaBorradorCommandService: widget.ventaBorradorCommandService,
++        unidadInventarioRepository:
++            widget.unidadInventarioRepository ??
++            getIt<UnidadInventarioRepository>(),
++      ),
++    );
++  });
+ 
+   @override
+   Widget build(BuildContext context) => SafeArea(
+@@ -208,9 +273,7 @@ class _CajaScreenState extends State<CajaScreen> {
+       children: [
+         if (getIt.isRegistered<ConfirmedSaleRepository>())
+           TextButton.icon(
+-            onPressed: () => Navigator.of(context).push<void>(
+-              MaterialPageRoute(builder: (_) => const ConfirmedSalesScreen()),
+-            ),
++            onPressed: _busy ? null : _openConfirmedSales,
+             icon: const Icon(Icons.receipt_long),
+             label: const Text('Ventas cobradas'),
+           ),
+@@ -222,9 +285,22 @@ class _CajaScreenState extends State<CajaScreen> {
+             saleDraftRepository: _repository,
+             ventaBorradorCommandService: widget.ventaBorradorCommandService,
+             onOpenCaja: widget.onOpenCaja,
++            onOpenSearch: _openSearch,
+             onScanBarcode: _busy ? null : _openBarcodeScanner,
+           ),
+         ),
++        if (_desktopReader)
++          PhysicalBarcodeReader(
++            key: _physicalReader,
++            interactionEnabled: !_busy,
++            coordinator: SaleBarcodeReadCoordinator(
++              products:
++                  widget.productoRepository ?? getIt<ProductoRepository>(),
++              commands:
++                  widget.ventaBorradorCommandService ??
++                  getIt<VentaBorradorCommandService>(),
++            ),
++          ),
+         Expanded(
+           child: StreamBuilder<SaleDraft?>(
+             stream: _draft,
+@@ -269,7 +345,7 @@ class _CajaScreenState extends State<CajaScreen> {
+                                       item: sale.items[i],
+                                       onEdit: _busy
+                                           ? null
+-                                          : () => _openEditor(sale.items[i]),
++                                          : () => _openEditor(sale.items[i].id),
+                                     ),
+                                   ],
+                                 ],
+@@ -339,9 +415,7 @@ class _CajaScreenState extends State<CajaScreen> {
+                         crossAxisAlignment: CrossAxisAlignment.stretch,
+                         children: [
+                           FilledButton.icon(
+-                            onPressed: sale == null || _busy
+-                                ? null
+-                                : () => _clear(sale),
++                            onPressed: sale == null || _busy ? null : _clear,
+                             style: FilledButton.styleFrom(
+                               backgroundColor: Theme.of(
+                                 context,
+@@ -365,7 +439,7 @@ class _CajaScreenState extends State<CajaScreen> {
+                                         sale.lastEventId == null ||
+                                         _busy
+                                     ? null
+-                                    : () => _quote(sale),
++                                    : _quote,
+                                 icon: const Icon(Icons.request_quote_outlined),
+                                 label: Text(
+                                   _quoting ? 'Guardando…' : 'Cotizar',
+@@ -375,7 +449,7 @@ class _CajaScreenState extends State<CajaScreen> {
+                                 onPressed:
+                                     sale == null || sale.items.isEmpty || _busy
+                                     ? null
+-                                    : () => _openPayment(sale),
++                                    : _openPayment,
+                                 child: Text('Cobrar: $total'),
+                               ),
+                             ],
+diff --git a/lib/presentation/pages/pantalla_principal/home_screen.dart b/lib/presentation/pages/pantalla_principal/home_screen.dart
+index 1db820a..fc90eef 100644
+--- a/lib/presentation/pages/pantalla_principal/home_screen.dart
++++ b/lib/presentation/pages/pantalla_principal/home_screen.dart
+@@ -1,4 +1,7 @@
++import 'dart:async';
++
+ import 'package:flutter/material.dart';
++import 'package:flutter/foundation.dart';
+ import 'package:pos_flutter/presentation/pages/articulos/articles_screen.dart';
+ import 'package:pos_flutter/presentation/pages/caja/caja_screen.dart';
+ import 'package:pos_flutter/presentation/pages/gestion_clientes/clientes_screen.dart';
+@@ -14,39 +17,96 @@ class HomeScreen extends StatefulWidget {
+ 
+ class _HomeScreenState extends State<HomeScreen> {
+   int _currentIndex = 2;
++  bool _navigating = false;
++  bool _restoreAfterMenu = false;
++  int? _menuReaderGeneration;
++  final _caja = GlobalKey<CajaScreenState>();
++  final _scaffold = GlobalKey<ScaffoldState>();
+ 
+   late final List<Widget> _screens = [
+     const ReportsScreen(),
+     const Center(child: Text('Hoy')),
+-    CajaScreen(onOpenCaja: () => _onTabTapped(2)),
++    CajaScreen(key: _caja, onOpenCaja: () => _onTabTapped(2)),
+     ArticlesScreen(onOpenCaja: () => _onTabTapped(2)),
+   ];
+ 
+-  void _onTabTapped(int index) {
++  Future<bool> _prepareNavigation() async {
++    if (_navigating) return false;
++    _navigating = true;
++    try {
++      final allowed = await _caja.currentState?.prepareToLeave() ?? true;
++      return mounted && allowed;
++    } finally {
++      _navigating = false;
++    }
++  }
++
++  Future<void> _onTabTapped(int index) async {
++    if (index == _currentIndex || !await _prepareNavigation()) return;
++    if (!mounted) return;
+     if (index == 4) {
+-      Navigator.of(
++      await Navigator.of(
+         context,
+-      ).push(MaterialPageRoute<void>(builder: (_) => const ClientesScreen()));
++      ).push<void>(MaterialPageRoute(builder: (_) => const ClientesScreen()));
+       return;
+     }
++    setState(() => _currentIndex = index);
++  }
++
++  Future<void> _openMenu() async {
++    final restore = _caja.currentState?.isReaderEnabled == true;
++    final generation = _caja.currentState?.readerInterruptionGeneration;
++    if (await _prepareNavigation()) {
++      _restoreAfterMenu = restore;
++      _menuReaderGeneration = generation;
++      _scaffold.currentState?.openDrawer();
++    }
++  }
++
++  Future<bool> _beforeMenuNavigate() async {
++    final allowed = await _prepareNavigation();
++    if (allowed) _restoreAfterMenu = false;
++    return allowed;
++  }
+ 
+-    setState(() {
+-      _currentIndex = index;
+-    });
++  void _drawerChanged(bool open) {
++    if (!open && _restoreAfterMenu) {
++      _restoreAfterMenu = false;
++      _caja.currentState?.restoreReader(_menuReaderGeneration);
++    }
++  }
++
++  Future<void> _leave() async {
++    if (await _prepareNavigation() && mounted) Navigator.of(context).pop();
+   }
+ 
+   @override
+-  Widget build(BuildContext context) {
+-    //return Scaffold(body: Center(child: Text('Hello World!')));
+-    return Scaffold(
++  Widget build(BuildContext context) => PopScope<void>(
++    canPop:
++        defaultTargetPlatform != TargetPlatform.macOS &&
++        defaultTargetPlatform != TargetPlatform.windows,
++    onPopInvokedWithResult: (didPop, _) {
++      if (!didPop) unawaited(_leave());
++    },
++    child: Scaffold(
++      key: _scaffold,
+       appBar: AppBar(
+         title: Text(_currentIndex == 3 ? 'Artículos' : 'PASTOR'),
++        leading: IconButton(
++          tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
++          icon: const Icon(Icons.menu),
++          onPressed: _openMenu,
++        ),
+         actions: [
+-          IconButton(icon: Icon(Icons.person_add), onPressed: () {}),
+-          IconButton(icon: Icon(Icons.phone), onPressed: () {}),
++          IconButton(icon: const Icon(Icons.person_add), onPressed: () {}),
++          IconButton(icon: const Icon(Icons.phone), onPressed: () {}),
+         ],
+       ),
++      // El botón espera el drenaje antes de exponer operaciones del menú.
++      drawerEnableOpenDragGesture: false,
++      onDrawerChanged: _drawerChanged,
+       drawer: MenuLateral(
++        beforeNavigate: _beforeMenuNavigate,
+         onOpenCaja: () {
+           if (mounted) _onTabTapped(2);
+         },
+@@ -71,6 +131,6 @@ class _HomeScreenState extends State<HomeScreen> {
+           BottomNavigationBarItem(icon: Icon(Icons.people), label: 'Clientes'),
+         ],
+       ),
+-    );
+-  }
++    ),
++  );
+ }
+diff --git a/lib/presentation/pages/pantalla_principal/menu_lateral.dart b/lib/presentation/pages/pantalla_principal/menu_lateral.dart
+index ae56d47..4c9c17e 100644
+--- a/lib/presentation/pages/pantalla_principal/menu_lateral.dart
++++ b/lib/presentation/pages/pantalla_principal/menu_lateral.dart
+@@ -14,9 +14,10 @@ import 'package:pos_flutter/presentation/pages/gestion_mesa/table_management.dar
+ import 'package:pos_flutter/presentation/pages/pantalla_principal/sync_settings_page.dart';
+ 
+ class MenuLateral extends StatelessWidget {
+-  const MenuLateral({this.onOpenCaja, super.key});
++  const MenuLateral({this.onOpenCaja, this.beforeNavigate, super.key});
+ 
+   final VoidCallback? onOpenCaja;
++  final Future<bool> Function()? beforeNavigate;
+ 
+   @override
+   Widget build(BuildContext context) {
+@@ -77,8 +78,8 @@ class MenuLateral extends StatelessWidget {
+               ],
+             ),
+           ),
+-          const _CashMenuTile(),
+-          const _BankMenuTile(),
++          _CashMenuTile(beforeNavigate: beforeNavigate),
++          _BankMenuTile(beforeNavigate: beforeNavigate),
+           // Usuario
+           ListTile(
+             title: Text("BENJAMÍN ALVARADO GONZÁLEZ (staff)"),
+@@ -99,60 +100,44 @@ class MenuLateral extends StatelessWidget {
+           ListTile(
+             leading: Icon(Icons.settings),
+             title: Text("Configuracion"),
+-            onTap: () {
+-              final navigator = Navigator.of(context);
+-              navigator.pop();
+-              WidgetsBinding.instance.addPostFrameCallback((_) {
+-                navigator.push(
+-                  MaterialPageRoute(
+-                    builder: (context) => const SyncSettingsPage(),
+-                  ),
+-                );
+-              });
+-            },
++            onTap: () => _openMenuRoute<void>(
++              context,
++              beforeNavigate,
++              (_) => const SyncSettingsPage(),
++            ),
+           ),
+-          _QuotationsMenuTile(onOpenCaja: onOpenCaja),
+-          const _InventoryMenuTile(),
++          _QuotationsMenuTile(
++            onOpenCaja: onOpenCaja,
++            beforeNavigate: beforeNavigate,
++          ),
++          _InventoryMenuTile(beforeNavigate: beforeNavigate),
+           ListTile(
+             leading: Icon(Icons.swap_horiz),
+             title: Text("Ingresos y gastos"),
+-            onTap: () {
+-              final navigator = Navigator.of(context);
+-              navigator.pop();
+-              WidgetsBinding.instance.addPostFrameCallback((_) {
+-                navigator.push(
+-                  MaterialPageRoute(
+-                    builder: (context) => const IngresosYGastosScreen(),
+-                  ),
+-                );
+-              });
+-            },
++            onTap: () => _openMenuRoute<void>(
++              context,
++              beforeNavigate,
++              (_) => const IngresosYGastosScreen(),
++            ),
+           ),
+           ListTile(
+             leading: Icon(Icons.people),
+             title: Text("Gestión de clientes"),
+-            onTap: () {
+-              final navigator = Navigator.of(context);
+-              navigator.pop();
+-              WidgetsBinding.instance.addPostFrameCallback((_) {
+-                navigator.push(
+-                  MaterialPageRoute(builder: (_) => const ClientesScreen()),
+-                );
+-              });
+-            },
++            onTap: () => _openMenuRoute<void>(
++              context,
++              beforeNavigate,
++              (_) => const ClientesScreen(),
++            ),
+           ),
+           ListTile(
+             leading: Icon(Icons.table_chart),
+             title: Text("Gestión de la mesa"),
+             trailing: _buildBadge(19),
+-            onTap: () {
+-              Navigator.push(
+-                context,
+-                MaterialPageRoute(
+-                  builder: (context) => TableManagementScreen(),
+-                ),
+-              );
+-            },
++            onTap: () => _openMenuRoute<void>(
++              context,
++              beforeNavigate,
++              (_) => TableManagementScreen(),
++            ),
+           ),
+         ],
+       ),
+@@ -164,7 +149,8 @@ class MenuLateral extends StatelessWidget {
+ /// El conteo viene del catalogo local y se actualiza solo cuando cambia. La
+ /// consulta se abre una vez: el drawer se reconstruye con frecuencia.
+ class _InventoryMenuTile extends StatefulWidget {
+-  const _InventoryMenuTile();
++  const _InventoryMenuTile({this.beforeNavigate});
++  final Future<bool> Function()? beforeNavigate;
+ 
+   @override
+   State<_InventoryMenuTile> createState() => _InventoryMenuTileState();
+@@ -183,17 +169,11 @@ class _InventoryMenuTileState extends State<_InventoryMenuTile> {
+           leading: const Icon(Icons.inventory),
+           title: const Text("Gestión de inventarios"),
+           trailing: _buildBadge(snapshot.data ?? 0),
+-          onTap: () {
+-            final navigator = Navigator.of(context);
+-            navigator.pop();
+-            WidgetsBinding.instance.addPostFrameCallback((_) {
+-              navigator.push(
+-                MaterialPageRoute(
+-                  builder: (context) => const InventoryManagementScreen(),
+-                ),
+-              );
+-            });
+-          },
++          onTap: () => _openMenuRoute<void>(
++            context,
++            widget.beforeNavigate,
++            (_) => const InventoryManagementScreen(),
++          ),
+         );
+       },
+     );
+@@ -217,7 +197,8 @@ Widget _buildBadge(int count) {
+ /// habilitada en la instalacion. Es una pantalla aparte de caja: el saldo
+ /// bancario no es efectivo de cajon.
+ class _BankMenuTile extends StatelessWidget {
+-  const _BankMenuTile();
++  const _BankMenuTile({this.beforeNavigate});
++  final Future<bool> Function()? beforeNavigate;
+ 
+   @override
+   Widget build(BuildContext context) {
+@@ -230,14 +211,11 @@ class _BankMenuTile extends StatelessWidget {
+         return ListTile(
+           leading: const Icon(Icons.account_balance),
+           title: const Text('Saldo en cuenta bancaria'),
+-          onTap: () {
+-            Navigator.of(context).pop();
+-            Navigator.of(context).push(
+-              MaterialPageRoute<void>(
+-                builder: (_) => const DeclararSaldoCuentaScreen(),
+-              ),
+-            );
+-          },
++          onTap: () => _openMenuRoute<void>(
++            context,
++            beforeNavigate,
++            (_) => const DeclararSaldoCuentaScreen(),
++          ),
+         );
+       },
+     );
+@@ -247,7 +225,8 @@ class _BankMenuTile extends StatelessWidget {
+ /// La entrada de caja solo existe cuando la captura esta habilitada en la
+ /// instalacion. Escucha el ajuste para reflejarse sin reiniciar la app.
+ class _CashMenuTile extends StatelessWidget {
+-  const _CashMenuTile();
++  const _CashMenuTile({this.beforeNavigate});
++  final Future<bool> Function()? beforeNavigate;
+ 
+   @override
+   Widget build(BuildContext context) {
+@@ -260,14 +239,11 @@ class _CashMenuTile extends StatelessWidget {
+         return ListTile(
+           leading: const Icon(Icons.point_of_sale),
+           title: const Text('Apertura y corte de caja'),
+-          onTap: () {
+-            Navigator.of(context).pop();
+-            Navigator.of(context).push(
+-              MaterialPageRoute<void>(
+-                builder: (_) => const CashManagementScreen(),
+-              ),
+-            );
+-          },
++          onTap: () => _openMenuRoute<void>(
++            context,
++            beforeNavigate,
++            (_) => const CashManagementScreen(),
++          ),
+         );
+       },
+     );
+@@ -276,7 +252,8 @@ class _CashMenuTile extends StatelessWidget {
+ 
+ /// El resultado vuelve al Home que abrió el drawer y selecciona su Caja.
+ class _QuotationsMenuTile extends StatefulWidget {
+-  const _QuotationsMenuTile({this.onOpenCaja});
++  const _QuotationsMenuTile({this.onOpenCaja, this.beforeNavigate});
++  final Future<bool> Function()? beforeNavigate;
+   final VoidCallback? onOpenCaja;
+   @override
+   State<_QuotationsMenuTile> createState() => _QuotationsMenuTileState();
+@@ -290,16 +267,11 @@ class _QuotationsMenuTileState extends State<_QuotationsMenuTile> {
+     final navigator = Navigator.of(context);
+     final ownerRoute = ModalRoute.of(context);
+     final onOpenCaja = widget.onOpenCaja;
+-    navigator.pop();
+-    // El drawer puede desmontarse al cerrarse; la navegación pertenece a Home.
+-    await WidgetsBinding.instance.endOfFrame;
+-    if (!navigator.mounted || ownerRoute?.isCurrent != true) {
+-      if (mounted) setState(() => _opening = false);
+-      return;
+-    }
+     try {
+-      final result = await navigator.push<RecuperarCotizacionResult>(
+-        MaterialPageRoute(builder: (_) => const QuotationsScreen()),
++      final result = await _openMenuRoute<RecuperarCotizacionResult>(
++        context,
++        widget.beforeNavigate,
++        (_) => const QuotationsScreen(),
+       );
+       if (result?.draftAvailable == true &&
+           navigator.mounted &&
+@@ -318,3 +290,20 @@ class _QuotationsMenuTileState extends State<_QuotationsMenuTile> {
+     onTap: _opening ? null : _open,
+   );
+ }
++
++/// Toda ruta del menú cruza la misma barrera de Caja, incluido un drawer
++/// abierto programáticamente. El dueño de la navegación sobrevive al drawer.
++Future<T?> _openMenuRoute<T>(
++  BuildContext context,
++  Future<bool> Function()? beforeNavigate,
++  WidgetBuilder builder,
++) async {
++  final navigator = Navigator.of(context);
++  final ownerRoute = ModalRoute.of(context);
++  if (beforeNavigate != null && !await beforeNavigate()) return null;
++  if (!context.mounted || !navigator.mounted) return null;
++  if (Scaffold.of(context).isDrawerOpen) navigator.pop();
++  await WidgetsBinding.instance.endOfFrame;
++  if (!navigator.mounted || ownerRoute?.isCurrent != true) return null;
++  return navigator.push<T>(MaterialPageRoute(builder: builder));
++}
+diff --git a/lib/presentation/widgets/article_search_bar.dart b/lib/presentation/widgets/article_search_bar.dart
+index c3ed99d..878a71b 100644
+--- a/lib/presentation/widgets/article_search_bar.dart
++++ b/lib/presentation/widgets/article_search_bar.dart
+@@ -13,6 +13,7 @@ class ArticleSearchBar extends StatelessWidget {
+     this.ventaBorradorCommandService,
+     this.onOpenCaja,
+     this.onScanBarcode,
++    this.onOpenSearch,
+     this.showQuickAdd = true,
+     super.key,
+   });
+@@ -21,6 +22,7 @@ class ArticleSearchBar extends StatelessWidget {
+   final VentaBorradorCommandService? ventaBorradorCommandService;
+   final VoidCallback? onOpenCaja;
+   final VoidCallback? onScanBarcode;
++  final VoidCallback? onOpenSearch;
+   final ProductoRepository? productoRepository;
+   final bool showQuickAdd;
+ 
+@@ -35,17 +37,20 @@ class ArticleSearchBar extends StatelessWidget {
+             child: TextField(
+               readOnly: true,
+               showCursor: false,
+-              onTap: () => Navigator.of(context).push(
+-                MaterialPageRoute<void>(
+-                  builder: (_) => ArticleSearchScreen(
+-                    saleDraftRepository: saleDraftRepository,
+-                    ventaBorradorCommandService: ventaBorradorCommandService,
+-                    onOpenCaja: onOpenCaja,
+-                    productoRepository:
+-                        productoRepository ?? getIt<ProductoRepository>(),
++              onTap:
++                  onOpenSearch ??
++                  () => Navigator.of(context).push(
++                    MaterialPageRoute<void>(
++                      builder: (_) => ArticleSearchScreen(
++                        saleDraftRepository: saleDraftRepository,
++                        ventaBorradorCommandService:
++                            ventaBorradorCommandService,
++                        onOpenCaja: onOpenCaja,
++                        productoRepository:
++                            productoRepository ?? getIt<ProductoRepository>(),
++                      ),
++                    ),
+                   ),
+-                ),
+-              ),
+               decoration: InputDecoration(
+                 hintText: 'Quiero vender…',
+                 prefixIcon: Icon(Icons.search, color: primaryColor),
+diff --git a/test/presentation/pages/caja/barcode/physical_barcode_reader_controller_test.dart b/test/presentation/pages/caja/barcode/physical_barcode_reader_controller_test.dart
+index 45f027c..6d921c6 100644
+--- a/test/presentation/pages/caja/barcode/physical_barcode_reader_controller_test.dart
++++ b/test/presentation/pages/caja/barcode/physical_barcode_reader_controller_test.dart
+@@ -78,6 +78,7 @@ void main() {
+       accept('001');
+       expect(reader.isAccepting, isTrue);
+       expect(reader.pendingReadCount, 2);
++      expect(reader.unstartedReadCount, 3);
+       expect(fixture.lookups, ['001']);
+       final finished = reader.finish();
+       expect(reader.isFinishing, isTrue);
+@@ -92,6 +93,7 @@ void main() {
+       expect((await fixture.draft)!.items.map((i) => i.quantity), [2, 1]);
+       expect((await fixture.draft)!.totalMinor, 300);
+       expect(reader.pendingReadCount, 0);
++      expect(reader.unstartedReadCount, 0);
+       expect(reader.isProcessing, isFalse);
+       final events = await fixture.db.select(fixture.db.events).get();
+       expect(events, hasLength(3));
+@@ -117,6 +119,7 @@ void main() {
+     accept('001');
+     accept('001');
+     expect(reader.pendingReadCount, 2);
++    expect(reader.unstartedReadCount, 2);
+     expect(fixture.lookups, ['001']);
+     await fixture.expectNoWrites();
+     final finished = reader.finish();
+diff --git a/test/presentation/pages/pantalla_principal/menu_lateral_test.dart b/test/presentation/pages/pantalla_principal/menu_lateral_test.dart
+index e859b14..dee9a6c 100644
+--- a/test/presentation/pages/pantalla_principal/menu_lateral_test.dart
++++ b/test/presentation/pages/pantalla_principal/menu_lateral_test.dart
+@@ -106,6 +106,55 @@ void main() {
+     });
+   }
+ 
++  testWidgets('ruta del menú espera permiso de navegación y puede denegarse', (
++    tester,
++  ) async {
++    final scaffoldKey = GlobalKey<ScaffoldState>();
++    final gate = Completer<bool>();
++    var calls = 0;
++    await tester.pumpWidget(
++      MaterialApp(
++        home: Scaffold(
++          key: scaffoldKey,
++          drawer: MenuLateral(
++            beforeNavigate: () {
++              calls++;
++              return gate.future;
++            },
++          ),
++        ),
++      ),
++    );
++    scaffoldKey.currentState!.openDrawer();
++    await tester.pumpAndSettle();
++    await tester.scrollUntilVisible(
++      find.text('Configuracion'),
++      200,
++      scrollable: find.byType(Scrollable).first,
++    );
++    await tester.tap(find.text('Configuracion'));
++    await tester.pump();
++    expect(calls, 1);
++    expect(find.byType(SyncSettingsPage), findsNothing);
++    expect(scaffoldKey.currentState!.isDrawerOpen, isTrue);
++    gate.complete(false);
++    await tester.pumpAndSettle();
++    expect(find.byType(SyncSettingsPage), findsNothing);
++    expect(scaffoldKey.currentState!.isDrawerOpen, isTrue);
++    await tester.pumpWidget(
++      MaterialApp(
++        home: Scaffold(
++          key: scaffoldKey,
++          drawer: MenuLateral(beforeNavigate: () async => true),
++        ),
++      ),
++    );
++    await tester.tap(find.text('Configuracion'));
++    await tester.pumpAndSettle();
++    expect(find.byType(SyncSettingsPage), findsOneWidget);
++    expect(scaffoldKey.currentState!.isDrawerOpen, isFalse);
++  });
++
+   testWidgets('Configuracion opens settings as a full page', (tester) async {
+     final scaffoldKey = GlobalKey<ScaffoldState>();
+ 
+diff --git a/test/support/barcode_sale_fixture.dart b/test/support/barcode_sale_fixture.dart
+index 19ab9ca..5c201e4 100644
+--- a/test/support/barcode_sale_fixture.dart
++++ b/test/support/barcode_sale_fixture.dart
+@@ -10,7 +10,9 @@ import 'package:pos_flutter/application/config/app_config.dart';
+ import 'package:pos_flutter/application/config/app_config_controller.dart';
+ import 'package:pos_flutter/application/sync/event_processor.dart';
+ import 'package:pos_flutter/application/sync/handlers/venta_borrador_event_handler.dart';
++import 'package:pos_flutter/application/sync/handlers/venta_borrador_limpiada_event_handler.dart';
+ import 'package:pos_flutter/application/sync/payloads/producto_agregado_borrador_payload.dart';
++import 'package:pos_flutter/application/sync/payloads/venta_borrador_limpiada_payload.dart';
+ import 'package:pos_flutter/data/local/drift/app_database.dart';
+ import 'package:pos_flutter/data/local/drift/drift_local_event_store.dart';
+ import 'package:pos_flutter/data/local/drift/drift_producto_projection_store.dart';
+@@ -25,7 +27,10 @@ import 'package:pos_flutter/presentation/pages/caja/barcode/sale_barcode_read_co
+ /// Los hooks solo detienen consultas/comandos; la persistencia y el flujo de
+ /// eventos son reales, sobre una base aislada que nunca abre la instalación.
+ class BarcodeSaleFixture {
+-  final db = AppDatabase.forTesting(NativeDatabase.memory());
++  BarcodeSaleFixture({AppDatabase? database})
++    : db = database ?? AppDatabase.forTesting(NativeDatabase.memory());
++
++  final AppDatabase db;
+   final config = AppConfigController(AppConfig.initial);
+   final lookups = <String>[];
+   final attempts = <AgregarProductoBorradorCommand>[];
+@@ -45,6 +50,9 @@ class BarcodeSaleFixture {
+       ProductoAgregadoBorradorPayload.eventType: VentaBorradorEventHandler(
+         db.saleDao,
+       ).apply,
++      VentaBorradorLimpiadaPayload.eventType: VentaBorradorLimpiadaEventHandler(
++        db.saleDao,
++      ).apply,
+     },
+   );
+   late final events = DriftLocalEventStore(

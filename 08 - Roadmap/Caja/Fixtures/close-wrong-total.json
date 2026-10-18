@@ -1,0 +1,20 @@
+{
+  "opening_event_id": "44444444-4444-4444-8444-444444444444",
+  "closed_at_ms": 1790337700000,
+  "counted_minor": 17900,
+  "income_minor": "8000",
+  "expense_minor": "0",
+  "expected_minor": "18001",
+  "difference_minor": "-100",
+  "notes": null,
+  "movements": [
+    {
+      "movement_id": "11111111-1111-4111-8111-111111111111",
+      "event_id": "22222222-2222-4222-8222-222222222222",
+      "direction": "in",
+      "amount_minor": 8000,
+      "source_type": "sale_payment",
+      "source_id": "33333333-3333-4333-8333-333333333333"
+    }
+  ]
+}

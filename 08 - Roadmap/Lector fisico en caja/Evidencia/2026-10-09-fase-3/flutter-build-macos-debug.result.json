@@ -1,0 +1,6 @@
+{
+  "command": "flutter build macos --debug",
+  "started_at": "2026-10-10T04:41:40.640760+00:00",
+  "finished_at": "2026-10-10T04:42:03.026134+00:00",
+  "exit_code": 0
+}

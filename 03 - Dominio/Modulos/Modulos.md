@@ -1,7 +1,7 @@
 ---
 tipo: indice_modulos
 estado: activo
-actualizado: 2026-08-19
+actualizado: 2026-09-23
 ---
 
 # Modulos
@@ -18,6 +18,8 @@ confirmado en codigo, decisiones de diseno y trabajo pendiente.
 | Eliminacion de categorias | Especificada; primera y segunda entrega pendientes | [[03 - Dominio/Modulos/Eliminacion de categorias|Eliminacion de categorias]] |
 | Articulos | Alta sencilla parcial; listado y filtros listos para implementar | [[03 - Dominio/Modulos/Articulos|Articulos]] |
 | Unidades y cantidades | Contrato confirmado; pendiente de implementar | [[03 - Dominio/Modulos/Unidades y cantidades|Unidades y cantidades]] |
+| Créditos de clientes | Implementado: crédito, abonos FIFO y cuenta en ambos modos | [[03 - Dominio/Modulos/Creditos de clientes|Créditos de clientes]] |
+| Pagos por transferencia y reportes por método | Alcance confirmado; pendiente de implementar | [[03 - Dominio/Modulos/Pagos por transferencia y reportes por metodo|Pagos por transferencia y reportes por método]] |
 
 ## Criterio de actualizacion
 

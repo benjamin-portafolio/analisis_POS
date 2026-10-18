@@ -1,0 +1,1935 @@
+[
+  {
+    "id": 75179,
+    "name": "Cacahuates Barcel Golden Nuts salados 110 g",
+    "slug": "cacahuates-barcel-golden-nuts-salados-110-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/cacahuates-barcel-golden-nuts-salados-110-g/",
+    "sku": "7500810027707",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2850",
+      "regular_price": "2850",
+      "sale_price": "2850",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>28.50</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75180,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027707.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810027707",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 53,
+        "name": "Botanas cacahuates",
+        "slug": "botanas-cacahuates",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-cacahuates/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Cacahuates Barcel Golden Nuts salados 110 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=75179",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 175,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/75179",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=75179&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75177,
+    "name": "Cacahuates Barcel Golden Nuts enchilados 110 g",
+    "slug": "cacahuates-barcel-golden-nuts-enchilados-110-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/cacahuates-barcel-golden-nuts-enchilados-110-g/",
+    "sku": "7500810027691",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2850",
+      "regular_price": "2850",
+      "sale_price": "2850",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>28.50</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75178,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027691.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810027691",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 53,
+        "name": "Botanas cacahuates",
+        "slug": "botanas-cacahuates",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-cacahuates/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Cacahuates Barcel Golden Nuts enchilados 110 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=75177",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 129,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/75177",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=75177&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75175,
+    "name": "Cacahuates Barcel Golden Nuts enchilados 75 g",
+    "slug": "cacahuates-barcel-golden-nuts-enchilados-75-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/cacahuates-barcel-golden-nuts-enchilados-75-g/",
+    "sku": "7500810029053",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2280",
+      "regular_price": "2280",
+      "sale_price": "2280",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>22.80</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75176,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029053.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810029053",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 53,
+        "name": "Botanas cacahuates",
+        "slug": "botanas-cacahuates",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-cacahuates/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Cacahuates Barcel Golden Nuts enchilados 75 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=75175",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 87,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/75175",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=75175&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75170,
+    "name": "Cacahuates Barcel Hot Nuts fuego 82 g",
+    "slug": "cacahuates-barcel-hot-nuts-fuego-82-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/cacahuates-barcel-hot-nuts-fuego-82-g/",
+    "sku": "7500810008881",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2280",
+      "regular_price": "2280",
+      "sale_price": "2280",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>22.80</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75171,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008881.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810008881",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 53,
+        "name": "Botanas cacahuates",
+        "slug": "botanas-cacahuates",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-cacahuates/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Cacahuates Barcel Hot Nuts fuego 82 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=75170",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 79,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/75170",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=75170&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75168,
+    "name": "Cacahuates Barcel Golden Nuts salados 75 g",
+    "slug": "cacahuates-barcel-golden-nuts-salados-75-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/cacahuates-barcel-golden-nuts-salados-75-g/",
+    "sku": "7500810029046",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2280",
+      "regular_price": "2280",
+      "sale_price": "2280",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>22.80</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75169,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810029046.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810029046",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 53,
+        "name": "Botanas cacahuates",
+        "slug": "botanas-cacahuates",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-cacahuates/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Cacahuates Barcel Golden Nuts salados 75 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=75168",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 97,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/75168",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=75168&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75165,
+    "name": "Cacahuates Barcel Golden Nuts enchilados 65 g",
+    "slug": "cacahuates-barcel-golden-nuts-enchilados-65-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/cacahuates-barcel-golden-nuts-enchilados-65-g/",
+    "sku": "7500810008874",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2280",
+      "regular_price": "2280",
+      "sale_price": "2280",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>22.80</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75166,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810008874.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810008874",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 53,
+        "name": "Botanas cacahuates",
+        "slug": "botanas-cacahuates",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-cacahuates/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Cacahuates Barcel Golden Nuts enchilados 65 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=75165",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 153,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/75165",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=75165&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75075,
+    "name": "Runners Barcel chile y limon de 72 g",
+    "slug": "runners-barcel-chile-y-limon-de-72-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/runners-barcel-chile-y-limon-de-72-g/",
+    "sku": "7500810027837",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2050",
+      "regular_price": "2050",
+      "sale_price": "2050",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>20.50</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75076,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027837.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810027837",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Runners Barcel chile y limon de 72 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=75075",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 129,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/75075",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=75075&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75009,
+    "name": "Papas fritas Barcel adodo Mexicano de 45 g",
+    "slug": "papas-fritas-barcel-adodo-mexicano-de-45-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/papas-fritas-barcel-adodo-mexicano-de-45-g/",
+    "sku": "7500810027752",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "1850",
+      "regular_price": "1850",
+      "sale_price": "1850",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>18.50</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75010,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027752.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810027752",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Papas fritas Barcel adodo Mexicano de 45 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=75009",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 30,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/75009",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=75009&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75003,
+    "name": "Papas fritas Barcel Chips sabor sal de mar 62 g",
+    "slug": "papas-fritas-barcel-sal-de-mesa-62-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/papas-fritas-barcel-sal-de-mesa-62-g/",
+    "sku": "7500810024560",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2280",
+      "regular_price": "2280",
+      "sale_price": "2280",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>22.80</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75004,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024560.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810024560",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Papas fritas Barcel Chips sabor sal de mar 62 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=75003",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 96,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/75003",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=75003&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75000,
+    "name": "Papas fritas Barcel sal de mesa 45 g",
+    "slug": "papas-fritas-barcel-sal-de-mesa-45-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/papas-fritas-barcel-sal-de-mesa-45-g/",
+    "sku": "7500810027790",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "1850",
+      "regular_price": "1850",
+      "sale_price": "1850",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>18.50</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75001,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027790.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810027790",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Papas fritas Barcel sal de mesa 45 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=75000",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 42,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/75000",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=75000&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 74998,
+    "name": "Papas fritas Barcel toreadas chile habanero 45 g",
+    "slug": "papas-fritas-barcel-toreadas-chile-habanero-45-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/papas-fritas-barcel-toreadas-chile-habanero-45-g/",
+    "sku": "7500810027813",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "1850",
+      "regular_price": "1850",
+      "sale_price": "1850",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>18.50</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 74999,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810027813.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810027813",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Papas fritas Barcel toreadas chile habanero 45 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=74998",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 60,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/74998",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=74998&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 74992,
+    "name": "Papas fritas Barcel Chips sabor jalapeño 60 g",
+    "slug": "papas-fritas-barcel-chips-sabor-jalapeno-60-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/papas-fritas-barcel-chips-sabor-jalapeno-60-g/",
+    "sku": "7500810024553",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2280",
+      "regular_price": "2280",
+      "sale_price": "2280",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>22.80</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 74993,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810024553.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810024553",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Papas fritas Barcel Chips sabor jalapeño 60 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=74992",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 167,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/74992",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=74992&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 74986,
+    "name": "Botana Barcel Takis blue heat sabor chile y limón 70 g",
+    "slug": "botana-barcel-takis-blue-heat-sabor-chile-y-limon-70-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/botana-barcel-takis-blue-heat-sabor-chile-y-limon-70-g/",
+    "sku": "7500810028353",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2280",
+      "regular_price": "2280",
+      "sale_price": "2280",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>22.80</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 74990,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810028353-1.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810028353",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Botana Barcel Takis blue heat sabor chile y limón 70 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=74986",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 51,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/74986",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=74986&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 74984,
+    "name": "Botana Barcel Takis salsa brava 70 g",
+    "slug": "botana-barcel-takis-salsa-brava-70-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/botana-barcel-takis-salsa-brava-70-g/",
+    "sku": "7500810000502",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2280",
+      "regular_price": "2280",
+      "sale_price": "2280",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>22.80</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 74985,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810000502.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810000502",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Botana Barcel Takis salsa brava 70 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=74984",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 71,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/74984",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=74984&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 74982,
+    "name": "Botana Barcel Takis fuego +picante sabor chile y limón 70 g",
+    "slug": "botana-barcel-takis-fuego-picante-sabor-chile-y-limon-70-g",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/botana-barcel-takis-fuego-picante-sabor-chile-y-limon-70-g/",
+    "sku": "7500810003671",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2280",
+      "regular_price": "2280",
+      "sale_price": "2280",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>22.80</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 74983,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2024/07/7500810003671.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810003671",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Botana Barcel Takis fuego +picante sabor chile y limón 70 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=74982",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 277,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/74982",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=74982&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14254,
+    "name": "Botana Barcel Takis fajita 70 g",
+    "slug": "takis-fajitas-70-grs",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/takis-fajitas-70-grs/",
+    "sku": "7500810000441",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "2280",
+      "regular_price": "2280",
+      "sale_price": "2280",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>22.80</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 74991,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7500810000441-1.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7500810000441",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Botana Barcel Takis fajita 70 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=14254",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 65,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/14254",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=14254&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7168,
+    "name": "Papas fritas Barcel Chips sabor sal de mar 170 g",
+    "slug": "botanas-chips-sal-170-grs",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/botanas-chips-sal-170-grs/",
+    "sku": "7501000266203",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "5360",
+      "regular_price": "5360",
+      "sale_price": "5360",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>53.60</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75007,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501000266203-2.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7501000266203",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [
+      {
+        "id": 506,
+        "name": "Preciasos en botanas y bebidas",
+        "slug": "preciasos-en-botanas-y-bebidas",
+        "link": "https://superfenix.mx/etiqueta-producto/preciasos-en-botanas-y-bebidas/"
+      }
+    ],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Papas fritas Barcel Chips sabor sal de mar 170 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=7168",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 39,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/7168",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=7168&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7167,
+    "name": "Botana Barcel Valentones 175 g",
+    "slug": "botanas-barcel-valentones-175-grs",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://superfenix.mx/producto/botanas-barcel-valentones-175-grs/",
+    "sku": "7501030482055",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {
+      "price": "3410",
+      "regular_price": "3410",
+      "sale_price": "3410",
+      "price_range": null,
+      "currency_code": "MXN",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>34.10</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75011,
+        "src": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?fit=800%2C800&ssl=1",
+        "thumbnail": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=320%2C320&ssl=1",
+        "srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=48%2C48&ssl=1 48w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?w=800&ssl=1 800w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=300%2C300&ssl=1 300w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=150%2C150&ssl=1 150w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=768%2C768&ssl=1 768w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=320%2C320&ssl=1 320w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=100%2C100&ssl=1 100w, https://i0.wp.com/superfenix.mx/wp-content/uploads/2022/06/7501030482055-1.jpg?resize=48%2C48&ssl=1 48w",
+        "thumbnail_sizes": "(max-width: 320px) 100vw, 320px",
+        "name": "7501030482055",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 52,
+        "name": "Botanas",
+        "slug": "botanas-botanas",
+        "link": "https://superfenix.mx/categoria-producto/botanas-y-bebidas/botanas/botanas-botanas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "Hay existencias",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/D",
+    "formatted_dimensions": "N/D",
+    "add_to_cart": {
+      "text": "Añadir al carrito",
+      "description": "Añadir al carrito: &ldquo;Botana Barcel Valentones 175 g&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;search=Barcel&#038;add-to-cart=7167",
+      "single_text": "Añadir al carrito",
+      "minimum": 1,
+      "maximum": 21,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products/7167",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://superfenix.mx/wp-json/wc/store/v1/products?related=7167&per_page=10"
+        }
+      ]
+    }
+  }
+]

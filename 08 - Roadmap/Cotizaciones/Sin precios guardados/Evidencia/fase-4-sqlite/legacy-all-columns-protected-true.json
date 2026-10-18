@@ -1,0 +1,52 @@
+{
+  "schema_version": 8,
+  "protected": true,
+  "columns": {
+    "quotations": [
+      "id",
+      "active",
+      "version",
+      "created_event_id",
+      "last_event_id",
+      "last_server_sequence",
+      "user_id",
+      "device_id",
+      "issued_at_local",
+      "source_sale_id",
+      "source_draft_event_id",
+      "current_sale_id",
+      "currency",
+      "total_minor"
+    ],
+    "quotation_items": [
+      "id",
+      "active",
+      "version",
+      "created_event_id",
+      "last_event_id",
+      "last_server_sequence",
+      "quotation_id",
+      "variant_id",
+      "product_name_snapshot",
+      "variant_name_snapshot",
+      "sale_mode_snapshot",
+      "quantity",
+      "measured_quantity_atomic",
+      "sale_unit_code_snapshot",
+      "sale_unit_symbol_snapshot",
+      "sale_unit_atomic_factor_snapshot",
+      "sort_order",
+      "unit_price_minor",
+      "standard_cost_minor_snapshot",
+      "total_minor",
+      "price_reference_quantity_atomic_snapshot",
+      "consumption_configuration_key"
+    ]
+  },
+  "before_sha256": "e972e682979dbb7253e9bcf5e025d6980bdeb7cea65da9587630d56c263aa45d",
+  "after_sha256": "e972e682979dbb7253e9bcf5e025d6980bdeb7cea65da9587630d56c263aa45d",
+  "legacy_marker_preserved": true,
+  "legacy_event_preserved": true,
+  "whole_database_reset": false,
+  "restore_service_executed": true
+}

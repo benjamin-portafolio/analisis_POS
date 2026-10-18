@@ -1,0 +1,14 @@
+{
+  "Flutter": {
+    "branch": "main",
+    "head": "56df46b7c3846a886f039b3e3a7afb8c2bc19974"
+  },
+  "NestJS": {
+    "branch": "main",
+    "head": "cdd0d690d5338cb3b0331b902275e2ed80c5ee9e"
+  },
+  "vault": {
+    "branch": "main",
+    "head": "424c8bb7995f49a2255e97c778155efd31b1f648"
+  }
+}

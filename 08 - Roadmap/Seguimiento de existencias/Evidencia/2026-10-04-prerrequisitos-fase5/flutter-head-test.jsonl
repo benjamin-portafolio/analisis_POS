@@ -1,0 +1,195 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (108.0.0 available)
+  analyzer 10.0.1 (14.4.0 available)
+  archive 4.0.9 (4.3.0 available)
+  build 4.0.6 (4.0.11 available)
+  build_config 1.3.0 (1.3.3 available)
+  build_daemon 4.1.1 (4.1.6 available)
+  build_runner 2.15.0 (2.16.1 available)
+  built_collection 5.1.1 (5.1.2 available)
+  built_value 8.12.6 (8.13.0 available)
+  cli_util 0.4.2 (0.6.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  connectivity_plus 7.2.0 (7.3.2 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  dart_style 3.1.7 (3.1.13 available)
+  dbus 0.7.14 (0.8.0 available)
+  drift 2.34.0 (2.35.1 available)
+  drift_dev 2.34.0 (2.35.1 available)
+  file_picker 11.0.3 (13.1.0 available)
+  get_it 7.7.0 (9.3.0 available)
+  glob 2.1.3 (2.2.0 available)
+  google_sign_in_android 7.2.11 (7.2.17 available)
+  google_sign_in_ios 6.3.0 (6.3.6 available)
+  hooks 2.0.2 (2.2.0 available)
+  io 1.0.5 (1.1.0 available)
+  jni 1.0.0 (1.1.0 available)
+  jni_flutter 1.0.1 (1.0.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  mime 2.0.0 (2.1.0 available)
+  native_toolchain_c 0.19.1 (0.19.5 available)
+  nm 0.5.0 (0.6.0 available)
+  package_config 2.2.0 (3.0.0 available)
+! path_provider_foundation 2.4.2 (overridden) (2.6.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  pdf 3.12.0 (3.13.1 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  pool 1.5.2 (1.5.3 available)
+  pub_semver 2.2.0 (2.2.1 available)
+  pubspec_parse 1.5.0 (1.6.0 available)
+  qr 3.0.2 (4.0.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  share_plus 11.1.0 (13.3.1 available)
+  share_plus_platform_interface 6.1.0 (7.2.0 available)
+  source_gen 4.2.3 (4.3.0 available)
+  sqlite3 3.3.4 (3.7.0 available)
+  sqlite3_flutter_libs 0.5.42 (0.6.0+eol available)
+  sqlparser 0.44.5 (0.45.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  stream_transform 2.1.1 (2.1.2 available)
+  test_api 0.7.10 (0.7.14 available)
+  uuid 4.5.3 (4.6.0 available)
+  vector_math 2.2.0 (2.4.3 available)
+  vm_service 15.2.0 (15.3.0 available)
+  win32 5.15.0 (6.4.0 available)
+  workmanager_android 0.9.0+2 (0.10.9 available)
+  workmanager_platform_interface 0.9.1+1 (0.10.5 available)
+  xml 6.6.1 (7.1.0 available)
+  yaml 3.1.3 (3.1.4 available)
+Got dependencies!
+61 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":28579,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
+{"suite":{"id":2,"platform":"vm","path":"/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/import/articulo_import_batch_service_test.dart"},"type":"suite","time":2}
+{"test":{"id":3,"name":"loading /private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/import/articulo_import_batch_service_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":4,"platform":"vm","path":"/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/data/local/drift/product_inventory_tracking_local_event_store_test.dart"},"type":"suite","time":2}
+{"test":{"id":5,"name":"loading /private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/data/local/drift/product_inventory_tracking_local_event_store_test.dart","suiteID":4,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":6,"platform":"vm","path":"/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"suite","time":2}
+{"test":{"id":7,"name":"loading /private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart","suiteID":6,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":8,"platform":"vm","path":"/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart"},"type":"suite","time":2}
+{"test":{"id":9,"name":"loading /private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart","suiteID":8,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"count":5,"time":2,"type":"allSuites"}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3149}
+{"group":{"id":10,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":13,"line":null,"column":null,"url":null},"type":"group","time":3150}
+{"test":{"id":11,"name":"el lote exige un almacén atómico antes de escribir","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":47,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3151}
+{"testID":11,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3167}
+{"test":{"id":12,"name":"preparar un producto inválido no escribe ningún evento del lote","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":57,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3167}
+{"testID":12,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3309}
+{"test":{"id":13,"name":"crea un producto sencillo canónico sin categoría","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":83,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3309}
+{"testID":13,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3313}
+{"test":{"id":14,"name":"crea un evento con varias variantes y todas sus refs","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":107,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3313}
+{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3314}
+{"test":{"id":15,"name":"crea recurso, movimiento inicial y artículo enlazado en orden causal","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":149,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3314}
+{"testID":15,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3321}
+{"test":{"id":16,"name":"rechaza nombres duplicados antes de generar el evento","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":199,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3321}
+{"testID":16,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3322}
+{"test":{"id":17,"name":"depende de categoria_creada mientras su alta sigue pendiente","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":223,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3322}
+{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3323}
+{"test":{"id":18,"name":"una categoría oficial no depende de su último evento de movimiento","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":259,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3323}
+{"testID":18,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3324}
+{"test":{"id":19,"name":"omite la dependencia si categoria_creada ya fue entregada antes del eco","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":290,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3324}
+{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3325}
+{"test":{"id":20,"name":"rechaza entradas inválidas antes de crear un evento","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":321,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3325}
+{"testID":20,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3326}
+{"test":{"id":21,"name":"measured usa atomicFactor y declara la referencia de unidad","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":331,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3326}
+{"testID":21,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3326}
+{"test":{"id":22,"name":"rechaza una referencia distinta al atomicFactor","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":352,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3326}
+{"testID":22,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3327}
+{"test":{"id":23,"name":"normaliza y referencia los componentes de una receta","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":371,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/commands/articulos/producto_command_service_test.dart"},"type":"testStart","time":3327}
+{"testID":23,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3329}
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":4528}
+{"group":{"id":24,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":6,"line":null,"column":null,"url":null},"type":"group","time":4528}
+{"test":{"id":25,"name":"500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone","suiteID":2,"groupIDs":[24],"metadata":{"skip":false,"skipReason":null},"line":134,"column":5,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/import/articulo_import_batch_service_test.dart"},"type":"testStart","time":4528}
+{"testID":5,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":4574}
+{"group":{"id":26,"suiteID":4,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":null,"column":null,"url":null},"type":"group","time":4574}
+{"test":{"id":27,"name":"edita seguimiento y receta sin reescribir existencias","suiteID":4,"groupIDs":[26],"metadata":{"skip":false,"skipReason":null},"line":69,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/data/local/drift/product_inventory_tracking_local_event_store_test.dart"},"type":"testStart","time":4574}
+{"testID":27,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4977}
+{"test":{"id":28,"name":"crea recurso, saldo, movimiento y vínculo en un solo lote","suiteID":4,"groupIDs":[26],"metadata":{"skip":false,"skipReason":null},"line":165,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/data/local/drift/product_inventory_tracking_local_event_store_test.dart"},"type":"testStart","time":4977}
+{"testID":28,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4984}
+{"test":{"id":29,"name":"revierte el recurso si falla el vínculo del artículo","suiteID":4,"groupIDs":[26],"metadata":{"skip":false,"skipReason":null},"line":184,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/data/local/drift/product_inventory_tracking_local_event_store_test.dart"},"type":"testStart","time":4984}
+{"testID":29,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4992}
+{"test":{"id":30,"name":"persiste los componentes de receta junto con el artículo","suiteID":4,"groupIDs":[26],"metadata":{"skip":false,"skipReason":null},"line":200,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/data/local/drift/product_inventory_tracking_local_event_store_test.dart"},"type":"testStart","time":4992}
+{"testID":30,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5004}
+{"testID":25,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5915}
+{"test":{"id":31,"name":"500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync","suiteID":2,"groupIDs":[24],"metadata":{"skip":false,"skipReason":null},"line":134,"column":5,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/import/articulo_import_batch_service_test.dart"},"type":"testStart","time":5973}
+{"testID":9,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":6249}
+{"group":{"id":32,"suiteID":8,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":7,"line":null,"column":null,"url":null},"type":"group","time":6249}
+{"test":{"id":33,"name":"captura inicial en alta se guarda con el producto","suiteID":8,"groupIDs":[32],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":44,"root_column":5,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart"},"type":"testStart","time":6249}
+{"testID":7,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":6348}
+{"group":{"id":34,"suiteID":6,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":22,"line":null,"column":null,"url":null},"type":"group","time":6348}
+{"test":{"id":35,"name":"abre el producto y sus variantes sin permitir guardar","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":60,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":6348}
+{"testID":31,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6557}
+{"test":{"id":36,"name":"un lote fallido revierte todo y conserva los anteriores y posteriores","suiteID":2,"groupIDs":[24],"metadata":{"skip":false,"skipReason":null},"line":235,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/import/articulo_import_batch_service_test.dart"},"type":"testStart","time":6557}
+{"testID":36,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6676}
+{"test":{"id":37,"name":"las variantes de un producto no se parten entre lotes","suiteID":2,"groupIDs":[24],"metadata":{"skip":false,"skipReason":null},"line":285,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/import/articulo_import_batch_service_test.dart"},"type":"testStart","time":6676}
+{"testID":37,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6733}
+{"test":{"id":38,"name":"exportar y reimportar sin cambios no altera catálogo, saldos ni eventos","suiteID":2,"groupIDs":[24],"metadata":{"skip":false,"skipReason":null},"line":304,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/import/articulo_import_batch_service_test.dart"},"type":"testStart","time":6733}
+{"testID":38,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6764}
+{"test":{"id":39,"name":"push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias","suiteID":2,"groupIDs":[24],"metadata":{"skip":false,"skipReason":null},"line":352,"column":3,"url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/application/import/articulo_import_batch_service_test.dart"},"type":"testStart","time":6764}
+{"testID":35,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":7308}
+{"test":{"id":40,"name":"un artículo no disponible muestra error y no abre formulario","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":157,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":7308}
+{"testID":40,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":7357}
+{"test":{"id":41,"name":"shows the three inventory tabs without modifiers","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":178,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":7357}
+{"testID":41,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":7383}
+{"test":{"id":42,"name":"shows categories from the repository and the add button","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":196,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":7383}
+{"testID":42,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":7469}
+{"test":{"id":43,"name":"abre el recurso seleccionado en modo edición","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":218,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":7469}
+{"testID":33,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":7568}
+{"test":{"id":44,"name":"captura inicial al activar por primera vez se guarda con el producto","suiteID":8,"groupIDs":[32],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":44,"root_column":5,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart"},"type":"testStart","time":7568}
+{"testID":43,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":7618}
+{"test":{"id":45,"name":"changes tabs by tapping and swiping","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":261,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":7619}
+{"testID":45,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":7738}
+{"test":{"id":46,"name":"busca con debounce y conserva búsqueda y filtros al cambiar de pestaña","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":290,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":7738}
+{"testID":44,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":7811}
+{"test":{"id":47,"name":"vínculo con saldo cero: cancelar movimiento no registra eventos","suiteID":8,"groupIDs":[32],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":110,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart"},"type":"testStart","time":7811}
+{"testID":39,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":7865}
+{"testID":47,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8062}
+{"test":{"id":48,"name":"registro permanece al cancelar variante y producto; no renombra un recurso actualizado","suiteID":8,"groupIDs":[32],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":157,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart"},"type":"testStart","time":8062}
+{"testID":46,"messageType":"print","message":"══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════\nThe following assertion was thrown running a test:\nThe finder \"Found 0 widgets with key [<'clear_article_search_button'>]: []\" (used in a call to\n\"tap()\") could not find any matching widgets.\n\nWhen the exception was thrown, this was the stack:\n#0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2090:7)\n#1      WidgetController.getCenter (package:flutter_test/src/controller.dart:1942:12)\n#2      WidgetController.tap (package:flutter_test/src/controller.dart:1075:7)\n#3      main.<anonymous closure> (file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart:378:20)\n<asynchronous suspension>\n#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)\n<asynchronous suspension>\n#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)\n<asynchronous suspension>\n<asynchronous suspension>\n(elided one frame from package:stack_trace)\n\nThe test description was:\n  busca con debounce y conserva búsqueda y filtros al cambiar de pestaña\n════════════════════════════════════════════════════════════════════════════════════════════════════","type":"print","time":8140}
+{"testID":46,"error":"Test failed. See exception logs above.\nThe test description was: busca con debounce y conserva búsqueda y filtros al cambiar de pestaña","stackTrace":"","isFailure":false,"type":"error","time":8142}
+{"testID":46,"result":"error","skipped":false,"hidden":false,"type":"testDone","time":8142}
+{"test":{"id":49,"name":"Carga masiva abre su propia pantalla y no toca el catálogo","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":386,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":8142}
+{"testID":49,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8251}
+{"test":{"id":50,"name":"abre el menú completo y crea una categoría con color","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":413,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":8251}
+{"testID":48,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8368}
+{"test":{"id":51,"name":"saldo vigente, corrección con motivo, delta negativo y seguimiento desactivado","suiteID":8,"groupIDs":[32],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":254,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart"},"type":"testStart","time":8368}
+{"testID":50,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8422}
+{"test":{"id":52,"name":"abre y guarda el alta sencilla de artículo","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":462,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":8422}
+{"testID":52,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8642}
+{"test":{"id":53,"name":"abre la categoría con un toque y guarda sus cambios","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":506,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":8642}
+{"testID":53,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8742}
+{"test":{"id":54,"name":"las flechas mueven categorías y respetan los límites","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":543,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":8743}
+{"testID":54,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8794}
+{"test":{"id":55,"name":"ofrece resoluciones y usa singular cuando hay un artículo","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":594,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":8795}
+{"testID":51,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8822}
+{"test":{"id":56,"name":"consulta conserva saldo y no permite registrar movimientos","suiteID":8,"groupIDs":[32],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":352,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart"},"type":"testStart","time":8822}
+{"testID":55,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8874}
+{"test":{"id":57,"name":"mueve artículos por ID y elimina después de confirmar","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":624,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":8875}
+{"testID":56,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8901}
+{"test":{"id":58,"name":"bloquea doble registro y cierre mientras guarda; permite reintentar errores","suiteID":8,"groupIDs":[32],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":382,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart"},"type":"testStart","time":8902}
+{"testID":58,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8993}
+{"testID":57,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9012}
+{"test":{"id":59,"name":"deja artículos sin categoría y elimina","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":688,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":9012}
+{"testID":59,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9075}
+{"test":{"id":60,"name":"sin destinos permite regresar y conservar sin categoría","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":722,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":9075}
+{"testID":60,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9137}
+{"test":{"id":61,"name":"cancelar confirmación de resolución no genera comando","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":751,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":9137}
+{"testID":61,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9231}
+{"test":{"id":62,"name":"confirma categoría vacía, elimina y muestra éxito","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":780,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":9231}
+{"testID":62,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9301}
+{"test":{"id":63,"name":"cancelar no genera evento de eliminación","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":812,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":9301}
+{"testID":63,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9349}
+{"test":{"id":64,"name":"muestra error recuperable si falla la eliminación","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":833,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":9349}
+{"testID":64,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9406}
+{"test":{"id":65,"name":"bloquea doble confirmación mientras elimina","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":860,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":9406}
+{"testID":65,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9472}
+{"test":{"id":66,"name":"un fallo de conteo no abre una ruta destructiva","suiteID":6,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":887,"root_column":3,"root_url":"file:///private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/flutter-head/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"},"type":"testStart","time":9472}
+{"testID":66,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9514}
+{"success":false,"type":"done","time":9525}

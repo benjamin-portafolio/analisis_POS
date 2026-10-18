@@ -1,0 +1,22 @@
+{
+  "files_before": 753,
+  "files_unchanged": 749,
+  "changed_existing": [
+    "docs/architecture/product_suppliers.md",
+    "lib/data/local/backup/database_restore_service.dart",
+    "lib/data/local/drift/app_database.dart",
+    "test/data/local/drift/quotation_backup_test.dart"
+  ],
+  "new_files": [
+    "lib/data/local/drift/current_database_schema.dart",
+    "test/data/local/drift/supplier_local_acceptance_test.dart"
+  ],
+  "removed_files": [],
+  "schema_version_and_migration_literal_unchanged": true,
+  "startup_predicate_unchanged_ignoring_format_and_optional_trailing_comma": true,
+  "drift_generated_unchanged": true,
+  "table_definitions_and_daos_unchanged": true,
+  "presentation_unchanged": true,
+  "local_event_store_unchanged": true,
+  "final_check_source": "comprobaciones-finales.json"
+}

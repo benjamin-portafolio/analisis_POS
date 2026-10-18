@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pos.printing.PrinterTransportTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:28:51.581Z" hostname="Benjamins-MacBook-Air.local" time="0.655">
+  <properties/>
+  <testcase name="permissionPolicyCoversLegacyDenialPermanentAndRevocation" classname="com.pos.printing.PrinterTransportTest" time="0.0"/>
+  <testcase name="finalBlockPauseKeepsWritePendingAndRejectsFollowingBand" classname="com.pos.printing.PrinterTransportTest" time="0.027"/>
+  <testcase name="timedOutConnectIsAbortedAndClosedBeforeAnotherDestination" classname="com.pos.printing.PrinterTransportTest" time="0.045"/>
+  <testcase name="closeBarrierAlsoWaitsWhenAbortReturnsBeforeNativeWriteTerminates" classname="com.pos.printing.PrinterTransportTest" time="0.014"/>
+  <testcase name="writeCompletionWaitsForFlushAndPreservesBytesAcrossBands" classname="com.pos.printing.PrinterTransportTest" time="0.392"/>
+  <testcase name="securityExceptionIsNotLostAsGenericWriteFailure" classname="com.pos.printing.PrinterTransportTest" time="0.001"/>
+  <testcase name="connectionFailureRetainsSocketForCloseAndPermissionRevocationIsTyped" classname="com.pos.printing.PrinterTransportTest" time="0.0"/>
+  <testcase name="everyBlockIncludingLastIsPacedAndCloseAbortsDuringPause" classname="com.pos.printing.PrinterTransportTest" time="0.001"/>
+  <testcase name="socketCreatedAfterCloseBeginsCannotConnectOrEscapeCleanup" classname="com.pos.printing.PrinterTransportTest" time="0.001"/>
+  <testcase name="destinationAtoBtoAAlwaysClosesPreviousSocket" classname="com.pos.printing.PrinterTransportTest" time="0.126"/>
+  <testcase name="nativeDeadlineClosesToAbortButRemainsBusyUntilWriteAndCloseFinish" classname="com.pos.printing.PrinterTransportTest" time="0.046"/>
+  <testcase name="failedCloseQuarantinesUntilExplicitCloseRecovery" classname="com.pos.printing.PrinterTransportTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

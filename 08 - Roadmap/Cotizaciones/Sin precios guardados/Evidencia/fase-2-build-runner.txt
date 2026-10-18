@@ -1,0 +1,8 @@
+  0s drift_dev on 2704 inputs; lib/application/backup/backup_manifest.dart
+  4s drift_dev on 2704 inputs: 192 skipped, 15 same; spent 3s analyzing; lib/core/di/application_dependencies.dart
+  5s drift_dev on 2704 inputs: 341 skipped, 9 output, 80 same; spent 4s analyzing; lib/presentation/pages/gestion_clientes/cliente_form_result.dart
+  6s drift_dev on 2704 inputs: 1344 skipped, 34 output, 382 same, 25 no-op; spent 4s analyzing; lib/data/local/drift/app_database.dart.types.temp.dart
+  6s drift_dev on 2704 inputs: 2077 skipped, 34 output, 382 same, 211 no-op; spent 5s analyzing
+  0s source_gen:combining_builder on 1352 inputs; lib/application/backup/backup_manifest.dart
+  0s source_gen:combining_builder on 1352 inputs: 1346 skipped, 1 same, 5 no-op
+  Built with build_runner/aot in 7s; wrote 417 outputs.

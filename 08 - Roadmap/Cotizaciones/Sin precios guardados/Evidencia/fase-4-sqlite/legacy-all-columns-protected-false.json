@@ -1,0 +1,45 @@
+{
+  "schema_version": 8,
+  "protected": false,
+  "columns": {
+    "quotations": [
+      "id",
+      "active",
+      "version",
+      "created_event_id",
+      "last_event_id",
+      "last_server_sequence",
+      "user_id",
+      "device_id",
+      "issued_at_local",
+      "source_sale_id",
+      "source_draft_event_id",
+      "current_sale_id"
+    ],
+    "quotation_items": [
+      "id",
+      "active",
+      "version",
+      "created_event_id",
+      "last_event_id",
+      "last_server_sequence",
+      "quotation_id",
+      "variant_id",
+      "product_name_snapshot",
+      "variant_name_snapshot",
+      "sale_mode_snapshot",
+      "quantity",
+      "measured_quantity_atomic",
+      "sale_unit_code_snapshot",
+      "sale_unit_symbol_snapshot",
+      "sale_unit_atomic_factor_snapshot",
+      "sort_order"
+    ]
+  },
+  "before_sha256": "25c143fe52e0f4f0bf947d6e953bd03da88bb6ab97fb9c96b84662642b344b77",
+  "after_sha256": "1262455dd1de9c3f5ebc11ba978b9cd9da9f548084b87210720b8e0c84c59561",
+  "legacy_marker_preserved": false,
+  "legacy_event_preserved": false,
+  "whole_database_reset": true,
+  "restore_service_executed": false
+}

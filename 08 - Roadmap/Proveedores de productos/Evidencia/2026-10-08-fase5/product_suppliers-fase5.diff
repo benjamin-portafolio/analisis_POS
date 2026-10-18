@@ -1,0 +1,97 @@
+--- fase4/docs/architecture/product_suppliers.md
++++ fase5/docs/architecture/product_suppliers.md
+@@ -1,10 +1,13 @@
+ # Proveedores de productos: contrato local, revisión 1
+ 
+-Fases 1–4 del plan del 2026-10-07. El contrato, esquema, catálogo y flujo atómico
++Fases 1–5 completas del plan del 2026-10-07; alcance local cerrado el
++2026-10-08. El contrato, esquema, catálogo y flujo atómico
+ de las fases 1–3 se reutilizan desde el editor visual por variante de fase 4,
+ implementado el 2026-10-08. Proveedores, precios y fechas se guardan, leen,
+ reaplican y restauran como hijos del agregado producto. La capacidad nueva
+-solo funciona en standalone. La fase 5 es la verificación local y cierre.
++solo funciona en standalone. La fase 5 verificó aceptación, respaldo,
++restauración aislada, reinicios y regresiones; no quedan defectos locales
++conocidos pendientes en ese alcance. Las fases 6–7 requieren solicitud explícita.
+ NestJS y el transporte remoto no cambian.
+ 
+ ## Reglas funcionales
+@@ -167,11 +170,14 @@
+ 
+ AppDatabase registra ambas tablas y conserva schemaVersion = 8 y el onUpgrade
+ preexistente. _resetDatabaseOnStartup exige todas sus columnas mediante
+-hasCurrentSupplierSchema. Durante desarrollo, el arranque de una base anterior
++hasCurrentSupplierSchema, dentro de hasCurrentAppDatabaseSchema. Durante desarrollo, el arranque de una base anterior
+ sin marcador de restauración la recrea según la política vigente. Un respaldo
+ restaurado incompatible se protege y produce error, sin eliminar su archivo.
+-Restore valida esquema de proveedores y foreign_key_check antes de cerrar y
+-reemplazar la base actual, además de sha256/integrity_check. Una base actual
++Restore valida la versión SQLite actual, el mismo predicado de esquema del
++arranque (incluidos proveedores) y foreign_key_check antes de cerrar y
++reemplazar la base actual, además de sha256/integrity_check. Un rechazo conserva
++la base abierta y sus datos tras reinicio; no crea el marcador de restauración.
++Una base actual
+ se conserva en sucesivos arranques. Todas las pruebas de archivo usan un
+ path_provider simulado y directorios temporales; no abrir ni reiniciar bases
+ con datos del usuario para verificar esta entrega.
+@@ -467,6 +473,58 @@
+   seis PNG con fuentes Roboto/MaterialIcons del SDK (apertura/precio enfocado).
+   El render opcional de tests usa POS_SUPPLIER_PREVIEW_DIR y
+   POS_SUPPLIER_PREVIEW_FONTS; la suite ordinaria no necesita esos parámetros.
+-- No se realizaron pruebas físicas ni se abrió la base del usuario. La fase 5
+-  queda pendiente para aceptación/cierre local, respaldo/restauración y reinicio.
++- No se realizaron pruebas físicas ni se abrió la base del usuario. Al cerrar
++  fase 4 quedaba pendiente la aceptación de fase 5, completada a continuación.
+   Evidencia en el vault: Proveedores de productos/Evidencia/2026-10-08-fase4.
++
++## Verificación local y cierre: fase 5
++
++Aceptación local satisfecha el 2026-10-08. Se reutilizaron las pruebas de
++fases 1–4 y se añadieron ocho casos en
++`test/data/local/drift/supplier_local_acceptance_test.dart` para huecos reales:
++
++- Alta/edición por comandos reales, dos proveedores y tres variantes con
++  precios/fechas independientes, proveedor compartido y lista vacía; otro
++  conjunto con catálogo y relaciones explícitamente vacíos.
++- Dos reaperturas de AppDatabase real antes del snapshot; respaldo SQLite con
++  el servicio existente (VACUUM INTO y SHA256); restore en otro directorio
++  temporal; dos reinicios y lecturas por repositorios e interfaz real. Se
++  comparan todas las tablas Drift, identidad, datos, relaciones y eventos.
++  El origen modificado después del snapshot permanece intacto.
++- Rechazo de SHA incorrecto, archivo no SQLite, columna requerida renombrada
++  y versiones 7/9 sin cerrar/reemplazar la base vigente. Se mantienen los
++  casos anteriores para esquema de proveedores ausente/incompleto y FK huérfana.
++- Variante con stock directo y otra con receta; Caja abierta, cotización
++  guardada y venta confirmada por servicios existentes. Capturar precios
++  conserva las filas no vacías de ventas, pagos, Caja, Cotizaciones, recetas,
++  saldos y movimientos, además de venta/costo y configuración de consumo.
++
++Las pruebas detectaron que restore aceptaba un esquema incompatible fuera de
++las tablas de proveedor o una versión distinta. La corrección extrae sin
++cambiar su lógica el predicado existente de arranque a
++`lib/data/local/drift/current_database_schema.dart` y lo reutiliza desde
++`DriftDatabaseRestoreService`, junto con la versión numérica. No cambia tablas,
++DAOs, generado, schemaVersion=8 ni onUpgrade; no se regeneró Drift. La regresión
++de respaldo legado de Cotizaciones distingue rechazo de restore de protección
++de un archivo legado ya presente durante el arranque.
++
++Verificación final: dart analyze sin problemas; flutter test --reporter json
++con 1567 aprobadas, cero fallidas y una omisión remota preexistente;
++git diff --check sin errores. La corrida enfocada de aceptación y respaldos
++tuvo 48 aprobadas. Standalone conserva applied/not_required, cero event_refs,
++cero pendientes y cero HttpClient con HTTP/WebSocket bloqueados. Se mantienen
++declaración/validación de refs, defensas server_sync y flujo legado de artículos;
++no se promueve historial standalone a pending.
++
++Evidencia en el vault: Proveedores de productos/Matriz de aceptacion local.md,
++Verificacion local - fase 5.md y Evidencia/2026-10-08-fase5, con resultados por
++prueba, comandos, hashes/deltas y datos sintéticos de respaldo/restauración.
++Se conservan los cambios preexistentes. Ningún archivo de presentación cambió;
++se reutilizan las seis capturas revisadas de fase 4 y se repiten sus tests de
++layout/scroll/Guardar en teléfono/tablet con insets de teclado simulados.
++
++No hubo pruebas físicas ni acceso a datos del usuario. No se verificó upload
++de respaldo en cuenta remota, NestJS/PostgreSQL, transporte ni dos terminales.
++La omisión requiere POS_PHASE3_SYNC_URL y no acredita validación remota.
++La función continúa disponible únicamente en standalone; fases 6–7 pendientes
++de una solicitud explícita de integración remota.

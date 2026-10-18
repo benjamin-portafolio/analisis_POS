@@ -1,0 +1,57 @@
+{
+  "analisis": {
+    "head_initial": "424c8bb7995f49a2255e97c778155efd31b1f648",
+    "head_final": "424c8bb7995f49a2255e97c778155efd31b1f648",
+    "status_equal": true,
+    "initial_files_count": 385,
+    "authorized_initial_files_changed": [
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Casos de aceptacion.md",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Estado y continuidad.md",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Mapeo y limpieza.md",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Sesiones/01 - Contrato y preparacion.md"
+    ],
+    "files_added_at_comparison": [
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Contrato y fixtures.md",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-1-analisis-status-inicial.txt",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-1-arboles-iniciales.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-1-baseline-flutter-test.txt",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-1-consumidores.txt",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-1-flutter-status-inicial.txt",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-1-identidades-dart.txt",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/README.md",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/catalogo-actualizado.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/catalogo-inicial.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/esquema-compatibilidad.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/guardado-antiguo-incompatible.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/guardado-evento-v2.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/identidades-estables.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/recuperacion-antigua-incompatible.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/recuperacion-esperada.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/recuperacion-eventos-borrador.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/recuperacion-vinculo-v2.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/seleccion-sin-precios.json",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Fixtures/validar_fixtures.py",
+      "08 - Roadmap/Cotizaciones/Sin precios guardados/Matriz de pruebas.md"
+    ],
+    "external_variations_not_edited_or_restored": [
+      {
+        "path": ".obsidian/workspace.json",
+        "sha256_initial": "02a91184f842a48ae4f113cf774af632b1d381172cbac1d21c44fa38f5820f97",
+        "sha256_observed": "4a3b3814fe5c9b0aeb33a3694fe6c311a7951de64da04082b8f7e0f51adac6ac"
+      }
+    ],
+    "unexpected_changes": [],
+    "flutter_tree_unchanged": null
+  },
+  "flutter": {
+    "head_initial": "56ddbc49f7369b2598aabe3c67b03135b7c89b46",
+    "head_final": "56ddbc49f7369b2598aabe3c67b03135b7c89b46",
+    "status_equal": true,
+    "initial_files_count": 806,
+    "authorized_initial_files_changed": [],
+    "files_added_at_comparison": [],
+    "external_variations_not_edited_or_restored": [],
+    "unexpected_changes": [],
+    "flutter_tree_unchanged": true
+  }
+}

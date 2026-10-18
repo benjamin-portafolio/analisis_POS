@@ -1,0 +1,13 @@
+{
+  "category_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+  "category_event_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+  "category_name_snapshot": "Ingresos varios",
+  "direction": "in",
+  "nature": "operating",
+  "amount_minor": 200000,
+  "currency": "MXN",
+  "method": "cash",
+  "occurred_at_ms": 1789463700000,
+  "notes": "Ingreso operativo de la semana",
+  "reference": null
+}

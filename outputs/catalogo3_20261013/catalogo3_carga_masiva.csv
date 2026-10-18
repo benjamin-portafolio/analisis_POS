@@ -1,0 +1,192 @@
+﻿categoria,nombre_articulo,tipo_venta,unidad_venta,nombre_variante,precio_venta,precio_coste,seguimiento_existencias,existencias,codigo_barras
+,Bimbo Bimbuñuelos 6 p 99 g (Canela),unidad,,,22.00,18.26,no,,7501030472698
+,Bimbo Colchones 6 p 130 g,unidad,,,16.00,13.28,no,,7501000112203
+,Bimbo Concha Vainilla 1 p 60 g,unidad,,,10.00,8.30,no,,7500810020456
+,Bimbo Conchas 2 p 120 g,unidad,,,20.00,16.60,no,,7501000132706
+,Bimbo Crossantines Choco 1 p 32 g,unidad,,,8.00,6.64,no,,7503030374019
+,Bimbo Crossantines Choco 3 p 96 g,unidad,,,20.00,16.60,no,,7503031361209
+,Bimbo Donas Azucaradas 6 p 158 g,unidad,,,22.00,18.26,no,,7501030474227
+,Bimbo Doners 120 g,unidad,,,25.00,20.75,no,,
+,Bimbo Donitas Espolvoreadas 52.5 g,unidad,,,10.00,8.30,no,,7500810020920
+,Bimbo Donitas Espolvoreadas 8 p 140 g,unidad,,,22.00,18.26,no,,7501030418399
+,Bimbo Dúo Nito 124 g,unidad,,,28.00,23.52,no,,7501030409854
+,Bimbo Hotkis Cajeta 1 p 38 g,unidad,,,8.00,6.64,no,,7500810035436
+,Bimbo Little Bites Chispas 69 g,unidad,,,15.00,12.45,no,,
+,Bimbo Madalenas 3 p 93 g,unidad,,,22.00,18.26,no,,7501030477488
+,Bimbo Mantecadas Vainilla 2 p 62.5 g,unidad,,,12.00,9.96,no,,7501000123094
+,Bimbo Mantecadas Chispas de Chocolate 190 g,unidad,,,32.00,26.56,no,,7501030420859
+,Bimbo Mantecadas 6 p,unidad,,Nuez 184 g,32.00,26.56,no,,7501030475514
+,Bimbo Mantecadas 6 p,unidad,,Vainilla 188 g,32.00,26.56,no,,7501030475521
+,Bimbo Mantechox Hershey's 2 p 80 g,unidad,,,15.00,12.45,no,,
+,Bimbo Nito 1 p 62 g,unidad,,,17.00,14.11,no,,7501000112784
+,Bimbo Panqué 280 g,unidad,,Mármol,42.00,34.86,no,,7500810015797
+,Bimbo Panqué 280 g,unidad,,Pasas,42.00,34.86,no,,7500810015803
+,Bimbo Panqué 280 g,unidad,,Nuez,42.00,34.86,no,,7500810015810
+,Bimbo Panquecitos Gota de Chocolate 2 p 140 g,unidad,,,22.00,18.26,no,,7501000112388
+,Bimbo Rebanadas 55 g,unidad,,,10.00,8.30,no,,7501000112845
+,Bimbo Roles Canela 3 p 180 g,unidad,,,25.00,20.75,no,,7503030199995
+,Bimbo Roles Glass 3 p 205 g,unidad,,,25.00,20.75,no,,7503030374002
+,Bimbo Roles Canela 6 p 365 g,unidad,,,42.00,34.86,no,,7501000309726
+,Bimbo Bimbollos 8 p 450 g,unidad,,,52.00,43.16,no,,7501000111602
+,Bimbo Bimbollos Brioche 6 p 465 g,unidad,,,64.00,53.12,no,,7501030433729
+,Bimbo Bimbollos Súper 6 p 480 g,unidad,,,54.00,44.82,no,,7501000111695
+,Bimbo Bimbollos Parrilleros 6 p 516 g,unidad,,,56.00,46.48,no,,7500810022092
+,Bimbo Bollos Súper 12 p 960 g,unidad,,,90.00,74.70,no,,
+,Bimbo Medias Noches 8 p 340 g,unidad,,,46.00,38.18,no,,7501000111503
+,Bimbo Pan Artesano 567 g,unidad,,,52.00,43.16,no,,7501030452553
+,Bimbo Pan Blanco 300 g (Barrilito),unidad,,,25.00,20.75,no,,
+,Bimbo Pan Blanco Grande 620 g,unidad,,,49.00,40.67,no,,7500810029183
+,Bimbo Pan Cero Cero 610 g,unidad,,,64.00,53.12,no,,7501030467090
+,Bimbo Pan Integral 300 g (Barrilito),unidad,,,28.00,23.24,no,,
+,Bimbo Pan Integral Grande 620 g,unidad,,,52.00,43.16,no,,7500810022061
+,Bimbo Pan Linaza 610 g,unidad,,,62.00,51.46,no,,7501000300730
+,Bimbo Pan Multigrano Cero Cero 610 g,unidad,,,64.00,53.12,no,,7501000131440
+,Bimbo Mini Pan Tostado Mantequilla 115 g,unidad,,,25.00,20.75,no,,
+,Bimbo Molido Clásico 210 g,unidad,,,28.00,23.24,no,,7501000111855
+,Bimbo Molido Clásico 400 g,unidad,,,40.00,33.20,no,,
+,Bimbo Molido Crujiente 175 g,unidad,,,28.00,23.24,no,,7501000149100
+,Bimbo Tostado Brioche 14 p 210 g,unidad,,,36.00,29.88,no,,
+,Bimbo Tostado Clásico 210 g,unidad,,,34.00,28.22,no,,7501000111800
+,Bimbo Tostado Doble Fibra 250 g,unidad,,,36.00,29.88,no,,7501000112333
+,Bimbo Tostado Integral 250 g,unidad,,,36.00,29.88,no,,7501030491668
+,Bimbo Bran Frut 58 g,unidad,,Fresa,12.00,9.96,no,,7501000116447
+,Bimbo Bran Frut 58 g,unidad,,Piña,12.00,9.96,no,,7501000116430
+,Bimbo Bran Frut Granos Ancestrales 60 g,unidad,,,12.00,9.96,no,,
+,Bimbo Bran Frut Cheesecake 58 g,unidad,,,12.00,9.96,no,,
+,Bimbo Multigrano Linaza 32 g,unidad,,,12.00,9.96,no,,
+,Bimbo Multigrano Nuez 34 g,unidad,,,12.00,9.96,no,,
+,Bimbo Fruit Grain Salvfresa 67 g,unidad,,,15.00,12.45,no,,
+,Bimbo Fruit Grain Strudel Manzana 1 p 65 g,unidad,,,12.00,9.96,no,,
+,Wonder Chocotorro 50 g,unidad,,,15.00,12.45,no,,7501000103065
+,Wonder Dálmata 55 g,unidad,,,15.00,12.45,no,,7501000103034
+,Wonder Mini Chocotorro 1 p 24 g,unidad,,,7.00,5.81,no,,
+,Wonder Twinkies 3 p 114 g,unidad,,Vainilla,19.00,15.77,no,,
+,Wonder Twinkies 3 p 114 g,unidad,,Chocolate,19.00,15.77,no,,
+,Wonder Hot Dogs 8 p 340 g,unidad,,,48.00,39.84,no,,
+,Wonder Súper Bollos 8 p 540 g,unidad,,,65.00,53.95,no,,7501000101238
+,Wonder Súper Hot Dogs 8 p 526 g,unidad,,,58.00,48.14,no,,7503030572415
+,Wonder Integral 100% con Ajonjolí 567 g,unidad,,,56.00,46.48,no,,
+,Wonder Súper Pan Blanco con Ajonjolí 567 g,unidad,,,54.00,44.82,no,,
+,Del Hogar Tortilla de Harina 15 p 300 g,unidad,,,18.00,15.12,no,,
+,Tía Rosa Tortillinas 15 p 382.5 g,unidad,,,25.00,20.75,no,,
+,Tía Rosa Tortillinas 22 p 561 g,unidad,,,38.00,31.54,no,,
+,Tía Rosa Tortillinas 30 p 765 g,unidad,,,50.00,41.50,no,,
+,Tía Rosa Tortillinas Parrilleras 10 p 290 g,unidad,,,30.00,24.90,no,,
+,Milpa Real Tostada Ondulada 30 p 360 g,unidad,,,37.00,30.34,no,,
+,Milpa Real Tostada Plana 15 p 175 g,unidad,,,26.00,21.32,no,,
+,Milpa Real Totopos Chilaquiles 280 g,unidad,,,32.00,26.24,no,,
+,Milpa Real Totopos Chilaquiles 500 g,unidad,,,50.00,41.00,no,,
+,Del Hogar Totopos 280 g,unidad,,,30.00,24.60,no,,
+,Salsa 240 g,unidad,,Mora,20.00,16.80,no,,
+,Salsa 240 g,unidad,,Chile de Árbol,20.00,16.80,no,,
+,Salsa 240 g,unidad,,Verde,20.00,16.80,no,,
+,Salsa 240 g,unidad,,Taquera,20.00,16.80,no,,
+,Oroweat 100% Integral 680 g,unidad,,,80.00,65.60,no,,7501000375288
+,Oroweat 12 Granos 680 g,unidad,,,80.00,65.60,no,,7501000375295
+,Oroweat Mantequilla ButterMilk 680 g,unidad,,,80.00,65.60,no,,7501030421221
+,Oroweat Multigrano 680 g,unidad,,,80.00,65.60,no,,7501000375417
+,Oroweat Thins Multigrano 6 p 255 g,unidad,,,35.00,28.70,no,,
+,Sanissimo Galleta de Arroz y Quinoa 1 p 12 g,unidad,,,8.00,6.48,no,,7501030455363
+,Sanissimo Rosquitas Horneadas 20 g,unidad,,,15.00,12.15,no,,
+,Sanissimo Salmas 90 g,unidad,,,22.00,17.82,no,,658480001958
+,Sanissimo Flow Pack Salmas 8 p 144 g,unidad,,,31.00,25.11,no,,7501030433927
+,Sanissimo Tostada Clásica 216 g,unidad,,,36.00,29.16,no,,658480001262
+,Sanissimo Tostaditas Horneadas 20 p 160 g,unidad,,,27.00,21.87,no,,7500810009062
+,Coca-Cola 235 ml,unidad,,Vidrio retornable,10.00,8.75,no,,
+,Coca-Cola 235 ml,unidad,,PET no retornable,10.00,8.58,no,,7501055349609
+,Coca-Cola 235 ml,unidad,,Vidrio no retornable,18.00,15.75,no,,7501055354672
+,Coca-Cola 500 ml,unidad,,Vidrio retornable,15.00,13.17,no,,75004699
+,Coca-Cola 500 ml,unidad,,PET no retornable,20.00,17.50,no,,75009809
+,Coca-Cola 1.5 L,unidad,,PET retornable,24.00,21.25,no,,7501055300594
+,Coca-Cola 1.5 L,unidad,,PET no retornable,32.00,28.00,no,,7501055303540
+,Coca-Cola 2.5 L,unidad,,PET retornable,35.00,30.63,no,,7501055310227
+,Coca-Cola 2.5 L,unidad,,PET no retornable,43.00,37.33,no,,7501055305247
+,Coca-Cola 355 ml,unidad,,Lata,22.00,19.21,no,,7501055300075
+,Coca-Cola 355 ml,unidad,,PET no retornable,15.00,13.08,no,,7501055341344
+,Coca-Cola 600 ml,unidad,,PET no retornable,22.00,19.33,no,,75007614
+,Coca-Cola 1 L,unidad,,PET no retornable,27.00,23.67,no,,7501055302451
+,Coca-Cola 2 L,unidad,,PET no retornable,40.00,35.33,no,,7501055302925
+,Coca-Cola 3 L,unidad,,PET no retornable,53.00,46.67,no,,7501055304745
+,Coca-Cola Light 355 ml,unidad,,Lata,22.00,19.33,no,,7501055305391
+,Coca-Cola Light 600 ml,unidad,,PET no retornable,22.00,19.33,no,,7501055305339
+,Coca-Cola Light 2 L,unidad,,PET no retornable,40.00,35.33,no,,7501055305360
+,Coca-Cola Zero 300 ml,unidad,,PET no retornable,9.00,7.67,no,,
+,Coca-Cola Zero 355 ml,unidad,,Lata,22.00,19.33,no,,7501055320622
+,Coca-Cola Zero 355 ml,unidad,,PET no retornable,13.00,11.42,no,,7501055320677
+,Coca-Cola Zero 600 ml,unidad,,PET no retornable,20.00,17.58,no,,7501055320639
+,Coca-Cola Zero 1.5 L,unidad,,PET no retornable,28.00,24.50,no,,7501055320653
+,Coca-Cola Zero 2 L,unidad,,PET no retornable,38.00,33.50,no,,7501055320660
+,Refrescos de Sabores 500 ml,unidad,,Vidrio retornable,13.00,11.04,no,,
+,Refrescos Sabores / VF / CCZ 2.5 L,unidad,,PET retornable,27.00,23.63,no,,
+,Refrescos de Sabores 300 ml,unidad,,PET no retornable,9.00,7.67,no,,
+,Refrescos de Sabores Sin Azúcar 300 ml,unidad,,PET no retornable,9.00,7.67,no,,
+,Refrescos de Sabores 355 ml,unidad,,Lata,22.00,19.00,no,,
+,Refrescos Sabores / Delaware / VF 600 ml,unidad,,PET no retornable,20.00,16.83,no,,
+,Refrescos de Sabores 2 L,unidad,,PET no retornable,30.00,26.00,no,,
+,Refrescos de Sabores 3 L,unidad,,PET no retornable,40.00,34.50,no,,
+,Ciel Purificada 355 ml,unidad,,,8.00,6.50,no,,7501055310920
+,Ciel Purificada 600 ml,unidad,,,12.00,10.00,no,,7501055307906
+,Ciel Purificada 1 L,unidad,,,14.00,11.67,no,,7501055310883
+,Ciel Purificada 1.5 L,unidad,,,17.00,14.25,no,,7501055304721
+,Ciel Purificada 5 L,unidad,,,38.00,33.25,no,,7501055310487
+,Ciel Exprim 0% Azúcar 1 L,unidad,,,17.00,14.00,no,,
+,Ciel Mineralizada 355 ml,unidad,,,22.00,19.00,no,,7501055365630
+,Ciel Mineralizada 600 ml,unidad,,,19.00,15.00,no,,7501055308248
+,Ciel Mineralizada 2 L,unidad,,,28.00,24.25,no,,7501055305742
+,Topo Chico 600 ml,unidad,,,21.00,18.00,no,,021136010541
+,Topo Chico Twist 600 ml,unidad,,,22.00,18.83,no,,
+,Topo Chico 1.5 L,unidad,,,29.00,24.83,no,,021136010480
+,Fuze Tea 600 ml,unidad,,,23.00,19.17,no,,
+,Powerade 1 L,unidad,,,34.00,28.83,no,,
+,Powerade 500 ml,unidad,,,24.00,19.83,no,,
+,Powerade 600 ml,unidad,,,26.00,21.33,no,,
+,Flashlyte Suero 625 ml,unidad,,,22.00,18.17,no,,
+,Del Valle 237 ml,unidad,,,12.00,10.00,no,,
+,Del Valle 413 ml,unidad,,,20.00,17.75,no,,
+,Frutsi 250 ml,unidad,,,11.00,8.83,no,,
+,Del Valle 1 L,unidad,,,32.00,26.67,no,,
+,Valle Frut 600 ml,unidad,,,20.00,16.83,no,,
+,Valle Frut 2 L,unidad,,,31.00,25.83,no,,
+,Valle Frut 3 L,unidad,,,41.00,34.33,no,,
+,Santa Clara Leche UHT 1 L,unidad,,Entera,31.00,29.00,no,,7501295600126
+,Santa Clara Leche UHT 1 L,unidad,,Light,31.00,29.00,no,,7501295600140
+,Santa Clara Leche UHT 1 L,unidad,,Semi,31.00,29.00,no,,7501055350995
+,Santa Clara Leche UHT 1 L,unidad,,Deslactosada,32.00,30.00,no,,7501295600157
+,Santa Clara UHT 180 ml,unidad,,,13.00,12.00,no,,
+,Santa Clara UHT 250 ml,unidad,,,20.00,17.67,no,,
+,Ades Soya Frutal 200 ml,unidad,,,11.00,9.25,no,,
+,Ades Soya Milk Almendra 946 ml,unidad,,,42.00,36.67,no,,7501055363346
+,Ades Soya Milk Natural 946 ml,unidad,,,34.00,28.67,no,,
+,Monster 473 ml,unidad,,,41.00,33.50,no,,
+,Predator 473 ml,unidad,,,22.00,17.50,no,,
+,Bacardí 473 ml,unidad,,,35.00,28.00,no,,
+,Topo Chico 473 ml,unidad,,Paloma,34.00,27.33,no,,
+,Topo Chico 473 ml,unidad,,Cantarito,34.00,27.33,no,,
+,Dany 125 g,unidad,,,11.00,8.80,no,,
+,Dany Pouch 125 g,unidad,,,16.00,13.20,no,,
+,Danette Flan - pieza de par 200 g,unidad,,,13.00,10.40,no,,
+,Danone Gelatina Leche - pieza de par,unidad,,,15.00,12.20,no,,
+,Danette Natilla - pieza de par 100 g,unidad,,,15.00,12.60,no,,
+,Danonino Maxi - pieza de cuadro 336 g,unidad,,,11.00,8.83,no,,
+,Danonino - pieza de cuadro 168 g,unidad,,,8.00,6.40,no,,
+,Danonino Pouch 70 g,unidad,,,15.00,12.20,no,,
+,Danonino Bebible 90 g,unidad,,,10.00,8.20,no,,
+,Danonino Bebible 170 g,unidad,,,13.00,10.40,no,,
+,Danup 220 g,unidad,,,19.00,15.20,no,,
+,Danup 350 g,unidad,,,24.00,19.40,no,,
+,Danup 435 g,unidad,,,27.00,21.90,no,,
+,Danone Licuado 475 g,unidad,,,27.00,21.90,no,,
+,Activia 225 g,unidad,,,19.00,15.80,no,,
+,Benegastro 240 g,unidad,,,20.00,16.60,no,,
+,Danone 220 g,unidad,,,19.00,15.20,no,,
+,Danone Bipack 140 g,unidad,,,17.00,13.70,no,,
+,Danone Fruta - pieza de par 240 g,unidad,,,9.00,3.60,no,,
+,Danone Griegos 120 g,unidad,,,11.00,8.90,no,,
+,Oikos Selecto 220 g,unidad,,,23.00,18.30,no,,
+,Oikos Pro 220 g,unidad,,,30.00,24.00,no,,
+,Oikos Pro UHT 300 ml,unidad,,,30.00,24.00,no,,
+,Oikos 125 g,unidad,,,17.00,13.80,no,,
+,Danmix 110 g,unidad,,,24.00,19.70,no,,
+,Leche Hershey's 200 ml,unidad,,,17.00,14.00,no,,
+,Ocean Spray 1 L,unidad,,,43.00,35.00,no,,
+,Silk 946 ml,unidad,,,57.00,48.00,no,,

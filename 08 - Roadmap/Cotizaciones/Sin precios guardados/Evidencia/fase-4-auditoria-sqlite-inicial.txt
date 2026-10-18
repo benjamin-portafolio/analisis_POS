@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Cotizaciones/Sin precios guardados/Evidencia/fase-4-auditar.py", line 75, in <module>
+    assert required <= columns
+AssertionError

@@ -1,0 +1,62 @@
+{
+  "permissions": [
+    {
+      "name": "android.permission.INTERNET",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.BLUETOOTH",
+      "maxSdkVersion": "30"
+    },
+    {
+      "name": "android.permission.BLUETOOTH_CONNECT",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.CAMERA",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.POST_NOTIFICATIONS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.ACCESS_NETWORK_STATE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.WAKE_LOCK",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.FOREGROUND_SERVICE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.USE_BIOMETRIC",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.USE_FINGERPRINT",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.example.pos_flutter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "maxSdkVersion": null
+    }
+  ],
+  "features": [
+    {
+      "name": "android.hardware.bluetooth",
+      "required": "false"
+    },
+    {
+      "name": "android.hardware.camera",
+      "required": "false"
+    }
+  ]
+}

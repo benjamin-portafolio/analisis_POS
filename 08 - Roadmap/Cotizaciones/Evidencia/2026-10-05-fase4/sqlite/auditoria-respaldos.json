@@ -1,0 +1,42 @@
+[
+  {
+    "file": "restore-serverSync-en-venta.sqlite",
+    "sha256": "5ef980c919c613138492bcdcb0fb150a45c652e968934ba88dbd3dfab02fbcae",
+    "integrity_check": "ok",
+    "foreign_key_check": [],
+    "quotations": 1,
+    "quotation_items": 3,
+    "recoveries": 2,
+    "marker": "keep after restore and second startup"
+  },
+  {
+    "file": "restore-serverSync-vendida.sqlite",
+    "sha256": "381b2169e866c5603212cdcbf426967e0e34e6926549d0f9b592e7a20050061c",
+    "integrity_check": "ok",
+    "foreign_key_check": [],
+    "quotations": 1,
+    "quotation_items": 3,
+    "recoveries": 2,
+    "marker": "keep after restore and second startup"
+  },
+  {
+    "file": "restore-standalone-en-venta.sqlite",
+    "sha256": "039c909bd3030f619b1653a3b5823e59687a7794bb7aa7503032b443fe210b48",
+    "integrity_check": "ok",
+    "foreign_key_check": [],
+    "quotations": 1,
+    "quotation_items": 3,
+    "recoveries": 2,
+    "marker": "keep after restore and second startup"
+  },
+  {
+    "file": "restore-standalone-vendida.sqlite",
+    "sha256": "530c2112927715ac587e7b7125d12c6283f5c6e5353bccd9eb400259ba50c940",
+    "integrity_check": "ok",
+    "foreign_key_check": [],
+    "quotations": 1,
+    "quotation_items": 3,
+    "recoveries": 2,
+    "marker": "keep after restore and second startup"
+  }
+]

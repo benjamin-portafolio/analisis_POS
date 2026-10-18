@@ -1,0 +1,2436 @@
+[
+  {
+    "productId": "616",
+    "productName": "Pronto leche condensada 380 g",
+    "brand": "PRONTO",
+    "brandId": 2000684,
+    "brandImageUrl": null,
+    "linkText": "pronto-producto-lacteo-consensado-380-gr",
+    "productReference": "07LPRO001",
+    "productReferenceCode": "07LPRO001",
+    "categoryId": "1318",
+    "productTitle": "pronto leche condensada 380 gr",
+    "metaTagDescription": "Compra Pronto leche condensada 380 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Leche/Condensada/",
+      "/Despensa/Leche/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1181/1318/",
+      "/1003/1181/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/pronto-producto-lacteo-consensado-380-gr/p",
+    "Color": [
+      "Amarillo",
+      "Café"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Leche"
+    ],
+    "Presentación": [
+      "Lata"
+    ],
+    "Peso": [
+      "301g- 400g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Pronto Leche Condensada es el ingrediente ideal para darle ese toque especial y delicioso a tus postres y bebidas favoritas. Con su textura espesa y su característico sabor dulce, esta leche condensada es perfecta para preparar flan, pastel de tres leches, chocoflan, arroz con leche y mucho más.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/><br/>",
+    "items": [
+      {
+        "itemId": "616",
+        "name": "Pronto leche condensada 380 g",
+        "nameComplete": "Pronto leche condensada 380 g",
+        "complementName": "",
+        "ean": "7501200486005",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07LPRO001"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303828",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303828-#width#-#height#/7501200486005.jpg?v=638863149275700000\" width=\"#width#\" height=\"#height#\" alt=\"7501200486005\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303828/7501200486005.jpg?v=638863149275700000",
+            "imageText": "7501200486005",
+            "imageLastModified": "2025-06-23T22:35:27.5700000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=616&qty=1&seller=1&sc=1&price=3450&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 34.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 34.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 34.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 34.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 34.5,
+              "ListPrice": 34.5,
+              "PriceWithoutDiscount": 34.5,
+              "FullSellingPrice": 34.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjJiYzIyZjgzLThkM2YtNDMyNC04M2JlLTkyYzE3MzIzODIyMyIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjozNDUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MzQ1MCwic2VsbGVyIjoiMSIsImlkIjoiNjE2IiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MCwiaWF0IjoxNzkyMTc2MzgwLCJqdGkiOiJmNjlhNGYwMi1iODA5LTQ3M2ItOTUyZC0wYTg0NzM4MDhiNDEiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.ApHZx9PiC8i3urQii-H1r2hp6NgwBZKRD_VztVeeQ6uA7h_2SvEnpeVML8xeKMb-NQtyq63za5tQiCM2gkoWPw",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 3450,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 3450,
+                        "total": 3450,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 3450,
+                            "total": 3450
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 3450,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 3450,
+                        "total": 3450,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 3450,
+                            "total": 3450
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T17:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T17:05:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "685",
+    "productName": "Pronto jarabe maple 250 ml",
+    "brand": "PRONTO",
+    "brandId": 2000684,
+    "brandImageUrl": null,
+    "linkText": "pronto-jarabe-maple-250-ml",
+    "productReference": "10CPRO002",
+    "productReferenceCode": "10CPRO002",
+    "categoryId": "1193",
+    "productTitle": "Pronto jarabe maple 250 ml",
+    "metaTagDescription": "Compra Pronto jarabe maple 250 ml al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Mermeladas y Miel/Miel/",
+      "/Despensa/Mermeladas y Miel/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1057/1193/",
+      "/1003/1057/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/pronto-jarabe-maple-250-ml/p",
+    "Color": [
+      "Amarillo",
+      "Naranja",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Miel"
+    ],
+    "Presentación": [
+      "Botella"
+    ],
+    "Especificaciones": [
+      "Maple"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "201g- 300g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Dale un toque dulce y delicioso a tus desayunos con el Jarabe Tipo Maple Pronto en su presentación de 250 ml. Con su sabor clásico, textura suave y color ámbar brillante, este jarabe es el complemento perfecto para hot cakes, waffles, pan francés, frutas o postres.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "685",
+        "name": "Pronto jarabe maple 250 ml",
+        "nameComplete": "Pronto jarabe maple 250 ml",
+        "complementName": "",
+        "ean": "7501200484087",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "10CPRO002"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "304098",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/304098-#width#-#height#/7501200484087.jpg?v=638877713814700000\" width=\"#width#\" height=\"#height#\" alt=\"7501200484087\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/304098/7501200484087.jpg?v=638877713814700000",
+            "imageText": "7501200484087",
+            "imageLastModified": "2025-07-10T19:09:41.4700000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=685&qty=1&seller=1&sc=1&price=3100&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 31.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 31.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 31.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 31.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 31.0,
+              "ListPrice": 31.0,
+              "PriceWithoutDiscount": 31.0,
+              "FullSellingPrice": 31.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjA4YmEyNjQ2LTJjODgtNGZlNy04OGUwLWYyNmEzMjk1MDI4NCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjozMTAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MzEwMCwic2VsbGVyIjoiMSIsImlkIjoiNjg1IiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MCwiaWF0IjoxNzkyMTc2MzgwLCJqdGkiOiJiN2U2Yjk1Yy1hOTU5LTQwODYtOTI1OS0xZWJmZjI3ZGNmNjAiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0._HSSSUfJnnyG_drg55VW6emNtWfeYnVGtOktlFyjzodRGYS3zPzLwGjU0JideFx_fdCoAxijUdF1DSLFIj5Jcg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T18:46:20Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 3100,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 3100,
+                        "total": 3100,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 3100,
+                            "total": 3100
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 3100,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 3100,
+                        "total": 3100,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 3100,
+                            "total": 3100
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T18:36:37.2782346Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T18:35:37.2782348Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "992",
+    "productName": "Pure papa instantaneo Pronto 125 gr",
+    "brand": "PRONTO",
+    "brandId": 2000684,
+    "brandImageUrl": null,
+    "linkText": "pure-papa-instantaneo-pronto-125-gr",
+    "productReference": "14FPRO001",
+    "productReferenceCode": "14FPRO001",
+    "categoryId": "1141",
+    "productTitle": "Pure papa instantaneo Pronto 125 gr",
+    "metaTagDescription": "Compra Pure papa instantaneo Pronto 125 gr al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Alimentos Instantáneos/Puré Instantáneo/",
+      "/Despensa/Alimentos Instantáneos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1137/1141/",
+      "/1003/1137/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/pure-papa-instantaneo-pronto-125-gr/p",
+    "Aroma": [
+      "Sin aroma"
+    ],
+    "Presentación": [
+      "Caja"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Aroma",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Aroma",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Pure papa instantaneo Pronto 125 gr",
+    "items": [
+      {
+        "itemId": "992",
+        "name": "Pure papa instantaneo Pronto 125 gr",
+        "nameComplete": "Pure papa instantaneo Pronto 125 gr",
+        "complementName": "",
+        "ean": "7501200484506",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "14FPRO001"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "192851",
+            "imageLabel": "Pure-papa-instantaneo-Pronto-125-gr",
+            "imageTag": "<img src=\"~/arquivos/ids/192851-#width#-#height#/14FPRO001_2.jpg?v=636790388668370000\" width=\"#width#\" height=\"#height#\" alt=\"14FPRO001_2\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/192851/14FPRO001_2.jpg?v=636790388668370000",
+            "imageText": "14FPRO001_2",
+            "imageLastModified": "2018-11-28T21:54:26.8370000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=992&qty=1&seller=1&sc=1&price=2900&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 29.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 29.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 29.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 29.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 29.0,
+              "ListPrice": 29.0,
+              "PriceWithoutDiscount": 29.0,
+              "FullSellingPrice": 29.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjE0NGFkMjFiLWU1MjMtNGFhOC04Yzk4LWFmZjU2NjJjN2QxOCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoyOTAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MjkwMCwic2VsbGVyIjoiMSIsImlkIjoiOTkyIiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MCwiaWF0IjoxNzkyMTc2MzgwLCJqdGkiOiI1MjhjNTc4Ni0wZGJmLTQ3OWQtOTM1Ni05M2IxNGExMWUzZjkiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.8j4pWN-NyMEkzvpZa3ZOzMwr1rZai_H54ThoPmRvlsd2y9g3tR7Bb0YWm89OgVS27YD_g0KPIA_KCY_ZsLoDSQ",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 2900,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 2900,
+                        "total": 2900,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 2900,
+                            "total": 2900
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 2900,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 2900,
+                        "total": 2900,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 2900,
+                            "total": 2900
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T17:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T17:35:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "673",
+    "productName": "Harina para pastel Pronto chocolate 515 g",
+    "brand": "PRONTO",
+    "brandId": 2000684,
+    "brandImageUrl": null,
+    "linkText": "harina-para-pastel-pronto-chocolate-515-gr",
+    "productReference": "09DPRO072",
+    "productReferenceCode": "09DPRO072",
+    "categoryId": "1173",
+    "productTitle": "Harina para pastel Pronto chocolate 515 g",
+    "metaTagDescription": "Compra Harina para pastel Pronto chocolate 515 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Harina y Repostería/Para Hot Cakes/",
+      "/Despensa/Harina y Repostería/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1053/1173/",
+      "/1003/1053/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/harina-para-pastel-pronto-chocolate-515-gr/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Café",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Chocolate"
+    ],
+    "Sabor": [
+      "Chocolate"
+    ],
+    "Presentación": [
+      "Caja"
+    ],
+    "Peso": [
+      "501g- 600g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "La Harina para Pastel Pronto Chocolate 515 g está pensada para los amantes del chocolate y de la repostería práctica. Con esta mezcla lista, preparar una torta húmeda, suave y con intenso sabor a cacao es tan fácil como agregar unos pocos ingredientes. Ideal para cumpleaños, meriendas, postres o cualquier momento donde se necesite un toque dulce y casero.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "673",
+        "name": "Harina para pastel Pronto chocolate 515 g",
+        "nameComplete": "Harina para pastel Pronto chocolate 515 g",
+        "complementName": "",
+        "ean": "7501200483608",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "09DPRO072"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "299826",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/299826-#width#-#height#/7501200483608.jpg?v=638494879445100000\" width=\"#width#\" height=\"#height#\" alt=\"7501200483608\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/299826/7501200483608.jpg?v=638494879445100000",
+            "imageText": "7501200483608",
+            "imageLastModified": "2024-04-23T16:52:24.5100000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=673&qty=1&seller=1&sc=1&price=5650&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 56.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 56.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 56.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 56.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 56.5,
+              "ListPrice": 56.5,
+              "PriceWithoutDiscount": 56.5,
+              "FullSellingPrice": 56.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjMzNjUzODIyLWNlYWUtNDU5Zi05ZWZhLTk5Yzg5MWZkZDFhNyIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo1NjUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NTY1MCwic2VsbGVyIjoiMSIsImlkIjoiNjczIiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MCwiaWF0IjoxNzkyMTc2MzgwLCJqdGkiOiI5NzM3MDFkOC0yMjUzLTQ0MTMtOWQ2Ny02MjlkNzYyMDY5NDUiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.UHk25e0_1Gjp7l3DZQxhUmw1InBlRFG3rIsy61Do7cBaPqG8mfBWe57ovFHIvscyAjHGmY2ICHRWtQEBg-o8dw",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T18:46:20Z",
+              "AvailableQuantity": 100,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 5650,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5650,
+                        "total": 5650,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5650,
+                            "total": 5650
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 5650,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5650,
+                        "total": 5650,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5650,
+                            "total": 5650
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T18:36:37.2782346Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T18:35:37.2782348Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "672",
+    "productName": "Harina para pastel Pronto vainilla 540 g",
+    "brand": "PRONTO",
+    "brandId": 2000684,
+    "brandImageUrl": null,
+    "linkText": "harina-para-pastel-pronto-vainilla-540-gr",
+    "productReference": "09DPRO071",
+    "productReferenceCode": "09DPRO071",
+    "categoryId": "1173",
+    "productTitle": "harina para pastel pronto vainilla 540 g",
+    "metaTagDescription": "Compra Harina para pastel Pronto vainilla 540 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-29T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Harina y Repostería/Para Hot Cakes/",
+      "/Despensa/Harina y Repostería/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1053/1173/",
+      "/1003/1053/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/harina-para-pastel-pronto-vainilla-540-gr/p",
+    "Color": [
+      "Amarillo",
+      "Café",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Vainilla"
+    ],
+    "Presentación": [
+      "Caja"
+    ],
+    "Peso": [
+      "501g- 600g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "La Harina para Pastel Pronto Vainilla 540 g es tu aliada perfecta para preparar tortas irresistibles con ese sabor casero que todos aman. Con esta mezcla lista, solo tenés que agregar huevos, agua y aceite, ¡y en pocos pasos tenés un pastel esponjoso, húmedo y con un delicioso aroma a vainilla!<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "672",
+        "name": "Harina para pastel Pronto vainilla 540 g",
+        "nameComplete": "Harina para pastel Pronto vainilla 540 g",
+        "complementName": "",
+        "ean": "7501200483622",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "09DPRO071"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "304040",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/304040-#width#-#height#/7501200483622.jpg?v=638876780337600000\" width=\"#width#\" height=\"#height#\" alt=\"7501200483622\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/304040/7501200483622.jpg?v=638876780337600000",
+            "imageText": "7501200483622",
+            "imageLastModified": "2025-07-09T17:13:53.7600000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=672&qty=1&seller=1&sc=1&price=5650&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 56.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 56.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 56.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 56.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 56.5,
+              "ListPrice": 56.5,
+              "PriceWithoutDiscount": 56.5,
+              "FullSellingPrice": 56.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjUyNDBlYjhkLWZhNWUtNGI2ZS04MTM3LTE1ZGEzZGMyYjcyNiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo1NjUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NTY1MCwic2VsbGVyIjoiMSIsImlkIjoiNjcyIiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MCwiaWF0IjoxNzkyMTc2MzgwLCJqdGkiOiI4OWNhOGM0YS0xNDZmLTQ4ZmQtYjAxMi0yZDQ2OWVlNDEzYWYiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.wBmsyhEKYPuVF-IYOxpj1pYu-OicLbJcVgk9jW-O62W9hiBXyRqXfaVpgTzS5zFIsQ4ovGLoFbx3-sZFz1b8hA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 100,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 5650,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5650,
+                        "total": 5650,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5650,
+                            "total": 5650
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 5650,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5650,
+                        "total": 5650,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5650,
+                            "total": 5650
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T17:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T17:09:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "668",
+    "productName": "Harina para hot cakes Pronto tradicional 500 g",
+    "brand": "PRONTO",
+    "brandId": 2000684,
+    "brandImageUrl": null,
+    "linkText": "harina-para-hot-cakes-pronto-tradicional-500-gr",
+    "productReference": "09DPRO016",
+    "productReferenceCode": "09DPRO016",
+    "categoryId": "1173",
+    "productTitle": "harina para hot cakes pronto tradicional 500 g",
+    "metaTagDescription": "Compra Harina para hot cakes Pronto tradicional 500 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Harina y Repostería/Para Hot Cakes/",
+      "/Despensa/Harina y Repostería/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1053/1173/",
+      "/1003/1053/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/harina-para-hot-cakes-pronto-tradicional-500-gr/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Sin sabor"
+    ],
+    "Presentación": [
+      "Caja"
+    ],
+    "Especificaciones": [
+      "De Trigo"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "401g- 500g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Con la Harina para Hot Cakes Pronto Tradicional 500 g, prepará los hot cakes más ricos, esponjosos y dorados en minutos. Su fórmula práctica y deliciosa permite obtener resultados perfectos con solo agregar agua o leche. Ideal para desayunos nutritivos, meriendas en familia o momentos dulces del día, esta mezcla tiene el equilibrio justo entre sabor y textura.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "668",
+        "name": "Harina para hot cakes Pronto tradicional 500 g",
+        "nameComplete": "Harina para hot cakes Pronto tradicional 500 g",
+        "complementName": "",
+        "ean": "7501200483103",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "09DPRO016"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "304036",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/304036-#width#-#height#/7501200483103.jpg?v=638876771939300000\" width=\"#width#\" height=\"#height#\" alt=\"7501200483103\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/304036/7501200483103.jpg?v=638876771939300000",
+            "imageText": "7501200483103",
+            "imageLastModified": "2025-07-09T16:59:53.9300000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=668&qty=1&seller=1&sc=1&price=3500&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 35.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 35.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 35.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 35.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 35.0,
+              "ListPrice": 35.0,
+              "PriceWithoutDiscount": 35.0,
+              "FullSellingPrice": 35.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImI1ZjVhNzVjLThkOTAtNDI1OC05MGViLTE5NjNlNDE5ZWU5MyIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjozNTAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MzUwMCwic2VsbGVyIjoiMSIsImlkIjoiNjY4IiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MCwiaWF0IjoxNzkyMTc2MzgwLCJqdGkiOiJhMzg2ZmM2Mi0zZGMxLTRlYmMtYTViOS01MmNmNDEzYzhjYjEiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.IhXJkI7irHkIjSchU-n7X4VGTlYHTJsdj3Jg61pvVdWrxUUT7n1Zk5eMsVyMJLqPzPo0hHo3Fu33HoDuXWK_Zw",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 3500,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 3500,
+                        "total": 3500,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 3500,
+                            "total": 3500
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 3500,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 3500,
+                        "total": 3500,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 3500,
+                            "total": 3500
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T17:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T17:08:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "676",
+    "productName": "Harina para pastel Pronto panque de naranja 540 g",
+    "brand": "PRONTO",
+    "brandId": 2000684,
+    "brandImageUrl": null,
+    "linkText": "harina-para-pastel-pronto-panque-de-naranja-540-gr",
+    "productReference": "09DPRO079",
+    "productReferenceCode": "09DPRO079",
+    "categoryId": "1173",
+    "productTitle": "harina para pastel pronto panque de naranja 540 gr",
+    "metaTagDescription": "Compra Harina para pastel Pronto panque de naranja 540 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Harina y Repostería/Para Hot Cakes/",
+      "/Despensa/Harina y Repostería/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1053/1173/",
+      "/1003/1053/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/harina-para-pastel-pronto-panque-de-naranja-540-gr/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Naranja",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Naranja"
+    ],
+    "Sabor": [
+      "Naranja"
+    ],
+    "Presentación": [
+      "Caja"
+    ],
+    "Peso": [
+      "501g- 600g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "La Harina para Pastel Pronto Panqué de Naranja 540 g es la mezcla perfecta para quienes disfrutan de postres suaves, esponjosos y con un toque refrescante. Con un delicioso aroma a naranja y una textura húmeda y aireada, esta preparación lista te permite hornear un panqué casero de sabor natural sin complicaciones.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "676",
+        "name": "Harina para pastel Pronto panque de naranja 540 g",
+        "nameComplete": "Harina para pastel Pronto panque de naranja 540 g",
+        "complementName": "",
+        "ean": "7501200483646",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "09DPRO079"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "299239",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/299239-#width#-#height#/7501200483646.jpg?v=638479299379900000\" width=\"#width#\" height=\"#height#\" alt=\"7501200483646\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/299239/7501200483646.jpg?v=638479299379900000",
+            "imageText": "7501200483646",
+            "imageLastModified": "2024-04-05T16:05:37.9900000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=676&qty=1&seller=1&sc=1&price=5650&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 56.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 56.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 56.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 56.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 56.5,
+              "ListPrice": 56.5,
+              "PriceWithoutDiscount": 56.5,
+              "FullSellingPrice": 56.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjQzN2NjNTJhLTgxODItNDc5ZC04OWE0LTYxZmJlZjkzYWM3NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo1NjUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NTY1MCwic2VsbGVyIjoiMSIsImlkIjoiNjc2IiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MCwiaWF0IjoxNzkyMTc2MzgwLCJqdGkiOiI5Y2IxY2Q2Yy01MTNhLTRhZTItOWEyNS1jYWNiNjQ0MWQ3YmEiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.Gz9nl6sUse0fQy1pFB5w5cTIogXVso9NszFDQpOsHwLVBc9BA4GIHJZWLJ6wGWvGBS9wiIOBujUCcHTnmIak5g",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T18:46:20Z",
+              "AvailableQuantity": 100,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 5650,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5650,
+                        "total": 5650,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5650,
+                            "total": 5650
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 5650,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5650,
+                        "total": 5650,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5650,
+                            "total": 5650
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T18:36:37.2782346Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T18:35:37.2782348Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "675",
+    "productName": "Harina para pastel Pronto panqué elote 540 g",
+    "brand": "PRONTO",
+    "brandId": 2000684,
+    "brandImageUrl": null,
+    "linkText": "harina-para-pastel-pronto-panque-elote-540-gr",
+    "productReference": "09DPRO078",
+    "productReferenceCode": "09DPRO078",
+    "categoryId": "1173",
+    "productTitle": "harina para pastel pronto panqué elote 540 g",
+    "metaTagDescription": "Compra Harina para pastel Pronto panqué elote 540 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-29T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Harina y Repostería/Para Hot Cakes/",
+      "/Despensa/Harina y Repostería/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1053/1173/",
+      "/1003/1053/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/harina-para-pastel-pronto-panque-elote-540-gr/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Elote"
+    ],
+    "Presentación": [
+      "Caja"
+    ],
+    "Peso": [
+      "501g- 600g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Redescubrí el sabor auténtico del campo con la Harina para Pastel Pronto Panqué de Elote 540 g, una mezcla lista para preparar un panqué suave, húmedo y con ese toque dulce y natural del maíz. Ideal para quienes aman los sabores tradicionales y caseros, esta preparación es perfecta para meriendas, desayunos o postres distintos.<br/><br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "675",
+        "name": "Harina para pastel Pronto panqué elote 540 g",
+        "nameComplete": "Harina para pastel Pronto panqué elote 540 g",
+        "complementName": "",
+        "ean": "7501200483639",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "09DPRO078"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "304042",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/304042-#width#-#height#/7501200483639.jpg?v=638876794380200000\" width=\"#width#\" height=\"#height#\" alt=\"7501200483639\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/304042/7501200483639.jpg?v=638876794380200000",
+            "imageText": "7501200483639",
+            "imageLastModified": "2025-07-09T17:37:18.0200000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=675&qty=1&seller=1&sc=1&price=5650&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 56.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 56.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 56.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 56.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 56.5,
+              "ListPrice": 56.5,
+              "PriceWithoutDiscount": 56.5,
+              "FullSellingPrice": 56.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjFmZDA2NWJhLWNlMTgtNDgxMi1iMDFkLTdkZTIwMzQ3OGVhNiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo1NjUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NTY1MCwic2VsbGVyIjoiMSIsImlkIjoiNjc1IiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MCwiaWF0IjoxNzkyMTc2MzgwLCJqdGkiOiI2ZDk1ZTZlNS0zYjBiLTQ3Y2QtYWFhMy1iZjFiNjQ3NjViMGYiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.TWEDC3O6LalDs6D0b816gn-Z-DSRQwj_TNJFK6SPHIjEvsgErczcVxvYMcIyiFF89bV5ljOwFOl045CuEKPkcw",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 100,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 5650,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5650,
+                        "total": 5650,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5650,
+                            "total": 5650
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 5650,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5650,
+                        "total": 5650,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5650,
+                            "total": 5650
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T17:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T17:10:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "669",
+    "productName": "Harina para hot cakes Pronto tradicional 800 g",
+    "brand": "PRONTO",
+    "brandId": 2000684,
+    "brandImageUrl": null,
+    "linkText": "harina-para-hot-cakes-pronto-tradicional-800-gr",
+    "productReference": "09DPRO017",
+    "productReferenceCode": "09DPRO017",
+    "categoryId": "1173",
+    "productTitle": "harina para hot cakes pronto tradicional 800 g",
+    "metaTagDescription": "Compra Harina para hot cakes Pronto tradicional 800 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-12-07T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Harina y Repostería/Para Hot Cakes/",
+      "/Despensa/Harina y Repostería/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1053/1173/",
+      "/1003/1053/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/harina-para-hot-cakes-pronto-tradicional-800-gr/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Sin sabor"
+    ],
+    "Presentación": [
+      "Caja"
+    ],
+    "Especificaciones": [
+      "De Trigo"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "701g- 800g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "La Harina para Hot Cakes Pronto Tradicional 800 g es la opción perfecta para quienes aman los desayunos abundantes, caseros y llenos de sabor. Su mezcla lista para usar te permite preparar hot cakes esponjosos, suaves y dorados con solo agregar agua o leche. Ideal para familias numerosas, reuniones o quienes no pueden resistirse a un buen desayuno americano.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "669",
+        "name": "Harina para hot cakes Pronto tradicional 800 g",
+        "nameComplete": "Harina para hot cakes Pronto tradicional 800 g",
+        "complementName": "",
+        "ean": "7501200483134",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "09DPRO017"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "304037",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/304037-#width#-#height#/7501200483134.jpg?v=638876775841630000\" width=\"#width#\" height=\"#height#\" alt=\"7501200483134\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/304037/7501200483134.jpg?v=638876775841630000",
+            "imageText": "7501200483134",
+            "imageLastModified": "2025-07-09T17:06:24.1630000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=669&qty=1&seller=1&sc=1&price=5250&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 52.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 52.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 52.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 52.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 52.5,
+              "ListPrice": 52.5,
+              "PriceWithoutDiscount": 52.5,
+              "FullSellingPrice": 52.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjQ2NTJmYjA2LWU0YzktNDJlNC1hOTQxLTRiOTJhMDY3YmFhMyIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo1MjUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NTI1MCwic2VsbGVyIjoiMSIsImlkIjoiNjY5IiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MCwiaWF0IjoxNzkyMTc2MzgwLCJqdGkiOiI2MjQ4ZWY3Mi1kYTU4LTQ1MzItYWI0Ny1hZmU0ODk2NWUwODUiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.GKkIBdQHzPcXLAGdTdwnDWqU9QTmAJUz6WnmAMTJwy_AHvNvybLe4FzYnIrZmfSgmc25IrRPjPBacvyVM0BUKw",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-15T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 5250,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5250,
+                        "total": 5250,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5250,
+                            "total": 5250
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 5250,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5250,
+                        "total": 5250,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5250,
+                            "total": 5250
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-22T15:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-16T15:55:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "671",
+    "productName": "Harina para hot cakes Pronto instantáneo bote 180 g",
+    "brand": "PRONTO",
+    "brandId": 2000684,
+    "brandImageUrl": null,
+    "linkText": "harina-para-hot-cakes-pronto-instantaneo-bote-180-gr",
+    "productReference": "09DPRO019",
+    "productReferenceCode": "09DPRO019",
+    "categoryId": "1173",
+    "productTitle": "harina para hot cakes pronto instantáneo bote 180 g",
+    "metaTagDescription": "Compra Harina para hot cakes Pronto instantáneo bote 180 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Harina y Repostería/Para Hot Cakes/",
+      "/Despensa/Harina y Repostería/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1053/1173/",
+      "/1003/1053/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/harina-para-hot-cakes-pronto-instantaneo-bote-180-gr/p",
+    "Color": [
+      "Amarillo",
+      "Azul",
+      "Blanco"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Sin sabor"
+    ],
+    "Presentación": [
+      "Botella"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Disfrutá del clásico sabor de los hot cakes caseros en su versión más práctica con la Harina para Hot Cakes Pronto Instantáneo Bote 180 g. Esta presentación en bote es ideal para quienes buscan rapidez, comodidad y sabor en un solo producto. Solo tenés que agregar agua directamente en el bote, agitar y cocinar. ¡Así de simple!<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "671",
+        "name": "Harina para hot cakes Pronto instantáneo bote 180 g",
+        "nameComplete": "Harina para hot cakes Pronto instantáneo bote 180 g",
+        "complementName": "",
+        "ean": "7501200483158",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "09DPRO019"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "304039",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/304039-#width#-#height#/7501200483158.jpg?v=638876777951830000\" width=\"#width#\" height=\"#height#\" alt=\"7501200483158\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/304039/7501200483158.jpg?v=638876777951830000",
+            "imageText": "7501200483158",
+            "imageLastModified": "2025-07-09T17:09:55.1830000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=671&qty=1&seller=1&sc=1&price=3450&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 34.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 34.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 34.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 34.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 34.5,
+              "ListPrice": 34.5,
+              "PriceWithoutDiscount": 34.5,
+              "FullSellingPrice": 34.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjA4MGIzZDdiLTM4NjQtNGRiMi1hMGM1LWU1YmM4NWZiODk0MSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjozNDUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MzQ1MCwic2VsbGVyIjoiMSIsImlkIjoiNjcxIiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MCwiaWF0IjoxNzkyMTc2MzgwLCJqdGkiOiI3NzcxM2JlZi0xMzQ0LTQ5ODUtYjM0Yy1kZWE3YTkwMzBjMTciLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.ofaIi4ZYsRO1LyIRDua1Uu8HsbavOgiIBF86Ek5L907RnFx9N-rp-xLj2Y6d2_p3Jc6pyoMarQx5dTJ0GwhRBA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 100,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 3450,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 3450,
+                        "total": 3450,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 3450,
+                            "total": 3450
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 3450,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 3450,
+                        "total": 3450,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 3450,
+                            "total": 3450
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T17:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T17:09:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  }
+]

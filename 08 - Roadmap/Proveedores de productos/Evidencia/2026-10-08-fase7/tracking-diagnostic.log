@@ -1,0 +1,7 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/integration/variant_tracking_server_test.dart
+00:00 +0: HTTP real: B cobra offline, A desvincula, B entrega, duplicado y pull desde cero
+00:00 +0 -1: HTTP real: B cobra offline, A desvincula, B entrega, duplicado y pull desde cero [E]
+  Bad state: DEBUG event=79840228-ec9a-4c57-adb4-e019b3cb7bee product=96fcca3a-7ecd-4312-9b26-67115282604b current=d5db48c8-2c9a-40df-96af-60803960b403/1/107 expected=d5db48c8-2c9a-40df-96af-60803960b403/1/104 official=105
+  package:pos_flutter/application/sync/handlers/producto_event_handler.dart 158:7  ProductoEventHandler.applyProductoActualizado
+  
+00:00 +0 -1: Some tests failed.

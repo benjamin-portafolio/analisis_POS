@@ -1,0 +1,330 @@
+{
+  "id": 8441957122210,
+  "title": "TOTOPOS TOTIS",
+  "body_html": "<p><span>Botana de maíz en sabores que te sorprenderán, combínalos con lo que más te guste y ponle diversión a tus snacks. </span><span></span></p>\n<h2><span data-mce-fragment=\"1\">Solicita más información y haz tu pedido al 55 5354 4277, escríbenos a ventas@chefmart.com.mx o vía WhatsApp 55 7844 6350</span></h2>\n<!---->",
+  "vendor": "Chef Mart MX",
+  "product_type": "BOTANAS",
+  "created_at": "2024-07-23T12:20:50-06:00",
+  "handle": "top-tops",
+  "updated_at": "2026-10-16T22:42:03-06:00",
+  "published_at": "2024-07-23T12:20:50-06:00",
+  "template_suffix": "",
+  "published_scope": "web",
+  "tags": "BOTANAS, hot chilli, nachos, salsa negra, top tops, TOTIS, totopos",
+  "variants": [
+    {
+      "id": 44799376162978,
+      "product_id": 8441957122210,
+      "title": "HOT CHILLI / 40 BOLSAS DE 120G C/U",
+      "price": "451.36",
+      "sku": "356202",
+      "position": 1,
+      "compare_at_price": "",
+      "fulfillment_service": "manual",
+      "inventory_management": "shopify",
+      "option1": "HOT CHILLI",
+      "option2": "40 BOLSAS DE 120G C/U",
+      "option3": null,
+      "created_at": "2024-07-23T12:20:51-06:00",
+      "updated_at": "2026-10-16T22:42:03-06:00",
+      "taxable": true,
+      "barcode": null,
+      "grams": 0,
+      "image_id": 42921032417442,
+      "weight": 0.0,
+      "weight_unit": "kg",
+      "requires_shipping": true,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "price_currency": "MXN",
+      "compare_at_price_currency": "",
+      "quantity_price_breaks": []
+    },
+    {
+      "id": 45577630548130,
+      "product_id": 8441957122210,
+      "title": "NACHOS / 40 BOLSAS DE 120G C/U",
+      "price": "451.36",
+      "sku": "356203",
+      "position": 2,
+      "compare_at_price": "",
+      "fulfillment_service": "manual",
+      "inventory_management": "shopify",
+      "option1": "NACHOS",
+      "option2": "40 BOLSAS DE 120G C/U",
+      "option3": null,
+      "created_at": "2025-06-05T14:30:46-06:00",
+      "updated_at": "2026-10-16T22:42:03-06:00",
+      "taxable": true,
+      "barcode": null,
+      "grams": 0,
+      "image_id": 42921367240866,
+      "weight": 0.0,
+      "weight_unit": "kg",
+      "requires_shipping": true,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "price_currency": "MXN",
+      "compare_at_price_currency": "",
+      "quantity_price_breaks": []
+    },
+    {
+      "id": 45577630613666,
+      "product_id": 8441957122210,
+      "title": "SALSA NEGRA / 40 BOLSAS DE 120G C/U",
+      "price": "451.35",
+      "sku": "356204",
+      "position": 3,
+      "compare_at_price": "",
+      "fulfillment_service": "manual",
+      "inventory_management": "shopify",
+      "option1": "SALSA NEGRA",
+      "option2": "40 BOLSAS DE 120G C/U",
+      "option3": null,
+      "created_at": "2025-06-05T14:30:46-06:00",
+      "updated_at": "2026-10-16T22:42:03-06:00",
+      "taxable": true,
+      "barcode": null,
+      "grams": 0,
+      "image_id": 42921370747042,
+      "weight": 0.0,
+      "weight_unit": "kg",
+      "requires_shipping": true,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "price_currency": "MXN",
+      "compare_at_price_currency": "",
+      "quantity_price_breaks": []
+    },
+    {
+      "id": 45798820872354,
+      "product_id": 8441957122210,
+      "title": "PARA NACHOS / 12 BOLSAS DE 400GR",
+      "price": "358.98",
+      "sku": "356022",
+      "position": 4,
+      "compare_at_price": "",
+      "fulfillment_service": "manual",
+      "inventory_management": "shopify",
+      "option1": "PARA NACHOS",
+      "option2": "12 BOLSAS DE 400GR",
+      "option3": null,
+      "created_at": "2025-09-03T09:35:14-06:00",
+      "updated_at": "2026-10-16T22:42:03-06:00",
+      "taxable": true,
+      "barcode": null,
+      "grams": 0,
+      "image_id": 42921021866146,
+      "weight": 0.0,
+      "weight_unit": "kg",
+      "requires_shipping": true,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "price_currency": "MXN",
+      "compare_at_price_currency": "",
+      "quantity_price_breaks": []
+    },
+    {
+      "id": 45798821494946,
+      "product_id": 8441957122210,
+      "title": "TOTOPOS / 3 BOLSAS DE 1KG C/U",
+      "price": "168.54",
+      "sku": "356201",
+      "position": 5,
+      "compare_at_price": "",
+      "fulfillment_service": "manual",
+      "inventory_management": "shopify",
+      "option1": "TOTOPOS",
+      "option2": "3 BOLSAS DE 1KG C/U",
+      "option3": null,
+      "created_at": "2025-09-03T09:36:04-06:00",
+      "updated_at": "2026-10-16T22:42:03-06:00",
+      "taxable": true,
+      "barcode": null,
+      "grams": 0,
+      "image_id": 42921026158754,
+      "weight": 0.0,
+      "weight_unit": "kg",
+      "requires_shipping": true,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "price_currency": "MXN",
+      "compare_at_price_currency": "",
+      "quantity_price_breaks": []
+    },
+    {
+      "id": 45798822314146,
+      "product_id": 8441957122210,
+      "title": "ELOTE / 80 BOLSAS DE 52GR C/U",
+      "price": "604.51",
+      "sku": "356205",
+      "position": 6,
+      "compare_at_price": "",
+      "fulfillment_service": "manual",
+      "inventory_management": "shopify",
+      "option1": "ELOTE",
+      "option2": "80 BOLSAS DE 52GR C/U",
+      "option3": null,
+      "created_at": "2025-09-03T09:38:22-06:00",
+      "updated_at": "2026-10-16T22:42:03-06:00",
+      "taxable": true,
+      "barcode": null,
+      "grams": 0,
+      "image_id": 42921030713506,
+      "weight": 0.0,
+      "weight_unit": "kg",
+      "requires_shipping": true,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "price_currency": "MXN",
+      "compare_at_price_currency": "",
+      "quantity_price_breaks": []
+    }
+  ],
+  "options": [
+    {
+      "id": 10776066785442,
+      "product_id": 8441957122210,
+      "name": "ESTILO",
+      "position": 1,
+      "values": [
+        "HOT CHILLI",
+        "NACHOS",
+        "SALSA NEGRA",
+        "PARA NACHOS",
+        "TOTOPOS",
+        "ELOTE"
+      ]
+    },
+    {
+      "id": 10776147787938,
+      "product_id": 8441957122210,
+      "name": "PRESENTACIÓN",
+      "position": 2,
+      "values": [
+        "40 BOLSAS DE 120G C/U",
+        "12 BOLSAS DE 400GR",
+        "3 BOLSAS DE 1KG C/U",
+        "80 BOLSAS DE 52GR C/U"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": 42921021866146,
+      "product_id": 8441957122210,
+      "position": 1,
+      "created_at": "2025-09-03T09:35:02-06:00",
+      "updated_at": "2025-09-03T09:35:02-06:00",
+      "alt": null,
+      "width": 4030,
+      "height": 4031,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/files/TOTOPOS400.png?v=1756913702",
+      "variant_ids": [
+        45798820872354
+      ]
+    },
+    {
+      "id": 42921026158754,
+      "product_id": 8441957122210,
+      "position": 2,
+      "created_at": "2025-09-03T09:35:51-06:00",
+      "updated_at": "2025-09-03T09:35:51-06:00",
+      "alt": null,
+      "width": 4030,
+      "height": 4031,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/files/TOTOPOS1KG_c35a92e8-3b7c-4cac-9b3d-a08b7d11e21c.png?v=1756913751",
+      "variant_ids": [
+        45798821494946
+      ]
+    },
+    {
+      "id": 42921030713506,
+      "product_id": 8441957122210,
+      "position": 3,
+      "created_at": "2025-09-03T09:38:13-06:00",
+      "updated_at": "2025-09-03T09:38:13-06:00",
+      "alt": null,
+      "width": 2000,
+      "height": 2000,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/files/TOTOPOSELOTE52G.png?v=1756913893",
+      "variant_ids": [
+        45798822314146
+      ]
+    },
+    {
+      "id": 42921032417442,
+      "product_id": 8441957122210,
+      "position": 4,
+      "created_at": "2025-09-03T09:38:44-06:00",
+      "updated_at": "2025-09-03T09:38:46-06:00",
+      "alt": null,
+      "width": 2000,
+      "height": 2000,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/files/TOTOPOS_HOT_CHILLI_120G.png?v=1756913926",
+      "variant_ids": [
+        44799376162978
+      ]
+    },
+    {
+      "id": 42921367240866,
+      "product_id": 8441957122210,
+      "position": 5,
+      "created_at": "2025-09-03T12:03:58-06:00",
+      "updated_at": "2025-09-03T12:04:00-06:00",
+      "alt": null,
+      "width": 1125,
+      "height": 2000,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/files/totopos_nachos_120g.png?v=1756922640",
+      "variant_ids": [
+        45577630548130
+      ]
+    },
+    {
+      "id": 42921370747042,
+      "product_id": 8441957122210,
+      "position": 6,
+      "created_at": "2025-09-03T12:04:10-06:00",
+      "updated_at": "2025-09-03T12:04:12-06:00",
+      "alt": null,
+      "width": 1538,
+      "height": 2000,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/files/totopos_salsa_negra120g.png?v=1756922652",
+      "variant_ids": [
+        45577630613666
+      ]
+    }
+  ],
+  "image": {
+    "id": 42921021866146,
+    "product_id": 8441957122210,
+    "position": 1,
+    "created_at": "2025-09-03T09:35:02-06:00",
+    "updated_at": "2025-09-03T09:35:02-06:00",
+    "alt": null,
+    "width": 4030,
+    "height": 4031,
+    "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/files/TOTOPOS400.png?v=1756913702",
+    "variant_ids": [
+      45798820872354
+    ]
+  }
+}

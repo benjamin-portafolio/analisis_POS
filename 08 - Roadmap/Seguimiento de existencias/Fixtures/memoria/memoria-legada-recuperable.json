@@ -1,0 +1,41 @@
+{
+  "descripcion": "Vinculo directo desvinculado antes de existir la tabla de memoria. La evidencia es el propio evento que produjo la desvinculacion: su before.variants declara el vinculo y su secuencia oficial es 41.",
+  "estado_previo": {
+    "product_variants": [
+      {
+        "variant_id": "a2000000-0000-4000-8000-000000000001",
+        "inventory_item_id": null,
+        "active": true
+      }
+    ],
+    "inventory_items": [
+      {
+        "inventory_item_id": "a3000000-0000-4000-8000-000000000001",
+        "origin_variant_id": null,
+        "active": true
+      }
+    ],
+    "variant_inventory_memory": []
+  },
+  "evidencia": {
+    "event_id": "b3000000-0000-4000-8000-000000000003",
+    "server_sequence": 41,
+    "before_variants": [
+      {
+        "variant_id": "a2000000-0000-4000-8000-000000000001",
+        "inventory_item_id": "a3000000-0000-4000-8000-000000000001"
+      }
+    ]
+  },
+  "estado_esperado": {
+    "variant_inventory_memory": [
+      {
+        "variant_id": "a2000000-0000-4000-8000-000000000001",
+        "inventory_item_id": "a3000000-0000-4000-8000-000000000001",
+        "source_event_id": "b3000000-0000-4000-8000-000000000003",
+        "source_server_sequence": 41
+      }
+    ]
+  },
+  "limite": "El recurso no tiene origin_variant_id: la procedencia sigue desconocida y el recall no habilita descarte automatico."
+}

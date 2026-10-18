@@ -1,7 +1,7 @@
 ---
 tipo: pendientes
 estado: activo
-actualizado: 2026-08-24
+actualizado: 2026-10-02
 ---
 
 # Pendientes
@@ -50,6 +50,14 @@ actualizado: 2026-08-24
 - [ ] Definir pantalla administrativa para revisar `sync_conflicts` y participantes.
 
 ## Datos
+
+- [x] Especificar recuperación del recurso anterior y descarte seguro según
+      [[02 - Decisiones/ADR-0017 Reutilizacion y descarte seguro de recursos de inventario|ADR-0017]].
+- [ ] Implementar y verificar las cinco fases de
+      [[08 - Roadmap/Seguimiento de existencias/Plan de implementacion|Seguimiento de existencias]],
+      manteniendo su [[08 - Roadmap/Seguimiento de existencias/Estado y continuidad|continuidad]].
+- [ ] Diseñar aparte un eventual descarte remoto con cierre de escritores offline;
+      no forma parte del plan actual ni se sustituye por plazo/preflight.
 
 - [ ] Cerrar esquema final de `events`.
 - [x] Cerrar el esquema de `categories` para el alcance actual, incluyendo

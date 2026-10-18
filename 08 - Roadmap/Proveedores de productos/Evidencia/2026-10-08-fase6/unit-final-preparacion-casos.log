@@ -1,0 +1,239 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand --json --outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/unit-final.json
+
+FAIL src/sync/product-suppliers.postgres.spec.ts
+  ● edición inválida price-string no escribe producto, precios ni refs
+
+    ReferenceError: seedSuppliers is not defined
+
+      860 | ]) {
+      861 |   it(`edición inválida ${change} no escribe producto, precios ni refs`, async () => {
+    > 862 |     await seedSuppliers();
+          |     ^
+      863 |     const create = await createProduct();
+      864 |     const oldProduct = await db.manager.find(ProductEntity),
+      865 |       relations = await db.manager.find(VariantSupplierEntity);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:862:5)
+
+  ● edición inválida price-range no escribe producto, precios ni refs
+
+    ReferenceError: seedSuppliers is not defined
+
+      860 | ]) {
+      861 |   it(`edición inválida ${change} no escribe producto, precios ni refs`, async () => {
+    > 862 |     await seedSuppliers();
+          |     ^
+      863 |     const create = await createProduct();
+      864 |     const oldProduct = await db.manager.find(ProductEntity),
+      865 |       relations = await db.manager.find(VariantSupplierEntity);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:862:5)
+
+  ● edición inválida date-zero no escribe producto, precios ni refs
+
+    ReferenceError: seedSuppliers is not defined
+
+      860 | ]) {
+      861 |   it(`edición inválida ${change} no escribe producto, precios ni refs`, async () => {
+    > 862 |     await seedSuppliers();
+          |     ^
+      863 |     const create = await createProduct();
+      864 |     const oldProduct = await db.manager.find(ProductEntity),
+      865 |       relations = await db.manager.find(VariantSupplierEntity);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:862:5)
+
+  ● edición inválida duplicate no escribe producto, precios ni refs
+
+    ReferenceError: seedSuppliers is not defined
+
+      860 | ]) {
+      861 |   it(`edición inválida ${change} no escribe producto, precios ni refs`, async () => {
+    > 862 |     await seedSuppliers();
+          |     ^
+      863 |     const create = await createProduct();
+      864 |     const oldProduct = await db.manager.find(ProductEntity),
+      865 |       relations = await db.manager.find(VariantSupplierEntity);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:862:5)
+
+  ● edición inválida null-set no escribe producto, precios ni refs
+
+    ReferenceError: seedSuppliers is not defined
+
+      860 | ]) {
+      861 |   it(`edición inválida ${change} no escribe producto, precios ni refs`, async () => {
+    > 862 |     await seedSuppliers();
+          |     ^
+      863 |     const create = await createProduct();
+      864 |     const oldProduct = await db.manager.find(ProductEntity),
+      865 |       relations = await db.manager.find(VariantSupplierEntity);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:862:5)
+
+  ● retirada no requiere entregar la dependencia histórica de before
+
+    ReferenceError: seedSuppliers is not defined
+
+      888 | }
+      889 | it('retirada no requiere entregar la dependencia histórica de before', async () => {
+    > 890 |   await seedSuppliers();
+          |   ^
+      891 |   const create = await createProduct();
+      892 |   const edit = await updateProduct(create, (json) => {
+      893 |     json.variants[0].suppliers = [];
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:890:3)
+
+  ● el alta original sigue siendo dependencia válida después de editar el proveedor
+
+    ReferenceError: seedSuppliers is not defined
+
+      901 | });
+      902 | it('el alta original sigue siendo dependencia válida después de editar el proveedor', async () => {
+    > 903 |   const { e } = await seedSuppliers();
+          |                 ^
+      904 |   expect((await push(await supplierUpdate(e))).status).toBe('accepted');
+      905 |   await createProduct();
+      906 |   expect(await db.manager.count(VariantSupplierEntity)).toBe(2);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:903:17)
+
+  ● seguimiento directo pasa a receta y luego a ninguno conservando proveedores, fechas y saldo
+
+    ReferenceError: seedSuppliers is not defined
+
+      907 | });
+      908 | it('seguimiento directo pasa a receta y luego a ninguno conservando proveedores, fechas y saldo', async () => {
+    > 909 |   await seedSuppliers();
+          |   ^
+      910 |   const unitId = randomUUID(),
+      911 |     itemId = randomUUID();
+      912 |   await db.manager.insert(UnitEntity, {
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:909:3)
+
+
+Summary of all failing tests
+FAIL sync/product-suppliers.postgres.spec.ts
+  ● edición inválida price-string no escribe producto, precios ni refs
+
+    ReferenceError: seedSuppliers is not defined
+
+      860 | ]) {
+      861 |   it(`edición inválida ${change} no escribe producto, precios ni refs`, async () => {
+    > 862 |     await seedSuppliers();
+          |     ^
+      863 |     const create = await createProduct();
+      864 |     const oldProduct = await db.manager.find(ProductEntity),
+      865 |       relations = await db.manager.find(VariantSupplierEntity);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:862:5)
+
+  ● edición inválida price-range no escribe producto, precios ni refs
+
+    ReferenceError: seedSuppliers is not defined
+
+      860 | ]) {
+      861 |   it(`edición inválida ${change} no escribe producto, precios ni refs`, async () => {
+    > 862 |     await seedSuppliers();
+          |     ^
+      863 |     const create = await createProduct();
+      864 |     const oldProduct = await db.manager.find(ProductEntity),
+      865 |       relations = await db.manager.find(VariantSupplierEntity);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:862:5)
+
+  ● edición inválida date-zero no escribe producto, precios ni refs
+
+    ReferenceError: seedSuppliers is not defined
+
+      860 | ]) {
+      861 |   it(`edición inválida ${change} no escribe producto, precios ni refs`, async () => {
+    > 862 |     await seedSuppliers();
+          |     ^
+      863 |     const create = await createProduct();
+      864 |     const oldProduct = await db.manager.find(ProductEntity),
+      865 |       relations = await db.manager.find(VariantSupplierEntity);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:862:5)
+
+  ● edición inválida duplicate no escribe producto, precios ni refs
+
+    ReferenceError: seedSuppliers is not defined
+
+      860 | ]) {
+      861 |   it(`edición inválida ${change} no escribe producto, precios ni refs`, async () => {
+    > 862 |     await seedSuppliers();
+          |     ^
+      863 |     const create = await createProduct();
+      864 |     const oldProduct = await db.manager.find(ProductEntity),
+      865 |       relations = await db.manager.find(VariantSupplierEntity);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:862:5)
+
+  ● edición inválida null-set no escribe producto, precios ni refs
+
+    ReferenceError: seedSuppliers is not defined
+
+      860 | ]) {
+      861 |   it(`edición inválida ${change} no escribe producto, precios ni refs`, async () => {
+    > 862 |     await seedSuppliers();
+          |     ^
+      863 |     const create = await createProduct();
+      864 |     const oldProduct = await db.manager.find(ProductEntity),
+      865 |       relations = await db.manager.find(VariantSupplierEntity);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:862:5)
+
+  ● retirada no requiere entregar la dependencia histórica de before
+
+    ReferenceError: seedSuppliers is not defined
+
+      888 | }
+      889 | it('retirada no requiere entregar la dependencia histórica de before', async () => {
+    > 890 |   await seedSuppliers();
+          |   ^
+      891 |   const create = await createProduct();
+      892 |   const edit = await updateProduct(create, (json) => {
+      893 |     json.variants[0].suppliers = [];
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:890:3)
+
+  ● el alta original sigue siendo dependencia válida después de editar el proveedor
+
+    ReferenceError: seedSuppliers is not defined
+
+      901 | });
+      902 | it('el alta original sigue siendo dependencia válida después de editar el proveedor', async () => {
+    > 903 |   const { e } = await seedSuppliers();
+          |                 ^
+      904 |   expect((await push(await supplierUpdate(e))).status).toBe('accepted');
+      905 |   await createProduct();
+      906 |   expect(await db.manager.count(VariantSupplierEntity)).toBe(2);
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:903:17)
+
+  ● seguimiento directo pasa a receta y luego a ninguno conservando proveedores, fechas y saldo
+
+    ReferenceError: seedSuppliers is not defined
+
+      907 | });
+      908 | it('seguimiento directo pasa a receta y luego a ninguno conservando proveedores, fechas y saldo', async () => {
+    > 909 |   await seedSuppliers();
+          |   ^
+      910 |   const unitId = randomUUID(),
+      911 |     itemId = randomUUID();
+      912 |   await db.manager.insert(UnitEntity, {
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:909:3)
+
+
+Test Suites: 1 failed, 26 skipped, 21 passed, 22 of 48 total
+Tests:       8 failed, 185 skipped, 314 passed, 507 total
+Snapshots:   0 total
+Time:        2.1 s, estimated 6 s
+Ran all test suites.
+Test results written to: ../analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/unit-final.json

@@ -1,0 +1,173 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/variant_tracking_phase3_test.dart
+00:00 +0: standalone el handler deriva memoria y mantiene su fuente al desvincular con historial
+00:00 +1: standalone recupera saldo cero con historial sin repetir inicial ni balance
+00:00 +2: standalone legado sin memoria ni origen recupera por cadena causal completa
+00:00 +3: standalone historia incompleta requiere selección; elegir legado no crea saldo
+00:00 +3 -1: standalone historia incompleta requiere selección; elegir legado no crea saldo [E]
+  Expected: throws <Instance of 'StateError'>
+    Actual: <Instance of 'Future<ProductoInventoryUpdateResult>'>
+     Which: threw FormatException:<FormatException: La historia anterior está incompleta o hay varios recursos posibles. Selecciona el recurso que recuperarás.>
+            stack package:pos_flutter/application/commands/articulos/producto_command_service.dart 486:11  ProductoCommandService._prepareInventoryBindings
+                  ===== asynchronous gap ===========================
+                  package:matcher                                                                          expectLater
+                  package:flutter_test/src/widget_tester.dart 507:8                                        expectLater
+                  test/data/local/drift/variant_tracking_phase3_test.dart 159:17                           main.<fn>.<fn>
+                  ===== asynchronous gap ===========================
+                  dart:async                                                                               _CustomZone.registerUnaryCallback
+                  test/data/local/drift/variant_tracking_phase3_test.dart 131:23                           main.<fn>.<fn>
+                  
+            which is not an instance of 'StateError'
+  
+  package:matcher                                                 expectLater
+  package:flutter_test/src/widget_tester.dart 507:8               expectLater
+  test/data/local/drift/variant_tracking_phase3_test.dart 159:17  main.<fn>.<fn>
+  ===== asynchronous gap ===========================
+  dart:async                                                      _CustomZone.registerUnaryCallback
+  test/data/local/drift/variant_tracking_phase3_test.dart 131:23  main.<fn>.<fn>
+  
+00:00 +3 -1: standalone cadena completa nunca seguida permite su primer recurso
+00:00 +4 -1: standalone recurso recordado faltante sin descarte válido no permite crear otro
+00:00 +4 -2: standalone recurso recordado faltante sin descarte válido no permite crear otro [E]
+  Expected: throws <Instance of 'StateError'>
+    Actual: <Instance of 'Future<ProductoInventoryUpdateResult>'>
+     Which: threw FormatException:<FormatException: El recurso anterior falta y no hay prueba de un descarte aplicado.>
+            stack package:pos_flutter/application/commands/articulos/producto_command_service.dart 484:11  ProductoCommandService._prepareInventoryBindings
+                  ===== asynchronous gap ===========================
+                  package:matcher                                                                          expectLater
+                  package:flutter_test/src/widget_tester.dart 507:8                                        expectLater
+                  test/data/local/drift/variant_tracking_phase3_test.dart 199:17                           main.<fn>.<fn>
+                  ===== asynchronous gap ===========================
+                  dart:async                                                                               _CustomZone.registerUnaryCallback
+                  test/data/local/drift/variant_tracking_phase3_test.dart 190:23                           main.<fn>.<fn>
+                  
+            which is not an instance of 'StateError'
+  
+  package:matcher                                                 expectLater
+  package:flutter_test/src/widget_tester.dart 507:8               expectLater
+  test/data/local/drift/variant_tracking_phase3_test.dart 199:17  main.<fn>.<fn>
+  ===== asynchronous gap ===========================
+  dart:async                                                      _CustomZone.registerUnaryCallback
+  test/data/local/drift/variant_tracking_phase3_test.dart 190:23  main.<fn>.<fn>
+  
+00:00 +4 -2: standalone error al sembrar memoria revierte alta, balance y eventos
+00:00 +5 -2: standalone venta medida conserva identidad y escala atómica al recuperar
+00:00 +5 -3: standalone venta medida conserva identidad y escala atómica al recuperar [E]
+  Bad state: La referencia del precio debe coincidir con el factor de la unidad.
+  package:pos_flutter/application/commands/articulos/producto_command_service.dart 916:7  ProductoCommandService._validateSaleConfiguration
+  
+00:00 +5 -3: serverSync el handler deriva memoria y mantiene su fuente al desvincular con historial
+00:00 +6 -3: serverSync recupera saldo cero con historial sin repetir inicial ni balance
+00:00 +7 -3: serverSync legado sin memoria ni origen recupera por cadena causal completa
+00:00 +8 -3: serverSync historia incompleta requiere selección; elegir legado no crea saldo
+00:00 +8 -4: serverSync historia incompleta requiere selección; elegir legado no crea saldo [E]
+  Expected: throws <Instance of 'StateError'>
+    Actual: <Instance of 'Future<ProductoInventoryUpdateResult>'>
+     Which: threw FormatException:<FormatException: La historia anterior está incompleta o hay varios recursos posibles. Selecciona el recurso que recuperarás.>
+            stack package:pos_flutter/application/commands/articulos/producto_command_service.dart 486:11  ProductoCommandService._prepareInventoryBindings
+                  ===== asynchronous gap ===========================
+                  package:matcher                                                                          expectLater
+                  package:flutter_test/src/widget_tester.dart 507:8                                        expectLater
+                  test/data/local/drift/variant_tracking_phase3_test.dart 159:17                           main.<fn>.<fn>
+                  ===== asynchronous gap ===========================
+                  dart:async                                                                               _CustomZone.registerUnaryCallback
+                  test/data/local/drift/variant_tracking_phase3_test.dart 131:23                           main.<fn>.<fn>
+                  
+            which is not an instance of 'StateError'
+  
+  package:matcher                                                 expectLater
+  package:flutter_test/src/widget_tester.dart 507:8               expectLater
+  test/data/local/drift/variant_tracking_phase3_test.dart 159:17  main.<fn>.<fn>
+  ===== asynchronous gap ===========================
+  dart:async                                                      _CustomZone.registerUnaryCallback
+  test/data/local/drift/variant_tracking_phase3_test.dart 131:23  main.<fn>.<fn>
+  
+00:00 +8 -4: serverSync cadena completa nunca seguida permite su primer recurso
+00:00 +9 -4: serverSync recurso recordado faltante sin descarte válido no permite crear otro
+00:00 +9 -5: serverSync recurso recordado faltante sin descarte válido no permite crear otro [E]
+  Expected: throws <Instance of 'StateError'>
+    Actual: <Instance of 'Future<ProductoInventoryUpdateResult>'>
+     Which: threw FormatException:<FormatException: El recurso anterior falta y no hay prueba de un descarte aplicado.>
+            stack package:pos_flutter/application/commands/articulos/producto_command_service.dart 484:11  ProductoCommandService._prepareInventoryBindings
+                  ===== asynchronous gap ===========================
+                  package:matcher                                                                          expectLater
+                  package:flutter_test/src/widget_tester.dart 507:8                                        expectLater
+                  test/data/local/drift/variant_tracking_phase3_test.dart 199:17                           main.<fn>.<fn>
+                  ===== asynchronous gap ===========================
+                  dart:async                                                                               _CustomZone.registerUnaryCallback
+                  test/data/local/drift/variant_tracking_phase3_test.dart 190:23                           main.<fn>.<fn>
+                  
+            which is not an instance of 'StateError'
+  
+  package:matcher                                                 expectLater
+  package:flutter_test/src/widget_tester.dart 507:8               expectLater
+  test/data/local/drift/variant_tracking_phase3_test.dart 199:17  main.<fn>.<fn>
+  ===== asynchronous gap ===========================
+  dart:async                                                      _CustomZone.registerUnaryCallback
+  test/data/local/drift/variant_tracking_phase3_test.dart 190:23  main.<fn>.<fn>
+  
+00:00 +9 -5: serverSync error al sembrar memoria revierte alta, balance y eventos
+00:00 +10 -5: serverSync venta medida conserva identidad y escala atómica al recuperar
+00:00 +10 -6: serverSync venta medida conserva identidad y escala atómica al recuperar [E]
+  Bad state: La referencia del precio debe coincidir con el factor de la unidad.
+  package:pos_flutter/application/commands/articulos/producto_command_service.dart 916:7  ProductoCommandService._validateSaleConfiguration
+  
+00:00 +10 -6: standalone discard desvinculación, descarte, repetición y reconstrucción causal real
+WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:18038:36)
+#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)
+#5      new VariantTrackingHarness (file:///Users/benjamin/Projects/POS/pos_flutter/test/support/variant_tracking_harness.dart:44:37)
+#6      main.<anonymous closure>.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/variant_tracking_phase3_test.dart:284:25)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:00 +11 -6: standalone discard fallo SQL al borrar revierte toda la edición y el tombstone
+00:00 +12 -6: standalone discard conserva por unknown origin e informa el motivo después del commit
+00:00 +13 -6: standalone discard conserva por missing balance e informa el motivo después del commit
+00:00 +14 -6: standalone discard conserva por on hand e informa el motivo después del commit
+00:00 +15 -6: standalone discard conserva por available e informa el motivo después del commit
+00:00 +16 -6: standalone discard conserva por inactive e informa el motivo después del commit
+00:00 +17 -6: standalone discard la receta posterior del mismo producto impide descartar
+00:00 +18 -6: standalone discard otra memoria, incluso de variante inactiva, protege el recurso
+00:00 +19 -6: standalone discard un vínculo inactivo aparecido al quitar el directo impide descarte y recuperación
+00:00 +19 -7: standalone discard un vínculo inactivo aparecido al quitar el directo impide descarte y recuperación [E]
+  Expected: throws <Instance of 'StateError'>
+    Actual: <Instance of 'Future<ProductoInventoryUpdateResult>'>
+     Which: threw FormatException:<FormatException: El recurso ya está vinculado a otra variante.>
+            stack package:pos_flutter/application/commands/articulos/producto_command_service.dart 484:11  ProductoCommandService._prepareInventoryBindings
+                  ===== asynchronous gap ===========================
+                  package:matcher                                                                          expectLater
+                  package:flutter_test/src/widget_tester.dart 507:8                                        expectLater
+                  test/data/local/drift/variant_tracking_phase3_test.dart 466:15                           main.<fn>.<fn>
+                  ===== asynchronous gap ===========================
+                  dart:async                                                                               _CustomZone.registerUnaryCallback
+                  test/data/local/drift/variant_tracking_phase3_test.dart 456:21                           main.<fn>.<fn>
+                  
+            which is not an instance of 'StateError'
+  
+  package:matcher                                                 expectLater
+  package:flutter_test/src/widget_tester.dart 507:8               expectLater
+  test/data/local/drift/variant_tracking_phase3_test.dart 466:15  main.<fn>.<fn>
+  ===== asynchronous gap ===========================
+  dart:async                                                      _CustomZone.registerUnaryCallback
+  test/data/local/drift/variant_tracking_phase3_test.dart 456:21  main.<fn>.<fn>
+  
+00:00 +19 -7: standalone discard captura real de borrador protege sin event_refs
+00:00 +20 -7: standalone discard captura inconsistente no se interpreta como autorización de borrado
+00:00 +21 -7: standalone discard movimiento operativo no aplicado protege el recurso
+00:00 +22 -7: standalone discard un descarte faltante o adulterado no es idempotente
+00:00 +23 -7: server sync undo and echo conserva autogenerado vacío y rechaza descarte remoto incluso como eco
+00:00 +24 -7: server sync undo and echo restaura exactamente la ausencia de memoria anterior
+00:00 +25 -7: server sync undo and echo cadena pendiente se deshace al revés y conserva fuente confirmada por push
+00:00 +26 -7: server sync undo and echo eco antiguo no pisa memoria de una configuración posterior
+00:00 +27 -7: reinicio y copia SQLite compatible conservan memoria y descarte
+00:01 +28 -7: Some tests failed.

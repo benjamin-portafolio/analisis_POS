@@ -1,0 +1,30 @@
+{
+  "changed_existing": [
+    "lib/presentation/pages/gestion_inventario/inventory_management_screen.dart",
+    "lib/presentation/pages/gestion_inventario/articulos/article_form_screen.dart",
+    "lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_result.dart",
+    "lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart",
+    "docs/architecture/product_suppliers.md"
+  ],
+  "new": [
+    "lib/presentation/pages/gestion_inventario/articulos/models/proveedor_precio_form.dart",
+    "lib/presentation/pages/gestion_inventario/articulos/models/proveedor_precio_input.dart",
+    "lib/presentation/pages/gestion_inventario/articulos/models/proveedor_precios_form_result.dart",
+    "lib/presentation/pages/gestion_inventario/articulos/widgets/variant_suppliers_editor_screen.dart",
+    "lib/presentation/pages/gestion_inventario/articulos/widgets/proveedor_precio_card.dart",
+    "lib/presentation/pages/gestion_inventario/articulos/widgets/variant_suppliers_summary.dart",
+    "test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart",
+    "test/presentation/pages/gestion_inventario/articulos/proveedor_precio_form_test.dart",
+    "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart"
+  ],
+  "other_existing_files_unchanged": 739,
+  "critical_unchanged": {
+    "lib/data/local/drift/app_database.dart": true,
+    "lib/data/local/drift/app_database.g.dart": true,
+    "lib/data/local/drift/drift_local_event_store.dart": true,
+    "lib/data/local/drift/tables/suppliers.dart": true,
+    "lib/data/local/drift/tables/variant_suppliers.dart": true,
+    "lib/application/commands/articulos/producto_command_service.dart": true,
+    "lib/application/sync/handlers/producto_event_handler.dart": true
+  }
+}

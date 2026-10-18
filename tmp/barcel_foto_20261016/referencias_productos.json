@@ -1,0 +1,412 @@
+[
+  {
+    "id": 7240143306885,
+    "title": "Takis pix  explosión de queso  65 g",
+    "handle": "takis-pix-explosion-de-queso-65-g",
+    "description": "",
+    "published_at": "2026-01-30T14:30:12-06:00",
+    "created_at": "2026-01-30T14:30:11-06:00",
+    "vendor": "Farmacia Santa Fe",
+    "type": "",
+    "tags": [],
+    "price": 1500,
+    "price_min": 1500,
+    "price_max": 1500,
+    "available": true,
+    "price_varies": false,
+    "compare_at_price": null,
+    "compare_at_price_min": 0,
+    "compare_at_price_max": 0,
+    "compare_at_price_varies": false,
+    "variants": [
+      {
+        "id": 41508679909509,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "7500810046609",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "name": "Takis pix  explosión de queso  65 g",
+        "public_title": null,
+        "options": [
+          "Default Title"
+        ],
+        "price": 1500,
+        "weight": 0,
+        "compare_at_price": null,
+        "inventory_management": "shopify",
+        "barcode": "7500810046609",
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "quantity_price_breaks": [],
+        "requires_selling_plan": false,
+        "selling_plan_allocations": []
+      }
+    ],
+    "images": [],
+    "featured_image": null,
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "url": "/products/takis-pix-explosion-de-queso-65-g",
+    "requires_selling_plan": false,
+    "selling_plan_groups": []
+  },
+  {
+    "id": 7209626501253,
+    "title": "Takis  BUCKIN RANCH  70 g Barcel",
+    "handle": "takis-limon-70-g-barcel-copia",
+    "description": "",
+    "published_at": "2025-10-17T15:21:20-05:00",
+    "created_at": "2025-10-17T15:18:43-05:00",
+    "vendor": "Farmacia Santa Fe",
+    "type": "",
+    "tags": [],
+    "price": 2000,
+    "price_min": 2000,
+    "price_max": 2000,
+    "available": true,
+    "price_varies": false,
+    "compare_at_price": null,
+    "compare_at_price_min": 0,
+    "compare_at_price_max": 0,
+    "compare_at_price_varies": false,
+    "variants": [
+      {
+        "id": 41392905191557,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "7500810040904",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "name": "Takis  BUCKIN RANCH  70 g Barcel",
+        "public_title": null,
+        "options": [
+          "Default Title"
+        ],
+        "price": 2000,
+        "weight": 100,
+        "compare_at_price": null,
+        "inventory_management": "shopify",
+        "barcode": "7500810040904",
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "quantity_price_breaks": [],
+        "requires_selling_plan": false,
+        "selling_plan_allocations": []
+      }
+    ],
+    "images": [
+      "//cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823"
+    ],
+    "featured_image": "//cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823",
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "url": "/products/takis-limon-70-g-barcel-copia",
+    "media": [
+      {
+        "alt": null,
+        "id": 8048268116101,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 0.888,
+          "height": 1414,
+          "width": 1256,
+          "src": "https://cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823"
+        },
+        "aspect_ratio": 0.888,
+        "height": 1414,
+        "media_type": "image",
+        "src": "https://cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823",
+        "width": 1256
+      }
+    ],
+    "requires_selling_plan": false,
+    "selling_plan_groups": []
+  },
+  {
+    "id": 7289678364805,
+    "title": "Takis  INTENSE NACHO 70 g Barcel",
+    "handle": "takis-limon-70-g-barcel-copia-1",
+    "description": "",
+    "published_at": "2026-06-05T11:35:09-05:00",
+    "created_at": "2026-06-05T11:29:01-05:00",
+    "vendor": "Farmacia Santa Fe",
+    "type": "",
+    "tags": [],
+    "price": 2200,
+    "price_min": 2200,
+    "price_max": 2200,
+    "available": true,
+    "price_varies": false,
+    "compare_at_price": null,
+    "compare_at_price_min": 0,
+    "compare_at_price_max": 0,
+    "compare_at_price_varies": false,
+    "variants": [
+      {
+        "id": 41688562368645,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "7500810041307",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "name": "Takis  INTENSE NACHO 70 g Barcel",
+        "public_title": null,
+        "options": [
+          "Default Title"
+        ],
+        "price": 2200,
+        "weight": 100,
+        "compare_at_price": null,
+        "inventory_management": "shopify",
+        "barcode": "7500810041307",
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "quantity_price_breaks": [],
+        "requires_selling_plan": false,
+        "selling_plan_allocations": []
+      }
+    ],
+    "images": [
+      "//cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823"
+    ],
+    "featured_image": "//cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823",
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "url": "/products/takis-limon-70-g-barcel-copia-1",
+    "media": [
+      {
+        "alt": null,
+        "id": 8048268116101,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 0.888,
+          "height": 1414,
+          "width": 1256,
+          "src": "https://cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823"
+        },
+        "aspect_ratio": 0.888,
+        "height": 1414,
+        "media_type": "image",
+        "src": "https://cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823",
+        "width": 1256
+      }
+    ],
+    "requires_selling_plan": false,
+    "selling_plan_groups": []
+  },
+  {
+    "id": 7126170402949,
+    "title": "Takis  Limon 70 g Barcel",
+    "handle": "takis-fuego-70-g-barcel-copia",
+    "description": "",
+    "published_at": "2025-02-28T13:58:42-06:00",
+    "created_at": "2025-02-28T13:51:47-06:00",
+    "vendor": "Farmacia Santa Fe",
+    "type": "",
+    "tags": [],
+    "price": 2200,
+    "price_min": 2200,
+    "price_max": 2200,
+    "available": true,
+    "price_varies": false,
+    "compare_at_price": null,
+    "compare_at_price_min": 0,
+    "compare_at_price_max": 0,
+    "compare_at_price_varies": false,
+    "variants": [
+      {
+        "id": 41134065713285,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "7500810036822",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "name": "Takis  Limon 70 g Barcel",
+        "public_title": null,
+        "options": [
+          "Default Title"
+        ],
+        "price": 2200,
+        "weight": 100,
+        "compare_at_price": null,
+        "inventory_management": "shopify",
+        "barcode": "7500810036822",
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "quantity_price_breaks": [],
+        "requires_selling_plan": false,
+        "selling_plan_allocations": []
+      }
+    ],
+    "images": [
+      "//cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823"
+    ],
+    "featured_image": "//cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823",
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "url": "/products/takis-fuego-70-g-barcel-copia",
+    "media": [
+      {
+        "alt": null,
+        "id": 8048268116101,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 0.888,
+          "height": 1414,
+          "width": 1256,
+          "src": "https://cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823"
+        },
+        "aspect_ratio": 0.888,
+        "height": 1414,
+        "media_type": "image",
+        "src": "https://cdn.shopify.com/s/files/1/0372/4450/2149/products/TakisFuego.png?v=1587155823",
+        "width": 1256
+      }
+    ],
+    "requires_selling_plan": false,
+    "selling_plan_groups": []
+  },
+  {
+    "id": 7240154153093,
+    "title": "Chips Crema y especias 62 gr Barcel",
+    "handle": "chips-sal-62-gr-barcel-copia",
+    "description": "",
+    "published_at": "2026-01-30T14:49:19-06:00",
+    "created_at": "2026-01-30T14:47:09-06:00",
+    "vendor": "Farmacia Santa Fe",
+    "type": "",
+    "tags": [],
+    "price": 2300,
+    "price_min": 2300,
+    "price_max": 2300,
+    "available": true,
+    "price_varies": false,
+    "compare_at_price": null,
+    "compare_at_price_min": 0,
+    "compare_at_price_max": 0,
+    "compare_at_price_varies": false,
+    "variants": [
+      {
+        "id": 41508696162437,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "7500810039168",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "name": "Chips Crema y especias 62 gr Barcel",
+        "public_title": null,
+        "options": [
+          "Default Title"
+        ],
+        "price": 2300,
+        "weight": 100,
+        "compare_at_price": null,
+        "inventory_management": "shopify",
+        "barcode": "7500810039168",
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "quantity_price_breaks": [],
+        "requires_selling_plan": false,
+        "selling_plan_allocations": []
+      }
+    ],
+    "images": [
+      "//cdn.shopify.com/s/files/1/0372/4450/2149/files/chips_512x512_999bc22c-d3ec-4af2-8a73-6f8695aa1bce.jpg?v=1715374295"
+    ],
+    "featured_image": "//cdn.shopify.com/s/files/1/0372/4450/2149/files/chips_512x512_999bc22c-d3ec-4af2-8a73-6f8695aa1bce.jpg?v=1715374295",
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "url": "/products/chips-sal-62-gr-barcel-copia",
+    "media": [
+      {
+        "alt": null,
+        "id": 24288829472901,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1.0,
+          "height": 512,
+          "width": 512,
+          "src": "https://cdn.shopify.com/s/files/1/0372/4450/2149/files/chips_512x512_999bc22c-d3ec-4af2-8a73-6f8695aa1bce.jpg?v=1715374295"
+        },
+        "aspect_ratio": 1.0,
+        "height": 512,
+        "media_type": "image",
+        "src": "https://cdn.shopify.com/s/files/1/0372/4450/2149/files/chips_512x512_999bc22c-d3ec-4af2-8a73-6f8695aa1bce.jpg?v=1715374295",
+        "width": 512
+      }
+    ],
+    "requires_selling_plan": false,
+    "selling_plan_groups": []
+  }
+]

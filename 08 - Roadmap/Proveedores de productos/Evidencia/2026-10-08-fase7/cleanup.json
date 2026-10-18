@@ -1,0 +1,65 @@
+[
+  {
+    "action": "synthetic-schema-summary",
+    "argv": [
+      "/Applications/Postgres.app/Contents/Versions/latest/bin/psql",
+      "-X",
+      "-h",
+      "127.0.0.1",
+      "-p",
+      "60937",
+      "-U",
+      "phase7",
+      "-d",
+      "pos_nest_test_suppliers_phase7",
+      "-c",
+      "SELECT event_type,sync_status,count(*) FROM \"seg_phase3_http_32749_1791508925955\".events GROUP BY 1,2 ORDER BY 1,2; SELECT count(*) AS supplier_count FROM \"seg_phase3_http_32749_1791508925955\".suppliers; SELECT count(*) AS prices_count FROM \"seg_phase3_http_32749_1791508925955\".variant_suppliers;"
+    ],
+    "exit_code": 0
+  },
+  {
+    "action": "stop-isolated-http",
+    "pid": 32749,
+    "command": "node /Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/node_modules/.bin/ts-node --transpile-only test/support/variant-tracking-server.ts"
+  },
+  {
+    "action": "synthetic-schema-summary",
+    "argv": [
+      "/Applications/Postgres.app/Contents/Versions/latest/bin/psql",
+      "-X",
+      "-h",
+      "127.0.0.1",
+      "-p",
+      "60937",
+      "-U",
+      "phase7",
+      "-d",
+      "pos_nest_test_suppliers_phase7",
+      "-c",
+      "SELECT event_type,sync_status,count(*) FROM \"seg_phase3_http_36569_1791509429580\".events GROUP BY 1,2 ORDER BY 1,2; SELECT count(*) AS supplier_count FROM \"seg_phase3_http_36569_1791509429580\".suppliers; SELECT count(*) AS prices_count FROM \"seg_phase3_http_36569_1791509429580\".variant_suppliers;"
+    ],
+    "exit_code": 0
+  },
+  {
+    "action": "stop-isolated-http",
+    "pid": 36569,
+    "command": "node /Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/node_modules/.bin/ts-node test/support/variant-tracking-server.ts"
+  },
+  {
+    "action": "stop-isolated-postgres",
+    "argv": [
+      "/Applications/Postgres.app/Contents/Versions/latest/bin/pg_ctl",
+      "-D",
+      "/tmp/pos-phase7.Zm5GxJ/pg",
+      "-m",
+      "fast",
+      "stop"
+    ],
+    "exit_code": 0
+  },
+  {
+    "action": "remove-created-temporary-cluster",
+    "path": "/tmp/pos-phase7.Zm5GxJ",
+    "removed": true
+  }
+]

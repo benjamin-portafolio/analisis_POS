@@ -1,0 +1,59 @@
+{
+  "nest": {
+    "changed": [
+      "src/app.module.ts",
+      "src/sync/account-balance-baseline-event.handler.ts",
+      "src/sync/payloads/producto-actualizado.payload.ts",
+      "src/sync/payloads/producto-creado.payload.ts",
+      "src/sync/producto-event.handler.postgres.spec.ts",
+      "src/sync/producto-event.handler.spec.ts",
+      "src/sync/producto-event.handler.ts",
+      "src/sync/sync.service.spec.ts",
+      "src/sync/sync.service.ts",
+      "src/testing/variant-tracking-scenario.ts"
+    ],
+    "deleted": [],
+    "unchanged_count": 154,
+    "new": [
+      "docs/product_suppliers.md",
+      "src/entities/supplier.entity.ts",
+      "src/entities/variant-supplier.entity.ts",
+      "src/migrations/1791417600000-CreateProductSuppliers.postgres.spec.ts",
+      "src/migrations/1791417600000-CreateProductSuppliers.ts",
+      "src/sync/payloads/producto-proveedor-dependencia.ts",
+      "src/sync/payloads/producto-proveedor-precio.ts",
+      "src/sync/payloads/proveedor-actualizado.payload.ts",
+      "src/sync/payloads/proveedor-creado.payload.ts",
+      "src/sync/payloads/supplier-contracts.spec.ts",
+      "src/sync/payloads/supplier-event-envelope.ts",
+      "src/sync/payloads/supplier-event-identity.ts",
+      "src/sync/payloads/supplier-json.ts",
+      "src/sync/product-suppliers.postgres.spec.ts",
+      "src/sync/proveedor-event.handler.ts",
+      "src/testing/supplier-contract-fixtures.ts",
+      "test/fixtures/suppliers_v1/producto_creado.json",
+      "test/fixtures/suppliers_v1/producto_legado.json",
+      "test/fixtures/suppliers_v1/producto_medido_con_receta.json",
+      "test/fixtures/suppliers_v1/producto_retirada_explicita.json",
+      "test/fixtures/suppliers_v1/producto_sin_proveedores.json",
+      "test/fixtures/suppliers_v1/proveedor_actualizado.json",
+      "test/fixtures/suppliers_v1/proveedor_creado.json"
+    ]
+  },
+  "flutter": {
+    "changed": [
+      "docs/architecture/product_suppliers.md"
+    ],
+    "deleted": [],
+    "unchanged_count": 755,
+    "new": []
+  },
+  "analisis": {
+    "changed": [
+      "08 - Roadmap/Proveedores de productos/Estado y continuidad.md"
+    ],
+    "deleted": [],
+    "unchanged_count": 2,
+    "new": []
+  }
+}

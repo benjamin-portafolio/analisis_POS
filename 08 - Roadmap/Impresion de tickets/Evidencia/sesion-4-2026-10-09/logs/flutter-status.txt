@@ -1,0 +1,33 @@
+ M android/app/src/main/AndroidManifest.xml
+ M lib/core/di/application_dependencies.dart
+ M lib/core/di/data_dependencies.dart
+ M lib/core/di/injection.dart
+ M lib/presentation/pages/caja/models/sale_receipt_display.dart
+ M lib/presentation/pages/caja/sale_receipt_screen.dart
+ M lib/presentation/pages/cotizaciones/models/quotation_display.dart
+ M lib/presentation/pages/cotizaciones/quotation_ticket_screen.dart
+ M lib/presentation/pages/pantalla_principal/sync_settings_screen.dart
+ D lib/presentation/tickets/ticket_document.dart
+ M lib/presentation/tickets/ticket_image_generator.dart
+ M pubspec.lock
+ M pubspec.yaml
+ M test/presentation/pages/caja/sale_receipt_test.dart
+ M test/presentation/pages/cotizaciones/quotation_ticket_test.dart
+ M test/presentation/pages/pantalla_principal/menu_lateral_test.dart
+?? lib/application/printing/
+?? lib/application/tickets/
+?? lib/data/local/printing/
+?? lib/data/printing/
+?? lib/presentation/pages/impresoras/
+?? lib/presentation/tickets/ticket_print_action.dart
+?? lib/presentation/tickets/ticket_printer_dialog.dart
+?? packages/
+?? test/application/printing/
+?? test/core/di/printing_dependencies_test.dart
+?? test/data/printing/
+?? test/presentation/pages/impresoras/
+?? test/presentation/tickets/
+?? test/support/fake_printer_gateway.dart
+?? test/support/fake_printer_settings_store.dart
+?? test/support/fake_ticket_encoder.dart
+?? test/support/thermal_ticket_fixtures.dart

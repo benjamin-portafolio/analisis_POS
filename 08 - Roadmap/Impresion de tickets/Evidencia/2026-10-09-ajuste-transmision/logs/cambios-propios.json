@@ -1,0 +1,17 @@
+[
+  {
+    "path": "packages/pos_bluetooth_printer/README.md",
+    "before": "0887b57d6b11e87bcb7465579ef9c720b42718119d42bbc6d7de9d74da5b457c",
+    "after": "fc0df64d3ca0ff74f695d84a4c5106bd66567ae1c77389a154da549b480b0ae0"
+  },
+  {
+    "path": "packages/pos_bluetooth_printer/android/src/main/kotlin/com/pos/printing/PrinterTransport.kt",
+    "before": "364f141b0edc5caa8d874b8c837e9f2e5e2e1eed687a190090b1dd506d9e0115",
+    "after": "43122cb7d4aa7d10ef7108e89e527df43a44a33e6d3c4095b8ba36227bc5e171"
+  },
+  {
+    "path": "packages/pos_bluetooth_printer/android/src/test/kotlin/com/pos/printing/PrinterTransportTest.kt",
+    "before": "6056678110337da884b0a2c13f814bbc704b62e84be0d5f0200359164e83746d",
+    "after": "7eb440c1eff724307bfb14148978e481a11df3e70221d1e6dec820d993ff7957"
+  }
+]

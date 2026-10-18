@@ -1,0 +1,57 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/supplier_local_acceptance_test.dart
+00:00 +0: F5 respaldo real entre directorios y reinicios: catálogo con proveedores, repositorios e interfaz
+F5 trace: prepare
+F5 trace: restored
+F5 trace: mount UI
+F5 trace: flush UI
+F5 trace: open article
+F5 trace: article opened
+00:03 +1: F5 respaldo real entre directorios y reinicios: catálogo vacío, repositorios e interfaz
+F5 trace: prepare
+F5 trace: restored
+F5 trace: mount UI
+F5 trace: flush UI
+F5 trace: open article
+F5 trace: article opened
+03:28 +2: F5 respaldo sha256 rechazado conserva base abierta y reinicio
+03:28 +3: F5 respaldo not-sqlite rechazado conserva base abierta y reinicio
+03:28 +4: F5 respaldo other-schema rechazado conserva base abierta y reinicio
+03:28 +4 -1: F5 respaldo other-schema rechazado conserva base abierta y reinicio [E]
+  Expected: throws <Instance of 'StateError'>
+    Actual: <Instance of 'Future<void>'>
+     Which: emitted <null>
+  
+  package:matcher                                                   expectLater
+  package:flutter_test/src/widget_tester.dart 507:8                 expectLater
+  test/data/local/drift/supplier_local_acceptance_test.dart 444:17  main.<fn>
+  ===== asynchronous gap ===========================
+  dart:async                                                        _CustomZone.registerUnaryCallback
+  test/data/local/drift/supplier_local_acceptance_test.dart 411:28  main.<fn>
+  
+03:28 +4 -1: F5 respaldo older-version rechazado conserva base abierta y reinicio
+03:28 +4 -2: F5 respaldo older-version rechazado conserva base abierta y reinicio [E]
+  Expected: throws <Instance of 'StateError'>
+    Actual: <Instance of 'Future<void>'>
+     Which: emitted <null>
+  
+  package:matcher                                                   expectLater
+  package:flutter_test/src/widget_tester.dart 507:8                 expectLater
+  test/data/local/drift/supplier_local_acceptance_test.dart 444:17  main.<fn>
+  ===== asynchronous gap ===========================
+  dart:async                                                        _CustomZone.registerUnaryCallback
+  test/data/local/drift/supplier_local_acceptance_test.dart 411:28  main.<fn>
+  
+03:28 +4 -2: F5 respaldo newer-version rechazado conserva base abierta y reinicio
+03:28 +4 -3: F5 respaldo newer-version rechazado conserva base abierta y reinicio [E]
+  Expected: throws <Instance of 'StateError'>
+    Actual: <Instance of 'Future<void>'>
+     Which: emitted <null>
+  
+  package:matcher                                                   expectLater
+  package:flutter_test/src/widget_tester.dart 507:8                 expectLater
+  test/data/local/drift/supplier_local_acceptance_test.dart 444:17  main.<fn>
+  ===== asynchronous gap ===========================
+  dart:async                                                        _CustomZone.registerUnaryCallback
+  test/data/local/drift/supplier_local_acceptance_test.dart 411:28  main.<fn>
+  
+03:28 +4 -3: Some tests failed.

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Applications/Postgres.app/Contents/Versions/latest/bin/pg_ctl",
+    "-D",
+    "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-suppliers-phase6-d8i84n8g/data",
+    "-m",
+    "fast",
+    "-w",
+    "stop"
+  ],
+  "exit": 0,
+  "stdout": "waiting for server to shut down.... done\nserver stopped",
+  "stopped": true,
+  "temporary_directory_removed": true,
+  "user_database_accessed": false
+}

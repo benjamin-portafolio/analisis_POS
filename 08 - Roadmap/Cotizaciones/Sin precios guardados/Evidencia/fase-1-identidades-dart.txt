@@ -1,0 +1,4 @@
+Comando: dart --packages=<Flutter>/.dart_tool/package_config.json <script temporal> <identidades-estables.json>
+OK: UUID v5/v4 de los fixtures coinciden con idFor existentes y con uuid/crypto de Flutter para ambas intenciones.
+Comprobación de identidad sin inicializar Flutter/SQLite.
+Exit: 0

@@ -1,0 +1,14 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand --json --outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/postgres-completa-tercera.json
+
+(node:22413) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:22413) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+
+Test Suites: 48 passed, 48 total
+Tests:       498 passed, 498 total
+Snapshots:   0 total
+Time:        5.946 s, estimated 6 s
+Ran all test suites.
+Test results written to: ../analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/postgres-completa-tercera.json

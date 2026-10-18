@@ -1,7 +1,7 @@
 ---
 tipo: roadmap
 estado: borrador
-actualizado: 2026-08-24
+actualizado: 2026-10-02
 ---
 
 # Fases
@@ -51,6 +51,10 @@ actualizado: 2026-08-24
 - Ajustes manuales.
 - Captura de cantidades de inventario persistidas en atomos.
 - Politica de stock offline.
+- Recuperación de recursos y descarte vacío standalone según
+  [[08 - Roadmap/Seguimiento de existencias/Plan de implementacion|plan específico en cinco fases]].
+  La implementación queda pendiente y se sigue desde
+  [[08 - Roadmap/Seguimiento de existencias/Estado y continuidad|Estado y continuidad]].
 
 ## Fase 6: Operacion real
 

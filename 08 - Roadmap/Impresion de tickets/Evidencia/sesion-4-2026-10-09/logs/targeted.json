@@ -1,0 +1,18 @@
+{
+  "command": [
+    "flutter",
+    "test",
+    "test/application/printing",
+    "test/data/printing",
+    "test/core/di/printing_dependencies_test.dart",
+    "test/presentation/pages/impresoras",
+    "test/presentation/tickets",
+    "--reporter",
+    "expanded"
+  ],
+  "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+  "started": "2026-10-09T09:25:42.039919-06:00",
+  "finished": "2026-10-09T09:25:51.388502-06:00",
+  "duration_seconds": 9.35,
+  "exit_code": 1
+}

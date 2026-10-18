@@ -1,0 +1,13 @@
+{
+  "command": [
+    "flutter",
+    "test",
+    "--reporter",
+    "expanded"
+  ],
+  "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+  "started": "2026-10-09T09:29:00.763442-06:00",
+  "finished": "2026-10-09T09:30:29.338302-06:00",
+  "duration_seconds": 88.58,
+  "exit_code": 0
+}

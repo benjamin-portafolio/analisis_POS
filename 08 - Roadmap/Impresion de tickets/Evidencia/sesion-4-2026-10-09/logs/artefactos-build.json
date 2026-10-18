@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/Users/benjamin/Projects/POS/pos_flutter/build/app/outputs/flutter-apk/app-debug.apk",
+    "bytes": 221337369,
+    "sha256": "39f7cb8f2be17a76ae9cfffda26b22e8502776ae38a9d4e8c3e4aa426d5b1413"
+  },
+  {
+    "path": "/Users/benjamin/Projects/POS/pos_flutter/build/macos/Build/Products/Debug/pos_flutter.app/Contents/MacOS/pos_flutter",
+    "bytes": 41072,
+    "sha256": "1c513b1ed57a1dcf79afb2a6866209de8f8433851b91ec5c883f460198f4ccc3"
+  }
+]

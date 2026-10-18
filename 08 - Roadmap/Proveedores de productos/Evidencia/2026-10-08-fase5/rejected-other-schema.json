@@ -1,0 +1,175 @@
+{
+  "rejected_before_replacement": true,
+  "current_database_and_restart_preserved": true,
+  "contents": {
+    "clientes": [],
+    "categories": [],
+    "units": [
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000001",
+        "code": "piece",
+        "name": "Pieza",
+        "symbol": "pza",
+        "dimension": "count",
+        "atomic_factor": 1,
+        "max_fraction_digits": 0,
+        "active": 1
+      },
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000002",
+        "code": "g",
+        "name": "Gramo",
+        "symbol": "g",
+        "dimension": "mass",
+        "atomic_factor": 1,
+        "max_fraction_digits": 0,
+        "active": 1
+      },
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000003",
+        "code": "kg",
+        "name": "Kilogramo",
+        "symbol": "kg",
+        "dimension": "mass",
+        "atomic_factor": 1000,
+        "max_fraction_digits": 3,
+        "active": 1
+      },
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000004",
+        "code": "ml",
+        "name": "Mililitro",
+        "symbol": "ml",
+        "dimension": "volume",
+        "atomic_factor": 1,
+        "max_fraction_digits": 0,
+        "active": 1
+      },
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000005",
+        "code": "l",
+        "name": "Litro",
+        "symbol": "L",
+        "dimension": "volume",
+        "atomic_factor": 1000,
+        "max_fraction_digits": 3,
+        "active": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "a6f5df90-0d9d-48fd-9f4d-b225b486c690",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "9626e1ce-edf1-4419-a3ac-1a59889e59ec",
+        "last_event_id": "9626e1ce-edf1-4419-a3ac-1a59889e59ec",
+        "last_server_sequence": null,
+        "name": "Conservar artículo",
+        "category_id": null,
+        "sale_mode": "unit",
+        "sale_unit_id": null,
+        "price_reference_quantity_atomic": null
+      }
+    ],
+    "inventory_items": [],
+    "product_variants": [
+      {
+        "id": "dd7a95dc-d7fd-4a93-a1ab-a6ec515fe9cf",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "9626e1ce-edf1-4419-a3ac-1a59889e59ec",
+        "last_event_id": "9626e1ce-edf1-4419-a3ac-1a59889e59ec",
+        "last_server_sequence": null,
+        "product_id": "a6f5df90-0d9d-48fd-9f4d-b225b486c690",
+        "name": "Única",
+        "name_key": "única",
+        "barcode": null,
+        "sale_price_minor": 2500,
+        "standard_cost_minor": 1000,
+        "inventory_item_id": null,
+        "sort_order": 0
+      }
+    ],
+    "product_update_undo": [],
+    "recipe_components": [],
+    "suppliers": [
+      {
+        "id": "c6bd1c89-f77f-4d8e-bf78-4207c1310e93",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "62edbe7c-099e-4c14-9a15-cf1989bc59f9",
+        "last_event_id": "62edbe7c-099e-4c14-9a15-cf1989bc59f9",
+        "last_server_sequence": null,
+        "name": "Conservar",
+        "phone": null,
+        "notes": null
+      }
+    ],
+    "variant_suppliers": [
+      {
+        "variant_id": "dd7a95dc-d7fd-4a93-a1ab-a6ec515fe9cf",
+        "supplier_id": "c6bd1c89-f77f-4d8e-bf78-4207c1310e93",
+        "quoted_price_minor": 1234,
+        "quoted_at_ms": 1791331200123
+      }
+    ],
+    "espacios": [],
+    "events": [
+      {
+        "event_id": "62edbe7c-099e-4c14-9a15-cf1989bc59f9",
+        "aggregate_type": "supplier",
+        "aggregate_id": "c6bd1c89-f77f-4d8e-bf78-4207c1310e93",
+        "event_type": "proveedor_creado",
+        "device_id": "phase3-device",
+        "user_id": "phase3-user",
+        "local_sequence": 1,
+        "server_sequence": null,
+        "base_server_sequence": null,
+        "base_version": 1,
+        "created_at_local": 1791503578,
+        "created_at_server": null,
+        "payload": "{\"name\":\"Conservar\",\"phone\":null,\"notes\":null}",
+        "application_status": "applied",
+        "delivery_status": "not_required",
+        "rejection_reason": null
+      },
+      {
+        "event_id": "9626e1ce-edf1-4419-a3ac-1a59889e59ec",
+        "aggregate_type": "product",
+        "aggregate_id": "a6f5df90-0d9d-48fd-9f4d-b225b486c690",
+        "event_type": "producto_creado",
+        "device_id": "phase3-device",
+        "user_id": "phase3-user",
+        "local_sequence": 2,
+        "server_sequence": null,
+        "base_server_sequence": null,
+        "base_version": 1,
+        "created_at_local": 1791503578,
+        "created_at_server": null,
+        "payload": "{\"product\":{\"name\":\"Conservar artículo\",\"category_id\":null,\"sale_configuration\":{\"mode\":\"unit\"}},\"variants\":[{\"variant_id\":\"dd7a95dc-d7fd-4a93-a1ab-a6ec515fe9cf\",\"name\":\"Única\",\"sku\":null,\"barcode\":null,\"sale_price_minor\":2500,\"standard_cost_minor\":1000,\"suppliers\":[{\"supplier_id\":\"c6bd1c89-f77f-4d8e-bf78-4207c1310e93\",\"quoted_price_minor\":1234,\"quoted_at_ms\":1791331200123}],\"sort_order\":0}],\"dependencies\":[{\"ref_type\":\"supplier\",\"ref_id\":\"c6bd1c89-f77f-4d8e-bf78-4207c1310e93\"}]}",
+        "application_status": "applied",
+        "delivery_status": "not_required",
+        "rejection_reason": null
+      }
+    ],
+    "event_refs": [],
+    "sync_checkpoints": [],
+    "inventory_balances": [],
+    "sales": [],
+    "sale_items": [],
+    "inventory_movements": [],
+    "variant_inventory_memory": [],
+    "inventory_item_discards": [],
+    "sale_payments": [],
+    "quotations": [],
+    "quotation_items": [],
+    "credit_sales": [],
+    "customer_payments": [],
+    "credit_allocations": [],
+    "financial_categories": [],
+    "financial_entries": [],
+    "cash_sessions": [],
+    "cash_movements": [],
+    "account_balance_baselines": []
+  }
+}

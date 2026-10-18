@@ -1,0 +1,11 @@
+{
+  "command": [
+    "dart",
+    "analyze"
+  ],
+  "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+  "started": "2026-10-09T09:28:59.598012-06:00",
+  "finished": "2026-10-09T09:29:07.250907-06:00",
+  "duration_seconds": 7.65,
+  "exit_code": 0
+}

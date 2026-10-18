@@ -1,0 +1,79 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand suppliers --json --outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/postgres-dirigidas-inicial.json
+
+FAIL src/sync/product-suppliers.postgres.spec.ts
+  ● Proveedores/productos: PostgreSQL, atomicidad y sync existente › varias variantes/proveedores, compartido, cero y máximo bigint; editar otros campos conserva precios
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "duplicate"
+    Received: "rejected"
+
+      179 |     const edit = await updateProduct(create, json => { json.product.name = 'Nuevo nombre'; json.variants[0].sale_price_minor = 999; json.variants[0].standard_cost_minor = 123; });
+      180 |     expect((await push(edit)).status).toBe('accepted'); expect(await db.manager.find(VariantSupplierEntity)).toEqual(relations);
+    > 181 |     const beforeRetry = await snapshot(); expect((await push(create)).status).toBe('duplicate'); expect((await push(edit)).status).toBe('duplicate'); expect(await snapshot()).toEqual(beforeRetry);
+          |                                                                               ^
+      182 |     expect((await push({ ...create, payload: supplierFixture('producto_sin_proveedores') })).status).toBe('rejected');
+      183 |   });
+      184 |   it('producto medido con receta mantiene base, receta, costo e inventario al cambiar precio de proveedor', async () => {
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:181:79)
+
+  ● Proveedores/productos: PostgreSQL, atomicidad y sync existente › producto medido con receta mantiene base, receta, costo e inventario al cambiar precio de proveedor
+
+    QueryFailedError: null value in column "last_event_id" of relation "inventory_balances" violates not-null constraint
+
+      at PostgresQueryRunner.query (driver/postgres/PostgresQueryRunner.ts:345:19)
+      at InsertQueryBuilder.execute (query-builder/InsertQueryBuilder.ts:168:33)
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:189:5)
+
+  ● Proveedores/productos: PostgreSQL, atomicidad y sync existente › borrado lógico conserva precios históricos, incluye refs inactivas y replay no resucita
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "duplicate"
+    Received: "rejected"
+
+      247 |     expect((await db.manager.findOneByOrFail(ProductEntity, { id: productId })).active).toBe(false);
+      248 |     expect(await db.manager.findBy(EventRefEntity, { eventId: deletion.event_id, refType: 'variant_suppliers' })).toHaveLength(2);
+    > 249 |     expect((await push(create)).status).toBe('duplicate'); expect((await push(deletion)).status).toBe('duplicate');
+          |                                         ^
+      250 |     await db.manager.delete(ProductEntity, { id: productId }); expect(await db.manager.count(VariantSupplierEntity)).toBe(0); expect((await push(create)).status).toBe('duplicate'); expect(await db.manager.count(ProductEntity)).toBe(0);
+      251 |   });
+      252 |   it('replay legado mantiene omisión; promoción exacta before vacío agrega precios explícitos', async () => {
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:249:41)
+
+FAIL src/migrations/1791417600000-CreateProductSuppliers.postgres.spec.ts
+  ● Migración proveedores sobre esquema anterior con datos › FK rechazan huérfanos y RESTRICT impide borrar proveedor relacionado
+
+    expect(received).rejects.toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "driverError": Object {
+    -     "code": "23503",
+    +     "code": "23001",
+        },
+      }
+
+      58 |     await expect(db.query('INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)', [randomUUID(), supplier])).rejects.toMatchObject({ driverError: { code: '23503' } });
+      59 |     await expect(db.query('INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)', [variant, randomUUID()])).rejects.toMatchObject({ driverError: { code: '23503' } });
+    > 60 |     await expect(db.query('DELETE FROM suppliers WHERE supplier_id = $1', [supplier])).rejects.toMatchObject({ driverError: { code: '23503' } });
+         |                                                                                                ^
+      61 |   });
+      62 |   it('down protege datos; CASCADE de variante solo elimina relaciones, nunca catálogo', async () => {
+      63 |     await expect(db.undoLastMigration()).rejects.toThrow('proveedores o precios');
+
+      at Object.toMatchObject (../node_modules/expect/build/index.js:2155:20)
+      at Object.<anonymous> (migrations/1791417600000-CreateProductSuppliers.postgres.spec.ts:60:96)
+
+Test Suites: 2 failed, 2 total
+Tests:       4 failed, 42 passed, 46 total
+Snapshots:   0 total
+Time:        1.717 s
+Ran all test suites matching suppliers.
+Test results written to: ../analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/postgres-dirigidas-inicial.json

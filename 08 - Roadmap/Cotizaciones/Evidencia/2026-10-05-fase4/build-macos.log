@@ -1,0 +1,12 @@
+Running pod install...                                             758ms
+Building macOS application...                                   
+/Users/benjamin/.pub-cache/hosted/pub.dev/mobile_scanner-7.4.2/darwin/mobile_scanner/Sources/mobile_scanner/MobileScannerCameraSelector.swift:200:42: warning: 'devices(for:)' was deprecated in macOS 10.15: Use AVCaptureDeviceDiscoverySession instead. [#DeprecatedDeclaration]
+198 |         // macOS: ignore the facing filter (only a front camera is used on macOS),
+199 |         // consistent with getSupportedLenses.
+200 |         let hasDevice = !AVCaptureDevice.devices(for: .video).isEmpty
+    |                                          `- warning: 'devices(for:)' was deprecated in macOS 10.15: Use AVCaptureDeviceDiscoverySession instead. [#DeprecatedDeclaration]
+201 |         return hasDevice ? LensType.wideAngle.rawValue : nil
+202 | #endif
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+✓ Built build/macos/Build/Products/Debug/pos_flutter.app

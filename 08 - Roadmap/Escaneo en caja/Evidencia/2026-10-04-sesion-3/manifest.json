@@ -1,0 +1,28 @@
+{
+  "fecha_usuario": "2026-10-04",
+  "plan_revision": 2,
+  "flutter_head": "65c07bc393ef723c38b74c0b0928136f44bb426a",
+  "estado": "implementacion_completada_verificacion_fisica_pendiente",
+  "dart_analyze": "No issues found!",
+  "widgets": 46,
+  "regresion": 248,
+  "suite": {
+    "aprobadas": 1132,
+    "omitidas": 1,
+    "fallos_previos": 1,
+    "fallos_propios": 0
+  },
+  "apk": {
+    "path": "/Users/benjamin/Projects/POS/pos_flutter/build/app/outputs/flutter-apk/app-debug.apk",
+    "target": "lib/main.dart",
+    "profile": "debug",
+    "sha256": "669594f6e49e367bc3423a3d689b6972b267430060d73de7c84433f8d72af5f1"
+  },
+  "archivos_sesion_3": {
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/caja/sale_barcode_scanner_screen.dart": "5d26a50ad7c8cfd6d8ceb5a727eb9c3e50969e344bc84537d5378a7c06f8e9a3",
+    "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart": "6e743ca998506c13c49e69c2cf479e7d816c02f5e428875e7cd9e1ac44a3e88b",
+    "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart": "37e621049d6b9d650276fd019896ed7183fc38230e4b4d0f54c7b3f0fdb83593",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Escaneo en caja/Estado y continuidad.md": "b19f3fa9f660610a896c804e1cf13f713a3db14fd2e6c521d703d50b0d829b02",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Escaneo en caja/Plan de implementacion.md": "3fdd09b48c6e6d0619386b2e32088ac9bac00941fb8954a62991bba56f36fc60"
+  }
+}

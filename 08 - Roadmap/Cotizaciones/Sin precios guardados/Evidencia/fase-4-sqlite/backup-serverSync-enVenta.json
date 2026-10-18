@@ -1,0 +1,523 @@
+{
+  "schema_version": 8,
+  "status": "enVenta",
+  "sha256": "4ef5d04349f1729f49143ebe8e9ca6d21cc8b66a7c18bbd9952a27b7d9f3e5ee",
+  "contents": {
+    "clientes": [],
+    "categories": [],
+    "units": [
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000001",
+        "code": "piece",
+        "name": "Pieza",
+        "symbol": "pza",
+        "dimension": "count",
+        "atomic_factor": 1,
+        "max_fraction_digits": 0,
+        "active": 1
+      },
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000002",
+        "code": "g",
+        "name": "Gramo",
+        "symbol": "g",
+        "dimension": "mass",
+        "atomic_factor": 1,
+        "max_fraction_digits": 0,
+        "active": 1
+      },
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000003",
+        "code": "kg",
+        "name": "Kilogramo",
+        "symbol": "kg",
+        "dimension": "mass",
+        "atomic_factor": 1000,
+        "max_fraction_digits": 3,
+        "active": 1
+      },
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000004",
+        "code": "ml",
+        "name": "Mililitro",
+        "symbol": "ml",
+        "dimension": "volume",
+        "atomic_factor": 1,
+        "max_fraction_digits": 0,
+        "active": 1
+      },
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000005",
+        "code": "l",
+        "name": "Litro",
+        "symbol": "L",
+        "dimension": "volume",
+        "atomic_factor": 1000,
+        "max_fraction_digits": 3,
+        "active": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "00000000-0000-4000-8000-000000000001",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "00000000-0000-4000-8000-000000000006",
+        "last_event_id": "00000000-0000-4000-8000-000000000006",
+        "last_server_sequence": null,
+        "name": "Pan",
+        "category_id": null,
+        "sale_mode": "unit",
+        "sale_unit_id": null,
+        "price_reference_quantity_atomic": null
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000007",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "00000000-0000-4000-8000-000000000006",
+        "last_event_id": "00000000-0000-4000-8000-000000000006",
+        "last_server_sequence": null,
+        "name": "Café medido",
+        "category_id": null,
+        "sale_mode": "measured",
+        "sale_unit_id": "10000000-0000-4000-8000-000000000003",
+        "price_reference_quantity_atomic": 1000
+      }
+    ],
+    "inventory_items": [
+      {
+        "id": "00000000-0000-4000-8000-000000000005",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "00000000-0000-4000-8000-000000000008",
+        "last_event_id": "00000000-0000-4000-8000-000000000008",
+        "last_server_sequence": null,
+        "default_unit_id": "10000000-0000-4000-8000-000000000001",
+        "name": "Recurso",
+        "origin_variant_id": null
+      }
+    ],
+    "product_variants": [
+      {
+        "id": "00000000-0000-4000-8000-000000000002",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "00000000-0000-4000-8000-000000000006",
+        "last_event_id": "00000000-0000-4000-8000-000000000006",
+        "last_server_sequence": null,
+        "product_id": "00000000-0000-4000-8000-000000000001",
+        "name": "Original",
+        "name_key": "00000000-0000-4000-8000-000000000002",
+        "barcode": null,
+        "sale_price_minor": 3500,
+        "standard_cost_minor": 900,
+        "inventory_item_id": "00000000-0000-4000-8000-000000000005",
+        "sort_order": 0
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "00000000-0000-4000-8000-000000000006",
+        "last_event_id": "00000000-0000-4000-8000-000000000006",
+        "last_server_sequence": null,
+        "product_id": "00000000-0000-4000-8000-000000000001",
+        "name": "Por receta",
+        "name_key": "00000000-0000-4000-8000-000000000003",
+        "barcode": null,
+        "sale_price_minor": 2400,
+        "standard_cost_minor": 900,
+        "inventory_item_id": null,
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000004",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "00000000-0000-4000-8000-000000000006",
+        "last_event_id": "00000000-0000-4000-8000-000000000006",
+        "last_server_sequence": null,
+        "product_id": "00000000-0000-4000-8000-000000000007",
+        "name": "Original",
+        "name_key": "00000000-0000-4000-8000-000000000004",
+        "barcode": null,
+        "sale_price_minor": 10001,
+        "standard_cost_minor": 900,
+        "inventory_item_id": null,
+        "sort_order": 0
+      }
+    ],
+    "product_update_undo": [],
+    "recipe_components": [
+      {
+        "variant_id": "00000000-0000-4000-8000-000000000003",
+        "inventory_item_id": "00000000-0000-4000-8000-000000000005",
+        "quantity_atomic": 3
+      }
+    ],
+    "espacios": [],
+    "events": [
+      {
+        "event_id": "00000000-0000-4000-8000-000000000006",
+        "aggregate_type": "fixture",
+        "aggregate_id": "00000000-0000-4000-8000-000000000006",
+        "event_type": "fixture",
+        "device_id": "quotation-tablet",
+        "user_id": "quotation-user",
+        "local_sequence": 1,
+        "server_sequence": null,
+        "base_server_sequence": null,
+        "base_version": null,
+        "created_at_local": 1767225600,
+        "created_at_server": null,
+        "payload": "{}",
+        "application_status": "applied",
+        "delivery_status": "not_required",
+        "rejection_reason": null
+      },
+      {
+        "event_id": "00000000-0000-4000-8000-000000000008",
+        "aggregate_type": "fixture",
+        "aggregate_id": "00000000-0000-4000-8000-000000000008",
+        "event_type": "fixture",
+        "device_id": "quotation-tablet",
+        "user_id": "quotation-user",
+        "local_sequence": 2,
+        "server_sequence": null,
+        "base_server_sequence": null,
+        "base_version": null,
+        "created_at_local": 1767225600,
+        "created_at_server": null,
+        "payload": "{}",
+        "application_status": "applied",
+        "delivery_status": "not_required",
+        "rejection_reason": null
+      },
+      {
+        "event_id": "65dca91d-f8a5-4c13-ad18-06f097914774",
+        "aggregate_type": "sale_draft",
+        "aggregate_id": "342d92cd-7ffb-4977-8228-14d3665d5098",
+        "event_type": "producto_agregado_borrador",
+        "device_id": "quotation-tablet",
+        "user_id": "quotation-user",
+        "local_sequence": 3,
+        "server_sequence": null,
+        "base_server_sequence": null,
+        "base_version": 0,
+        "created_at_local": 1791332883,
+        "created_at_server": null,
+        "payload": "{\"sale_item_id\":\"e267c4f4-5b79-4835-b743-f3dff2ea3f73\",\"sort_order\":0,\"variant_id\":\"00000000-0000-4000-8000-000000000002\",\"consumption_configuration_key\":\"[\\\"00000000-0000-4000-8000-000000000005\\\"]\",\"product_name_snapshot\":\"Pan\",\"variant_name_snapshot\":\"Original\",\"sale_mode_snapshot\":\"unit\",\"quantity\":1,\"measured_quantity_atomic\":null,\"unit_price_minor\":3500,\"standard_cost_minor_snapshot\":900,\"price_reference_quantity_atomic_snapshot\":null,\"sale_unit_code_snapshot\":null,\"sale_unit_symbol_snapshot\":null,\"sale_unit_atomic_factor_snapshot\":null}",
+        "application_status": "applied",
+        "delivery_status": "not_required",
+        "rejection_reason": null
+      },
+      {
+        "event_id": "ab0b3bd6-cc1c-49a9-b309-dda617e29385",
+        "aggregate_type": "sale_draft",
+        "aggregate_id": "342d92cd-7ffb-4977-8228-14d3665d5098",
+        "event_type": "producto_agregado_borrador",
+        "device_id": "quotation-tablet",
+        "user_id": "quotation-user",
+        "local_sequence": 4,
+        "server_sequence": null,
+        "base_server_sequence": null,
+        "base_version": 1,
+        "created_at_local": 1791332883,
+        "created_at_server": null,
+        "payload": "{\"sale_item_id\":\"723170d6-6a4b-4b13-a282-6e9f79057bb8\",\"sort_order\":1,\"variant_id\":\"00000000-0000-4000-8000-000000000004\",\"consumption_configuration_key\":\"[null]\",\"product_name_snapshot\":\"Café medido\",\"variant_name_snapshot\":\"Original\",\"sale_mode_snapshot\":\"measured\",\"quantity\":null,\"measured_quantity_atomic\":750,\"unit_price_minor\":10001,\"standard_cost_minor_snapshot\":900,\"price_reference_quantity_atomic_snapshot\":1000,\"sale_unit_code_snapshot\":\"kg\",\"sale_unit_symbol_snapshot\":\"kg\",\"sale_unit_atomic_factor_snapshot\":1000}",
+        "application_status": "applied",
+        "delivery_status": "not_required",
+        "rejection_reason": null
+      },
+      {
+        "event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "aggregate_type": "quotation",
+        "aggregate_id": "2a28496c-ba60-4036-a14a-69a95e5c31fd",
+        "event_type": "cotizacion_guardada",
+        "device_id": "quotation-tablet",
+        "user_id": "quotation-user",
+        "local_sequence": 5,
+        "server_sequence": null,
+        "base_server_sequence": null,
+        "base_version": 0,
+        "created_at_local": 1791332883,
+        "created_at_server": null,
+        "payload": "{\"format_version\":2,\"source_sale_id\":\"342d92cd-7ffb-4977-8228-14d3665d5098\",\"source_draft_event_id\":\"ab0b3bd6-cc1c-49a9-b309-dda617e29385\",\"issued_at_ms\":1791332883000,\"lines\":[{\"id\":\"9f13adc8-6c95-5f6c-bb2f-1d3610f5fc85\",\"source_sale_item_id\":\"e267c4f4-5b79-4835-b743-f3dff2ea3f73\",\"sort_order\":0,\"selection\":{\"variant_id\":\"00000000-0000-4000-8000-000000000002\",\"product_name_snapshot\":\"Pan\",\"variant_name_snapshot\":\"Original\",\"sale_mode_snapshot\":\"unit\",\"quantity\":1,\"measured_quantity_atomic\":null,\"sale_unit_code_snapshot\":null,\"sale_unit_symbol_snapshot\":null,\"sale_unit_atomic_factor_snapshot\":null}},{\"id\":\"d75e12f2-8cc6-56a9-b0c1-f3e95e844860\",\"source_sale_item_id\":\"723170d6-6a4b-4b13-a282-6e9f79057bb8\",\"sort_order\":1,\"selection\":{\"variant_id\":\"00000000-0000-4000-8000-000000000004\",\"product_name_snapshot\":\"Café medido\",\"variant_name_snapshot\":\"Original\",\"sale_mode_snapshot\":\"measured\",\"quantity\":null,\"measured_quantity_atomic\":750,\"sale_unit_code_snapshot\":\"kg\",\"sale_unit_symbol_snapshot\":\"kg\",\"sale_unit_atomic_factor_snapshot\":1000}}]}",
+        "application_status": "applied",
+        "delivery_status": "not_required",
+        "rejection_reason": null
+      }
+    ],
+    "event_refs": [
+      {
+        "event_ref_id": "d051cd1d-4164-44f2-940a-140c67acaacd",
+        "event_id": "65dca91d-f8a5-4c13-ad18-06f097914774",
+        "ref_type": "sale",
+        "ref_id": "342d92cd-7ffb-4977-8228-14d3665d5098",
+        "relationship": "affects",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "250b3497-f659-49be-9b8a-133ebe3f83ae",
+        "event_id": "65dca91d-f8a5-4c13-ad18-06f097914774",
+        "ref_type": "sale_item",
+        "ref_id": "e267c4f4-5b79-4835-b743-f3dff2ea3f73",
+        "relationship": "affects",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "2588a07d-5a9f-4915-8c35-bf8e755a4636",
+        "event_id": "65dca91d-f8a5-4c13-ad18-06f097914774",
+        "ref_type": "product",
+        "ref_id": "00000000-0000-4000-8000-000000000001",
+        "relationship": "uses",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "5add3552-f27d-4309-9ea4-78c103c7e55f",
+        "event_id": "65dca91d-f8a5-4c13-ad18-06f097914774",
+        "ref_type": "product_variant",
+        "ref_id": "00000000-0000-4000-8000-000000000002",
+        "relationship": "uses",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "c793f74a-5ee1-4d77-add3-af022a85cdf0",
+        "event_id": "ab0b3bd6-cc1c-49a9-b309-dda617e29385",
+        "ref_type": "sale",
+        "ref_id": "342d92cd-7ffb-4977-8228-14d3665d5098",
+        "relationship": "affects",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "28463913-a094-42e5-8536-47d8761a7f0b",
+        "event_id": "ab0b3bd6-cc1c-49a9-b309-dda617e29385",
+        "ref_type": "sale_item",
+        "ref_id": "723170d6-6a4b-4b13-a282-6e9f79057bb8",
+        "relationship": "affects",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "7796c22d-3424-483e-afbe-51218fbb483a",
+        "event_id": "ab0b3bd6-cc1c-49a9-b309-dda617e29385",
+        "ref_type": "product",
+        "ref_id": "00000000-0000-4000-8000-000000000007",
+        "relationship": "uses",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "619a0f68-8aef-45f1-b5aa-0e8714142d18",
+        "event_id": "ab0b3bd6-cc1c-49a9-b309-dda617e29385",
+        "ref_type": "product_variant",
+        "ref_id": "00000000-0000-4000-8000-000000000004",
+        "relationship": "uses",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "b9593d7c-7c99-4ad5-aa64-ef1de18d1f0c",
+        "event_id": "ab0b3bd6-cc1c-49a9-b309-dda617e29385",
+        "ref_type": "unit",
+        "ref_id": "10000000-0000-4000-8000-000000000003",
+        "relationship": "uses",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "29851a5e-9c28-4ea9-a0bb-43a670f39c1b",
+        "event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "ref_type": "quotation",
+        "ref_id": "2a28496c-ba60-4036-a14a-69a95e5c31fd",
+        "relationship": "affects",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "e813227c-a407-4314-9730-e78780a8fab5",
+        "event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "ref_type": "quotation_item",
+        "ref_id": "9f13adc8-6c95-5f6c-bb2f-1d3610f5fc85",
+        "relationship": "affects",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "8febf472-f95c-43d8-a779-5ace6addebdc",
+        "event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "ref_type": "quotation_item",
+        "ref_id": "d75e12f2-8cc6-56a9-b0c1-f3e95e844860",
+        "relationship": "affects",
+        "server_sequence": null,
+        "source": "local_pending"
+      },
+      {
+        "event_ref_id": "bc903244-fc72-45fa-9ad1-b2800b5d59d8",
+        "event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "ref_type": "sale",
+        "ref_id": "342d92cd-7ffb-4977-8228-14d3665d5098",
+        "relationship": "uses",
+        "server_sequence": null,
+        "source": "local_pending"
+      }
+    ],
+    "sync_checkpoints": [],
+    "inventory_balances": [
+      {
+        "inventory_item_id": "00000000-0000-4000-8000-000000000005",
+        "quantity_on_hand_atomic": 1000,
+        "quantity_available_atomic": 1000,
+        "version": 1,
+        "last_event_id": "00000000-0000-4000-8000-000000000008",
+        "last_server_sequence": null
+      }
+    ],
+    "sales": [
+      {
+        "id": "342d92cd-7ffb-4977-8228-14d3665d5098",
+        "active": 1,
+        "version": 2,
+        "created_event_id": "65dca91d-f8a5-4c13-ad18-06f097914774",
+        "last_event_id": "ab0b3bd6-cc1c-49a9-b309-dda617e29385",
+        "last_server_sequence": null,
+        "cliente_id": null,
+        "user_id": "quotation-user",
+        "device_id": "quotation-tablet",
+        "status": "borrador",
+        "total_minor": 11001,
+        "created_at_local": 1791332883,
+        "updated_at_local": 1791332883
+      }
+    ],
+    "sale_items": [
+      {
+        "id": "e267c4f4-5b79-4835-b743-f3dff2ea3f73",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "65dca91d-f8a5-4c13-ad18-06f097914774",
+        "last_event_id": "65dca91d-f8a5-4c13-ad18-06f097914774",
+        "last_server_sequence": null,
+        "sale_id": "342d92cd-7ffb-4977-8228-14d3665d5098",
+        "variant_id": "00000000-0000-4000-8000-000000000002",
+        "consumption_configuration_key": "[\"00000000-0000-4000-8000-000000000005\"]",
+        "product_name_snapshot": "Pan",
+        "variant_name_snapshot": "Original",
+        "sale_mode_snapshot": "unit",
+        "quantity": 1,
+        "measured_quantity_atomic": null,
+        "unit_price_minor": 3500,
+        "standard_cost_minor_snapshot": 900,
+        "price_reference_quantity_atomic_snapshot": null,
+        "sale_unit_code_snapshot": null,
+        "sale_unit_symbol_snapshot": null,
+        "sale_unit_atomic_factor_snapshot": null,
+        "total_minor": 3500,
+        "sort_order": 0
+      },
+      {
+        "id": "723170d6-6a4b-4b13-a282-6e9f79057bb8",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "ab0b3bd6-cc1c-49a9-b309-dda617e29385",
+        "last_event_id": "ab0b3bd6-cc1c-49a9-b309-dda617e29385",
+        "last_server_sequence": null,
+        "sale_id": "342d92cd-7ffb-4977-8228-14d3665d5098",
+        "variant_id": "00000000-0000-4000-8000-000000000004",
+        "consumption_configuration_key": "[null]",
+        "product_name_snapshot": "Café medido",
+        "variant_name_snapshot": "Original",
+        "sale_mode_snapshot": "measured",
+        "quantity": null,
+        "measured_quantity_atomic": 750,
+        "unit_price_minor": 10001,
+        "standard_cost_minor_snapshot": 900,
+        "price_reference_quantity_atomic_snapshot": 1000,
+        "sale_unit_code_snapshot": "kg",
+        "sale_unit_symbol_snapshot": "kg",
+        "sale_unit_atomic_factor_snapshot": 1000,
+        "total_minor": 7501,
+        "sort_order": 1
+      }
+    ],
+    "inventory_movements": [],
+    "variant_inventory_memory": [],
+    "inventory_item_discards": [],
+    "sale_payments": [],
+    "quotations": [
+      {
+        "id": "2a28496c-ba60-4036-a14a-69a95e5c31fd",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "last_event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "last_server_sequence": null,
+        "user_id": "quotation-user",
+        "device_id": "quotation-tablet",
+        "issued_at_local": 1791332883,
+        "source_sale_id": "342d92cd-7ffb-4977-8228-14d3665d5098",
+        "source_draft_event_id": "ab0b3bd6-cc1c-49a9-b309-dda617e29385",
+        "current_sale_id": "342d92cd-7ffb-4977-8228-14d3665d5098"
+      }
+    ],
+    "quotation_items": [
+      {
+        "id": "9f13adc8-6c95-5f6c-bb2f-1d3610f5fc85",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "last_event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "last_server_sequence": null,
+        "quotation_id": "2a28496c-ba60-4036-a14a-69a95e5c31fd",
+        "variant_id": "00000000-0000-4000-8000-000000000002",
+        "product_name_snapshot": "Pan",
+        "variant_name_snapshot": "Original",
+        "sale_mode_snapshot": "unit",
+        "quantity": 1,
+        "measured_quantity_atomic": null,
+        "sale_unit_code_snapshot": null,
+        "sale_unit_symbol_snapshot": null,
+        "sale_unit_atomic_factor_snapshot": null,
+        "sort_order": 0
+      },
+      {
+        "id": "d75e12f2-8cc6-56a9-b0c1-f3e95e844860",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "last_event_id": "67b5f95c-8fc8-4716-af1e-7af96f1270bb",
+        "last_server_sequence": null,
+        "quotation_id": "2a28496c-ba60-4036-a14a-69a95e5c31fd",
+        "variant_id": "00000000-0000-4000-8000-000000000004",
+        "product_name_snapshot": "Café medido",
+        "variant_name_snapshot": "Original",
+        "sale_mode_snapshot": "measured",
+        "quantity": null,
+        "measured_quantity_atomic": 750,
+        "sale_unit_code_snapshot": "kg",
+        "sale_unit_symbol_snapshot": "kg",
+        "sale_unit_atomic_factor_snapshot": 1000,
+        "sort_order": 1
+      }
+    ],
+    "credit_sales": [],
+    "customer_payments": [],
+    "credit_allocations": [],
+    "financial_categories": [],
+    "financial_entries": [],
+    "cash_sessions": [],
+    "cash_movements": [],
+    "account_balance_baselines": []
+  },
+  "normal_restart_preserved": true,
+  "restored_and_second_restart_preserved": true,
+  "protected": true,
+  "integrity_check": "ok",
+  "foreign_key_check": []
+}

@@ -1,0 +1,8 @@
+git diff --check: OK (/Users/benjamin/Projects/POS/pos_flutter)
+git diff --check: OK (/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis )
+Whitespace / archivo completo: OK (/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/caja/sale_barcode_scanner_screen.dart)
+Whitespace / archivo completo: OK (/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart)
+Whitespace / archivo completo: OK (/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart)
+Whitespace / archivo completo: OK (/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Escaneo en caja/Estado y continuidad.md)
+Whitespace / archivo completo: OK (/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Escaneo en caja/Plan de implementacion.md)
+Sin diferencias en application, tablas, Android, dependencias, generado Drift y lector del editor.

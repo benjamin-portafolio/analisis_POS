@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "dart",
+      "analyze"
+    ],
+    "log": "dart-analyze-final.log",
+    "exit_code": 0,
+    "duration_seconds": 4.73
+  },
+  {
+    "command": [
+      "flutter",
+      "test",
+      "--reporter",
+      "json"
+    ],
+    "log": "flutter-test-final.jsonl",
+    "exit_code": 0,
+    "duration_seconds": 64.16
+  },
+  {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "log": "git-diff-check-final.log",
+    "exit_code": 0,
+    "duration_seconds": 0.05
+  }
+]

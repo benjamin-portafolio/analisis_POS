@@ -1,0 +1,5 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/repositories/quotation_estimation_test.dart
+00:00 +0: P09/P10 AppMode.standalone: catálogo reactivo y lectura sin escrituras
+00:00 +1: P09/P10 AppMode.serverSync: catálogo reactivo y lectura sin escrituras
+00:00 +2: P26: transacción impide mezclar revisiones del catálogo entre líneas
+00:00 +3: All tests passed!

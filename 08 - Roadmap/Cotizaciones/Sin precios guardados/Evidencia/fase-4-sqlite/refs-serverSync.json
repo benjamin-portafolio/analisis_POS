@@ -1,0 +1,157 @@
+{
+  "mode": "serverSync",
+  "invalid_refs_rejected": true,
+  "persist_refs": true,
+  "events": [
+    {
+      "event_id": "62121c9b-ae00-4ee9-ae74-cb64d0d8b3ec",
+      "aggregate_type": "quotation",
+      "delivery_status": "not_required",
+      "declared_refs": [
+        {
+          "ref_type": "quotation",
+          "ref_id": "9d7c1994-1cf0-4a6c-a8fe-58060827fc42",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "quotation_item",
+          "ref_id": "f004418b-18a6-5866-8c11-49a03b3a1d79",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "quotation_item",
+          "ref_id": "ecd239b9-ae7f-58eb-82d0-467b9c19d0fc",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "quotation_item",
+          "ref_id": "c396be95-58dc-5a5c-a0fe-329669b91de4",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "sale",
+          "ref_id": "a9827fb5-5cda-4bac-b38e-02d1539d5662",
+          "relationship": "uses"
+        }
+      ]
+    },
+    {
+      "event_id": "ebdbe966-e519-4b4d-9ce9-0bd25fee8521",
+      "aggregate_type": "sale_draft",
+      "delivery_status": "not_required",
+      "declared_refs": [
+        {
+          "ref_type": "sale",
+          "ref_id": "33a14404-0a2b-4343-8548-7cde3602eb28",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "sale_item",
+          "ref_id": "60eedff3-180a-4d50-b302-0932e3f786cf",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "product",
+          "ref_id": "00000000-0000-4000-8000-000000000001",
+          "relationship": "uses"
+        },
+        {
+          "ref_type": "product_variant",
+          "ref_id": "00000000-0000-4000-8000-000000000002",
+          "relationship": "uses"
+        }
+      ]
+    },
+    {
+      "event_id": "ecf52c12-3caf-47b5-bd86-edb0542a3dae",
+      "aggregate_type": "sale_draft",
+      "delivery_status": "not_required",
+      "declared_refs": [
+        {
+          "ref_type": "sale",
+          "ref_id": "33a14404-0a2b-4343-8548-7cde3602eb28",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "sale_item",
+          "ref_id": "0b14046f-4817-434d-a5fe-f4693a77dbae",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "product",
+          "ref_id": "00000000-0000-4000-8000-000000000001",
+          "relationship": "uses"
+        },
+        {
+          "ref_type": "product_variant",
+          "ref_id": "00000000-0000-4000-8000-000000000003",
+          "relationship": "uses"
+        }
+      ]
+    },
+    {
+      "event_id": "3a2f4770-2b22-4cd5-b505-da39fa52cce6",
+      "aggregate_type": "sale_draft",
+      "delivery_status": "not_required",
+      "declared_refs": [
+        {
+          "ref_type": "sale",
+          "ref_id": "33a14404-0a2b-4343-8548-7cde3602eb28",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "sale_item",
+          "ref_id": "2db632c9-d8fd-432f-9c19-3bca91fa187e",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "product",
+          "ref_id": "00000000-0000-4000-8000-000000000007",
+          "relationship": "uses"
+        },
+        {
+          "ref_type": "product_variant",
+          "ref_id": "00000000-0000-4000-8000-000000000004",
+          "relationship": "uses"
+        },
+        {
+          "ref_type": "unit",
+          "ref_id": "10000000-0000-4000-8000-000000000003",
+          "relationship": "uses"
+        }
+      ]
+    },
+    {
+      "event_id": "bf46de4b-e0b9-4c4f-8e42-0102b5f9ec79",
+      "aggregate_type": "quotation",
+      "delivery_status": "not_required",
+      "declared_refs": [
+        {
+          "ref_type": "quotation",
+          "ref_id": "9d7c1994-1cf0-4a6c-a8fe-58060827fc42",
+          "relationship": "affects"
+        },
+        {
+          "ref_type": "sale",
+          "ref_id": "33a14404-0a2b-4343-8548-7cde3602eb28",
+          "relationship": "uses"
+        },
+        {
+          "ref_type": "event",
+          "ref_id": "ebdbe966-e519-4b4d-9ce9-0bd25fee8521",
+          "relationship": "uses"
+        },
+        {
+          "ref_type": "event",
+          "ref_id": "ecf52c12-3caf-47b5-bd86-edb0542a3dae",
+          "relationship": "uses"
+        },
+        {
+          "ref_type": "event",
+          "ref_id": "3a2f4770-2b22-4cd5-b505-da39fa52cce6",
+          "relationship": "uses"
+        }
+      ]
+    }
+  ]
+}

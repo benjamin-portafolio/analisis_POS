@@ -1,0 +1,51 @@
+{
+  "changed": [
+    "docs/architecture/offline_feature_flow.md",
+    "lib/application/commands/articulos/inventory_resource_resolver.dart",
+    "lib/application/commands/articulos/producto_command_service.dart",
+    "lib/application/sync/handlers/inventory_event_handler.dart",
+    "lib/application/sync/handlers/inventory_event_registry.dart",
+    "lib/application/sync/handlers/producto_event_handler.dart",
+    "lib/application/sync/local_event_store.dart",
+    "lib/application/sync/payloads/recurso_inventario_descartado_payload.dart",
+    "lib/application/sync/projections/variant_inventory_memory_store.dart",
+    "lib/application/sync/projections/variant_inventory_tracking_store.dart",
+    "lib/application/sync/remote_event_applier.dart",
+    "lib/application/sync/server_echo_acknowledger.dart",
+    "lib/core/di/application_dependencies.dart",
+    "lib/core/di/data_dependencies.dart",
+    "lib/data/local/drift/app_database.dart",
+    "lib/data/local/drift/daos/inventory_dao.dart",
+    "lib/data/local/drift/daos/producto_dao.dart",
+    "lib/data/local/drift/daos/variant_inventory_memory_dao.dart",
+    "lib/data/local/drift/drift_local_event_store.dart",
+    "lib/data/local/drift/drift_producto_projection_store.dart",
+    "lib/data/local/drift/drift_sync_persistence.dart",
+    "lib/data/local/drift/drift_variant_inventory_memory_store.dart",
+    "lib/data/local/drift/drift_variant_inventory_tracking_store.dart",
+    "test/application/import/articulo_import_batch_service_test.dart",
+    "test/application/sync/categoria_eliminada_remote_preparer_test.dart",
+    "test/application/sync/sync_push_service_test.dart",
+    "test/data/local/drift/product_inventory_tracking_local_event_store_test.dart",
+    "test/data/local/drift/producto_local_event_store_test.dart",
+    "test/presentation/pages/gestion_inventario/articulos/article_creation_listing_integration_test.dart",
+    "test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart",
+    "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"
+  ],
+  "new": [
+    "lib/application/commands/articulos/producto_inventory_update_result.dart",
+    "lib/application/sync/handlers/inventory_discard_event_handler.dart",
+    "lib/application/sync/inventory_discard_policy.dart",
+    "lib/application/sync/projections/variant_tracking_balance.dart",
+    "lib/application/sync/projections/variant_tracking_discard.dart",
+    "lib/application/sync/projections/variant_tracking_history.dart",
+    "lib/application/sync/projections/variant_tracking_resource.dart",
+    "lib/domain/inventario/inventory_consumption_configuration.dart",
+    "test/data/local/drift/variant_tracking_phase3_test.dart",
+    "test/integration/variant_tracking_server_test.dart",
+    "test/support/variant_tracking_harness.dart"
+  ],
+  "removed": [
+    "lib/application/commands/articulos/inventory_resource_memory.dart"
+  ]
+}

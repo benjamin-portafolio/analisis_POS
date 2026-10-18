@@ -1,0 +1,1109 @@
+{
+  "archivo": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /outputs/catalogo_1_2_2_20261015/catalogo_1_2_2_carga_masiva.csv",
+  "fichasPDF": 145,
+  "duplicadosEliminados": [
+    {
+      "referencia": "116",
+      "pagina": 4,
+      "primeraPagina": 2
+    },
+    {
+      "referencia": "453",
+      "pagina": 4,
+      "primeraPagina": 3
+    }
+  ],
+  "filasCsv": 155,
+  "articulos": 143,
+  "variantesPorReferencia": 23,
+  "preciosVentaVacios": 155,
+  "preciosCosteVacios": 155,
+  "codigosBarrasVacios": 155,
+  "referencias": [
+    {
+      "pagina": 2,
+      "referencia": "122",
+      "filaCsv": 2,
+      "nombre": "Espaldilla Chimex 3 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "104",
+      "filaCsv": 3,
+      "nombre": "Jamón cocido rebanado Viva 5 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "108",
+      "filaCsv": 4,
+      "nombre": "Jamón americano de cerdo Fud 5 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "116",
+      "filaCsv": 5,
+      "nombre": "Pechuga de pavo Virginia Fud 250 g",
+      "variante": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "117",
+      "filaCsv": 6,
+      "nombre": "Jamón de pierna York Fud 7.1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "425",
+      "filaCsv": 7,
+      "nombre": "Jamón Piernita Horneada Fud 2.6 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "6953",
+      "filaCsv": 8,
+      "nombre": "Longaniza y chorizo Maestro Choricero",
+      "variante": "Ref. proveedor 6953"
+    },
+    {
+      "pagina": 2,
+      "referencia": "6954",
+      "filaCsv": 9,
+      "nombre": "Longaniza y chorizo Maestro Choricero",
+      "variante": "Ref. proveedor 6954"
+    },
+    {
+      "pagina": 2,
+      "referencia": "138",
+      "filaCsv": 10,
+      "nombre": "Jamón de pierna Chimex 6.15 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "142",
+      "filaCsv": 11,
+      "nombre": "Salchicha Hot Dog de pavo Chimex 2.5 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "146",
+      "filaCsv": 12,
+      "nombre": "Jamón horneado de pavo y cerdo Viva 6 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "164",
+      "filaCsv": 13,
+      "nombre": "Jamón de pierna Fud 6 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "124",
+      "filaCsv": 14,
+      "nombre": "Jamón de pavo rebanado Fud 1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "453",
+      "filaCsv": 15,
+      "nombre": "Jamón de pierna horneada San Rafael 6 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "167",
+      "filaCsv": 16,
+      "nombre": "Jamón tradicional de pavo Chimex 3.5 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "209",
+      "filaCsv": 17,
+      "nombre": "Jamón de pierna Virginia Fud 3.95 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "215",
+      "filaCsv": 18,
+      "nombre": "Jamón Virginia de pavo Fud 6 x 290 g",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "1094",
+      "filaCsv": 19,
+      "nombre": "Jamón de pierna horneada San Rafael 2.6 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "360",
+      "filaCsv": 20,
+      "nombre": "Salchichas cocktail de pavo Fud 500 g",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "264",
+      "filaCsv": 21,
+      "nombre": "Jamón americano de pavo Fud 3.5 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "271",
+      "filaCsv": 22,
+      "nombre": "Chorizo cantimpalo Fud 1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "293",
+      "filaCsv": 23,
+      "nombre": "Pechuga de pavo San Rafael 3 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "294",
+      "filaCsv": 24,
+      "nombre": "Salchicha de pavo San Rafael 500 g",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "297",
+      "filaCsv": 25,
+      "nombre": "Salchicha de pavo San Rafael 2.9 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "2781",
+      "filaCsv": 26,
+      "nombre": "Salchichas de pavo Fud 2.7 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "306",
+      "filaCsv": 27,
+      "nombre": "Salchicha para Hot Dog Fud 3 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "890",
+      "filaCsv": 28,
+      "nombre": "Salchicha para Hot Dog Fud 1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "315",
+      "filaCsv": 29,
+      "nombre": "Salchicha Viena Viva 2.5 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "341",
+      "filaCsv": 30,
+      "nombre": "Salchicha de pavo Fud 500 g",
+      "variante": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "515",
+      "filaCsv": 31,
+      "nombre": "Salchicha para Hot Dog de pavo Iberomex 2.5 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "392",
+      "filaCsv": 32,
+      "nombre": "Salchicha para asar Chimex 400 g",
+      "variante": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "406",
+      "filaCsv": 33,
+      "nombre": "Pastel pimiento Fud 3.96 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "408",
+      "filaCsv": 34,
+      "nombre": "Jamón Virginia de pavo Fud 150 g",
+      "variante": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "415",
+      "filaCsv": 35,
+      "nombre": "Salchicha Viena Viva 3 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "474",
+      "filaCsv": 36,
+      "nombre": "Jamón Virginia de pavo y cerdo Fud 290 g",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "503",
+      "filaCsv": 37,
+      "nombre": "Mortadela Chimex 3.7 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "559",
+      "filaCsv": 38,
+      "nombre": "Jamón horneado Viva 800 g",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "697",
+      "filaCsv": 39,
+      "nombre": "Jamón de pierna rebanado Chimex 250 g",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "582",
+      "filaCsv": 40,
+      "nombre": "Jamón Virginia de pavo Fud 3.95 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "498",
+      "filaCsv": 41,
+      "nombre": "Jamón cocido de pavo y cerdo rebanado Chimex 900 g",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "763",
+      "filaCsv": 42,
+      "nombre": "Chorizo para asar Chimex 400 g",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "805",
+      "filaCsv": 43,
+      "nombre": "Tocino Fud 250 g",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "810",
+      "filaCsv": 44,
+      "nombre": "Chuleta ahumada rebanada Chimex 3 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "21",
+      "filaCsv": 45,
+      "nombre": "Jamón americano de pavo y cerdo Fud 170 g",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "889",
+      "filaCsv": 46,
+      "nombre": "Salchicha Turkey Line Fud 1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "902",
+      "filaCsv": 47,
+      "nombre": "Queso de puerco Fud 3.8 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "921",
+      "filaCsv": 48,
+      "nombre": "Jamón de pierna Real San Rafael 6.6 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "924",
+      "filaCsv": 49,
+      "nombre": "Jamón cocido rebanado Viva 800 g",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "965",
+      "filaCsv": 50,
+      "nombre": "Salchirrica de pavo Chimex",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "988",
+      "filaCsv": 51,
+      "nombre": "Multiempaque salchicha de pavo Fud 8 x 266 g",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "989",
+      "filaCsv": 52,
+      "nombre": "Multiempaque salchicha Viena Fud 8 x 266 g",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "992",
+      "filaCsv": 53,
+      "nombre": "Salchicha de pavo Chimex 400 g",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "1216",
+      "filaCsv": 54,
+      "nombre": "Chuleta ahumada de cerdo Chimex 580 g",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "1220",
+      "filaCsv": 55,
+      "nombre": "Queso de puerco rebanado Fud 800 g",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "307",
+      "filaCsv": 56,
+      "nombre": "Salchicha para asar Chimex 800 g",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "4453",
+      "filaCsv": 57,
+      "nombre": "Pizza pepperoni individual Fud 7 pulgadas",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "4458",
+      "filaCsv": 58,
+      "nombre": "Pizza hawaiana individual Fud 7 pulgadas",
+      "variante": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "4515",
+      "filaCsv": 59,
+      "nombre": "Pizza jamón pepperoni Fud",
+      "variante": "Ref. proveedor 4515"
+    },
+    {
+      "pagina": 6,
+      "referencia": "4525",
+      "filaCsv": 60,
+      "nombre": "Pizza jamón pepperoni Fud",
+      "variante": "Ref. proveedor 4525"
+    },
+    {
+      "pagina": 6,
+      "referencia": "4773",
+      "filaCsv": 61,
+      "nombre": "Fajitas Guten 350 g",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7026",
+      "filaCsv": 62,
+      "nombre": "Café Olé capuccino caramelo",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7001",
+      "filaCsv": 63,
+      "nombre": "Café Olé capuccino vainilla",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7002",
+      "filaCsv": 64,
+      "nombre": "Café Olé capuccino moka",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7003",
+      "filaCsv": 65,
+      "nombre": "Café Olé capuccino",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7012",
+      "filaCsv": 66,
+      "nombre": "Café Olé capuccino irlandés",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7019",
+      "filaCsv": 67,
+      "nombre": "Café Olé expresso",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "10536",
+      "filaCsv": 68,
+      "nombre": "Queso manchego Noche Buena 4 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "10674",
+      "filaCsv": 69,
+      "nombre": "Queso manchego importado Noche Buena 3 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "8467",
+      "filaCsv": 70,
+      "nombre": "Queso gouda La Villita 1.6 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "8002",
+      "filaCsv": 71,
+      "nombre": "Queso panela cremoso a granel La Villita",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "8004",
+      "filaCsv": 72,
+      "nombre": "Queso gouda a granel La Villita",
+      "variante": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "8313",
+      "filaCsv": 73,
+      "nombre": "Queso manchego rebanado La Villita 200 g",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8144",
+      "filaCsv": 74,
+      "nombre": "Queso canasto a granel La Villita",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8147",
+      "filaCsv": 75,
+      "nombre": "Queso americano La Villita 175 g",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8158",
+      "filaCsv": 76,
+      "nombre": "Queso doble crema La Villita 900 g",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8225",
+      "filaCsv": 77,
+      "nombre": "Margarina untable La Villita 190 g",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8216",
+      "filaCsv": 78,
+      "nombre": "Margarina sin sal La Villita 4 x 90 g",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8371",
+      "filaCsv": 79,
+      "nombre": "Queso panela Fud 200 g",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8372",
+      "filaCsv": 80,
+      "nombre": "Queso panela Fud 1.8 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8380",
+      "filaCsv": 81,
+      "nombre": "Queso americano Fud 180 g",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8381",
+      "filaCsv": 82,
+      "nombre": "Queso americano tipo manchego Fud 180 g",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8388",
+      "filaCsv": 83,
+      "nombre": "Rebanadas redondas de queso tipo manchego Fud 190 g",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8602",
+      "filaCsv": 84,
+      "nombre": "Queso crema Philadelphia barra 190 g",
+      "variante": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8628",
+      "filaCsv": 85,
+      "nombre": "Queso crema Philadelphia brick 90 g",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "8629",
+      "filaCsv": 86,
+      "nombre": "Rebanadas Philadelphia 190 g",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9001",
+      "filaCsv": 87,
+      "nombre": "Yoghurt batido natural Yoplait 145 g",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9002",
+      "filaCsv": 88,
+      "nombre": "Yoghurt batido natural Yoplait 1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9004",
+      "filaCsv": 89,
+      "nombre": "Yoghurt batido durazno Yoplait 145 g",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9008",
+      "filaCsv": 90,
+      "nombre": "Yoghurt batido fresa Yoplait 1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9009",
+      "filaCsv": 91,
+      "nombre": "Yoghurt batido durazno Yoplait 1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9012",
+      "filaCsv": 92,
+      "nombre": "Yoghurt batido manzana Yoplait 1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9014",
+      "filaCsv": 93,
+      "nombre": "Yoghurt batido frutas y cereales Yoplait 145 g",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9016",
+      "filaCsv": 94,
+      "nombre": "Yoghurt batido frutas y cereales Yoplait 1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9069",
+      "filaCsv": 95,
+      "nombre": "Yoghurt batido frutas y cereales Yoplait 442 g",
+      "variante": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9451",
+      "filaCsv": 96,
+      "nombre": "Yoghurt batido natural Yoplait 4 kg",
+      "variante": "Ref. proveedor 9451"
+    },
+    {
+      "pagina": 9,
+      "referencia": "9452",
+      "filaCsv": 97,
+      "nombre": "Yoghurt batido natural Yoplait 4 kg",
+      "variante": "Ref. proveedor 9452"
+    },
+    {
+      "pagina": 9,
+      "referencia": "9076",
+      "filaCsv": 98,
+      "nombre": "Yoghurt batido manzana Yoplait 125 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9085",
+      "filaCsv": 99,
+      "nombre": "Yoghurt batido natural con granola Yoplait 125 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9087",
+      "filaCsv": 100,
+      "nombre": "Yoghurt batido fresa Yoplait 145 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9095",
+      "filaCsv": 101,
+      "nombre": "Yoghurt batido fresa Yoplait 442 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9096",
+      "filaCsv": 102,
+      "nombre": "Yoghurt batido natural Yoplait 442 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9111",
+      "filaCsv": 103,
+      "nombre": "Yoghurt para beber piña coco Yoplait 330 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9112",
+      "filaCsv": 104,
+      "nombre": "Yoghurt para beber fresa Yoplait 330 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9122",
+      "filaCsv": 105,
+      "nombre": "Yoghurt bebible durazno Yoplait 220 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9123",
+      "filaCsv": 106,
+      "nombre": "Yoghurt bebible piña coco Yoplait 220 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9383",
+      "filaCsv": 107,
+      "nombre": "Yoghurt para beber licuado nuez granola Yoplait 330 g",
+      "variante": "Ref. proveedor 9383"
+    },
+    {
+      "pagina": 10,
+      "referencia": "9319",
+      "filaCsv": 108,
+      "nombre": "Yoghurt para beber licuado nuez granola Yoplait 330 g",
+      "variante": "Ref. proveedor 9319"
+    },
+    {
+      "pagina": 10,
+      "referencia": "9757",
+      "filaCsv": 109,
+      "nombre": "Yoghurt para beber fresa Yoplait 470 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9140",
+      "filaCsv": 110,
+      "nombre": "Yoghurt bebible fresa Yoplait 220 g",
+      "variante": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9160",
+      "filaCsv": 111,
+      "nombre": "Crema ácida Yoplait 200 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9161",
+      "filaCsv": 112,
+      "nombre": "Crema ácida Yoplait 440 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9187",
+      "filaCsv": 113,
+      "nombre": "Yoghurt bebible natural Yoplait 220 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9239",
+      "filaCsv": 114,
+      "nombre": "Yoghurt batido durazno Yoplait 442 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9256",
+      "filaCsv": 115,
+      "nombre": "Yoghurt batido Placer coco Yoplait 145 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9257",
+      "filaCsv": 116,
+      "nombre": "Yoghurt batido Placer Cookies & Cream Yoplait 145 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9258",
+      "filaCsv": 117,
+      "nombre": "Yoghurt batido Placer pay de fresa Yoplait 145 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9259",
+      "filaCsv": 118,
+      "nombre": "Yoghurt bebible Mini fresa Yoplait 100 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9260",
+      "filaCsv": 119,
+      "nombre": "Yoghurt batido Mini fresa Yoplait 90 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9278",
+      "filaCsv": 120,
+      "nombre": "Yoghurt batido Disfruta fresa Yoplait 442 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9284",
+      "filaCsv": 121,
+      "nombre": "Yoghurt batido griego moras Yoplait 145 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9285",
+      "filaCsv": 122,
+      "nombre": "Yoghurt batido griego fresa Yoplait 145 g",
+      "variante": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9286",
+      "filaCsv": 123,
+      "nombre": "Yoghurt batido griego natural Yoplait 145 g",
+      "variante": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9288",
+      "filaCsv": 124,
+      "nombre": "Yoghurt bebible griego fresa Yoplait 220 g",
+      "variante": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9298",
+      "filaCsv": 125,
+      "nombre": "Yoghurt batido Mini uva Yoplait 90 g",
+      "variante": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9422",
+      "filaCsv": 126,
+      "nombre": "Yoghurt bebible licuado manzana pera Yoplait 470 g",
+      "variante": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9442",
+      "filaCsv": 127,
+      "nombre": "Yoghurt bebible Disfruta fresa Yoplait 307 g",
+      "variante": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9443",
+      "filaCsv": 128,
+      "nombre": "Yoghurt bebible Disfruta mango Yoplait 307 g",
+      "variante": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9727",
+      "filaCsv": 129,
+      "nombre": "Yoghurt Disfruta licuado mora-nuez y manzana-guayaba Yoplait 307 g",
+      "variante": "Ref. proveedor 9727"
+    },
+    {
+      "pagina": 12,
+      "referencia": "9728",
+      "filaCsv": 130,
+      "nombre": "Yoghurt Disfruta licuado mora-nuez y manzana-guayaba Yoplait 307 g",
+      "variante": "Ref. proveedor 9728"
+    },
+    {
+      "pagina": 12,
+      "referencia": "9702",
+      "filaCsv": 131,
+      "nombre": "Flan horneado Yoplait 2 pack 220 g",
+      "variante": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9592",
+      "filaCsv": 132,
+      "nombre": "Yoplait Placer malteada",
+      "variante": "Ref. proveedor 9592"
+    },
+    {
+      "pagina": 12,
+      "referencia": "9593",
+      "filaCsv": 133,
+      "nombre": "Yoplait Placer malteada",
+      "variante": "Ref. proveedor 9593"
+    },
+    {
+      "pagina": 12,
+      "referencia": "9594",
+      "filaCsv": 134,
+      "nombre": "Yoplait Placer malteada",
+      "variante": "Ref. proveedor 9594"
+    },
+    {
+      "pagina": 12,
+      "referencia": "9961",
+      "filaCsv": 135,
+      "nombre": "Pelón Pelo Rico tamarindo 35 g",
+      "variante": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "430509",
+      "filaCsv": 136,
+      "nombre": "Pelón Peloneta tamarindo",
+      "variante": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "430546",
+      "filaCsv": 137,
+      "nombre": "Kisses leche bolsa 600 g",
+      "variante": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "430506",
+      "filaCsv": 138,
+      "nombre": "Hershey's barra 20 g 12 piezas",
+      "variante": "Ref. proveedor 430506"
+    },
+    {
+      "pagina": 12,
+      "referencia": "430508",
+      "filaCsv": 139,
+      "nombre": "Hershey's barra 20 g 12 piezas",
+      "variante": "Ref. proveedor 430508"
+    },
+    {
+      "pagina": 13,
+      "referencia": "3411",
+      "filaCsv": 140,
+      "nombre": "Tacos dorados de res El Cazo",
+      "variante": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "10748",
+      "filaCsv": 141,
+      "nombre": "Queso americano rebanado Franja 1.98 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "10878",
+      "filaCsv": 142,
+      "nombre": "Queso panela cremoso Franja 1 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "10889",
+      "filaCsv": 143,
+      "nombre": "Queso americano sandwichero Franja 1.8 kg",
+      "variante": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "9545",
+      "filaCsv": 144,
+      "nombre": "Yoplait Placer Crunch Cheesecake-Oreo 125 g",
+      "variante": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "430528",
+      "filaCsv": 145,
+      "nombre": "Hershey's miniatura 850 g 125 piezas",
+      "variante": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "9553",
+      "filaCsv": 146,
+      "nombre": "Yoghurt griego sin azúcar natural Yoplait",
+      "variante": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "9866",
+      "filaCsv": 147,
+      "nombre": "Yoghurt Doble Cero Yoplait",
+      "variante": "Ref. proveedor 9866"
+    },
+    {
+      "pagina": 13,
+      "referencia": "9867",
+      "filaCsv": 148,
+      "nombre": "Yoghurt Doble Cero Yoplait",
+      "variante": "Ref. proveedor 9867"
+    },
+    {
+      "pagina": 13,
+      "referencia": "9607",
+      "filaCsv": 149,
+      "nombre": "Yoghurt para beber fresa Kids Yoplait 220 g",
+      "variante": "Ref. proveedor 9607"
+    },
+    {
+      "pagina": 13,
+      "referencia": "9732",
+      "filaCsv": 150,
+      "nombre": "Yoghurt para beber fresa Kids Yoplait 220 g",
+      "variante": "Ref. proveedor 9732"
+    },
+    {
+      "pagina": 13,
+      "referencia": "9608",
+      "filaCsv": 151,
+      "nombre": "Yoghurt para beber Kids Yoplait 100 g",
+      "variante": "Ref. proveedor 9608"
+    },
+    {
+      "pagina": 13,
+      "referencia": "9815",
+      "filaCsv": 152,
+      "nombre": "Yoghurt para beber Kids Yoplait 100 g",
+      "variante": "Ref. proveedor 9815"
+    },
+    {
+      "pagina": 13,
+      "referencia": "8344",
+      "filaCsv": 153,
+      "nombre": "Dedo de queso mozzarella Fud 26 g",
+      "variante": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "7229",
+      "filaCsv": 154,
+      "nombre": "Rollito de jamón de pavo y mozzarella Fud 40 g",
+      "variante": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "9752",
+      "filaCsv": 155,
+      "nombre": "Yoghurt Cápsula fresa-plátano y natural Yoplait",
+      "variante": "Ref. proveedor 9752"
+    },
+    {
+      "pagina": 13,
+      "referencia": "9411",
+      "filaCsv": 156,
+      "nombre": "Yoghurt Cápsula fresa-plátano y natural Yoplait",
+      "variante": "Ref. proveedor 9411"
+    }
+  ]
+}

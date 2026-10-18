@@ -1,0 +1,28 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/repositories/producto_codigo_barras_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +6: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +7: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +8: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +9: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +11: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:00 +12: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:00 +13: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:00 +14: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:00 +15: /Users/benjamin/Projects/POS/pos_flutter/test/data/repositories/producto_codigo_barras_test.dart: varios: devuelve todos los activos de varios productos, ordenados
+00:00 +16: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: silencio sin callbacks vacíos: tres presentaciones y A → B → A
+00:00 +17: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: silencio sin callbacks vacíos: tres presentaciones y A → B → A
+00:00 +18: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: ambigüedad e inválidos no ejecutan; un error no repite la presentación
+00:00 +19: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: ambigüedad durante guardado observa presencia y muestra aviso al liberarse
+00:00 +20: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: un diálogo que cancela suspende cámara y no rearma al regresar
+00:01 +21: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: cambio de ruta y segundo plano preservan protección sin frames ocultos
+00:01 +22: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: cerrar y reabrir con la misma compuerta no acredita retirada
+00:01 +23: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: cerrar espera guardado y descarta callbacks antiguos
+00:01 +24: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: cierre con permiso pendiente libera cámara al acabar el inicio
+00:01 +25: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: permiso denegado permite cerrar sin aceptar lecturas
+00:01 +26: All tests passed!

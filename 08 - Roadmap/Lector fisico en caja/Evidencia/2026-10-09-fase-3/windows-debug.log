@@ -1,0 +1,3 @@
+PENDIENTE — comando no ejecutado: flutter build windows --debug
+Plataforma accesible: macOS arm64. El usuario confirmó: «No hay equipo Windows disponible».
+No se acredita compilación ni ejecución nativa Windows con los overrides de plataforma en widget tests.

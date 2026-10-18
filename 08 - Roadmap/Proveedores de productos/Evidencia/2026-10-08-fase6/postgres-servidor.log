@@ -1,0 +1,1278 @@
+2026-10-08 18:36:25.649 CST [15434] LOG:  starting PostgreSQL 18.4 (Postgres.app) on aarch64-apple-darwin23.6.0, compiled by Apple clang version 15.0.0 (clang-1500.3.9.4), 64-bit
+2026-10-08 18:36:25.649 CST [15434] LOG:  listening on IPv4 address "127.0.0.1", port 60832
+2026-10-08 18:36:25.649 CST [15434] LOG:  listening on Unix socket "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-suppliers-phase6-d8i84n8g/.s.PGSQL.60832"
+2026-10-08 18:36:25.653 CST [15440] LOG:  database system was shut down at 2026-10-08 18:36:25 CST
+2026-10-08 18:36:25.654 CST [15434] LOG:  database system is ready to accept connections
+2026-10-08 18:41:25.657 CST [15438] LOG:  checkpoint starting: time
+2026-10-08 18:44:57.435 CST [15438] LOG:  checkpoint complete: wrote 998 buffers (6.1%), wrote 3 SLRU buffers; 1 WAL file(s) added, 0 removed, 0 recycled; write=211.749 s, sync=0.007 s, total=211.784 s; sync files=312, longest=0.001 s, average=0.001 s; distance=4768 kB, estimate=4768 kB; lsn=0/1C2F160, redo lsn=0/1C2F0D0
+2026-10-08 18:51:34.266 CST [20067] ERROR:  duplicate key value violates unique constraint "idx_events_device_local_sequence_unique"
+2026-10-08 18:51:34.266 CST [20067] DETAIL:  Key (device_id, local_sequence)=(tablet, 1) already exists.
+2026-10-08 18:51:34.266 CST [20067] STATEMENT:  INSERT INTO "suppliers_it_19990_1791507093870"."events"("event_id", "aggregate_type", "aggregate_id", "event_type", "device_id", "user_id", "local_sequence", "base_server_sequence", "base_version", "created_at_local", "created_at_server", "payload", "sync_status", "rejection_reason", "updated_at_server") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, DEFAULT, $11, $12, $13, DEFAULT) RETURNING "server_sequence", "created_at_server", "sync_status", "updated_at_server"
+2026-10-08 18:51:34.354 CST [20055] ERROR:  null value in column "last_event_id" of relation "inventory_balances" violates not-null constraint
+2026-10-08 18:51:34.354 CST [20055] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000006, 2000, 2000, 1, null, null).
+2026-10-08 18:51:34.354 CST [20055] STATEMENT:  INSERT INTO "suppliers_it_19990_1791507093870"."inventory_balances"("inventory_item_id", "quantity_on_hand_atomic", "quantity_available_atomic", "version", "last_event_id", "last_server_sequence") VALUES ($1, $2, $3, DEFAULT, DEFAULT, DEFAULT) RETURNING "version"
+2026-10-08 18:51:34.853 CST [20075] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:51:34.853 CST [20075] DETAIL:  Failing row contains (9e9d6740-0e63-4165-adcc-8f363d73d7fa, , null, null, t, 1, null, null, null, 2026-10-08 18:51:34.854-06, 2026-10-08 18:51:34.854-06).
+2026-10-08 18:51:34.853 CST [20075] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:51:34.854 CST [20075] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:51:34.854 CST [20075] DETAIL:  Failing row contains (f90d67a5-a8ce-4fed-8aff-ab44bc63bfd2,  , null, null, t, 1, null, null, null, 2026-10-08 18:51:34.854-06, 2026-10-08 18:51:34.854-06).
+2026-10-08 18:51:34.854 CST [20075] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:51:34.854 CST [20075] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:51:34.854 CST [20075] DETAIL:  Failing row contains (90f95d18-3cfc-4a4a-b9c9-aaf7eddc8f4a, 
+		, null, null, t, 1, null, null, null, 2026-10-08 18:51:34.854-06, 2026-10-08 18:51:34.854-06).
+2026-10-08 18:51:34.854 CST [20075] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:51:34.857 CST [20075] ERROR:  duplicate key value violates unique constraint "pk_variant_suppliers"
+2026-10-08 18:51:34.857 CST [20075] DETAIL:  Key (variant_id, supplier_id)=(e92bad0e-56b3-47fe-80d3-7833e23aba04, c774b9f4-1c49-4693-bc22-d537fef3de4f) already exists.
+2026-10-08 18:51:34.857 CST [20075] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 42, 10)
+2026-10-08 18:51:34.857 CST [20075] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:51:34.857 CST [20075] DETAIL:  Failing row contains (e92bad0e-56b3-47fe-80d3-7833e23aba04, c774b9f4-1c49-4693-bc22-d537fef3de4f, -1, 1).
+2026-10-08 18:51:34.857 CST [20075] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:51:34.857 CST [20075] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:51:34.857 CST [20075] DETAIL:  Failing row contains (e92bad0e-56b3-47fe-80d3-7833e23aba04, c774b9f4-1c49-4693-bc22-d537fef3de4f, 9007199254740992, 1).
+2026-10-08 18:51:34.857 CST [20075] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:51:34.858 CST [20075] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:51:34.858 CST [20075] DETAIL:  Failing row contains (e92bad0e-56b3-47fe-80d3-7833e23aba04, c774b9f4-1c49-4693-bc22-d537fef3de4f, 0, 0).
+2026-10-08 18:51:34.858 CST [20075] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:51:34.858 CST [20075] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:51:34.858 CST [20075] DETAIL:  Failing row contains (e92bad0e-56b3-47fe-80d3-7833e23aba04, c774b9f4-1c49-4693-bc22-d537fef3de4f, 0, 9007199254740992).
+2026-10-08 18:51:34.858 CST [20075] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:51:34.858 CST [20075] ERROR:  invalid input syntax for type bigint: "1.5"
+2026-10-08 18:51:34.858 CST [20075] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-10-08 18:51:34.858 CST [20075] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1
+2026-10-08 18:51:34.859 CST [20075] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_variant"
+2026-10-08 18:51:34.859 CST [20075] DETAIL:  Key (variant_id)=(92ed1a79-22fb-4d84-8ccc-326ceec9e2b0) is not present in table "product_variants".
+2026-10-08 18:51:34.859 CST [20075] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:51:34.859 CST [20075] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_supplier"
+2026-10-08 18:51:34.859 CST [20075] DETAIL:  Key (supplier_id)=(432ad0e8-da2d-427a-be43-143ea0bd9b15) is not present in table "suppliers".
+2026-10-08 18:51:34.859 CST [20075] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:51:34.859 CST [20075] ERROR:  update or delete on table "suppliers" violates RESTRICT setting of foreign key constraint "fk_variant_suppliers_supplier" on table "variant_suppliers"
+2026-10-08 18:51:34.859 CST [20075] DETAIL:  Key (supplier_id)=(c774b9f4-1c49-4693-bc22-d537fef3de4f) is referenced from table "variant_suppliers".
+2026-10-08 18:51:34.859 CST [20075] STATEMENT:  DELETE FROM suppliers WHERE supplier_id = $1
+2026-10-08 18:53:13.050 CST [21004] ERROR:  duplicate key value violates unique constraint "idx_events_device_local_sequence_unique"
+2026-10-08 18:53:13.050 CST [21004] DETAIL:  Key (device_id, local_sequence)=(tablet, 1) already exists.
+2026-10-08 18:53:13.050 CST [21004] STATEMENT:  INSERT INTO "suppliers_it_20946_1791507192583"."events"("event_id", "aggregate_type", "aggregate_id", "event_type", "device_id", "user_id", "local_sequence", "base_server_sequence", "base_version", "created_at_local", "created_at_server", "payload", "sync_status", "rejection_reason", "updated_at_server") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, DEFAULT, $11, $12, $13, DEFAULT) RETURNING "server_sequence", "created_at_server", "sync_status", "updated_at_server"
+2026-10-08 18:53:13.697 CST [21021] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:53:13.697 CST [21021] DETAIL:  Failing row contains (77721f01-5c6e-47da-a68a-f5bb308f617d, , null, null, t, 1, null, null, null, 2026-10-08 18:53:13.698-06, 2026-10-08 18:53:13.698-06).
+2026-10-08 18:53:13.697 CST [21021] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:53:13.698 CST [21021] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:53:13.698 CST [21021] DETAIL:  Failing row contains (8a2c3d60-0774-4d54-985b-e1b445d2ff44,  , null, null, t, 1, null, null, null, 2026-10-08 18:53:13.698-06, 2026-10-08 18:53:13.698-06).
+2026-10-08 18:53:13.698 CST [21021] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:53:13.698 CST [21021] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:53:13.698 CST [21021] DETAIL:  Failing row contains (bc2fc927-430d-48a7-be8f-d1fa53627797, 
+		, null, null, t, 1, null, null, null, 2026-10-08 18:53:13.698-06, 2026-10-08 18:53:13.698-06).
+2026-10-08 18:53:13.698 CST [21021] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:53:13.701 CST [21021] ERROR:  duplicate key value violates unique constraint "pk_variant_suppliers"
+2026-10-08 18:53:13.701 CST [21021] DETAIL:  Key (variant_id, supplier_id)=(a16dafea-5194-42d8-bd16-e9165bc63748, 0690e4e7-407d-47be-bfac-4d3fc2206296) already exists.
+2026-10-08 18:53:13.701 CST [21021] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 42, 10)
+2026-10-08 18:53:13.701 CST [21021] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:53:13.701 CST [21021] DETAIL:  Failing row contains (a16dafea-5194-42d8-bd16-e9165bc63748, 0690e4e7-407d-47be-bfac-4d3fc2206296, -1, 1).
+2026-10-08 18:53:13.701 CST [21021] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:53:13.701 CST [21021] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:53:13.701 CST [21021] DETAIL:  Failing row contains (a16dafea-5194-42d8-bd16-e9165bc63748, 0690e4e7-407d-47be-bfac-4d3fc2206296, 9007199254740992, 1).
+2026-10-08 18:53:13.701 CST [21021] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:53:13.701 CST [21021] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:53:13.701 CST [21021] DETAIL:  Failing row contains (a16dafea-5194-42d8-bd16-e9165bc63748, 0690e4e7-407d-47be-bfac-4d3fc2206296, 0, 0).
+2026-10-08 18:53:13.701 CST [21021] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:53:13.702 CST [21021] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:53:13.702 CST [21021] DETAIL:  Failing row contains (a16dafea-5194-42d8-bd16-e9165bc63748, 0690e4e7-407d-47be-bfac-4d3fc2206296, 0, 9007199254740992).
+2026-10-08 18:53:13.702 CST [21021] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:53:13.702 CST [21021] ERROR:  invalid input syntax for type bigint: "1.5"
+2026-10-08 18:53:13.702 CST [21021] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-10-08 18:53:13.702 CST [21021] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1
+2026-10-08 18:53:13.703 CST [21021] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_variant"
+2026-10-08 18:53:13.703 CST [21021] DETAIL:  Key (variant_id)=(2748b166-69c1-4126-bec0-ac22c5bc3064) is not present in table "product_variants".
+2026-10-08 18:53:13.703 CST [21021] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:53:13.703 CST [21021] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_supplier"
+2026-10-08 18:53:13.703 CST [21021] DETAIL:  Key (supplier_id)=(17696282-b84d-4485-bf19-a56d622d1ce8) is not present in table "suppliers".
+2026-10-08 18:53:13.703 CST [21021] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:53:13.703 CST [21021] ERROR:  update or delete on table "suppliers" violates RESTRICT setting of foreign key constraint "fk_variant_suppliers_supplier" on table "variant_suppliers"
+2026-10-08 18:53:13.703 CST [21021] DETAIL:  Key (supplier_id)=(0690e4e7-407d-47be-bfac-4d3fc2206296) is referenced from table "variant_suppliers".
+2026-10-08 18:53:13.703 CST [21021] STATEMENT:  DELETE FROM suppliers WHERE supplier_id = $1
+2026-10-08 18:53:55.510 CST [21338] ERROR:  duplicate key value violates unique constraint "PK_61883ae069a9a2c228e3ecb0b6d"
+2026-10-08 18:53:55.510 CST [21338] DETAIL:  Key (id)=(33333333-3333-4333-8333-333333333333) already exists.
+2026-10-08 18:53:55.510 CST [21338] STATEMENT:  INSERT INTO "financial_it_21271_1791507235406"."financial_entries"("active", "version", "created_event_id", "last_event_id", "last_server_sequence", "created_at_server", "updated_at_server", "id", "category_id", "category_name_snapshot", "direction", "nature", "amount_minor", "currency", "method", "occurred_at_ms", "notes", "reference") VALUES ($1, $2, $3, $4, $5, DEFAULT, DEFAULT, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "active", "version", "created_at_server", "updated_at_server"
+2026-10-08 18:53:55.763 CST [21352] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "product_variants_inventory_item_id_fkey" on table "product_variants"
+2026-10-08 18:53:55.763 CST [21352] DETAIL:  Key (inventory_item_id)=(a3000000-0000-4000-8000-000000000001) is referenced from table "product_variants".
+2026-10-08 18:53:55.763 CST [21352] STATEMENT:  DELETE FROM inventory_items WHERE inventory_item_id = 'a3000000-0000-4000-8000-000000000001'
+2026-10-08 18:53:55.764 CST [21352] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "product_variants_inventory_item_id_fkey" on table "product_variants"
+2026-10-08 18:53:55.764 CST [21352] DETAIL:  Key (inventory_item_id)=(a3000000-0000-4000-8000-000000000001) is referenced from table "product_variants".
+2026-10-08 18:53:55.764 CST [21352] STATEMENT:  DELETE FROM inventory_items WHERE inventory_item_id = 'a3000000-0000-4000-8000-000000000001'
+2026-10-08 18:53:56.472 CST [21359] ERROR:  forced inventory movement failure
+2026-10-08 18:53:56.472 CST [21359] CONTEXT:  PL/pgSQL function inventory_it_21271_1791507236335.fail_inventory_movement() line 3 at RAISE
+2026-10-08 18:53:56.472 CST [21359] STATEMENT:  INSERT INTO "inventory_it_21271_1791507236335"."inventory_movements"("movement_id", "inventory_item_id", "sale_item_id", "event_id", "reversal_of_movement_id", "movement_type", "quantity_delta_atomic", "total_cost_minor", "reason", "created_at_local", "server_sequence") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2026-10-08 18:53:56.561 CST [21361] ERROR:  update or delete on table "categories" violates RESTRICT setting of foreign key constraint "FK_9a5f6868c96e0069e699f33e124" on table "products"
+2026-10-08 18:53:56.561 CST [21361] DETAIL:  Key (category_id)=(b2695be7-f688-4c10-8caa-004d2c64f8ff) is referenced from table "products".
+2026-10-08 18:53:56.561 CST [21361] STATEMENT:  DELETE FROM "categoria_delete_it_21271_1791507236536"."categories" WHERE "category_id" = $1
+2026-10-08 18:53:56.593 CST [21361] ERROR:  forced category compaction failure
+2026-10-08 18:53:56.593 CST [21361] CONTEXT:  PL/pgSQL function categoria_delete_it_21271_1791507236536.fail_category_compaction() line 3 at RAISE
+2026-10-08 18:53:56.593 CST [21361] STATEMENT:  UPDATE "categoria_delete_it_21271_1791507236536"."categories" SET "version" = $1, "last_event_id" = $2, "last_server_sequence" = $3, "sort_order" = $4, "updated_at_server" = CURRENT_TIMESTAMP WHERE "category_id" = $5 RETURNING "updated_at_server"
+2026-10-08 18:53:56.780 CST [21367] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_manual_reason"
+2026-10-08 18:53:56.780 CST [21367] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000003, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000003, null, manual_adjustment, -1, null, null, 2026-10-08 18:53:56.781-06, null).
+2026-10-08 18:53:56.780 CST [21367] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_21271_1791507236769"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000003',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000003',
+	          'manual_adjustment', -1, NULL, now()
+	        )
+	      
+2026-10-08 18:53:56.794 CST [21367] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_positive_entries"
+2026-10-08 18:53:56.794 CST [21367] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000004, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000004, null, stock_receipt, -1, null, null, 2026-10-08 18:53:56.795-06, null).
+2026-10-08 18:53:56.794 CST [21367] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_21271_1791507236769"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000004',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000004',
+	          'stock_receipt', -1, NULL, now()
+	        )
+	      
+2026-10-08 18:53:56.795 CST [21367] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_reason_shape"
+2026-10-08 18:53:56.795 CST [21367] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000005, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000005, null, stock_receipt, 1, null,  Compra , 2026-10-08 18:53:56.795-06, null).
+2026-10-08 18:53:56.795 CST [21367] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_21271_1791507236769"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000005',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000005',
+	          'stock_receipt', 1, ' Compra ', now()
+	        )
+	      
+2026-10-08 18:53:56.833 CST [21368] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:53:56.833 CST [21368] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','bad','operating')
+2026-10-08 18:53:56.846 CST [21368] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:53:56.846 CST [21368] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','in','otra')
+2026-10-08 18:53:56.846 CST [21368] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:53:56.846 CST [21368] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','in','asset_purchase')
+2026-10-08 18:53:56.846 CST [21368] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:53:56.846 CST [21368] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a',repeat('x',101),'in','operating')
+2026-10-08 18:53:56.847 CST [21368] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:53:56.847 CST [21368] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',0,'MXN','cash',1)
+2026-10-08 18:53:56.847 CST [21368] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:53:56.847 CST [21368] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'USD','cash',1)
+2026-10-08 18:53:56.847 CST [21368] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:53:56.847 CST [21368] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'MXN','debito',1)
+2026-10-08 18:53:56.848 CST [21368] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:53:56.848 CST [21368] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'MXN','cash',0)
+2026-10-08 18:53:56.848 CST [21368] ERROR:  invalid input syntax for type uuid: "b" at character 155
+2026-10-08 18:53:56.848 CST [21368] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms,notes) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','in','operating',50000,'MXN','cash',1,repeat('x',501))
+2026-10-08 18:53:56.848 CST [21368] ERROR:  update or delete on table "financial_categories" violates RESTRICT setting of foreign key constraint "financial_entries_category_id_fkey" on table "financial_entries"
+2026-10-08 18:53:56.848 CST [21368] DETAIL:  Key (id)=(11111111-1111-4111-8111-111111111111) is referenced from table "financial_entries".
+2026-10-08 18:53:56.848 CST [21368] STATEMENT:  DELETE FROM financial_categories WHERE id = $1
+2026-10-08 18:53:56.883 CST [21370] ERROR:  duplicate key value violates unique constraint "pk_recipe_components"
+2026-10-08 18:53:56.883 CST [21370] DETAIL:  Key (variant_id, inventory_item_id)=(00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010) already exists.
+2026-10-08 18:53:56.883 CST [21370] STATEMENT:  
+	        INSERT INTO "recipe_components_it_21271_1791507236872".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          1
+	        )
+	      
+2026-10-08 18:53:56.884 CST [21370] ERROR:  new row for relation "recipe_components" violates check constraint "ck_recipe_components_quantity_atomic"
+2026-10-08 18:53:56.884 CST [21370] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010, 0).
+2026-10-08 18:53:56.884 CST [21370] STATEMENT:  
+	        INSERT INTO "recipe_components_it_21271_1791507236872".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          0
+	        )
+	      
+2026-10-08 18:53:56.884 CST [21370] ERROR:  new row for relation "recipe_components" violates check constraint "ck_recipe_components_quantity_atomic"
+2026-10-08 18:53:56.884 CST [21370] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010, 9007199254740992).
+2026-10-08 18:53:56.884 CST [21370] STATEMENT:  
+	        INSERT INTO "recipe_components_it_21271_1791507236872".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          9007199254740992
+	        )
+	      
+2026-10-08 18:53:56.884 CST [21370] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "fk_recipe_components_inventory_item" on table "recipe_components"
+2026-10-08 18:53:56.884 CST [21370] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) is referenced from table "recipe_components".
+2026-10-08 18:53:56.884 CST [21370] STATEMENT:  
+	        DELETE FROM "recipe_components_it_21271_1791507236872".inventory_items
+	        WHERE inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	      
+2026-10-08 18:53:56.917 CST [21372] ERROR:  new row for relation "product_variants" violates check constraint "ck_product_variants_barcode_digits"
+2026-10-08 18:53:56.917 CST [21372] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000003, 00000000-0000-4000-8000-000000000010, null, null, 1200, null, 2, 12-345).
+2026-10-08 18:53:56.917 CST [21372] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, barcode, sale_price_minor, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000003',
+	          '00000000-0000-4000-8000-000000000010', '12-345', 1200, 2
+	        )
+	      
+2026-10-08 18:53:56.953 CST [21374] ERROR:  new row for relation "product_variants" violates check constraint "ck_product_variants_standard_cost_non_negative"
+2026-10-08 18:53:56.953 CST [21374] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000002, 00000000-0000-4000-8000-000000000010, 1200, f, 1, Grande, grande, -1).
+2026-10-08 18:53:56.953 CST [21374] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, name, name_key, sale_price_minor,
+	          standard_cost_minor, is_default, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000002',
+	          '00000000-0000-4000-8000-000000000010', 'Grande', 'grande',
+	          1200, -1, false, 1
+	        )
+	      
+2026-10-08 18:53:56.955 CST [21374] ERROR:  duplicate key value violates unique constraint "ux_product_variants_product_name_key"
+2026-10-08 18:53:56.955 CST [21374] DETAIL:  Key (product_id, name_key)=(00000000-0000-4000-8000-000000000010, grande) already exists.
+2026-10-08 18:53:56.955 CST [21374] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, name, name_key, sale_price_minor,
+	          is_default, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000004',
+	          '00000000-0000-4000-8000-000000000010', 'GRANDE', 'grande',
+	          1300, false, 2
+	        )
+	      
+2026-10-08 18:53:57.018 CST [21378] ERROR:  duplicate key value violates unique constraint "ux_product_variants_inventory_item"
+2026-10-08 18:53:57.018 CST [21378] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) already exists.
+2026-10-08 18:53:57.018 CST [21378] STATEMENT:  
+	          UPDATE product_variants
+	          SET inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	          WHERE variant_id = '00000000-0000-4000-8000-000000000002'
+	        
+2026-10-08 18:53:57.019 CST [21378] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "fk_product_variants_inventory_item" on table "product_variants"
+2026-10-08 18:53:57.019 CST [21378] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) is referenced from table "product_variants".
+2026-10-08 18:53:57.019 CST [21378] STATEMENT:  
+	          DELETE FROM inventory_items
+	          WHERE inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	        
+2026-10-08 18:53:57.145 CST [21384] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:53:57.145 CST [21384] DETAIL:  Failing row contains (2, 2, transfer, MXN, 100, 200, 100, BANK).
+2026-10-08 18:53:57.145 CST [21384] STATEMENT:  UPDATE sale_payments SET received_minor=200,change_minor=100 WHERE payment_id=2
+2026-10-08 18:53:57.156 CST [21384] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:53:57.156 CST [21384] DETAIL:  Failing row contains (2, 2, credit, MXN, 100, 100, 0, BANK).
+2026-10-08 18:53:57.156 CST [21384] STATEMENT:  UPDATE sale_payments SET method='credit' WHERE payment_id=2
+2026-10-08 18:53:57.157 CST [21384] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:53:57.157 CST [21384] DETAIL:  Failing row contains (2, 2, transfer, USD, 100, 100, 0, BANK).
+2026-10-08 18:53:57.157 CST [21384] STATEMENT:  UPDATE sale_payments SET currency='USD' WHERE payment_id=2
+2026-10-08 18:53:57.157 CST [21384] ERROR:  value too long for type character varying(500)
+2026-10-08 18:53:57.157 CST [21384] STATEMENT:  UPDATE sale_payments SET reference=repeat('x',501) WHERE payment_id=2
+2026-10-08 18:53:57.157 CST [21384] ERROR:  duplicate key value violates unique constraint "sale_payments_sale_id_key"
+2026-10-08 18:53:57.157 CST [21384] DETAIL:  Key (sale_id)=(1) already exists.
+2026-10-08 18:53:57.157 CST [21384] STATEMENT:  UPDATE sale_payments SET sale_id=1 WHERE payment_id=2
+2026-10-08 18:53:57.202 CST [21385] ERROR:  duplicate key value violates unique constraint "ux_product_variants_product_name_key"
+2026-10-08 18:53:57.202 CST [21385] DETAIL:  Key (product_id, name_key)=(product, grande) already exists.
+2026-10-08 18:53:57.202 CST [21385] STATEMENT:  INSERT INTO product_variants VALUES ('duplicate', 'product', 'grande', 1, true)
+2026-10-08 18:53:57.690 CST [21391] ERROR:  duplicate key value violates unique constraint "idx_events_device_local_sequence_unique"
+2026-10-08 18:53:57.690 CST [21391] DETAIL:  Key (device_id, local_sequence)=(tablet, 1) already exists.
+2026-10-08 18:53:57.690 CST [21391] STATEMENT:  INSERT INTO "suppliers_it_21271_1791507237324"."events"("event_id", "aggregate_type", "aggregate_id", "event_type", "device_id", "user_id", "local_sequence", "base_server_sequence", "base_version", "created_at_local", "created_at_server", "payload", "sync_status", "rejection_reason", "updated_at_server") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, DEFAULT, $11, $12, $13, DEFAULT) RETURNING "server_sequence", "created_at_server", "sync_status", "updated_at_server"
+2026-10-08 18:53:58.955 CST [21404] ERROR:  duplicate key value violates unique constraint "PK_77715616fea2205acad98cca425"
+2026-10-08 18:53:58.955 CST [21404] DETAIL:  Key (payment_id)=(f293b974-fe53-48fa-8091-c93cbe21325b) already exists.
+2026-10-08 18:53:58.955 CST [21404] STATEMENT:  INSERT INTO "cash_it_21271_1791507238320"."sale_payments"("active", "version", "created_event_id", "last_event_id", "last_server_sequence", "created_at_server", "updated_at_server", "payment_id", "sale_id", "method", "currency", "reference", "amount_minor", "received_minor", "change_minor") VALUES ($1, $2, $3, $4, $5, DEFAULT, DEFAULT, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "active", "version", "created_at_server", "updated_at_server", "method"
+2026-10-08 18:53:59.151 CST [21414] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:53:59.151 CST [21414] DETAIL:  Failing row contains (5ecf63b0-3920-4877-8c04-87e1a6b52bdd, , null, null, t, 1, null, null, null, 2026-10-08 18:53:59.151-06, 2026-10-08 18:53:59.151-06).
+2026-10-08 18:53:59.151 CST [21414] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:53:59.151 CST [21414] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:53:59.151 CST [21414] DETAIL:  Failing row contains (89ed0c28-67da-48d4-a2c2-0335ca5d6074,  , null, null, t, 1, null, null, null, 2026-10-08 18:53:59.151-06, 2026-10-08 18:53:59.151-06).
+2026-10-08 18:53:59.151 CST [21414] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:53:59.151 CST [21414] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:53:59.151 CST [21414] DETAIL:  Failing row contains (d7daef82-19f9-468c-9ca1-5d0869d079aa, 
+		, null, null, t, 1, null, null, null, 2026-10-08 18:53:59.152-06, 2026-10-08 18:53:59.152-06).
+2026-10-08 18:53:59.151 CST [21414] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:53:59.154 CST [21414] ERROR:  duplicate key value violates unique constraint "pk_variant_suppliers"
+2026-10-08 18:53:59.154 CST [21414] DETAIL:  Key (variant_id, supplier_id)=(b4581507-f023-416d-8c3a-d998092ba560, 0e2b624e-b6c7-4737-a6a2-d3755acb8d3a) already exists.
+2026-10-08 18:53:59.154 CST [21414] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 42, 10)
+2026-10-08 18:53:59.154 CST [21414] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:53:59.154 CST [21414] DETAIL:  Failing row contains (b4581507-f023-416d-8c3a-d998092ba560, 0e2b624e-b6c7-4737-a6a2-d3755acb8d3a, -1, 1).
+2026-10-08 18:53:59.154 CST [21414] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:53:59.154 CST [21414] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:53:59.154 CST [21414] DETAIL:  Failing row contains (b4581507-f023-416d-8c3a-d998092ba560, 0e2b624e-b6c7-4737-a6a2-d3755acb8d3a, 9007199254740992, 1).
+2026-10-08 18:53:59.154 CST [21414] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:53:59.155 CST [21414] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:53:59.155 CST [21414] DETAIL:  Failing row contains (b4581507-f023-416d-8c3a-d998092ba560, 0e2b624e-b6c7-4737-a6a2-d3755acb8d3a, 0, 0).
+2026-10-08 18:53:59.155 CST [21414] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:53:59.155 CST [21414] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:53:59.155 CST [21414] DETAIL:  Failing row contains (b4581507-f023-416d-8c3a-d998092ba560, 0e2b624e-b6c7-4737-a6a2-d3755acb8d3a, 0, 9007199254740992).
+2026-10-08 18:53:59.155 CST [21414] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:53:59.155 CST [21414] ERROR:  invalid input syntax for type bigint: "1.5"
+2026-10-08 18:53:59.155 CST [21414] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-10-08 18:53:59.155 CST [21414] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1
+2026-10-08 18:53:59.155 CST [21414] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_variant"
+2026-10-08 18:53:59.155 CST [21414] DETAIL:  Key (variant_id)=(a41e8fec-6be7-4f63-9b7d-a55a55677ce9) is not present in table "product_variants".
+2026-10-08 18:53:59.155 CST [21414] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:53:59.156 CST [21414] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_supplier"
+2026-10-08 18:53:59.156 CST [21414] DETAIL:  Key (supplier_id)=(a10ac030-6ff7-4041-8515-5876812878ff) is not present in table "suppliers".
+2026-10-08 18:53:59.156 CST [21414] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:53:59.156 CST [21414] ERROR:  update or delete on table "suppliers" violates RESTRICT setting of foreign key constraint "fk_variant_suppliers_supplier" on table "variant_suppliers"
+2026-10-08 18:53:59.156 CST [21414] DETAIL:  Key (supplier_id)=(0e2b624e-b6c7-4737-a6a2-d3755acb8d3a) is referenced from table "variant_suppliers".
+2026-10-08 18:53:59.156 CST [21414] STATEMENT:  DELETE FROM suppliers WHERE supplier_id = $1
+2026-10-08 18:55:15.044 CST [21956] ERROR:  duplicate key value violates unique constraint "idx_events_device_local_sequence_unique"
+2026-10-08 18:55:15.044 CST [21956] DETAIL:  Key (device_id, local_sequence)=(tablet, 1) already exists.
+2026-10-08 18:55:15.044 CST [21956] STATEMENT:  INSERT INTO "suppliers_it_21840_1791507314676"."events"("event_id", "aggregate_type", "aggregate_id", "event_type", "device_id", "user_id", "local_sequence", "base_server_sequence", "base_version", "created_at_local", "created_at_server", "payload", "sync_status", "rejection_reason", "updated_at_server") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, DEFAULT, $11, $12, $13, DEFAULT) RETURNING "server_sequence", "created_at_server", "sync_status", "updated_at_server"
+2026-10-08 18:55:16.193 CST [21969] ERROR:  duplicate key value violates unique constraint "PK_77715616fea2205acad98cca425"
+2026-10-08 18:55:16.193 CST [21969] DETAIL:  Key (payment_id)=(e660a69e-828b-45a3-82ee-e957200a4905) already exists.
+2026-10-08 18:55:16.193 CST [21969] STATEMENT:  INSERT INTO "cash_it_21840_1791507315602"."sale_payments"("active", "version", "created_event_id", "last_event_id", "last_server_sequence", "created_at_server", "updated_at_server", "payment_id", "sale_id", "method", "currency", "reference", "amount_minor", "received_minor", "change_minor") VALUES ($1, $2, $3, $4, $5, DEFAULT, DEFAULT, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "active", "version", "created_at_server", "updated_at_server", "method"
+2026-10-08 18:55:16.950 CST [21976] ERROR:  duplicate key value violates unique constraint "PK_61883ae069a9a2c228e3ecb0b6d"
+2026-10-08 18:55:16.950 CST [21976] DETAIL:  Key (id)=(33333333-3333-4333-8333-333333333333) already exists.
+2026-10-08 18:55:16.950 CST [21976] STATEMENT:  INSERT INTO "financial_it_21840_1791507316837"."financial_entries"("active", "version", "created_event_id", "last_event_id", "last_server_sequence", "created_at_server", "updated_at_server", "id", "category_id", "category_name_snapshot", "direction", "nature", "amount_minor", "currency", "method", "occurred_at_ms", "notes", "reference") VALUES ($1, $2, $3, $4, $5, DEFAULT, DEFAULT, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "active", "version", "created_at_server", "updated_at_server"
+2026-10-08 18:55:17.477 CST [21982] ERROR:  forced inventory movement failure
+2026-10-08 18:55:17.477 CST [21982] CONTEXT:  PL/pgSQL function inventory_it_21840_1791507317364.fail_inventory_movement() line 3 at RAISE
+2026-10-08 18:55:17.477 CST [21982] STATEMENT:  INSERT INTO "inventory_it_21840_1791507317364"."inventory_movements"("movement_id", "inventory_item_id", "sale_item_id", "event_id", "reversal_of_movement_id", "movement_type", "quantity_delta_atomic", "total_cost_minor", "reason", "created_at_local", "server_sequence") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2026-10-08 18:55:17.587 CST [21984] ERROR:  update or delete on table "categories" violates RESTRICT setting of foreign key constraint "FK_9a5f6868c96e0069e699f33e124" on table "products"
+2026-10-08 18:55:17.587 CST [21984] DETAIL:  Key (category_id)=(2e855aa3-1af2-4e3b-ad05-846194ebb09e) is referenced from table "products".
+2026-10-08 18:55:17.587 CST [21984] STATEMENT:  DELETE FROM "categoria_delete_it_21840_1791507317546"."categories" WHERE "category_id" = $1
+2026-10-08 18:55:17.619 CST [21984] ERROR:  forced category compaction failure
+2026-10-08 18:55:17.619 CST [21984] CONTEXT:  PL/pgSQL function categoria_delete_it_21840_1791507317546.fail_category_compaction() line 3 at RAISE
+2026-10-08 18:55:17.619 CST [21984] STATEMENT:  UPDATE "categoria_delete_it_21840_1791507317546"."categories" SET "version" = $1, "last_event_id" = $2, "last_server_sequence" = $3, "sort_order" = $4, "updated_at_server" = CURRENT_TIMESTAMP WHERE "category_id" = $5 RETURNING "updated_at_server"
+2026-10-08 18:55:17.849 CST [22000] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:55:17.849 CST [22000] DETAIL:  Failing row contains (e977c02d-60ba-4264-9782-3132132a5830, , null, null, t, 1, null, null, null, 2026-10-08 18:55:17.849-06, 2026-10-08 18:55:17.849-06).
+2026-10-08 18:55:17.849 CST [22000] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:55:17.849 CST [22000] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:55:17.849 CST [22000] DETAIL:  Failing row contains (8c2efde1-de71-4330-b320-dbf6f13a68de,  , null, null, t, 1, null, null, null, 2026-10-08 18:55:17.85-06, 2026-10-08 18:55:17.85-06).
+2026-10-08 18:55:17.849 CST [22000] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:55:17.850 CST [22000] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:55:17.850 CST [22000] DETAIL:  Failing row contains (69552a78-37a5-4553-8996-b322cee9247f, 
+		, null, null, t, 1, null, null, null, 2026-10-08 18:55:17.85-06, 2026-10-08 18:55:17.85-06).
+2026-10-08 18:55:17.850 CST [22000] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:55:17.853 CST [22000] ERROR:  duplicate key value violates unique constraint "pk_variant_suppliers"
+2026-10-08 18:55:17.853 CST [22000] DETAIL:  Key (variant_id, supplier_id)=(77857f21-285f-4f75-8faf-2e90e1e3cb7f, fb7f5b49-1cc4-4dcd-9e86-aed47ffa1e20) already exists.
+2026-10-08 18:55:17.853 CST [22000] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 42, 10)
+2026-10-08 18:55:17.853 CST [22000] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:55:17.853 CST [22000] DETAIL:  Failing row contains (77857f21-285f-4f75-8faf-2e90e1e3cb7f, fb7f5b49-1cc4-4dcd-9e86-aed47ffa1e20, -1, 1).
+2026-10-08 18:55:17.853 CST [22000] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:55:17.853 CST [22000] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:55:17.853 CST [22000] DETAIL:  Failing row contains (77857f21-285f-4f75-8faf-2e90e1e3cb7f, fb7f5b49-1cc4-4dcd-9e86-aed47ffa1e20, 9007199254740992, 1).
+2026-10-08 18:55:17.853 CST [22000] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:55:17.853 CST [22000] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:55:17.853 CST [22000] DETAIL:  Failing row contains (77857f21-285f-4f75-8faf-2e90e1e3cb7f, fb7f5b49-1cc4-4dcd-9e86-aed47ffa1e20, 0, 0).
+2026-10-08 18:55:17.853 CST [22000] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:55:17.854 CST [22000] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:55:17.854 CST [22000] DETAIL:  Failing row contains (77857f21-285f-4f75-8faf-2e90e1e3cb7f, fb7f5b49-1cc4-4dcd-9e86-aed47ffa1e20, 0, 9007199254740992).
+2026-10-08 18:55:17.854 CST [22000] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:55:17.854 CST [22000] ERROR:  invalid input syntax for type bigint: "1.5"
+2026-10-08 18:55:17.854 CST [22000] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-10-08 18:55:17.854 CST [22000] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1
+2026-10-08 18:55:17.854 CST [22000] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_variant"
+2026-10-08 18:55:17.854 CST [22000] DETAIL:  Key (variant_id)=(bbcb3528-389e-4b39-be2a-ab3fa2da69e9) is not present in table "product_variants".
+2026-10-08 18:55:17.854 CST [22000] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:55:17.855 CST [22000] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_supplier"
+2026-10-08 18:55:17.855 CST [22000] DETAIL:  Key (supplier_id)=(a1c87eff-ce2e-42e0-8e19-8795a9c835ea) is not present in table "suppliers".
+2026-10-08 18:55:17.855 CST [22000] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:55:17.855 CST [22000] ERROR:  update or delete on table "suppliers" violates RESTRICT setting of foreign key constraint "fk_variant_suppliers_supplier" on table "variant_suppliers"
+2026-10-08 18:55:17.855 CST [22000] DETAIL:  Key (supplier_id)=(fb7f5b49-1cc4-4dcd-9e86-aed47ffa1e20) is referenced from table "variant_suppliers".
+2026-10-08 18:55:17.855 CST [22000] STATEMENT:  DELETE FROM suppliers WHERE supplier_id = $1
+2026-10-08 18:55:17.902 CST [22002] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:55:17.902 CST [22002] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','bad','operating')
+2026-10-08 18:55:17.916 CST [22002] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:55:17.916 CST [22002] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','in','otra')
+2026-10-08 18:55:17.916 CST [22002] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:55:17.916 CST [22002] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','in','asset_purchase')
+2026-10-08 18:55:17.916 CST [22002] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:55:17.916 CST [22002] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a',repeat('x',101),'in','operating')
+2026-10-08 18:55:17.917 CST [22002] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:55:17.917 CST [22002] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',0,'MXN','cash',1)
+2026-10-08 18:55:17.917 CST [22002] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:55:17.917 CST [22002] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'USD','cash',1)
+2026-10-08 18:55:17.917 CST [22002] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:55:17.917 CST [22002] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'MXN','debito',1)
+2026-10-08 18:55:17.917 CST [22002] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:55:17.917 CST [22002] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'MXN','cash',0)
+2026-10-08 18:55:17.917 CST [22002] ERROR:  invalid input syntax for type uuid: "b" at character 155
+2026-10-08 18:55:17.917 CST [22002] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms,notes) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','in','operating',50000,'MXN','cash',1,repeat('x',501))
+2026-10-08 18:55:17.918 CST [22002] ERROR:  update or delete on table "financial_categories" violates RESTRICT setting of foreign key constraint "financial_entries_category_id_fkey" on table "financial_entries"
+2026-10-08 18:55:17.918 CST [22002] DETAIL:  Key (id)=(11111111-1111-4111-8111-111111111111) is referenced from table "financial_entries".
+2026-10-08 18:55:17.918 CST [22002] STATEMENT:  DELETE FROM financial_categories WHERE id = $1
+2026-10-08 18:55:18.035 CST [22004] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "product_variants_inventory_item_id_fkey" on table "product_variants"
+2026-10-08 18:55:18.035 CST [22004] DETAIL:  Key (inventory_item_id)=(a3000000-0000-4000-8000-000000000001) is referenced from table "product_variants".
+2026-10-08 18:55:18.035 CST [22004] STATEMENT:  DELETE FROM inventory_items WHERE inventory_item_id = 'a3000000-0000-4000-8000-000000000001'
+2026-10-08 18:55:18.036 CST [22004] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "product_variants_inventory_item_id_fkey" on table "product_variants"
+2026-10-08 18:55:18.036 CST [22004] DETAIL:  Key (inventory_item_id)=(a3000000-0000-4000-8000-000000000001) is referenced from table "product_variants".
+2026-10-08 18:55:18.036 CST [22004] STATEMENT:  DELETE FROM inventory_items WHERE inventory_item_id = 'a3000000-0000-4000-8000-000000000001'
+2026-10-08 18:55:18.076 CST [22006] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_manual_reason"
+2026-10-08 18:55:18.076 CST [22006] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000003, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000003, null, manual_adjustment, -1, null, null, 2026-10-08 18:55:18.077-06, null).
+2026-10-08 18:55:18.076 CST [22006] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_21840_1791507318064"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000003',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000003',
+	          'manual_adjustment', -1, NULL, now()
+	        )
+	      
+2026-10-08 18:55:18.091 CST [22006] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_positive_entries"
+2026-10-08 18:55:18.091 CST [22006] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000004, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000004, null, stock_receipt, -1, null, null, 2026-10-08 18:55:18.092-06, null).
+2026-10-08 18:55:18.091 CST [22006] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_21840_1791507318064"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000004',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000004',
+	          'stock_receipt', -1, NULL, now()
+	        )
+	      
+2026-10-08 18:55:18.092 CST [22006] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_reason_shape"
+2026-10-08 18:55:18.092 CST [22006] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000005, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000005, null, stock_receipt, 1, null,  Compra , 2026-10-08 18:55:18.092-06, null).
+2026-10-08 18:55:18.092 CST [22006] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_21840_1791507318064"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000005',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000005',
+	          'stock_receipt', 1, ' Compra ', now()
+	        )
+	      
+2026-10-08 18:55:18.157 CST [22007] ERROR:  duplicate key value violates unique constraint "ux_product_variants_product_name_key"
+2026-10-08 18:55:18.157 CST [22007] DETAIL:  Key (product_id, name_key)=(product, grande) already exists.
+2026-10-08 18:55:18.157 CST [22007] STATEMENT:  INSERT INTO product_variants VALUES ('duplicate', 'product', 'grande', 1, true)
+2026-10-08 18:55:18.184 CST [22008] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:55:18.184 CST [22008] DETAIL:  Failing row contains (2, 2, transfer, MXN, 100, 200, 100, BANK).
+2026-10-08 18:55:18.184 CST [22008] STATEMENT:  UPDATE sale_payments SET received_minor=200,change_minor=100 WHERE payment_id=2
+2026-10-08 18:55:18.197 CST [22008] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:55:18.197 CST [22008] DETAIL:  Failing row contains (2, 2, credit, MXN, 100, 100, 0, BANK).
+2026-10-08 18:55:18.197 CST [22008] STATEMENT:  UPDATE sale_payments SET method='credit' WHERE payment_id=2
+2026-10-08 18:55:18.198 CST [22008] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:55:18.198 CST [22008] DETAIL:  Failing row contains (2, 2, transfer, USD, 100, 100, 0, BANK).
+2026-10-08 18:55:18.198 CST [22008] STATEMENT:  UPDATE sale_payments SET currency='USD' WHERE payment_id=2
+2026-10-08 18:55:18.198 CST [22008] ERROR:  value too long for type character varying(500)
+2026-10-08 18:55:18.198 CST [22008] STATEMENT:  UPDATE sale_payments SET reference=repeat('x',501) WHERE payment_id=2
+2026-10-08 18:55:18.198 CST [22008] ERROR:  duplicate key value violates unique constraint "sale_payments_sale_id_key"
+2026-10-08 18:55:18.198 CST [22008] DETAIL:  Key (sale_id)=(1) already exists.
+2026-10-08 18:55:18.198 CST [22008] STATEMENT:  UPDATE sale_payments SET sale_id=1 WHERE payment_id=2
+2026-10-08 18:55:18.363 CST [22014] ERROR:  duplicate key value violates unique constraint "pk_recipe_components"
+2026-10-08 18:55:18.363 CST [22014] DETAIL:  Key (variant_id, inventory_item_id)=(00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010) already exists.
+2026-10-08 18:55:18.363 CST [22014] STATEMENT:  
+	        INSERT INTO "recipe_components_it_21840_1791507318351".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          1
+	        )
+	      
+2026-10-08 18:55:18.363 CST [22014] ERROR:  new row for relation "recipe_components" violates check constraint "ck_recipe_components_quantity_atomic"
+2026-10-08 18:55:18.363 CST [22014] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010, 0).
+2026-10-08 18:55:18.363 CST [22014] STATEMENT:  
+	        INSERT INTO "recipe_components_it_21840_1791507318351".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          0
+	        )
+	      
+2026-10-08 18:55:18.364 CST [22014] ERROR:  new row for relation "recipe_components" violates check constraint "ck_recipe_components_quantity_atomic"
+2026-10-08 18:55:18.364 CST [22014] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010, 9007199254740992).
+2026-10-08 18:55:18.364 CST [22014] STATEMENT:  
+	        INSERT INTO "recipe_components_it_21840_1791507318351".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          9007199254740992
+	        )
+	      
+2026-10-08 18:55:18.364 CST [22014] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "fk_recipe_components_inventory_item" on table "recipe_components"
+2026-10-08 18:55:18.364 CST [22014] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) is referenced from table "recipe_components".
+2026-10-08 18:55:18.364 CST [22014] STATEMENT:  
+	        DELETE FROM "recipe_components_it_21840_1791507318351".inventory_items
+	        WHERE inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	      
+2026-10-08 18:55:18.398 CST [22016] ERROR:  new row for relation "product_variants" violates check constraint "ck_product_variants_standard_cost_non_negative"
+2026-10-08 18:55:18.398 CST [22016] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000002, 00000000-0000-4000-8000-000000000010, 1200, f, 1, Grande, grande, -1).
+2026-10-08 18:55:18.398 CST [22016] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, name, name_key, sale_price_minor,
+	          standard_cost_minor, is_default, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000002',
+	          '00000000-0000-4000-8000-000000000010', 'Grande', 'grande',
+	          1200, -1, false, 1
+	        )
+	      
+2026-10-08 18:55:18.398 CST [22016] ERROR:  duplicate key value violates unique constraint "ux_product_variants_product_name_key"
+2026-10-08 18:55:18.398 CST [22016] DETAIL:  Key (product_id, name_key)=(00000000-0000-4000-8000-000000000010, grande) already exists.
+2026-10-08 18:55:18.398 CST [22016] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, name, name_key, sale_price_minor,
+	          is_default, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000004',
+	          '00000000-0000-4000-8000-000000000010', 'GRANDE', 'grande',
+	          1300, false, 2
+	        )
+	      
+2026-10-08 18:55:18.462 CST [22019] ERROR:  new row for relation "product_variants" violates check constraint "ck_product_variants_barcode_digits"
+2026-10-08 18:55:18.462 CST [22019] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000003, 00000000-0000-4000-8000-000000000010, null, null, 1200, null, 2, 12-345).
+2026-10-08 18:55:18.462 CST [22019] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, barcode, sale_price_minor, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000003',
+	          '00000000-0000-4000-8000-000000000010', '12-345', 1200, 2
+	        )
+	      
+2026-10-08 18:55:18.569 CST [22021] ERROR:  duplicate key value violates unique constraint "ux_product_variants_inventory_item"
+2026-10-08 18:55:18.569 CST [22021] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) already exists.
+2026-10-08 18:55:18.569 CST [22021] STATEMENT:  
+	          UPDATE product_variants
+	          SET inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	          WHERE variant_id = '00000000-0000-4000-8000-000000000002'
+	        
+2026-10-08 18:55:18.569 CST [22021] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "fk_product_variants_inventory_item" on table "product_variants"
+2026-10-08 18:55:18.569 CST [22021] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) is referenced from table "product_variants".
+2026-10-08 18:55:18.569 CST [22021] STATEMENT:  
+	          DELETE FROM inventory_items
+	          WHERE inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	        
+2026-10-08 18:56:33.598 CST [15438] LOG:  checkpoint starting: time
+2026-10-08 18:56:35.391 CST [22655] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:56:35.391 CST [22655] DETAIL:  Failing row contains (63895292-dc46-4e4f-8320-0d16dbae5426, , null, null, t, 1, null, null, null, 2026-10-08 18:56:35.392-06, 2026-10-08 18:56:35.392-06).
+2026-10-08 18:56:35.391 CST [22655] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:56:35.392 CST [22655] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:56:35.392 CST [22655] DETAIL:  Failing row contains (d416378c-843a-4060-b63f-2c9af15e3db9,  , null, null, t, 1, null, null, null, 2026-10-08 18:56:35.392-06, 2026-10-08 18:56:35.392-06).
+2026-10-08 18:56:35.392 CST [22655] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:56:35.392 CST [22655] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:56:35.392 CST [22655] DETAIL:  Failing row contains (c19b3807-a4f1-4b4c-9280-8f9469e8c6fa, 
+		, null, null, t, 1, null, null, null, 2026-10-08 18:56:35.392-06, 2026-10-08 18:56:35.392-06).
+2026-10-08 18:56:35.392 CST [22655] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:56:35.395 CST [22655] ERROR:  duplicate key value violates unique constraint "pk_variant_suppliers"
+2026-10-08 18:56:35.395 CST [22655] DETAIL:  Key (variant_id, supplier_id)=(8e64fb97-2775-4719-ac96-36f214921ac0, f4466be4-2129-420f-acfc-711478734c29) already exists.
+2026-10-08 18:56:35.395 CST [22655] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 42, 10)
+2026-10-08 18:56:35.395 CST [22655] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:56:35.395 CST [22655] DETAIL:  Failing row contains (8e64fb97-2775-4719-ac96-36f214921ac0, f4466be4-2129-420f-acfc-711478734c29, -1, 1).
+2026-10-08 18:56:35.395 CST [22655] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:56:35.395 CST [22655] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:56:35.395 CST [22655] DETAIL:  Failing row contains (8e64fb97-2775-4719-ac96-36f214921ac0, f4466be4-2129-420f-acfc-711478734c29, 9007199254740992, 1).
+2026-10-08 18:56:35.395 CST [22655] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:56:35.396 CST [22655] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:56:35.396 CST [22655] DETAIL:  Failing row contains (8e64fb97-2775-4719-ac96-36f214921ac0, f4466be4-2129-420f-acfc-711478734c29, 0, 0).
+2026-10-08 18:56:35.396 CST [22655] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:56:35.396 CST [22655] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:56:35.396 CST [22655] DETAIL:  Failing row contains (8e64fb97-2775-4719-ac96-36f214921ac0, f4466be4-2129-420f-acfc-711478734c29, 0, 9007199254740992).
+2026-10-08 18:56:35.396 CST [22655] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:56:35.396 CST [22655] ERROR:  invalid input syntax for type bigint: "1.5"
+2026-10-08 18:56:35.396 CST [22655] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-10-08 18:56:35.396 CST [22655] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1
+2026-10-08 18:56:35.396 CST [22655] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_variant"
+2026-10-08 18:56:35.396 CST [22655] DETAIL:  Key (variant_id)=(67ef0d47-1209-44a5-8d30-5c90defba46a) is not present in table "product_variants".
+2026-10-08 18:56:35.396 CST [22655] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:56:35.397 CST [22655] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_supplier"
+2026-10-08 18:56:35.397 CST [22655] DETAIL:  Key (supplier_id)=(7b783995-fe81-4d29-b697-fea95c304b40) is not present in table "suppliers".
+2026-10-08 18:56:35.397 CST [22655] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:56:35.397 CST [22655] ERROR:  update or delete on table "suppliers" violates RESTRICT setting of foreign key constraint "fk_variant_suppliers_supplier" on table "variant_suppliers"
+2026-10-08 18:56:35.397 CST [22655] DETAIL:  Key (supplier_id)=(f4466be4-2129-420f-acfc-711478734c29) is referenced from table "variant_suppliers".
+2026-10-08 18:56:35.397 CST [22655] STATEMENT:  DELETE FROM suppliers WHERE supplier_id = $1
+2026-10-08 18:56:35.775 CST [22668] ERROR:  duplicate key value violates unique constraint "idx_events_device_local_sequence_unique"
+2026-10-08 18:56:35.775 CST [22668] DETAIL:  Key (device_id, local_sequence)=(tablet, 1) already exists.
+2026-10-08 18:56:35.775 CST [22668] STATEMENT:  INSERT INTO "suppliers_it_22413_1791507395456"."events"("event_id", "aggregate_type", "aggregate_id", "event_type", "device_id", "user_id", "local_sequence", "base_server_sequence", "base_version", "created_at_local", "created_at_server", "payload", "sync_status", "rejection_reason", "updated_at_server") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, DEFAULT, $11, $12, $13, DEFAULT) RETURNING "server_sequence", "created_at_server", "sync_status", "updated_at_server"
+2026-10-08 18:56:36.983 CST [22680] ERROR:  duplicate key value violates unique constraint "PK_77715616fea2205acad98cca425"
+2026-10-08 18:56:36.983 CST [22680] DETAIL:  Key (payment_id)=(212ad40c-1be4-476f-848c-6b522253be57) already exists.
+2026-10-08 18:56:36.983 CST [22680] STATEMENT:  INSERT INTO "cash_it_22413_1791507396344"."sale_payments"("active", "version", "created_event_id", "last_event_id", "last_server_sequence", "created_at_server", "updated_at_server", "payment_id", "sale_id", "method", "currency", "reference", "amount_minor", "received_minor", "change_minor") VALUES ($1, $2, $3, $4, $5, DEFAULT, DEFAULT, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "active", "version", "created_at_server", "updated_at_server", "method"
+2026-10-08 18:56:37.591 CST [22695] ERROR:  duplicate key value violates unique constraint "PK_61883ae069a9a2c228e3ecb0b6d"
+2026-10-08 18:56:37.591 CST [22695] DETAIL:  Key (id)=(33333333-3333-4333-8333-333333333333) already exists.
+2026-10-08 18:56:37.591 CST [22695] STATEMENT:  INSERT INTO "financial_it_22413_1791507397483"."financial_entries"("active", "version", "created_event_id", "last_event_id", "last_server_sequence", "created_at_server", "updated_at_server", "id", "category_id", "category_name_snapshot", "direction", "nature", "amount_minor", "currency", "method", "occurred_at_ms", "notes", "reference") VALUES ($1, $2, $3, $4, $5, DEFAULT, DEFAULT, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "active", "version", "created_at_server", "updated_at_server"
+2026-10-08 18:56:38.228 CST [22703] ERROR:  update or delete on table "categories" violates RESTRICT setting of foreign key constraint "FK_9a5f6868c96e0069e699f33e124" on table "products"
+2026-10-08 18:56:38.228 CST [22703] DETAIL:  Key (category_id)=(9542de2f-725c-4790-b212-2e15acde84e0) is referenced from table "products".
+2026-10-08 18:56:38.228 CST [22703] STATEMENT:  DELETE FROM "categoria_delete_it_22413_1791507398204"."categories" WHERE "category_id" = $1
+2026-10-08 18:56:38.261 CST [22703] ERROR:  forced category compaction failure
+2026-10-08 18:56:38.261 CST [22703] CONTEXT:  PL/pgSQL function categoria_delete_it_22413_1791507398204.fail_category_compaction() line 3 at RAISE
+2026-10-08 18:56:38.261 CST [22703] STATEMENT:  UPDATE "categoria_delete_it_22413_1791507398204"."categories" SET "version" = $1, "last_event_id" = $2, "last_server_sequence" = $3, "sort_order" = $4, "updated_at_server" = CURRENT_TIMESTAMP WHERE "category_id" = $5 RETURNING "updated_at_server"
+2026-10-08 18:56:38.510 CST [22706] ERROR:  forced inventory movement failure
+2026-10-08 18:56:38.510 CST [22706] CONTEXT:  PL/pgSQL function inventory_it_22413_1791507398399.fail_inventory_movement() line 3 at RAISE
+2026-10-08 18:56:38.510 CST [22706] STATEMENT:  INSERT INTO "inventory_it_22413_1791507398399"."inventory_movements"("movement_id", "inventory_item_id", "sale_item_id", "event_id", "reversal_of_movement_id", "movement_type", "quantity_delta_atomic", "total_cost_minor", "reason", "created_at_local", "server_sequence") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2026-10-08 18:56:38.719 CST [22709] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:56:38.719 CST [22709] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','bad','operating')
+2026-10-08 18:56:38.733 CST [22709] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:56:38.733 CST [22709] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','in','otra')
+2026-10-08 18:56:38.733 CST [22709] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:56:38.733 CST [22709] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','in','asset_purchase')
+2026-10-08 18:56:38.733 CST [22709] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:56:38.733 CST [22709] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a',repeat('x',101),'in','operating')
+2026-10-08 18:56:38.734 CST [22709] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:56:38.734 CST [22709] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',0,'MXN','cash',1)
+2026-10-08 18:56:38.734 CST [22709] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:56:38.734 CST [22709] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'USD','cash',1)
+2026-10-08 18:56:38.734 CST [22709] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:56:38.734 CST [22709] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'MXN','debito',1)
+2026-10-08 18:56:38.734 CST [22709] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:56:38.734 CST [22709] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'MXN','cash',0)
+2026-10-08 18:56:38.735 CST [22709] ERROR:  invalid input syntax for type uuid: "b" at character 155
+2026-10-08 18:56:38.735 CST [22709] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms,notes) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','in','operating',50000,'MXN','cash',1,repeat('x',501))
+2026-10-08 18:56:38.735 CST [22709] ERROR:  update or delete on table "financial_categories" violates RESTRICT setting of foreign key constraint "financial_entries_category_id_fkey" on table "financial_entries"
+2026-10-08 18:56:38.735 CST [22709] DETAIL:  Key (id)=(11111111-1111-4111-8111-111111111111) is referenced from table "financial_entries".
+2026-10-08 18:56:38.735 CST [22709] STATEMENT:  DELETE FROM financial_categories WHERE id = $1
+2026-10-08 18:56:38.771 CST [22711] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_manual_reason"
+2026-10-08 18:56:38.771 CST [22711] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000003, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000003, null, manual_adjustment, -1, null, null, 2026-10-08 18:56:38.771-06, null).
+2026-10-08 18:56:38.771 CST [22711] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_22413_1791507398758"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000003',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000003',
+	          'manual_adjustment', -1, NULL, now()
+	        )
+	      
+2026-10-08 18:56:38.786 CST [22711] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_positive_entries"
+2026-10-08 18:56:38.786 CST [22711] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000004, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000004, null, stock_receipt, -1, null, null, 2026-10-08 18:56:38.786-06, null).
+2026-10-08 18:56:38.786 CST [22711] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_22413_1791507398758"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000004',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000004',
+	          'stock_receipt', -1, NULL, now()
+	        )
+	      
+2026-10-08 18:56:38.786 CST [22711] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_reason_shape"
+2026-10-08 18:56:38.786 CST [22711] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000005, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000005, null, stock_receipt, 1, null,  Compra , 2026-10-08 18:56:38.787-06, null).
+2026-10-08 18:56:38.786 CST [22711] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_22413_1791507398758"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000005',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000005',
+	          'stock_receipt', 1, ' Compra ', now()
+	        )
+	      
+2026-10-08 18:56:38.835 CST [22713] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "product_variants_inventory_item_id_fkey" on table "product_variants"
+2026-10-08 18:56:38.835 CST [22713] DETAIL:  Key (inventory_item_id)=(a3000000-0000-4000-8000-000000000001) is referenced from table "product_variants".
+2026-10-08 18:56:38.835 CST [22713] STATEMENT:  DELETE FROM inventory_items WHERE inventory_item_id = 'a3000000-0000-4000-8000-000000000001'
+2026-10-08 18:56:38.835 CST [22713] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "product_variants_inventory_item_id_fkey" on table "product_variants"
+2026-10-08 18:56:38.835 CST [22713] DETAIL:  Key (inventory_item_id)=(a3000000-0000-4000-8000-000000000001) is referenced from table "product_variants".
+2026-10-08 18:56:38.835 CST [22713] STATEMENT:  DELETE FROM inventory_items WHERE inventory_item_id = 'a3000000-0000-4000-8000-000000000001'
+2026-10-08 18:56:38.992 CST [22718] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:56:38.992 CST [22718] DETAIL:  Failing row contains (2, 2, transfer, MXN, 100, 200, 100, BANK).
+2026-10-08 18:56:38.992 CST [22718] STATEMENT:  UPDATE sale_payments SET received_minor=200,change_minor=100 WHERE payment_id=2
+2026-10-08 18:56:39.003 CST [22718] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:56:39.003 CST [22718] DETAIL:  Failing row contains (2, 2, credit, MXN, 100, 100, 0, BANK).
+2026-10-08 18:56:39.003 CST [22718] STATEMENT:  UPDATE sale_payments SET method='credit' WHERE payment_id=2
+2026-10-08 18:56:39.003 CST [22718] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:56:39.003 CST [22718] DETAIL:  Failing row contains (2, 2, transfer, USD, 100, 100, 0, BANK).
+2026-10-08 18:56:39.003 CST [22718] STATEMENT:  UPDATE sale_payments SET currency='USD' WHERE payment_id=2
+2026-10-08 18:56:39.004 CST [22718] ERROR:  value too long for type character varying(500)
+2026-10-08 18:56:39.004 CST [22718] STATEMENT:  UPDATE sale_payments SET reference=repeat('x',501) WHERE payment_id=2
+2026-10-08 18:56:39.004 CST [22718] ERROR:  duplicate key value violates unique constraint "sale_payments_sale_id_key"
+2026-10-08 18:56:39.004 CST [22718] DETAIL:  Key (sale_id)=(1) already exists.
+2026-10-08 18:56:39.004 CST [22718] STATEMENT:  UPDATE sale_payments SET sale_id=1 WHERE payment_id=2
+2026-10-08 18:56:39.170 CST [22722] ERROR:  duplicate key value violates unique constraint "pk_recipe_components"
+2026-10-08 18:56:39.170 CST [22722] DETAIL:  Key (variant_id, inventory_item_id)=(00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010) already exists.
+2026-10-08 18:56:39.170 CST [22722] STATEMENT:  
+	        INSERT INTO "recipe_components_it_22413_1791507399159".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          1
+	        )
+	      
+2026-10-08 18:56:39.171 CST [22722] ERROR:  new row for relation "recipe_components" violates check constraint "ck_recipe_components_quantity_atomic"
+2026-10-08 18:56:39.171 CST [22722] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010, 0).
+2026-10-08 18:56:39.171 CST [22722] STATEMENT:  
+	        INSERT INTO "recipe_components_it_22413_1791507399159".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          0
+	        )
+	      
+2026-10-08 18:56:39.171 CST [22722] ERROR:  new row for relation "recipe_components" violates check constraint "ck_recipe_components_quantity_atomic"
+2026-10-08 18:56:39.171 CST [22722] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010, 9007199254740992).
+2026-10-08 18:56:39.171 CST [22722] STATEMENT:  
+	        INSERT INTO "recipe_components_it_22413_1791507399159".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          9007199254740992
+	        )
+	      
+2026-10-08 18:56:39.171 CST [22722] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "fk_recipe_components_inventory_item" on table "recipe_components"
+2026-10-08 18:56:39.171 CST [22722] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) is referenced from table "recipe_components".
+2026-10-08 18:56:39.171 CST [22722] STATEMENT:  
+	        DELETE FROM "recipe_components_it_22413_1791507399159".inventory_items
+	        WHERE inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	      
+2026-10-08 18:56:39.204 CST [22724] ERROR:  new row for relation "product_variants" violates check constraint "ck_product_variants_standard_cost_non_negative"
+2026-10-08 18:56:39.204 CST [22724] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000002, 00000000-0000-4000-8000-000000000010, 1200, f, 1, Grande, grande, -1).
+2026-10-08 18:56:39.204 CST [22724] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, name, name_key, sale_price_minor,
+	          standard_cost_minor, is_default, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000002',
+	          '00000000-0000-4000-8000-000000000010', 'Grande', 'grande',
+	          1200, -1, false, 1
+	        )
+	      
+2026-10-08 18:56:39.204 CST [22724] ERROR:  duplicate key value violates unique constraint "ux_product_variants_product_name_key"
+2026-10-08 18:56:39.204 CST [22724] DETAIL:  Key (product_id, name_key)=(00000000-0000-4000-8000-000000000010, grande) already exists.
+2026-10-08 18:56:39.204 CST [22724] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, name, name_key, sale_price_minor,
+	          is_default, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000004',
+	          '00000000-0000-4000-8000-000000000010', 'GRANDE', 'grande',
+	          1300, false, 2
+	        )
+	      
+2026-10-08 18:56:39.303 CST [22728] ERROR:  new row for relation "product_variants" violates check constraint "ck_product_variants_barcode_digits"
+2026-10-08 18:56:39.303 CST [22728] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000003, 00000000-0000-4000-8000-000000000010, null, null, 1200, null, 2, 12-345).
+2026-10-08 18:56:39.303 CST [22728] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, barcode, sale_price_minor, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000003',
+	          '00000000-0000-4000-8000-000000000010', '12-345', 1200, 2
+	        )
+	      
+2026-10-08 18:56:39.336 CST [22731] ERROR:  duplicate key value violates unique constraint "ux_product_variants_inventory_item"
+2026-10-08 18:56:39.336 CST [22731] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) already exists.
+2026-10-08 18:56:39.336 CST [22731] STATEMENT:  
+	          UPDATE product_variants
+	          SET inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	          WHERE variant_id = '00000000-0000-4000-8000-000000000002'
+	        
+2026-10-08 18:56:39.336 CST [22731] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "fk_product_variants_inventory_item" on table "product_variants"
+2026-10-08 18:56:39.336 CST [22731] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) is referenced from table "product_variants".
+2026-10-08 18:56:39.336 CST [22731] STATEMENT:  
+	          DELETE FROM inventory_items
+	          WHERE inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	        
+2026-10-08 18:56:39.507 CST [22735] ERROR:  duplicate key value violates unique constraint "ux_product_variants_product_name_key"
+2026-10-08 18:56:39.507 CST [22735] DETAIL:  Key (product_id, name_key)=(product, grande) already exists.
+2026-10-08 18:56:39.507 CST [22735] STATEMENT:  INSERT INTO product_variants VALUES ('duplicate', 'product', 'grande', 1, true)
+2026-10-08 18:59:42.224 CST [15438] LOG:  checkpoint complete: wrote 1853 buffers (11.3%), wrote 5 SLRU buffers; 0 WAL file(s) added, 0 removed, 3 recycled; write=186.731 s, sync=1.091 s, total=188.627 s; sync files=36010, longest=0.002 s, average=0.001 s; distance=49014 kB, estimate=49014 kB; lsn=0/5D9F350, redo lsn=0/4C0CBC0
+2026-10-08 18:59:54.881 CST [24113] ERROR:  duplicate key value violates unique constraint "idx_events_device_local_sequence_unique"
+2026-10-08 18:59:54.881 CST [24113] DETAIL:  Key (device_id, local_sequence)=(tablet, 1) already exists.
+2026-10-08 18:59:54.881 CST [24113] STATEMENT:  INSERT INTO "suppliers_it_23957_1791507594452"."events"("event_id", "aggregate_type", "aggregate_id", "event_type", "device_id", "user_id", "local_sequence", "base_server_sequence", "base_version", "created_at_local", "created_at_server", "payload", "sync_status", "rejection_reason", "updated_at_server") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, DEFAULT, $11, $12, $13, DEFAULT) RETURNING "server_sequence", "created_at_server", "sync_status", "updated_at_server"
+2026-10-08 18:59:56.369 CST [24148] ERROR:  duplicate key value violates unique constraint "PK_77715616fea2205acad98cca425"
+2026-10-08 18:59:56.369 CST [24148] DETAIL:  Key (payment_id)=(e192af38-84a2-4bd3-b086-eb5402eccbd1) already exists.
+2026-10-08 18:59:56.369 CST [24148] STATEMENT:  INSERT INTO "cash_it_23957_1791507595676"."sale_payments"("active", "version", "created_event_id", "last_event_id", "last_server_sequence", "created_at_server", "updated_at_server", "payment_id", "sale_id", "method", "currency", "reference", "amount_minor", "received_minor", "change_minor") VALUES ($1, $2, $3, $4, $5, DEFAULT, DEFAULT, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "active", "version", "created_at_server", "updated_at_server", "method"
+2026-10-08 18:59:56.688 CST [24160] ERROR:  duplicate key value violates unique constraint "PK_61883ae069a9a2c228e3ecb0b6d"
+2026-10-08 18:59:56.688 CST [24160] DETAIL:  Key (id)=(33333333-3333-4333-8333-333333333333) already exists.
+2026-10-08 18:59:56.688 CST [24160] STATEMENT:  INSERT INTO "financial_it_23957_1791507596587"."financial_entries"("active", "version", "created_event_id", "last_event_id", "last_server_sequence", "created_at_server", "updated_at_server", "id", "category_id", "category_name_snapshot", "direction", "nature", "amount_minor", "currency", "method", "occurred_at_ms", "notes", "reference") VALUES ($1, $2, $3, $4, $5, DEFAULT, DEFAULT, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "active", "version", "created_at_server", "updated_at_server"
+2026-10-08 18:59:58.047 CST [24191] ERROR:  forced inventory movement failure
+2026-10-08 18:59:58.047 CST [24191] CONTEXT:  PL/pgSQL function inventory_it_23957_1791507597935.fail_inventory_movement() line 3 at RAISE
+2026-10-08 18:59:58.047 CST [24191] STATEMENT:  INSERT INTO "inventory_it_23957_1791507597935"."inventory_movements"("movement_id", "inventory_item_id", "sale_item_id", "event_id", "reversal_of_movement_id", "movement_type", "quantity_delta_atomic", "total_cost_minor", "reason", "created_at_local", "server_sequence") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2026-10-08 18:59:58.311 CST [24194] ERROR:  update or delete on table "categories" violates RESTRICT setting of foreign key constraint "FK_9a5f6868c96e0069e699f33e124" on table "products"
+2026-10-08 18:59:58.311 CST [24194] DETAIL:  Key (category_id)=(eeb8a544-8b18-4b05-b56f-a0d607bbc288) is referenced from table "products".
+2026-10-08 18:59:58.311 CST [24194] STATEMENT:  DELETE FROM "categoria_delete_it_23957_1791507598275"."categories" WHERE "category_id" = $1
+2026-10-08 18:59:58.342 CST [24194] ERROR:  forced category compaction failure
+2026-10-08 18:59:58.342 CST [24194] CONTEXT:  PL/pgSQL function categoria_delete_it_23957_1791507598275.fail_category_compaction() line 3 at RAISE
+2026-10-08 18:59:58.342 CST [24194] STATEMENT:  UPDATE "categoria_delete_it_23957_1791507598275"."categories" SET "version" = $1, "last_event_id" = $2, "last_server_sequence" = $3, "sort_order" = $4, "updated_at_server" = CURRENT_TIMESTAMP WHERE "category_id" = $5 RETURNING "updated_at_server"
+2026-10-08 18:59:58.563 CST [24201] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:59:58.563 CST [24201] DETAIL:  Failing row contains (aaa273da-03e4-475b-b075-cddfadb54e60, , null, null, t, 1, null, null, null, 2026-10-08 18:59:58.563-06, 2026-10-08 18:59:58.563-06).
+2026-10-08 18:59:58.563 CST [24201] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:59:58.563 CST [24201] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:59:58.563 CST [24201] DETAIL:  Failing row contains (ea16f01e-47cb-4b8a-9bb9-4b117aafb7e5,  , null, null, t, 1, null, null, null, 2026-10-08 18:59:58.564-06, 2026-10-08 18:59:58.564-06).
+2026-10-08 18:59:58.563 CST [24201] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:59:58.563 CST [24201] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 18:59:58.563 CST [24201] DETAIL:  Failing row contains (ff039af1-8200-4a6c-ad9f-44a0248d7eb3, 
+		, null, null, t, 1, null, null, null, 2026-10-08 18:59:58.564-06, 2026-10-08 18:59:58.564-06).
+2026-10-08 18:59:58.563 CST [24201] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 18:59:58.566 CST [24201] ERROR:  duplicate key value violates unique constraint "pk_variant_suppliers"
+2026-10-08 18:59:58.566 CST [24201] DETAIL:  Key (variant_id, supplier_id)=(3392d137-1a71-4357-ae4d-c4f78bd43e3c, d9bb4ac5-4583-467f-859e-46636b9d570a) already exists.
+2026-10-08 18:59:58.566 CST [24201] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 42, 10)
+2026-10-08 18:59:58.567 CST [24201] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:59:58.567 CST [24201] DETAIL:  Failing row contains (3392d137-1a71-4357-ae4d-c4f78bd43e3c, d9bb4ac5-4583-467f-859e-46636b9d570a, -1, 1).
+2026-10-08 18:59:58.567 CST [24201] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:59:58.567 CST [24201] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 18:59:58.567 CST [24201] DETAIL:  Failing row contains (3392d137-1a71-4357-ae4d-c4f78bd43e3c, d9bb4ac5-4583-467f-859e-46636b9d570a, 9007199254740992, 1).
+2026-10-08 18:59:58.567 CST [24201] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:59:58.567 CST [24201] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:59:58.567 CST [24201] DETAIL:  Failing row contains (3392d137-1a71-4357-ae4d-c4f78bd43e3c, d9bb4ac5-4583-467f-859e-46636b9d570a, 0, 0).
+2026-10-08 18:59:58.567 CST [24201] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:59:58.567 CST [24201] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 18:59:58.567 CST [24201] DETAIL:  Failing row contains (3392d137-1a71-4357-ae4d-c4f78bd43e3c, d9bb4ac5-4583-467f-859e-46636b9d570a, 0, 9007199254740992).
+2026-10-08 18:59:58.567 CST [24201] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 18:59:58.568 CST [24201] ERROR:  invalid input syntax for type bigint: "1.5"
+2026-10-08 18:59:58.568 CST [24201] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-10-08 18:59:58.568 CST [24201] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1
+2026-10-08 18:59:58.568 CST [24201] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_variant"
+2026-10-08 18:59:58.568 CST [24201] DETAIL:  Key (variant_id)=(758d6430-4ef3-49e3-86cd-ea9500492012) is not present in table "product_variants".
+2026-10-08 18:59:58.568 CST [24201] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:59:58.568 CST [24201] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_supplier"
+2026-10-08 18:59:58.568 CST [24201] DETAIL:  Key (supplier_id)=(90da895d-77c7-4b1a-ab97-1e17668a1454) is not present in table "suppliers".
+2026-10-08 18:59:58.568 CST [24201] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 18:59:58.569 CST [24201] ERROR:  update or delete on table "suppliers" violates RESTRICT setting of foreign key constraint "fk_variant_suppliers_supplier" on table "variant_suppliers"
+2026-10-08 18:59:58.569 CST [24201] DETAIL:  Key (supplier_id)=(d9bb4ac5-4583-467f-859e-46636b9d570a) is referenced from table "variant_suppliers".
+2026-10-08 18:59:58.569 CST [24201] STATEMENT:  DELETE FROM suppliers WHERE supplier_id = $1
+2026-10-08 18:59:58.676 CST [24203] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:59:58.676 CST [24203] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','bad','operating')
+2026-10-08 18:59:58.689 CST [24203] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:59:58.689 CST [24203] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','in','otra')
+2026-10-08 18:59:58.689 CST [24203] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:59:58.689 CST [24203] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','in','asset_purchase')
+2026-10-08 18:59:58.690 CST [24203] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 18:59:58.690 CST [24203] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a',repeat('x',101),'in','operating')
+2026-10-08 18:59:58.690 CST [24203] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:59:58.690 CST [24203] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',0,'MXN','cash',1)
+2026-10-08 18:59:58.690 CST [24203] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:59:58.690 CST [24203] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'USD','cash',1)
+2026-10-08 18:59:58.691 CST [24203] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:59:58.691 CST [24203] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'MXN','debito',1)
+2026-10-08 18:59:58.691 CST [24203] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 18:59:58.691 CST [24203] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'MXN','cash',0)
+2026-10-08 18:59:58.691 CST [24203] ERROR:  invalid input syntax for type uuid: "b" at character 155
+2026-10-08 18:59:58.691 CST [24203] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms,notes) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','in','operating',50000,'MXN','cash',1,repeat('x',501))
+2026-10-08 18:59:58.692 CST [24203] ERROR:  update or delete on table "financial_categories" violates RESTRICT setting of foreign key constraint "financial_entries_category_id_fkey" on table "financial_entries"
+2026-10-08 18:59:58.692 CST [24203] DETAIL:  Key (id)=(11111111-1111-4111-8111-111111111111) is referenced from table "financial_entries".
+2026-10-08 18:59:58.692 CST [24203] STATEMENT:  DELETE FROM financial_categories WHERE id = $1
+2026-10-08 18:59:58.730 CST [24205] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_manual_reason"
+2026-10-08 18:59:58.730 CST [24205] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000003, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000003, null, manual_adjustment, -1, null, null, 2026-10-08 18:59:58.731-06, null).
+2026-10-08 18:59:58.730 CST [24205] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_23957_1791507598718"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000003',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000003',
+	          'manual_adjustment', -1, NULL, now()
+	        )
+	      
+2026-10-08 18:59:58.745 CST [24205] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_positive_entries"
+2026-10-08 18:59:58.745 CST [24205] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000004, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000004, null, stock_receipt, -1, null, null, 2026-10-08 18:59:58.745-06, null).
+2026-10-08 18:59:58.745 CST [24205] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_23957_1791507598718"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000004',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000004',
+	          'stock_receipt', -1, NULL, now()
+	        )
+	      
+2026-10-08 18:59:58.745 CST [24205] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_reason_shape"
+2026-10-08 18:59:58.745 CST [24205] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000005, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000005, null, stock_receipt, 1, null,  Compra , 2026-10-08 18:59:58.746-06, null).
+2026-10-08 18:59:58.745 CST [24205] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_23957_1791507598718"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000005',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000005',
+	          'stock_receipt', 1, ' Compra ', now()
+	        )
+	      
+2026-10-08 18:59:58.801 CST [24208] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "product_variants_inventory_item_id_fkey" on table "product_variants"
+2026-10-08 18:59:58.801 CST [24208] DETAIL:  Key (inventory_item_id)=(a3000000-0000-4000-8000-000000000001) is referenced from table "product_variants".
+2026-10-08 18:59:58.801 CST [24208] STATEMENT:  DELETE FROM inventory_items WHERE inventory_item_id = 'a3000000-0000-4000-8000-000000000001'
+2026-10-08 18:59:58.802 CST [24208] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "product_variants_inventory_item_id_fkey" on table "product_variants"
+2026-10-08 18:59:58.802 CST [24208] DETAIL:  Key (inventory_item_id)=(a3000000-0000-4000-8000-000000000001) is referenced from table "product_variants".
+2026-10-08 18:59:58.802 CST [24208] STATEMENT:  DELETE FROM inventory_items WHERE inventory_item_id = 'a3000000-0000-4000-8000-000000000001'
+2026-10-08 18:59:58.836 CST [24210] ERROR:  duplicate key value violates unique constraint "ux_product_variants_product_name_key"
+2026-10-08 18:59:58.836 CST [24210] DETAIL:  Key (product_id, name_key)=(product, grande) already exists.
+2026-10-08 18:59:58.836 CST [24210] STATEMENT:  INSERT INTO product_variants VALUES ('duplicate', 'product', 'grande', 1, true)
+2026-10-08 18:59:58.904 CST [24212] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:59:58.904 CST [24212] DETAIL:  Failing row contains (2, 2, transfer, MXN, 100, 200, 100, BANK).
+2026-10-08 18:59:58.904 CST [24212] STATEMENT:  UPDATE sale_payments SET received_minor=200,change_minor=100 WHERE payment_id=2
+2026-10-08 18:59:58.921 CST [24212] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:59:58.921 CST [24212] DETAIL:  Failing row contains (2, 2, credit, MXN, 100, 100, 0, BANK).
+2026-10-08 18:59:58.921 CST [24212] STATEMENT:  UPDATE sale_payments SET method='credit' WHERE payment_id=2
+2026-10-08 18:59:58.921 CST [24212] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 18:59:58.921 CST [24212] DETAIL:  Failing row contains (2, 2, transfer, USD, 100, 100, 0, BANK).
+2026-10-08 18:59:58.921 CST [24212] STATEMENT:  UPDATE sale_payments SET currency='USD' WHERE payment_id=2
+2026-10-08 18:59:58.922 CST [24212] ERROR:  value too long for type character varying(500)
+2026-10-08 18:59:58.922 CST [24212] STATEMENT:  UPDATE sale_payments SET reference=repeat('x',501) WHERE payment_id=2
+2026-10-08 18:59:58.922 CST [24212] ERROR:  duplicate key value violates unique constraint "sale_payments_sale_id_key"
+2026-10-08 18:59:58.922 CST [24212] DETAIL:  Key (sale_id)=(1) already exists.
+2026-10-08 18:59:58.922 CST [24212] STATEMENT:  UPDATE sale_payments SET sale_id=1 WHERE payment_id=2
+2026-10-08 18:59:59.069 CST [24219] ERROR:  new row for relation "product_variants" violates check constraint "ck_product_variants_barcode_digits"
+2026-10-08 18:59:59.069 CST [24219] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000003, 00000000-0000-4000-8000-000000000010, null, null, 1200, null, 2, 12-345).
+2026-10-08 18:59:59.069 CST [24219] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, barcode, sale_price_minor, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000003',
+	          '00000000-0000-4000-8000-000000000010', '12-345', 1200, 2
+	        )
+	      
+2026-10-08 18:59:59.171 CST [24222] ERROR:  duplicate key value violates unique constraint "pk_recipe_components"
+2026-10-08 18:59:59.171 CST [24222] DETAIL:  Key (variant_id, inventory_item_id)=(00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010) already exists.
+2026-10-08 18:59:59.171 CST [24222] STATEMENT:  
+	        INSERT INTO "recipe_components_it_23957_1791507599160".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          1
+	        )
+	      
+2026-10-08 18:59:59.171 CST [24222] ERROR:  new row for relation "recipe_components" violates check constraint "ck_recipe_components_quantity_atomic"
+2026-10-08 18:59:59.171 CST [24222] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010, 0).
+2026-10-08 18:59:59.171 CST [24222] STATEMENT:  
+	        INSERT INTO "recipe_components_it_23957_1791507599160".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          0
+	        )
+	      
+2026-10-08 18:59:59.171 CST [24222] ERROR:  new row for relation "recipe_components" violates check constraint "ck_recipe_components_quantity_atomic"
+2026-10-08 18:59:59.171 CST [24222] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010, 9007199254740992).
+2026-10-08 18:59:59.171 CST [24222] STATEMENT:  
+	        INSERT INTO "recipe_components_it_23957_1791507599160".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          9007199254740992
+	        )
+	      
+2026-10-08 18:59:59.171 CST [24222] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "fk_recipe_components_inventory_item" on table "recipe_components"
+2026-10-08 18:59:59.171 CST [24222] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) is referenced from table "recipe_components".
+2026-10-08 18:59:59.171 CST [24222] STATEMENT:  
+	        DELETE FROM "recipe_components_it_23957_1791507599160".inventory_items
+	        WHERE inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	      
+2026-10-08 18:59:59.334 CST [24228] ERROR:  duplicate key value violates unique constraint "ux_product_variants_inventory_item"
+2026-10-08 18:59:59.334 CST [24228] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) already exists.
+2026-10-08 18:59:59.334 CST [24228] STATEMENT:  
+	          UPDATE product_variants
+	          SET inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	          WHERE variant_id = '00000000-0000-4000-8000-000000000002'
+	        
+2026-10-08 18:59:59.334 CST [24228] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "fk_product_variants_inventory_item" on table "product_variants"
+2026-10-08 18:59:59.334 CST [24228] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) is referenced from table "product_variants".
+2026-10-08 18:59:59.334 CST [24228] STATEMENT:  
+	          DELETE FROM inventory_items
+	          WHERE inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	        
+2026-10-08 18:59:59.366 CST [24230] ERROR:  new row for relation "product_variants" violates check constraint "ck_product_variants_standard_cost_non_negative"
+2026-10-08 18:59:59.366 CST [24230] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000002, 00000000-0000-4000-8000-000000000010, 1200, f, 1, Grande, grande, -1).
+2026-10-08 18:59:59.366 CST [24230] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, name, name_key, sale_price_minor,
+	          standard_cost_minor, is_default, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000002',
+	          '00000000-0000-4000-8000-000000000010', 'Grande', 'grande',
+	          1200, -1, false, 1
+	        )
+	      
+2026-10-08 18:59:59.367 CST [24230] ERROR:  duplicate key value violates unique constraint "ux_product_variants_product_name_key"
+2026-10-08 18:59:59.367 CST [24230] DETAIL:  Key (product_id, name_key)=(00000000-0000-4000-8000-000000000010, grande) already exists.
+2026-10-08 18:59:59.367 CST [24230] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, name, name_key, sale_price_minor,
+	          is_default, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000004',
+	          '00000000-0000-4000-8000-000000000010', 'GRANDE', 'grande',
+	          1300, false, 2
+	        )
+	      
+2026-10-08 19:01:33.086 CST [15438] LOG:  checkpoint starting: time
+2026-10-08 19:01:43.831 CST [24944] ERROR:  duplicate key value violates unique constraint "idx_events_device_local_sequence_unique"
+2026-10-08 19:01:43.831 CST [24944] DETAIL:  Key (device_id, local_sequence)=(tablet, 1) already exists.
+2026-10-08 19:01:43.831 CST [24944] STATEMENT:  INSERT INTO "suppliers_it_24878_1791507703384"."events"("event_id", "aggregate_type", "aggregate_id", "event_type", "device_id", "user_id", "local_sequence", "base_server_sequence", "base_version", "created_at_local", "created_at_server", "payload", "sync_status", "rejection_reason", "updated_at_server") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, DEFAULT, $11, $12, $13, DEFAULT) RETURNING "server_sequence", "created_at_server", "sync_status", "updated_at_server"
+2026-10-08 19:01:45.981 CST [25050] ERROR:  duplicate key value violates unique constraint "PK_77715616fea2205acad98cca425"
+2026-10-08 19:01:45.981 CST [25050] DETAIL:  Key (payment_id)=(02c97490-9ac1-4541-9919-d27835ede761) already exists.
+2026-10-08 19:01:45.981 CST [25050] STATEMENT:  INSERT INTO "cash_it_24878_1791507705292"."sale_payments"("active", "version", "created_event_id", "last_event_id", "last_server_sequence", "created_at_server", "updated_at_server", "payment_id", "sale_id", "method", "currency", "reference", "amount_minor", "received_minor", "change_minor") VALUES ($1, $2, $3, $4, $5, DEFAULT, DEFAULT, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "active", "version", "created_at_server", "updated_at_server", "method"
+2026-10-08 19:01:46.307 CST [25066] ERROR:  duplicate key value violates unique constraint "PK_61883ae069a9a2c228e3ecb0b6d"
+2026-10-08 19:01:46.307 CST [25066] DETAIL:  Key (id)=(33333333-3333-4333-8333-333333333333) already exists.
+2026-10-08 19:01:46.307 CST [25066] STATEMENT:  INSERT INTO "financial_it_24878_1791507706211"."financial_entries"("active", "version", "created_event_id", "last_event_id", "last_server_sequence", "created_at_server", "updated_at_server", "id", "category_id", "category_name_snapshot", "direction", "nature", "amount_minor", "currency", "method", "occurred_at_ms", "notes", "reference") VALUES ($1, $2, $3, $4, $5, DEFAULT, DEFAULT, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "active", "version", "created_at_server", "updated_at_server"
+2026-10-08 19:01:47.750 CST [25103] ERROR:  forced inventory movement failure
+2026-10-08 19:01:47.750 CST [25103] CONTEXT:  PL/pgSQL function inventory_it_24878_1791507707632.fail_inventory_movement() line 3 at RAISE
+2026-10-08 19:01:47.750 CST [25103] STATEMENT:  INSERT INTO "inventory_it_24878_1791507707632"."inventory_movements"("movement_id", "inventory_item_id", "sale_item_id", "event_id", "reversal_of_movement_id", "movement_type", "quantity_delta_atomic", "total_cost_minor", "reason", "created_at_local", "server_sequence") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2026-10-08 19:01:47.852 CST [25107] ERROR:  update or delete on table "categories" violates RESTRICT setting of foreign key constraint "FK_9a5f6868c96e0069e699f33e124" on table "products"
+2026-10-08 19:01:47.852 CST [25107] DETAIL:  Key (category_id)=(0cb7e21f-d303-4a05-80aa-c275dd3fa73a) is referenced from table "products".
+2026-10-08 19:01:47.852 CST [25107] STATEMENT:  DELETE FROM "categoria_delete_it_24878_1791507707825"."categories" WHERE "category_id" = $1
+2026-10-08 19:01:47.888 CST [25107] ERROR:  forced category compaction failure
+2026-10-08 19:01:47.888 CST [25107] CONTEXT:  PL/pgSQL function categoria_delete_it_24878_1791507707825.fail_category_compaction() line 3 at RAISE
+2026-10-08 19:01:47.888 CST [25107] STATEMENT:  UPDATE "categoria_delete_it_24878_1791507707825"."categories" SET "version" = $1, "last_event_id" = $2, "last_server_sequence" = $3, "sort_order" = $4, "updated_at_server" = CURRENT_TIMESTAMP WHERE "category_id" = $5 RETURNING "updated_at_server"
+2026-10-08 19:01:48.289 CST [25115] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 19:01:48.289 CST [25115] DETAIL:  Failing row contains (2b42c19a-d6ba-443b-9992-571e4e1ed76b, , null, null, t, 1, null, null, null, 2026-10-08 19:01:48.289-06, 2026-10-08 19:01:48.289-06).
+2026-10-08 19:01:48.289 CST [25115] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 19:01:48.289 CST [25115] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 19:01:48.289 CST [25115] DETAIL:  Failing row contains (35d65616-edd1-44af-b0cf-853095939a05,  , null, null, t, 1, null, null, null, 2026-10-08 19:01:48.29-06, 2026-10-08 19:01:48.29-06).
+2026-10-08 19:01:48.289 CST [25115] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 19:01:48.289 CST [25115] ERROR:  new row for relation "suppliers" violates check constraint "ck_suppliers_name"
+2026-10-08 19:01:48.289 CST [25115] DETAIL:  Failing row contains (01a9175f-d92f-45ec-88e0-1a08be5207f1, 
+		, null, null, t, 1, null, null, null, 2026-10-08 19:01:48.29-06, 2026-10-08 19:01:48.29-06).
+2026-10-08 19:01:48.289 CST [25115] STATEMENT:  INSERT INTO suppliers (supplier_id, name) VALUES ($1, $2)
+2026-10-08 19:01:48.292 CST [25115] ERROR:  duplicate key value violates unique constraint "pk_variant_suppliers"
+2026-10-08 19:01:48.292 CST [25115] DETAIL:  Key (variant_id, supplier_id)=(51362b78-24c8-4c06-b809-798047bc31c1, de3b1e46-96cf-4812-86b6-690ead14bdcf) already exists.
+2026-10-08 19:01:48.292 CST [25115] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 42, 10)
+2026-10-08 19:01:48.293 CST [25115] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 19:01:48.293 CST [25115] DETAIL:  Failing row contains (51362b78-24c8-4c06-b809-798047bc31c1, de3b1e46-96cf-4812-86b6-690ead14bdcf, -1, 1).
+2026-10-08 19:01:48.293 CST [25115] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 19:01:48.293 CST [25115] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_price"
+2026-10-08 19:01:48.293 CST [25115] DETAIL:  Failing row contains (51362b78-24c8-4c06-b809-798047bc31c1, de3b1e46-96cf-4812-86b6-690ead14bdcf, 9007199254740992, 1).
+2026-10-08 19:01:48.293 CST [25115] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 19:01:48.293 CST [25115] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 19:01:48.293 CST [25115] DETAIL:  Failing row contains (51362b78-24c8-4c06-b809-798047bc31c1, de3b1e46-96cf-4812-86b6-690ead14bdcf, 0, 0).
+2026-10-08 19:01:48.293 CST [25115] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 19:01:48.293 CST [25115] ERROR:  new row for relation "variant_suppliers" violates check constraint "ck_variant_suppliers_date"
+2026-10-08 19:01:48.293 CST [25115] DETAIL:  Failing row contains (51362b78-24c8-4c06-b809-798047bc31c1, de3b1e46-96cf-4812-86b6-690ead14bdcf, 0, 9007199254740992).
+2026-10-08 19:01:48.293 CST [25115] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1, quoted_at_ms = $2 WHERE variant_id = $3
+2026-10-08 19:01:48.294 CST [25115] ERROR:  invalid input syntax for type bigint: "1.5"
+2026-10-08 19:01:48.294 CST [25115] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-10-08 19:01:48.294 CST [25115] STATEMENT:  UPDATE variant_suppliers SET quoted_price_minor = $1
+2026-10-08 19:01:48.294 CST [25115] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_variant"
+2026-10-08 19:01:48.294 CST [25115] DETAIL:  Key (variant_id)=(da822bc4-067d-49ff-a10a-16ee59fffd6a) is not present in table "product_variants".
+2026-10-08 19:01:48.294 CST [25115] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 19:01:48.294 CST [25115] ERROR:  insert or update on table "variant_suppliers" violates foreign key constraint "fk_variant_suppliers_supplier"
+2026-10-08 19:01:48.294 CST [25115] DETAIL:  Key (supplier_id)=(6afb0aef-74fe-46cc-84c1-f1d809d4fef7) is not present in table "suppliers".
+2026-10-08 19:01:48.294 CST [25115] STATEMENT:  INSERT INTO variant_suppliers VALUES ($1, $2, 0, 1)
+2026-10-08 19:01:48.294 CST [25115] ERROR:  update or delete on table "suppliers" violates RESTRICT setting of foreign key constraint "fk_variant_suppliers_supplier" on table "variant_suppliers"
+2026-10-08 19:01:48.294 CST [25115] DETAIL:  Key (supplier_id)=(de3b1e46-96cf-4812-86b6-690ead14bdcf) is referenced from table "variant_suppliers".
+2026-10-08 19:01:48.294 CST [25115] STATEMENT:  DELETE FROM suppliers WHERE supplier_id = $1
+2026-10-08 19:01:48.339 CST [25118] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_manual_reason"
+2026-10-08 19:01:48.339 CST [25118] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000003, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000003, null, manual_adjustment, -1, null, null, 2026-10-08 19:01:48.34-06, null).
+2026-10-08 19:01:48.339 CST [25118] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_24878_1791507708326"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000003',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000003',
+	          'manual_adjustment', -1, NULL, now()
+	        )
+	      
+2026-10-08 19:01:48.355 CST [25118] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_positive_entries"
+2026-10-08 19:01:48.355 CST [25118] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000004, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000004, null, stock_receipt, -1, null, null, 2026-10-08 19:01:48.356-06, null).
+2026-10-08 19:01:48.355 CST [25118] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_24878_1791507708326"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000004',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000004',
+	          'stock_receipt', -1, NULL, now()
+	        )
+	      
+2026-10-08 19:01:48.356 CST [25118] ERROR:  new row for relation "inventory_movements" violates check constraint "ck_inventory_movements_reason_shape"
+2026-10-08 19:01:48.356 CST [25118] DETAIL:  Failing row contains (30000000-0000-4000-8000-000000000005, 20000000-0000-4000-8000-000000000001, null, 40000000-0000-4000-8000-000000000005, null, stock_receipt, 1, null,  Compra , 2026-10-08 19:01:48.356-06, null).
+2026-10-08 19:01:48.356 CST [25118] STATEMENT:  
+	        INSERT INTO "inventory_flow_migration_it_24878_1791507708326"."inventory_movements" (
+	          "movement_id", "inventory_item_id", "event_id", "movement_type",
+	          "quantity_delta_atomic", "reason", "created_at_local"
+	        ) VALUES (
+	          '30000000-0000-4000-8000-000000000005',
+	          '20000000-0000-4000-8000-000000000001',
+	          '40000000-0000-4000-8000-000000000005',
+	          'stock_receipt', 1, ' Compra ', now()
+	        )
+	      
+2026-10-08 19:01:48.448 CST [25119] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 19:01:48.448 CST [25119] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','bad','operating')
+2026-10-08 19:01:48.461 CST [25119] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 19:01:48.461 CST [25119] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','in','otra')
+2026-10-08 19:01:48.461 CST [25119] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 19:01:48.461 CST [25119] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a','x','in','asset_purchase')
+2026-10-08 19:01:48.462 CST [25119] ERROR:  invalid input syntax for type uuid: "a" at character 67
+2026-10-08 19:01:48.462 CST [25119] STATEMENT:  INSERT INTO financial_categories(id,name,direction,nature) VALUES('a',repeat('x',101),'in','operating')
+2026-10-08 19:01:48.462 CST [25119] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 19:01:48.462 CST [25119] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',0,'MXN','cash',1)
+2026-10-08 19:01:48.462 CST [25119] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 19:01:48.462 CST [25119] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'USD','cash',1)
+2026-10-08 19:01:48.463 CST [25119] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 19:01:48.463 CST [25119] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'MXN','debito',1)
+2026-10-08 19:01:48.463 CST [25119] ERROR:  invalid input syntax for type uuid: "b" at character 149
+2026-10-08 19:01:48.463 CST [25119] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','out','operating',50000,'MXN','cash',0)
+2026-10-08 19:01:48.463 CST [25119] ERROR:  invalid input syntax for type uuid: "b" at character 155
+2026-10-08 19:01:48.463 CST [25119] STATEMENT:  INSERT INTO financial_entries(id,category_id,category_name_snapshot,direction,nature,
+	          amount_minor,currency,method,occurred_at_ms,notes) VALUES('b','11111111-1111-4111-8111-111111111111','Renta','in','operating',50000,'MXN','cash',1,repeat('x',501))
+2026-10-08 19:01:48.464 CST [25119] ERROR:  update or delete on table "financial_categories" violates RESTRICT setting of foreign key constraint "financial_entries_category_id_fkey" on table "financial_entries"
+2026-10-08 19:01:48.464 CST [25119] DETAIL:  Key (id)=(11111111-1111-4111-8111-111111111111) is referenced from table "financial_entries".
+2026-10-08 19:01:48.464 CST [25119] STATEMENT:  DELETE FROM financial_categories WHERE id = $1
+2026-10-08 19:01:48.508 CST [25121] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "product_variants_inventory_item_id_fkey" on table "product_variants"
+2026-10-08 19:01:48.508 CST [25121] DETAIL:  Key (inventory_item_id)=(a3000000-0000-4000-8000-000000000001) is referenced from table "product_variants".
+2026-10-08 19:01:48.508 CST [25121] STATEMENT:  DELETE FROM inventory_items WHERE inventory_item_id = 'a3000000-0000-4000-8000-000000000001'
+2026-10-08 19:01:48.508 CST [25121] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "product_variants_inventory_item_id_fkey" on table "product_variants"
+2026-10-08 19:01:48.508 CST [25121] DETAIL:  Key (inventory_item_id)=(a3000000-0000-4000-8000-000000000001) is referenced from table "product_variants".
+2026-10-08 19:01:48.508 CST [25121] STATEMENT:  DELETE FROM inventory_items WHERE inventory_item_id = 'a3000000-0000-4000-8000-000000000001'
+2026-10-08 19:01:48.543 CST [25122] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 19:01:48.543 CST [25122] DETAIL:  Failing row contains (2, 2, transfer, MXN, 100, 200, 100, BANK).
+2026-10-08 19:01:48.543 CST [25122] STATEMENT:  UPDATE sale_payments SET received_minor=200,change_minor=100 WHERE payment_id=2
+2026-10-08 19:01:48.555 CST [25122] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 19:01:48.555 CST [25122] DETAIL:  Failing row contains (2, 2, credit, MXN, 100, 100, 0, BANK).
+2026-10-08 19:01:48.555 CST [25122] STATEMENT:  UPDATE sale_payments SET method='credit' WHERE payment_id=2
+2026-10-08 19:01:48.556 CST [25122] ERROR:  new row for relation "sale_payments" violates check constraint "ck_direct_payment_method"
+2026-10-08 19:01:48.556 CST [25122] DETAIL:  Failing row contains (2, 2, transfer, USD, 100, 100, 0, BANK).
+2026-10-08 19:01:48.556 CST [25122] STATEMENT:  UPDATE sale_payments SET currency='USD' WHERE payment_id=2
+2026-10-08 19:01:48.556 CST [25122] ERROR:  value too long for type character varying(500)
+2026-10-08 19:01:48.556 CST [25122] STATEMENT:  UPDATE sale_payments SET reference=repeat('x',501) WHERE payment_id=2
+2026-10-08 19:01:48.556 CST [25122] ERROR:  duplicate key value violates unique constraint "sale_payments_sale_id_key"
+2026-10-08 19:01:48.556 CST [25122] DETAIL:  Key (sale_id)=(1) already exists.
+2026-10-08 19:01:48.556 CST [25122] STATEMENT:  UPDATE sale_payments SET sale_id=1 WHERE payment_id=2
+2026-10-08 19:01:48.824 CST [25137] ERROR:  new row for relation "product_variants" violates check constraint "ck_product_variants_barcode_digits"
+2026-10-08 19:01:48.824 CST [25137] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000003, 00000000-0000-4000-8000-000000000010, null, null, 1200, null, 2, 12-345).
+2026-10-08 19:01:48.824 CST [25137] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, barcode, sale_price_minor, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000003',
+	          '00000000-0000-4000-8000-000000000010', '12-345', 1200, 2
+	        )
+	      
+2026-10-08 19:01:48.889 CST [25139] ERROR:  duplicate key value violates unique constraint "ux_product_variants_inventory_item"
+2026-10-08 19:01:48.889 CST [25139] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) already exists.
+2026-10-08 19:01:48.889 CST [25139] STATEMENT:  
+	          UPDATE product_variants
+	          SET inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	          WHERE variant_id = '00000000-0000-4000-8000-000000000002'
+	        
+2026-10-08 19:01:48.889 CST [25139] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "fk_product_variants_inventory_item" on table "product_variants"
+2026-10-08 19:01:48.889 CST [25139] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) is referenced from table "product_variants".
+2026-10-08 19:01:48.889 CST [25139] STATEMENT:  
+	          DELETE FROM inventory_items
+	          WHERE inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	        
+2026-10-08 19:01:48.951 CST [25143] ERROR:  new row for relation "product_variants" violates check constraint "ck_product_variants_standard_cost_non_negative"
+2026-10-08 19:01:48.951 CST [25143] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000002, 00000000-0000-4000-8000-000000000010, 1200, f, 1, Grande, grande, -1).
+2026-10-08 19:01:48.951 CST [25143] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, name, name_key, sale_price_minor,
+	          standard_cost_minor, is_default, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000002',
+	          '00000000-0000-4000-8000-000000000010', 'Grande', 'grande',
+	          1200, -1, false, 1
+	        )
+	      
+2026-10-08 19:01:48.951 CST [25143] ERROR:  duplicate key value violates unique constraint "ux_product_variants_product_name_key"
+2026-10-08 19:01:48.951 CST [25143] DETAIL:  Key (product_id, name_key)=(00000000-0000-4000-8000-000000000010, grande) already exists.
+2026-10-08 19:01:48.951 CST [25143] STATEMENT:  
+	        INSERT INTO product_variants (
+	          variant_id, product_id, name, name_key, sale_price_minor,
+	          is_default, sort_order
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000004',
+	          '00000000-0000-4000-8000-000000000010', 'GRANDE', 'grande',
+	          1300, false, 2
+	        )
+	      
+2026-10-08 19:01:49.043 CST [25147] ERROR:  duplicate key value violates unique constraint "pk_recipe_components"
+2026-10-08 19:01:49.043 CST [25147] DETAIL:  Key (variant_id, inventory_item_id)=(00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010) already exists.
+2026-10-08 19:01:49.043 CST [25147] STATEMENT:  
+	        INSERT INTO "recipe_components_it_24878_1791507709033".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          1
+	        )
+	      
+2026-10-08 19:01:49.043 CST [25147] ERROR:  new row for relation "recipe_components" violates check constraint "ck_recipe_components_quantity_atomic"
+2026-10-08 19:01:49.043 CST [25147] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010, 0).
+2026-10-08 19:01:49.043 CST [25147] STATEMENT:  
+	        INSERT INTO "recipe_components_it_24878_1791507709033".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          0
+	        )
+	      
+2026-10-08 19:01:49.043 CST [25147] ERROR:  new row for relation "recipe_components" violates check constraint "ck_recipe_components_quantity_atomic"
+2026-10-08 19:01:49.043 CST [25147] DETAIL:  Failing row contains (00000000-0000-4000-8000-000000000001, 00000000-0000-4000-8000-000000000010, 9007199254740992).
+2026-10-08 19:01:49.043 CST [25147] STATEMENT:  
+	        INSERT INTO "recipe_components_it_24878_1791507709033".recipe_components (
+	          variant_id,
+	          inventory_item_id,
+	          quantity_atomic
+	        ) VALUES (
+	          '00000000-0000-4000-8000-000000000001',
+	          '00000000-0000-4000-8000-000000000010',
+	          9007199254740992
+	        )
+	      
+2026-10-08 19:01:49.043 CST [25147] ERROR:  update or delete on table "inventory_items" violates RESTRICT setting of foreign key constraint "fk_recipe_components_inventory_item" on table "recipe_components"
+2026-10-08 19:01:49.043 CST [25147] DETAIL:  Key (inventory_item_id)=(00000000-0000-4000-8000-000000000010) is referenced from table "recipe_components".
+2026-10-08 19:01:49.043 CST [25147] STATEMENT:  
+	        DELETE FROM "recipe_components_it_24878_1791507709033".inventory_items
+	        WHERE inventory_item_id = '00000000-0000-4000-8000-000000000010'
+	      
+2026-10-08 19:01:49.158 CST [25149] ERROR:  duplicate key value violates unique constraint "ux_product_variants_product_name_key"
+2026-10-08 19:01:49.158 CST [25149] DETAIL:  Key (product_id, name_key)=(product, grande) already exists.
+2026-10-08 19:01:49.158 CST [25149] STATEMENT:  INSERT INTO product_variants VALUES ('duplicate', 'product', 'grande', 1, true)
+2026-10-08 19:02:46.521 CST [15438] LOG:  checkpoint complete: wrote 707 buffers (4.3%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 2 recycled; write=72.173 s, sync=0.566 s, total=73.436 s; sync files=20755, longest=0.001 s, average=0.001 s; distance=35195 kB, estimate=47632 kB; lsn=0/807D138, redo lsn=0/6E6BB58
+2026-10-08 19:06:33.523 CST [15438] LOG:  checkpoint starting: time
+2026-10-08 19:07:09.764 CST [15434] LOG:  received fast shutdown request
+2026-10-08 19:07:09.764 CST [15434] LOG:  aborting any active transactions
+2026-10-08 19:07:09.765 CST [15434] LOG:  background worker "logical replication launcher" (PID 15443) exited with exit code 1
+2026-10-08 19:07:10.179 CST [15438] LOG:  checkpoint complete: wrote 512 buffers (3.1%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 2 recycled; write=36.249 s, sync=0.003 s, total=36.657 s; sync files=75, longest=0.001 s, average=0.001 s; distance=18506 kB, estimate=44720 kB; lsn=0/807E5A0, redo lsn=0/807E510
+2026-10-08 19:07:10.180 CST [15438] LOG:  shutting down
+2026-10-08 19:07:10.180 CST [15438] LOG:  checkpoint starting: shutdown immediate
+2026-10-08 19:07:10.181 CST [15438] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.002 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=40248 kB; lsn=0/807E618, redo lsn=0/807E618
+2026-10-08 19:07:10.184 CST [15434] LOG:  database system is shut down

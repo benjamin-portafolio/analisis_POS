@@ -1,0 +1,13 @@
+{
+  "command": [
+    "flutter",
+    "build",
+    "macos",
+    "--debug"
+  ],
+  "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+  "started": "2026-10-09T09:34:01.895681-06:00",
+  "finished": "2026-10-09T09:34:19.596086-06:00",
+  "duration_seconds": 17.7,
+  "exit_code": 0
+}

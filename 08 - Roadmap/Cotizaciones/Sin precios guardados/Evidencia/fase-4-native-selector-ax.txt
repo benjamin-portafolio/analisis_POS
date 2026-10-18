@@ -1,0 +1,46 @@
+Window: "pos_flutter", App: pos_flutter.
+0 standard window pos_flutter, Secondary Actions: Raise
+	1 container pos_flutter
+		2 container (settable)
+			3 container (settable) Ticket de cotización
+			4 button (settable)
+				5 popover ID: ShareSheet.Popover, Secondary Actions: Cancel
+					6 container
+						7 image
+						8 text cotizacion-quotation-1 PNG Image · 137 KB
+						9 button AirDrop
+						10 button Mail
+						11 button Messages
+						12 button Notes
+						13 button Add to Photos
+						14 button Freeform
+						15 button Journal
+						16 button Reminders
+						17 button Copy
+						18 button Edit Extensions…
+			19 button (settable)
+			20 button (settable)
+			21 text (settable) Para enviar la cotización, elige WhatsApp en el menú de compartir.
+			22 image (settable) COTIZACIÓN quotation-1
+Fecha de creación: 05/10/2026 09:30
+Precios vigentes al generar
+Cálculo: 06/10/2026 12:00:00
+El precio se recalcula al recuperar en Caja
+Moneda: MXN
+Pan artesanal
+Integral, precio $35.00, cantidad 2, importe $70.00
+Café de especialidad de la sierra con nombre largo para verificar el ticket completo
+Tueste medio, selección de origen, precio $200.00 / 1 kg, cantidad 0.750 kg, importe $150.00
+Leche de almendra, precio $100.00 / 1 L, cantidad 0.250 L, importe $25.00
+Total estimado actual:
+			23 button (settable) Cerrar
+	24 close button
+	25 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	26 minimize button
+	27 text pos_flutter
+28 menu bar
+	29 pos_flutter
+	30 Edit
+	31 View
+	32 Window
+	33 Help

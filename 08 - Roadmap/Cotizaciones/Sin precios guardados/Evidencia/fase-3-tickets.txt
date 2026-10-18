@@ -1,0 +1,62 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart
+test/presentation/pages/cotizaciones/quotation_ticket_test.dart:354:17: Error: The setter 'estimateSource' isn't defined for the type 'Stream<Quotation?>'.
+ - 'Stream' is from 'dart:async'.
+ - 'Quotation' is from 'package:pos_flutter/domain/cotizaciones/quotation.dart' ('lib/domain/cotizaciones/quotation.dart').
+Try correcting the name to the name of an existing setter, or defining a setter or field named 'estimateSource'.
+              ..estimateSource = (_) =>
+                ^^^^^^^^^^^^^^
+test/presentation/pages/cotizaciones/quotation_ticket_test.dart:404:17: Error: The setter 'estimateSource' isn't defined for the type 'Stream<Quotation?>'.
+ - 'Stream' is from 'dart:async'.
+ - 'Quotation' is from 'package:pos_flutter/domain/cotizaciones/quotation.dart' ('lib/domain/cotizaciones/quotation.dart').
+Try correcting the name to the name of an existing setter, or defining a setter or field named 'estimateSource'.
+              ..estimateSource = (q) async =>
+                ^^^^^^^^^^^^^^
+00:00 +0 -1: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart [E]
+  Failed to load "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart":
+  Compilation failed for testPath=/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart: test/presentation/pages/cotizaciones/quotation_ticket_test.dart:354:17: Error: The setter 'estimateSource' isn't defined for the type 'Stream<Quotation?>'.
+   - 'Stream' is from 'dart:async'.
+   - 'Quotation' is from 'package:pos_flutter/domain/cotizaciones/quotation.dart' ('lib/domain/cotizaciones/quotation.dart').
+  Try correcting the name to the name of an existing setter, or defining a setter or field named 'estimateSource'.
+                ..estimateSource = (_) =>
+                  ^^^^^^^^^^^^^^
+  test/presentation/pages/cotizaciones/quotation_ticket_test.dart:404:17: Error: The setter 'estimateSource' isn't defined for the type 'Stream<Quotation?>'.
+   - 'Stream' is from 'dart:async'.
+   - 'Quotation' is from 'package:pos_flutter/domain/cotizaciones/quotation.dart' ('lib/domain/cotizaciones/quotation.dart').
+  Try correcting the name to the name of an existing setter, or defining a setter or field named 'estimateSource'.
+                ..estimateSource = (q) async =>
+                  ^^^^^^^^^^^^^^
+  .
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 939:11    DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 733:19                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 726:19                      _CustomZone.run
+  dart:async/zone.dart 625:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 666:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 194:5      _RawReceivePort._handleMessage
+  
+00:00 +0 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: P09: consulta conserva selección con precio/total no disponibles
+00:00 +1 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+00:00 +2 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: listado muestra carga, error, reintento y ambos vacíos
+00:00 +3 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: doble toque abre un detalle; recuperar espera commit y devuelve resultado a su dueño
+00:00 +4 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: otra captura conserva documento y reintenta la misma identidad
+00:00 +5 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: error por línea: El artículo ya no está disponible.
+00:00 +6 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: error por línea: La unidad está ausente, inactiva o cambió su interpretación.
+00:00 +7 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperar vuelve a Caja después del commit
+00:00 +8 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Continuar usa comando actual; los cambios de estado vienen del repositorio
+00:00 +9 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Vendida abre su recibo sin recuperar
+00:00 +10 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: respuesta histórica sin captura no navega
+00:00 +11 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: recuperación tardía tras salir no navega ni actualiza dispose
+00:00 +12 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: detalle contempla carga, ausencia, error y reintento
+00:00 +13 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: historial y detalle admiten UUID, nombres largos y texto ampliado
+00:00 +14 -1: Some tests failed.

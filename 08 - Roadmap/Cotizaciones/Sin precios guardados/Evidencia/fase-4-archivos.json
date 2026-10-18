@@ -1,0 +1,24 @@
+{
+  "head_initial": "56ddbc49f7369b2598aabe3c67b03135b7c89b46",
+  "head_final": "56ddbc49f7369b2598aabe3c67b03135b7c89b46",
+  "initial_count": 826,
+  "unchanged_count": 823,
+  "modified": {
+    "test/application/commands/cotizaciones/quotation_verification_test.dart": {
+      "before": "e9922c3bb85a1ecf9af893c610d025339520b16de230d21f9d4194a50a3535f7",
+      "after": "54c6b6cf0f695564bef6e6ab2c21a73d109393995db0014cb5d21d40605ff3e4"
+    },
+    "test/core/di/quotation_dependencies_test.dart": {
+      "before": "7b5576a4b77ffb9b402116cd5f75e635b6d434367dbb7dd1071076213fee471a",
+      "after": "fe420c0f17a5b14572d958d3ec261214814bc82d67507523ae566d81b40f236e"
+    },
+    "test/data/local/drift/quotation_backup_test.dart": {
+      "before": "352b3cf0bc84506fb336fee1d7a266cdf19a2691044a4902e49de79ba75df2a7",
+      "after": "4d621eeb7fc20aa46bb43aa9f77fff5f665da4f96155f8f8ab58818e9bb15ca7"
+    }
+  },
+  "new": {
+    "test/application/commands/cotizaciones/quotation_mode_verification_test.dart": "b608a7d42ad3f5a6d213e395032463eec4599364f50e71faa77002d5332f29db"
+  },
+  "deleted": []
+}

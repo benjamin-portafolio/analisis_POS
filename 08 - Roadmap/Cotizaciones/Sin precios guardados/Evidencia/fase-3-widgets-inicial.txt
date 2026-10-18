@@ -1,0 +1,305 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+The finder "Found 2 widgets with key [<'active'>]: [
+  QuotationEstimateBuilder-[<'active'>](state: _QuotationEstimateBuilderState#571a6),
+  ListTile-[<'active'>](isThreeLine: THREE_LINE, onTap: Closure: () => void, dependencies:
+[Directionality, InheritedCupertinoTheme, _InheritedTheme, _LocalizationsScope-[GlobalKey#7cd92]]),
+]" (used in a call to "getTopLeft()") ambiguously found multiple matching widgets. The
+"getTopLeft()" method needs a single target.
+
+When the exception was thrown, this was the stack:
+#0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2095:7)
+#1      WidgetController.getTopLeft (package:flutter_test/src/controller.dart:1958:12)
+#2      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:78:16)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:00 +4 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +4 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar [E]
+  Test failed. See exception logs above.
+  The test description was: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+  
+00:00 +5 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +6 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +7 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +8 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +8 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: doble toque abre un detalle; recuperar espera commit y devuelve resultado a su dueño
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown running a test:
+Bad state: No element
+
+When the exception was thrown, this was the stack:
+#0      Iterable.single (dart:core/iterable.dart:694:25)
+#1      WidgetController.element (package:flutter_test/src/controller.dart:883:30)
+#2      WidgetController.ensureVisible (package:flutter_test/src/controller.dart:2382:32)
+#3      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:169:20)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  doble toque abre un detalle; recuperar espera commit y devuelve resultado a su dueño
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +8 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +8 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: doble toque abre un detalle; recuperar espera commit y devuelve resultado a su dueño [E]
+  Test failed. See exception logs above.
+  The test description was: doble toque abre un detalle; recuperar espera commit y devuelve resultado a su dueño
+  
+00:01 +8 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: otra captura conserva documento y reintenta la misma identidad
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown running a test:
+Bad state: No element
+
+When the exception was thrown, this was the stack:
+#0      Iterable.single (dart:core/iterable.dart:694:25)
+#1      WidgetController.element (package:flutter_test/src/controller.dart:883:30)
+#2      WidgetController.ensureVisible (package:flutter_test/src/controller.dart:2382:32)
+#3      _detail (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:399:16)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:190:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  otra captura conserva documento y reintenta la misma identidad
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +8 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +8 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: otra captura conserva documento y reintenta la misma identidad [E]
+  Test failed. See exception logs above.
+  The test description was: otra captura conserva documento y reintenta la misma identidad
+  
+00:01 +8 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: error por línea: El artículo ya no está disponible.
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown running a test:
+Bad state: No element
+
+When the exception was thrown, this was the stack:
+#0      Iterable.single (dart:core/iterable.dart:694:25)
+#1      WidgetController.element (package:flutter_test/src/controller.dart:883:30)
+#2      WidgetController.ensureVisible (package:flutter_test/src/controller.dart:2382:32)
+#3      _detail (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:399:16)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:213:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  error por línea: El artículo ya no está disponible.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +8 -4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +8 -4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: error por línea: El artículo ya no está disponible. [E]
+  Test failed. See exception logs above.
+  The test description was: error por línea: El artículo ya no está disponible.
+  
+00:01 +9 -4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +9 -4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: error por línea: La unidad está ausente, inactiva o cambió su interpretación.
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown running a test:
+Bad state: No element
+
+When the exception was thrown, this was the stack:
+#0      Iterable.single (dart:core/iterable.dart:694:25)
+#1      WidgetController.element (package:flutter_test/src/controller.dart:883:30)
+#2      WidgetController.ensureVisible (package:flutter_test/src/controller.dart:2382:32)
+#3      _detail (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:399:16)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:213:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  error por línea: La unidad está ausente, inactiva o cambió su interpretación.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +9 -5: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +9 -5: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: error por línea: La unidad está ausente, inactiva o cambió su interpretación. [E]
+  Test failed. See exception logs above.
+  The test description was: error por línea: La unidad está ausente, inactiva o cambió su interpretación.
+  
+00:01 +9 -5: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperar vuelve a Caja después del commit
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown running a test:
+Bad state: No element
+
+When the exception was thrown, this was the stack:
+#0      Iterable.single (dart:core/iterable.dart:694:25)
+#1      WidgetController.element (package:flutter_test/src/controller.dart:883:30)
+#2      WidgetController.ensureVisible (package:flutter_test/src/controller.dart:2382:32)
+#3      _detail (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:399:16)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:227:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Recuperar vuelve a Caja después del commit
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +9 -6: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +9 -6: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperar vuelve a Caja después del commit [E]
+  Test failed. See exception logs above.
+  The test description was: Recuperar vuelve a Caja después del commit
+  
+00:01 +10 -6: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +10 -6: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Continuar usa comando actual; los cambios de estado vienen del repositorio
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown running a test:
+Bad state: No element
+
+When the exception was thrown, this was the stack:
+#0      Iterable.single (dart:core/iterable.dart:694:25)
+#1      WidgetController.element (package:flutter_test/src/controller.dart:883:30)
+#2      WidgetController.ensureVisible (package:flutter_test/src/controller.dart:2382:32)
+#3      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:254:20)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Continuar usa comando actual; los cambios de estado vienen del repositorio
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +10 -7: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +10 -7: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Continuar usa comando actual; los cambios de estado vienen del repositorio [E]
+  Test failed. See exception logs above.
+  The test description was: Continuar usa comando actual; los cambios de estado vienen del repositorio
+  
+00:01 +10 -7: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Vendida abre su recibo sin recuperar
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown running a test:
+Bad state: No element
+
+When the exception was thrown, this was the stack:
+#0      Iterable.single (dart:core/iterable.dart:694:25)
+#1      WidgetController.element (package:flutter_test/src/controller.dart:883:30)
+#2      WidgetController.ensureVisible (package:flutter_test/src/controller.dart:2382:32)
+#3      _detail (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:399:16)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:269:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Vendida abre su recibo sin recuperar
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +10 -8: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +10 -8: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Vendida abre su recibo sin recuperar [E]
+  Test failed. See exception logs above.
+  The test description was: Vendida abre su recibo sin recuperar
+  
+00:01 +10 -8: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: respuesta histórica sin captura no navega
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown running a test:
+Bad state: No element
+
+When the exception was thrown, this was the stack:
+#0      Iterable.single (dart:core/iterable.dart:694:25)
+#1      WidgetController.element (package:flutter_test/src/controller.dart:883:30)
+#2      WidgetController.ensureVisible (package:flutter_test/src/controller.dart:2382:32)
+#3      _detail (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:399:16)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:293:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  respuesta histórica sin captura no navega
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +10 -9: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +10 -9: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: respuesta histórica sin captura no navega [E]
+  Test failed. See exception logs above.
+  The test description was: respuesta histórica sin captura no navega
+  
+00:01 +11 -9: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +11 -9: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: recuperación tardía tras salir no navega ni actualiza dispose
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown running a test:
+Bad state: No element
+
+When the exception was thrown, this was the stack:
+#0      Iterable.single (dart:core/iterable.dart:694:25)
+#1      WidgetController.element (package:flutter_test/src/controller.dart:883:30)
+#2      WidgetController.ensureVisible (package:flutter_test/src/controller.dart:2382:32)
+#3      _detail (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:399:16)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:308:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  recuperación tardía tras salir no navega ni actualiza dispose
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +11 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +11 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: recuperación tardía tras salir no navega ni actualiza dispose [E]
+  Test failed. See exception logs above.
+  The test description was: recuperación tardía tras salir no navega ni actualiza dispose
+  
+00:01 +12 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +13 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +14 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +15 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +16 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +17 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +18 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +19 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +20 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +21 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +22 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +23 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:05 +24 -10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: reinicio real carga ticket por ID: editar captura/catalogo muestra estimación vigente
+00:05 +25 -10: Some tests failed.

@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "passed": 1061,
+    "failed": 1,
+    "skipped": 0,
+    "failures": [
+      {
+        "id": 1009,
+        "name": "busca con debounce y conserva búsqueda y filtros al cambiar de pestaña",
+        "suiteID": 958,
+        "groupIDs": [
+          985
+        ],
+        "metadata": {
+          "skip": false,
+          "skipReason": null
+        },
+        "line": 174,
+        "column": 5,
+        "url": "package:flutter_test/src/widget_tester.dart",
+        "root_line": 291,
+        "root_column": 3,
+        "root_url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart"
+      }
+    ],
+    "done": {
+      "success": false,
+      "type": "done",
+      "time": 36072
+    }
+  },
+  "new_core_tests": 43,
+  "new_http_tests": 1,
+  "nest": {
+    "passed": 44,
+    "failed": 0,
+    "skipped": 0
+  }
+}

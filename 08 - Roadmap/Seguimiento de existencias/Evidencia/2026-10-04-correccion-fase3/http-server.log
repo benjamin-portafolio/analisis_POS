@@ -1,0 +1,9 @@
+{"url":"http://127.0.0.1:61003","schema":"seg_phase3_http_48094_1791145770824","database":"pos_nest_test_seg_phase3"}
+Error: connect ECONNREFUSED 127.0.0.1:60744
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60744
+}

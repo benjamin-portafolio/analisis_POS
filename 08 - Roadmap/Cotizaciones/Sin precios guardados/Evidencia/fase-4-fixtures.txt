@@ -1,0 +1,2 @@
+OK: 11 JSON; quotation sin importes; 2 intenciones estables; N=2 + vínculo; 13 refs server_sync; total venta 39000.
+QA documental completado. No sustituye las pruebas Flutter ni acredita por sí solo P01–P28.

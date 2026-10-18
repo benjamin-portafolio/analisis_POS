@@ -1,0 +1,16 @@
+{
+  "command": "flutter test --reporter=json",
+  "started_at": "2026-10-10T04:40:16.415753+00:00",
+  "finished_at": "2026-10-10T04:41:27.000288+00:00",
+  "exit_code": 0,
+  "passed": 1766,
+  "skipped": 10,
+  "failed": 0,
+  "done": [
+    {
+      "success": true,
+      "type": "done",
+      "time": 69175
+    }
+  ]
+}

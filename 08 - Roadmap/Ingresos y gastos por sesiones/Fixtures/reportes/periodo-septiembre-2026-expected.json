@@ -1,0 +1,23 @@
+{
+  "periodo": {
+    "from_ms": 1788220800000,
+    "to_ms": 1790812800000,
+    "semantica": "[from, to)"
+  },
+  "esperado": {
+    "income_minor": "200000",
+    "expense_minor": "200000",
+    "cash_minor": "250000",
+    "transfer_minor": "150000",
+    "net_minor": "0",
+    "movements_included": [
+      "33333333-3333-4333-8333-333333333333",
+      "77777777-7777-4777-8777-777777777777",
+      "55555555-5555-4555-8555-555555555555"
+    ],
+    "excluded": [
+      "borde en to_ms",
+      "borde antes de from_ms"
+    ]
+  }
+}

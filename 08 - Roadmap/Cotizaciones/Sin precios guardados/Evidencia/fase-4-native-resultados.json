@@ -1,0 +1,47 @@
+{
+  "platform": "macOS 27.0.1 arm64",
+  "entry": "fase-4-native-probe.dart.txt",
+  "data": "Fixture en memoria; no inicializa DI, SQLite, sync ni comandos",
+  "selectors": [
+    "Compartir: NSSSharingServicePicker abierto y cancelado",
+    "WhatsApp: mismo selector abierto y cancelado",
+    "Compartir reabierto tras ambas cancelaciones"
+  ],
+  "destinations": [
+    "AirDrop",
+    "Mail",
+    "Messages",
+    "Notes",
+    "Add to Photos",
+    "Freeform",
+    "Journal",
+    "Reminders",
+    "Copy"
+  ],
+  "whatsapp_offered": false,
+  "real_delivery": false,
+  "limits": "WhatsApp instalado en el host según inventario CUA, pero ausente del selector ofrecido. Sin envío/recepción real ni destinatario. Android/iOS físicos e iOS no ejecutados; selector Android de fase 3 sigue válido.",
+  "native_shared_png": [
+    {
+      "source": "/Users/benjamin/Library/Containers/com.example.posFlutter/Data/Library/Caches/a2c3f510-6737-4b5b-87fc-faa1137ae5e1/cotizacion-quotation-1.png",
+      "width": 880,
+      "height": 1328,
+      "bytes": 136643,
+      "sha256": "d886c55f8125185fc24a139b0bb0268affaecec82c5d6a95846e144939b17696"
+    },
+    {
+      "source": "/Users/benjamin/Library/Containers/com.example.posFlutter/Data/Library/Caches/328a9c48-a5f2-47d0-8a82-ecbf7ee35ed8/cotizacion-quotation-1.png",
+      "width": 880,
+      "height": 1328,
+      "bytes": 136643,
+      "sha256": "d886c55f8125185fc24a139b0bb0268affaecec82c5d6a95846e144939b17696"
+    },
+    {
+      "source": "/Users/benjamin/Library/Containers/com.example.posFlutter/Data/Library/Caches/b50fa5e1-4997-4471-9684-3639ac600c12/cotizacion-quotation-1.png",
+      "width": 880,
+      "height": 1328,
+      "bytes": 136643,
+      "sha256": "d886c55f8125185fc24a139b0bb0268affaecec82c5d6a95846e144939b17696"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "./gradlew",
+    ":pos_bluetooth_printer:testDebugUnitTest"
+  ],
+  "cwd": "/Users/benjamin/Projects/POS/pos_flutter/android",
+  "started": "2026-10-09T09:25:56.740851-06:00",
+  "finished": "2026-10-09T09:26:03.620607-06:00",
+  "duration_seconds": 6.88,
+  "exit_code": 0
+}

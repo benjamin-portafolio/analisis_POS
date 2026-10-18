@@ -1,0 +1,8 @@
+SET
+{"resource" : "3474af26-08ee-4904-9aa4-27777b21d9a5", "origin" : "a573fd60-3a35-41af-b05f-0c1346047417", "active" : true}
+{"on_hand" : 9, "available" : 9}
+{"movements" : 2, "consumptions" : 1}
+{"sales" : 1}
+{"payments" : 1}
+{"variant" : "a573fd60-3a35-41af-b05f-0c1346047417", "resource" : "3474af26-08ee-4904-9aa4-27777b21d9a5", "source_event" : "6a0065c6-5748-4ea0-949e-27affd83c3c1", "sequence" : 27}
+{"discards" : 0}

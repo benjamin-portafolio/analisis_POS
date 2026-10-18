@@ -1,0 +1,18 @@
+Fecha local: 2026-10-06
+OK Markdown/enlaces/whitespace: Casos de aceptacion.md
+OK Markdown/enlaces/whitespace: Contrato y fixtures.md
+OK Markdown/enlaces/whitespace: Estado y continuidad.md
+OK Markdown/enlaces/whitespace: Fixtures/README.md
+OK Markdown/enlaces/whitespace: Mapeo y limpieza.md
+OK Markdown/enlaces/whitespace: Matriz de pruebas.md
+OK Markdown/enlaces/whitespace: Plan de implementacion.md
+OK Markdown/enlaces/whitespace: Sesiones/01 - Contrato y preparacion.md
+OK Markdown/enlaces/whitespace: Sesiones/02 - Core y esquema.md
+OK Markdown/enlaces/whitespace: Sesiones/03 - Consulta y ticket.md
+OK Markdown/enlaces/whitespace: Sesiones/04 - Verificacion y cierre.md
+OK matriz: P01–P28 asociados y 20 rutas completas de tests existentes.
+OK: dos bloques JSON canónicos coinciden exactamente con fixtures.
+OK: 11 JSON; quotation sin importes; 2 intenciones estables; N=2 + vínculo; 13 refs server_sync; total venta 39000.
+QA documental completado. Contratos Flutter/P01–P28 todavía pendientes de implementación.
+OK git diff --check en análisis y Flutter; whitespace adicional comprobado en los nuevos Markdown/JSON/Python de fase 1.
+OK preservación: 806 archivos/hash/status/HEAD Flutter intactos; análisis modifica cuatro notas de fase 1. Variación externa de .obsidian/workspace.json registrada y conservada sin intervención.

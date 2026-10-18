@@ -1,0 +1,1464 @@
+[
+  {
+    "productId": "13894",
+    "productName": "Papitas Totis adobo 90 g",
+    "brand": "TOTIS",
+    "brandId": 2002001,
+    "brandImageUrl": null,
+    "linkText": "papitas-totis-adobo-90-g",
+    "productReference": "16ATOT029",
+    "productReferenceCode": "16ATOT029",
+    "categoryId": "1156",
+    "productTitle": "papitas totis adobo 90 g",
+    "metaTagDescription": "Compra Papitas Totis adobo 90 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2023-07-21T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Botanas y Fruta Seca/Papas y Frituras/",
+      "/Despensa/Botanas y Fruta Seca/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1046/1156/",
+      "/1003/1046/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/papitas-totis-adobo-90-g/p",
+    "Color": [
+      "Amarillo",
+      "Rojo",
+      "Verde"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Picante"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Papas y Snacks"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "81g - 90g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Las Totis Papitas Adobo son papas fritas clásicas de Totis, con un sabor tradicional adobado, ideal para quienes disfrutan de un toque picante y ahumado sobre una base crujiente. Esta versión de 90?g ofrece una porción generosa, perfecta tanto para compartir como para disfrutar solo.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "13734",
+        "name": "Papitas Totis adobo 90 g",
+        "nameComplete": "Papitas Totis adobo 90 g",
+        "complementName": "",
+        "ean": "7500366003958",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "16ATOT029"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303315",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303315-#width#-#height#/7500366003958.jpg?v=638840700892070000\" width=\"#width#\" height=\"#height#\" alt=\"7500366003958\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303315/7500366003958.jpg?v=638840700892070000",
+            "imageText": "7500366003958",
+            "imageLastModified": "2025-05-28T23:01:29.2070000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=13734&qty=1&seller=1&sc=1&price=2150&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 21.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 21.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 21.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 21.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 21.5,
+              "ListPrice": 21.5,
+              "PriceWithoutDiscount": 21.5,
+              "FullSellingPrice": 21.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjVhYzUxOTFmLTljZWEtNGQyMC04ZGUxLTVjYjQ5MGUxZDA0ZSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoyMTUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MjE1MCwic2VsbGVyIjoiMSIsImlkIjoiMTM3MzQiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6IjEyZGUxOWE4LTdiOWItNDMwOC04NzcxLTA3YThlZWI2MmExOCIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.KlQIxvq0mLqUWQfLkY-z2BBdvuzLfKAkQ1c0L2aW6hLEkfmgKghUARY5DFL4r-3dIGucnG5l_4omfN1HvjWR7Q",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 2150,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 2150,
+                        "total": 2150,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 2150,
+                            "total": 2150
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 2150,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 2150,
+                        "total": 2150,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 2150,
+                            "total": 2150
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T15:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T15:09:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "13893",
+    "productName": "Papitas Totis sal 90 g",
+    "brand": "TOTIS",
+    "brandId": 2002001,
+    "brandImageUrl": null,
+    "linkText": "papitas-totis-sal-90-g",
+    "productReference": "16ATOT028",
+    "productReferenceCode": "16ATOT028",
+    "categoryId": "1156",
+    "productTitle": "papitas totis sal 90 g",
+    "metaTagDescription": "Compra Papitas Totis sal 90 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2023-07-21T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Botanas y Fruta Seca/Papas y Frituras/",
+      "/Despensa/Botanas y Fruta Seca/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1046/1156/",
+      "/1003/1046/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/papitas-totis-sal-90-g/p",
+    "Color": [
+      "Amarillo",
+      "Blanco"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Sal"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Papas y Snacks"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "81g - 90g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Las Totis Papitas con Sal 90?g son una versión clásica de papas fritas de la marca Totis, elaboradas con ingredientes sencillos y pensadas para quienes prefieren un sabor tradicional. Es una presentación generosa, ideal para compartir o para un snack personal satisfactorio.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "13733",
+        "name": "Papitas Totis sal 90 g",
+        "nameComplete": "Papitas Totis sal 90 g",
+        "complementName": "",
+        "ean": "7500366003941",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "16ATOT028"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "294116",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/294116-#width#-#height#/7500366003941.jpg?v=638255786965270000\" width=\"#width#\" height=\"#height#\" alt=\"7500366003941\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/294116/7500366003941.jpg?v=638255786965270000",
+            "imageText": "7500366003941",
+            "imageLastModified": "2023-07-21T23:24:56.5270000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=13733&qty=1&seller=1&sc=1&price=2150&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 21.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 21.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 21.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 21.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 21.5,
+              "ListPrice": 21.5,
+              "PriceWithoutDiscount": 21.5,
+              "FullSellingPrice": 21.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjUxOWJiZTViLTkwYjEtNDVmOS1hZTdkLTBkMDJlYTUzYjYwYSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoyMTUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MjE1MCwic2VsbGVyIjoiMSIsImlkIjoiMTM3MzMiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6IjFjNmQwODZkLTE4MjktNDNlZi1hYTNlLWNjNWJmYmQ2MWI4NCIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.3WSJcswA4466uAOdQxMZG7fBYrbkDl95vsn4up-TH-vMKQDjoNaMnvWostgbotaaRCmmVgNazyhjpUH4O7geZg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 2150,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 2150,
+                        "total": 2150,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 2150,
+                            "total": 2150
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 2150,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 2150,
+                        "total": 2150,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 2150,
+                            "total": 2150
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T15:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T15:09:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "13896",
+    "productName": "Paps Totis adobo 170 g",
+    "brand": "TOTIS",
+    "brandId": 2002001,
+    "brandImageUrl": null,
+    "linkText": "paps-totis-adobo-170-g",
+    "productReference": "16ATOT031",
+    "productReferenceCode": "16ATOT031",
+    "categoryId": "1156",
+    "productTitle": "paps totis adobo 170 g",
+    "metaTagDescription": "Compra Paps Totis adobo 170 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2023-07-21T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Botanas y Fruta Seca/Papas y Frituras/",
+      "/Despensa/Botanas y Fruta Seca/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1046/1156/",
+      "/1003/1046/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/paps-totis-adobo-170-g/p",
+    "Color": [
+      "Amarillo",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Papas y Snacks"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "81g - 90g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Las Pap’s Totis Adobo son papas fritas elaboradas con papa natural, finamente rebanadas, fritas y cubiertas con un condimento de adobo lleno de sabor. Con 170?g, esta presentación es ideal para compartir o satisfacer un gran antojo. <br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "13736",
+        "name": "Paps Totis adobo 170 g",
+        "nameComplete": "Paps Totis adobo 170 g",
+        "complementName": "",
+        "ean": "7500366000643",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "16ATOT031"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303312",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303312-#width#-#height#/7500366000643.jpg?v=638840697582170000\" width=\"#width#\" height=\"#height#\" alt=\"7500366000643\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303312/7500366000643.jpg?v=638840697582170000",
+            "imageText": "7500366000643",
+            "imageLastModified": "2025-05-28T22:55:58.2170000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=13736&qty=1&seller=1&sc=1&price=4700&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 47.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 47.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 47.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 47.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 47.0,
+              "ListPrice": 47.0,
+              "PriceWithoutDiscount": 47.0,
+              "FullSellingPrice": 47.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImVhN2YzZGI4LWY4MmUtNGU3Zi04NTIxLTFjNDU0MWEyNjU0NyIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo0NzAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NDcwMCwic2VsbGVyIjoiMSIsImlkIjoiMTM3MzYiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6IjcyZTU2YzEwLTI0ZDMtNDM5MS04OTUwLTUxMzMzODA3NzQxYiIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.MJ1YPjaCUMlOv24qfnD4kVn5Eze_juDMBhdTu7ecvmGrv1GC4K9HIlb6PLPWebFto9vHiyjwt6CMR3lxhcAqDA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 4700,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 4700,
+                        "total": 4700,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 4700,
+                            "total": 4700
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 4700,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 4700,
+                        "total": 4700,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 4700,
+                            "total": 4700
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "13895",
+    "productName": "Paps Totis sal 170 g",
+    "brand": "TOTIS",
+    "brandId": 2002001,
+    "brandImageUrl": null,
+    "linkText": "paps-totis-sal-170-g",
+    "productReference": "16ATOT030",
+    "productReferenceCode": "16ATOT030",
+    "categoryId": "1156",
+    "productTitle": "paps totis sal 170 g",
+    "metaTagDescription": "Compra Paps Totis sal 170 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2023-07-21T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Botanas y Fruta Seca/Papas y Frituras/",
+      "/Despensa/Botanas y Fruta Seca/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1046/1156/",
+      "/1003/1046/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/paps-totis-sal-170-g/p",
+    "Color": [
+      "Amarillo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Sal"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Las Pap’s Totis Sal 170?g son una versión generosa y clásica de papas fritas hechas con ingredientes simples: papa natural, aceite vegetal y sal yodada. Están pensadas para quienes buscan un snack tradicional que no deje de lado la sencillez y crocancia auténtica. <br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "13735",
+        "name": "Paps Totis sal 170 g",
+        "nameComplete": "Paps Totis sal 170 g",
+        "complementName": "",
+        "ean": "7500366000629",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "16ATOT030"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303314",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303314-#width#-#height#/7500366000629.jpg?v=638840698892670000\" width=\"#width#\" height=\"#height#\" alt=\"7500366000629\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303314/7500366000629.jpg?v=638840698892670000",
+            "imageText": "7500366000629",
+            "imageLastModified": "2025-05-28T22:58:09.2670000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=13735&qty=1&seller=1&sc=1&price=4700&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 47.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 47.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 47.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 47.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 47.0,
+              "ListPrice": 47.0,
+              "PriceWithoutDiscount": 47.0,
+              "FullSellingPrice": 47.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjNlZGJjMGM2LWIyNjYtNGQ2Ny04MTQ4LTMwZjE2MzQ3N2Y0MiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo0NzAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NDcwMCwic2VsbGVyIjoiMSIsImlkIjoiMTM3MzUiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6ImRlMjYzOTc0LWZkNDctNDNiZi05MDljLWFhNTAwNzQ1NGVjNyIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.Flcq-rM0Hwv4V_zeHNRFU40ho_SaLv4bbokktPlxkz9CYxTUmNwja61zHiqnwQxxpylIFSvz0SLN8P1MWoOJPA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 4700,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 4700,
+                        "total": 4700,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 4700,
+                            "total": 4700
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 4700,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 4700,
+                        "total": 4700,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 4700,
+                            "total": 4700
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:10:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "13897",
+    "productName": "Papitas Totis hot chili 90 g",
+    "brand": "TOTIS",
+    "brandId": 2002001,
+    "brandImageUrl": null,
+    "linkText": "papitas-totis-hot-chili-90-g",
+    "productReference": "16ATOT032",
+    "productReferenceCode": "16ATOT032",
+    "categoryId": "1156",
+    "productTitle": "papitas totis hot chili 90 g",
+    "metaTagDescription": "Compra Papitas Totis hot chili 90 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2023-07-21T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Botanas y Fruta Seca/Papas y Frituras/",
+      "/Despensa/Botanas y Fruta Seca/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1046/1156/",
+      "/1003/1046/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/papitas-totis-hot-chili-90-g/p",
+    "Aroma": [
+      "Varios"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Papas y Snacks"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "41g - 50g"
+    ],
+    "allSpecifications": [
+      "Aroma",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Aroma",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Las Papitas Totis Hot Chili son un snack tradicional mexicano que combina la textura crujiente de las papas fritas delgadas con un sabor picante y audaz que resalta el paladar. Cada papita está cuidadosamente sazonada con una mezcla especial de chiles secos molidos, especias y un toque cítrico que aporta frescura al intenso sabor picante. <br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "13737",
+        "name": "Papitas Totis hot chili 90 g",
+        "nameComplete": "Papitas Totis hot chili 90 g",
+        "complementName": "",
+        "ean": "7500366003910",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "16ATOT032"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303311",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303311-#width#-#height#/7500366003910.jpg?v=638840696566200000\" width=\"#width#\" height=\"#height#\" alt=\"7500366003910\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303311/7500366003910.jpg?v=638840696566200000",
+            "imageText": "7500366003910",
+            "imageLastModified": "2025-05-28T22:54:16.6200000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=13737&qty=1&seller=1&sc=1&price=2150&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 21.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 21.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 21.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 21.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 21.5,
+              "ListPrice": 21.5,
+              "PriceWithoutDiscount": 21.5,
+              "FullSellingPrice": 21.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImJmZmRlNTYwLTNlN2YtNDAyYy05MzNjLWVjYjFkODA2M2NmOSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoyMTUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MjE1MCwic2VsbGVyIjoiMSIsImlkIjoiMTM3MzciLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6ImZjZTQwN2Q3LTZhMmQtNGViYy04YWM0LTlhYzJhOTdiMDhiMCIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.MLhboZZ8IjQpcaDWR8moTL7agz0GvUdqioHgGllt8xfLT0_HeOElE_5tiiGBAflP20qrBZSzkIiwX8JkMn3Gxg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 2150,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 2150,
+                        "total": 2150,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 2150,
+                            "total": 2150
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 2150,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 2150,
+                        "total": 2150,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 2150,
+                            "total": 2150
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T15:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T15:09:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "13892",
+    "productName": "Botana Totis donitas sal limón 50 g",
+    "brand": "TOTIS",
+    "brandId": 2002001,
+    "brandImageUrl": null,
+    "linkText": "botana-totis-donitas-sal-limon-50-g",
+    "productReference": "16ATOT027",
+    "productReferenceCode": "16ATOT027",
+    "categoryId": "1156",
+    "productTitle": "botana totis donitas sal limón 50 g",
+    "metaTagDescription": "Compra Botana Totis donitas sal limón 50 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2023-07-21T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Botanas y Fruta Seca/Papas y Frituras/",
+      "/Despensa/Botanas y Fruta Seca/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1046/1156/",
+      "/1003/1046/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/botana-totis-donitas-sal-limon-50-g/p",
+    "Color": [
+      "Amarillo",
+      "Verde"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Sal"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Peso": [
+      "41g - 50g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Las Totis Donitas Sal y Limón son una botana crujiente elaborada a base de harina de trigo, con forma de pequeños anillos o “donitas” y un sabor refrescante y ácido que combina la intensidad salada con un toque cítrico de limón. Esta versión de 50 gramos es ideal para un snack individual, perfecto para llevar o acompañar momentos de antojo. <br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "13732",
+        "name": "Botana Totis donitas sal limón 50 g",
+        "nameComplete": "Botana Totis donitas sal limón 50 g",
+        "complementName": "",
+        "ean": "643795541244",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "16ATOT027"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303317",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303317-#width#-#height#/643795541244.png?v=638840704294430000\" width=\"#width#\" height=\"#height#\" alt=\"643795541244\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303317/643795541244.png?v=638840704294430000",
+            "imageText": "643795541244",
+            "imageLastModified": "2025-05-28T23:07:09.4430000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=13732&qty=1&seller=1&sc=1&price=1600&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 16.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 16.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 16.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 16.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 16.0,
+              "ListPrice": 16.0,
+              "PriceWithoutDiscount": 16.0,
+              "FullSellingPrice": 16.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImI5ZjFmMThkLTE2YmYtNDAyYy1hZjU3LWYzNmU4MTQ1MzZiMSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxNjAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MTYwMCwic2VsbGVyIjoiMSIsImlkIjoiMTM3MzIiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6IjE3ZDM4ZDVhLWU1YWMtNGI1MS05MWM0LWY5NzkzNjgwMTc4YSIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.opou54yVBnYG4IRO6tVmwdSi8df2CuiqeNVtVnAkBu97xhIHzIXocM4PqMQo1his83X1mx1bAbxN0FtM8D62LQ",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 1600,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1600,
+                        "total": 1600,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1600,
+                            "total": 1600
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 1600,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1600,
+                        "total": 1600,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1600,
+                            "total": 1600
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  }
+]

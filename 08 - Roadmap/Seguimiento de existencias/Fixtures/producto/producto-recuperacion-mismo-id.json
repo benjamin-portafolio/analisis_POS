@@ -1,0 +1,97 @@
+{
+  "event_id": "b3000000-0000-4000-8000-000000000005",
+  "aggregate_type": "product",
+  "aggregate_id": "a1000000-0000-4000-8000-000000000001",
+  "event_type": "producto_actualizado",
+  "device_id": "dispositivo-1",
+  "user_id": "usuario-1",
+  "local_sequence": 5,
+  "base_server_sequence": 43,
+  "base_version": 3,
+  "created_at_local": "2026-10-01T12:00:00.000Z",
+  "payload": {
+    "base_event_id": "b3000000-0000-4000-8000-000000000004",
+    "before": {
+      "product": {
+        "name": "Café molido",
+        "category_id": null,
+        "sale_configuration": {
+          "mode": "unit"
+        }
+      },
+      "variants": [
+        {
+          "variant_id": "a2000000-0000-4000-8000-000000000001",
+          "name": "250 g",
+          "sku": null,
+          "barcode": null,
+          "sale_price_minor": 4500,
+          "standard_cost_minor": 1800,
+          "inventory_configuration": {
+            "enabled": true,
+            "components": [
+              {
+                "inventory_item_id": "a4000000-0000-4000-8000-000000000001",
+                "quantity_atomic": 1000
+              }
+            ]
+          },
+          "sort_order": 0
+        },
+        {
+          "variant_id": "a2000000-0000-4000-8000-000000000002",
+          "name": "1 kg",
+          "sku": null,
+          "barcode": null,
+          "sale_price_minor": 15000,
+          "standard_cost_minor": 6000,
+          "sort_order": 1
+        }
+      ],
+      "dependencies": [
+        {
+          "ref_type": "inventory_item",
+          "ref_id": "a4000000-0000-4000-8000-000000000001",
+          "depends_on_event_id": "b1000000-0000-4000-8000-000000000004"
+        }
+      ]
+    },
+    "after": {
+      "product": {
+        "name": "Café molido",
+        "category_id": null,
+        "sale_configuration": {
+          "mode": "unit"
+        }
+      },
+      "variants": [
+        {
+          "variant_id": "a2000000-0000-4000-8000-000000000001",
+          "name": "250 g",
+          "sku": null,
+          "barcode": null,
+          "sale_price_minor": 4500,
+          "standard_cost_minor": 1800,
+          "inventory_item_id": "a3000000-0000-4000-8000-000000000001",
+          "sort_order": 0
+        },
+        {
+          "variant_id": "a2000000-0000-4000-8000-000000000002",
+          "name": "1 kg",
+          "sku": null,
+          "barcode": null,
+          "sale_price_minor": 15000,
+          "standard_cost_minor": 6000,
+          "sort_order": 1
+        }
+      ],
+      "dependencies": [
+        {
+          "ref_type": "inventory_item",
+          "ref_id": "a3000000-0000-4000-8000-000000000001",
+          "depends_on_event_id": "b1000000-0000-4000-8000-000000000001"
+        }
+      ]
+    }
+  }
+}

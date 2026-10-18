@@ -1,0 +1,242 @@
+{
+  "output": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /outputs/barcel_foto_20261016/barcel_productos_carga_masiva.csv",
+  "references": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /outputs/barcel_foto_20261016/barcel_referencias_y_estimaciones.csv",
+  "articulos": 23,
+  "conCodigo": 23,
+  "preciosFoto": 22,
+  "preciosInternet": 1,
+  "nota": "Todos los gramajes son estimaciones autorizadas, no lecturas de la foto. Costos vacíos y seguimiento de existencias desactivado para no inventar saldos.",
+  "omitidos": "Bolsas amarilla y roja parcialmente tapadas: no se identifica con seguridad el producto o sabor.",
+  "products": [
+    {
+      "base": "Barcel Chips crema y especias",
+      "grams": 62,
+      "price": 20,
+      "barcode": "7500810039168",
+      "url": "https://www.fpsf.mx/products/chips-sal-62-gr-barcel-copia",
+      "priceSource": "Foto: cenefa Chips $20",
+      "note": "También se publica como 52 g con el mismo código. Se usa la presentación de 62 g de la fuente citada.",
+      "name": "Barcel Chips crema y especias 62 g"
+    },
+    {
+      "base": "Barcel Chips sal de mar",
+      "grams": 62,
+      "price": 20,
+      "barcode": "7500810024560",
+      "url": "https://www.fpsf.mx/products/chips-sal-de-mar-56-gr-barcel-copia",
+      "priceSource": "Foto: cenefa Chips $20",
+      "note": "",
+      "name": "Barcel Chips sal de mar 62 g"
+    },
+    {
+      "base": "Barcel Chips Fuego",
+      "grams": 62,
+      "price": 20,
+      "barcode": "7500810024546",
+      "url": "https://www.fpsf.mx/products/chips-fuego-limon-62-gr-barcel",
+      "priceSource": "Foto: cenefa Chips $20",
+      "note": "",
+      "name": "Barcel Chips Fuego 62 g"
+    },
+    {
+      "base": "Takis Pix explosión de queso",
+      "grams": 65,
+      "price": 20,
+      "barcode": "7500810046609",
+      "url": "https://www.fpsf.mx/products/takis-pix-explosion-de-queso-65-g",
+      "priceSource": "Foto: cenefa del nivel $20",
+      "note": "Bolsa naranja con logotipo Pix.",
+      "name": "Takis Pix explosión de queso 65 g"
+    },
+    {
+      "base": "Takis Intense Nacho",
+      "grams": 70,
+      "price": 20,
+      "barcode": "7500810041307",
+      "url": "https://www.fpsf.mx/products/takis-limon-70-g-barcel-copia-1",
+      "priceSource": "Foto: cenefa Takis $20",
+      "note": "",
+      "name": "Takis Intense Nacho 70 g"
+    },
+    {
+      "base": "Takis Chile Limón",
+      "grams": 70,
+      "price": 20,
+      "barcode": "7500810036822",
+      "url": "https://www.fpsf.mx/products/takis-fuego-70-g-barcel-copia",
+      "priceSource": "Foto: cenefa Takis $20",
+      "note": "",
+      "name": "Takis Chile Limón 70 g"
+    },
+    {
+      "base": "Takis Buckin' Ranch",
+      "grams": 70,
+      "price": 20,
+      "barcode": "7500810040904",
+      "url": "https://www.fpsf.mx/products/takis-limon-70-g-barcel-copia",
+      "priceSource": "Foto: cenefa Takis $20",
+      "note": "Identificado por la bolsa morada y celeste con imagen de aderezo blanco.",
+      "name": "Takis Buckin' Ranch 70 g"
+    },
+    {
+      "base": "Takis Fuego",
+      "grams": 70,
+      "price": 20,
+      "barcode": "7500810003671",
+      "url": "https://www.fpsf.mx/products/takis-fuego-65-g",
+      "priceSource": "Foto: cenefa Takis $20",
+      "note": "",
+      "name": "Takis Fuego 70 g"
+    },
+    {
+      "base": "Takis Original",
+      "grams": 70,
+      "price": 20,
+      "barcode": "7500810000441",
+      "url": "https://mercadosnatura.com/product/takis-original-70g-barcel",
+      "priceSource": "Foto: cenefa Takis $20",
+      "note": "",
+      "name": "Takis Original 70 g"
+    },
+    {
+      "base": "Takis Salsa Brava",
+      "grams": 70,
+      "price": 20,
+      "barcode": "7500810000502",
+      "url": "https://vinaterialosnogales.com/index.php?categoria=FRITURAS+Y+BOTANAS",
+      "priceSource": "Foto: cenefa Takis $20",
+      "note": "",
+      "name": "Takis Salsa Brava 70 g"
+    },
+    {
+      "base": "Takis Huakamoles",
+      "grams": 70,
+      "price": 20,
+      "barcode": "7500810000489",
+      "url": "https://popsamerica.com/es/patatas-fritas-americanas/1658-taki-huakamoles-70g.html",
+      "priceSource": "Foto: cenefa Takis $20",
+      "note": "",
+      "name": "Takis Huakamoles 70 g"
+    },
+    {
+      "base": "Takis Blue Heat",
+      "grams": 70,
+      "price": 20,
+      "barcode": "7500810028353",
+      "url": "https://maxder.mx/maxder/compras/producto/takis-blue-heat-70g/7500810028353-8288/",
+      "priceSource": "Foto: cenefa Takis $20",
+      "note": "",
+      "name": "Takis Blue Heat 70 g"
+    },
+    {
+      "base": "Barcel Pop Karameladas",
+      "grams": 45,
+      "price": 18,
+      "barcode": "7500810005040",
+      "url": "https://www.fpsf.mx/products/pop-karameladas-barcel-50-g",
+      "priceSource": "Foto: cenefa inferior $18",
+      "note": "Se incluye una sola fila aunque aparece más de una bolsa.",
+      "name": "Barcel Pop Karameladas 45 g"
+    },
+    {
+      "base": "Barcel Pop queso cheddar",
+      "grams": 45,
+      "price": 18,
+      "barcode": "7500810013564",
+      "url": "https://store13343.store.link/product/sp-barcel-pop-queso-cheddar-45-gr-popsenque45g-7500810013564/",
+      "priceSource": "Foto: cenefa inferior $18",
+      "note": "",
+      "name": "Barcel Pop queso cheddar 45 g"
+    },
+    {
+      "base": "Barcel Toreadas habanero",
+      "grams": 45,
+      "price": 18,
+      "barcode": "7500810027813",
+      "url": "https://superfenix.mx/producto/papas-fritas-barcel-toreadas-chile-habanero-45-g/",
+      "priceSource": "Foto: cenefa inferior $18",
+      "note": "",
+      "name": "Barcel Toreadas habanero 45 g"
+    },
+    {
+      "base": "Barcel chicharrón de cerdo natural",
+      "grams": 30,
+      "price": 18,
+      "barcode": "7503030199728",
+      "url": "https://www.fpsf.mx/products/chicharron-100-de-cerdo-natural-30-g-barcel",
+      "priceSource": "Foto: cenefa Runners $18",
+      "note": "",
+      "name": "Barcel chicharrón de cerdo natural 30 g"
+    },
+    {
+      "base": "Barcel Chipotles queso y chipotle",
+      "grams": 65,
+      "price": 18,
+      "barcode": "7500810027646",
+      "url": "https://vinaterialosnogales.com/index.php?categoria=FRITURAS+Y+BOTANAS",
+      "priceSource": "Foto: cenefa Runners $18",
+      "note": "",
+      "name": "Barcel Chipotles queso y chipotle 65 g"
+    },
+    {
+      "base": "Barcel Runners Fuego",
+      "grams": 72,
+      "price": 18,
+      "barcode": "7500810027820",
+      "url": "https://vinaterialosnogales.com/index.php?categoria=FRITURAS+Y+BOTANAS",
+      "priceSource": "Foto: cenefa Runners $18",
+      "note": "Bolsa morada.",
+      "name": "Barcel Runners Fuego 72 g"
+    },
+    {
+      "base": "Barcel Runners salsa picante",
+      "grams": 72,
+      "price": 18,
+      "barcode": "7500810027837",
+      "url": "https://vinaterialosnogales.com/index.php?categoria=FRITURAS+Y+BOTANAS",
+      "priceSource": "Foto: cenefa Runners $18",
+      "note": "Bolsa roja. La fuente también lo identifica como Runners o Chile Limón.",
+      "name": "Barcel Runners salsa picante 72 g"
+    },
+    {
+      "base": "Barcel Big Mix Fuego",
+      "grams": 75,
+      "price": 20,
+      "barcode": "7500810013199",
+      "url": "https://superdtodo.com/product/big-mix-fuego-75-gr",
+      "priceSource": "Foto: $20 impreso en la bolsa",
+      "note": "",
+      "name": "Barcel Big Mix Fuego 75 g"
+    },
+    {
+      "base": "Barcel Big Mix Jalapeño",
+      "grams": 75,
+      "price": 20,
+      "barcode": "7503031361551",
+      "url": "https://superdtodo.com/product/big-mix-jalapeno-75-gr",
+      "priceSource": "Foto: $20 impreso en la bolsa",
+      "note": "",
+      "name": "Barcel Big Mix Jalapeño 75 g"
+    },
+    {
+      "base": "Karate cacahuates japoneses",
+      "grams": 75,
+      "price": 10,
+      "barcode": "7500478023516",
+      "url": "https://es.scribd.com/document/699626333/inventario-paginae",
+      "priceSource": "Foto: precio impreso parcialmente cubierto, interpretado como $10",
+      "note": "Código de la presentación de 75 g de un catálogo público de inventario. El empaque también se vende en otros gramajes; confirmar presentación y precio.",
+      "name": "Karate cacahuates japoneses 75 g"
+    },
+    {
+      "base": "Barcel Kiyakis clásicos",
+      "grams": 60,
+      "price": 17.1,
+      "barcode": "7500810027714",
+      "url": "https://superfenix.mx/producto/cacahuates-kiyakis-japoneses-60-g/",
+      "priceSource": "Internet: Fénix, precio consultado el 2026-10-16",
+      "note": "El precio de la foto no es legible. Se usa $17.10 como referencia externa, no como precio observado en el exhibidor.",
+      "name": "Barcel Kiyakis clásicos 60 g"
+    }
+  ]
+}

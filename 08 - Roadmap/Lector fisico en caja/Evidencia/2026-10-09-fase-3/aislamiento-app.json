@@ -1,0 +1,53 @@
+{
+  "source_app": "/Users/benjamin/Projects/POS/pos_flutter/build/macos/Build/Products/Debug/pos_flutter.app",
+  "test_app": "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app",
+  "bundle_id": "com.example.posFlutter.physicalReaderPhase3",
+  "expected_database": "/Users/benjamin/Library/Containers/com.example.posFlutter.physicalReaderPhase3/Data/Documents/pos_db.sqlite",
+  "original_database": [
+    "/Users/benjamin/Library/Containers/com.example.posFlutter/Data/Documents/pos_db.sqlite"
+  ],
+  "source_executable_sha256": "3ab1ea7f769f7cfda498030c92aececb6b8546fd06643f890938646b22210be2",
+  "test_executable_sha256": "eb1b73165e703f7ff8a6ef2e3ecca666509ea0d8331b0cb595c6e5faf6791d79",
+  "codesign": [
+    {
+      "command": [
+        "codesign",
+        "--force",
+        "--sign",
+        "-",
+        "--entitlements",
+        "macos/Runner/DebugProfile.entitlements",
+        "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app"
+      ],
+      "exit_code": 0,
+      "output": "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app: replacing existing signature\n"
+    },
+    {
+      "command": [
+        "codesign",
+        "--verify",
+        "--deep",
+        "--strict",
+        "--verbose=2",
+        "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app"
+      ],
+      "exit_code": 0,
+      "output": "--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/MacOS/__preview.dylib\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/MacOS/__preview.dylib\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/MacOS/pos_flutter.debug.dylib\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/MacOS/pos_flutter.debug.dylib\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/AppCheckCore.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/sqlite3.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/sqlite3_flutter_libs.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/AppCheckCore.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/sqlite3.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/sqlite3_flutter_libs.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/Promises.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/App.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/AppAuth.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/mobile_scanner.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/GoogleUtilities.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/FBLPromises.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/GTMSessionFetcher.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/GTMAppAuth.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/Promises.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/AppAuth.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/GoogleUtilities.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/mobile_scanner.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/path_provider_foundation.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/GTMAppAuth.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/FBLPromises.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/GTMSessionFetcher.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/path_provider_foundation.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/connectivity_plus.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/file_picker.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/connectivity_plus.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/file_picker.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/GoogleSignIn.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/share_plus.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/share_plus.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/GoogleSignIn.framework/Versions/Current/.\n--prepared:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/FlutterMacOS.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/FlutterMacOS.framework/Versions/Current/.\n--validated:/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/Frameworks/App.framework/Versions/Current/.\n/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app: valid on disk\n/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app: satisfies its Designated Requirement\n"
+    },
+    {
+      "command": [
+        "codesign",
+        "--display",
+        "--entitlements",
+        ":-",
+        "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app"
+      ],
+      "exit_code": 0,
+      "output": "Executable=/private/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-physical-phase3-963p760f/POS Fase 3.app/Contents/MacOS/pos_flutter\nwarning: Specifying ':' in the path is deprecated and will not work in a future release\n<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"https://www.apple.com/DTDs/PropertyList-1.0.dtd\"><plist version=\"1.0\"><dict><key>com.apple.security.app-sandbox</key><true/><key>com.apple.security.cs.allow-jit</key><true/><key>com.apple.security.device.camera</key><true/><key>com.apple.security.network.client</key><true/><key>com.apple.security.network.server</key><true/></dict></plist>\n"
+    }
+  ],
+  "compiled_dart_sha256": {
+    "source": "365853a5c0df0afd2f28605f358f3d1d1bcfd0270e5d3d6d7084cba6f78687dd",
+    "isolated": "365853a5c0df0afd2f28605f358f3d1d1bcfd0270e5d3d6d7084cba6f78687dd"
+  }
+}

@@ -1,0 +1,537 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand --json --outputFile=/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/nest-test.json
+
+FAIL src/sync/cash-events.postgres.spec.ts
+  ● Caja PostgreSQL temporal, transacciones y causalidad › fixtures compartidos y rechazo de totales divergentes
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › event_id con contenido distinto se rechaza sin mutar caja
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › apertura repetida y dos aperturas concurrentes, una sola abierta
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › cash in/out, transfer excluido, corte recalculado, reintento y tardío conservado
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › cierre antes de dependencia queda pending y acepta retry tras recibir operación
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › dependencia conflictiva y segundo escritor nunca aceptan cierre ni operación
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › concurrencia operación/cierre no cambia un corte aceptado
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › corte con lista incompleta o total alterado no es aceptado
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › migración aditiva y down protegido en esquema temporal
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+FAIL src/sync/account-balance-baselines.postgres.spec.ts
+  ● Saldo en cuenta bancaria PostgreSQL temporal › acepta la declaración y la fila queda sincronizada
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › admite un saldo sobregirado y no lo recorta
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › la segunda declaración se conserva como conflicto y no borra la primera
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › misma identidad con otro event_id también se conserva sin pisar la fila
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › el reintento del mismo event_id se reconoce como duplicado
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › sobre inválido se rechaza sin guardar evento
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › una declaración con dependencia ausente se conserva como pendiente
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › migración aditiva y down protegido en esquema temporal
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+FAIL src/sync/financial-events.postgres.spec.ts
+  ● Ingresos y gastos PostgreSQL aislado › push concurrente del mismo event_id produce accepted + duplicate
+
+    TypeError: Cannot read properties of undefined (reading 'toISOString')
+
+      238 |       status,
+      239 |       server_sequence: Number(e.serverSequence),
+    > 240 |       created_at_server: e.createdAtServer.toISOString(),
+          |                                            ^
+      241 |       ...(e.rejectionReason ? { reason: e.rejectionReason } : {}),
+      242 |       ...(status === 'duplicate' ? { original_sync_status: e.syncStatus } : {}),
+      243 |     };
+
+      at FinancialEntryEventHandler.result (sync/financial-entry-event.handler.ts:240:44)
+      at FinancialEntryEventHandler.saveConflict (sync/financial-entry-event.handler.ts:174:15)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/financial-events.postgres.spec.ts:103:6)
+          at async Promise.all (index 1)
+      at Object.<anonymous> (sync/financial-events.postgres.spec.ts:385:21)
+
+
+Summary of all failing tests
+FAIL sync/cash-events.postgres.spec.ts
+  ● Caja PostgreSQL temporal, transacciones y causalidad › fixtures compartidos y rechazo de totales divergentes
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › event_id con contenido distinto se rechaza sin mutar caja
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › apertura repetida y dos aperturas concurrentes, una sola abierta
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › cash in/out, transfer excluido, corte recalculado, reintento y tardío conservado
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › cierre antes de dependencia queda pending y acepta retry tras recibir operación
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › dependencia conflictiva y segundo escritor nunca aceptan cierre ni operación
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › concurrencia operación/cierre no cambia un corte aceptado
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › corte con lista incompleta o total alterado no es aceptado
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+  ● Caja PostgreSQL temporal, transacciones y causalidad › migración aditiva y down protegido en esquema temporal
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      23 |  const device='cash-test-'+randomUUID();
+      24 |  beforeAll(async()=>{
+    > 25 |   if(!process.env.DATABASE_NAME?.startsWith('pos_cash_test_')) throw new Error('Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.');
+         |                                                                      ^
+      26 |   db=new DataSource({type:'postgres',host:process.env.DATABASE_HOST,port:Number(process.env.DATABASE_PORT),username:process.env.DATABASE_USER,password:process.env.DATABASE_PASSWORD,database:process.env.DATABASE_NAME,synchronize:true,entities:[__dirname+'/../entities/*.entity.ts']});
+      27 |   await db.initialize();
+      28 |   service=new SyncService(db,{notifyEventsAvailable:jest.fn()} as unknown as EventsGateway,new SyncConflictService(),undefined,undefined,undefined,undefined,undefined,undefined,new FinancialCategoryEventHandler(new SyncConflictService()),new FinancialEntryEventHandler(new SyncConflictService()),handler);
+
+      at Object.<anonymous> (sync/cash-events.postgres.spec.ts:25:70)
+
+FAIL sync/account-balance-baselines.postgres.spec.ts
+  ● Saldo en cuenta bancaria PostgreSQL temporal › acepta la declaración y la fila queda sincronizada
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › admite un saldo sobregirado y no lo recorta
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › la segunda declaración se conserva como conflicto y no borra la primera
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › misma identidad con otro event_id también se conserva sin pisar la fila
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › el reintento del mismo event_id se reconoce como duplicado
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › sobre inválido se rechaza sin guardar evento
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › una declaración con dependencia ausente se conserva como pendiente
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › migración aditiva y down protegido en esquema temporal
+
+    Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.
+
+      26 |   beforeAll(async () => {
+      27 |     if (!process.env.DATABASE_NAME?.startsWith('pos_cash_test_'))
+    > 28 |       throw new Error(
+         |             ^
+      29 |         'Estas pruebas exigen DATABASE_NAME temporal pos_cash_test_*.',
+      30 |       );
+      31 |     db = new DataSource({
+
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:28:13)
+
+FAIL sync/financial-events.postgres.spec.ts
+  ● Ingresos y gastos PostgreSQL aislado › push concurrente del mismo event_id produce accepted + duplicate
+
+    TypeError: Cannot read properties of undefined (reading 'toISOString')
+
+      238 |       status,
+      239 |       server_sequence: Number(e.serverSequence),
+    > 240 |       created_at_server: e.createdAtServer.toISOString(),
+          |                                            ^
+      241 |       ...(e.rejectionReason ? { reason: e.rejectionReason } : {}),
+      242 |       ...(status === 'duplicate' ? { original_sync_status: e.syncStatus } : {}),
+      243 |     };
+
+      at FinancialEntryEventHandler.result (sync/financial-entry-event.handler.ts:240:44)
+      at FinancialEntryEventHandler.saveConflict (sync/financial-entry-event.handler.ts:174:15)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/financial-events.postgres.spec.ts:103:6)
+          at async Promise.all (index 1)
+      at Object.<anonymous> (sync/financial-events.postgres.spec.ts:385:21)
+
+
+Test Suites: 3 failed, 42 passed, 45 total
+Tests:       18 failed, 368 passed, 386 total
+Snapshots:   0 total
+Time:        4.852 s, estimated 22 s
+Ran all test suites.
+Test results written to: ../../../../../../../../../var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/nest-test.json

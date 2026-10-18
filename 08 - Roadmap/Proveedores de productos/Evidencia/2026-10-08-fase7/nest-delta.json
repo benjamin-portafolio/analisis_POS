@@ -1,0 +1,11 @@
+{
+  "modified": [
+    "test/support/variant-tracking-server.ts",
+    "src/sync/sync.service.ts",
+    "src/sync/sync.service.spec.ts",
+    "src/sync/dto/sync-health.dto.ts",
+    "docs/product_suppliers.md"
+  ],
+  "new": [],
+  "removed": []
+}

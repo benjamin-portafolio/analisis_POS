@@ -1,0 +1,48 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart
+00:00 +0: acceso 1 de Caja abre una sola cámara, sin crear venta
+00:01 +1: acceso 2 de Caja abre una sola cámara, sin crear venta
+00:01 +2: venta previa, A → B → A, regreso y reapertura en standalone
+00:01 +3: venta previa, A → B → A, regreso y reapertura en serverSync
+00:02 +4: 20 s de callbacks y tres presentaciones simuladas acumulan solo al rearmar
+00:02 +5: selección seguida de cantidad medida conserva evento y referencias en standalone
+00:03 +6: selección seguida de cantidad medida conserva evento y referencias en serverSync
+00:03 +7: un fallo de detección detiene la cámara y conserva el regreso
+00:03 +8: desconocido, incompatible, varios códigos e inactivos no escriben
+00:03 +9: código compartido selecciona producto, variante y precio sin primer resultado automático
+00:04 +10: cancelar selector y callbacks duplicados/ocultos no repiten el diálogo
+00:04 +11: venta medida valida y convierte la cantidad con expectedUnitId
+00:04 +12: cancelar cantidad y pausa del diálogo conservan la venta vacía
+00:04 +13: una unidad cambiada durante el diálogo falla sin una tarjeta optimista
+00:05 +14: segundo plano durante cantidad espera confirmación explícita al volver
+00:05 +15: cancelar selector o cantidad conserva artículos previos
+00:05 +16: unidad inactiva y variante retirada durante selección no escriben
+00:06 +17: fallo de consulta o guardado conserva venta previa y permite otra presentación
+00:06 +18: consulta y guardado lentos serializan admisión y observan presencia
+00:07 +19: cerrar con botón espera el guardado y descarta callbacks antiguos
+00:07 +20: cerrar con regreso del sistema espera el guardado y descarta callbacks antiguos
+00:07 +21: cerrar durante consulta descarta el resultado sin comenzar un guardado
+00:07 +22: segundo plano y ruta cubierta no acreditan retirada ni aceptan callbacks
+00:08 +23: consulta pendiente interrumpida por segundo plano no agrega al terminar
+00:08 +24: consulta pendiente interrumpida por pausa y regreso no agrega al terminar
+00:08 +25: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:09 +26: segundo plano durante guardado conserva un solo commit
+00:09 +27: referencia vacía se valida antes de escribir en standalone
+00:09 +28: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:12 +29: fallo SQLite durante proyección revierte evento, refs y venta en standalone
+00:12 +30: referencia vacía se valida antes de escribir en serverSync
+00:12 +31: A ×2 y B ×2, Caja y reinicio SQLite real en serverSync
+00:15 +32: fallo SQLite durante proyección revierte evento, refs y venta en serverSync
+00:15 +33: cámara permissionDenied conserva productos previos y regreso disponible
+00:16 +34: cámara unsupported conserva productos previos y regreso disponible
+00:16 +35: permiso pendiente al cerrar libera la cámara cuando termina el inicio
+00:16 +36: permiso pendiente al ir a segundo plano termina detenido y reanuda sin duplicar
+00:16 +37: snapshots de precios distintos mantienen tarjetas distintas y un artículo
+00:16 +38: snapshots de unidades distintas no se fusionan visualmente
+00:17 +39: callback ean13 conserva código y ceros iniciales
+00:17 +40: callback ean8 conserva código y ceros iniciales
+00:17 +41: callback upcA conserva código y ceros iniciales
+00:17 +42: rotar teléfono pequeño con texto ampliado conserva venta y controles
+00:17 +43: tarjetas desplazables, cámara y total sin overflow en Size(320.0, 640.0), texto 2.0
+00:17 +44: tarjetas desplazables, cámara y total sin overflow en Size(740.0, 360.0), texto 1.3
+00:18 +45: tarjetas desplazables, cámara y total sin overflow en Size(1280.0, 800.0), texto 1.0
+00:18 +46: All tests passed!

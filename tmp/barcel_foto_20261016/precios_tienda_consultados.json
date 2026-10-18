@@ -1,0 +1,162 @@
+[
+  {
+    "barcode": "7500810039168",
+    "name": "Barcel Chips crema y especias 62 g",
+    "source": "https://www.fpsf.mx/products/chips-sal-62-gr-barcel-copia",
+    "title": "Chips Crema y especias 62 gr Barcel",
+    "available": true,
+    "variants": [
+      {
+        "price": 2300,
+        "compare_at_price": null,
+        "barcode": "7500810039168",
+        "sku": "7500810039168",
+        "available": true
+      }
+    ]
+  },
+  {
+    "barcode": "7500810024560",
+    "name": "Barcel Chips sal de mar 62 g",
+    "source": "https://www.fpsf.mx/products/chips-sal-de-mar-56-gr-barcel-copia",
+    "title": "Chips Sal 62 gr Barcel",
+    "available": true,
+    "variants": [
+      {
+        "price": 2300,
+        "compare_at_price": null,
+        "barcode": "7500810024560",
+        "sku": "7500810024560",
+        "available": true
+      }
+    ]
+  },
+  {
+    "barcode": "7500810024546",
+    "name": "Barcel Chips Fuego 62 g",
+    "source": "https://www.fpsf.mx/products/chips-fuego-limon-62-gr-barcel",
+    "title": "Chips Fuego Limón 62 gr Barcel",
+    "available": true,
+    "variants": [
+      {
+        "price": 2200,
+        "compare_at_price": null,
+        "barcode": "7500810024546",
+        "sku": "7500810024546",
+        "available": true
+      }
+    ]
+  },
+  {
+    "barcode": "7500810046609",
+    "name": "Takis Pix explosión de queso 65 g",
+    "source": "https://www.fpsf.mx/products/takis-pix-explosion-de-queso-65-g",
+    "title": "Takis pix  explosión de queso  65 g",
+    "available": true,
+    "variants": [
+      {
+        "price": 1500,
+        "compare_at_price": null,
+        "barcode": "7500810046609",
+        "sku": "7500810046609",
+        "available": true
+      }
+    ]
+  },
+  {
+    "barcode": "7500810041307",
+    "name": "Takis Intense Nacho 70 g",
+    "source": "https://www.fpsf.mx/products/takis-limon-70-g-barcel-copia-1",
+    "title": "Takis  INTENSE NACHO 70 g Barcel",
+    "available": true,
+    "variants": [
+      {
+        "price": 2200,
+        "compare_at_price": null,
+        "barcode": "7500810041307",
+        "sku": "7500810041307",
+        "available": true
+      }
+    ]
+  },
+  {
+    "barcode": "7500810036822",
+    "name": "Takis Chile Limón 70 g",
+    "source": "https://www.fpsf.mx/products/takis-fuego-70-g-barcel-copia",
+    "title": "Takis  Limon 70 g Barcel",
+    "available": true,
+    "variants": [
+      {
+        "price": 2200,
+        "compare_at_price": null,
+        "barcode": "7500810036822",
+        "sku": "7500810036822",
+        "available": true
+      }
+    ]
+  },
+  {
+    "barcode": "7500810040904",
+    "name": "Takis Buckin' Ranch 70 g",
+    "source": "https://www.fpsf.mx/products/takis-limon-70-g-barcel-copia",
+    "title": "Takis  BUCKIN RANCH  70 g Barcel",
+    "available": true,
+    "variants": [
+      {
+        "price": 2000,
+        "compare_at_price": null,
+        "barcode": "7500810040904",
+        "sku": "7500810040904",
+        "available": true
+      }
+    ]
+  },
+  {
+    "barcode": "7500810003671",
+    "name": "Takis Fuego 70 g",
+    "source": "https://www.fpsf.mx/products/takis-fuego-65-g",
+    "title": "Takis Fuego 70 g Barcel",
+    "available": true,
+    "variants": [
+      {
+        "price": 2300,
+        "compare_at_price": null,
+        "barcode": "7500810003671",
+        "sku": "7500810003671",
+        "available": true
+      }
+    ]
+  },
+  {
+    "barcode": "7500810005040",
+    "name": "Barcel Pop Karameladas 45 g",
+    "source": "https://www.fpsf.mx/products/pop-karameladas-barcel-50-g",
+    "title": "Pop Karameladas Barcel 45 g",
+    "available": true,
+    "variants": [
+      {
+        "price": 1200,
+        "compare_at_price": null,
+        "barcode": "7500810005040",
+        "sku": "7500810005040",
+        "available": true
+      }
+    ]
+  },
+  {
+    "barcode": "7503030199728",
+    "name": "Barcel chicharrón de cerdo natural 30 g",
+    "source": "https://www.fpsf.mx/products/chicharron-100-de-cerdo-natural-30-g-barcel",
+    "title": "Chicharrón 100% de Cerdo Natural 30 g Barcel",
+    "available": true,
+    "variants": [
+      {
+        "price": 2200,
+        "compare_at_price": null,
+        "barcode": "7503030199728",
+        "sku": "7503030199728",
+        "available": true
+      }
+    ]
+  }
+]

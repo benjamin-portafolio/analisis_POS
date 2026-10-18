@@ -1,0 +1,42 @@
+--- fase4/test/data/local/drift/quotation_backup_test.dart
++++ fase5/test/data/local/drift/quotation_backup_test.dart
+@@ -341,11 +341,25 @@
+         ).createSnapshot();
+         try {
+           if (restored) {
+-            // Ejercita copia, cierre y marcador de la ruta real de restauración.
+-            await DriftDatabaseRestoreService(
+-              db: h.db,
+-            ).restoreSnapshot(snapshot.file, sha256: snapshot.sha256);
+-            h.config.dispose();
++            // Restore rechaza ahora el esquema antiguo antes de reemplazarlo.
++            // La protección de un archivo legado ya presente se verifica aparte.
++            final currentFile = await appDatabaseFile();
++            final currentHash = sha256
++                .convert(await currentFile.readAsBytes())
++                .toString();
++            await expectLater(
++              DriftDatabaseRestoreService(
++                db: h.db,
++              ).restoreSnapshot(snapshot.file, sha256: snapshot.sha256),
++              throwsStateError,
++            );
++            expect(
++              sha256.convert(await currentFile.readAsBytes()).toString(),
++              currentHash,
++            );
++            expect(await appDatabaseShouldPreserveRestoredDatabase(), isFalse);
++            await markAppDatabaseAsRestored();
++            await h.dispose();
+           } else {
+             await h.dispose();
+           }
+@@ -414,6 +428,8 @@
+               'legacy_event_preserved': restored,
+               'whole_database_reset': !restored,
+               'restore_service_executed': restored,
++              'restore_rejected_before_replacement': restored,
++              'startup_protection_marked_explicitly': restored,
+             };
+           } finally {
+             raw.close();

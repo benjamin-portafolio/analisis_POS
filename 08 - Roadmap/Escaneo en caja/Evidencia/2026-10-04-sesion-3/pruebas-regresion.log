@@ -1,0 +1,250 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/repositories/producto_codigo_barras_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/data/repositories/producto_codigo_barras_test.dart: cero/uno: igualdad exacta, NFKC y ceros conservados; consulta sin eventos
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/data/repositories/producto_codigo_barras_test.dart: cero/uno: igualdad exacta, NFKC y ceros conservados; consulta sin eventos
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/data/repositories/producto_codigo_barras_test.dart: cero/uno: igualdad exacta, NFKC y ceros conservados; consulta sin eventos
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/caja_screen_test.dart: caja muestra líneas, cantidades e importes y deja acciones pendientes deshabilitadas
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/caja_screen_test.dart: caja muestra líneas, cantidades e importes y deja acciones pendientes deshabilitadas
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/caja_screen_test.dart: caja muestra líneas, cantidades e importes y deja acciones pendientes deshabilitadas
+00:01 +6: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/caja_screen_test.dart: caja muestra líneas, cantidades e importes y deja acciones pendientes deshabilitadas
+00:01 +7: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: acceso 1 de Caja abre una sola cámara, sin crear venta
+00:02 +8: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: acceso 1 de Caja abre una sola cámara, sin crear venta
+00:02 +9: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_summary_card_test.dart: el bloque de efectivo no cambia y el de transferencias va aparte
+00:02 +10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_summary_card_test.dart: el bloque de efectivo no cambia y el de transferencias va aparte
+00:02 +11: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_summary_card_test.dart: el bloque de efectivo no cambia y el de transferencias va aparte
+00:02 +12: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_summary_card_test.dart: el bloque de efectivo no cambia y el de transferencias va aparte
+00:02 +13: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_summary_card_test.dart: el bloque de efectivo no cambia y el de transferencias va aparte
+00:02 +14: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_summary_card_test.dart: el bloque de efectivo no cambia y el de transferencias va aparte
+00:02 +15: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_summary_card_test.dart: el bloque de efectivo no cambia y el de transferencias va aparte
+00:02 +16: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_summary_card_test.dart: el bloque de efectivo no cambia y el de transferencias va aparte
+00:02 +17: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:02 +18: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:02 +19: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:02 +20: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:02 +21: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:02 +22: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:02 +23: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:03 +24: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:03 +25: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:03 +26: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:03 +27: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart: transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura
+00:03 +28: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: venta previa, A → B → A, regreso y reapertura en serverSync
+00:03 +29: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: venta previa, A → B → A, regreso y reapertura en serverSync
+00:03 +30: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/saldo_cuenta_estimado_card_test.dart: con saldo declarado conviven flujo y stock con etiquetas distintas
+00:04 +31: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/saldo_cuenta_estimado_card_test.dart: con saldo declarado conviven flujo y stock con etiquetas distintas
+00:04 +32: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma  después de commit y bloquea doble toque
+00:04 +33: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma  después de commit y bloquea doble toque
+00:04 +34: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma  después de commit y bloquea doble toque
+00:04 +35: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma  después de commit y bloquea doble toque
+00:05 +36: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma  después de commit y bloquea doble toque
+00:05 +37: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/credit_payment_test.dart: crédito exige seleccionar cliente, filtra y confirma una sola vez
+00:05 +38: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/credit_payment_test.dart: crédito exige seleccionar cliente, filtra y confirma una sola vez
+00:05 +39: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/credit_payment_test.dart: crédito exige seleccionar cliente, filtra y confirma una sola vez
+00:05 +40: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/credit_payment_test.dart: crédito exige seleccionar cliente, filtra y confirma una sola vez
+00:05 +41: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/credit_payment_test.dart: crédito exige seleccionar cliente, filtra y confirma una sola vez
+00:05 +42: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/credit_payment_test.dart: crédito exige seleccionar cliente, filtra y confirma una sola vez
+00:05 +43: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma 100 después de commit y bloquea doble toque
+00:05 +44: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma 100 después de commit y bloquea doble toque
+00:05 +45: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma 100 después de commit y bloquea doble toque
+00:05 +46: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: un fallo de detección detiene la cámara y conserva el regreso
+00:05 +47: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: un fallo de detección detiene la cámara y conserva el regreso
+00:05 +48: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma 200 después de commit y bloquea doble toque
+00:05 +49: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma 200 después de commit y bloquea doble toque
+00:06 +50: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +51: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +52: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +53: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +54: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +55: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +56: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +57: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +58: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +59: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +60: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +61: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +62: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +63: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +64: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +65: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/draft_item_edit_test.dart: línea medida muestra unidad y + suma la referencia del precio
+00:06 +66: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:06 +67: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:06 +68: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:06 +69: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:07 +70: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:07 +71: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: venta medida valida y convierte la cantidad con expectedUnitId
+00:07 +72: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: venta medida valida y convierte la cantidad con expectedUnitId
+00:07 +73: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: venta medida valida y convierte la cantidad con expectedUnitId
+00:07 +74: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:07 +75: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:07 +76: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +77: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +78: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +79: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +80: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +81: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +82: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:08 +83: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:08 +84: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:08 +85: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:08 +86: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:08 +87: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:08 +88: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:09 +89: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:09 +90: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:09 +91: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_payment_screen_test.dart: suma denominaciones desde cero y sobre el importe capturado
+00:09 +92: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: unidad inactiva y variante retirada durante selección no escriben
+00:09 +93: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:09 +94: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:09 +95: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:09 +96: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:09 +97: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:09 +98: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:09 +99: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:09 +100: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:10 +101: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:10 +102: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/articles_screen_test.dart: abre Artículos con buscador y conserva los otros controles inertes
+00:10 +103: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/articles_screen_test.dart: abre Artículos con buscador y conserva los otros controles inertes
+00:10 +104: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/articles_screen_test.dart: abre Artículos con buscador y conserva los otros controles inertes
+00:10 +105: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta y guardado lentos serializan admisión y observan presencia
+00:10 +106: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta y guardado lentos serializan admisión y observan presencia
+00:10 +107: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta y guardado lentos serializan admisión y observan presencia
+00:11 +108: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: finanzas selecciona cajón explícitamente y transferencia limpia selección
+00:11 +109: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: finanzas selecciona cajón explícitamente y transferencia limpia selección
+00:11 +110: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: finanzas selecciona cajón explícitamente y transferencia limpia selección
+00:11 +111: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cerrar con botón espera el guardado y descarta callbacks antiguos
+00:11 +112: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: observa cantidades, conserva el botón al filtrar y lo retira al limpiar
+00:11 +113: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: observa cantidades, conserva el botón al filtrar y lo retira al limpiar
+00:11 +114: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: observa cantidades, conserva el botón al filtrar y lo retira al limpiar
+00:12 +115: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: observa cantidades, conserva el botón al filtrar y lo retira al limpiar
+00:12 +116: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: observa cantidades, conserva el botón al filtrar y lo retira al limpiar
+00:12 +117: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: observa cantidades, conserva el botón al filtrar y lo retira al limpiar
+00:12 +118: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: observa cantidades, conserva el botón al filtrar y lo retira al limpiar
+00:12 +119: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano y ruta cubierta no acreditan retirada ni aceptan callbacks
+00:12 +120: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano y ruta cubierta no acreditan retirada ni aceptan callbacks
+00:12 +121: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano y ruta cubierta no acreditan retirada ni aceptan callbacks
+00:12 +122: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano y ruta cubierta no acreditan retirada ni aceptan callbacks
+00:12 +123: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo null, commit completo y reintento persistente
+00:12 +124: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo null, commit completo y reintento persistente
+00:12 +125: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo null, commit completo y reintento persistente
+00:12 +126: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo null, commit completo y reintento persistente
+00:12 +127: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo null, commit completo y reintento persistente
+00:12 +128: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo null, commit completo y reintento persistente
+00:12 +129: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo null, commit completo y reintento persistente
+00:12 +130: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +131: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +132: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +133: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +134: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +135: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +136: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +137: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +138: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +139: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +140: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +141: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +142: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +143: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +144: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +145: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +146: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +147: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +148: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +149: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +150: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +151: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +152: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +153: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +154: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: ir a caja desde la búsqueda de artículos selecciona la pestaña caja
+00:12 +155: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: el X cierra la pantalla, devuelve null y no toca el campo
+00:12 +156: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: el X cierra la pantalla, devuelve null y no toca el campo
+00:13 +157: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: el X cierra la pantalla, devuelve null y no toca el campo
+00:13 +158: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: el X cierra la pantalla, devuelve null y no toca el campo
+00:13 +159: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: el X cierra la pantalla, devuelve null y no toca el campo
+00:13 +160: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: el X cierra la pantalla, devuelve null y no toca el campo
+00:13 +161: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: el X cierra la pantalla, devuelve null y no toca el campo
+00:13 +162: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: el X cierra la pantalla, devuelve null y no toca el campo
+00:13 +163: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: el X cierra la pantalla, devuelve null y no toca el campo
+00:13 +164: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: filtra producto y variante, agrega al tocar el mosaico y limpia
+00:13 +165: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: filtra producto y variante, agrega al tocar el mosaico y limpia
+00:13 +166: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: filtra producto y variante, agrega al tocar el mosaico y limpia
+00:13 +167: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: filtra producto y variante, agrega al tocar el mosaico y limpia
+00:13 +168: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:13 +169: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:13 +170: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:13 +171: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:13 +172: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:13 +173: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:13 +174: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:13 +175: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:13 +176: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: CodigoBarras rechaza un valor devuelto que no es dígito
+00:13 +177: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: CodigoBarras rechaza un valor devuelto que no es dígito
+00:13 +178: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: CodigoBarras rechaza un valor devuelto que no es dígito
+00:13 +179: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: venta medida pide cantidad, valida y permite cancelar sin capturar
+00:13 +180: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: venta medida pide cantidad, valida y permite cancelar sin capturar
+00:13 +181: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: venta medida pide cantidad, valida y permite cancelar sin capturar
+00:14 +182: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: venta medida pide cantidad, valida y permite cancelar sin capturar
+00:14 +183: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano durante guardado conserva un solo commit
+00:14 +184: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano durante guardado conserva un solo commit
+00:14 +185: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano durante guardado conserva un solo commit
+00:14 +186: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: evita dobles envíos mientras guarda y permite reintentar un fallo
+00:14 +187: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: evita dobles envíos mientras guarda y permite reintentar un fallo
+00:14 +188: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart: evita dobles envíos mientras guarda y permite reintentar un fallo
+00:14 +189: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: volver conserva el campo e ignora lecturas durante la salida
+00:14 +190: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: referencia vacía se valida antes de escribir en standalone
+00:14 +191: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: referencia vacía se valida antes de escribir en standalone
+00:14 +192: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: pausa la cámara en segundo plano y reanuda la lectura
+00:14 +193: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: pausa la cámara en segundo plano y reanuda la lectura
+00:14 +194: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart: pausa la cámara en segundo plano y reanuda la lectura
+00:14 +195: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +196: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +197: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +198: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +199: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +200: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +201: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +202: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +203: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +204: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +205: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +206: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +207: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:14 +208: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +209: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +210: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +211: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +212: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +213: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +214: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +215: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +216: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +217: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +218: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +219: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +220: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +221: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +222: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +223: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +224: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +225: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +226: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +227: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +228: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +229: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +230: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:17 +231: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: fallo SQLite durante proyección revierte evento, refs y venta en standalone
+00:17 +232: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: referencia vacía se valida antes de escribir en serverSync
+00:17 +233: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en serverSync
+00:20 +234: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: fallo SQLite durante proyección revierte evento, refs y venta en serverSync
+00:20 +235: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cámara permissionDenied conserva productos previos y regreso disponible
+00:20 +236: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cámara unsupported conserva productos previos y regreso disponible
+00:20 +237: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: permiso pendiente al cerrar libera la cámara cuando termina el inicio
+00:21 +238: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: permiso pendiente al ir a segundo plano termina detenido y reanuda sin duplicar
+00:21 +239: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: snapshots de precios distintos mantienen tarjetas distintas y un artículo
+00:21 +240: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: snapshots de unidades distintas no se fusionan visualmente
+00:21 +241: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: callback ean13 conserva código y ceros iniciales
+00:21 +242: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: callback ean8 conserva código y ceros iniciales
+00:22 +243: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: callback upcA conserva código y ceros iniciales
+00:22 +244: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: rotar teléfono pequeño con texto ampliado conserva venta y controles
+00:22 +245: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: tarjetas desplazables, cámara y total sin overflow en Size(320.0, 640.0), texto 2.0
+00:22 +246: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: tarjetas desplazables, cámara y total sin overflow en Size(740.0, 360.0), texto 1.3
+00:22 +247: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: tarjetas desplazables, cámara y total sin overflow en Size(1280.0, 800.0), texto 1.0
+00:22 +248: All tests passed!

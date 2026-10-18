@@ -1,0 +1,16 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart
+00:00 +0: P09: consulta conserva selección con precio/total no disponibles
+00:00 +1: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+00:00 +2: listado muestra carga, error, reintento y ambos vacíos
+00:00 +3: doble toque abre un detalle; recuperar espera commit y devuelve resultado a su dueño
+00:00 +4: otra captura conserva documento y reintenta la misma identidad
+00:00 +5: error por línea: El artículo ya no está disponible.
+00:00 +6: error por línea: La unidad está ausente, inactiva o cambió su interpretación.
+00:00 +7: Recuperar vuelve a Caja después del commit
+00:00 +8: Continuar usa comando actual; los cambios de estado vienen del repositorio
+00:00 +9: Vendida abre su recibo sin recuperar
+00:00 +10: respuesta histórica sin captura no navega
+00:00 +11: recuperación tardía tras salir no navega ni actualiza dispose
+00:00 +12: detalle contempla carga, ausencia, error y reintento
+00:00 +13: historial y detalle admiten UUID, nombres largos y texto ampliado
+00:00 +14: All tests passed!

@@ -1,0 +1,72 @@
+test/support/quotation_ui_fixtures.dart:141:    priceChanges: [],
+test/support/quotation_harness.dart:245:      expectedTotalMinor: sale.totalMinor,
+test/support/quotation_harness.dart:287:        expectedTotalMinor: sale.totalMinor,
+test/application/sync/handlers/cotizacion_recuperada_event_handler_test.dart:35:      totalMinor: save.expectedTotalMinor,
+test/presentation/pages/cotizaciones/quotations_screen_test.dart:196:        priceChanges: [
+test/presentation/pages/cotizaciones/quotations_screen_test.dart:197:          const QuotationPriceChange(
+test/presentation/pages/cotizaciones/quotations_screen_test.dart:201:            quotedUnitPriceMinor: 3500,
+test/presentation/pages/cotizaciones/quotations_screen_test.dart:209:    expect(find.text('Se conserva el precio cotizado'), findsOneWidget);
+test/presentation/pages/cotizaciones/quotations_screen_test.dart:278:        priceChanges: [],
+test/presentation/pages/cotizaciones/caja_quotation_test.dart:62:      expect(commands.saved.single.expectedTotalMinor, 10900);
+lib/presentation/pages/cotizaciones/quotation_detail_screen.dart:73:      if (result.priceChanges.isNotEmpty) {
+lib/presentation/pages/cotizaciones/quotation_detail_screen.dart:77:            title: const Text('Se conserva el precio cotizado'),
+lib/presentation/pages/cotizaciones/quotation_detail_screen.dart:80:                'Cambió el precio del catálogo de:\n${result.priceChanges.map((line) => line.productName).join('\n')}\n\nLa venta conserva los precios de esta cotización.',
+test/data/local/drift/quotation_backup_test.dart:107:                expectedTotalMinor: command.expectedTotalMinor,
+lib/presentation/pages/caja/payment_method_screen.dart:76:          expectedTotalMinor: widget.totalMinor,
+test/integration/variant_tracking_server_test.dart:64:          expectedTotalMinor: draft.totalMinor,
+test/core/di/quotation_dependencies_test.dart:70:              expectedTotalMinor: draft.totalMinor,
+lib/presentation/pages/caja/cash_payment_screen.dart:46:          expectedTotalMinor: widget.totalMinor,
+test/application/commands/ventas/venta_command_service_test.dart:174:      expectedTotalMinor: d.totalMinor,
+test/application/commands/ventas/venta_command_service_test.dart:839:        expectedTotalMinor: c.expectedTotalMinor,
+test/application/commands/ventas/venta_command_service_test.dart:1071:            expectedTotalMinor: c.expectedTotalMinor,
+test/application/commands/ventas/venta_command_service_test.dart:1084:            expectedTotalMinor: c.expectedTotalMinor,
+test/application/commands/ventas/venta_command_service_test.dart:1098:            expectedTotalMinor: c.expectedTotalMinor,
+test/application/sync/payloads/cotizacion_recuperada_payload_test.dart:121:        {'catalog_unit_price_minor': 0},
+test/application/sync/payloads/cotizacion_recuperada_payload_test.dart:122:        {'catalog_unit_price_minor': 1.0},
+lib/application/commands/cotizaciones/recuperar_cotizacion_result.dart:9:    required List<QuotationPriceChange> priceChanges,
+lib/application/commands/cotizaciones/recuperar_cotizacion_result.dart:10:  }) : priceChanges = List.unmodifiable(priceChanges);
+lib/application/commands/cotizaciones/recuperar_cotizacion_result.dart:20:  final List<QuotationPriceChange> priceChanges;
+test/data/local/drift/variant_tracking_phase3_test.dart:686:            expectedTotalMinor: draft.totalMinor,
+test/data/local/drift/variant_tracking_phase3_test.dart:929:            expectedTotalMinor: draft.totalMinor,
+lib/application/commands/cotizaciones/quotation_price_change.dart:2:class QuotationPriceChange {
+lib/application/commands/cotizaciones/quotation_price_change.dart:3:  const QuotationPriceChange({
+lib/application/commands/cotizaciones/quotation_price_change.dart:7:    required this.quotedUnitPriceMinor,
+lib/application/commands/cotizaciones/quotation_price_change.dart:11:  final int quotedUnitPriceMinor, catalogUnitPriceMinor;
+lib/application/sync/handlers/cotizacion_guardada_event_handler.dart:80:      expectedTotalMinor: payload.totalMinor,
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:50:          expectedTotalMinor: command.expectedTotalMinor,
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:172:        linked.createdEventId == quotation.lastEventId) {
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:186:      final current = linked.createdEventId == null
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:188:          : await store.findEventById(linked.createdEventId!);
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:202:        priceChanges: const [],
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:267:    priceChanges: [
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:270:          QuotationPriceChange(
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:274:            quotedUnitPriceMinor: l.snapshot.unitPriceMinor,
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:291:        command.expectedTotalMinor < 0 ||
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:292:        command.expectedTotalMinor > SaleItemSnapshot.maxInteger ||
+lib/application/commands/cotizaciones/cotizacion_command_service.dart:320:        payload.totalMinor != command.expectedTotalMinor ||
+lib/presentation/pages/caja/transfer_payment_screen.dart:37:          expectedTotalMinor: widget.totalMinor,
+test/application/commands/cotizaciones/cotizacion_command_service_test.dart:41:    expectedTotalMinor: total ?? c.expectedTotalMinor,
+test/application/commands/cotizaciones/cotizacion_command_service_test.dart:148:        expectedTotalMinor: 0,
+lib/application/commands/ventas/venta_command_service.dart:46:        sale.totalMinor != command.expectedTotalMinor) {
+lib/application/commands/cotizaciones/guardar_cotizacion_command.dart:8:    required this.expectedTotalMinor,
+lib/application/commands/cotizaciones/guardar_cotizacion_command.dart:23:  final int expectedTotalMinor;
+test/application/commands/cotizaciones/recuperar_cotizacion_test.dart:130:        final notices = results.first.priceChanges;
+test/application/commands/cotizaciones/recuperar_cotizacion_test.dart:131:        expect(notices.map((n) => n.quotedUnitPriceMinor), [3500, 2400, 10001]);
+lib/presentation/pages/caja/caja_screen.dart:66:          _quotationIntent?.expectedTotalMinor != sale.totalMinor) {
+lib/presentation/pages/caja/caja_screen.dart:70:          expectedTotalMinor: sale.totalMinor,
+lib/application/commands/ventas/confirmar_venta_command.dart:5:    required this.expectedTotalMinor,
+lib/application/commands/ventas/confirmar_venta_command.dart:13:  final int expectedTotalMinor;
+lib/data/local/drift/daos/sale_dao.dart:171:  Future<void> insertRecoveredDraft(
+lib/data/local/drift/daos/quotation_dao.dart:218:  Future<void> insertRecoveredDraft(
+lib/data/local/drift/daos/quotation_dao.dart:221:  ) => db.saleDao.insertRecoveredDraft(sale, items);
+lib/application/sync/handlers/cotizacion_recuperada_event_handler.dart:109:    await store.insertRecoveredDraft(
+lib/application/sync/quotation_draft_validator.dart:13:    required int expectedTotalMinor,
+lib/application/sync/quotation_draft_validator.dart:23:        sale.totalMinor != expectedTotalMinor) {
+lib/application/sync/quotation_draft_validator.dart:35:        expectedTotalMinor < 0 ||
+lib/application/sync/quotation_draft_validator.dart:36:        expectedTotalMinor > SaleItemSnapshot.maxInteger ||
+lib/application/sync/quotation_draft_validator.dart:37:        sum != BigInt.from(expectedTotalMinor) ||
+lib/application/sync/revalidation/producto_pending_event_validator.dart:180:      if (linked != null && linked.createdEventId != event.eventId) {
+lib/application/sync/payloads/cotizacion_recuperada_line.dart:70:    'catalog_unit_price_minor': catalogUnitPriceMinor,
+lib/application/sync/payloads/cotizacion_recuperada_line.dart:79:        json['catalog_unit_price_minor'] is! int ||
+lib/application/sync/payloads/cotizacion_recuperada_line.dart:89:      catalogUnitPriceMinor: json['catalog_unit_price_minor']! as int,
+lib/application/sync/projections/quotation_projection_store.dart:20:  Future<void> insertRecoveredDraft(

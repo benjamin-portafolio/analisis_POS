@@ -1,0 +1,14 @@
+{
+  "nest": {
+    "branch": "main",
+    "head": "e451d1b4d9b9a4182aa41d3e8a525bf60c465c3e"
+  },
+  "flutter": {
+    "branch": "main",
+    "head": "56ddbc49f7369b2598aabe3c67b03135b7c89b46"
+  },
+  "analisis": {
+    "branch": "main",
+    "head": "424c8bb7995f49a2255e97c778155efd31b1f648"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "flutter": {
+    "success": 1578
+  },
+  "remote_suppliers": [
+    {
+      "name": "HTTP real: alta offline, cadena causal, reinicio, ecos y terminal nueva",
+      "path": "/Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart",
+      "result": "success"
+    },
+    {
+      "name": "HTTP real: concurrencia por producto y proveedor, preflight, restauración y reporte",
+      "path": "/Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart",
+      "result": "success"
+    },
+    {
+      "name": "HTTP real: rechazo de alta bloquea y deshace dependientes antes de FK",
+      "path": "/Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart",
+      "result": "success"
+    },
+    {
+      "name": "HTTP real: legado contra conjunto conocido y replay de ausencia histórica",
+      "path": "/Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart",
+      "result": "success"
+    },
+    {
+      "name": "HTTP/WebSocket real: avisos, desconexión y reconexión del listener existente",
+      "path": "/Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart",
+      "result": "success"
+    },
+    {
+      "name": "HTTP real: recetas, seguimiento, precios, fechas y venta sobreviven conflicto completo",
+      "path": "/Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart",
+      "result": "success"
+    },
+    {
+      "name": "HTTP real: alta oficial colisiona con alta offline y restaura cadena inversa",
+      "path": "/Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart",
+      "result": "success"
+    },
+    {
+      "name": "HTTP real: rechazo de base de producto retira ediciones dependientes y restaura oficial",
+      "path": "/Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart",
+      "result": "success"
+    },
+    {
+      "name": "HTTP/PostgreSQL real: evento futuro detiene página completa y conserva cursor",
+      "path": "/Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart",
+      "result": "success"
+    }
+  ],
+  "remote_tracking": [
+    {
+      "name": "HTTP real: B cobra offline, A desvincula, B entrega, duplicado y pull desde cero",
+      "path": "/Users/benjamin/Projects/POS/pos_flutter/test/integration/variant_tracking_server_test.dart",
+      "result": "success"
+    }
+  ]
+}

@@ -1,0 +1,1543 @@
+{
+  "fecha_verificacion": "2026-10-15",
+  "filas": 155,
+  "con_codigo": 73,
+  "sin_codigo": 82,
+  "criterio": "Marca, producto y presentación exacta. Sin generar GTIN ni usar códigos de báscula o de cajas con otra cantidad.",
+  "verificados": [
+    {
+      "pagina": 10,
+      "referencia": "9757",
+      "filaCsv": 109,
+      "nombre": "Yoghurt para beber fresa Yoplait 470 g",
+      "variante": "",
+      "codigo_barras": "7501040097577",
+      "fuente": "https://www.chedraui.com.mx/yoplait-bebible-fresa-470g-3728442/p",
+      "producto_en_fuente": "Yoplait Bebible Fresa 470g",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9008",
+      "filaCsv": 90,
+      "nombre": "Yoghurt batido fresa Yoplait 1 kg",
+      "variante": "",
+      "codigo_barras": "7501040090080",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-fresa-1kg-3098936/p",
+      "producto_en_fuente": "Yoghurt Yoplait Batido Fresa 1kg",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9012",
+      "filaCsv": 92,
+      "nombre": "Yoghurt batido manzana Yoplait 1 kg",
+      "variante": "",
+      "codigo_barras": "7501040090127",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-batido-yoplait-manzana-1kg-3098935/p",
+      "producto_en_fuente": "Yoghurt Batido Yoplait Manzana 1kg",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9002",
+      "filaCsv": 88,
+      "nombre": "Yoghurt batido natural Yoplait 1 kg",
+      "variante": "",
+      "codigo_barras": "7501040090028",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-natural-1kg-3098934/p",
+      "producto_en_fuente": "Yoghurt Yoplait Batido Natural 1Kg",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9702",
+      "filaCsv": 131,
+      "nombre": "Flan horneado Yoplait 2 pack 220 g",
+      "variante": "",
+      "codigo_barras": "7501040097027",
+      "fuente": "https://www.chedraui.com.mx/flan-yoplait-horneado-vainilla-220g-3015589/p",
+      "producto_en_fuente": "Flan Yoplait Horneado Vainilla 220g",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9009",
+      "filaCsv": 91,
+      "nombre": "Yoghurt batido durazno Yoplait 1 kg",
+      "variante": "",
+      "codigo_barras": "7501040090097",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-batido-yoplait-durazno-1kg-3098937/p",
+      "producto_en_fuente": "Yoghurt Batido Yoplait Durazno 1kg",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9285",
+      "filaCsv": 122,
+      "nombre": "Yoghurt batido griego fresa Yoplait 145 g",
+      "variante": "",
+      "codigo_barras": "7501040092855",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-griego-fresa-145g-3255477/p",
+      "producto_en_fuente": "Yoghurt Yoplait Batido Griego Fresa 145g",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9442",
+      "filaCsv": 127,
+      "nombre": "Yoghurt bebible Disfruta fresa Yoplait 307 g",
+      "variante": "",
+      "codigo_barras": "7501040094422",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-bebible-disfruta-fresa-307g-3424040/p",
+      "producto_en_fuente": "Yoghurt Yoplait Bebible Disfruta Fresa 307g",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9256",
+      "filaCsv": 115,
+      "nombre": "Yoghurt batido Placer coco Yoplait 145 g",
+      "variante": "",
+      "codigo_barras": "7501040092565",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-placer-coco-145g-3218204/p",
+      "producto_en_fuente": "Yoghurt Yoplait Batido Placer Coco 145g",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9286",
+      "filaCsv": 123,
+      "nombre": "Yoghurt batido griego natural Yoplait 145 g",
+      "variante": "",
+      "codigo_barras": "7501040092862",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-griego-natural-145g-3255475/p",
+      "producto_en_fuente": "Yoghurt Yoplait Batido Griego Natural 145g",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9278",
+      "filaCsv": 120,
+      "nombre": "Yoghurt batido Disfruta fresa Yoplait 442 g",
+      "variante": "",
+      "codigo_barras": "7501040092787",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-disfruta-fresa-442g-3240777/p",
+      "producto_en_fuente": "Yoghurt Yoplait Batido Disfruta Fresa 442g",
+      "evidencia": "vtex_chedraui.json",
+      "nota": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7019",
+      "filaCsv": 67,
+      "nombre": "Café Olé expresso",
+      "variante": "",
+      "codigo_barras": "7501040070198",
+      "fuente": "https://www.chedraui.com.mx/cafe-con-leche-cafe-ole-cappuccino-expreso-281ml-3261887/p",
+      "producto_en_fuente": "Café con Leche Café Olé Cappuccino Expreso 281ml",
+      "evidencia": "vtex_chedraui_cafe_ole_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "992",
+      "filaCsv": 53,
+      "nombre": "Salchicha de pavo Chimex 400 g",
+      "variante": "",
+      "codigo_barras": "7501040009921",
+      "fuente": "https://www.chedraui.com.mx/salchichas-de-pavo-chimex-400g-3351482/p",
+      "producto_en_fuente": "Salchichas de Pavo Chimex 400g",
+      "evidencia": "vtex_chedraui_chimex_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "307",
+      "filaCsv": 56,
+      "nombre": "Salchicha para asar Chimex 800 g",
+      "variante": "",
+      "codigo_barras": "7501040003073",
+      "fuente": "https://www.chedraui.com.mx/salchichas-para-asar-chimex-800g-3007912/p",
+      "producto_en_fuente": "Salchichas para Asar Chimex 800g",
+      "evidencia": "vtex_chedraui_chimex_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "763",
+      "filaCsv": 42,
+      "nombre": "Chorizo para asar Chimex 400 g",
+      "variante": "",
+      "codigo_barras": "7501040007637",
+      "fuente": "https://www.chedraui.com.mx/chorizo-original-chimex-para-asar-400g-3376709/p",
+      "producto_en_fuente": "Chorizo Original Chimex para Asar 400g",
+      "evidencia": "vtex_chedraui_chimex_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "3411",
+      "filaCsv": 140,
+      "nombre": "Tacos dorados de res El Cazo",
+      "variante": "",
+      "codigo_barras": "7501040034114",
+      "fuente": "https://www.chedraui.com.mx/taquitos-dorados-de-res-el-cazo-324g-3331343/p",
+      "producto_en_fuente": "Taquitos Dorados de Res El Cazo 324g",
+      "evidencia": "vtex_chedraui_el_cazo_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8371",
+      "filaCsv": 79,
+      "nombre": "Queso panela Fud 200 g",
+      "variante": "",
+      "codigo_barras": "7501040083716",
+      "fuente": "https://www.chedraui.com.mx/queso-fud-panela-200g-3015784/p",
+      "producto_en_fuente": "Queso Fud Panela 200g",
+      "evidencia": "vtex_chedraui_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "4453",
+      "filaCsv": 57,
+      "nombre": "Pizza pepperoni individual Fud 7 pulgadas",
+      "variante": "",
+      "codigo_barras": "7501040044533",
+      "fuente": "https://www.chedraui.com.mx/pizza-de-pepperoni-fud-individual-3015898/p",
+      "producto_en_fuente": "Pizza de Pepperoni Fud Individual",
+      "evidencia": "vtex_chedraui_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "341",
+      "filaCsv": 30,
+      "nombre": "Salchicha de pavo Fud 500 g",
+      "variante": "",
+      "codigo_barras": "7501040003417",
+      "fuente": "https://www.chedraui.com.mx/salchichas-fud-con-pavo-500g-3007910/p",
+      "producto_en_fuente": "Salchichas Fud con Pavo 500g",
+      "evidencia": "vtex_chedraui_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 2,
+      "referencia": "116",
+      "filaCsv": 5,
+      "nombre": "Pechuga de pavo Virginia Fud 250 g",
+      "variante": "",
+      "codigo_barras": "7501040001161",
+      "fuente": "https://www.chedraui.com.mx/pechuga-de-pavo-fud-virginia-250g-3154704/p",
+      "producto_en_fuente": "Pechuga de Pavo Fud Virginia 250g",
+      "evidencia": "vtex_chedraui_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 3,
+      "referencia": "360",
+      "filaCsv": 20,
+      "nombre": "Salchichas cocktail de pavo Fud 500 g",
+      "variante": "",
+      "codigo_barras": "7501040003608",
+      "fuente": "https://www.chedraui.com.mx/salchichas-cocktail-fud-con-pavo-500g-3537211/p",
+      "producto_en_fuente": "Salchichas Cocktail Fud con Pavo 500g",
+      "evidencia": "vtex_chedraui_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "889",
+      "filaCsv": 46,
+      "nombre": "Salchicha Turkey Line Fud 1 kg",
+      "variante": "",
+      "codigo_barras": "7501040008894",
+      "fuente": "https://www.chedraui.com.mx/salchichas-fud-con-pavo-1-kg-3007864/p",
+      "producto_en_fuente": "Salchichas Fud con Pavo 1 kg",
+      "evidencia": "vtex_chedraui_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "4458",
+      "filaCsv": 58,
+      "nombre": "Pizza hawaiana individual Fud 7 pulgadas",
+      "variante": "",
+      "codigo_barras": "7501040044588",
+      "fuente": "https://www.chedraui.com.mx/pizza-hawaiana-fud-individual-1-pieza-3015914/p",
+      "producto_en_fuente": "Pizza Hawaiana Fud Individual 1 Pieza",
+      "evidencia": "vtex_chedraui_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "474",
+      "filaCsv": 36,
+      "nombre": "Jamón Virginia de pavo y cerdo Fud 290 g",
+      "variante": "",
+      "codigo_barras": "7501040004742",
+      "fuente": "https://www.chedraui.com.mx/jamon-de-pavo-y-cerdo-fud-virginia-290g-3007897/p",
+      "producto_en_fuente": "Jamón de Pavo y Cerdo Fud Virginia 290g",
+      "evidencia": "vtex_chedraui_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 4,
+      "referencia": "890",
+      "filaCsv": 28,
+      "nombre": "Salchicha para Hot Dog Fud 1 kg",
+      "variante": "",
+      "codigo_barras": "7501040008900",
+      "fuente": "https://www.chedraui.com.mx/salchichas-fud-para-hot-dogs-1-kg-3007861/p",
+      "producto_en_fuente": "Salchichas Fud para Hot Dogs 1 kg",
+      "evidencia": "vtex_chedraui_fud_50.json",
+      "nota": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "4525",
+      "filaCsv": 60,
+      "nombre": "Pizza jamón pepperoni Fud",
+      "variante": "Ref. proveedor 4525",
+      "codigo_barras": "7501040045257",
+      "fuente": "https://www.chedraui.com.mx/pizza-fud-pepperoni-y-jamon-2-pack-3671309/p",
+      "producto_en_fuente": "Pizza Fud Pepperoni y Jamón 2 Pack",
+      "evidencia": "vtex_chedraui_fud_50.json",
+      "nota": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "7229",
+      "filaCsv": 154,
+      "nombre": "Rollito de jamón de pavo y mozzarella Fud 40 g",
+      "variante": "",
+      "codigo_barras": "7501040072291",
+      "fuente": "https://www.chedraui.com.mx/rollito-de-jamon-de-pavo-y-queso-mozzarella-fud-40g-3801602/p",
+      "producto_en_fuente": "Rollito de Jamón de Pavo y Queso Mozzarella FUD 40g",
+      "evidencia": "vtex_chedraui_fud_50.json",
+      "nota": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "4773",
+      "filaCsv": 61,
+      "nombre": "Fajitas Guten 350 g",
+      "variante": "",
+      "codigo_barras": "7501040047732",
+      "fuente": "https://www.chedraui.com.mx/fajitas-de-res-guten-350g-3311006/p",
+      "producto_en_fuente": "Fajitas de Res Guten 350g",
+      "evidencia": "vtex_chedraui_guten_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8147",
+      "filaCsv": 75,
+      "nombre": "Queso americano La Villita 175 g",
+      "variante": "",
+      "codigo_barras": "7501040081477",
+      "fuente": "https://www.chedraui.com.mx/queso-la-villita-americano-175g-3118618/p",
+      "producto_en_fuente": "Queso La Villita Americano 175g",
+      "evidencia": "vtex_chedraui_la_villita_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "8004",
+      "filaCsv": 72,
+      "nombre": "Queso gouda a granel La Villita",
+      "variante": "",
+      "codigo_barras": "7501040080043",
+      "fuente": "https://www.chedraui.com.mx/queso-la-villita-gouda-kg-3488152/p",
+      "producto_en_fuente": "Queso La Villita Gouda Kg",
+      "evidencia": "vtex_chedraui_la_villita_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "8313",
+      "filaCsv": 73,
+      "nombre": "Queso manchego rebanado La Villita 200 g",
+      "variante": "",
+      "codigo_barras": "7501040083136",
+      "fuente": "https://www.chedraui.com.mx/queso-la-villita-tipo-manchego-rebanado-200g-3569618/p",
+      "producto_en_fuente": "Queso La Villita Tipo Manchego Rebanado 200g",
+      "evidencia": "vtex_chedraui_la_villita_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8225",
+      "filaCsv": 77,
+      "nombre": "Margarina untable La Villita 190 g",
+      "variante": "",
+      "codigo_barras": "7501040082252",
+      "fuente": "https://www.chedraui.com.mx/margarina-la-villita-untable-sin-sal-190g-3193624/p",
+      "producto_en_fuente": "Margarina La Villita Untable Sin Sal 190g",
+      "evidencia": "vtex_chedraui_la_villita_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "9553",
+      "filaCsv": 146,
+      "nombre": "Yoghurt griego sin azúcar natural Yoplait",
+      "variante": "",
+      "codigo_barras": "7501040095535",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-griego-sin-azucar-natural-145g-3470819/p",
+      "producto_en_fuente": "Yoghurt Yoplait batido griego sin azúcar natural 145g",
+      "evidencia": "vtex_chedraui_yoplait_100.json",
+      "nota": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "9608",
+      "filaCsv": 151,
+      "nombre": "Yoghurt para beber Kids Yoplait 100 g",
+      "variante": "Ref. proveedor 9608",
+      "codigo_barras": "7501040096082",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-bebible-mini-con-fresa-tapa-antiderrames-100g-3663305/p",
+      "producto_en_fuente": "Yoghurt Yoplait Bebible Mini con Fresa Tapa Antiderrames 100g",
+      "evidencia": "vtex_chedraui_yoplait_100.json",
+      "nota": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9728",
+      "filaCsv": 130,
+      "nombre": "Yoghurt Disfruta licuado mora-nuez y manzana-guayaba Yoplait 307 g",
+      "variante": "Ref. proveedor 9728",
+      "codigo_barras": "7501040097287",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-disfruta-licuado-manzana-guayaba-y-granola-307g-3728445/p",
+      "producto_en_fuente": "Yoghurt Yoplait Disfruta Licuado Manzana, Guayaba y Granola 307g",
+      "evidencia": "vtex_chedraui_yoplait_100.json",
+      "nota": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9727",
+      "filaCsv": 129,
+      "nombre": "Yoghurt Disfruta licuado mora-nuez y manzana-guayaba Yoplait 307 g",
+      "variante": "Ref. proveedor 9727",
+      "codigo_barras": "7501040097270",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-disfruta-licuado-platano-moras-y-nuez-307g-3728444/p",
+      "producto_en_fuente": "Yoghurt Yoplait Disfruta Licuado Plátano Moras y Nuez 307g",
+      "evidencia": "vtex_chedraui_yoplait_100.json",
+      "nota": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "9867",
+      "filaCsv": 148,
+      "nombre": "Yoghurt Doble Cero Yoplait",
+      "variante": "Ref. proveedor 9867",
+      "codigo_barras": "7501040098673",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-doble-cero--fibra-bebible-frutos-rojos-220g-3728446/p",
+      "producto_en_fuente": "Yoghurt Yoplait Doble Cero + Fibra Bebible Frutos Rojos 220g",
+      "evidencia": "vtex_chedraui_yoplait_100.json",
+      "nota": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "9866",
+      "filaCsv": 147,
+      "nombre": "Yoghurt Doble Cero Yoplait",
+      "variante": "Ref. proveedor 9866",
+      "codigo_barras": "7501040098666",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-doble-cero--fibra-bebible-ciruela-pasa-220g-3728447/p",
+      "producto_en_fuente": "Yoghurt Yoplait Doble Cero + Fibra Bebible Ciruela Pasa 220g",
+      "evidencia": "vtex_chedraui_yoplait_100.json",
+      "nota": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9594",
+      "filaCsv": 134,
+      "nombre": "Yoplait Placer malteada",
+      "variante": "Ref. proveedor 9594",
+      "codigo_barras": "7501040095948",
+      "fuente": "https://www.chedraui.com.mx/malteada-yoplait-placer-cookcream-220g-3616792/p",
+      "producto_en_fuente": "Malteada Yoplait Placer Cook&Cream 220g",
+      "evidencia": "vtex_chedraui_yoplait_50.json",
+      "nota": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9016",
+      "filaCsv": 94,
+      "nombre": "Yoghurt batido frutas y cereales Yoplait 1 kg",
+      "variante": "",
+      "codigo_barras": "7501040090165",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-batido-yoplait-frutas-y-cereales-1kg-3015504/p",
+      "producto_en_fuente": "Yoghurt Batido Yoplait Frutas y Cereales 1kg",
+      "evidencia": "vtex_chedraui_yoplait_50.json",
+      "nota": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9259",
+      "filaCsv": 118,
+      "nombre": "Yoghurt bebible Mini fresa Yoplait 100 g",
+      "variante": "",
+      "codigo_barras": "7501040092596",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-kids-bebible-sabor-fresa-100g-3255489/p",
+      "producto_en_fuente": "Yoghurt Yoplait Kids Bebible sabor Fresa 100g",
+      "evidencia": "vtex_chedraui_yoplait_50.json",
+      "nota": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9257",
+      "filaCsv": 116,
+      "nombre": "Yoghurt batido Placer Cookies & Cream Yoplait 145 g",
+      "variante": "",
+      "codigo_barras": "7501040092572",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-placer-cookiecream-145g-3218209/p",
+      "producto_en_fuente": "Yoghurt Yoplait Batido Placer Cookie&Cream 145g",
+      "evidencia": "vtex_chedraui_yoplait_50.json",
+      "nota": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9258",
+      "filaCsv": 117,
+      "nombre": "Yoghurt batido Placer pay de fresa Yoplait 145 g",
+      "variante": "",
+      "codigo_barras": "7501040092589",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-placer-pay-fresa-145g-3218234/p",
+      "producto_en_fuente": "Yoghurt Yoplait Batido Placer Pay Fresa 145g",
+      "evidencia": "vtex_chedraui_yoplait_50.json",
+      "nota": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9085",
+      "filaCsv": 99,
+      "nombre": "Yoghurt batido natural con granola Yoplait 125 g",
+      "variante": "",
+      "codigo_barras": "7501040090851",
+      "fuente": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-natural-con-granola-125g-3115657/p",
+      "producto_en_fuente": "Yoghurt Yoplait Batido Natural con Granola 125g",
+      "evidencia": "vtex_chedraui_yoplait_50.json",
+      "nota": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8388",
+      "filaCsv": 83,
+      "nombre": "Rebanadas redondas de queso tipo manchego Fud 190 g",
+      "variante": "",
+      "codigo_barras": "7501040083884",
+      "fuente": "https://www.lagranbodega.com.mx/queso-manchego-rebanada-redonda-fud-190-gr/p",
+      "producto_en_fuente": "Queso manchego Fud rebanada redonda 190 g",
+      "evidencia": "vtex_lagranbodega_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8380",
+      "filaCsv": 81,
+      "nombre": "Queso americano Fud 180 g",
+      "variante": "",
+      "codigo_barras": "7501040083808",
+      "fuente": "https://www.lagranbodega.com.mx/queso-amer-natural-fud-180-gr/p",
+      "producto_en_fuente": "Queso Fud americano natural rebanado 180 g",
+      "evidencia": "vtex_lagranbodega_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8381",
+      "filaCsv": 82,
+      "nombre": "Queso americano tipo manchego Fud 180 g",
+      "variante": "",
+      "codigo_barras": "7501040083815",
+      "fuente": "https://www.lagranbodega.com.mx/queso-amer-manchego-fud-180-gr/p",
+      "producto_en_fuente": "Queso Fud americano manchego rebanado 180 g",
+      "evidencia": "vtex_lagranbodega_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 6,
+      "referencia": "4515",
+      "filaCsv": 59,
+      "nombre": "Pizza jamón pepperoni Fud",
+      "variante": "Ref. proveedor 4515",
+      "codigo_barras": "7501040045158",
+      "fuente": "https://www.lagranbodega.com.mx/pizza-fud-jamon-y-pepperoni-1-pza/p",
+      "producto_en_fuente": "Pizza Fud jamón y pepperoni",
+      "evidencia": "vtex_lagranbodega_fud_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9076",
+      "filaCsv": 98,
+      "nombre": "Yoghurt batido manzana Yoplait 125 g",
+      "variante": "",
+      "codigo_barras": "7501040090769",
+      "fuente": "https://www.lagranbodega.com.mx/yogurth-manzana-yoplait-125-g/p",
+      "producto_en_fuente": "Yogurth Yoplait manzana 125 g",
+      "evidencia": "vtex_lagranbodega_yoplait_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "9607",
+      "filaCsv": 149,
+      "nombre": "Yoghurt para beber fresa Kids Yoplait 220 g",
+      "variante": "Ref. proveedor 9607",
+      "codigo_barras": "7501040096075",
+      "fuente": "https://www.lagranbodega.com.mx/yoghurt-yoplait-bebible-fresa-sp-220g/p",
+      "producto_en_fuente": "Yoghurt Yoplait bebible fresa 220 g",
+      "evidencia": "vtex_lagranbodega_yoplait_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9140",
+      "filaCsv": 110,
+      "nombre": "Yoghurt bebible fresa Yoplait 220 g",
+      "variante": "",
+      "codigo_barras": "7501040091407",
+      "fuente": "https://www.lagranbodega.com.mx/yogurth-bebible-fresa-yoplait-220-gr/p",
+      "producto_en_fuente": "Yogurth Yoplait  bebible fresa 220 g",
+      "evidencia": "vtex_lagranbodega_yoplait_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9122",
+      "filaCsv": 105,
+      "nombre": "Yoghurt bebible durazno Yoplait 220 g",
+      "variante": "",
+      "codigo_barras": "7501040091223",
+      "fuente": "https://www.lagranbodega.com.mx/yogurth-bebible-durazno-yoplait-220-gr/p",
+      "producto_en_fuente": "Yogurth Yoplait bebible durazno 220 g",
+      "evidencia": "vtex_lagranbodega_yoplait_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9187",
+      "filaCsv": 113,
+      "nombre": "Yoghurt bebible natural Yoplait 220 g",
+      "variante": "",
+      "codigo_barras": "7501040091872",
+      "fuente": "https://www.lagranbodega.com.mx/yogurth-bebible-natural-yoplait-220-gr/p",
+      "producto_en_fuente": "Yogurth Yoplait bebible natural  220 g",
+      "evidencia": "vtex_lagranbodega_yoplait_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9592",
+      "filaCsv": 132,
+      "nombre": "Yoplait Placer malteada",
+      "variante": "Ref. proveedor 9592",
+      "codigo_barras": "7501040095924",
+      "fuente": "https://www.lagranbodega.com.mx/yoghurt-yoplait-bebible-placer-malteada-pay-de-limon-220g/p",
+      "producto_en_fuente": "Yoghurt Yoplait bebible placer pay de limón 220g",
+      "evidencia": "vtex_lagranbodega_yoplait_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 12,
+      "referencia": "9288",
+      "filaCsv": 124,
+      "nombre": "Yoghurt bebible griego fresa Yoplait 220 g",
+      "variante": "",
+      "codigo_barras": "7501040092886",
+      "fuente": "https://www.lagranbodega.com.mx/yogurth-griego-bebible-fresa-yoplait-220-gr/p",
+      "producto_en_fuente": "Yoghurt Yoplait bebible griego fresa 220 g",
+      "evidencia": "vtex_lagranbodega_yoplait_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9123",
+      "filaCsv": 106,
+      "nombre": "Yoghurt bebible piña coco Yoplait 220 g",
+      "variante": "",
+      "codigo_barras": "7501040091230",
+      "fuente": "https://www.lagranbodega.com.mx/yogurth-bebible-piña-coco-yoplait-220-gr/p",
+      "producto_en_fuente": "Yogurth Yoplait bebible piña coco 220 g",
+      "evidencia": "vtex_lagranbodega_yoplait_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "21",
+      "filaCsv": 45,
+      "nombre": "Jamón americano de pavo y cerdo Fud 170 g",
+      "variante": "",
+      "codigo_barras": "7501040023545",
+      "fuente": "https://sierraserver.no-ip.org/SOPORTEMXL/MAGGS%20DAGAL/Catalogo_Productos%20upc%20sku%20maggs.pdf",
+      "producto_en_fuente": "Jamón Fud pavo y cerdo americano 170 g",
+      "evidencia": "fuente_maggs.txt",
+      "nota": ""
+    },
+    {
+      "pagina": 5,
+      "referencia": "805",
+      "filaCsv": 43,
+      "nombre": "Tocino Fud 250 g",
+      "variante": "",
+      "codigo_barras": "7501040005428",
+      "fuente": "https://sierraserver.no-ip.org/SOPORTEMXL/MAGGS%20DAGAL/Catalogo_Productos%20upc%20sku%20maggs.pdf",
+      "producto_en_fuente": "Tocino Fud 250 g",
+      "evidencia": "fuente_maggs.txt",
+      "nota": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9087",
+      "filaCsv": 100,
+      "nombre": "Yoghurt batido fresa Yoplait 145 g",
+      "variante": "",
+      "codigo_barras": "7501040090875",
+      "fuente": "https://sierraserver.no-ip.org/SOPORTEMXL/MAGGS%20DAGAL/Catalogo_Productos%20upc%20sku%20maggs.pdf",
+      "producto_en_fuente": "Yoplait fresas naturales 145 g",
+      "evidencia": "fuente_maggs.txt",
+      "nota": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9095",
+      "filaCsv": 101,
+      "nombre": "Yoghurt batido fresa Yoplait 442 g",
+      "variante": "",
+      "codigo_barras": "7501040090950",
+      "fuente": "https://sierraserver.no-ip.org/SOPORTEMXL/MAGGS%20DAGAL/Catalogo_Productos%20upc%20sku%20maggs.pdf",
+      "producto_en_fuente": "Yoplait fresas naturales 442 g",
+      "evidencia": "fuente_maggs.txt",
+      "nota": ""
+    },
+    {
+      "pagina": 8,
+      "referencia": "8628",
+      "filaCsv": 85,
+      "nombre": "Queso crema Philadelphia brick 90 g",
+      "variante": "",
+      "codigo_barras": "7622210265999",
+      "fuente": "https://sierraserver.no-ip.org/SOPORTEMXL/MAGGS%20DAGAL/Catalogo_Productos%20upc%20sku%20maggs.pdf",
+      "producto_en_fuente": "Queso Philadelphia 90 g",
+      "evidencia": "fuente_maggs.txt",
+      "nota": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9284",
+      "filaCsv": 121,
+      "nombre": "Yoghurt batido griego moras Yoplait 145 g",
+      "variante": "",
+      "codigo_barras": "7501040092848",
+      "fuente": "https://www.michedraui.com.mx/tyc/2023/2024/2023/tablas/02-febrero/productos/productos-participantes-yoghurts-batidos-febrero-2023.html",
+      "producto_en_fuente": "Yoghurt Yoplait batido griego moras 145 g",
+      "evidencia": "fuente_chedraui_batidos.txt",
+      "nota": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "9545",
+      "filaCsv": 144,
+      "nombre": "Yoplait Placer Crunch Cheesecake-Oreo 125 g",
+      "variante": "",
+      "codigo_barras": "7501040095450",
+      "fuente": "https://www.michedraui.com.mx/tyc/2023/2024/2023/tablas/02-febrero/productos/productos-participantes-yoghurts-batidos-febrero-2023.html",
+      "producto_en_fuente": "Yoghurt Yoplait batido Placer ChOreo 125 g",
+      "evidencia": "fuente_chedraui_batidos.txt",
+      "nota": ""
+    },
+    {
+      "pagina": 9,
+      "referencia": "9069",
+      "filaCsv": 95,
+      "nombre": "Yoghurt batido frutas y cereales Yoplait 442 g",
+      "variante": "",
+      "codigo_barras": "7501040090691",
+      "fuente": "https://www.michedraui.com.mx/tyc/2023/2024/2023/tablas/02-febrero/productos/productos-participantes-yoghurts-batidos-febrero-2023.html",
+      "producto_en_fuente": "Yoghurt Yoplait batido frutas cereales 442 g",
+      "evidencia": "fuente_chedraui_batidos.txt",
+      "nota": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9096",
+      "filaCsv": 102,
+      "nombre": "Yoghurt batido natural Yoplait 442 g",
+      "variante": "",
+      "codigo_barras": "7501040090967",
+      "fuente": "https://www.michedraui.com.mx/tyc/2023/2024/2023/tablas/02-febrero/productos/productos-participantes-yoghurts-batidos-febrero-2023.html",
+      "producto_en_fuente": "Yoghurt Yoplait batido natural 442 g",
+      "evidencia": "fuente_chedraui_batidos.txt",
+      "nota": ""
+    },
+    {
+      "pagina": 11,
+      "referencia": "9239",
+      "filaCsv": 114,
+      "nombre": "Yoghurt batido durazno Yoplait 442 g",
+      "variante": "",
+      "codigo_barras": "7501040092398",
+      "fuente": "https://www.michedraui.com.mx/tyc/2023/2024/2023/tablas/02-febrero/productos/productos-participantes-yoghurts-batidos-febrero-2023.html",
+      "producto_en_fuente": "Yoghurt Yoplait batido durazno 442 g",
+      "evidencia": "fuente_chedraui_batidos.txt",
+      "nota": ""
+    },
+    {
+      "pagina": 10,
+      "referencia": "9383",
+      "filaCsv": 107,
+      "nombre": "Yoghurt para beber licuado nuez granola Yoplait 330 g",
+      "variante": "Ref. proveedor 9383",
+      "codigo_barras": "7501040093838",
+      "fuente": "https://www.basicos.mx/yoghurt-yoplait-con-granola-330-grs",
+      "producto_en_fuente": "Yoghurt Yoplait con granola 330 g",
+      "evidencia": "web_basicos9383.html",
+      "nota": ""
+    },
+    {
+      "pagina": 13,
+      "referencia": "430528",
+      "filaCsv": 145,
+      "nombre": "Hershey's miniatura 850 g 125 piezas",
+      "variante": "",
+      "codigo_barras": "7501024529421",
+      "fuente": "https://www.basicos.mx/chocolate-hersheys-mini-surtido-850-grs",
+      "producto_en_fuente": "Hershey's mini surtido 850 g, 125 piezas de 6.8 g",
+      "evidencia": "web_basicos850.html",
+      "nota": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7001",
+      "filaCsv": 63,
+      "nombre": "Café Olé capuccino vainilla",
+      "variante": "",
+      "codigo_barras": "7503001453187",
+      "fuente": "https://www.chedraui.com.mx/cafe-con-leche-cafe-ole-cappuccino-vainilla-281ml-3099168/p",
+      "producto_en_fuente": "Café con Leche Café Olé Cappuccino Vainilla 281ml",
+      "evidencia": "vtex_chedraui_cafe_ole_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7002",
+      "filaCsv": 64,
+      "nombre": "Café Olé capuccino moka",
+      "variante": "",
+      "codigo_barras": "7503001453200",
+      "fuente": "https://www.chedraui.com.mx/cafe-con-leche-cafe-ole-cappuccino-moka-281ml-3099167/p",
+      "producto_en_fuente": "Café con Leche Café Olé Cappuccino Moka 281ml",
+      "evidencia": "vtex_chedraui_cafe_ole_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7003",
+      "filaCsv": 65,
+      "nombre": "Café Olé capuccino",
+      "variante": "",
+      "codigo_barras": "7503001453194",
+      "fuente": "https://www.chedraui.com.mx/cafe-con-leche-cafe-ole-cappuccino-clasico-281ml-3099166/p",
+      "producto_en_fuente": "Café con Leche Café Olé Cappuccino Clásico 281ml",
+      "evidencia": "vtex_chedraui_cafe_ole_0.json",
+      "nota": ""
+    },
+    {
+      "pagina": 7,
+      "referencia": "7026",
+      "filaCsv": 62,
+      "nombre": "Café Olé capuccino caramelo",
+      "variante": "",
+      "codigo_barras": "7501040070266",
+      "fuente": "https://infocode.io/01/07501040070266",
+      "producto_en_fuente": "Bebida de café Café Olé cappuccino caramelo 281 ml",
+      "evidencia": "Fuente GS1 Infocode consultada mediante navegador web",
+      "nota": "GTIN publicado en el identificador de la ficha GS1 del producto."
+    },
+    {
+      "pagina": 12,
+      "referencia": "430509",
+      "filaCsv": 136,
+      "nombre": "Pelón Peloneta tamarindo",
+      "variante": "",
+      "codigo_barras": "719886250330",
+      "fuente": "https://www.lagranbodega.com.mx/paleta-pelon-peloneta-tamarindo-21-gr/p",
+      "producto_en_fuente": "Paleta pelón peloneta tamarindo 21 g",
+      "evidencia": "vtex_lagranbodega_pelon_0.json",
+      "nota": ""
+    }
+  ],
+  "pendientes": [
+    {
+      "pagina": 2,
+      "referencia": "122",
+      "filaCsv": 2,
+      "nombre": "Espaldilla Chimex 3 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "104",
+      "filaCsv": 3,
+      "nombre": "Jamón cocido rebanado Viva 5 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "108",
+      "filaCsv": 4,
+      "nombre": "Jamón americano de cerdo Fud 5 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "117",
+      "filaCsv": 6,
+      "nombre": "Jamón de pierna York Fud 7.1 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "425",
+      "filaCsv": 7,
+      "nombre": "Jamón Piernita Horneada Fud 2.6 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "6953",
+      "filaCsv": 8,
+      "nombre": "Longaniza y chorizo Maestro Choricero",
+      "variante": "Ref. proveedor 6953",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "6954",
+      "filaCsv": 9,
+      "nombre": "Longaniza y chorizo Maestro Choricero",
+      "variante": "Ref. proveedor 6954",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "138",
+      "filaCsv": 10,
+      "nombre": "Jamón de pierna Chimex 6.15 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "142",
+      "filaCsv": 11,
+      "nombre": "Salchicha Hot Dog de pavo Chimex 2.5 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "146",
+      "filaCsv": 12,
+      "nombre": "Jamón horneado de pavo y cerdo Viva 6 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "164",
+      "filaCsv": 13,
+      "nombre": "Jamón de pierna Fud 6 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 2,
+      "referencia": "124",
+      "filaCsv": 14,
+      "nombre": "Jamón de pavo rebanado Fud 1 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "453",
+      "filaCsv": 15,
+      "nombre": "Jamón de pierna horneada San Rafael 6 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "167",
+      "filaCsv": 16,
+      "nombre": "Jamón tradicional de pavo Chimex 3.5 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "209",
+      "filaCsv": 17,
+      "nombre": "Jamón de pierna Virginia Fud 3.95 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "215",
+      "filaCsv": 18,
+      "nombre": "Jamón Virginia de pavo Fud 6 x 290 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "1094",
+      "filaCsv": 19,
+      "nombre": "Jamón de pierna horneada San Rafael 2.6 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "264",
+      "filaCsv": 21,
+      "nombre": "Jamón americano de pavo Fud 3.5 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "271",
+      "filaCsv": 22,
+      "nombre": "Chorizo cantimpalo Fud 1 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "293",
+      "filaCsv": 23,
+      "nombre": "Pechuga de pavo San Rafael 3 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "294",
+      "filaCsv": 24,
+      "nombre": "Salchicha de pavo San Rafael 500 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "297",
+      "filaCsv": 25,
+      "nombre": "Salchicha de pavo San Rafael 2.9 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 3,
+      "referencia": "2781",
+      "filaCsv": 26,
+      "nombre": "Salchichas de pavo Fud 2.7 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 4,
+      "referencia": "306",
+      "filaCsv": 27,
+      "nombre": "Salchicha para Hot Dog Fud 3 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 4,
+      "referencia": "315",
+      "filaCsv": 29,
+      "nombre": "Salchicha Viena Viva 2.5 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 4,
+      "referencia": "515",
+      "filaCsv": 31,
+      "nombre": "Salchicha para Hot Dog de pavo Iberomex 2.5 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 4,
+      "referencia": "392",
+      "filaCsv": 32,
+      "nombre": "Salchicha para asar Chimex 400 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 4,
+      "referencia": "406",
+      "filaCsv": 33,
+      "nombre": "Pastel pimiento Fud 3.96 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 4,
+      "referencia": "408",
+      "filaCsv": 34,
+      "nombre": "Jamón Virginia de pavo Fud 150 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 4,
+      "referencia": "415",
+      "filaCsv": 35,
+      "nombre": "Salchicha Viena Viva 3 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 5,
+      "referencia": "503",
+      "filaCsv": 37,
+      "nombre": "Mortadela Chimex 3.7 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 5,
+      "referencia": "559",
+      "filaCsv": 38,
+      "nombre": "Jamón horneado Viva 800 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 5,
+      "referencia": "697",
+      "filaCsv": 39,
+      "nombre": "Jamón de pierna rebanado Chimex 250 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 5,
+      "referencia": "582",
+      "filaCsv": 40,
+      "nombre": "Jamón Virginia de pavo Fud 3.95 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 5,
+      "referencia": "498",
+      "filaCsv": 41,
+      "nombre": "Jamón cocido de pavo y cerdo rebanado Chimex 900 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 5,
+      "referencia": "810",
+      "filaCsv": 44,
+      "nombre": "Chuleta ahumada rebanada Chimex 3 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 5,
+      "referencia": "902",
+      "filaCsv": 47,
+      "nombre": "Queso de puerco Fud 3.8 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 5,
+      "referencia": "921",
+      "filaCsv": 48,
+      "nombre": "Jamón de pierna Real San Rafael 6.6 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 6,
+      "referencia": "924",
+      "filaCsv": 49,
+      "nombre": "Jamón cocido rebanado Viva 800 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 6,
+      "referencia": "965",
+      "filaCsv": 50,
+      "nombre": "Salchirrica de pavo Chimex",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 6,
+      "referencia": "988",
+      "filaCsv": 51,
+      "nombre": "Multiempaque salchicha de pavo Fud 8 x 266 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 6,
+      "referencia": "989",
+      "filaCsv": 52,
+      "nombre": "Multiempaque salchicha Viena Fud 8 x 266 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 6,
+      "referencia": "1216",
+      "filaCsv": 54,
+      "nombre": "Chuleta ahumada de cerdo Chimex 580 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 6,
+      "referencia": "1220",
+      "filaCsv": 55,
+      "nombre": "Queso de puerco rebanado Fud 800 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 7,
+      "referencia": "7012",
+      "filaCsv": 66,
+      "nombre": "Café Olé capuccino irlandés",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 7,
+      "referencia": "10536",
+      "filaCsv": 68,
+      "nombre": "Queso manchego Noche Buena 4 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 7,
+      "referencia": "10674",
+      "filaCsv": 69,
+      "nombre": "Queso manchego importado Noche Buena 3 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 7,
+      "referencia": "8467",
+      "filaCsv": 70,
+      "nombre": "Queso gouda La Villita 1.6 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 7,
+      "referencia": "8002",
+      "filaCsv": 71,
+      "nombre": "Queso panela cremoso a granel La Villita",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 8,
+      "referencia": "8144",
+      "filaCsv": 74,
+      "nombre": "Queso canasto a granel La Villita",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 8,
+      "referencia": "8158",
+      "filaCsv": 76,
+      "nombre": "Queso doble crema La Villita 900 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 8,
+      "referencia": "8216",
+      "filaCsv": 78,
+      "nombre": "Margarina sin sal La Villita 4 x 90 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 8,
+      "referencia": "8372",
+      "filaCsv": 80,
+      "nombre": "Queso panela Fud 1.8 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 8,
+      "referencia": "8602",
+      "filaCsv": 84,
+      "nombre": "Queso crema Philadelphia barra 190 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 9,
+      "referencia": "8629",
+      "filaCsv": 86,
+      "nombre": "Rebanadas Philadelphia 190 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 9,
+      "referencia": "9001",
+      "filaCsv": 87,
+      "nombre": "Yoghurt batido natural Yoplait 145 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 9,
+      "referencia": "9004",
+      "filaCsv": 89,
+      "nombre": "Yoghurt batido durazno Yoplait 145 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 9,
+      "referencia": "9014",
+      "filaCsv": 93,
+      "nombre": "Yoghurt batido frutas y cereales Yoplait 145 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 9,
+      "referencia": "9451",
+      "filaCsv": 96,
+      "nombre": "Yoghurt batido natural Yoplait 4 kg",
+      "variante": "Ref. proveedor 9451",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 9,
+      "referencia": "9452",
+      "filaCsv": 97,
+      "nombre": "Yoghurt batido natural Yoplait 4 kg",
+      "variante": "Ref. proveedor 9452",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 10,
+      "referencia": "9111",
+      "filaCsv": 103,
+      "nombre": "Yoghurt para beber piña coco Yoplait 330 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 10,
+      "referencia": "9112",
+      "filaCsv": 104,
+      "nombre": "Yoghurt para beber fresa Yoplait 330 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 10,
+      "referencia": "9319",
+      "filaCsv": 108,
+      "nombre": "Yoghurt para beber licuado nuez granola Yoplait 330 g",
+      "variante": "Ref. proveedor 9319",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 10,
+      "referencia": "9160",
+      "filaCsv": 111,
+      "nombre": "Crema ácida Yoplait 200 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 11,
+      "referencia": "9161",
+      "filaCsv": 112,
+      "nombre": "Crema ácida Yoplait 440 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 11,
+      "referencia": "9260",
+      "filaCsv": 119,
+      "nombre": "Yoghurt batido Mini fresa Yoplait 90 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 12,
+      "referencia": "9298",
+      "filaCsv": 125,
+      "nombre": "Yoghurt batido Mini uva Yoplait 90 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 12,
+      "referencia": "9422",
+      "filaCsv": 126,
+      "nombre": "Yoghurt bebible licuado manzana pera Yoplait 470 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 12,
+      "referencia": "9443",
+      "filaCsv": 128,
+      "nombre": "Yoghurt bebible Disfruta mango Yoplait 307 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 12,
+      "referencia": "9593",
+      "filaCsv": 133,
+      "nombre": "Yoplait Placer malteada",
+      "variante": "Ref. proveedor 9593",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 12,
+      "referencia": "9961",
+      "filaCsv": 135,
+      "nombre": "Pelón Pelo Rico tamarindo 35 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 12,
+      "referencia": "430546",
+      "filaCsv": 137,
+      "nombre": "Kisses leche bolsa 600 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 12,
+      "referencia": "430506",
+      "filaCsv": 138,
+      "nombre": "Hershey's barra 20 g 12 piezas",
+      "variante": "Ref. proveedor 430506",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 12,
+      "referencia": "430508",
+      "filaCsv": 139,
+      "nombre": "Hershey's barra 20 g 12 piezas",
+      "variante": "Ref. proveedor 430508",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 13,
+      "referencia": "10748",
+      "filaCsv": 141,
+      "nombre": "Queso americano rebanado Franja 1.98 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 13,
+      "referencia": "10878",
+      "filaCsv": 142,
+      "nombre": "Queso panela cremoso Franja 1 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 13,
+      "referencia": "10889",
+      "filaCsv": 143,
+      "nombre": "Queso americano sandwichero Franja 1.8 kg",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 13,
+      "referencia": "9732",
+      "filaCsv": 150,
+      "nombre": "Yoghurt para beber fresa Kids Yoplait 220 g",
+      "variante": "Ref. proveedor 9732",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 13,
+      "referencia": "9815",
+      "filaCsv": 152,
+      "nombre": "Yoghurt para beber Kids Yoplait 100 g",
+      "variante": "Ref. proveedor 9815",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 13,
+      "referencia": "8344",
+      "filaCsv": 153,
+      "nombre": "Dedo de queso mozzarella Fud 26 g",
+      "variante": "",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 13,
+      "referencia": "9752",
+      "filaCsv": 155,
+      "nombre": "Yoghurt Cápsula fresa-plátano y natural Yoplait",
+      "variante": "Ref. proveedor 9752",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    },
+    {
+      "pagina": 13,
+      "referencia": "9411",
+      "filaCsv": 156,
+      "nombre": "Yoghurt Cápsula fresa-plátano y natural Yoplait",
+      "variante": "Ref. proveedor 9411",
+      "motivo": "No se confirmó un GTIN de la presentación exacta."
+    }
+  ]
+}

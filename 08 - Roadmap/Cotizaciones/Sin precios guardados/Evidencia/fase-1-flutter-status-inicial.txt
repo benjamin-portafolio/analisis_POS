@@ -1,0 +1,47 @@
+Fecha local: 2026-10-06
+HEAD: 56ddbc49f7369b2598aabe3c67b03135b7c89b46
+ M lib/application/commands/ventas/limpiar_venta_borrador_command.dart
+ M lib/application/commands/ventas/venta_borrador_command_service.dart
+ M lib/application/sync/projections/sale_item_projection.dart
+ M lib/core/di/application_dependencies.dart
+ M lib/core/di/data_dependencies.dart
+ M lib/data/local/drift/app_database.dart
+ M lib/data/local/drift/app_database.g.dart
+ M lib/data/local/drift/daos/sale_dao.dart
+ M lib/data/local/drift/drift_local_event_store.dart
+ M lib/presentation/pages/caja/caja_screen.dart
+ M lib/presentation/pages/caja/models/sale_receipt_display.dart
+ M lib/presentation/pages/caja/sale_receipt_image_generator.dart
+ M lib/presentation/pages/pantalla_principal/home_screen.dart
+ M lib/presentation/pages/pantalla_principal/menu_lateral.dart
+ M test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart
+?? lib/application/commands/cotizaciones/
+?? lib/application/sync/handlers/cotizacion_guardada_event_handler.dart
+?? lib/application/sync/handlers/cotizacion_recuperada_event_handler.dart
+?? lib/application/sync/payloads/cotizacion_guardada_line.dart
+?? lib/application/sync/payloads/cotizacion_guardada_payload.dart
+?? lib/application/sync/payloads/cotizacion_recuperada_line.dart
+?? lib/application/sync/payloads/cotizacion_recuperada_payload.dart
+?? lib/application/sync/projections/quotation_item_projection.dart
+?? lib/application/sync/projections/quotation_projection.dart
+?? lib/application/sync/projections/quotation_projection_store.dart
+?? lib/application/sync/quotation_draft_validator.dart
+?? lib/application/sync/quotation_recovery_line_exception.dart
+?? lib/application/sync/quotation_recovery_validator.dart
+?? lib/data/local/drift/daos/quotation_dao.dart
+?? lib/data/local/drift/tables/quotation_items.dart
+?? lib/data/local/drift/tables/quotations.dart
+?? lib/data/repositories/quotation_repository_impl.dart
+?? lib/domain/cotizaciones/
+?? lib/domain/repositories/quotation_repository.dart
+?? lib/presentation/pages/cotizaciones/
+?? lib/presentation/tickets/
+?? test/application/commands/cotizaciones/
+?? test/application/sync/handlers/
+?? test/application/sync/payloads/cotizacion_guardada_payload_test.dart
+?? test/application/sync/payloads/cotizacion_recuperada_payload_test.dart
+?? test/core/
+?? test/data/local/drift/quotation_backup_test.dart
+?? test/presentation/pages/cotizaciones/
+?? test/support/quotation_harness.dart
+?? test/support/quotation_ui_fixtures.dart

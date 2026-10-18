@@ -1,7 +1,7 @@
 ---
 tipo: indice_decisiones
 estado: activo
-actualizado: 2026-08-26
+actualizado: 2026-10-02
 ---
 
 # Registro de decisiones
@@ -21,7 +21,10 @@ actualizado: 2026-08-26
 | ADR-0011 | [[02 - Decisiones/ADR-0011 Dos modos de app sobre el mismo core offline first|Dos modos de app sobre el mismo core offline first]] | decidido | 2026-07-08 | La app puede compilarse/configurarse como standalone o con sincronizacion de servidor |
 | ADR-0012 | [[02 - Decisiones/ADR-0012 Cantidades atomicas y unidades por dimension|Cantidades atomicas y unidades por dimension]] | decidido | 2026-08-19 | Inventario y ventas medidas persisten enteros con escala propia por dimension |
 | ADR-0013 | [[02 - Decisiones/ADR-0013 Costo estandar opcional por variante|Costo estandar opcional por variante]] | decidido | 2026-08-24 | La variante separa precio de venta, costo de referencia e inversion real de inventario |
-| ADR-0014 | [[02 - Decisiones/ADR-0014 Seguimiento directo de existencias por variante|Seguimiento directo de existencias por variante]] | decidido | 2026-08-26 | Una variante enlaza opcionalmente un recurso único; recurso, saldo y movimiento inicial se crean atómicamente |
+| ADR-0014 | [[02 - Decisiones/ADR-0014 Seguimiento directo de existencias por variante\|Seguimiento directo de existencias por variante]] | parcialmente reemplazado por ADR-0017 | 2026-08-26 | Una variante enlaza un recurso único; ADR-0017 añade recuperación y descarte vacío standalone |
+| ADR-0015 | [[02 - Decisiones/ADR-0015 Corte de caja siempre habilitado|Corte de caja siempre habilitado]] | parcialmente reemplazado | 2026-09-26 | Sin bandera de compilación; la habilitación por instalación la sustituye (ADR-0016) |
+| ADR-0016 | [[02 - Decisiones/ADR-0016 Habilitacion de caja por instalacion|Habilitacion de caja por instalacion]] | decidido, implementado | 2026-09-26 | `AppConfig.cashEnabled` persistente en `pos_flutter`, con interruptor en instalación y ajustes; el servidor no lo valida |
+| ADR-0017 | [[02 - Decisiones/ADR-0017 Reutilizacion y descarte seguro de recursos de inventario\|Reutilización y descarte seguro de recursos de inventario]] | decidido, pendiente de implementar | 2026-10-02 | Recuperar recurso previo; descarte solo de autogenerados vacíos standalone; conservar recurso/balance server_sync para ventas tardías |
 
 ## Decisiones pendientes candidatas
 

@@ -1,0 +1,19 @@
+{
+  "documented_date": "2026-10-10",
+  "windows": {
+    "status": "pending",
+    "user_response": "No hay equipo Windows disponible",
+    "command_not_executed": "flutter build windows --debug"
+  },
+  "reader": {
+    "status": "pending",
+    "user_response": "No hay lector disponible",
+    "model": null,
+    "transport": null,
+    "configuration": null
+  },
+  "native_paste": {
+    "status": "pending",
+    "reason": "Entrada mostrada por la herramienta de pegado sin incremento confirmado; contraste con typeText ASCII sí agrega. Se solicitó contraste manual en la copia aislada."
+  }
+}

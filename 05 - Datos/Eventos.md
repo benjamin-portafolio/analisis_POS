@@ -1,7 +1,7 @@
 ---
 tipo: datos
 estado: borrador
-actualizado: 2026-08-26
+actualizado: 2026-10-04
 ---
 
 # Eventos
@@ -84,6 +84,27 @@ producto_creado
   ref inventory_item inv_001 uses
 ```
 
+Referencias de inventario implementadas:
+
+```text
+recurso_inventario_creado
+  ref inventory_item <inventory_item_id> affects
+  ref unit <default_unit_id> uses
+  ref inventory_movement <movement_id> affects   # solo si hay saldo inicial
+
+recurso_inventario_actualizado
+  ref inventory_item <inventory_item_id> affects
+
+movimiento_inventario_registrado
+  ref inventory_item <inventory_item_id> affects
+  ref inventory_movement <movement_id> affects
+```
+
+El cambio de nombre y el movimiento son eventos separados. Cuando nacen de un
+mismo guardado, el segundo declara en `payload.base_event_id` al primero y usa
+la versión resultante. `created_at_local` no determina el orden oficial: el
+servidor los acepta en orden causal y asigna `server_sequence`.
+
 Cuando el artículo crea el recurso en el mismo comando, el payload declara
 además `depends_on_event_id` hacia `recurso_inventario_creado`. En
 `server_sync`, push entrega primero el recurso; en `standalone` se aplican ambos
@@ -98,6 +119,26 @@ Si se diseña una importacion futura de historial standalone a servidor, ese flu
 En servidor, los eventos `conflict` tambien deben generar `event_refs`. Esas referencias permiten agruparlos con el evento ganador y con otros candidatos dentro de `sync_conflicts`, aunque el evento conflictivo no se aplique a las tablas oficiales de lectura.
 
 ## Reglas
+
+### Registro histórico previo: contrato y estado parcial — 2026-10-04
+
+Alta/descarte tipados y fixtures están implementados en Dart/TS. El servidor
+conserva procedencia, deriva memoria y rechaza el descarte por push (PG real).
+Flutter no tiene todavía emisor/handler de descarte ni memoria derivada/undo
+exacto comprobados: las reglas siguientes son el resultado requerido. Ver [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-prerrequisitos-fase5/Resultados|Auditoría de entrada a fase 5, 2026-10-04]].
+
+ADR-0017 extiende `recurso_inventario_creado` con procedencia opcional y define
+`recurso_inventario_descartado`, exclusivamente standalone, después de la edición
+que desvincula, en un lote atómico. El descarte conserva eventos y nunca elimina
+movimientos; su evidencia impide resucitar el recurso con una alta antigua.
+Se declaran referencias de recurso/producto/variante y no se persisten en local.
+
+Server_sync no emite ni aplica descartes; mantiene recurso/balance para ventas
+tardías. La memoria se deriva de eventos de producto y se restaura con sus
+conflictos. Contratos y referencias exactas:
+[[08 - Roadmap/Seguimiento de existencias/Contrato funcional y de eventos|Contrato de seguimiento, revisión 1]].
+
+### Reglas generales
 
 - No editar eventos aceptados.
 - No borrar eventos necesarios para sincronizacion, auditoria, respaldo o migracion.
@@ -114,3 +155,12 @@ En servidor, los eventos `conflict` tambien deben generar `event_refs`. Esas ref
 - [[03 - Dominio/Modulos/Articulos|Modulo Articulos]]
 - [[01 - Contexto/Modos de operacion|Modos de operacion]]
 - [[02 - Decisiones/ADR-0011 Dos modos de app sobre el mismo core offline first|ADR-0011 Dos modos de app sobre el mismo core offline first]]
+
+## Estado actualizado del seguimiento — corrección de fase 3, 2026-10-04
+
+La auditoría inicial fallida se conserva como historial. El core Flutter ahora
+mantiene memoria por eventos, recupera el mismo recurso con historial, descarta
+solo standalone elegible con rollback/replay comprobados y restaura memoria exacta.
+Server_sync conserva recurso/balance; transporte HTTP/PG/SQLite y pull a cliente
+vacío están verificados en su alcance. UI de fase 4 y cierre de fase 5 pendientes;
+no se acredita uso físico ni despliegue. Evidencia y comandos: [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-correccion-fase3/Resultados|Corrección y verificación de fase 3, 2026-10-04]].

@@ -1,7 +1,7 @@
 ---
 tipo: pendientes
 estado: activo
-actualizado: 2026-07-16
+actualizado: 2026-10-08
 ---
 
 # Preguntas abiertas
@@ -11,7 +11,7 @@ actualizado: 2026-07-16
 | PA-001 | Para modo `server_sync`, el servidor sera local, VPS o mixto? | Alto | pendiente | Definir escenario de despliegue inicial |
 | PA-002 | Se permitira vender sin stock confirmado? | Alto | pendiente | Definir politica de inventario offline |
 | PA-003 | Una comanda puede modificarse despues de enviada a cocina? | Medio | pendiente | Definir estados por area |
-| PA-004 | Se requiere impresion offline? | Alto | pendiente | Validar impresoras disponibles |
+| PA-004 | Se requiere impresion offline? | Alto | definido; implementación pendiente | Sí: tickets de ventas/cotizaciones desde Android, con varias impresoras Bluetooth ESC/POS; primera prueba física de 58 mm. [[08 - Roadmap/Impresion de tickets/Plan de implementacion\|Plan en cuatro sesiones]] |
 | PA-005 | Como se manejaran cortes de caja si hubo ventas offline? | Medio | pendiente | Diseñar flujo de corte |
 | PA-006 | Que cambios de catalogo requieren revision al reconectar? | Medio | pendiente | Definir reglas por campo |
 | PA-007 | Habra multiples sucursales? | Alto | pendiente | Confirmar alcance |

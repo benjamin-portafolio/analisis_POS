@@ -1,0 +1,323 @@
+
+/Users/benjamin/Projects/POS/pos_flutter/lib/application/commands/articulos/inventory_resource_resolver.dart
+59:   }
+60: 
+61:   Future<RecursoRecuperacionResultado> resolve({
+62:     required String variantId,
+63:     required String? currentInventoryItemId,
+64:     required String requiredUnitId,
+65:     required SaleConfiguration saleConfiguration,
+66:     String? selectedInventoryItemId,
+67:   }) async {
+68:     // 1. Vínculo directo actual: se conserva sin tocar nada más.
+69:     if (currentInventoryItemId != null) {
+70:       final current = await _inventoryStore.findItemById(
+71:         currentInventoryItemId,
+72:       );
+73:       if (current == null) {
+74:         return RecursoNoDisponibleResultado(
+75:           motivo:
+76:               'El recurso de inventario vinculado ya no existe. Revisa el '
+77:               'artículo antes de guardar.',
+78:         );
+79:       }
+80:       return RecursoRecuperableResultado(
+81:         inventoryItemId: currentInventoryItemId,
+82:       );
+83:     }
+84: 
+85:     // Selección explícita de la persona usuaria: es evidencia válida, pero se
+86:     // valida con las mismas reglas que la memoria antes de aceptarse.
+87:     if (selectedInventoryItemId != null) {
+88:       return _validateCandidate(
+89:         variantId: variantId,
+90:         inventoryItemId: selectedInventoryItemId,
+91:         requiredUnitId: requiredUnitId,
+92:         saleConfiguration: saleConfiguration,
+93:         motive: 'El recurso seleccionado no está disponible',
+94:       );
+95:     }
+96: 
+97:     // 2. Memoria durable antes que cualquier suposición.
+98:     final memory = await _memoryStore.findByVariantId(variantId);
+99:     if (memory != null) {
+100:       return _validateCandidate(
+101:         variantId: variantId,
+102:         inventoryItemId: memory.inventoryItemId,
+103:         requiredUnitId: requiredUnitId,
+104:         saleConfiguration: saleConfiguration,
+105:         motive: 'El recurso anterior no está disponible',
+106:       );
+107:     }
+108: 
+109:     // 4. Evidencia explícita por procedencia. Varios recursos plausibles son
+110:     // ambigüedad (SEG-22): nunca se elige por nombre, reloj ni «mayor saldo».
+111:     final byOrigin = await _trackingStore.resourcesByOriginVariant(variantId);
+112:     if (byOrigin.length == 1) {
+113:       return _validateCandidate(
+114:         variantId: variantId,
+115:         inventoryItemId: byOrigin.single.id,
+116:         requiredUnitId: requiredUnitId,
+117:         saleConfiguration: saleConfiguration,
+118:         motive: 'El recurso anterior no está disponible',
+119:       );
+120:     }
+121:     if (byOrigin.length > 1) {
+122:       return const RecursoSeleccionRequeridaResultado(
+123:         motivo:
+124:             'Hay más de un recurso de inventario que pudo quedar asociado a '
+125:             'esta variante. Elige cuál recuperar.',
+126:       );
+127:     }
+128: 
+129:     // 6. Sin evidencia recuperable. Solo se crea cuando además se demuestra que
+130:     // no había recurso anterior: o porque nunca lo hubo, o porque un descarte
+131:     // ya aplicado lo eliminó válidamente.
+132:     return const RecursoNuevoResultado();
+133:   }
+137:   Future<RecursoRecuperacionResultado> _validateCandidate({
+138:     required String variantId,
+139:     required String inventoryItemId,
+140:     required String requiredUnitId,
+141:     required SaleConfiguration saleConfiguration,
+142:     required String motive,
+143:   }) async {
+144:     final item = await _inventoryStore.findItemById(inventoryItemId);
+145:     if (item == null) {
+146:       // El recurso falta. Solo es correcto si un descarte ya aplicado lo
+147:       // eliminó; en cualquier otro caso es inconsistencia, no un alta limpia.
+148:       if (await _trackingStore.hasAppliedDiscard(inventoryItemId)) {
+149:         return const RecursoNuevoResultado();
+150:       }
+151:       return RecursoNoDisponibleResultado(
+152:         motivo:
+153:             '$motive: el recurso de inventario ya no existe y no hay evidencia '
+154:             'de que se descartara.',
+155:       );
+156:     }
+157:     if (!item.active) {
+158:       return RecursoNoDisponibleResultado(
+159:         motivo: '$motive: el recurso está inactivo.',
+160:       );
+161:     }
+162:     final directLinks = await _trackingStore.directLinkedVariantIds(
+163:       inventoryItemId,
+164:     );
+165:     if (directLinks.any((id) => id != variantId)) {
+166:       return RecursoNoDisponibleResultado(
+167:         motivo: '$motive: ya está vinculado a otra variante.',
+168:       );
+169:     }
+170:     final unit = await _inventoryStore.findUnitById(item.defaultUnitId);
+171:     if (unit == null || !unit.active) {
+172:       return RecursoNoDisponibleResultado(
+173:         motivo: '$motive: su unidad no existe o está inactiva.',
+174:       );
+175:     }
+176:     if (item.defaultUnitId != requiredUnitId) {
+177:       return RecursoNoDisponibleResultado(
+178:         motivo:
+179:             '$motive: su unidad no coincide con la unidad elegida para el '
+180:             'seguimiento.',
+
+/Users/benjamin/Projects/POS/pos_flutter/lib/application/sync/handlers/inventory_event_registry.dart
+1: import '../event_handler.dart';
+2: import '../payloads/recurso_inventario_creado_payload.dart';
+3: import '../payloads/recurso_inventario_actualizado_payload.dart';
+4: import '../payloads/movimiento_inventario_registrado_payload.dart';
+5: import 'inventory_event_handler.dart';
+6: 
+7: Map<String, EventHandler> inventoryEventHandlers(
+8:   InventoryEventHandler handler,
+9: ) => {
+10:   RecursoInventarioCreadoPayload.eventType:
+11:       handler.applyRecursoInventarioCreado,
+12:   RecursoInventarioActualizadoPayload.eventType:
+13:       handler.applyRecursoInventarioActualizado,
+14:   MovimientoInventarioRegistradoPayload.eventType:
+15:       handler.applyMovimientoInventarioRegistrado,
+16: };
+
+/Users/benjamin/Projects/POS/pos_flutter/lib/core/di/data_dependencies.dart
+160:   );
+161:   getIt.registerLazySingleton<DatabaseSnapshotService>(
+162:     () => DriftDatabaseSnapshotService(
+163:       db: getIt<AppDatabase>(),
+164:       stateReader: getIt<DatabaseStateReader>(),
+165:     ),
+166:   );
+167:   getIt.registerLazySingleton<DatabaseRestoreService>(
+168:     () => DriftDatabaseRestoreService(db: getIt<AppDatabase>()),
+169:   );
+170:   getIt.registerLazySingleton<DriftSyncPersistence>(
+171:     () => DriftSyncPersistence(
+172:       db: getIt<AppDatabase>(),
+173:       eventDao: getIt<EventDao>(),
+174:       eventRefDao: getIt<EventRefDao>(),
+175:       syncCheckpointDao: getIt<SyncCheckpointDao>(),
+176:     ),
+177:   );
+178:   getIt.registerLazySingleton<SyncPersistence>(
+179:     () => getIt<DriftSyncPersistence>(),
+180:   );
+181:   getIt.registerLazySingleton<SyncedEventHistory>(
+182:     () => getIt<DriftSyncPersistence>(),
+183:   );
+184:   getIt.registerLazySingleton<SyncedEventStore>(
+185:     () => DriftSyncedEventStore(db: getIt<AppDatabase>()),
+186:   );
+187:   getIt.registerLazySingleton<EspacioProjectionStore>(
+188:     () => DriftEspacioProjectionStore(espacioDao: getIt<EspacioDao>()),
+189:   );
+190:   getIt.registerLazySingleton<CategoriaProjectionStore>(
+191:     () => DriftCategoriaProjectionStore(categoriaDao: getIt<CategoriaDao>()),
+192:   );
+193:   getIt.registerLazySingleton<ProductoProjectionStore>(
+194:     () => DriftProductoProjectionStore(productoDao: getIt<ProductoDao>()),
+195:   );
+196:   getIt.registerLazySingleton<InventoryProjectionStore>(
+197:     () => DriftInventoryProjectionStore(
+198:       inventoryDao: getIt<InventoryDao>(),
+199:       unitDao: getIt<UnitDao>(),
+200:     ),
+201:   );
+202:   getIt.registerLazySingleton<VariantInventoryMemoryStore>(
+203:     () => DriftVariantInventoryMemoryStore(
+204:       dao: getIt<VariantInventoryMemoryDao>(),
+205:     ),
+206:   );
+207:   getIt.registerLazySingleton<VariantInventoryTrackingStore>(
+208:     () => DriftVariantInventoryTrackingStore(
+209:       inventoryDao: getIt<InventoryDao>(),
+210:       productoDao: getIt<ProductoDao>(),
+
+/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/drift_producto_projection_store.dart
+98:       throw StateError('No se puede cambiar la forma de venta.');
+99:     }
+100:     final previousVariants = await findVariantsByProductId(product.id);
+101:     final keptIds = deleteProduct
+102:         ? <String>{}
+103:         : state.variantes.map((v) => v.id).toSet();
+104:     final removed = previousVariants
+105:         .where((v) => v.active && !keptIds.contains(v.id))
+106:         .toList();
+107:     if (!restore &&
+108:         (deleteProduct || removed.isNotEmpty) &&
+109:         event.deliveryStatus == 'pending' &&
+110:         event.serverSequence == null) {
+111:       await _productoDao.guardarRespaldoActualizacion(
+112:         event.eventId,
+113:         product.id,
+114:       );
+115:     }
+116:     if (deleteProduct) {
+117:       await _productoDao.desactivarProductoHistorico(
+118:         product.id,
+
+/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/daos/producto_dao.dart
+369:   }
+370: 
+371:   Future<void> guardarRespaldoActualizacion(
+372:     String eventId,
+373:     String productId,
+374:   ) async {
+375:     final product = await obtenerProductoPorId(productId);
+376:     final variants = await obtenerVariantesPorProducto(productId);
+377:     final recipes = <RecipeComponentRow>[];
+378:     for (final v in variants) {
+379:       recipes.addAll(await obtenerComponentesRecetaPorVariante(v.id));
+380:     }
+381:     final memories = await (select(db.variantInventoryMemory)
+382:           ..where((m) => m.variantId.isIn(variants.map((v) => v.id).toList())))
+383:         .get();
+384:     await into(db.productUpdateUndo).insert(
+385:       ProductUpdateUndoCompanion.insert(
+386:         eventId: eventId,
+387:         productId: productId,
+388:         snapshotJson: jsonEncode({
+389:           'product': product!.toJson(),
+390:           'variants': variants.map((v) => v.toJson()).toList(),
+391:           'recipes': recipes.map((r) => r.toJson()).toList(),
+392:         }),
+393:         memoryJson: Value(
+394:           jsonEncode(
+395:             memories
+396:                 .map(
+397:                   (m) => {
+398:                     'variant_id': m.variantId,
+399:                     'inventory_item_id': m.inventoryItemId,
+400:                     'source_event_id': m.sourceEventId,
+401:                     'source_server_sequence': m.sourceServerSequence,
+402:                   },
+403:                 )
+404:                 .toList(),
+405:           ),
+406:         ),
+407:       ),
+468:     // Restore memories
+469:     try {
+470:       final memoryData = jsonDecode(backup.memoryJson) as List;
+471:       for (final m in memoryData) {
+472:         await into(db.variantInventoryMemory).insertOnConflictUpdate(
+473:           VariantInventoryMemoryCompanion.insert(
+474:             variantId: m['variant_id'] as String,
+475:             inventoryItemId: m['inventory_item_id'] as String,
+476:             sourceEventId: m['source_event_id'] as String,
+477:             sourceServerSequence: Value<int?>(
+478:               m['source_server_sequence'] as int?,
+479:             ),
+480:           ),
+481:         );
+482:       }
+483:     } catch (_) {
+484:       // ignore if memory not stored
+485:     }
+486:     await (delete(
+487:       db.productUpdateUndo,
+488:     )..where((b) => b.eventId.equals(eventId))).go();
+489:     return true;
+490:   }
+491: 
+492:   Future<void> _removeUnreferencedVariant(String id) async {
+
+/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/app_database.dart
+115: 
+116:   AppDatabase.forTesting(super.executor);
+117: 
+118:   @override
+119:   int get schemaVersion => 8;
+120: 
+121:   @override
+122:   MigrationStrategy get migration => MigrationStrategy(
+123:     onCreate: (m) async {
+124:       await m.createAll();
+125:       await _seedInventoryUnits();
+126:     },
+127:     onUpgrade: (m, from, to) async {
+128:       if (from < 4) {
+129:         await m.createTable(units);
+130:         await _seedInventoryUnits();
+131:         await m.createTable(inventoryItems);
+132:         await m.createTable(inventoryBalances);
+133:         await m.createTable(inventoryMovements);
+134:       }
+135:       if (from < 5) {
+136:         await m.addColumn(products, products.saleMode);
+137:         await m.addColumn(products, products.saleUnitId);
+138:         await m.addColumn(products, products.priceReferenceQuantityAtomic);
+139:       }
+140:       if (from < 6) {
+141:         await customStatement('DROP TABLE IF EXISTS recipe_components');
+142:         await m.alterTable(TableMigration(products));
+143:         await m.alterTable(TableMigration(productVariants));
+144:         await m.alterTable(TableMigration(inventoryMovements));
+145:       }
+146:       if (from >= 4 && from < 7) {
+147:         await m.addColumn(inventoryBalances, inventoryBalances.version);
+148:         await m.alterTable(TableMigration(inventoryMovements));
+149:       }
+150:       // Bloque propio y no dentro del `from < 7` de arriba: ese rango excluye
+151:       // el esquema 7, y una base en 7 tiene que pasar por aquí.
+152:       if (from < 8) {
+153:         await m.createTable(accountBalanceBaselines);
+154:       }

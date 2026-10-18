@@ -1,0 +1,397 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand --json --outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/postgres-completa-segunda.json
+
+FAIL src/sync/variant-inventory-memory.postgres.spec.ts
+  ● Memoria de variante con PostgreSQL real › acredita la memoria del fixture de desvinculación del escenario compartido
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "accepted"
+    Received: "rejected"
+
+      884 |     );
+      885 |
+    > 886 |     expect(resultado.status).toBe('accepted');
+          |                              ^
+      887 |     expect(await memorias()).toEqual([
+      888 |       {
+      889 |         variantId: VARIANT_TRACKING.variante250g,
+
+      at Object.<anonymous> (sync/variant-inventory-memory.postgres.spec.ts:886:30)
+
+  ● Memoria de variante con PostgreSQL real › no cambia el recurso recordado al pasar a receta con el escenario compartido
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "accepted"
+    Received: "rejected"
+
+      918 |       'producto/producto-directo-a-ninguno.json',
+      919 |     );
+    > 920 |     expect((await aplicarProductos(desvincula)).status).toBe('accepted');
+          |                                                         ^
+      921 |     const acreditada = (await memorias())[0];
+      922 |     await applySharedRecipeResource(database, inventory);
+      923 |
+
+      at Object.<anonymous> (sync/variant-inventory-memory.postgres.spec.ts:920:57)
+
+  ● Memoria de variante con PostgreSQL real › rechaza el descarte por push sin borrar nada ni distribuirlo
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "accepted"
+    Received: "rejected"
+
+      943 |         )
+      944 |       ).status,
+    > 945 |     ).toBe('accepted');
+          |       ^
+      946 |     const acreditada = (await memorias())[0];
+      947 |     const eventosAntes = await database.manager.count(EventEntity);
+      948 |     const notificar = jest.fn();
+
+      at Object.<anonymous> (sync/variant-inventory-memory.postgres.spec.ts:945:7)
+
+FAIL src/sync/variant-tracking-late-sale.postgres.spec.ts
+  ● Venta posterior a la desvinculación (PostgreSQL real) › acepta una sola vez la venta contra el recurso de su configuración capturada
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "accepted"
+    Received: "rejected"
+
+      120 |         'producto/producto-directo-a-ninguno.json',
+      121 |       );
+    > 122 |       expect(desvincula.status).toBe('accepted');
+          |                                 ^
+      123 |
+      124 |       const venta = await empujarSobre(ventaTardia());
+      125 |
+
+      at Object.<anonymous> (sync/variant-tracking-late-sale.postgres.spec.ts:122:33)
+
+  ● Venta posterior a la desvinculación (PostgreSQL real) › no reactiva el vínculo ni altera la memoria con la venta tardía
+
+    expect(received).toBeNull()
+
+    Received: "a3000000-0000-4000-8000-000000000001"
+
+      180 |           })
+      181 |         ).inventoryItemId,
+    > 182 |       ).toBeNull();
+          |         ^
+      183 |       expect(await memoria()).toEqual(memoriaAntes);
+      184 |       expect(memoriaAntes[0]?.sourceEventId).toBe(
+      185 |         VARIANT_TRACKING.evProductoDesvincula,
+
+      at Object.<anonymous> (sync/variant-tracking-late-sale.postgres.spec.ts:182:9)
+
+  ● Venta posterior a la desvinculación (PostgreSQL real) › confirma la venta una sola vez por event_id y una sola vez por venta
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 2
+    Received: 1
+
+      225 |       // Solo lo aceptado notifica disponibilidad: duplico y conflicto no
+      226 |       // añaden avisos.
+    > 227 |       expect(notificados).toBe(2);
+          |                           ^
+      228 |       expect(notificar).toHaveBeenCalledTimes(notificados);
+      229 |     });
+      230 |
+
+      at Object.<anonymous> (sync/variant-tracking-late-sale.postgres.spec.ts:227:27)
+
+(node:21840) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+FAIL src/sync/account-balance-baselines.postgres.spec.ts
+  ● Saldo en cuenta bancaria PostgreSQL temporal › acepta la declaración y la fila queda sincronizada
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:461:14)
+      at SyncService.pushEvents (sync/sync.service.ts:155:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:88:20)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › admite un saldo sobregirado y no lo recorta
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:461:14)
+      at SyncService.pushEvents (sync/sync.service.ts:155:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:115:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › la segunda declaración se conserva como conflicto y no borra la primera
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:461:14)
+      at SyncService.pushEvents (sync/sync.service.ts:155:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:124:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › misma identidad con otro event_id también se conserva sin pisar la fila
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:461:14)
+      at SyncService.pushEvents (sync/sync.service.ts:155:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:147:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › el reintento del mismo event_id se reconoce como duplicado
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:461:14)
+      at SyncService.pushEvents (sync/sync.service.ts:155:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:162:13)
+
+FAIL src/migrations/1791417600000-CreateProductSuppliers.postgres.spec.ts
+  ● Migración proveedores sobre esquema anterior con datos › down protege datos; CASCADE de variante solo elimina relaciones, nunca catálogo
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Array [
+        Object {
+    -     "relations": null,
+    -     "suppliers": null,
+    +     "relations": "variant_suppliers",
+    +     "suppliers": "suppliers",
+        },
+      ]
+
+      67 |     await db.query('DELETE FROM suppliers');
+      68 |     await db.undoLastMigration();
+    > 69 |     expect(await db.query("SELECT to_regclass('suppliers') AS suppliers, to_regclass('variant_suppliers') AS relations")).toEqual([{ suppliers: null, relations: null }]);
+         |                                                                                                                           ^
+      70 |     expect(await db.query('SELECT name FROM products')).toEqual([{ name: 'Previo' }]);
+      71 |   });
+      72 | });
+
+      at Object.<anonymous> (migrations/1791417600000-CreateProductSuppliers.postgres.spec.ts:69:123)
+
+
+Summary of all failing tests
+FAIL sync/variant-inventory-memory.postgres.spec.ts
+  ● Memoria de variante con PostgreSQL real › acredita la memoria del fixture de desvinculación del escenario compartido
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "accepted"
+    Received: "rejected"
+
+      884 |     );
+      885 |
+    > 886 |     expect(resultado.status).toBe('accepted');
+          |                              ^
+      887 |     expect(await memorias()).toEqual([
+      888 |       {
+      889 |         variantId: VARIANT_TRACKING.variante250g,
+
+      at Object.<anonymous> (sync/variant-inventory-memory.postgres.spec.ts:886:30)
+
+  ● Memoria de variante con PostgreSQL real › no cambia el recurso recordado al pasar a receta con el escenario compartido
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "accepted"
+    Received: "rejected"
+
+      918 |       'producto/producto-directo-a-ninguno.json',
+      919 |     );
+    > 920 |     expect((await aplicarProductos(desvincula)).status).toBe('accepted');
+          |                                                         ^
+      921 |     const acreditada = (await memorias())[0];
+      922 |     await applySharedRecipeResource(database, inventory);
+      923 |
+
+      at Object.<anonymous> (sync/variant-inventory-memory.postgres.spec.ts:920:57)
+
+  ● Memoria de variante con PostgreSQL real › rechaza el descarte por push sin borrar nada ni distribuirlo
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "accepted"
+    Received: "rejected"
+
+      943 |         )
+      944 |       ).status,
+    > 945 |     ).toBe('accepted');
+          |       ^
+      946 |     const acreditada = (await memorias())[0];
+      947 |     const eventosAntes = await database.manager.count(EventEntity);
+      948 |     const notificar = jest.fn();
+
+      at Object.<anonymous> (sync/variant-inventory-memory.postgres.spec.ts:945:7)
+
+FAIL sync/variant-tracking-late-sale.postgres.spec.ts
+  ● Venta posterior a la desvinculación (PostgreSQL real) › acepta una sola vez la venta contra el recurso de su configuración capturada
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "accepted"
+    Received: "rejected"
+
+      120 |         'producto/producto-directo-a-ninguno.json',
+      121 |       );
+    > 122 |       expect(desvincula.status).toBe('accepted');
+          |                                 ^
+      123 |
+      124 |       const venta = await empujarSobre(ventaTardia());
+      125 |
+
+      at Object.<anonymous> (sync/variant-tracking-late-sale.postgres.spec.ts:122:33)
+
+  ● Venta posterior a la desvinculación (PostgreSQL real) › no reactiva el vínculo ni altera la memoria con la venta tardía
+
+    expect(received).toBeNull()
+
+    Received: "a3000000-0000-4000-8000-000000000001"
+
+      180 |           })
+      181 |         ).inventoryItemId,
+    > 182 |       ).toBeNull();
+          |         ^
+      183 |       expect(await memoria()).toEqual(memoriaAntes);
+      184 |       expect(memoriaAntes[0]?.sourceEventId).toBe(
+      185 |         VARIANT_TRACKING.evProductoDesvincula,
+
+      at Object.<anonymous> (sync/variant-tracking-late-sale.postgres.spec.ts:182:9)
+
+  ● Venta posterior a la desvinculación (PostgreSQL real) › confirma la venta una sola vez por event_id y una sola vez por venta
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 2
+    Received: 1
+
+      225 |       // Solo lo aceptado notifica disponibilidad: duplico y conflicto no
+      226 |       // añaden avisos.
+    > 227 |       expect(notificados).toBe(2);
+          |                           ^
+      228 |       expect(notificar).toHaveBeenCalledTimes(notificados);
+      229 |     });
+      230 |
+
+      at Object.<anonymous> (sync/variant-tracking-late-sale.postgres.spec.ts:227:27)
+
+FAIL sync/account-balance-baselines.postgres.spec.ts
+  ● Saldo en cuenta bancaria PostgreSQL temporal › acepta la declaración y la fila queda sincronizada
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:461:14)
+      at SyncService.pushEvents (sync/sync.service.ts:155:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:88:20)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › admite un saldo sobregirado y no lo recorta
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:461:14)
+      at SyncService.pushEvents (sync/sync.service.ts:155:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:115:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › la segunda declaración se conserva como conflicto y no borra la primera
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:461:14)
+      at SyncService.pushEvents (sync/sync.service.ts:155:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:124:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › misma identidad con otro event_id también se conserva sin pisar la fila
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:461:14)
+      at SyncService.pushEvents (sync/sync.service.ts:155:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:147:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › el reintento del mismo event_id se reconoce como duplicado
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:461:14)
+      at SyncService.pushEvents (sync/sync.service.ts:155:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:162:13)
+
+FAIL migrations/1791417600000-CreateProductSuppliers.postgres.spec.ts
+  ● Migración proveedores sobre esquema anterior con datos › down protege datos; CASCADE de variante solo elimina relaciones, nunca catálogo
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Array [
+        Object {
+    -     "relations": null,
+    -     "suppliers": null,
+    +     "relations": "variant_suppliers",
+    +     "suppliers": "suppliers",
+        },
+      ]
+
+      67 |     await db.query('DELETE FROM suppliers');
+      68 |     await db.undoLastMigration();
+    > 69 |     expect(await db.query("SELECT to_regclass('suppliers') AS suppliers, to_regclass('variant_suppliers') AS relations")).toEqual([{ suppliers: null, relations: null }]);
+         |                                                                                                                           ^
+      70 |     expect(await db.query('SELECT name FROM products')).toEqual([{ name: 'Previo' }]);
+      71 |   });
+      72 | });
+
+      at Object.<anonymous> (migrations/1791417600000-CreateProductSuppliers.postgres.spec.ts:69:123)
+
+
+Test Suites: 4 failed, 44 passed, 48 total
+Tests:       12 failed, 486 passed, 498 total
+Snapshots:   0 total
+Time:        5.983 s, estimated 6 s
+Ran all test suites.
+Test results written to: ../analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/postgres-completa-segunda.json

@@ -1,0 +1,1922 @@
+[
+  {
+    "term": "costeña",
+    "start": 0,
+    "count": 50,
+    "rows": [
+      {
+        "id": "3043593",
+        "name": "Chícharos La Costeña 420g",
+        "url": "https://www.chedraui.com.mx/chicharos-la-costena-420g-3043593/p",
+        "ean": "750101700414",
+        "multiEan": [
+          "7501017004140"
+        ],
+        "price": 18.0
+      },
+      {
+        "id": "3782842",
+        "name": "Chilorio La Costeña 215g",
+        "url": "https://www.chedraui.com.mx/chilorio-la-costena-215g-3782842/p",
+        "ean": "17501017052353",
+        "multiEan": [
+          "7501017052356"
+        ],
+        "price": 68.0
+      },
+      {
+        "id": "3132198",
+        "name": "Huitlacoche La Costeña 380g",
+        "url": "https://www.chedraui.com.mx/huitlacoche-la-costena-380g-3132198/p",
+        "ean": "750101700488",
+        "multiEan": [
+          "7501017004881"
+        ],
+        "price": 77.0
+      },
+      {
+        "id": "3043585",
+        "name": "Chícharos La Costeña 220g",
+        "url": "https://www.chedraui.com.mx/chicharos-la-costena-220g-3043585/p",
+        "ean": "17501017005311",
+        "multiEan": [
+          "7501017005314"
+        ],
+        "price": 12.0
+      },
+      {
+        "id": "3043247",
+        "name": "Mole La Costeña 235g.",
+        "url": "https://www.chedraui.com.mx/mole-la-costena-235g-3043247/p",
+        "ean": "750101700536",
+        "multiEan": [
+          "7501017005369"
+        ],
+        "price": 55.0
+      },
+      {
+        "id": "3043619",
+        "name": "Ensalada de verduras La Costeña 220g",
+        "url": "https://www.chedraui.com.mx/ensalada-de-verduras-la-costena-220g-3043619/p",
+        "ean": "750101700534",
+        "multiEan": [
+          "7501017005345"
+        ],
+        "price": 12.5
+      },
+      {
+        "id": "3363222",
+        "name": "Tamal La Costeña Dulce 110g",
+        "url": "https://www.chedraui.com.mx/tamal-la-costena-dulce-110g-3363222/p",
+        "ean": "750101700676",
+        "multiEan": [
+          "7501017006762"
+        ],
+        "price": 17.5
+      },
+      {
+        "id": "3800270",
+        "name": "Frijoles La Costeña Puercos 440g",
+        "url": "https://www.chedraui.com.mx/frijoles-la-costena-puercos-440g-3800270/p",
+        "ean": "17501017040008",
+        "multiEan": [
+          "7501017040001"
+        ],
+        "price": 23.0
+      },
+      {
+        "id": "3140387",
+        "name": "Mermelada La Costeña Chabacano 440g",
+        "url": "https://www.chedraui.com.mx/mermelada-la-costena-chabacano-440g-3140387/p",
+        "ean": "750101700409",
+        "multiEan": [
+          "7501017044252-7501017004096"
+        ],
+        "price": 46.5
+      },
+      {
+        "id": "3043798",
+        "name": "Pozole La Costeña Rojo 810g",
+        "url": "https://www.chedraui.com.mx/pozole-la-costena-rojo-810g-3043798/p",
+        "ean": "7501017003648",
+        "multiEan": [
+          "7501017003648"
+        ],
+        "price": 76.5
+      },
+      {
+        "id": "3807924",
+        "name": "Fresa La Costeña Almíbar 570g",
+        "url": "https://www.chedraui.com.mx/fresa-la-costena-almibar-570g-3807924/p",
+        "ean": "17501017030153",
+        "multiEan": [
+          "7501017030156"
+        ],
+        "price": 52.5
+      },
+      {
+        "id": "3671633",
+        "name": "Salsa La Costeña Guacamole 250g",
+        "url": "https://www.chedraui.com.mx/salsa-la-costena-guacamole-250g-3671633/p",
+        "ean": "7501017051267",
+        "multiEan": [
+          "7501017051267"
+        ],
+        "price": 30.0
+      },
+      {
+        "id": "3569775",
+        "name": "Mostaza La Costeña Clásica 220g",
+        "url": "https://www.chedraui.com.mx/mostaza-la-costena-clasica-220g-3569775/p",
+        "ean": "17501017053039",
+        "multiEan": [
+          "7501017053032"
+        ],
+        "price": 27.0
+      },
+      {
+        "id": "3042439",
+        "name": "Mermelada La Costeña Fresa 270g",
+        "url": "https://www.chedraui.com.mx/mermelada-la-costena-fresa-270g-3042439/p",
+        "ean": "750101700509",
+        "multiEan": [
+          "7501017005093"
+        ],
+        "price": 38.0
+      },
+      {
+        "id": "3119932",
+        "name": "Aderezo de Mayonesa La Costeña 420g",
+        "url": "https://www.chedraui.com.mx/aderezo-de-mayonesa-la-costena-420g-3119932/p",
+        "ean": "0750101704054",
+        "multiEan": [
+          "750101704054-7501017004522-7501017040520-0750101704054"
+        ],
+        "price": 32.0
+      },
+      {
+        "id": "3489138",
+        "name": "Salsa Cátsup La Costeña 220g",
+        "url": "https://www.chedraui.com.mx/salsa-catsup-la-costena-220g-3489138/p",
+        "ean": "7501017051366",
+        "multiEan": [
+          "7501017051366"
+        ],
+        "price": 16.0
+      },
+      {
+        "id": "3043570",
+        "name": "Elote Dorado La Costeña 410g",
+        "url": "https://www.chedraui.com.mx/elote-dorado-la-costena-410g-3043570/p",
+        "ean": "750101700451",
+        "multiEan": [
+          "7501017004515"
+        ],
+        "price": 16.0
+      },
+      {
+        "id": "3043562",
+        "name": "Elote Dorado La Costeña 220g",
+        "url": "https://www.chedraui.com.mx/elote-dorado-la-costena-220g-3043562/p",
+        "ean": "7501017005321",
+        "multiEan": [
+          "7501017005321"
+        ],
+        "price": 11.0
+      },
+      {
+        "id": "3354263",
+        "name": "Ensalada Campesina La Costeña 410g",
+        "url": "https://www.chedraui.com.mx/ensalada-campesina-la-costena-410g-3354263/p",
+        "ean": "7501017043132",
+        "multiEan": [
+          "7501017043132"
+        ],
+        "price": 16.5
+      },
+      {
+        "id": "3090550",
+        "name": "Salsa La Costeña de Chipotle 220g",
+        "url": "https://www.chedraui.com.mx/salsa-la-costena-de-chipotle-220g-3090550/p",
+        "ean": "750101700596",
+        "multiEan": [
+          "7501017005963"
+        ],
+        "price": 18.0
+      },
+      {
+        "id": "3043757",
+        "name": "Frijoles La Costeña Charros 560g",
+        "url": "https://www.chedraui.com.mx/frijoles-la-costena-charros-560g-3043757/p",
+        "ean": "17501017004284",
+        "multiEan": [
+          "7501017004287"
+        ],
+        "price": 25.0
+      },
+      {
+        "id": "3043617",
+        "name": "Ensalada de Verduras La Costeña 410g",
+        "url": "https://www.chedraui.com.mx/ensalada-de-verduras-la-costena-410g-3043617/p",
+        "ean": "7501017004157",
+        "multiEan": [
+          "7501017004157"
+        ],
+        "price": 20.0
+      },
+      {
+        "id": "3363200",
+        "name": "Tamal La Costeña Verde 110g",
+        "url": "https://www.chedraui.com.mx/tamal-la-costena-verde-110g-3363200/p",
+        "ean": "17501017006738",
+        "multiEan": [
+          "7501017006731"
+        ],
+        "price": 17.5
+      },
+      {
+        "id": "3363203",
+        "name": "Tamal La Costeña Rojo 110g",
+        "url": "https://www.chedraui.com.mx/tamal-la-costena-rojo-110g-3363203/p",
+        "ean": "750101700674",
+        "multiEan": [
+          "7501017006748"
+        ],
+        "price": 17.5
+      },
+      {
+        "id": "3244714",
+        "name": "Puré De Manzana La Costeña 465g",
+        "url": "https://www.chedraui.com.mx/pure-de-manzana-la-costena-465g-3244714/p",
+        "ean": "750101700480",
+        "multiEan": [
+          "7501017004805"
+        ],
+        "price": 36.0
+      },
+      {
+        "id": "3042920",
+        "name": "Salsa Cátsup La Costeña 1kg",
+        "url": "https://www.chedraui.com.mx/salsa-catsup-la-costena-1kg-3042920/p",
+        "ean": "750101703500",
+        "multiEan": [
+          "7501017035007-7501017003723"
+        ],
+        "price": 33.5
+      },
+      {
+        "id": "3807925",
+        "name": "Cereza La Costeña Almíbar 580g",
+        "url": "https://www.chedraui.com.mx/cereza-la-costena-almibar-580g-3807925/p",
+        "ean": "17501017030146",
+        "multiEan": [
+          "7501017030149"
+        ],
+        "price": 58.0
+      },
+      {
+        "id": "3671634",
+        "name": "Salsa La Costeña Guacamole 465g",
+        "url": "https://www.chedraui.com.mx/salsa-la-costena-guacamole-465g-3671634/p",
+        "ean": "750101704621",
+        "multiEan": [
+          "7501017045648-7501017046218"
+        ],
+        "price": 51.0
+      },
+      {
+        "id": "3489139",
+        "name": "Salsa Cátsup La Costeña 320g",
+        "url": "https://www.chedraui.com.mx/salsa-catsup-la-costena-320g-3489139/p",
+        "ean": "7501017043712",
+        "multiEan": [
+          "7501017043712"
+        ],
+        "price": 25.0
+      },
+      {
+        "id": "3847662",
+        "name": "Mermelada La Costeña Chabacano 270g",
+        "url": "https://www.chedraui.com.mx/mermelada-la-costena-chabacano-270g-3847662/p",
+        "ean": "17501017005137",
+        "multiEan": [
+          "7501017005130"
+        ],
+        "price": 37.0
+      },
+      {
+        "id": "3662130",
+        "name": "Mermelada La Costeña Piña 270g",
+        "url": "https://www.chedraui.com.mx/mermelada-la-costena-pina-270g-3662130/p",
+        "ean": "750101700510",
+        "multiEan": [
+          "7501017005109"
+        ],
+        "price": 38.0
+      },
+      {
+        "id": "3772197",
+        "name": "Chiles La Costeña Jalapeño 2.9Kg",
+        "url": "https://www.chedraui.com.mx/chiles-la-costena-jalapeno-29kg-3772197/p",
+        "ean": "7501017002061",
+        "multiEan": [
+          "7501017002061"
+        ],
+        "price": 136.0
+      },
+      {
+        "id": "3354258",
+        "name": "Ensalada Campesina La Costeña 220g",
+        "url": "https://www.chedraui.com.mx/ensalada-campesina-la-costena-220g-3354258/p",
+        "ean": "7501017051298",
+        "multiEan": [
+          "7501017051298"
+        ],
+        "price": 10.5
+      },
+      {
+        "id": "3226834",
+        "name": "Pimiento Morrón La Costeña 200g",
+        "url": "https://www.chedraui.com.mx/pimiento-morron-la-costena-200g-3226834/p",
+        "ean": "17501017050533",
+        "multiEan": [
+          "7501017050536"
+        ],
+        "price": 24.0
+      },
+      {
+        "id": "3569671",
+        "name": "Ate La Costeña de Membrillo 240g",
+        "url": "https://www.chedraui.com.mx/ate-la-costena-de-membrillo-240g-3569671/p",
+        "ean": "17501017051769",
+        "multiEan": [
+          "7501017051762"
+        ],
+        "price": 35.0
+      },
+      {
+        "id": "3363224",
+        "name": "Tamal La Costeña Elote 110g",
+        "url": "https://www.chedraui.com.mx/tamal-la-costena-elote-110g-3363224/p",
+        "ean": "7501017006779",
+        "multiEan": [
+          "7501017006779"
+        ],
+        "price": 17.5
+      },
+      {
+        "id": "3090514",
+        "name": "Salsa La Costeña Verde 475g",
+        "url": "https://www.chedraui.com.mx/salsa-la-costena-verde-475g-3090514/p",
+        "ean": "7501017044955",
+        "multiEan": [
+          "7501017044955-7501017004683"
+        ],
+        "price": 38.0
+      },
+      {
+        "id": "3569670",
+        "name": "Ate La Costeña de Guayaba 240g",
+        "url": "https://www.chedraui.com.mx/ate-la-costena-de-guayaba-240g-3569670/p",
+        "ean": "750101705175",
+        "multiEan": [
+          "7501017051755"
+        ],
+        "price": 35.0
+      },
+      {
+        "id": "3372494",
+        "name": "Salsa Negra La Costeña 360ml",
+        "url": "https://www.chedraui.com.mx/salsa-negra-la-costena-360ml-3372494/p",
+        "ean": "750101704325",
+        "multiEan": [
+          "7501017043255"
+        ],
+        "price": 28.0
+      },
+      {
+        "id": "3140389",
+        "name": "Mermelada La Costeña Zarzamora 440g",
+        "url": "https://www.chedraui.com.mx/mermelada-la-costena-zarzamora-440g-3140389/p",
+        "ean": "7501017040223",
+        "multiEan": [
+          "7501017044269-7501017040223"
+        ],
+        "price": 46.5
+      },
+      {
+        "id": "3043842",
+        "name": "Puré de Manzana La Costeña 230g",
+        "url": "https://www.chedraui.com.mx/pure-de-manzana-la-costena-230g-3043842/p",
+        "ean": "7501017005147",
+        "multiEan": [
+          "7501017005147"
+        ],
+        "price": 21.0
+      },
+      {
+        "id": "3042431",
+        "name": "Mermelada La Costeña Fresa 440g",
+        "url": "https://www.chedraui.com.mx/mermelada-la-costena-fresa-440g-3042431/p",
+        "ean": "750101704424",
+        "multiEan": [
+          "7501017004065-7501017044245"
+        ],
+        "price": 46.5
+      },
+      {
+        "id": "3782844",
+        "name": "Cochinita Pibil La Costeña 215g",
+        "url": "https://www.chedraui.com.mx/cochinita-pibil-la-costena-215g-3782844/p",
+        "ean": "750101705236",
+        "multiEan": [
+          "7501017052363"
+        ],
+        "price": 68.0
+      },
+      {
+        "id": "3569673",
+        "name": "Mostaza La Costeña Clásica 115g",
+        "url": "https://www.chedraui.com.mx/mostaza-la-costena-clasica-115g-3569673/p",
+        "ean": "750101700691",
+        "multiEan": [
+          "7501017006915"
+        ],
+        "price": 15.0
+      },
+      {
+        "id": "3185227",
+        "name": "Frijol La Costeña Rancheros 410g",
+        "url": "https://www.chedraui.com.mx/frijol-la-costena-rancheros-410g-3185227/p",
+        "ean": "17501017042040",
+        "multiEan": [
+          "7501017042043"
+        ],
+        "price": 24.5
+      },
+      {
+        "id": "3772509",
+        "name": "Mermelada La Costeña Piña 440g",
+        "url": "https://www.chedraui.com.mx/mermelada-la-costena-pina-440g-3772509/p",
+        "ean": "7501017044276",
+        "multiEan": [
+          "7501017044276"
+        ],
+        "price": 40.0
+      },
+      {
+        "id": "3772195",
+        "name": "Mole La Costeña Chocolate 225g",
+        "url": "https://www.chedraui.com.mx/mole-la-costena-chocolate-225g-3772195/p",
+        "ean": "7501017052158",
+        "multiEan": [
+          "7501017052158"
+        ],
+        "price": 42.0
+      },
+      {
+        "id": "3772194",
+        "name": "Mole La Costeña Almendrado 225g",
+        "url": "https://www.chedraui.com.mx/mole-la-costena-almendrado-225g-3772194/p",
+        "ean": "750101705214",
+        "multiEan": [
+          "7501017052141"
+        ],
+        "price": 51.0
+      },
+      {
+        "id": "3042960",
+        "name": "Pure La Costeña De Tomate 2.95kg.",
+        "url": "https://www.chedraui.com.mx/pure-la-costena-de-tomate-295kg-3042960/p",
+        "ean": "17501017002044",
+        "multiEan": [
+          "7501017002047"
+        ],
+        "price": 113.0
+      },
+      {
+        "id": "3090551",
+        "name": "Salsa Casera La Costeña Mexicana 220g",
+        "url": "https://www.chedraui.com.mx/salsa-casera-la-costena-mexicana-220g-3090551/p",
+        "ean": "37501017005070",
+        "multiEan": [
+          "7501017005079"
+        ],
+        "price": 13.5
+      }
+    ]
+  },
+  {
+    "term": "costeña",
+    "start": 50,
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "term": "costeña",
+    "start": 100,
+    "count": 44,
+    "rows": [
+      {
+        "id": "3090369",
+        "name": "Frijoles Negros La Costeña Refritos 820g",
+        "url": "https://www.chedraui.com.mx/frijoles-negros-la-costena-refritos-820g-3090369/p",
+        "ean": "750101700365",
+        "multiEan": [
+          "7501017003655"
+        ],
+        "price": 31.0
+      },
+      {
+        "id": "3696478",
+        "name": "Mostaza La Costeña Clásica 370 g",
+        "url": "https://www.chedraui.com.mx/mostaza-la-costena-clasica-370-g-3696478/p",
+        "ean": "7501017045761",
+        "multiEan": [
+          "7501017045761"
+        ],
+        "price": 30.0
+      },
+      {
+        "id": "3800271",
+        "name": "Salsa La Costeña Habanera Tatemada 250g",
+        "url": "https://www.chedraui.com.mx/salsa-la-costena-habanera-tatemada-250g-3800271/p",
+        "ean": "17501017085641",
+        "multiEan": [
+          "7501017085644"
+        ],
+        "price": 27.0
+      },
+      {
+        "id": "3140581",
+        "name": "Chiles La Costeña Jalapeños Enteros 2.8Kg",
+        "url": "https://www.chedraui.com.mx/chiles-la-costena-jalapenos-enteros-28kg-3140581/p",
+        "ean": "750101700200",
+        "multiEan": [
+          "7501017002009"
+        ],
+        "price": 105.0
+      },
+      {
+        "id": "3043410",
+        "name": "Chiles Jalapeños La Costeña Enteros 380g",
+        "url": "https://www.chedraui.com.mx/chiles-jalapenos-la-costena-enteros-380g-3043410/p",
+        "ean": "750101700400",
+        "multiEan": [
+          "7501017004003"
+        ],
+        "price": 28.0
+      },
+      {
+        "id": "3363318",
+        "name": "Chiles Jalapeños La Costeña en Rajas 240g",
+        "url": "https://www.chedraui.com.mx/chiles-jalapenos-la-costena-en-rajas-240g-3363318/p",
+        "ean": "17501017051332",
+        "multiEan": [
+          "7501017051335"
+        ],
+        "price": 16.9
+      },
+      {
+        "id": "3417319",
+        "name": "Chiles Jalapeños La Costeña en Rajas 340g",
+        "url": "https://www.chedraui.com.mx/chiles-jalapenos-la-costena-en-rajas-340g-3417319/p",
+        "ean": "750101704345",
+        "multiEan": [
+          "7501017043453"
+        ],
+        "price": 28.0
+      },
+      {
+        "id": "3043300",
+        "name": "Chiles Jalapeños La Costeña en Rajas 105g",
+        "url": "https://www.chedraui.com.mx/chiles-jalapenos-la-costena-en-rajas-105g-3043300/p",
+        "ean": "17501017006011",
+        "multiEan": [
+          "7501017006014"
+        ],
+        "price": 12.0
+      },
+      {
+        "id": "3043384",
+        "name": "Chiles Nachos Jalapeños La Costeña Rodajas 220g",
+        "url": "https://www.chedraui.com.mx/chiles-nachos-jalapenos-la-costena-rodajas-220g-3043384/p",
+        "ean": "7501017050758",
+        "multiEan": [
+          "7501017005062-7501017050758"
+        ],
+        "price": 19.0
+      },
+      {
+        "id": "3043826",
+        "name": "Piña en Almibar La Costeña Rebanadas 800g",
+        "url": "https://www.chedraui.com.mx/pina-en-almibar-la-costena-rebanadas-800g-3043826/p",
+        "ean": "750101700333",
+        "multiEan": [
+          "7501017003334"
+        ],
+        "price": 63.0
+      },
+      {
+        "id": "3043382",
+        "name": "Chiles Nachos Jalapeños La Costeña Rodajas 380g",
+        "url": "https://www.chedraui.com.mx/chiles-nachos-jalapenos-la-costena-rodajas-380g-3043382/p",
+        "ean": "17501017004628",
+        "multiEan": [
+          "7501017004621"
+        ],
+        "price": 32.0
+      },
+      {
+        "id": "3597457",
+        "name": "Salsa Gourmet La Costeña Chile Serrano 280g",
+        "url": "https://www.chedraui.com.mx/salsa-gourmet-la-costena-chile-serrano-280g-3597457/p",
+        "ean": "750101705185",
+        "multiEan": [
+          "7501017051854"
+        ],
+        "price": 35.5
+      },
+      {
+        "id": "3043832",
+        "name": "Piña en Almíbar La Costeña Trocitos 800g",
+        "url": "https://www.chedraui.com.mx/pina-en-almibar-la-costena-trocitos-800g-3043832/p",
+        "ean": "750101700339",
+        "multiEan": [
+          "7501017003396"
+        ],
+        "price": 63.0
+      },
+      {
+        "id": "3043297",
+        "name": "Chiles Jalapeños La Costeña en Rajas 380g",
+        "url": "https://www.chedraui.com.mx/chiles-jalapenos-la-costena-en-rajas-380g-3043297/p",
+        "ean": "17501017004024",
+        "multiEan": [
+          "7501017004027"
+        ],
+        "price": 34.0
+      },
+      {
+        "id": "3404002",
+        "name": "Mayonesa La Costeña con Jugo de Limón 260g",
+        "url": "https://www.chedraui.com.mx/mayonesa-la-costena-con-jugo-de-limon-260g-3404002/p",
+        "ean": "17501017056696",
+        "multiEan": [
+          "7501017056699-7501017043262"
+        ],
+        "price": 36.0
+      },
+      {
+        "id": "3109675",
+        "name": "Salsa La Costeña para Enchiladas Verdes 420g",
+        "url": "https://www.chedraui.com.mx/salsa-la-costena-para-enchiladas-verdes-420g-3109675/p",
+        "ean": "7501017042081",
+        "multiEan": [
+          "7501017042081"
+        ],
+        "price": 30.0
+      },
+      {
+        "id": "3042567",
+        "name": "Mayonesa La Costeña con Jugo de Limón 385g",
+        "url": "https://www.chedraui.com.mx/mayonesa-la-costena-con-jugo-de-limon-385g-3042567/p",
+        "ean": "7501017040506",
+        "multiEan": [
+          "7501017040506"
+        ],
+        "price": 37.5
+      },
+      {
+        "id": "3900606",
+        "name": "Elote Dorado La Costeña Sin Sal 410g",
+        "url": "https://www.chedraui.com.mx/elote-dorado-la-costena-sin-sal-410g-3900606/p",
+        "ean": "7501017046317",
+        "multiEan": [
+          "7501017046317"
+        ],
+        "price": 23.5
+      },
+      {
+        "id": "3090512",
+        "name": "Salsa La Costeña Casera Mexicana Tatemada 475g",
+        "url": "https://www.chedraui.com.mx/salsa-la-costena-casera-mexicana-tatemada-475g-3090512/p",
+        "ean": "7501017044795",
+        "multiEan": [
+          "7501017004676-7501017044795"
+        ],
+        "price": 38.0
+      },
+      {
+        "id": "3043818",
+        "name": "Cóctel de frutas La Costeña en almíbar 850g",
+        "url": "https://www.chedraui.com.mx/coctel-de-frutas-la-costena-en-almibar-850g-3043818/p",
+        "ean": "750101700335",
+        "multiEan": [
+          "7501017003358"
+        ],
+        "price": 73.0
+      },
+      {
+        "id": "3597463",
+        "name": "Salsa Gourmet La Costeña Chile de Árbol 280g",
+        "url": "https://www.chedraui.com.mx/salsa-gourmet-la-costena-chile-de-arbol-280g-3597463/p",
+        "ean": "17501017051844",
+        "multiEan": [
+          "7501017051847"
+        ],
+        "price": 35.0
+      },
+      {
+        "id": "3173832",
+        "name": "Guayabas en Almíbar La Costeña Enteras 800g",
+        "url": "https://www.chedraui.com.mx/guayabas-en-almibar-la-costena-enteras-800g-3173832/p",
+        "ean": "17501017003539",
+        "multiEan": [
+          "7501017003532"
+        ],
+        "price": 60.0
+      },
+      {
+        "id": "3043029",
+        "name": "Vinagre Blanco La Costeña De Alcohol de Caña 3.7L",
+        "url": "https://www.chedraui.com.mx/vinagre-blanco-la-costena-de-alcohol-de-cana-37l-3043029/p",
+        "ean": "750101700211",
+        "multiEan": [
+          "7501017002115"
+        ],
+        "price": 37.0
+      },
+      {
+        "id": "3043360",
+        "name": "Chiles Chipotles La Costeña Adobados Picados 220g",
+        "url": "https://www.chedraui.com.mx/chiles-chipotles-la-costena-adobados-picados-220g-3043360/p",
+        "ean": "7501017005895",
+        "multiEan": [
+          "7501017005895"
+        ],
+        "price": 37.5
+      },
+      {
+        "id": "3043295",
+        "name": "Chiles Jalapeños La Costeña en Rajas 820g",
+        "url": "https://www.chedraui.com.mx/chiles-jalapenos-la-costena-en-rajas-820g-3043295/p",
+        "ean": "17501017003027",
+        "multiEan": [
+          "7501017003020"
+        ],
+        "price": 45.0
+      },
+      {
+        "id": "3043017",
+        "name": "Vinagre Blanco La Costeña de Alcohol de Caña 1L",
+        "url": "https://www.chedraui.com.mx/vinagre-blanco-la-costena-de-alcohol-de-cana-1l-3043017/p",
+        "ean": "7501017003068",
+        "multiEan": [
+          "7501017003068"
+        ],
+        "price": 15.0
+      },
+      {
+        "id": "3043833",
+        "name": "Duraznos en Almibar La Costeña Mitades 820g",
+        "url": "https://www.chedraui.com.mx/duraznos-en-almibar-la-costena-mitades-820g-3043833/p",
+        "ean": "7501017003167",
+        "multiEan": [
+          "7501017003167"
+        ],
+        "price": 61.0
+      },
+      {
+        "id": "3042565",
+        "name": "Mayonesa La Costeña con Jugo de Limón 725g",
+        "url": "https://www.chedraui.com.mx/mayonesa-la-costena-con-jugo-de-limon-725g-3042565/p",
+        "ean": "750101700381",
+        "multiEan": [
+          "7501017003815-7501017038138"
+        ],
+        "price": 62.0
+      },
+      {
+        "id": "3543226",
+        "name": "Maiz Pozolero La Costeña Lata de 3kG.",
+        "url": "https://www.chedraui.com.mx/maiz-pozolero-la-costena-lata-de-3kg-3543226/p",
+        "ean": "7501017020461",
+        "multiEan": [
+          "7501017020461"
+        ],
+        "price": 80.0
+      },
+      {
+        "id": "3140586",
+        "name": "Chiles La Costeña Rajas Rojas de Jalapeño 220g",
+        "url": "https://www.chedraui.com.mx/chiles-la-costena-rajas-rojas-de-jalapeno-220g-3140586/p",
+        "ean": "7501017005055",
+        "multiEan": [
+          "7501017005055"
+        ],
+        "price": 22.0
+      },
+      {
+        "id": "3900607",
+        "name": "Ensalada de Verduras La Costeña Sin Sal 410g",
+        "url": "https://www.chedraui.com.mx/ensalada-de-verduras-la-costena-sin-sal-410g-3900607/p",
+        "ean": "750101704632",
+        "multiEan": [
+          "7501017046324"
+        ],
+        "price": 22.0
+      },
+      {
+        "id": "3132192",
+        "name": "Mango en Almíbar La Costeña Rebanadas 800g",
+        "url": "https://www.chedraui.com.mx/mango-en-almibar-la-costena-rebanadas-800g-3132192/p",
+        "ean": "17501017003348",
+        "multiEan": [
+          "7501017003341"
+        ],
+        "price": 58.5
+      },
+      {
+        "id": "3119933",
+        "name": "Salsa La Costeña Roja Taquera Tatemada 475g",
+        "url": "https://www.chedraui.com.mx/salsa-la-costena-roja-taquera-tatemada-475g-3119933/p",
+        "ean": "7501017004706",
+        "multiEan": [
+          "7501017004706-7501017045020"
+        ],
+        "price": 37.0
+      },
+      {
+        "id": "3043391",
+        "name": "Chiles Nachos Jalapeños La Costeña Rodajas 820g",
+        "url": "https://www.chedraui.com.mx/chiles-nachos-jalapenos-la-costena-rodajas-820g-3043391/p",
+        "ean": "7501017003075",
+        "multiEan": [
+          "7501017003075"
+        ],
+        "price": 48.5
+      },
+      {
+        "id": "3579394",
+        "name": "Chiles Largos La Costeña En Escabeche 380g",
+        "url": "https://www.chedraui.com.mx/chiles-largos-la-costena-en-escabeche-380g-3579394/p",
+        "ean": "17501017042613",
+        "multiEan": [
+          "7501017041008-7501017000005"
+        ],
+        "price": 47.0
+      },
+      {
+        "id": "3140580",
+        "name": "Chiles La Costeña Rajas Rojas de Jalapeño 105g",
+        "url": "https://www.chedraui.com.mx/chiles-la-costena-rajas-rojas-de-jalapeno-105g-3140580/p",
+        "ean": "750101700606",
+        "multiEan": [
+          "7501017006069"
+        ],
+        "price": 12.5
+      },
+      {
+        "id": "3794044",
+        "name": "Aderezo de Mayonesa La Costeña Reducido en Grasa 740g",
+        "url": "https://www.chedraui.com.mx/aderezo-de-mayonesa-la-costena-reducido-en-grasa-740g-3794044/p",
+        "ean": "7501017035069",
+        "multiEan": [
+          "7501017035069"
+        ],
+        "price": 52.0
+      },
+      {
+        "id": "3172970",
+        "name": "Frijoles Bayos La Costeña Refritos con chorizo 440g",
+        "url": "https://www.chedraui.com.mx/frijoles-bayos-la-costena-refritos-con-chorizo-440g-3172970/p",
+        "ean": "7501017042203",
+        "multiEan": [
+          "7501017042203"
+        ],
+        "price": 21.0
+      },
+      {
+        "id": "3386205",
+        "name": "Chiles Serranos La Costeña Enteros en Escabeche 820g",
+        "url": "https://www.chedraui.com.mx/chiles-serranos-la-costena-enteros-en-escabeche-820g-3386205/p",
+        "ean": "750101700301",
+        "multiEan": [
+          "7501017003013"
+        ],
+        "price": 62.0
+      },
+      {
+        "id": "3428605",
+        "name": "Chiles Serranos La Costeña Toreados en Rodajas 220g",
+        "url": "https://www.chedraui.com.mx/chiles-serranos-la-costena-toreados-en-rodajas-220g-3428605/p",
+        "ean": "17501017051486",
+        "multiEan": [
+          "7501017051489"
+        ],
+        "price": 28.0
+      },
+      {
+        "id": "3043415",
+        "name": "Chiles Serranos La Costeña Enteros en Escabeche 220g",
+        "url": "https://www.chedraui.com.mx/chiles-serranos-la-costena-enteros-en-escabeche-220g-3043415/p",
+        "ean": "750101700501",
+        "multiEan": [
+          "7501017005017"
+        ],
+        "price": 21.0
+      },
+      {
+        "id": "3172969",
+        "name": "Frijoles Bayos La Costeña Refritos con Chipotle 440g",
+        "url": "https://www.chedraui.com.mx/frijoles-bayos-la-costena-refritos-con-chipotle-440g-3172969/p",
+        "ean": "17501017042132",
+        "multiEan": [
+          "7501017042135"
+        ],
+        "price": 22.0
+      },
+      {
+        "id": "3353987",
+        "name": "Mayonesa La Costeña con Jugo de Limón Reducida en Grasa 385g",
+        "url": "https://www.chedraui.com.mx/mayonesa-la-costena-con-jugo-de-limon-reducida-en-grasa-385g-3353987/p",
+        "ean": "7501017043217",
+        "multiEan": [
+          "7501017043217"
+        ],
+        "price": 34.0
+      },
+      {
+        "id": "3361904",
+        "name": "Mayonesa La Costeña con Jugo de Limón Reducida en Grasa 190g",
+        "url": "https://www.chedraui.com.mx/mayonesa-la-costena-con-jugo-de-limon-reducida-en-grasa-190g-3361904/p",
+        "ean": "750101705131",
+        "multiEan": [
+          "7501017051311"
+        ],
+        "price": 22.0
+      }
+    ]
+  },
+  {
+    "term": "pronto",
+    "start": 0,
+    "count": 45,
+    "rows": [
+      {
+        "id": "3304102",
+        "name": "Leche Pronto Condensada 380g",
+        "url": "https://www.chedraui.com.mx/leche-pronto-condensada-380g-3304102/p",
+        "ean": "7501200486005",
+        "multiEan": [
+          "7501200486005"
+        ],
+        "price": 20.0
+      },
+      {
+        "id": "3697770",
+        "name": "Gelatina Pronto Kids Frambuesa 120g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-kids-frambuesa-120g-3697770/p",
+        "ean": "750120048181",
+        "multiEan": [
+          "7501200481819"
+        ],
+        "price": 9.5
+      },
+      {
+        "id": "3360549",
+        "name": "Jarabe sabor maple Pronto 250ml",
+        "url": "https://www.chedraui.com.mx/jarabe-sabor-maple-pronto-250ml-3360549/p",
+        "ean": "17501200484084",
+        "multiEan": [
+          "7501200484087"
+        ],
+        "price": 23.0
+      },
+      {
+        "id": "3018688",
+        "name": "Hot Cakes Pronto Instantáneos 180g",
+        "url": "https://www.chedraui.com.mx/hot-cakes-pronto-instantaneos-180g-3018688/p",
+        "ean": "750100510690",
+        "multiEan": [
+          "7501024207695-7501200483158-7501005106900"
+        ],
+        "price": 29.0
+      },
+      {
+        "id": "3173934",
+        "name": "Gelatina Pronto Sabor Uva 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-sabor-uva-84g-3173934/p",
+        "ean": "750120048216",
+        "multiEan": [
+          "7501200482168-7501005117906"
+        ],
+        "price": 18.0
+      },
+      {
+        "id": "3697769",
+        "name": "Gelatina Pronto Kids Cereza 120g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-kids-cereza-120g-3697769/p",
+        "ean": "17501200481809",
+        "multiEan": [
+          "7501200481802"
+        ],
+        "price": 9.5
+      },
+      {
+        "id": "3173935",
+        "name": "Gelatina Pronto Sabor Limón 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-sabor-limon-84g-3173935/p",
+        "ean": "750120048213",
+        "multiEan": [
+          "7501200482137-7501005117869"
+        ],
+        "price": 18.0
+      },
+      {
+        "id": "3173933",
+        "name": "Gelatina Pronto Sabor Piña 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-sabor-pina-84g-3173933/p",
+        "ean": "37501005117884",
+        "multiEan": [
+          "7501005117883-7501200482151"
+        ],
+        "price": 18.0
+      },
+      {
+        "id": "3173910",
+        "name": "Gelatina Pronto Sabor Frambuesa 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-sabor-frambuesa-84g-3173910/p",
+        "ean": "750120048211",
+        "multiEan": [
+          "7501005117845-7501200482113"
+        ],
+        "price": 18.0
+      },
+      {
+        "id": "3882919",
+        "name": "Harina Pronto Hot Cakes 800g",
+        "url": "https://www.chedraui.com.mx/harina-pronto-hot-cakes-800g-3882919/p",
+        "ean": "750120048318",
+        "multiEan": [
+          "7501200483189"
+        ],
+        "price": 52.0
+      },
+      {
+        "id": "3090856",
+        "name": "Hot Cakes Pronto Tradicionales 800g",
+        "url": "https://www.chedraui.com.mx/hot-cakes-pronto-tradicionales-800g-3090856/p",
+        "ean": "750120048313",
+        "multiEan": [
+          "7501024207039-7501200483134"
+        ],
+        "price": 55.0
+      },
+      {
+        "id": "3697775",
+        "name": "Gelatina Pronto Kids Uva 120g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-kids-uva-120g-3697775/p",
+        "ean": "7501200481864",
+        "multiEan": [
+          "7501200481864"
+        ],
+        "price": 9.5
+      },
+      {
+        "id": "3697774",
+        "name": "Gelatina Pronto Kids Piña 120g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-kids-pina-120g-3697774/p",
+        "ean": "7501200481857",
+        "multiEan": [
+          "7501200481857"
+        ],
+        "price": 9.5
+      },
+      {
+        "id": "3018660",
+        "name": "Hot Cakes Pronto Tradicionales 500g",
+        "url": "https://www.chedraui.com.mx/hot-cakes-pronto-tradicionales-500g-3018660/p",
+        "ean": "17501024207029",
+        "multiEan": [
+          "7501200483103-7501024207022"
+        ],
+        "price": 52.5
+      },
+      {
+        "id": "3360555",
+        "name": "Jarabe sabor maple Pronto 500ml",
+        "url": "https://www.chedraui.com.mx/jarabe-sabor-maple-pronto-500ml-3360555/p",
+        "ean": "17501200484077",
+        "multiEan": [
+          "7501200484070"
+        ],
+        "price": 58.5
+      },
+      {
+        "id": "3173932",
+        "name": "Gelatina Pronto Sabor Naranja 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-sabor-naranja-84g-3173932/p",
+        "ean": "7501200482144",
+        "multiEan": [
+          "7501200482144-7501005117876"
+        ],
+        "price": 18.0
+      },
+      {
+        "id": "3697772",
+        "name": "Gelatina Pronto Kids Limón 120g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-kids-limon-120g-3697772/p",
+        "ean": "17501200481830",
+        "multiEan": [
+          "7501200481833"
+        ],
+        "price": 9.5
+      },
+      {
+        "id": "3697771",
+        "name": "Gelatina Pronto Kids Fresa 120g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-kids-fresa-120g-3697771/p",
+        "ean": "17501200481823",
+        "multiEan": [
+          "7501200481826"
+        ],
+        "price": 9.5
+      },
+      {
+        "id": "3697773",
+        "name": "Gelatina Pronto Kids Naranja 120g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-kids-naranja-120g-3697773/p",
+        "ean": "17501200481847",
+        "multiEan": [
+          "7501200481840"
+        ],
+        "price": 9.5
+      },
+      {
+        "id": "3173931",
+        "name": "Gelatina Pronto Sabor Fresa 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-sabor-fresa-84g-3173931/p",
+        "ean": "750100511785",
+        "multiEan": [
+          "7501200482120-7501005117852"
+        ],
+        "price": 17.5
+      },
+      {
+        "id": "3697776",
+        "name": "Flan Pronto Kids Vainilla120g",
+        "url": "https://www.chedraui.com.mx/flan-pronto-kids-vainilla120g-3697776/p",
+        "ean": "17501200481915",
+        "multiEan": [
+          "7501200481918"
+        ],
+        "price": 7.0
+      },
+      {
+        "id": "3485075",
+        "name": "Flan Pronto sabor Cajeta 84g",
+        "url": "https://www.chedraui.com.mx/flan-pronto-sabor-cajeta-84g-3485075/p",
+        "ean": "17501200480031",
+        "multiEan": [
+          "7501200480034"
+        ],
+        "price": 19.5
+      },
+      {
+        "id": "3173909",
+        "name": "Gelatina Pronto Sabor Cereza 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-sabor-cereza-84g-3173909/p",
+        "ean": "7501005117838",
+        "multiEan": [
+          "7501005117838-7501200482106"
+        ],
+        "price": 18.0
+      },
+      {
+        "id": "3042412",
+        "name": "Flan Pronto sabor Vainilla 84g",
+        "url": "https://www.chedraui.com.mx/flan-pronto-sabor-vainilla-84g-3042412/p",
+        "ean": "7501005102063",
+        "multiEan": [
+          "7501200480010-7501005102063"
+        ],
+        "price": 19.5
+      },
+      {
+        "id": "3485077",
+        "name": "Flan Pronto sabor Queso 84g",
+        "url": "https://www.chedraui.com.mx/flan-pronto-sabor-queso-84g-3485077/p",
+        "ean": "750120048002",
+        "multiEan": [
+          "7501200480027"
+        ],
+        "price": 19.5
+      },
+      {
+        "id": "3324771",
+        "name": "Gelatina Pronto Light Sabor Uva 25g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-light-sabor-uva-25g-3324771/p",
+        "ean": "7501200482366",
+        "multiEan": [
+          "7501200482366"
+        ],
+        "price": 14.5
+      },
+      {
+        "id": "3324764",
+        "name": "Gelatina Pronto Light Sabor Frambuesa 25g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-light-sabor-frambuesa-25g-3324764/p",
+        "ean": "750120048231",
+        "multiEan": [
+          "7501200482311"
+        ],
+        "price": 14.5
+      },
+      {
+        "id": "3324763",
+        "name": "Gelatina Pronto Light Sabor Cereza 25g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-light-sabor-cereza-25g-3324763/p",
+        "ean": "7501200482304",
+        "multiEan": [
+          "7501200482304"
+        ],
+        "price": 10.0
+      },
+      {
+        "id": "3324778",
+        "name": "Gelatina Pronto Leche Sabor Chocolate 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-leche-sabor-chocolate-84g-3324778/p",
+        "ean": "7501200482229",
+        "multiEan": [
+          "7501200482229"
+        ],
+        "price": 19.5
+      },
+      {
+        "id": "3324773",
+        "name": "Gelatina Pronto Leche Sabor Vainilla 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-leche-sabor-vainilla-84g-3324773/p",
+        "ean": "7501200482212",
+        "multiEan": [
+          "7501200482212"
+        ],
+        "price": 19.5
+      },
+      {
+        "id": "3567807",
+        "name": "Gelatina Pronto Light Sabor Toronja 25g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-light-sabor-toronja-25g-3567807/p",
+        "ean": "7501200482274",
+        "multiEan": [
+          "7501200482274"
+        ],
+        "price": 10.0
+      },
+      {
+        "id": "3324770",
+        "name": "Gelatina Pronto Light Sabor Piña 25g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-light-sabor-pina-25g-3324770/p",
+        "ean": "750120048235",
+        "multiEan": [
+          "7501200482359"
+        ],
+        "price": 9.5
+      },
+      {
+        "id": "3324769",
+        "name": "Gelatina Pronto Light Sabor Naranja 25g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-light-sabor-naranja-25g-3324769/p",
+        "ean": "750120048234",
+        "multiEan": [
+          "7501200482342"
+        ],
+        "price": 10.0
+      },
+      {
+        "id": "3485078",
+        "name": "Flan Pronto sabor Galleta de chocolate  84g",
+        "url": "https://www.chedraui.com.mx/flan-pronto-sabor-galleta-de-chocolate-84g-3485078/p",
+        "ean": "17501200480048",
+        "multiEan": [
+          "7501200480041"
+        ],
+        "price": 19.5
+      },
+      {
+        "id": "3324767",
+        "name": "Gelatina Pronto Light Sabor Limón 25g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-light-sabor-limon-25g-3324767/p",
+        "ean": "17501200482332",
+        "multiEan": [
+          "7501200482335"
+        ],
+        "price": 9.5
+      },
+      {
+        "id": "3324765",
+        "name": "Gelatina Pronto Light Sabor Fresa 25g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-light-sabor-fresa-25g-3324765/p",
+        "ean": "7501200482328",
+        "multiEan": [
+          "7501200482328"
+        ],
+        "price": 9.5
+      },
+      {
+        "id": "3324772",
+        "name": "Gelatina Pronto Leche Sabor Fresa 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-leche-sabor-fresa-84g-3324772/p",
+        "ean": "7501200482205",
+        "multiEan": [
+          "7501200482205"
+        ],
+        "price": 19.5
+      },
+      {
+        "id": "3324787",
+        "name": "Gelatina Pronto Leche Sabor Rompope 84g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-leche-sabor-rompope-84g-3324787/p",
+        "ean": "17501200482233",
+        "multiEan": [
+          "7501200482236"
+        ],
+        "price": 19.5
+      },
+      {
+        "id": "3567806",
+        "name": "Gelatina Pronto Light Sabor Mango 25g",
+        "url": "https://www.chedraui.com.mx/gelatina-pronto-light-sabor-mango-25g-3567806/p",
+        "ean": "750120048238",
+        "multiEan": [
+          "7501200482380"
+        ],
+        "price": 16.0
+      },
+      {
+        "id": "3244734",
+        "name": "Flan Pronto sabor Vainilla con Caramelo 136g",
+        "url": "https://www.chedraui.com.mx/flan-pronto-sabor-vainilla-con-caramelo-136g-3244734/p",
+        "ean": "750120048051",
+        "multiEan": [
+          "7501200480515"
+        ],
+        "price": 14.0
+      },
+      {
+        "id": "3878432",
+        "name": "Lanzador Nerf Pro Gelfire Pronto 5000 Recargas",
+        "url": "https://www.chedraui.com.mx/lanzador-nerf-pro-gelfire-pronto-5000-recargas-3878432/p",
+        "ean": "195166294223",
+        "multiEan": [
+          "0195166294216-195166294223-0195166294223-195166294216"
+        ],
+        "price": 377.3
+      },
+      {
+        "id": "3843073",
+        "name": "Harina Pronto Hot Cake Proteína Chocolate 500g",
+        "url": "https://www.chedraui.com.mx/harina-pronto-hot-cake-proteina-chocolate-500g-3843073/p",
+        "ean": "750120048331",
+        "multiEan": [
+          "7501200483318"
+        ],
+        "price": 77.0
+      },
+      {
+        "id": "3902203",
+        "name": "Harina para Hot Cakes Pronto Hot Cake 800g+ Jarabe Sabor Maple 250ml",
+        "url": "https://www.chedraui.com.mx/harina-para-hot-cakes-pronto-hot-cake-800g-jarabe-sabor-maple-250ml-3902203/p",
+        "ean": "17501200401029",
+        "multiEan": [
+          "7501200401022"
+        ],
+        "price": 52.0
+      },
+      {
+        "id": "6016847",
+        "name": "Patineta Juvenil La Viga Skateboards Unisex Cruiser Lija Reforzada Rosa",
+        "url": "https://www.chedraui.com.mx/patineta-juvenil-la-viga-skateboards-unisex-cruiser-lija-reforzada-rosa-6016847/p",
+        "ean": "7506499332071",
+        "multiEan": null,
+        "price": 1099.0
+      },
+      {
+        "id": "6016848",
+        "name": "Patineta Juvenil La Viga Skateboards Unisex Cruiser Lija Reforzada Negro",
+        "url": "https://www.chedraui.com.mx/patineta-juvenil-la-viga-skateboards-unisex-cruiser-lija-reforzada-negro-6016848/p",
+        "ean": "7506499332095",
+        "multiEan": null,
+        "price": 1099.0
+      }
+    ]
+  },
+  {
+    "term": "macma",
+    "start": 0,
+    "count": 14,
+    "rows": [
+      {
+        "id": "3045291",
+        "name": "Galleta MacMa Gofrenata 150g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-gofrenata-150g-3045291/p",
+        "ean": "0850697002036",
+        "multiEan": [
+          "0850697002036-850697002036"
+        ],
+        "price": 43.0
+      },
+      {
+        "id": "3045505",
+        "name": "Galleta MacMa Abanico Finas 245g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-abanico-finas-245g-3045505/p",
+        "ean": "17501031111135",
+        "multiEan": [
+          "0850697002456-7501031111138-850697002456"
+        ],
+        "price": 84.0
+      },
+      {
+        "id": "3285507",
+        "name": "Galleta MacMa Abanicos Finas 150g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-abanicos-finas-150g-3285507/p",
+        "ean": "0850697002005",
+        "multiEan": [
+          "0850697002005-850697002005"
+        ],
+        "price": 43.0
+      },
+      {
+        "id": "3285510",
+        "name": "Galleta MacMa Barquillos Finas 150g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-barquillos-finas-150g-3285510/p",
+        "ean": "850697002012",
+        "multiEan": [
+          "850697002012-0850697002012"
+        ],
+        "price": 43.0
+      },
+      {
+        "id": "3044585",
+        "name": "Galleta MacMa Gofrenata Finas 320g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-gofrenata-finas-320g-3044585/p",
+        "ean": "17501031111326",
+        "multiEan": [
+          "0850697002470-850697002470-7501031111329"
+        ],
+        "price": 95.0
+      },
+      {
+        "id": "3668982",
+        "name": "Galleta MacMa Chocco Finas 150g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-chocco-finas-150g-3668982/p",
+        "ean": "9999917467826",
+        "multiEan": [
+          "0850697002791-9999917467833-850697002791-9999917467826"
+        ],
+        "price": 43.0
+      },
+      {
+        "id": "3090670",
+        "name": "Galleta MacMa Selecciones Finas Surtidas 330g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-selecciones-finas-surtidas-330g-3090670/p",
+        "ean": "750103111165",
+        "multiEan": [
+          "7501031111657-850697002524-0850697002524"
+        ],
+        "price": 89.0
+      },
+      {
+        "id": "3090669",
+        "name": "Galleta MacMa Escoces Finas Surtidas 330g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-escoces-finas-surtidas-330g-3090669/p",
+        "ean": "750103111158",
+        "multiEan": [
+          "850697002517-0850697002517-7501031111589"
+        ],
+        "price": 75.5
+      },
+      {
+        "id": "3466035",
+        "name": "Galleta MacMa Real Finas Surtidas 350g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-real-finas-surtidas-350g-3466035/p",
+        "ean": "85069700272",
+        "multiEan": [
+          "850697002722-0850697002722"
+        ],
+        "price": 95.0
+      },
+      {
+        "id": "3301521",
+        "name": "Galleta MacMa Castilla Finas Surtidas 500g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-castilla-finas-surtidas-500g-3301521/p",
+        "ean": "17501031111036",
+        "multiEan": [
+          "7501031111039"
+        ],
+        "price": 207.0
+      },
+      {
+        "id": "3045501",
+        "name": "Galleta MacMa Presidente Finas Surtido 350g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-presidente-finas-surtido-350g-3045501/p",
+        "ean": "85069700250",
+        "multiEan": [
+          "7501031111817-0850697002500-850697002500"
+        ],
+        "price": 95.0
+      },
+      {
+        "id": "3466030",
+        "name": "Galleta MacMa Bocado de Dama Finas 300g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-bocado-de-dama-finas-300g-3466030/p",
+        "ean": "850697002494",
+        "multiEan": [
+          "0850697002494-850697002494"
+        ],
+        "price": 84.0
+      },
+      {
+        "id": "3285512",
+        "name": "Galleta MacMa Wafer Natta Finas 150g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-wafer-natta-finas-150g-3285512/p",
+        "ean": "85069700215",
+        "multiEan": [
+          "0850697002159-850697002159"
+        ],
+        "price": 43.0
+      },
+      {
+        "id": "3301523",
+        "name": "Galleta MacMa Cuenta Conmigo Finas Surtidas 600g",
+        "url": "https://www.chedraui.com.mx/galleta-macma-cuenta-conmigo-finas-surtidas-600g-3301523/p",
+        "ean": "7501031111190",
+        "multiEan": [
+          "7501031111190"
+        ],
+        "price": 239.0
+      }
+    ]
+  },
+  {
+    "term": "marian",
+    "start": 0,
+    "count": 23,
+    "rows": [
+      {
+        "id": "3331851",
+        "name": "Bolitas de Nuez Marian 207g",
+        "url": "https://www.chedraui.com.mx/bolitas-de-nuez-marian-207g-3331851/p",
+        "ean": "10020899001084",
+        "multiEan": [
+          "0020899001087-20899001087"
+        ],
+        "price": 58.0
+      },
+      {
+        "id": "3384008",
+        "name": "Galletas Tartaletas Marian de Fresa 105g",
+        "url": "https://www.chedraui.com.mx/galletas-tartaletas-marian-de-fresa-105g-3384008/p",
+        "ean": "10020899001794",
+        "multiEan": [
+          "20899001797-0020899001797"
+        ],
+        "price": 20.5
+      },
+      {
+        "id": "3687735",
+        "name": "Galletas Marian Surtido Suspiros 345g",
+        "url": "https://www.chedraui.com.mx/galletas-marian-surtido-suspiros-345g-3687735/p",
+        "ean": "2089908774",
+        "multiEan": [
+          "20899087746-0020899087746"
+        ],
+        "price": 79.0
+      },
+      {
+        "id": "3575507",
+        "name": "Surtido de Galletas Marian Navideño 340g",
+        "url": "https://www.chedraui.com.mx/surtido-de-galletas-marian-navideno-340g-3575507/p",
+        "ean": "2089900322",
+        "multiEan": [
+          "0020899003227-20899003227"
+        ],
+        "price": 86.5
+      },
+      {
+        "id": "3331854",
+        "name": "Galletas Tartaletas Marian de Fresa 210g",
+        "url": "https://www.chedraui.com.mx/galletas-tartaletas-marian-de-fresa-210g-3331854/p",
+        "ean": "10020899001077",
+        "multiEan": [
+          "0020899001070-20899001070"
+        ],
+        "price": 43.0
+      },
+      {
+        "id": "3384021",
+        "name": "Galletas Tartaletas Marian de Piña 105g",
+        "url": "https://www.chedraui.com.mx/galletas-tartaletas-marian-de-pina-105g-3384021/p",
+        "ean": "2089900180",
+        "multiEan": [
+          "20899001803-0020899001803"
+        ],
+        "price": 20.5
+      },
+      {
+        "id": "3575538",
+        "name": "Galleta Marian Danesas Canela 350g",
+        "url": "https://www.chedraui.com.mx/galleta-marian-danesas-canela-350g-3575538/p",
+        "ean": "2089900324",
+        "multiEan": [
+          "20899003241-0020899003241"
+        ],
+        "price": 74.5
+      },
+      {
+        "id": "3350285",
+        "name": "Orejitas Marian Cubiertas de Chocolate 192g",
+        "url": "https://www.chedraui.com.mx/orejitas-marian-cubiertas-de-chocolate-192g-3350285/p",
+        "ean": "0020899001094",
+        "multiEan": [
+          "0020899001094-20899001094"
+        ],
+        "price": 56.5
+      },
+      {
+        "id": "3785551",
+        "name": "Galleta Marian Majestic Surtido 1Kg",
+        "url": "https://www.chedraui.com.mx/galleta-marian-majestic-surtido-1kg-3785551/p",
+        "ean": "10020899001602",
+        "multiEan": [
+          "20899001605-0020899001605"
+        ],
+        "price": 244.0
+      },
+      {
+        "id": "3435207",
+        "name": "Galletas Tartaletas Marian de Zarzamora de 105g",
+        "url": "https://www.chedraui.com.mx/galletas-tartaletas-marian-de-zarzamora-de-105g-3435207/p",
+        "ean": "20899001810",
+        "multiEan": [
+          "20899001810-0020899001810"
+        ],
+        "price": 20.5
+      },
+      {
+        "id": "3687734",
+        "name": "Galletas Marian Surtido Tradicional 380g",
+        "url": "https://www.chedraui.com.mx/galletas-marian-surtido-tradicional-380g-3687734/p",
+        "ean": "10020899087729",
+        "multiEan": [
+          "0020899087722-20899087722"
+        ],
+        "price": 118.0
+      },
+      {
+        "id": "3326475",
+        "name": "Galleta Marian Trazzos de Chocolate Tipo Gourmet 210g",
+        "url": "https://www.chedraui.com.mx/galleta-marian-trazzos-de-chocolate-tipo-gourmet-210g-3326475/p",
+        "ean": "2089900106",
+        "multiEan": [
+          "20899001063-0020899001063"
+        ],
+        "price": 54.0
+      },
+      {
+        "id": "3454135",
+        "name": "Calceta Mariannita Escolar 1575",
+        "url": "https://www.chedraui.com.mx/calceta-mariannita-escolar-1575-3454135/p",
+        "ean": "750105401575",
+        "multiEan": [
+          "7501054015758"
+        ],
+        "price": 99.9
+      },
+      {
+        "id": "3454135",
+        "name": "Calceta Mariannita Escolar 1575",
+        "url": "https://www.chedraui.com.mx/calceta-mariannita-escolar-1575-3454135/p",
+        "ean": "750105401576",
+        "multiEan": [
+          "7501054015758"
+        ],
+        "price": 99.9
+      },
+      {
+        "id": "3454135",
+        "name": "Calceta Mariannita Escolar 1575",
+        "url": "https://www.chedraui.com.mx/calceta-mariannita-escolar-1575-3454135/p",
+        "ean": "750105401577",
+        "multiEan": [
+          "7501054015758"
+        ],
+        "price": 99.9
+      },
+      {
+        "id": "3269682",
+        "name": "Pan Marianas Miniatura",
+        "url": "https://www.chedraui.com.mx/pan-marianas-miniatura-3269682/p",
+        "ean": "2354643000001",
+        "multiEan": [
+          "2354643-000002354643-2354643000001"
+        ],
+        "price": 25.0
+      },
+      {
+        "id": "3609040",
+        "name": "Tin Mariannita Deportivo",
+        "url": "https://www.chedraui.com.mx/tin-mariannita-deportivo-3609040/p",
+        "ean": "7501054015550",
+        "multiEan": [
+          "7501054015550"
+        ],
+        "price": 75.0
+      },
+      {
+        "id": "3609040",
+        "name": "Tin Mariannita Deportivo",
+        "url": "https://www.chedraui.com.mx/tin-mariannita-deportivo-3609040/p",
+        "ean": "7501054015567",
+        "multiEan": [
+          "7501054015550"
+        ],
+        "price": 74.9
+      },
+      {
+        "id": "3609040",
+        "name": "Tin Mariannita Deportivo",
+        "url": "https://www.chedraui.com.mx/tin-mariannita-deportivo-3609040/p",
+        "ean": "7501054015574",
+        "multiEan": [
+          "7501054015550"
+        ],
+        "price": 74.9
+      },
+      {
+        "id": "3609040",
+        "name": "Tin Mariannita Deportivo",
+        "url": "https://www.chedraui.com.mx/tin-mariannita-deportivo-3609040/p",
+        "ean": "17501054019333",
+        "multiEan": [
+          "7501054015550"
+        ],
+        "price": 74.9
+      },
+      {
+        "id": "3609040",
+        "name": "Tin Mariannita Deportivo",
+        "url": "https://www.chedraui.com.mx/tin-mariannita-deportivo-3609040/p",
+        "ean": "750105401934",
+        "multiEan": [
+          "7501054015550"
+        ],
+        "price": 75.0
+      },
+      {
+        "id": "3454160",
+        "name": "Calceta Mariannita Escolar 1278",
+        "url": "https://www.chedraui.com.mx/calceta-mariannita-escolar-1278-3454160/p",
+        "ean": "750105401278",
+        "multiEan": [
+          "7501054012801"
+        ],
+        "price": 74.9
+      },
+      {
+        "id": "3454160",
+        "name": "Calceta Mariannita Escolar 1278",
+        "url": "https://www.chedraui.com.mx/calceta-mariannita-escolar-1278-3454160/p",
+        "ean": "7501054012795",
+        "multiEan": [
+          "7501054012801"
+        ],
+        "price": 74.9
+      },
+      {
+        "id": "3454160",
+        "name": "Calceta Mariannita Escolar 1278",
+        "url": "https://www.chedraui.com.mx/calceta-mariannita-escolar-1278-3454160/p",
+        "ean": "750105401280",
+        "multiEan": [
+          "7501054012801"
+        ],
+        "price": 74.9
+      },
+      {
+        "id": "3045359",
+        "name": "Galletas Marianitas La Moderna Sabor Nuez 185g",
+        "url": "https://www.chedraui.com.mx/galletas-marianitas-la-moderna-sabor-nuez-185g-3045359/p",
+        "ean": "3862900170",
+        "multiEan": [
+          "0038629001702-38629001702"
+        ],
+        "price": 19.0
+      },
+      {
+        "id": "3342148",
+        "name": "Galletas Marianitas La Moderna Sabor Coco 185g",
+        "url": "https://www.chedraui.com.mx/galletas-marianitas-la-moderna-sabor-coco-185g-3342148/p",
+        "ean": "38629002068",
+        "multiEan": [
+          "0038629002068-38629002068"
+        ],
+        "price": 16.49
+      },
+      {
+        "id": "3392661",
+        "name": "Tobillera Casual Mariannita 6740 Blanca Niñas",
+        "url": "https://www.chedraui.com.mx/tobillera-casual-mariannita-6740-blanca-ninas-3392661/p",
+        "ean": "750105406730",
+        "multiEan": [
+          "7501054067306"
+        ],
+        "price": 64.9
+      },
+      {
+        "id": "3392661",
+        "name": "Tobillera Casual Mariannita 6740 Blanca Niñas",
+        "url": "https://www.chedraui.com.mx/tobillera-casual-mariannita-6740-blanca-ninas-3392661/p",
+        "ean": "7501054067405",
+        "multiEan": [
+          "7501054067306"
+        ],
+        "price": 64.9
+      },
+      {
+        "id": "3392661",
+        "name": "Tobillera Casual Mariannita 6740 Blanca Niñas",
+        "url": "https://www.chedraui.com.mx/tobillera-casual-mariannita-6740-blanca-ninas-3392661/p",
+        "ean": "7501054067207",
+        "multiEan": [
+          "7501054067306"
+        ],
+        "price": 64.9
+      },
+      {
+        "id": "3342156",
+        "name": "Galletas Marianitas La Moderna Sabor Naranja 185g",
+        "url": "https://www.chedraui.com.mx/galletas-marianitas-la-moderna-sabor-naranja-185g-3342156/p",
+        "ean": "10038629002072",
+        "multiEan": [
+          "38629002075-0038629002075"
+        ],
+        "price": 19.0
+      },
+      {
+        "id": "6021283",
+        "name": "Armario de Cocina Completa 280cm Branco Mariana Madesa 02",
+        "url": "https://www.chedraui.com.mx/armario-de-cocina-completa-280cm-branco-mariana-madesa-02-6021283/p",
+        "ean": "7891760837356",
+        "multiEan": null,
+        "price": 27659.0
+      },
+      {
+        "id": "6021293",
+        "name": "Armario de Cocina Completa 280cm Branco Mariana Madesa 02SR",
+        "url": "https://www.chedraui.com.mx/armario-de-cocina-completa-280cm-branco-mariana-madesa-02sr-6021293/p",
+        "ean": "7891760837363",
+        "multiEan": null,
+        "price": 27659.0
+      },
+      {
+        "id": "6030602",
+        "name": "Sandalia cuña Mariana valle Para Mujer Modelo 141293 Color Café Talla 25 CM",
+        "url": "https://www.chedraui.com.mx/sandalia-cuna-mariana-valle-para-mujer-modelo-141293-color-cafe-talla-25-cm-141293/p",
+        "ean": "7506665938533",
+        "multiEan": null,
+        "price": 829.0
+      },
+      {
+        "id": "6030602",
+        "name": "Sandalia cuña Mariana valle Para Mujer Modelo 141293 Color Café Talla 25 CM",
+        "url": "https://www.chedraui.com.mx/sandalia-cuna-mariana-valle-para-mujer-modelo-141293-color-cafe-talla-25-cm-141293/p",
+        "ean": "7506665938540",
+        "multiEan": null,
+        "price": 829.0
+      },
+      {
+        "id": "6030602",
+        "name": "Sandalia cuña Mariana valle Para Mujer Modelo 141293 Color Café Talla 25 CM",
+        "url": "https://www.chedraui.com.mx/sandalia-cuna-mariana-valle-para-mujer-modelo-141293-color-cafe-talla-25-cm-141293/p",
+        "ean": "7506665938526",
+        "multiEan": null,
+        "price": 829.0
+      },
+      {
+        "id": "6030602",
+        "name": "Sandalia cuña Mariana valle Para Mujer Modelo 141293 Color Café Talla 25 CM",
+        "url": "https://www.chedraui.com.mx/sandalia-cuna-mariana-valle-para-mujer-modelo-141293-color-cafe-talla-25-cm-141293/p",
+        "ean": "7506665938519",
+        "multiEan": null,
+        "price": 829.0
+      }
+    ]
+  },
+  {
+    "term": "primo",
+    "start": 0,
+    "count": 12,
+    "rows": []
+  }
+]

@@ -17,13 +17,21 @@ Ademas, un mismo evento puede nacer localmente desde la UI o llegar despues desd
 
 Los command services se organizaran por agregado o modulo de negocio, no por pantalla.
 
+Los comandos de entrada (`Command`) y el servicio que los procesa
+(`CommandService`) comparten una subcarpeta por funcionalidad dentro de
+`application/commands`, con una clase principal por archivo.
+`LocalCommandContext` permanece en la raiz como contexto compartido.
+
 Ejemplos:
 
 ```text
-application/commands/espacio_command_service.dart
-application/commands/mesa_command_service.dart
-application/commands/venta_command_service.dart
-application/commands/producto_command_service.dart
+application/commands/espacios/crear_espacio_command.dart
+application/commands/espacios/espacio_command_service.dart
+application/commands/categorias/categoria_command_service.dart
+application/commands/articulos/producto_command_service.dart
+application/commands/inventario/inventory_command_service.dart
+application/commands/ventas/venta_borrador_command_service.dart
+application/commands/local_command_context.dart
 ```
 
 La UI llamara al command service correspondiente. El command service construye el evento, lo guarda como pendiente y lo manda al procesador de eventos.

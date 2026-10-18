@@ -1,0 +1,204 @@
+{
+  "id": 8689467392162,
+  "title": "Galletas Marián",
+  "body_html": "<p data-start=\"443\" data-end=\"516\"><strong data-start=\"443\" data-end=\"516\">Surtido de galletas Marián® para catering, oficinas y salas de juntas</strong></p>\n<p data-start=\"518\" data-end=\"692\">Haz de cada reunión un momento especial con el surtido de galletas Marián®, una selección perfecta para acompañar desayunos, coffee breaks, sobremesas y eventos corporativos.</p>\n<p data-start=\"694\" data-end=\"890\">Con opciones como Majestic y Nutret, este surtido ofrece variedad de sabores y texturas que se adaptan a diferentes gustos, ideal para ambientes profesionales donde el detalle marca la diferencia.</p>\n<h3 data-section-id=\"15smcsx\" data-start=\"892\" data-end=\"926\">Presentaciones disponibles:</h3>\n<ul data-start=\"927\" data-end=\"994\">\n<li data-section-id=\"12v2leh\" data-start=\"927\" data-end=\"952\">Surtido Majestic 1 kg</li>\n<li data-section-id=\"hng6vz\" data-start=\"953\" data-end=\"977\">Surtido desde 1.5 kg</li>\n<li data-section-id=\"1frrovj\" data-start=\"978\" data-end=\"994\">Línea Nutret</li>\n</ul>\n<h3 data-section-id=\"8rzvo0\" data-start=\"996\" data-end=\"1020\">Beneficios clave:</h3>\n<ul data-start=\"1021\" data-end=\"1281\">\n<li data-section-id=\"ws4n9\" data-start=\"1021\" data-end=\"1066\">✔ Variedad de sabores en un solo producto</li>\n<li data-section-id=\"1xgmcei\" data-start=\"1067\" data-end=\"1117\">✔ Ideal para coffee break, catering y oficinas</li>\n<li data-section-id=\"1cwrab8\" data-start=\"1118\" data-end=\"1176\">✔ Perfecto para salas de juntas y eventos corporativos</li>\n<li data-section-id=\"5b6t75\" data-start=\"1177\" data-end=\"1219\">✔ Presentación práctica para compartir</li>\n<li data-section-id=\"1jxbpqc\" data-start=\"1220\" data-end=\"1281\">✔ Aporta valor a la experiencia del cliente o colaborador</li>\n</ul>\n<p data-start=\"1283\" data-end=\"1370\"><strong data-start=\"1286\" data-end=\"1370\">Ideal para catering, hoteles, oficinas, salas de juntas y eventos empresariales.<br><meta charset=\"UTF-8\"></strong></p>\n<hr data-start=\"1482\" data-end=\"1485\">\n<p data-start=\"1487\" data-end=\"1632\" data-is-last-node=\"\" data-is-only-node=\"\"> </p>\n<p data-start=\"1487\" data-end=\"1632\" data-is-last-node=\"\" data-is-only-node=\"\">Solicita más información y realiza tu pedido de forma rápida.<br data-start=\"1548\" data-end=\"1551\">Escríbenos a <a data-start=\"1564\" data-end=\"1588\" class=\"decorated-link cursor-pointer\" rel=\"noopener\"><strong><span style=\"color: rgb(43, 0, 255);\">chefmart@chefmart.com.mx</span></strong> </a>o contáctanos por WhatsApp al <strong>55 7844 6350.</strong></p>\n<p data-start=\"1283\" data-end=\"1370\"><strong data-start=\"1286\" data-end=\"1370\"><br></strong></p>",
+  "vendor": "MARIAN",
+  "product_type": "GALLETAS MARIAN",
+  "created_at": "2025-06-06T15:41:22-06:00",
+  "handle": "galletas-marian-copia",
+  "updated_at": "2026-10-16T22:42:03-06:00",
+  "published_at": "2026-03-24T09:40:21-06:00",
+  "template_suffix": "",
+  "published_scope": "web",
+  "tags": "SURTIDO MAJESTIC",
+  "variants": [
+    {
+      "id": 45579672780962,
+      "product_id": 8689467392162,
+      "title": "SURTIDO MAJESTIC CAJA DE 1.5KG",
+      "price": "243.05",
+      "sku": "603002",
+      "position": 1,
+      "compare_at_price": "",
+      "fulfillment_service": "manual",
+      "inventory_management": "shopify",
+      "option1": "SURTIDO MAJESTIC CAJA DE 1.5KG",
+      "option2": null,
+      "option3": null,
+      "created_at": "2025-06-06T15:41:22-06:00",
+      "updated_at": "2026-10-16T22:42:03-06:00",
+      "taxable": true,
+      "barcode": null,
+      "grams": 1,
+      "image_id": 32890545176738,
+      "weight": 0.0006,
+      "weight_unit": "kg",
+      "requires_shipping": true,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "price_currency": "MXN",
+      "compare_at_price_currency": "",
+      "quantity_price_breaks": []
+    },
+    {
+      "id": 45579672813730,
+      "product_id": 8689467392162,
+      "title": "SURTIDO MAJESTIC 6 CAJAS DE 1KG C/U",
+      "price": "1031.98",
+      "sku": "603003",
+      "position": 2,
+      "compare_at_price": "",
+      "fulfillment_service": "manual",
+      "inventory_management": "shopify",
+      "option1": "SURTIDO MAJESTIC 6 CAJAS DE 1KG C/U",
+      "option2": null,
+      "option3": null,
+      "created_at": "2025-06-06T15:41:22-06:00",
+      "updated_at": "2026-10-16T22:42:03-06:00",
+      "taxable": true,
+      "barcode": null,
+      "grams": 1,
+      "image_id": 32890583253154,
+      "weight": 0.0006,
+      "weight_unit": "kg",
+      "requires_shipping": true,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "price_currency": "MXN",
+      "compare_at_price_currency": "",
+      "quantity_price_breaks": []
+    },
+    {
+      "id": 45579673469090,
+      "product_id": 8689467392162,
+      "title": "NUTRET BARRA RELLENA FRESA 12 CAJAS/5 BARRAS/40GR C/U",
+      "price": "358.70",
+      "sku": "613103",
+      "position": 3,
+      "compare_at_price": "",
+      "fulfillment_service": "manual",
+      "inventory_management": "shopify",
+      "option1": "NUTRET BARRA RELLENA FRESA 12 CAJAS/5 BARRAS/40GR C/U",
+      "option2": null,
+      "option3": null,
+      "created_at": "2025-06-06T15:41:22-06:00",
+      "updated_at": "2026-10-16T22:42:03-06:00",
+      "taxable": true,
+      "barcode": null,
+      "grams": 1,
+      "image_id": 38145515094178,
+      "weight": 0.0006,
+      "weight_unit": "kg",
+      "requires_shipping": true,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "price_currency": "MXN",
+      "compare_at_price_currency": "",
+      "quantity_price_breaks": []
+    }
+  ],
+  "options": [
+    {
+      "id": 11087816818850,
+      "product_id": 8689467392162,
+      "name": "PRESENTACIÓN",
+      "position": 1,
+      "values": [
+        "SURTIDO MAJESTIC CAJA DE 1.5KG",
+        "SURTIDO MAJESTIC 6 CAJAS DE 1KG C/U",
+        "NUTRET BARRA RELLENA FRESA 12 CAJAS/5 BARRAS/40GR C/U"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": 32890545176738,
+      "product_id": 8689467392162,
+      "position": 1,
+      "created_at": "2022-04-06T15:56:39-05:00",
+      "updated_at": "2022-04-06T15:56:41-05:00",
+      "alt": null,
+      "width": 4030,
+      "height": 4031,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/products/MAJESTIC1.5K.png?v=1649278601",
+      "variant_ids": [
+        45579672780962
+      ]
+    },
+    {
+      "id": 32890583253154,
+      "product_id": 8689467392162,
+      "position": 2,
+      "created_at": "2022-04-06T16:05:09-05:00",
+      "updated_at": "2022-04-06T16:05:11-05:00",
+      "alt": null,
+      "width": 4030,
+      "height": 4031,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/products/MAJESTIC1KG.png?v=1649279111",
+      "variant_ids": [
+        45579672813730
+      ]
+    },
+    {
+      "id": 32890663239842,
+      "product_id": 8689467392162,
+      "position": 3,
+      "created_at": "2022-04-06T16:19:59-05:00",
+      "updated_at": "2022-04-06T16:29:24-05:00",
+      "alt": null,
+      "width": 4030,
+      "height": 4031,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/products/DANESASCANELA350G.png?v=1649280564",
+      "variant_ids": []
+    },
+    {
+      "id": 32890650067106,
+      "product_id": 8689467392162,
+      "position": 4,
+      "created_at": "2022-04-06T16:17:50-05:00",
+      "updated_at": "2022-04-06T16:29:24-05:00",
+      "alt": null,
+      "width": 4030,
+      "height": 4031,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/products/danesas50g.png?v=1649280564",
+      "variant_ids": []
+    },
+    {
+      "id": 38145515094178,
+      "product_id": 8689467392162,
+      "position": 5,
+      "created_at": "2024-08-02T10:36:49-06:00",
+      "updated_at": "2024-08-02T10:36:49-06:00",
+      "alt": null,
+      "width": 4030,
+      "height": 4031,
+      "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/files/CAJA-NUTRET-FRESa.png?v=1722616609",
+      "variant_ids": [
+        45579673469090
+      ]
+    }
+  ],
+  "image": {
+    "id": 32890545176738,
+    "product_id": 8689467392162,
+    "position": 1,
+    "created_at": "2022-04-06T15:56:39-05:00",
+    "updated_at": "2022-04-06T15:56:41-05:00",
+    "alt": null,
+    "width": 4030,
+    "height": 4031,
+    "src": "https://cdn.shopify.com/s/files/1/0493/1865/8210/products/MAJESTIC1.5K.png?v=1649278601",
+    "variant_ids": [
+      45579672780962
+    ]
+  }
+}

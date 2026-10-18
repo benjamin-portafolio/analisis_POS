@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "A01",
+    "scope": "local",
+    "case": "Crear/editar proveedor offline",
+    "expected": "Identidad, datos normalizados, metadatos y eventos conservados tras reinicio.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart",
+        "name": "crear desde Agregar, volver a proveedores, editar y consultar reactivamente",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1606
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo con proveedores, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1147
+      }
+    ]
+  },
+  {
+    "id": "A02",
+    "scope": "local",
+    "case": "Una variante con dos proveedores",
+    "expected": "Precios y fechas independientes; cero explícito.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "alta con variantes, proveedores compartidos, cero y listas canónicas inmutables",
+        "line": 124,
+        "status": "aprobado",
+        "test_id": 124
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart",
+        "name": "seleccionar, guardar, reabrir, cambiar precio y retirar último desde UI",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1476
+      }
+    ]
+  },
+  {
+    "id": "A03",
+    "scope": "local",
+    "case": "Dos variantes del mismo producto",
+    "expected": "Listas propias; proveedor compartido; tercera lista explícitamente vacía.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "alta con variantes, proveedores compartidos, cero y listas canónicas inmutables",
+        "line": 124,
+        "status": "aprobado",
+        "test_id": 124
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo con proveedores, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1147
+      }
+    ]
+  },
+  {
+    "id": "A04",
+    "scope": "local",
+    "case": "Proveedor repetido en la variante",
+    "expected": "Rechazo sin evento ni escrituras parciales.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "duplicates e inexistente fallan antes de producto, recursos o eventos parciales",
+        "line": 295,
+        "status": "aprobado",
+        "test_id": 157
+      }
+    ]
+  },
+  {
+    "id": "A05",
+    "scope": "local",
+    "case": "Precio inválido o proveedor inexistente",
+    "expected": "Errores de dominio/UI/payload; rollback y proyecciones intactas.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "duplicates e inexistente fallan antes de producto, recursos o eventos parciales",
+        "line": 295,
+        "status": "aprobado",
+        "test_id": 157
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido quoted_price_minor=-1 revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 216
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido quoted_price_minor=9007199254740992 revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 217
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido quoted_price_minor=1.5 revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 219
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido quoted_price_minor= revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 220
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido quoted_price_minor=null revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 221
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido quoted_at_ms=0 revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 222
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido quoted_at_ms=9007199254740992 revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 224
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido quoted_at_ms=1.5 revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 225
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido quoted_at_ms=2026-10-07 revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 228
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido quoted_at_ms=null revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 229
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "payload inválido supplier_id=invalid revierte evento sin proyección parcial",
+        "line": 1357,
+        "status": "aprobado",
+        "test_id": 230
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "error por campo \"\" conserva selección y permite corregir",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1404
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "error por campo \"-1\" conserva selección y permite corregir",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1406
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "error por campo \"1.234\" conserva selección y permite corregir",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1408
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "error por campo \"abc\" conserva selección y permite corregir",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1409
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "error por campo \"90071992547409.92\" conserva selección y permite corregir",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1412
+      }
+    ]
+  },
+  {
+    "id": "A06",
+    "scope": "local",
+    "case": "Precio cero / vacío",
+    "expected": "Cero admitido; vacío genera error y conserva el borrador.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "selección explícita, varios proveedores, cero/coma/punto y sin duplicados",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1393
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "error por campo \"\" conserva selección y permite corregir",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1404
+      }
+    ]
+  },
+  {
+    "id": "A07",
+    "scope": "local",
+    "case": "Cambiar receta, nombre, venta o costo estándar",
+    "expected": "Conservar listas omitidas y fechas; seguimiento y consumo mantienen su contrato.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "omitir relaciones al cambiar nombre, venta, costo y barcode conserva precios/fechas",
+        "line": 188,
+        "status": "aprobado",
+        "test_id": 146
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "proveedores coexisten con none sin cambiar consumo o movimientos",
+        "line": 929,
+        "status": "aprobado",
+        "test_id": 197
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "proveedores coexisten con direct sin cambiar consumo o movimientos",
+        "line": 929,
+        "status": "aprobado",
+        "test_id": 198
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "proveedores coexisten con recipe sin cambiar consumo o movimientos",
+        "line": 929,
+        "status": "aprobado",
+        "test_id": 200
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "editor conserva proveedores al cambiar precio de venta y nombre",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1390
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "artículo conserva relaciones y fecha al guardar otro nombre",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1395
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "copyWith conserva por omisión y representa retirada explícita",
+        "line": 117,
+        "status": "aprobado",
+        "test_id": 1400
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "formulario copia proveedores y devuelve una captura inmutable",
+        "line": 129,
+        "status": "aprobado",
+        "test_id": 1401
+      }
+    ]
+  },
+  {
+    "id": "A08",
+    "scope": "local",
+    "case": "Retirar el último proveedor",
+    "expected": "Guardar [] sin eliminar el catálogo; vacío conocido tras reapertura.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "retirar último proveedor deja [] y catálogo, refs y before conservan al retirado",
+        "line": 257,
+        "status": "aprobado",
+        "test_id": 154
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart",
+        "name": "seleccionar, guardar, reabrir, cambiar precio y retirar último desde UI",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1476
+      }
+    ]
+  },
+  {
+    "id": "A09",
+    "scope": "local",
+    "case": "Cancelar selector, variante o artículo",
+    "expected": "No cambia relaciones/eventos; cancelar alta/edición de proveedor tampoco escribe.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart",
+        "name": "cancelar selector conserva relaciones y eventos SQLite",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1352
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart",
+        "name": "cancelar variante conserva relaciones y eventos SQLite",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1417
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart",
+        "name": "cancelar artículo conserva relaciones y eventos SQLite",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1436
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart",
+        "name": "nombre obligatorio y cancelar el alta no escribe",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1652
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart",
+        "name": "cancelar edición y volver atrás no persisten el borrador",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1657
+      }
+    ]
+  },
+  {
+    "id": "A10",
+    "scope": "local",
+    "case": "Capturar precio de proveedor",
+    "expected": "Sin cambios a venta/costo, ventas/caja, cotizaciones, saldos o movimientos con datos existentes.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 precios conservan ventas/caja, cotizaciones y existencias no vacías",
+        "line": 472,
+        "status": "aprobado",
+        "test_id": 1465
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "proveedores coexisten con none sin cambiar consumo o movimientos",
+        "line": 929,
+        "status": "aprobado",
+        "test_id": 197
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "proveedores coexisten con direct sin cambiar consumo o movimientos",
+        "line": 929,
+        "status": "aprobado",
+        "test_id": 198
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "proveedores coexisten con recipe sin cambiar consumo o movimientos",
+        "line": 929,
+        "status": "aprobado",
+        "test_id": 200
+      }
+    ]
+  },
+  {
+    "id": "A11",
+    "scope": "local",
+    "case": "Replay del mismo evento",
+    "expected": "No duplica ni incrementa versión; alta/edición de proveedor y producto.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "idempotencia de alta y edición incluso después de cambiar sus listas",
+        "line": 414,
+        "status": "aprobado",
+        "test_id": 172
+      },
+      {
+        "file": "test/application/commands/proveedores/proveedor_command_service_test.dart",
+        "name": "handlers idempotentes no duplican ni revierten ediciones; identidad ocupada falla",
+        "line": 295,
+        "status": "aprobado",
+        "test_id": 393
+      }
+    ]
+  },
+  {
+    "id": "A12",
+    "scope": "local",
+    "case": "Respaldo/restauración compatible",
+    "expected": "VACUUM INTO, hash, restauración aislada, repositorios, UI y reinicios; poblado y vacío.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo con proveedores, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1147
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo vacío, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1399
+      },
+      {
+        "file": "test/data/local/drift/supplier_backup_test.dart",
+        "name": "arranques y snapshot/restore preservan proveedores y precio cero",
+        "line": 80,
+        "status": "aprobado",
+        "test_id": 921
+      }
+    ]
+  },
+  {
+    "id": "A13",
+    "scope": "local",
+    "case": "Standalone",
+    "expected": "Eventos applied/not_required, event_refs=0, pendientes=0 y HttpClient=0; runtime remoto no resuelto.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/core/di/proveedor_dependencies_test.dart",
+        "name": "DI real del catálogo en standalone: contratos locales y cero conexiones HTTP/WebSocket",
+        "line": 48,
+        "status": "aprobado",
+        "test_id": 18
+      },
+      {
+        "file": "test/core/di/proveedor_dependencies_test.dart",
+        "name": "DI real del catálogo en serverSync: contratos locales y cero conexiones HTTP/WebSocket",
+        "line": 48,
+        "status": "aprobado",
+        "test_id": 45
+      },
+      {
+        "file": "test/core/di/proveedor_dependencies_test.dart",
+        "name": "DI real: producto con proveedores standalone sin transporte remoto",
+        "line": 121,
+        "status": "aprobado",
+        "test_id": 48
+      },
+      {
+        "file": "test/application/commands/proveedores/proveedor_command_service_test.dart",
+        "name": "runtime standalone y catálogo no resuelven monitor de actividad remota",
+        "line": 390,
+        "status": "aprobado",
+        "test_id": 398
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo con proveedores, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1147
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo vacío, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1399
+      }
+    ]
+  },
+  {
+    "id": "B01",
+    "scope": "local",
+    "case": "Coma/punto, precisión y fechas informadas",
+    "expected": "Conversión exacta; cambio conserva fecha informada y precio equivalente conserva instante anterior.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "selección explícita, varios proveedores, cero/coma/punto y sin duplicados",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1393
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "carga exacta y precio equivalente conservan fecha al reabrir",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1414
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "cambiar precio habilita fecha informada; cancelar/calendario respeta el borrador",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1416
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "precio sin cambios conserva fecha; precio nuevo conserva la fecha informada nueva",
+        "line": 230,
+        "status": "aprobado",
+        "test_id": 150
+      }
+    ]
+  },
+  {
+    "id": "B02",
+    "scope": "local",
+    "case": "Error al guardar y reintento",
+    "expected": "Conservar borrador; rollback de artículo/hijos/evento; reintento persiste una vez.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart",
+        "name": "fallo atómico al guardar conserva borrador y reintento persiste una vez",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1569
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart",
+        "name": "guardar bloquea doble toque y cancelación, error permite reintento",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1692
+      }
+    ]
+  },
+  {
+    "id": "B03",
+    "scope": "local",
+    "case": "Base de edición obsoleta",
+    "expected": "Rechazar evento/versión/secuencia/before incompatibles sin cambios parciales.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "edición inválida y base obsoleta conservan snapshot y bitácora",
+        "line": 325,
+        "status": "aprobado",
+        "test_id": 159
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "before conocido incorrecto, versión y secuencia fallan sin escrituras",
+        "line": 803,
+        "status": "aprobado",
+        "test_id": 193
+      },
+      {
+        "file": "test/application/commands/proveedores/proveedor_command_service_test.dart",
+        "name": "comando rechaza base con evento incompatible",
+        "line": 228,
+        "status": "aprobado",
+        "test_id": 379
+      },
+      {
+        "file": "test/application/commands/proveedores/proveedor_command_service_test.dart",
+        "name": "comando rechaza base con versión incompatible",
+        "line": 228,
+        "status": "aprobado",
+        "test_id": 383
+      },
+      {
+        "file": "test/application/commands/proveedores/proveedor_command_service_test.dart",
+        "name": "comando rechaza base con secuencia incompatible",
+        "line": 228,
+        "status": "aprobado",
+        "test_id": 389
+      },
+      {
+        "file": "test/application/commands/proveedores/proveedor_command_service_test.dart",
+        "name": "comando rechaza base con before incompatible",
+        "line": 228,
+        "status": "aprobado",
+        "test_id": 391
+      },
+      {
+        "file": "test/application/commands/proveedores/proveedor_command_service_test.dart",
+        "name": "base capturada antigua rechazada sin escritura parcial",
+        "line": 212,
+        "status": "aprobado",
+        "test_id": 378
+      }
+    ]
+  },
+  {
+    "id": "B04",
+    "scope": "local",
+    "case": "Compatibilidad legada",
+    "expected": "Ausencia distinta de []; no borrado silencioso ni pérdida al reconstruir formularios.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "replay legado conserva omisión; nuevo comando parte de snapshot actual completo",
+        "line": 653,
+        "status": "aprobado",
+        "test_id": 187
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "base legada sobre estado conocido empty=true falla sin borrar",
+        "line": 760,
+        "status": "aprobado",
+        "test_id": 190
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "base legada sobre estado conocido empty=false falla sin borrar",
+        "line": 760,
+        "status": "aprobado",
+        "test_id": 191
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "restaurar primera edición moderna conserva snapshot completo vacío al leer",
+        "line": 708,
+        "status": "aprobado",
+        "test_id": 188
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "editor conserva proveedores al cambiar precio de venta y nombre",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1390
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "artículo conserva relaciones y fecha al guardar otro nombre",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1395
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "copyWith conserva por omisión y representa retirada explícita",
+        "line": 117,
+        "status": "aprobado",
+        "test_id": 1400
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "formulario copia proveedores y devuelve una captura inmutable",
+        "line": 129,
+        "status": "aprobado",
+        "test_id": 1401
+      }
+    ]
+  },
+  {
+    "id": "B05",
+    "scope": "local",
+    "case": "Restauración de proyecciones y borrado existente",
+    "expected": "Snapshot fallback/DAO, variantes inactivas/añadidas, borrado de artículo y recuperación.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "restauración fallback de snapshot completo recupera precio, fecha y versión",
+        "line": 445,
+        "status": "aprobado",
+        "test_id": 175
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "undo de DAO conserva relaciones de variantes previamente retiradas y retira añadidas",
+        "line": 546,
+        "status": "aprobado",
+        "test_id": 182
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "reordenar y retirar variante conserva listas inactivas; undo restaura todo",
+        "line": 484,
+        "status": "aprobado",
+        "test_id": 176
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "borrado del artículo conserva historial, referencias y permite restaurarlo",
+        "line": 602,
+        "status": "aprobado",
+        "test_id": 185
+      }
+    ]
+  },
+  {
+    "id": "B06",
+    "scope": "local",
+    "case": "Arranques sucesivos del esquema actual",
+    "expected": "Abrir AppDatabase real dos veces antes y después de restore conserva filas, identidades y marcador.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo con proveedores, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1147
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo vacío, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1399
+      },
+      {
+        "file": "test/data/local/drift/supplier_backup_test.dart",
+        "name": "arranques y snapshot/restore preservan proveedores y precio cero",
+        "line": 80,
+        "status": "aprobado",
+        "test_id": 921
+      }
+    ]
+  },
+  {
+    "id": "B07",
+    "scope": "local",
+    "case": "Integridad y claves foráneas",
+    "expected": "integrity_check=ok, foreign_keys=1, foreign_key_check vacío; esquema versión 8.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo con proveedores, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1147
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo vacío, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1399
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo sha256 rechazado conserva base abierta y reinicio",
+        "line": 399,
+        "status": "aprobado",
+        "test_id": 1448
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo not-sqlite rechazado conserva base abierta y reinicio",
+        "line": 399,
+        "status": "aprobado",
+        "test_id": 1453
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo other-schema rechazado conserva base abierta y reinicio",
+        "line": 399,
+        "status": "aprobado",
+        "test_id": 1456
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo older-version rechazado conserva base abierta y reinicio",
+        "line": 399,
+        "status": "aprobado",
+        "test_id": 1458
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo newer-version rechazado conserva base abierta y reinicio",
+        "line": 399,
+        "status": "aprobado",
+        "test_id": 1460
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 precios conservan ventas/caja, cotizaciones y existencias no vacías",
+        "line": 472,
+        "status": "aprobado",
+        "test_id": 1465
+      }
+    ]
+  },
+  {
+    "id": "B08",
+    "scope": "local",
+    "case": "Respaldo inválido/incompatible",
+    "expected": "Rechazar SHA, archivo no SQLite, columnas requeridas ausentes, FK huérfana y versiones 7/9 antes del reemplazo.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo sha256 rechazado conserva base abierta y reinicio",
+        "line": 399,
+        "status": "aprobado",
+        "test_id": 1448
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo not-sqlite rechazado conserva base abierta y reinicio",
+        "line": 399,
+        "status": "aprobado",
+        "test_id": 1453
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo other-schema rechazado conserva base abierta y reinicio",
+        "line": 399,
+        "status": "aprobado",
+        "test_id": 1456
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo older-version rechazado conserva base abierta y reinicio",
+        "line": 399,
+        "status": "aprobado",
+        "test_id": 1458
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo newer-version rechazado conserva base abierta y reinicio",
+        "line": 399,
+        "status": "aprobado",
+        "test_id": 1460
+      },
+      {
+        "file": "test/data/local/drift/supplier_backup_test.dart",
+        "name": "restore rechaza old-schema antes de reemplazar la base actual",
+        "line": 183,
+        "status": "aprobado",
+        "test_id": 947
+      },
+      {
+        "file": "test/data/local/drift/supplier_backup_test.dart",
+        "name": "restore rechaza orphan antes de reemplazar la base actual",
+        "line": 183,
+        "status": "aprobado",
+        "test_id": 948
+      }
+    ]
+  },
+  {
+    "id": "B09",
+    "scope": "local",
+    "case": "Origen y destino aislados",
+    "expected": "Restaurar solo el destino temporal; cambio posterior del origen permanece intacto.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo con proveedores, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1147
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo vacío, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1399
+      }
+    ]
+  },
+  {
+    "id": "B10",
+    "scope": "local",
+    "case": "Referencias por modo",
+    "expected": "Declarar/validar refs en ambos modos; persistirlas únicamente en server_sync.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/proveedores/proveedor_command_service_test.dart",
+        "name": "persistencia compartida valida refs en ambos modos y solo las guarda en server_sync",
+        "line": 358,
+        "status": "aprobado",
+        "test_id": 397
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "alta con variantes, proveedores compartidos, cero y listas canónicas inmutables",
+        "line": 124,
+        "status": "aprobado",
+        "test_id": 124
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "retirar último proveedor deja [] y catálogo, refs y before conservan al retirado",
+        "line": 257,
+        "status": "aprobado",
+        "test_id": 154
+      }
+    ]
+  },
+  {
+    "id": "B11",
+    "scope": "local",
+    "case": "Nuevos accesos protegidos en server_sync",
+    "expected": "Catálogo/comandos/handlers/UI y pantallas abiertas rechazan captura nueva.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/proveedores/proveedor_command_service_test.dart",
+        "name": "server_sync bloquea alta y edición incluso por invocación directa",
+        "line": 342,
+        "status": "aprobado",
+        "test_id": 396
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "handler rechaza nuevo contrato con delivery/sequence remoto=false",
+        "line": 1046,
+        "status": "aprobado",
+        "test_id": 202
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "handler rechaza nuevo contrato con delivery/sequence remoto=true",
+        "line": 1046,
+        "status": "aprobado",
+        "test_id": 203
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "server_sync bloquea acceso directo y formulario abierto reacciona al modo",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1427
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "variante abierta no entrega cambios de proveedor tras cambiar a server_sync",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1450
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart",
+        "name": "cambio de modo oculta acceso de menú abierto y restaura tres pestañas",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1678
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart",
+        "name": "formulario deja de permitir guardar si cambia a server_sync",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1679
+      }
+    ]
+  },
+  {
+    "id": "B12",
+    "scope": "local",
+    "case": "Artículos legados en server_sync",
+    "expected": "Alta/edición/borrado y refs anteriores mantienen su contrato en SQLite aislado.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "server_sync rechaza captura nueva y conserva flujo legado de artículos",
+        "line": 993,
+        "status": "aprobado",
+        "test_id": 201
+      }
+    ]
+  },
+  {
+    "id": "B13",
+    "scope": "local",
+    "case": "No promover historial standalone",
+    "expected": "not_required no se convierte en pending ni inventa dependencia de entrega.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "solo alta local pendiente agrega dependencia; not_required nunca se promueve",
+        "line": 851,
+        "status": "aprobado",
+        "test_id": 194
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo con proveedores, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1147
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 respaldo real entre directorios y reinicios: catálogo vacío, repositorios e interfaz",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1399
+      }
+    ]
+  },
+  {
+    "id": "R01",
+    "scope": "local",
+    "case": "ARTÍCULOS, CATEGORÍA, RECURSOS y PROVEEDORES",
+    "expected": "Navegación, carga, consulta, edición y menú mantienen el flujo.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart",
+        "name": "regresión de artículos, categorías y recursos junto a proveedores",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1684
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "abre el producto y sus variantes sin permitir guardar",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1350
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "un artículo no disponible muestra error y no abre formulario",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1394
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "shows the three inventory tabs without modifiers",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1396
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "shows categories from the repository and the add button",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1397
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "abre el recurso seleccionado en modo edición",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1398
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "changes tabs by tapping and swiping",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1405
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "busca con debounce y conserva búsqueda y filtros al cambiar de pestaña",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1407
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "Carga masiva abre su propia pantalla y no toca el catálogo",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1413
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "abre el menú completo y crea una categoría con color",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1415
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "abre y guarda el alta sencilla de artículo",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1418
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "abre la categoría con un toque y guarda sus cambios",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1421
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "las flechas mueven categorías y respetan los límites",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1424
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "ofrece resoluciones y usa singular cuando hay un artículo",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1426
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "mueve artículos por ID y elimina después de confirmar",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1429
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "deja artículos sin categoría y elimina",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1430
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "sin destinos permite regresar y conservar sin categoría",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1432
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "cancelar confirmación de resolución no genera comando",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1434
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "confirma categoría vacía, elimina y muestra éxito",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1437
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "cancelar no genera evento de eliminación",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1440
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "muestra error recuperable si falla la eliminación",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1442
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "bloquea doble confirmación mientras elimina",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1445
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "un fallo de conteo no abre una ruta destructiva",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1447
+      }
+    ]
+  },
+  {
+    "id": "R02",
+    "scope": "local",
+    "case": "Artículos y variantes; formularios reconstructores",
+    "expected": "Identidad/proveedores preservados en alta, edición, modo sencillo y copyWith.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "editor conserva proveedores al cambiar precio de venta y nombre",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1390
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "artículo conserva relaciones y fecha al guardar otro nombre",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1395
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "copyWith conserva por omisión y representa retirada explícita",
+        "line": 117,
+        "status": "aprobado",
+        "test_id": 1400
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart",
+        "name": "formulario copia proveedores y devuelve una captura inmutable",
+        "line": 129,
+        "status": "aprobado",
+        "test_id": 1401
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart",
+        "name": "alta de artículo desde menú guarda proveedores solo al finalizar",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1612
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "omitir relaciones al cambiar nombre, venta, costo y barcode conserva precios/fechas",
+        "line": 188,
+        "status": "aprobado",
+        "test_id": 146
+      }
+    ]
+  },
+  {
+    "id": "R03",
+    "scope": "local",
+    "case": "Recetas y seguimiento directo",
+    "expected": "Relaciones comerciales independientes; venta consume según receta/vínculo existentes.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "proveedores coexisten con none sin cambiar consumo o movimientos",
+        "line": 929,
+        "status": "aprobado",
+        "test_id": 197
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "proveedores coexisten con direct sin cambiar consumo o movimientos",
+        "line": 929,
+        "status": "aprobado",
+        "test_id": 198
+      },
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "proveedores coexisten con recipe sin cambiar consumo o movimientos",
+        "line": 929,
+        "status": "aprobado",
+        "test_id": 200
+      },
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 precios conservan ventas/caja, cotizaciones y existencias no vacías",
+        "line": 472,
+        "status": "aprobado",
+        "test_id": 1465
+      }
+    ]
+  },
+  {
+    "id": "R04",
+    "scope": "local",
+    "case": "Ventas/Caja y Cotizaciones",
+    "expected": "Datos no vacíos comparados antes/después; suites preexistentes completas aprobadas.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/data/local/drift/supplier_local_acceptance_test.dart",
+        "name": "F5 precios conservan ventas/caja, cotizaciones y existencias no vacías",
+        "line": 472,
+        "status": "aprobado",
+        "test_id": 1465
+      }
+    ]
+  },
+  {
+    "id": "R05",
+    "scope": "local",
+    "case": "Importación existente",
+    "expected": "Alta con [] y conservación del catálogo existente; no nuevo CSV de proveedores.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/application/commands/articulos/product_supplier_relations_test.dart",
+        "name": "importación existente crea conjuntos vacíos y conserva proveedores de otros artículos",
+        "line": 1199,
+        "status": "aprobado",
+        "test_id": 209
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "name": "Carga masiva abre su propia pantalla y no toca el catálogo",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1413
+      }
+    ]
+  },
+  {
+    "id": "V01",
+    "scope": "local",
+    "case": "Teléfono/tablet, scroll, teclado y Guardar",
+    "expected": "Layout sin overflow y Guardar alcanzable: 320×640/740×360 texto 1.3; 1280×800 texto 1.5; insets simulados.",
+    "status": "aprobado",
+    "tests": [
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "teléfono/tablet Size(320.0, 640.0), texto 1.3, teclado y scroll",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1455
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "teléfono/tablet Size(740.0, 360.0), texto 1.3, teclado y scroll",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1459
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "teléfono/tablet Size(1280.0, 800.0), texto 1.5, teclado y scroll",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1466
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "consulta y editor de variante en Size(320.0, 640.0), texto 1.3",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1457
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "consulta y editor de variante en Size(740.0, 360.0), texto 1.3",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1461
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart",
+        "name": "consulta y editor de variante en Size(1280.0, 800.0), texto 1.5",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1467
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart",
+        "name": "pestañas, menú y formulario accesibles en Size(320.0, 640.0) con texto 1.3",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1695
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart",
+        "name": "pestañas, menú y formulario accesibles en Size(740.0, 360.0) con texto 1.3",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1700
+      },
+      {
+        "file": "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart",
+        "name": "pestañas, menú y formulario accesibles en Size(1280.0, 800.0) con texto 1.3",
+        "line": null,
+        "status": "aprobado",
+        "test_id": 1701
+      }
+    ]
+  },
+  {
+    "id": "A14",
+    "scope": "remote",
+    "case": "Sync: proveedor offline y después utilizado",
+    "expected": "Fases 6–7: orden de dependencias y entrega a servidor no ejecutados.",
+    "status": "no_ejecutado",
+    "tests": []
+  },
+  {
+    "id": "A15",
+    "scope": "remote",
+    "case": "Sync: edición concurrente del precio",
+    "expected": "Fases 6–7: conflicto/reversión entre terminales no ejecutados. El conflicto local del agregado no acredita convergencia remota.",
+    "status": "no_ejecutado",
+    "tests": []
+  },
+  {
+    "id": "A16",
+    "scope": "remote",
+    "case": "Sync: edición desde cliente antiguo",
+    "expected": "Fases 6–7: paridad y protección remota entre versiones no ejecutadas. Compatibilidad Dart/SQLite solo local.",
+    "status": "no_ejecutado",
+    "tests": []
+  },
+  {
+    "id": "V02",
+    "scope": "physical",
+    "case": "Pruebas físicas Android/iOS/tablet",
+    "expected": "No se inició la aplicación ni se probó teclado, tacto o dispositivo físico. No exigidas para este cierre automatizado; permanecen sin ejecución.",
+    "status": "no_ejecutado",
+    "tests": []
+  }
+]

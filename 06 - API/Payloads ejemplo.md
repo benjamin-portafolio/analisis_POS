@@ -1,7 +1,7 @@
 ---
 tipo: api
 estado: borrador
-actualizado: 2026-08-26
+actualizado: 2026-08-29
 ---
 
 # Payloads ejemplo
@@ -198,6 +198,74 @@ ref category cat_01J... affects
 }
 ```
 
+## recurso_inventario_creado
+
+Las altas nuevas usan `initial_balance` positivo. `reason` puede ser `null` y
+no se rellena con un texto artificial. Si no existe cantidad inicial,
+`initial_movement` es `null`. El lector también acepta el formato histórico
+con `movement_type = manual_adjustment` sin reescribirlo.
+
+```json
+{
+  "inventory_item": {
+    "inventory_item_id": "20000000-0000-4000-8000-000000000001",
+    "name": "Harina",
+    "default_unit_id": "10000000-0000-4000-8000-000000000003"
+  },
+  "initial_movement": {
+    "movement_id": "30000000-0000-4000-8000-000000000001",
+    "movement_type": "initial_balance",
+    "quantity_delta_atomic": 250,
+    "reason": null,
+    "reversal_of_movement_id": null,
+    "total_cost_minor": null
+  }
+}
+```
+
+## recurso_inventario_actualizado
+
+La unidad no es un campo mutable. El payload contiene únicamente el cambio de
+nombre y la base causal.
+
+```json
+{
+  "base_event_id": "40000000-0000-4000-8000-000000000001",
+  "changed_fields": ["name"],
+  "changes": {
+    "name": {
+      "from": "Harina",
+      "to": "Harina integral"
+    }
+  }
+}
+```
+
+## movimiento_inventario_registrado
+
+Una reposición ordinaria positiva no exige motivo:
+
+```json
+{
+  "base_event_id": "40000000-0000-4000-8000-000000000002",
+  "movement": {
+    "movement_id": "30000000-0000-4000-8000-000000000002",
+    "movement_type": "stock_receipt",
+    "quantity_delta_atomic": 500,
+    "reason": null,
+    "reversal_of_movement_id": null,
+    "total_cost_minor": null
+  }
+}
+```
+
+Una corrección manual usa la misma forma, admite signo positivo o negativo y
+exige `reason`. `reversal` queda reservado: exige
+`reversal_of_movement_id`, mientras los demás tipos lo mantienen nulo.
+`total_cost_minor` permanece nulo hasta implementar valuación. El payload no
+transporta cantidad anterior ni posterior; el saldo se consulta en
+`inventory_balances`.
+
 ## producto_creado
 
 SKU, codigo de barras, precio de venta y costo estandar opcional pertenecen a
@@ -241,7 +309,6 @@ servidor lo valida y lo retira del payload canónico aceptado, conservando
       "sale_price_minor": 2500,
       "standard_cost_minor": null,
       "inventory_item_id": "00000000-0000-4000-8000-000000000010",
-      "is_default": true,
       "sort_order": 0
     }
   ],
@@ -264,7 +331,7 @@ El contrato canonico confirmado vive en
 [[03 - Dominio/Modulos/Articulos|Articulos, payload producto_actualizado]].
 Un guardado genera un solo change-set atomico con cambios de producto,
 variantes y las bases de cada entidad interna. Modo/unidad de venta son cambios
-del producto; precio, costo estandar, SKU, codigo y predeterminada nunca se
+del producto; precio, costo estandar, SKU y codigo nunca se
 interpretan como columnas planas de `products`.
 
 ## Especificaciones modulares relacionadas

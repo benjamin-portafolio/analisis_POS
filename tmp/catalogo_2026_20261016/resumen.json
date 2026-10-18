@@ -1,0 +1,12 @@
+{
+  "total": 85,
+  "ready": 70,
+  "pending": 15,
+  "readyBarcodes": 59,
+  "allBarcodes": 60,
+  "files": [
+    "catalogo_2026_carga_masiva.csv",
+    "catalogo_2026_pendientes.csv",
+    "catalogo_2026_revision_y_fuentes.csv"
+  ]
+}

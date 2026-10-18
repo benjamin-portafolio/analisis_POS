@@ -1,0 +1,73 @@
+{
+  "checkpoint": "n01-una-lectura",
+  "captured_at": "2026-10-10T04:44:04.000147+00:00",
+  "database": "/Users/benjamin/Library/Containers/com.example.posFlutter.physicalReaderPhase3/Data/Documents/pos_db.sqlite",
+  "tables": {
+    "sales": [
+      {
+        "id": "e4ff19ac-df5d-471c-9656-a5096823c43a",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "f249c163-53de-4c06-8d62-b0e3f008abde",
+        "last_event_id": "f249c163-53de-4c06-8d62-b0e3f008abde",
+        "last_server_sequence": null,
+        "cliente_id": null,
+        "user_id": "phase3-user",
+        "device_id": "phase3-device",
+        "status": "borrador",
+        "total_minor": 100,
+        "created_at_local": 1791607430,
+        "updated_at_local": 1791607430
+      }
+    ],
+    "sale_items": [
+      {
+        "id": "ec7d9ac5-7eb2-4d33-95fc-d4ca5a8f0a56",
+        "active": 1,
+        "version": 1,
+        "created_event_id": "f249c163-53de-4c06-8d62-b0e3f008abde",
+        "last_event_id": "f249c163-53de-4c06-8d62-b0e3f008abde",
+        "last_server_sequence": null,
+        "sale_id": "e4ff19ac-df5d-471c-9656-a5096823c43a",
+        "variant_id": "phase3-variant-A",
+        "consumption_configuration_key": "[null]",
+        "product_name_snapshot": "Prueba A",
+        "variant_name_snapshot": null,
+        "sale_mode_snapshot": "unit",
+        "quantity": 1,
+        "measured_quantity_atomic": null,
+        "unit_price_minor": 100,
+        "standard_cost_minor_snapshot": null,
+        "price_reference_quantity_atomic_snapshot": null,
+        "sale_unit_code_snapshot": null,
+        "sale_unit_symbol_snapshot": null,
+        "sale_unit_atomic_factor_snapshot": null,
+        "total_minor": 100,
+        "sort_order": 0
+      }
+    ],
+    "events": [
+      {
+        "event_id": "f249c163-53de-4c06-8d62-b0e3f008abde",
+        "aggregate_type": "sale_draft",
+        "aggregate_id": "e4ff19ac-df5d-471c-9656-a5096823c43a",
+        "event_type": "producto_agregado_borrador",
+        "device_id": "phase3-device",
+        "user_id": "phase3-user",
+        "local_sequence": 1,
+        "server_sequence": null,
+        "base_server_sequence": null,
+        "base_version": 0,
+        "created_at_local": 1791607430,
+        "created_at_server": null,
+        "payload": "{\"sale_item_id\":\"ec7d9ac5-7eb2-4d33-95fc-d4ca5a8f0a56\",\"sort_order\":0,\"variant_id\":\"phase3-variant-A\",\"consumption_configuration_key\":\"[null]\",\"product_name_snapshot\":\"Prueba A\",\"variant_name_snapshot\":null,\"sale_mode_snapshot\":\"unit\",\"quantity\":1,\"measured_quantity_atomic\":null,\"unit_price_minor\":100,\"standard_cost_minor_snapshot\":null,\"price_reference_quantity_atomic_snapshot\":null,\"sale_unit_code_snapshot\":null,\"sale_unit_symbol_snapshot\":null,\"sale_unit_atomic_factor_snapshot\":null}",
+        "application_status": "applied",
+        "delivery_status": "not_required",
+        "rejection_reason": null
+      }
+    ],
+    "event_refs": [],
+    "quotations": [],
+    "quotation_items": []
+  }
+}

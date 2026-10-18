@@ -1,0 +1,134 @@
+[
+  {
+    "file": "alta/alta-autogenerada-inicial-positiva.json",
+    "sha256": "c06ee29850a6424fcc59dcbed326adf37fad6003aa7620fde6ebc62bb1addea9"
+  },
+  {
+    "file": "alta/alta-autogenerada-origen-no-string.json",
+    "sha256": "646c4bdf20c3497f6fc997e7b3a09141e4dc3a9f8a2fe523e256f9bc9b14dcf9"
+  },
+  {
+    "file": "alta/alta-autogenerada-origen-no-uuid.json",
+    "sha256": "77a207a59a02c093c4ad8e209544e0250e19c93010218cfa7f08b67fb1664c5a"
+  },
+  {
+    "file": "alta/alta-autogenerada-origen-valido.json",
+    "sha256": "84003502c4e99d1295ddbb214d3b3c298d92923f447c41d90b2742f65b174fb8"
+  },
+  {
+    "file": "alta/alta-independiente.json",
+    "sha256": "a300ea702179b6a954efd2f9f26659f904aef001eb409563d45d723eeec42f6f"
+  },
+  {
+    "file": "alta/alta-legada-sin-origen.json",
+    "sha256": "f61d09fd1714a8e66aee78a8ed1fbd181abd7725584234d376869b437ff062dd"
+  },
+  {
+    "file": "alta/alta-legada-uuid-incorrecto.json",
+    "sha256": "59d66a49f00b65b677d7f4262f20deff425a0469c65c3851c92d7fd8b6c7b544"
+  },
+  {
+    "file": "alta/sobre-alta-valido.json",
+    "sha256": "84003502c4e99d1295ddbb214d3b3c298d92923f447c41d90b2742f65b174fb8"
+  },
+  {
+    "file": "descarte/descarte-campo-desconocido.json",
+    "sha256": "8c41ff9b7212036f365fa3fddf82a450432f1dc93284ab69d3e4f8e67d7ad0db"
+  },
+  {
+    "file": "descarte/descarte-origen-no-uuid.json",
+    "sha256": "fcb51be8dd60b6b8f36f8fd5a176dbff678c7555ac1d1bfd4383f781334adff9"
+  },
+  {
+    "file": "descarte/descarte-policy-version-cero.json",
+    "sha256": "c036d354f0637fe531ff9020f8a2d1d8a7bb730eca536b8d7aedb9a5a64eaa77"
+  },
+  {
+    "file": "descarte/descarte-policy-version-invalida.json",
+    "sha256": "8564c26547b6edfe781c58477f03052c2ed85f874350676d8a28f3e383c1979a"
+  },
+  {
+    "file": "descarte/descarte-trigger-igual-base.json",
+    "sha256": "e589cb0c5b299e4733560f42c2b4144b1cf4e64fd7f95be7c3c1068120c9355f"
+  },
+  {
+    "file": "descarte/descarte-valido.json",
+    "sha256": "a9cacbe5ecc40ca0d3eb21f5223900ebb12e007aea642c3d4e9aa278c261202b"
+  },
+  {
+    "file": "descarte/sobre-descarte-valido.json",
+    "sha256": "a9cacbe5ecc40ca0d3eb21f5223900ebb12e007aea642c3d4e9aa278c261202b"
+  },
+  {
+    "file": "escenarios/actualizacion-intenta-mutar-origen.json",
+    "sha256": "f7a1a8809d0f3ebc241df30edf5c493fa2f72f3bcfa2da676ddd2b2900d9bd24"
+  },
+  {
+    "file": "escenarios/descarte-base-no-creacion.json",
+    "sha256": "704fcec61654898a2455a61be519b6e5ce103214a624414b660982dad6dde0a2"
+  },
+  {
+    "file": "escenarios/descarte-memoria-de-otra-variante.json",
+    "sha256": "18713db2b3e33d6cdbb094b3f2399b8cdfea4c264fd5135f744740bff3043f7f"
+  },
+  {
+    "file": "escenarios/descarte-recurso-con-movimientos.json",
+    "sha256": "08fd079c95eb47926f8c919b77e6dba171dcb5f8ad2a256645f7ef3e42623e8e"
+  },
+  {
+    "file": "escenarios/descarte-saldos-no-cero.json",
+    "sha256": "351ca4f1bce41d02a0744b00ddf419fd9b5df67342c7881075ad0525c0d181ef"
+  },
+  {
+    "file": "escenarios/descarte-trigger-delete-product.json",
+    "sha256": "ca6041af66264cfc4cd019469814bc06c67d7200735467eb46b8613e7a24aa3b"
+  },
+  {
+    "file": "escenarios/descarte-trigger-variante-retirada.json",
+    "sha256": "ffb93ceda89fedf77d815830c0191d6c485473c9cd95583b7a6552b0dd9a91cd"
+  },
+  {
+    "file": "memoria/memoria-antes-conflicto.json",
+    "sha256": "e1bb800991aeeb643ad750208af4dd28d360646443b948a29156fb6354a45ae4"
+  },
+  {
+    "file": "memoria/memoria-despues-conflicto.json",
+    "sha256": "e83efc1bc24ee6147c09b916f904823102af4e6b1badaab4333bc7f2f0354785"
+  },
+  {
+    "file": "memoria/memoria-legada-recuperable.json",
+    "sha256": "ec397576c1f4e43d269f72a5fd5b3ffa4453ef06936d45649559b39bce3da8e2"
+  },
+  {
+    "file": "producto/producto-directo-a-ninguno.json",
+    "sha256": "6947a2e4473e3ed907d0d3e56491aad6708a953566bff3169b0d2144dd415819"
+  },
+  {
+    "file": "producto/producto-directo-a-receta.json",
+    "sha256": "3c7d7bf8a017e6a9f546aa4109ffc5507e41945cc92b7222115b3ab3267caae4"
+  },
+  {
+    "file": "producto/producto-origen-en-antes.json",
+    "sha256": "a6e398c4b38f88226a769b68a08144a48ddb7d37eace99321da09b34557b0701"
+  },
+  {
+    "file": "producto/producto-recuperacion-mismo-id.json",
+    "sha256": "aba40d98c2dadeb291768161777b115d377a33a08458f9d3f2ca6f345a0cefcb"
+  },
+  {
+    "file": "venta_tardia/venta-tardia-configuracion-historica.json",
+    "sha256": "09919db7e530acbd526f49c022613628fdc60f9e54e06a3012d18030a4b56828"
+  },
+  {
+    "file": "venta_tardia/venta-tardia-consumo-original.json",
+    "sha256": "6477aacc21f49d6021d1debc28ea9b53fbb184bb67ed6c3a8536a0fa32af5f9e"
+  },
+  {
+    "file": "venta_tardia/venta-tardia-deshincular.json",
+    "sha256": "6947a2e4473e3ed907d0d3e56491aad6708a953566bff3169b0d2144dd415819"
+  },
+  {
+    "file": "venta_tardia/venta-tardia-esperado.json",
+    "sha256": "fa124b496daaf6ef52e77450ff7c2bc80660420fab3599cdf9e524954eac9184"
+  }
+]

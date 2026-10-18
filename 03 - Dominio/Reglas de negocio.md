@@ -1,7 +1,7 @@
 ---
 tipo: dominio
 estado: borrador
-actualizado: 2026-08-24
+actualizado: 2026-10-02
 ---
 
 # Reglas de negocio
@@ -51,9 +51,19 @@ actualizado: 2026-08-24
 
 - Las existencias pertenecen a `inventory_items`; productos y variantes no
   guardan saldos propios.
-- Productos y variantes no configuran recursos, consumo directo ni recetas.
-- El alta de articulo no declara dependencias de `inventory_items` y no crea
-  relaciones de inventario.
+- La configuración de consumo pertenece a la variante: vínculo directo opcional
+  o receta, excluyentes. El alta con seguimiento crea recurso/balance y declara
+  dependencias de inventario; el saldo nunca se duplica en el catálogo.
+- La decisión de recuperación y descarte seguro está especificada en
+  [[02 - Decisiones/ADR-0017 Reutilizacion y descarte seguro de recursos de inventario|ADR-0017]],
+  pendiente de implementar: guardar sin seguimiento conserva memoria para recuperar
+  el recurso, sin nuevo balance ni existencia inicial al reactivarlo.
+- Solo standalone permite descartar automáticamente un autogenerado sin movimientos,
+  con ambos saldos cero y sin usos/capturas dependientes. Legado desconocido y
+  recursos independientes se conservan. En server_sync no se borran recurso ni
+  balance al quitar seguimiento, incluso sin movimientos oficiales todavía.
+- Desactivar producto/variante no equivale a quitar seguimiento y no dispara ese
+  descarte. Recursos conservados siguen activos y disponibles según Inventario.
 - Toda linea confirmada conserva un `sale_item` relacionado con su variante,
   sin inferir movimientos fisicos desde el articulo.
 - `inventory_movements` solo registra variaciones fisicas; las cantidades
@@ -70,7 +80,21 @@ actualizado: 2026-08-24
   atomicos; las ventas por unidad conservan cantidad entera.
 - Una cancelacion compensa exactamente los movimientos enteros originales; no
   repite conversiones ni redondeos.
-- Los ajustes manuales deben incluir motivo.
+- `initial_balance` representa únicamente una existencia inicial positiva
+  creada con el recurso; `stock_receipt` representa una reposición positiva;
+  ambos admiten motivo opcional.
+- `manual_adjustment` admite delta positivo o negativo distinto de cero y
+  siempre exige motivo. Todo motivo presente se normaliza con NFKC + `trim`,
+  mide de 1 a 500 caracteres y la ausencia se representa con `null`.
+- `reversal` queda reservado para compensaciones futuras, exige
+  `reversal_of_movement_id`, no admite autorreferencia y conserva FK
+  autorreferenciada `RESTRICT`. Los demás tipos exigen esa referencia nula.
+- La unidad del recurso es inmutable durante la edición. El nombre y un
+  movimiento capturados en la misma pantalla generan eventos separados.
+- No se crean movimientos de cantidad cero ni snapshots de cantidad anterior
+  o posterior. El saldo actual siempre se consulta en `inventory_balances`.
+- `total_cost_minor` permanece nullable y en `null` hasta implementar valuación
+  real de inventario.
 
 ## Catalogo
 
@@ -89,11 +113,11 @@ actualizado: 2026-08-24
 - En la futura accion `Eliminar todos` de una categoria, un producto sin ventas
   podra recibir hard delete y uno relacionado con al menos una venta recibira
   soft delete. Esta regla no se implementara antes de especificar Ventas.
-- Un producto activo debe tener al menos una variante activa y exactamente una
-  variante activa predeterminada.
-- Una variante predeterminada no puede desactivarse sin seleccionar otra; la
-  ultima variante activa no puede desactivarse mientras el producto siga
+- Un producto activo debe tener al menos una variante activa.
+- La ultima variante activa no puede desactivarse mientras el producto siga
   activo.
+- Las variantes no tienen prioridad de negocio; el precio resumen del listado
+  se deriva del minimo y maximo de las variantes activas.
 - El orden manual aplica solo a variantes dentro de su producto y debe ser
   consecutivo desde cero.
 - El precio de venta pertenece a la variante y debe ser mayor que cero.

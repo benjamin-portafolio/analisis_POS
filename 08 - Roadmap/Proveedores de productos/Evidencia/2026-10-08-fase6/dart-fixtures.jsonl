@@ -1,0 +1,147 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":20844,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
+{"suite":{"id":2,"platform":"vm","path":"/Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"suite","time":2}
+{"test":{"id":3,"name":"loading /Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"count":2,"time":2,"type":"allSuites"}
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1954}
+{"group":{"id":4,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":45,"line":null,"column":null,"url":null},"type":"group","time":1956}
+{"test":{"id":5,"name":"varios proveedores: roundtrip canónico, cero y dependencias","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":14,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":1956}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2036}
+{"group":{"id":6,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":23,"line":null,"column":null,"url":null},"type":"group","time":2038}
+{"test":{"id":7,"name":"fixtures de alta/edición tienen JSON canónico y base para reversión","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":8,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2038}
+{"testID":7,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2055}
+{"test":{"id":8,"name":"normaliza textos, conserva teléfono como texto e ignora extras","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":28,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2055}
+{"testID":8,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2056}
+{"test":{"id":9,"name":"rechaza name=1","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2056}
+{"testID":9,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2058}
+{"test":{"id":10,"name":"rechaza name=true","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2058}
+{"testID":10,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2059}
+{"test":{"id":11,"name":"rechaza name=[]","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2059}
+{"testID":11,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2059}
+{"test":{"id":12,"name":"rechaza name={}","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2059}
+{"testID":12,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2060}
+{"test":{"id":13,"name":"rechaza phone=1","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2060}
+{"testID":13,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2061}
+{"test":{"id":14,"name":"rechaza phone=true","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2061}
+{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2061}
+{"test":{"id":15,"name":"rechaza phone=[]","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2062}
+{"testID":15,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2062}
+{"test":{"id":16,"name":"rechaza phone={}","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2062}
+{"testID":16,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2063}
+{"test":{"id":17,"name":"rechaza notes=1","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2063}
+{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2063}
+{"test":{"id":18,"name":"rechaza notes=true","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2063}
+{"testID":18,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2064}
+{"test":{"id":19,"name":"rechaza notes=[]","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2064}
+{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2065}
+{"test":{"id":20,"name":"rechaza notes={}","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2065}
+{"testID":20,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2065}
+{"test":{"id":21,"name":"nombre obligatorio null","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":60,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2066}
+{"testID":21,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2066}
+{"test":{"id":22,"name":"nombre obligatorio ","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":60,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2066}
+{"testID":22,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2067}
+{"test":{"id":23,"name":"nombre obligatorio   ","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":60,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2067}
+{"testID":23,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2067}
+{"test":{"id":24,"name":"nombre obligatorio \n\t","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":60,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2067}
+{"testID":24,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2068}
+{"test":{"id":25,"name":"constructor no evade nombre requerido","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":67,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2068}
+{"testID":25,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2069}
+{"test":{"id":26,"name":"edición requiere base_event_id","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":71,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2069}
+{"testID":26,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2069}
+{"test":{"id":27,"name":"edición requiere before","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":71,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2069}
+{"testID":27,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2070}
+{"test":{"id":28,"name":"edición requiere after","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":71,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2070}
+{"testID":28,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2071}
+{"test":{"id":29,"name":"base de proveedor exige UUID","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":79,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/proveedor_payload_test.dart"},"type":"testStart","time":2071}
+{"testID":29,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2072}
+{"testID":5,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2128}
+{"test":{"id":30,"name":"producto medido conserva referencia y receta al añadir proveedores","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":46,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2128}
+{"testID":30,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2131}
+{"test":{"id":31,"name":"lista vacía es explícita y ausencia legada sobrevive roundtrip","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":75,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2131}
+{"testID":31,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2132}
+{"test":{"id":32,"name":"retirada explícita conserva before y no altera venta/costo/inventario","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":87,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2132}
+{"testID":32,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2134}
+{"test":{"id":33,"name":"edición desconocida no puede omitir una lista conocida ni inventar base","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":113,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2134}
+{"testID":33,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2135}
+{"test":{"id":34,"name":"sameState incluye precio, fecha y presencia; orden de proveedores irrelevante","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":148,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2135}
+{"testID":34,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2137}
+{"test":{"id":35,"name":"rechaza supplier_id=null","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2137}
+{"testID":35,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2138}
+{"test":{"id":36,"name":"rechaza supplier_id=","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2138}
+{"testID":36,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2138}
+{"test":{"id":37,"name":"rechaza supplier_id=not-uuid","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2138}
+{"testID":37,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2139}
+{"test":{"id":38,"name":"rechaza supplier_id=1","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2139}
+{"testID":38,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2139}
+{"test":{"id":39,"name":"rechaza supplier_id=true","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2139}
+{"testID":39,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2140}
+{"test":{"id":40,"name":"requiere supplier_id","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":212,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2140}
+{"testID":40,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2141}
+{"test":{"id":41,"name":"rechaza quoted_price_minor=null","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2141}
+{"testID":41,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2141}
+{"test":{"id":42,"name":"rechaza quoted_price_minor=","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2141}
+{"testID":42,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2142}
+{"test":{"id":43,"name":"rechaza quoted_price_minor=0","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2142}
+{"testID":43,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2142}
+{"test":{"id":44,"name":"rechaza quoted_price_minor=-1","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2142}
+{"testID":44,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2143}
+{"test":{"id":45,"name":"rechaza quoted_price_minor=1.5","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2143}
+{"testID":45,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2144}
+{"test":{"id":46,"name":"rechaza quoted_price_minor=1.0","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2144}
+{"testID":46,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2144}
+{"test":{"id":47,"name":"rechaza quoted_price_minor=true","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2144}
+{"testID":47,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2145}
+{"test":{"id":48,"name":"rechaza quoted_price_minor=9007199254740992","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2145}
+{"testID":48,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2145}
+{"test":{"id":49,"name":"requiere quoted_price_minor","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":212,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2145}
+{"testID":49,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2146}
+{"test":{"id":50,"name":"rechaza quoted_at_ms=null","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2146}
+{"testID":50,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2146}
+{"test":{"id":51,"name":"rechaza quoted_at_ms=","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2146}
+{"testID":51,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2147}
+{"test":{"id":52,"name":"rechaza quoted_at_ms=0","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2147}
+{"testID":52,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2147}
+{"test":{"id":53,"name":"rechaza quoted_at_ms=-1","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2148}
+{"testID":53,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2148}
+{"test":{"id":54,"name":"rechaza quoted_at_ms=1.5","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2148}
+{"testID":54,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2149}
+{"test":{"id":55,"name":"rechaza quoted_at_ms=1.0","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2149}
+{"testID":55,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2149}
+{"test":{"id":56,"name":"rechaza quoted_at_ms=true","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2149}
+{"testID":56,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2150}
+{"test":{"id":57,"name":"rechaza quoted_at_ms=9007199254740992","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2150}
+{"testID":57,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2150}
+{"test":{"id":58,"name":"rechaza quoted_at_ms=0","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":203,"column":7,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2150}
+{"testID":58,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2152}
+{"test":{"id":59,"name":"requiere quoted_at_ms","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":212,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2152}
+{"testID":59,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2153}
+{"test":{"id":60,"name":"suppliers explícito inválido null","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":225,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2153}
+{"testID":60,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2153}
+{"test":{"id":61,"name":"suppliers explícito inválido {}","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":225,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2153}
+{"testID":61,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2154}
+{"test":{"id":62,"name":"suppliers explícito inválido ","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":225,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2154}
+{"testID":62,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2154}
+{"test":{"id":63,"name":"suppliers explícito inválido 0","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":225,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2155}
+{"testID":63,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2155}
+{"test":{"id":64,"name":"suppliers explícito inválido [null]","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":225,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2155}
+{"testID":64,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2156}
+{"test":{"id":65,"name":"rango superior, UUID canónico y campos futuros","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":231,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2156}
+{"testID":65,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2157}
+{"test":{"id":66,"name":"duplicados se rechazan aun con diferente precio o mayúsculas","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":250,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2157}
+{"testID":66,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2157}
+{"test":{"id":67,"name":"dependencias supplier missing","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":282,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2157}
+{"testID":67,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2158}
+{"test":{"id":68,"name":"dependencias supplier extra","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":282,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2158}
+{"testID":68,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2159}
+{"test":{"id":69,"name":"dependencias supplier duplicate","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":282,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2159}
+{"testID":69,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2159}
+{"test":{"id":70,"name":"dependencias supplier invalid-id","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":282,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2160}
+{"testID":70,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2160}
+{"test":{"id":71,"name":"dependencias supplier invalid-event","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":282,"column":5,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2160}
+{"testID":71,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2161}
+{"test":{"id":72,"name":"constructor valida dependencias y proveedores sin depender del parser","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":303,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2161}
+{"testID":72,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2161}
+{"test":{"id":73,"name":"dos variantes pueden compartir proveedor; no acepta snapshots parciales","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":320,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/payloads/producto_suppliers_payload_test.dart"},"type":"testStart","time":2161}
+{"testID":73,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2162}
+{"success":true,"type":"done","time":2169}

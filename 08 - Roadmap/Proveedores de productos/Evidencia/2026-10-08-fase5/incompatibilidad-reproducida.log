@@ -1,0 +1,10 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/supplier_local_acceptance_test.dart
+00:00 +0: F5 respaldo other-schema rechazado conserva base abierta y reinicio
+00:00 +0 -1: F5 respaldo other-schema rechazado conserva base abierta y reinicio [E]
+  SqliteException(1): while executing, error in table product_variants after drop column: no such column: barcode, SQL logic error (code 1)
+    Causing statement: ALTER TABLE product_variants DROP COLUMN barcode, parameters: 
+  package:sqlite3/src/implementation/exception.dart 101:3           throwException
+  package:sqlite3/src/implementation/database.dart 295:9            DatabaseImplementation.execute
+  test/data/local/drift/supplier_local_acceptance_test.dart 426:21  main.<fn>
+  
+00:00 +0 -1: Some tests failed.

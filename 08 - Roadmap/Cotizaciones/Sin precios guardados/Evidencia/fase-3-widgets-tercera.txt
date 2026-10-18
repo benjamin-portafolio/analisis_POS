@@ -1,0 +1,148 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: P09: consulta conserva selección con precio/total no disponibles
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: P09: consulta conserva selección con precio/total no disponibles
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +6: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +7: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +8: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +9: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +11: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +12: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +13: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +14: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +15: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +16: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +17: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +18: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +19: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +20: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +21: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +22: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +23: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +24: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +25: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +26: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +26: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart: P27: estimación fallida permite reintentar sin generar ni limpiar
+══╡ EXCEPTION CAUGHT BY GESTURE ╞═══════════════════════════════════════════════════════════════════
+The following assertion was thrown while handling a gesture:
+setState() callback argument returned a Future.
+The setState() method on _QuotationEstimateBuilderState#5aa80 was called with a closure or method
+that returned a Future. Maybe it is marked as "async".
+Instead of performing asynchronous work inside a call to setState(), first execute the work (without
+updating the widget state), and then synchronously update the state inside a call to setState().
+
+When the exception was thrown, this was the stack:
+#0      State.setState.<anonymous closure> (package:flutter/src/widgets/framework.dart:1202:9)
+#1      State.setState (package:flutter/src/widgets/framework.dart:1218:6)
+#2      _QuotationEstimateBuilderState.build.<anonymous closure>.<anonymous closure> (package:pos_flutter/presentation/pages/cotizaciones/quotation_estimate_builder.dart:46:28)
+#3      _InkResponseState.handleTap (package:flutter/src/material/ink_well.dart:1224:21)
+#4      GestureRecognizer.invokeCallback (package:flutter/src/gestures/recognizer.dart:345:24)
+#5      TapGestureRecognizer.handleTapUp (package:flutter/src/gestures/tap.dart:758:11)
+#6      BaseTapGestureRecognizer._checkUp (package:flutter/src/gestures/tap.dart:383:5)
+#7      BaseTapGestureRecognizer.handlePrimaryPointer (package:flutter/src/gestures/tap.dart:314:7)
+#8      PrimaryPointerGestureRecognizer.handleEvent (package:flutter/src/gestures/recognizer.dart:721:9)
+#9      PointerRouter._dispatch (package:flutter/src/gestures/pointer_router.dart:97:12)
+#10     PointerRouter._dispatchEventToRoutes.<anonymous closure> (package:flutter/src/gestures/pointer_router.dart:140:9)
+#11     _LinkedHashMapMixin.forEach (dart:_compact_hash:765:13)
+#12     PointerRouter._dispatchEventToRoutes (package:flutter/src/gestures/pointer_router.dart:138:18)
+#13     PointerRouter.route (package:flutter/src/gestures/pointer_router.dart:128:7)
+#14     GestureBinding.handleEvent (package:flutter/src/gestures/binding.dart:528:19)
+#15     GestureBinding.dispatchEvent (package:flutter/src/gestures/binding.dart:498:22)
+#16     RendererBinding.dispatchEvent (package:flutter/src/rendering/binding.dart:473:11)
+#17     GestureBinding._handlePointerEventImmediately (package:flutter/src/gestures/binding.dart:437:7)
+#18     GestureBinding.handlePointerEvent (package:flutter/src/gestures/binding.dart:394:5)
+#19     TestWidgetsFlutterBinding.handlePointerEventForSource.<anonymous closure> (package:flutter_test/src/binding.dart:1301:42)
+#20     TestWidgetsFlutterBinding.withPointerEventSource (package:flutter_test/src/binding.dart:1311:11)
+#21     TestWidgetsFlutterBinding.handlePointerEventForSource (package:flutter_test/src/binding.dart:1301:5)
+#22     WidgetTester.sendEventToBinding.<anonymous closure> (package:flutter_test/src/widget_tester.dart:869:15)
+#25     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#26     WidgetTester.sendEventToBinding (package:flutter_test/src/widget_tester.dart:868:27)
+#27     TestGesture.up.<anonymous closure> (package:flutter_test/src/test_pointer.dart:587:26)
+#30     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#31     TestGesture.up (package:flutter_test/src/test_pointer.dart:580:27)
+#32     WidgetController.tapAt.<anonymous closure> (package:flutter_test/src/controller.dart:1150:21)
+<asynchronous suspension>
+#33     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#34     main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart:335:7)
+<asynchronous suspension>
+#35     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#36     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 5 frames from dart:async and package:stack_trace)
+
+Handler: "onTap"
+Recognizer:
+  TapGestureRecognizer#67171
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+La imagen del recibo no terminó de generarse.
+
+When the exception was thrown, this was the stack:
+#0      fail (package:matcher/src/expect/expect.dart:187:31)
+#1      pumpReceiptImage (file:///Users/benjamin/Projects/POS/pos_flutter/test/support/pump_receipt_image.dart:16:3)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart:336:7)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  P27: estimación fallida permite reintentar sin generar ni limpiar
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:03 +26 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +26 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart: P27: estimación fallida permite reintentar sin generar ni limpiar [E]
+  Test failed. See exception logs above.
+  The test description was: P27: estimación fallida permite reintentar sin generar ni limpiar
+  
+00:03 +27 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +28 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart: P26/P27: rasterizado anterior tardío y fallo tras dispose son seguros
+00:03 +29 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +30 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +31 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +32 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +33 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +34 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +35 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:05 +36 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: P09/P10/P26: listado y detalle abiertos reaccionan a precio, producto y unidad sin escribir
+00:06 +37 -1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: P10/P26/P27: dos PNG en la misma pantalla; share estable durante cambio de precio, sin escrituras
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following _TypeError was thrown running a test:
+type 'RawTooltip' is not a subtype of type 'IconButton' in type cast
+
+When the exception was thrown, this was the stack:
+#0      WidgetController.widget (package:flutter_test/src/controller.dart:823:44)
+#1      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart:370:31)
+<asynchronous suspension>
+#2      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  P10/P26/P27: dos PNG en la misma pantalla; share estable durante cambio de precio, sin escrituras
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:06 +37 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: P10/P26/P27: dos PNG en la misma pantalla; share estable durante cambio de precio, sin escrituras [E]
+  Test failed. See exception logs above.
+  The test description was: P10/P26/P27: dos PNG en la misma pantalla; share estable durante cambio de precio, sin escrituras
+  
+00:06 +37 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: reinicio real carga ticket por ID: editar captura/catalogo muestra estimación vigente
+00:06 +38 -2: Some tests failed.

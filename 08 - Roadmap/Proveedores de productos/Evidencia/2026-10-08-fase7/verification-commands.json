@@ -1,0 +1,114 @@
+[
+  {
+    "name": "analyze-final",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "argv": [
+      "dart",
+      "analyze"
+    ],
+    "environment": {},
+    "exit_code": 0,
+    "duration_seconds": 4.729,
+    "started_utc": "2026-10-09T01:34:15.037752+00:00"
+  },
+  {
+    "name": "flutter-final",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "argv": [
+      "flutter",
+      "test",
+      "--reporter",
+      "json"
+    ],
+    "environment": {
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64546",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:49523",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_32749_1791508925955",
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "60937",
+      "DATABASE_USER": "phase7",
+      "DATABASE_NAME": "pos_nest_test_suppliers_phase7"
+    },
+    "exit_code": 0,
+    "duration_seconds": 138.164,
+    "started_utc": "2026-10-09T01:34:19.768214+00:00"
+  },
+  {
+    "name": "flutter-diffcheck",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "environment": {},
+    "exit_code": 0,
+    "duration_seconds": 0.076,
+    "started_utc": "2026-10-09T01:36:37.936394+00:00"
+  },
+  {
+    "name": "http-final-explicit-duplicate",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "argv": [
+      "flutter",
+      "test",
+      "test/integration/product_suppliers_server_test.dart",
+      "--reporter",
+      "json"
+    ],
+    "environment": {
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64546",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:49523",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_32749_1791508925955",
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "60937",
+      "DATABASE_USER": "phase7",
+      "DATABASE_NAME": "pos_nest_test_suppliers_phase7"
+    },
+    "exit_code": 0,
+    "duration_seconds": 7.536
+  },
+  {
+    "name": "analyze-postdocs",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "argv": [
+      "dart",
+      "analyze"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 4.966
+  },
+  {
+    "name": "flutter-diffcheck-final",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 0.067
+  },
+  {
+    "name": "nest-diffcheck-final",
+    "cwd": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest",
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 0.02
+  },
+  {
+    "name": "analysis-diffcheck-final",
+    "cwd": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis ",
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 0.015
+  }
+]

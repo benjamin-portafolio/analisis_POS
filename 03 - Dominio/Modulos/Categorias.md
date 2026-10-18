@@ -648,7 +648,7 @@ Flutter:
 
 ```text
 lib/domain/categorias/
-lib/application/commands/categoria_command_service.dart
+lib/application/commands/categorias/categoria_command_service.dart
 lib/application/sync/payloads/categoria_*_payload.dart
 lib/application/sync/handlers/categoria_event_handler.dart
 lib/application/sync/categoria*_conflict_projection_restorer.dart

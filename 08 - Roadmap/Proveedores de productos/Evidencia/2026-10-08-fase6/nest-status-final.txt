@@ -1,0 +1,27 @@
+ M src/app.module.ts
+ M src/sync/account-balance-baseline-event.handler.ts
+ M src/sync/payloads/producto-actualizado.payload.ts
+ M src/sync/payloads/producto-creado.payload.ts
+ M src/sync/producto-event.handler.postgres.spec.ts
+ M src/sync/producto-event.handler.spec.ts
+ M src/sync/producto-event.handler.ts
+ M src/sync/sync.service.spec.ts
+ M src/sync/sync.service.ts
+ M src/testing/variant-tracking-scenario.ts
+?? docs/product_suppliers.md
+?? src/entities/supplier.entity.ts
+?? src/entities/variant-supplier.entity.ts
+?? src/migrations/1791417600000-CreateProductSuppliers.postgres.spec.ts
+?? src/migrations/1791417600000-CreateProductSuppliers.ts
+?? src/sync/payloads/producto-proveedor-dependencia.ts
+?? src/sync/payloads/producto-proveedor-precio.ts
+?? src/sync/payloads/proveedor-actualizado.payload.ts
+?? src/sync/payloads/proveedor-creado.payload.ts
+?? src/sync/payloads/supplier-contracts.spec.ts
+?? src/sync/payloads/supplier-event-envelope.ts
+?? src/sync/payloads/supplier-event-identity.ts
+?? src/sync/payloads/supplier-json.ts
+?? src/sync/product-suppliers.postgres.spec.ts
+?? src/sync/proveedor-event.handler.ts
+?? src/testing/supplier-contract-fixtures.ts
+?? test/fixtures/suppliers_v1/

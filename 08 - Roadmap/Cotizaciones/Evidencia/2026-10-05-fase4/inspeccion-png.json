@@ -1,0 +1,37 @@
+[
+  {
+    "file": "Evidencia/2026-10-05-fase3/png/cotizacion-muchas-lineas.png",
+    "width": 880,
+    "height": 4046,
+    "sha256": "6ab938e7dd071c24520954a55a00b306f7c6e216d5743803e77cf6b8b3db0700",
+    "inspected_in_session_4": true
+  },
+  {
+    "file": "Evidencia/2026-10-05-fase3/png/cotizacion-quotation-1.png",
+    "width": 880,
+    "height": 1246,
+    "sha256": "0da01b5dc10e4198ac2748d0f94e7b063860a6c60a7fe49e40d9898a36db7b64",
+    "inspected_in_session_4": true
+  },
+  {
+    "file": "Evidencia/2026-10-05-fase3/png/recibo-cash.png",
+    "width": 880,
+    "height": 4466,
+    "sha256": "7cbe5b1437af03b222b26368be273907c868c3f0e40b122d2a8e36a98bfc663a",
+    "inspected_in_session_4": true
+  },
+  {
+    "file": "Evidencia/2026-10-05-fase3/png/recibo-credit.png",
+    "width": 880,
+    "height": 4436,
+    "sha256": "3cdff4f8e548d22712562814edaf50c06a4d2f48e989580a4195f1b411d9e006",
+    "inspected_in_session_4": true
+  },
+  {
+    "file": "Evidencia/2026-10-05-fase3/png/recibo-transfer.png",
+    "width": 880,
+    "height": 4436,
+    "sha256": "50c6589f591935cd008f2b866fa0d8007304af6392cb4afc5216a83a481e4bb1",
+    "inspected_in_session_4": true
+  }
+]

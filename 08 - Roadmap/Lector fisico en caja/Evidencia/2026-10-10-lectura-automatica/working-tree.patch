@@ -1,0 +1,1400 @@
+diff --git a/lib/presentation/pages/caja/barcode/physical_barcode_reader.dart b/lib/presentation/pages/caja/barcode/physical_barcode_reader.dart
+index 079c6e9..9d98e70 100644
+--- a/lib/presentation/pages/caja/barcode/physical_barcode_reader.dart
++++ b/lib/presentation/pages/caja/barcode/physical_barcode_reader.dart
+@@ -2,6 +2,7 @@ import 'dart:async';
+ import 'dart:ui' show ViewFocusEvent, ViewFocusState;
+ 
+ import 'package:flutter/material.dart';
++import 'package:flutter/foundation.dart';
+ 
+ import '../../../../domain/articulos/variante_por_codigo_barras.dart';
+ import '../../articulos/sale_quantity_dialog.dart';
+@@ -18,11 +19,13 @@ import 'sale_barcode_read_result.dart';
+ class PhysicalBarcodeReader extends StatefulWidget {
+   const PhysicalBarcodeReader({
+     required this.coordinator,
++    this.automaticallyEnabled = false,
+     this.interactionEnabled = true,
+     super.key,
+   });
+ 
+   final SaleBarcodeReadCoordinator coordinator;
++  final bool automaticallyEnabled;
+   final bool interactionEnabled;
+ 
+   @override
+@@ -44,6 +47,9 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+   bool _windowFocused = true;
+   bool _closing = false;
+   bool _requiresExplicitResume = false;
++  bool _preparationRequested = false;
++  int? _restoringGeneration;
++  bool _manualKeyboard = false;
+   String? _notice;
+ 
+   bool get isEnabled => _session != null;
+@@ -57,7 +63,9 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+     _appActive =
+         WidgetsBinding.instance.lifecycleState == null ||
+         WidgetsBinding.instance.lifecycleState == AppLifecycleState.resumed;
++    _requiresExplicitResume = !_appActive;
+     _focus.addListener(_focusChanged);
++    _preparationRequested = widget.automaticallyEnabled;
+   }
+ 
+   @override
+@@ -70,12 +78,20 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+       _requiresExplicitResume = true;
+       pause();
+     }
++    _schedulePreparation();
++  }
++
++  @override
++  void didUpdateWidget(PhysicalBarcodeReader oldWidget) {
++    super.didUpdateWidget(oldWidget);
++    if (widget.interactionEnabled) _schedulePreparation();
+   }
+ 
+   @override
+   void didChangeAppLifecycleState(AppLifecycleState state) {
+     _appActive = state == AppLifecycleState.resumed;
+     if (!_appActive) _interrupt();
++    _schedulePreparation();
+     if (mounted) setState(() {});
+   }
+ 
+@@ -84,12 +100,14 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+     if (event.viewId != View.of(context).viewId) return;
+     _windowFocused = event.state == ViewFocusState.focused;
+     if (!_windowFocused) _interrupt();
++    _schedulePreparation();
+     if (mounted) setState(() {});
+   }
+ 
+   void _interrupt() {
+     _interruptionGeneration++;
+     _requiresExplicitResume = true;
++    _manualKeyboard = false;
+     pause();
+   }
+ 
+@@ -100,6 +118,33 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+ 
+   void enableReader({int? restoringGeneration}) {
+     if (!mounted || _closing || _session != null) return;
++    _preparationRequested = true;
++    _restoringGeneration = restoringGeneration;
++    // El selector de macOS es una acción explícita. Las restauraciones deben
++    // conservar cualquier interrupción ocurrida durante la ruta anterior.
++    if (restoringGeneration == null) _requiresExplicitResume = false;
++    _schedulePreparation();
++  }
++
++  void _schedulePreparation() {
++    if (!_preparationRequested) return;
++    WidgetsBinding.instance.addPostFrameCallback((_) {
++      if (!mounted ||
++          !_preparationRequested ||
++          _session != null ||
++          _closing ||
++          _finishOperation != null ||
++          !widget.interactionEnabled ||
++          !_available) {
++        return;
++      }
++      _preparationRequested = false;
++      _startSession();
++    });
++    WidgetsBinding.instance.ensureVisualUpdate();
++  }
++
++  void _startSession() {
+     final session = PhysicalBarcodeReaderController(
+       coordinator: widget.coordinator,
+       selectProduct: (candidates) => _showReaderDialog<VariantePorCodigoBarras>(
+@@ -119,17 +164,13 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+     _shownResult = null;
+     _notice = null;
+     _requiresExplicitResume =
+-        !_appActive ||
+-        !_windowFocused ||
+-        (restoringGeneration != null &&
+-            restoringGeneration != _interruptionGeneration);
++        _requiresExplicitResume ||
++        (_restoringGeneration != null &&
++            _restoringGeneration != _interruptionGeneration);
++    _restoringGeneration = null;
+     session.addListener(_changed);
+     session.activate();
+-    if (!_available ||
+-        (restoringGeneration != null &&
+-            restoringGeneration != _interruptionGeneration)) {
+-      session.pause();
+-    }
++    if (_requiresExplicitResume) session.pause();
+     if (!_requiresExplicitResume) {
+       _requestFocus(session);
+     }
+@@ -138,20 +179,49 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+ 
+   void _requestFocus(PhysicalBarcodeReaderController session) {
+     WidgetsBinding.instance.addPostFrameCallback((_) {
+-      if (mounted && identical(_session, session) && !_closing && _available) {
++      if (mounted &&
++          identical(_session, session) &&
++          !_closing &&
++          widget.interactionEnabled &&
++          !_requiresExplicitResume &&
++          session.isAccepting &&
++          _available) {
+         _focus.requestFocus();
+       }
+     });
+   }
+ 
+   void _resume() {
+-    if (!_available || _closing) return;
++    if (!_available || _closing || !widget.interactionEnabled) return;
++    if (_requiresExplicitResume || _session?.isPaused == true) _text.clear();
+     _requiresExplicitResume = false;
+-    _text.clear();
+     _session?.resume();
+     _focus.requestFocus();
+   }
+ 
++  void _toggleManualKeyboard() {
++    final session = _session;
++    if (session == null ||
++        !_available ||
++        _closing ||
++        !widget.interactionEnabled) {
++      return;
++    }
++    final showKeyboard = !_manualKeyboard;
++    final generation = _interruptionGeneration;
++    _focus.unfocus();
++    setState(() => _manualKeyboard = showKeyboard);
++    // Reconectar después de actualizar keyboardType también permite abrir el
++    // teclado si el campo ya tenía foco. No afecta a otros campos de la app.
++    WidgetsBinding.instance.addPostFrameCallback((_) {
++      if (mounted &&
++          identical(_session, session) &&
++          generation == _interruptionGeneration) {
++        _resume();
++      }
++    });
++  }
++
+   void _focusChanged() {
+     final session = _session;
+     if (session == null || _closing || _ownDialogDepth > 0) return;
+@@ -236,6 +306,9 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+ 
+   /// Se espera `done` antes de permitir cualquier cambio de borrador/contexto.
+   Future<void> finish() {
++    // Cancelar también una preparación diferida: la navegación puede empezar
++    // antes del primer frame o mientras Caja está cubierta/inactiva.
++    _preparationRequested = false;
+     if (_session == null) return Future<void>.value();
+     return _finishOperation ??= _finishSession();
+   }
+@@ -245,6 +318,7 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+     if (session == null) return;
+     setState(() => _closing = true);
+     _text.clear();
++    _manualKeyboard = false;
+     _focus.unfocus();
+     final done = session.finish();
+     // Un selector ya visible se resuelve primero. Cubrirlo con el diálogo de
+@@ -342,39 +416,68 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+       child: Column(
+         crossAxisAlignment: CrossAxisAlignment.stretch,
+         children: [
+-          MergeSemantics(
+-            child: Row(
+-              children: [
+-                const Expanded(child: Text('Lector físico')),
+-                Switch(
+-                  key: const Key('physical_barcode_toggle'),
+-                  value: session != null,
+-                  onChanged: _closing || !widget.interactionEnabled
+-                      ? null
+-                      : (enabled) {
+-                          if (enabled) {
+-                            enableReader();
+-                          } else {
+-                            unawaited(finish());
+-                          }
+-                        },
+-                ),
+-              ],
++          if (widget.automaticallyEnabled)
++            const Text('Lector físico')
++          else
++            MergeSemantics(
++              child: Row(
++                children: [
++                  const Expanded(child: Text('Lector físico')),
++                  Switch(
++                    key: const Key('physical_barcode_toggle'),
++                    value: session != null,
++                    onChanged: _closing || !widget.interactionEnabled
++                        ? null
++                        : (enabled) {
++                            if (enabled) {
++                              enableReader();
++                            } else {
++                              unawaited(finish());
++                            }
++                          },
++                  ),
++                ],
++              ),
+             ),
+-          ),
+           if (session != null) ...[
+             TextField(
+               key: const Key('physical_barcode_input'),
+               controller: _text,
+               focusNode: _focus,
+               readOnly: _closing || !widget.interactionEnabled,
++              // Flutter mantiene la conexión editable para HID. En Android,
++              // TextInputType.none suprime únicamente el teclado en pantalla.
++              keyboardType:
++                  defaultTargetPlatform == TargetPlatform.android &&
++                      !_manualKeyboard
++                  ? TextInputType.none
++                  : TextInputType.text,
+               textInputAction: TextInputAction.done,
+               onEditingComplete: () {},
+               onSubmitted: _submit,
+               onTap: _resume,
+-              decoration: const InputDecoration(
++              decoration: InputDecoration(
+                 labelText: 'Escanea un código y envía Enter',
+-                border: OutlineInputBorder(),
++                border: const OutlineInputBorder(),
++                suffixIcon: defaultTargetPlatform == TargetPlatform.android
++                    ? IconButton(
++                        key: const Key('physical_barcode_keyboard'),
++                        tooltip: _manualKeyboard
++                            ? 'Usar lector físico'
++                            : 'Escribir código',
++                        onPressed:
++                            _closing ||
++                                !widget.interactionEnabled ||
++                                !_available
++                            ? null
++                            : _toggleManualKeyboard,
++                        icon: Icon(
++                          _manualKeyboard
++                              ? Icons.barcode_reader
++                              : Icons.keyboard,
++                        ),
++                      )
++                    : null,
+               ),
+             ),
+             Semantics(
+@@ -395,7 +498,9 @@ class PhysicalBarcodeReaderState extends State<PhysicalBarcodeReader>
+               Align(
+                 alignment: Alignment.centerLeft,
+                 child: TextButton(
+-                  onPressed: _available ? _resume : null,
++                  onPressed: _available && widget.interactionEnabled
++                      ? _resume
++                      : null,
+                   child: const Text('Reanudar lector'),
+                 ),
+               ),
+diff --git a/lib/presentation/pages/caja/caja_screen.dart b/lib/presentation/pages/caja/caja_screen.dart
+index 6040eb6..1063a23 100644
+--- a/lib/presentation/pages/caja/caja_screen.dart
++++ b/lib/presentation/pages/caja/caja_screen.dart
+@@ -68,9 +68,10 @@ class CajaScreenState extends State<CajaScreen> {
+     }
+   }
+ 
+-  bool get _desktopReader =>
++  bool get _physicalReaderAvailable =>
+       defaultTargetPlatform == TargetPlatform.macOS ||
+-      defaultTargetPlatform == TargetPlatform.windows;
++      defaultTargetPlatform == TargetPlatform.windows ||
++      defaultTargetPlatform == TargetPlatform.android;
+ 
+   /// Home/menu deben esperar esta barrera antes de salir o abrir otra ruta.
+   Future<bool> prepareToLeave() async {
+@@ -289,9 +290,10 @@ class CajaScreenState extends State<CajaScreen> {
+             onScanBarcode: _busy ? null : _openBarcodeScanner,
+           ),
+         ),
+-        if (_desktopReader)
++        if (_physicalReaderAvailable)
+           PhysicalBarcodeReader(
+             key: _physicalReader,
++            automaticallyEnabled: defaultTargetPlatform != TargetPlatform.macOS,
+             interactionEnabled: !_busy,
+             coordinator: SaleBarcodeReadCoordinator(
+               products:
+diff --git a/lib/presentation/pages/pantalla_principal/home_screen.dart b/lib/presentation/pages/pantalla_principal/home_screen.dart
+index fc90eef..b287798 100644
+--- a/lib/presentation/pages/pantalla_principal/home_screen.dart
++++ b/lib/presentation/pages/pantalla_principal/home_screen.dart
+@@ -2,6 +2,7 @@ import 'dart:async';
+ 
+ import 'package:flutter/material.dart';
+ import 'package:flutter/foundation.dart';
++import 'package:flutter/services.dart';
+ import 'package:pos_flutter/presentation/pages/articulos/articles_screen.dart';
+ import 'package:pos_flutter/presentation/pages/caja/caja_screen.dart';
+ import 'package:pos_flutter/presentation/pages/gestion_clientes/clientes_screen.dart';
+@@ -19,6 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
+   int _currentIndex = 2;
+   bool _navigating = false;
+   bool _restoreAfterMenu = false;
++  bool _restoreAfterMenuRoute = false;
+   int? _menuReaderGeneration;
+   final _caja = GlobalKey<CajaScreenState>();
+   final _scaffold = GlobalKey<ScaffoldState>();
+@@ -42,12 +44,15 @@ class _HomeScreenState extends State<HomeScreen> {
+   }
+ 
+   Future<void> _onTabTapped(int index) async {
++    final restore = _caja.currentState?.isReaderEnabled == true;
++    final generation = _caja.currentState?.readerInterruptionGeneration;
+     if (index == _currentIndex || !await _prepareNavigation()) return;
+     if (!mounted) return;
+     if (index == 4) {
+       await Navigator.of(
+         context,
+       ).push<void>(MaterialPageRoute(builder: (_) => const ClientesScreen()));
++      if (restore) _caja.currentState?.restoreReader(generation);
+       return;
+     }
+     setState(() => _currentIndex = index);
+@@ -64,11 +69,27 @@ class _HomeScreenState extends State<HomeScreen> {
+   }
+ 
+   Future<bool> _beforeMenuNavigate() async {
++    final restore =
++        _restoreAfterMenu || _caja.currentState?.isReaderEnabled == true;
++    final generation =
++        _caja.currentState?.readerInterruptionGeneration ??
++        _menuReaderGeneration;
+     final allowed = await _prepareNavigation();
+-    if (allowed) _restoreAfterMenu = false;
++    if (allowed) {
++      _restoreAfterMenu = false;
++      _restoreAfterMenuRoute = restore;
++      _menuReaderGeneration = generation;
++    }
+     return allowed;
+   }
+ 
++  void _afterMenuNavigate() {
++    if (_restoreAfterMenuRoute) {
++      _restoreAfterMenuRoute = false;
++      _caja.currentState?.restoreReader(_menuReaderGeneration);
++    }
++  }
++
+   void _drawerChanged(bool open) {
+     if (!open && _restoreAfterMenu) {
+       _restoreAfterMenu = false;
+@@ -77,14 +98,24 @@ class _HomeScreenState extends State<HomeScreen> {
+   }
+ 
+   Future<void> _leave() async {
+-    if (await _prepareNavigation() && mounted) Navigator.of(context).pop();
++    if (!await _prepareNavigation() || !mounted) return;
++    final navigator = Navigator.of(context);
++    if (defaultTargetPlatform == TargetPlatform.android &&
++        !navigator.canPop()) {
++      // Atrás en la raíz termina la actividad después de resolver la cola;
++      // quitar la única ruta del Navigator dejaría el contenedor vacío.
++      await SystemNavigator.pop();
++    } else {
++      navigator.pop();
++    }
+   }
+ 
+   @override
+   Widget build(BuildContext context) => PopScope<void>(
+     canPop:
+         defaultTargetPlatform != TargetPlatform.macOS &&
+-        defaultTargetPlatform != TargetPlatform.windows,
++        defaultTargetPlatform != TargetPlatform.windows &&
++        defaultTargetPlatform != TargetPlatform.android,
+     onPopInvokedWithResult: (didPop, _) {
+       if (!didPop) unawaited(_leave());
+     },
+@@ -107,6 +138,7 @@ class _HomeScreenState extends State<HomeScreen> {
+       onDrawerChanged: _drawerChanged,
+       drawer: MenuLateral(
+         beforeNavigate: _beforeMenuNavigate,
++        afterNavigate: _afterMenuNavigate,
+         onOpenCaja: () {
+           if (mounted) _onTabTapped(2);
+         },
+diff --git a/lib/presentation/pages/pantalla_principal/menu_lateral.dart b/lib/presentation/pages/pantalla_principal/menu_lateral.dart
+index 4c9c17e..7d2de0a 100644
+--- a/lib/presentation/pages/pantalla_principal/menu_lateral.dart
++++ b/lib/presentation/pages/pantalla_principal/menu_lateral.dart
+@@ -14,10 +14,16 @@ import 'package:pos_flutter/presentation/pages/gestion_mesa/table_management.dar
+ import 'package:pos_flutter/presentation/pages/pantalla_principal/sync_settings_page.dart';
+ 
+ class MenuLateral extends StatelessWidget {
+-  const MenuLateral({this.onOpenCaja, this.beforeNavigate, super.key});
++  const MenuLateral({
++    this.onOpenCaja,
++    this.beforeNavigate,
++    this.afterNavigate,
++    super.key,
++  });
+ 
+   final VoidCallback? onOpenCaja;
+   final Future<bool> Function()? beforeNavigate;
++  final VoidCallback? afterNavigate;
+ 
+   @override
+   Widget build(BuildContext context) {
+@@ -78,8 +84,14 @@ class MenuLateral extends StatelessWidget {
+               ],
+             ),
+           ),
+-          _CashMenuTile(beforeNavigate: beforeNavigate),
+-          _BankMenuTile(beforeNavigate: beforeNavigate),
++          _CashMenuTile(
++            beforeNavigate: beforeNavigate,
++            afterNavigate: afterNavigate,
++          ),
++          _BankMenuTile(
++            beforeNavigate: beforeNavigate,
++            afterNavigate: afterNavigate,
++          ),
+           // Usuario
+           ListTile(
+             title: Text("BENJAMÍN ALVARADO GONZÁLEZ (staff)"),
+@@ -103,20 +115,26 @@ class MenuLateral extends StatelessWidget {
+             onTap: () => _openMenuRoute<void>(
+               context,
+               beforeNavigate,
++              afterNavigate,
+               (_) => const SyncSettingsPage(),
+             ),
+           ),
+           _QuotationsMenuTile(
+             onOpenCaja: onOpenCaja,
+             beforeNavigate: beforeNavigate,
++            afterNavigate: afterNavigate,
++          ),
++          _InventoryMenuTile(
++            beforeNavigate: beforeNavigate,
++            afterNavigate: afterNavigate,
+           ),
+-          _InventoryMenuTile(beforeNavigate: beforeNavigate),
+           ListTile(
+             leading: Icon(Icons.swap_horiz),
+             title: Text("Ingresos y gastos"),
+             onTap: () => _openMenuRoute<void>(
+               context,
+               beforeNavigate,
++              afterNavigate,
+               (_) => const IngresosYGastosScreen(),
+             ),
+           ),
+@@ -126,6 +144,7 @@ class MenuLateral extends StatelessWidget {
+             onTap: () => _openMenuRoute<void>(
+               context,
+               beforeNavigate,
++              afterNavigate,
+               (_) => const ClientesScreen(),
+             ),
+           ),
+@@ -136,6 +155,7 @@ class MenuLateral extends StatelessWidget {
+             onTap: () => _openMenuRoute<void>(
+               context,
+               beforeNavigate,
++              afterNavigate,
+               (_) => TableManagementScreen(),
+             ),
+           ),
+@@ -149,8 +169,9 @@ class MenuLateral extends StatelessWidget {
+ /// El conteo viene del catalogo local y se actualiza solo cuando cambia. La
+ /// consulta se abre una vez: el drawer se reconstruye con frecuencia.
+ class _InventoryMenuTile extends StatefulWidget {
+-  const _InventoryMenuTile({this.beforeNavigate});
++  const _InventoryMenuTile({this.beforeNavigate, this.afterNavigate});
+   final Future<bool> Function()? beforeNavigate;
++  final VoidCallback? afterNavigate;
+ 
+   @override
+   State<_InventoryMenuTile> createState() => _InventoryMenuTileState();
+@@ -172,6 +193,7 @@ class _InventoryMenuTileState extends State<_InventoryMenuTile> {
+           onTap: () => _openMenuRoute<void>(
+             context,
+             widget.beforeNavigate,
++            widget.afterNavigate,
+             (_) => const InventoryManagementScreen(),
+           ),
+         );
+@@ -197,8 +219,9 @@ Widget _buildBadge(int count) {
+ /// habilitada en la instalacion. Es una pantalla aparte de caja: el saldo
+ /// bancario no es efectivo de cajon.
+ class _BankMenuTile extends StatelessWidget {
+-  const _BankMenuTile({this.beforeNavigate});
++  const _BankMenuTile({this.beforeNavigate, this.afterNavigate});
+   final Future<bool> Function()? beforeNavigate;
++  final VoidCallback? afterNavigate;
+ 
+   @override
+   Widget build(BuildContext context) {
+@@ -214,6 +237,7 @@ class _BankMenuTile extends StatelessWidget {
+           onTap: () => _openMenuRoute<void>(
+             context,
+             beforeNavigate,
++            afterNavigate,
+             (_) => const DeclararSaldoCuentaScreen(),
+           ),
+         );
+@@ -225,8 +249,9 @@ class _BankMenuTile extends StatelessWidget {
+ /// La entrada de caja solo existe cuando la captura esta habilitada en la
+ /// instalacion. Escucha el ajuste para reflejarse sin reiniciar la app.
+ class _CashMenuTile extends StatelessWidget {
+-  const _CashMenuTile({this.beforeNavigate});
++  const _CashMenuTile({this.beforeNavigate, this.afterNavigate});
+   final Future<bool> Function()? beforeNavigate;
++  final VoidCallback? afterNavigate;
+ 
+   @override
+   Widget build(BuildContext context) {
+@@ -242,6 +267,7 @@ class _CashMenuTile extends StatelessWidget {
+           onTap: () => _openMenuRoute<void>(
+             context,
+             beforeNavigate,
++            afterNavigate,
+             (_) => const CashManagementScreen(),
+           ),
+         );
+@@ -252,8 +278,13 @@ class _CashMenuTile extends StatelessWidget {
+ 
+ /// El resultado vuelve al Home que abrió el drawer y selecciona su Caja.
+ class _QuotationsMenuTile extends StatefulWidget {
+-  const _QuotationsMenuTile({this.onOpenCaja, this.beforeNavigate});
++  const _QuotationsMenuTile({
++    this.onOpenCaja,
++    this.beforeNavigate,
++    this.afterNavigate,
++  });
+   final Future<bool> Function()? beforeNavigate;
++  final VoidCallback? afterNavigate;
+   final VoidCallback? onOpenCaja;
+   @override
+   State<_QuotationsMenuTile> createState() => _QuotationsMenuTileState();
+@@ -271,6 +302,7 @@ class _QuotationsMenuTileState extends State<_QuotationsMenuTile> {
+       final result = await _openMenuRoute<RecuperarCotizacionResult>(
+         context,
+         widget.beforeNavigate,
++        widget.afterNavigate,
+         (_) => const QuotationsScreen(),
+       );
+       if (result?.draftAvailable == true &&
+@@ -296,6 +328,7 @@ class _QuotationsMenuTileState extends State<_QuotationsMenuTile> {
+ Future<T?> _openMenuRoute<T>(
+   BuildContext context,
+   Future<bool> Function()? beforeNavigate,
++  VoidCallback? afterNavigate,
+   WidgetBuilder builder,
+ ) async {
+   final navigator = Navigator.of(context);
+@@ -305,5 +338,11 @@ Future<T?> _openMenuRoute<T>(
+   if (Scaffold.of(context).isDrawerOpen) navigator.pop();
+   await WidgetsBinding.instance.endOfFrame;
+   if (!navigator.mounted || ownerRoute?.isCurrent != true) return null;
+-  return navigator.push<T>(MaterialPageRoute(builder: builder));
++  try {
++    return await navigator.push<T>(MaterialPageRoute(builder: builder));
++  } finally {
++    if (navigator.mounted && ownerRoute?.isCurrent == true) {
++      afterNavigate?.call();
++    }
++  }
+ }
+diff --git a/test/presentation/pages/articulos/article_search_screen_test.dart b/test/presentation/pages/articulos/article_search_screen_test.dart
+index 82528ee..4706f34 100644
+--- a/test/presentation/pages/articulos/article_search_screen_test.dart
++++ b/test/presentation/pages/articulos/article_search_screen_test.dart
+@@ -77,6 +77,7 @@ void main() {
+         _Products(() => Stream.value(_catalog)),
+       );
+       getIt.registerSingleton<CategoriaRepository>(_Categories());
++      getIt.registerSingleton<VentaBorradorCommandService>(_Capture());
+       await tester.pumpWidget(const MaterialApp(home: HomeScreen()));
+       await tester.pumpAndSettle();
+       await tester.tap(
+diff --git a/test/presentation/pages/articulos/articles_screen_test.dart b/test/presentation/pages/articulos/articles_screen_test.dart
+index 14e58f5..37ea00f 100644
+--- a/test/presentation/pages/articulos/articles_screen_test.dart
++++ b/test/presentation/pages/articulos/articles_screen_test.dart
+@@ -4,6 +4,7 @@ import 'dart:async';
+ import 'package:flutter/material.dart';
+ import 'package:flutter_test/flutter_test.dart';
+ import 'package:pos_flutter/core/di/injection.dart';
++import 'package:pos_flutter/application/commands/ventas/venta_borrador_command_service.dart';
+ import 'package:pos_flutter/domain/articulos/articulo_detalle.dart';
+ import 'package:pos_flutter/domain/articulos/articulo_listado.dart';
+ import 'package:pos_flutter/domain/articulos/articulo_vinculado_categoria.dart';
+@@ -17,6 +18,7 @@ import 'package:pos_flutter/presentation/pages/articulos/articles_screen.dart';
+ import 'package:pos_flutter/presentation/pages/pantalla_principal/home_screen.dart';
+ 
+ import '../../../support/fake_sale_draft_repository.dart';
++import '../../../support/fake_venta_borrador_command_service.dart';
+ 
+ void main() {
+   testWidgets(
+@@ -33,6 +35,9 @@ void main() {
+         _Products(Stream.value([_article])),
+       );
+       getIt.registerSingleton<SaleDraftRepository>(FakeSaleDraftRepository());
++      getIt.registerSingleton<VentaBorradorCommandService>(
++        FakeVentaBorradorCommandService(),
++      );
+       addTearDown(getIt.reset);
+ 
+       await tester.pumpWidget(const MaterialApp(home: HomeScreen()));
+diff --git a/test/presentation/pages/caja/caja_screen_test.dart b/test/presentation/pages/caja/caja_screen_test.dart
+index 78854db..d31c5f5 100644
+--- a/test/presentation/pages/caja/caja_screen_test.dart
++++ b/test/presentation/pages/caja/caja_screen_test.dart
+@@ -14,6 +14,7 @@ import 'package:pos_flutter/presentation/pages/caja/models/sale_draft_display.da
+ import 'package:pos_flutter/presentation/pages/caja/payment_method_screen.dart';
+ 
+ import '../../../support/fake_sale_draft_repository.dart';
++import '../../../support/fake_producto_repository.dart';
+ import '../../../support/fake_unidad_inventario_repository.dart';
+ import '../../../support/sale_draft_fixtures.dart';
+ 
+@@ -154,6 +155,7 @@ void main() {
+         MaterialApp(
+           home: Scaffold(
+             body: CajaScreen(
++              productoRepository: FakeProductoRepository(),
+               saleDraftRepository: FakeSaleDraftRepository(() async* {
+                 yield sampleSale();
+                 yield* updates.stream;
+@@ -337,10 +339,11 @@ Future<void> _pump(
+       ),
+       home: Scaffold(
+         body: CajaScreen(
++          productoRepository: FakeProductoRepository(),
+           saleDraftRepository: FakeSaleDraftRepository(
+             () => Stream.value(sale),
+           ),
+-          ventaBorradorCommandService: commands,
++          ventaBorradorCommandService: commands ?? _Commands(),
+           unidadInventarioRepository: units,
+         ),
+       ),
+diff --git a/test/presentation/pages/caja/physical_barcode_reader_test.dart b/test/presentation/pages/caja/physical_barcode_reader_test.dart
+index d244247..6f27605 100644
+--- a/test/presentation/pages/caja/physical_barcode_reader_test.dart
++++ b/test/presentation/pages/caja/physical_barcode_reader_test.dart
+@@ -23,13 +23,18 @@ import 'package:pos_flutter/application/config/app_config_controller.dart';
+ import 'package:pos_flutter/core/di/injection.dart';
+ import 'package:pos_flutter/data/local/drift/app_database.dart';
+ import 'package:pos_flutter/data/repositories/sale_draft_repository_impl.dart';
++import 'package:pos_flutter/data/repositories/cliente_resumen_repository_impl.dart';
++import 'package:pos_flutter/domain/repositories/cliente_resumen_repository.dart';
+ import 'package:pos_flutter/domain/repositories/producto_repository.dart';
+ import 'package:pos_flutter/domain/repositories/sale_draft_repository.dart';
+ import 'package:pos_flutter/presentation/pages/articulos/article_search_screen.dart';
+ import 'package:pos_flutter/presentation/pages/articulos/sale_quantity_dialog.dart';
+ import 'package:pos_flutter/presentation/pages/caja/barcode/barcode_product_selection_dialog.dart';
+ import 'package:pos_flutter/presentation/pages/caja/caja_screen.dart';
++import 'package:pos_flutter/presentation/pages/caja/barcode/physical_barcode_reader.dart';
+ import 'package:pos_flutter/presentation/pages/caja/payment_method_screen.dart';
++import 'package:pos_flutter/presentation/pages/caja/cash_payment_screen.dart';
++import 'package:pos_flutter/presentation/pages/gestion_clientes/clientes_screen.dart';
+ import 'package:pos_flutter/presentation/pages/pantalla_principal/home_screen.dart';
+ 
+ import '../../../support/barcode_sale_fixture.dart';
+@@ -65,6 +70,7 @@ void main() {
+   Future<void> pumpCaja(
+     WidgetTester tester, {
+     bool home = false,
++    bool initiallyCovered = false,
+     CotizacionCommandService? quotes,
+     QuotationRepository? quotations,
+   }) async {
+@@ -77,23 +83,42 @@ void main() {
+       getIt.registerSingleton<ProductoRepository>(f.products);
+       getIt.registerSingleton<VentaBorradorCommandService>(f.commands);
+       getIt.registerSingleton<AppConfigController>(f.config);
++      getIt.registerSingleton<ClienteResumenRepository>(
++        ClienteResumenRepositoryImpl(f.db),
++      );
+     }
++    final caja = Scaffold(
++      body: CajaScreen(
++        saleDraftRepository: f.drafts,
++        productoRepository: f.products,
++        ventaBorradorCommandService: f.commands,
++        cotizacionCommandService: quotes,
++        quotationRepository: quotations,
++        unidadInventarioRepository: UnidadInventarioRepositoryImpl(
++          unitDao: f.db.unitDao,
++        ),
++      ),
++    );
+     await tester.pumpWidget(
+       MaterialApp(
+-        home: home
+-            ? const HomeScreen()
+-            : Scaffold(
+-                body: CajaScreen(
+-                  saleDraftRepository: f.drafts,
+-                  productoRepository: f.products,
+-                  ventaBorradorCommandService: f.commands,
+-                  cotizacionCommandService: quotes,
+-                  quotationRepository: quotations,
+-                  unidadInventarioRepository: UnidadInventarioRepositoryImpl(
+-                    unitDao: f.db.unitDao,
+-                  ),
++        onGenerateRoute: initiallyCovered
++            ? (_) => MaterialPageRoute<void>(builder: (_) => caja)
++            : null,
++        onGenerateInitialRoutes: initiallyCovered
++            ? (_) => [
++                MaterialPageRoute<void>(builder: (_) => caja),
++                PageRouteBuilder<void>(
++                  opaque: false,
++                  pageBuilder: (_, _, _) =>
++                      const Scaffold(body: Text('Ruta inicial')),
+                 ),
+-              ),
++              ]
++            : null,
++        home: initiallyCovered
++            ? null
++            : home
++            ? const HomeScreen()
++            : caja,
+       ),
+     );
+     await settle(tester);
+@@ -103,17 +128,27 @@ void main() {
+     });
+   }
+ 
+-  for (final platform in [TargetPlatform.macOS, TargetPlatform.windows]) {
++  for (final platform in [
++    TargetPlatform.macOS,
++    TargetPlatform.windows,
++    TargetPlatform.android,
++  ]) {
+     for (final mode in AppMode.values) {
+       readerTest(
+-        'activar una vez y Enter FIFO/repetidos en $platform ${mode.name}',
++        'preparación y Enter FIFO/repetidos en $platform ${mode.name}',
+         (tester) async {
+           debugDefaultTargetPlatformOverride = platform;
+           f.config.update(AppConfig.initial.copyWith(mode: mode));
+           await pumpCaja(tester);
+-          expect(find.byKey(inputKey), findsNothing);
+-          expect(tester.widget<Switch>(find.byKey(toggleKey)).value, isFalse);
+-          await enable(tester);
++          if (platform == TargetPlatform.macOS) {
++            expect(find.byKey(inputKey), findsNothing);
++            expect(tester.widget<Switch>(find.byKey(toggleKey)).value, isFalse);
++            await enable(tester);
++          } else {
++            expect(find.byKey(toggleKey), findsNothing);
++            expect(find.byKey(inputKey), findsOneWidget);
++            expect(f.attempts, isEmpty);
++          }
+           expect(field(tester).focusNode!.hasFocus, isTrue);
+           expect(find.textContaining('Listo para escanear'), findsOneWidget);
+           final gate = Completer<void>();
+@@ -172,10 +207,234 @@ void main() {
+             }
+           });
+         },
++        platforms: [platform],
+       );
+     }
+   }
+ 
++  readerTest(
++    'espera sin lector; fragmentos sin Enter no consultan ni escriben',
++    (tester) async {
++      await pumpCaja(tester);
++      expect(find.byKey(toggleKey), findsNothing);
++      expect(field(tester).focusNode!.hasFocus, isTrue);
++      expect(f.lookups, isEmpty);
++      tester.testTextInput.updateEditingValue(
++        const TextEditingValue(text: '00'),
++      );
++      await settle(tester);
++      expect(f.lookups, isEmpty);
++      expect(f.attempts, isEmpty);
++      expect(
++        (await tester.runAsync(() => f.db.select(f.db.events).get()))!,
++        isEmpty,
++      );
++    },
++    platforms: [TargetPlatform.windows, TargetPlatform.android],
++  );
++
++  readerTest(
++    'no prepara ni enfoca mientras la ruta inicial cubre Caja',
++    (tester) async {
++      await pumpCaja(tester, initiallyCovered: true);
++      final reader = tester.state<PhysicalBarcodeReaderState>(
++        find.byType(PhysicalBarcodeReader, skipOffstage: false),
++      );
++      expect(reader.isEnabled, isFalse);
++      expect(f.lookups, isEmpty);
++      await tester.binding.handlePopRoute();
++      await settle(tester);
++      expect(field(tester).focusNode!.hasFocus, isTrue);
++      await send(tester, '001');
++      await settle(tester);
++      expect(f.attempts, hasLength(1));
++    },
++    platforms: [TargetPlatform.windows, TargetPlatform.android],
++  );
++
++  readerTest(
++    'entrar con app inactiva difiere preparación y exige reanudación',
++    (tester) async {
++      tester.binding.handleAppLifecycleStateChanged(AppLifecycleState.inactive);
++      try {
++        await pumpCaja(tester);
++        expect(find.byKey(inputKey), findsNothing);
++        expect(f.attempts, isEmpty);
++        tester.binding.handleAppLifecycleStateChanged(
++          AppLifecycleState.resumed,
++        );
++        await settle(tester);
++        expect(field(tester).focusNode!.hasFocus, isFalse);
++        expect(find.textContaining('Lector en pausa'), findsOneWidget);
++        await tester.tap(find.text('Reanudar lector'));
++        await settle(tester);
++        await send(tester, '001');
++        await settle(tester);
++        expect(f.attempts, hasLength(1));
++      } finally {
++        tester.binding.handleAppLifecycleStateChanged(
++          AppLifecycleState.resumed,
++        );
++      }
++    },
++    platforms: [TargetPlatform.windows, TargetPlatform.android],
++  );
++
++  readerTest(
++    'salir cancela preparación diferida y restaurar crea sesión lista',
++    (tester) async {
++      await pumpCaja(tester, initiallyCovered: true);
++      final reader = tester.state<PhysicalBarcodeReaderState>(
++        find.byType(PhysicalBarcodeReader, skipOffstage: false),
++      );
++      await reader.finish();
++      await tester.binding.handlePopRoute();
++      await settle(tester);
++      expect(reader.isEnabled, isFalse);
++      expect(find.byKey(inputKey), findsNothing);
++      expect(f.attempts, isEmpty);
++      reader.enableReader();
++      await settle(tester);
++      expect(field(tester).focusNode!.hasFocus, isTrue);
++      await send(tester, '001');
++      await settle(tester);
++      expect(f.attempts, hasLength(1));
++    },
++    platforms: [TargetPlatform.windows, TargetPlatform.android],
++  );
++
++  readerTest(
++    'Android configura teclado none editable y permite teclado explícito',
++    (tester) async {
++      await pumpCaja(tester);
++      expect(field(tester).readOnly, isFalse);
++      expect(field(tester).keyboardType, TextInputType.none);
++      expect(tester.testTextInput.hasAnyClients, isTrue);
++      expect(
++        tester.testTextInput.setClientArgs!['inputType']['name'],
++        'TextInputType.none',
++      );
++      tester.testTextInput.updateEditingValue(
++        const TextEditingValue(text: '001'),
++      );
++      await enter(tester);
++      await settle(tester);
++      expect(f.attempts, hasLength(1));
++      await enter(tester);
++      await settle(tester);
++      expect(f.attempts, hasLength(1));
++      await tester.tap(find.byTooltip('Escribir código'));
++      await settle(tester);
++      expect(field(tester).keyboardType, TextInputType.text);
++      expect(
++        tester.testTextInput.setClientArgs!['inputType']['name'],
++        'TextInputType.text',
++      );
++      expect(tester.testTextInput.isVisible, isTrue);
++      await tester.enterText(find.byKey(inputKey), '002');
++      await tester.tap(find.byKey(inputKey));
++      await tester.pump();
++      expect(field(tester).controller!.text, '002');
++      await enter(tester);
++      await settle(tester);
++      expect(f.attempts.map((c) => c.variantId), ['A', 'B']);
++      await tester.tap(find.byTooltip('Usar lector físico'));
++      await settle(tester);
++      expect(field(tester).keyboardType, TextInputType.none);
++      expect(field(tester).readOnly, isFalse);
++      expect(
++        tester.testTextInput.setClientArgs!['inputType']['name'],
++        'TextInputType.none',
++      );
++    },
++    platforms: [TargetPlatform.android],
++  );
++
++  readerTest(
++    'Android conserva teclados de búsqueda, cantidad y efectivo',
++    (tester) async {
++      await pumpCaja(tester);
++      await tester.tap(
++        find.byWidgetPredicate(
++          (w) => w is TextField && w.decoration?.hintText == 'Quiero vender…',
++        ),
++      );
++      await settle(tester);
++      await tester.enterText(find.byType(TextField), '001');
++      expect(
++        tester.testTextInput.setClientArgs!['inputType']['name'],
++        'TextInputType.text',
++      );
++      expect(tester.testTextInput.isVisible, isTrue);
++      expect(f.attempts, isEmpty);
++      await tester.pageBack();
++      await settle(tester);
++      await send(tester, '004');
++      await settle(tester);
++      final quantity = find.descendant(
++        of: find.byType(SaleQuantityDialog),
++        matching: find.byType(TextField),
++      );
++      await tester.enterText(quantity, '0.500');
++      expect(
++        tester.testTextInput.setClientArgs!['inputType']['name'],
++        'TextInputType.number',
++      );
++      expect(tester.testTextInput.isVisible, isTrue);
++      await tester.tap(find.text('Agregar'));
++      await settle(tester);
++      expect(f.attempts.single.measuredQuantity, '0.500');
++      expect(field(tester).keyboardType, TextInputType.none);
++      await tester.tap(find.textContaining('Cobrar:'));
++      await settle(tester);
++      await tester.tap(find.text('Efectivo'));
++      await settle(tester);
++      expect(find.byType(CashPaymentScreen), findsOneWidget);
++      await tester.enterText(find.byType(TextField), '200');
++      expect(
++        tester.testTextInput.setClientArgs!['inputType']['name'],
++        'TextInputType.number',
++      );
++      expect(tester.testTextInput.isVisible, isTrue);
++      expect(f.attempts, hasLength(1));
++      await tester.pageBack();
++      await settle(tester);
++      await tester.pageBack();
++      await settle(tester);
++      expect(field(tester).keyboardType, TextInputType.none);
++      expect(field(tester).focusNode!.hasFocus, isTrue);
++    },
++    platforms: [TargetPlatform.android],
++  );
++
++  readerTest(
++    'clientes desde pestaña o menú restaura sesión nueva al regresar',
++    (tester) async {
++      await pumpCaja(tester, home: true);
++      for (final menu in [false, true]) {
++        await send(tester, '001');
++        await settle(tester);
++        if (menu) {
++          await tester.tap(find.byIcon(Icons.menu));
++          await settle(tester);
++          await tester.tap(find.text('Gestión de clientes'));
++        } else {
++          await tester.tap(find.text('Clientes'));
++        }
++        await settle(tester);
++        expect(find.byType(ClientesScreen), findsOneWidget);
++        expect(find.byKey(inputKey), findsNothing);
++        await tester.pageBack();
++        await settle(tester);
++        expect(field(tester).focusNode!.hasFocus, isTrue);
++      }
++      await send(tester, '002');
++      await settle(tester);
++      expect(f.attempts.map((c) => c.variantId), ['A', 'A', 'B']);
++    },
++    platforms: [TargetPlatform.windows, TargetPlatform.android],
++  );
++
+   readerTest('vacío/repetido, inválidos íntegros, límite sin truncado y NFKC', (
+     tester,
+   ) async {
+@@ -367,7 +626,12 @@ void main() {
+     expect(f.attempts, isEmpty);
+     await tester.pageBack();
+     await settle(tester);
+-    expect(tester.widget<Switch>(find.byKey(toggleKey)).value, isTrue);
++    expect(
++      tester
++          .state<PhysicalBarcodeReaderState>(find.byType(PhysicalBarcodeReader))
++          .isEnabled,
++      isTrue,
++    );
+     expect(field(tester).focusNode!.hasFocus, isTrue);
+     await send(tester, '001');
+     await settle(tester);
+@@ -410,31 +674,35 @@ void main() {
+     expect(field(tester).focusNode!.hasFocus, isTrue);
+   });
+ 
+-  readerTest('desactivar drena; reactivar crea otra sesión', (tester) async {
+-    await pumpCaja(tester);
+-    await enable(tester);
+-    final gate = Completer<void>();
+-    f.beforeLookup = (code) => code == '001' ? gate.future : Future.value();
+-    await send(tester, '001');
+-    await send(tester, '002');
+-    await tester.tap(find.byKey(toggleKey));
+-    await tester.pump();
+-    expect(find.text('Finalizando lecturas'), findsOneWidget);
+-    if (find.text('Reanudar pendientes').evaluate().isNotEmpty) {
+-      await tester.tap(find.text('Reanudar pendientes'));
+-    }
+-    gate.complete();
+-    await settle(tester);
+-    expect(f.attempts.map((c) => c.variantId), ['A', 'B']);
+-    expect(find.byKey(inputKey), findsNothing);
+-    await enable(tester);
+-    await send(tester, '001');
+-    await settle(tester);
+-    expect(f.attempts, hasLength(3));
+-  });
++  readerTest(
++    'desactivar drena; reactivar crea otra sesión',
++    (tester) async {
++      await pumpCaja(tester);
++      await enable(tester);
++      final gate = Completer<void>();
++      f.beforeLookup = (code) => code == '001' ? gate.future : Future.value();
++      await send(tester, '001');
++      await send(tester, '002');
++      await tester.tap(find.byKey(toggleKey));
++      await tester.pump();
++      expect(find.text('Finalizando lecturas'), findsOneWidget);
++      if (find.text('Reanudar pendientes').evaluate().isNotEmpty) {
++        await tester.tap(find.text('Reanudar pendientes'));
++      }
++      gate.complete();
++      await settle(tester);
++      expect(f.attempts.map((c) => c.variantId), ['A', 'B']);
++      expect(find.byKey(inputKey), findsNothing);
++      await enable(tester);
++      await send(tester, '001');
++      await settle(tester);
++      expect(f.attempts, hasLength(3));
++    },
++    platforms: [TargetPlatform.macOS],
++  );
+ 
+   readerTest(
+-    'Home espera guardado; descarte no deshace commit y regreso desactivado',
++    'Home espera guardado; descarte conserva commit y regreso prepara sesión',
+     (tester) async {
+       await pumpCaja(tester, home: true);
+       await enable(tester);
+@@ -473,9 +741,23 @@ void main() {
+       );
+       await tester.tap(find.text('Caja'));
+       await settle(tester);
+-      expect(tester.widget<Switch>(find.byKey(toggleKey)).value, isFalse);
+-      expect(find.byKey(inputKey), findsNothing);
+-      expect(find.text(r'Cobrar: $1.00'), findsOneWidget);
++      if (defaultTargetPlatform == TargetPlatform.macOS) {
++        expect(tester.widget<Switch>(find.byKey(toggleKey)).value, isFalse);
++        expect(find.byKey(inputKey), findsNothing);
++      } else {
++        expect(field(tester).focusNode!.hasFocus, isTrue);
++        await send(tester, '002');
++        await settle(tester);
++        expect(f.attempts.map((c) => c.variantId), ['A', 'B']);
++      }
++      expect(
++        find.text(
++          defaultTargetPlatform == TargetPlatform.macOS
++              ? r'Cobrar: $1.00'
++              : r'Cobrar: $2.00',
++        ),
++        findsOneWidget,
++      );
+     },
+   );
+ 
+@@ -514,7 +796,14 @@ void main() {
+       );
+       tester.state<ScaffoldState>(find.byType(Scaffold).first).closeDrawer();
+       await settle(tester);
+-      expect(tester.widget<Switch>(find.byKey(toggleKey)).value, isTrue);
++      expect(
++        tester
++            .state<PhysicalBarcodeReaderState>(
++              find.byType(PhysicalBarcodeReader),
++            )
++            .isEnabled,
++        isTrue,
++      );
+     },
+   );
+   readerTest(
+@@ -803,14 +1092,11 @@ void main() {
+     },
+   );
+ 
+-  readerTest('fuera de macOS/Windows no se muestra modo lector', (
+-    tester,
+-  ) async {
+-    debugDefaultTargetPlatformOverride = TargetPlatform.android;
++  readerTest('iOS conserva ausencia del lector físico', (tester) async {
+     await pumpCaja(tester);
+     expect(find.text('Lector físico'), findsNothing);
+     expect(find.byKey(inputKey), findsNothing);
+-  });
++  }, platforms: [TargetPlatform.iOS]);
+   readerTest(
+     'regreso de Home espera lecturas aceptadas antes de sacar la ruta',
+     (tester) async {
+@@ -833,11 +1119,62 @@ void main() {
+       gate.complete();
+       await settle(tester);
+       expect(f.attempts, hasLength(1));
+-      expect(tester.widget<Switch>(find.byKey(toggleKey)).value, isFalse);
++      if (defaultTargetPlatform == TargetPlatform.macOS) {
++        expect(tester.widget<Switch>(find.byKey(toggleKey)).value, isFalse);
++      } else {
++        expect(find.textContaining('Lector en pausa'), findsOneWidget);
++        await tester.tap(find.text('Reanudar lector'));
++        await settle(tester);
++        expect(field(tester).focusNode!.hasFocus, isTrue);
++      }
+       expect(find.text(r'Cobrar: $1.00'), findsOneWidget);
+     },
+   );
+ 
++  readerTest(
++    'Atrás Android en raíz espera cola antes de cerrar actividad',
++    (tester) async {
++      final platformCalls = <String>[];
++      tester.binding.defaultBinaryMessenger.setMockMethodCallHandler(
++        SystemChannels.platform,
++        (call) async {
++          platformCalls.add(call.method);
++          return null;
++        },
++      );
++      addTearDown(
++        () => tester.binding.defaultBinaryMessenger.setMockMethodCallHandler(
++          SystemChannels.platform,
++          null,
++        ),
++      );
++      await pumpCaja(tester, home: true);
++      final gate = Completer<void>();
++      f.beforeSave = (_) =>
++          f.attempts.length == 1 ? gate.future : Future.value();
++      await send(tester, '001');
++      await settle(tester);
++      await send(tester, '002');
++      await tester.binding.handlePopRoute();
++      await tester.pump();
++      expect(platformCalls, isNot(contains('SystemNavigator.pop')));
++      expect(find.text('Finalizando lecturas'), findsOneWidget);
++      if (find.text('Reanudar pendientes').evaluate().isNotEmpty) {
++        await tester.tap(find.text('Reanudar pendientes'));
++      }
++      gate.complete();
++      await settle(tester);
++      expect(f.attempts.map((c) => c.variantId), ['A', 'B']);
++      expect(
++        platformCalls.where((c) => c == 'SystemNavigator.pop'),
++        hasLength(1),
++      );
++      expect(find.byType(HomeScreen), findsOneWidget);
++      expect(find.byKey(inputKey), findsNothing);
++    },
++    platforms: [TargetPlatform.android],
++  );
++
+   readerTest(
+     'pérdida de ventana durante búsqueda conserva modo pausado al volver',
+     (tester) async {
+@@ -855,7 +1192,14 @@ void main() {
+       await tester.pump();
+       await tester.pageBack();
+       await settle(tester);
+-      expect(tester.widget<Switch>(find.byKey(toggleKey)).value, isTrue);
++      expect(
++        tester
++            .state<PhysicalBarcodeReaderState>(
++              find.byType(PhysicalBarcodeReader),
++            )
++            .isEnabled,
++        isTrue,
++      );
+       expect(find.textContaining('Lector en pausa'), findsOneWidget);
+       await tester.tap(find.text('Reanudar lector'));
+       await tester.pump();
+@@ -875,7 +1219,14 @@ void main() {
+       );
+       tester.state<ScaffoldState>(find.byType(Scaffold).first).closeDrawer();
+       await settle(tester);
+-      expect(tester.widget<Switch>(find.byKey(toggleKey)).value, isTrue);
++      expect(
++        tester
++            .state<PhysicalBarcodeReaderState>(
++              find.byType(PhysicalBarcodeReader),
++            )
++            .isEnabled,
++        isTrue,
++      );
+       expect(field(tester).focusNode!.hasFocus, isTrue);
+       await send(tester, '001');
+       await settle(tester);
+@@ -945,9 +1296,10 @@ Future<void> settle(WidgetTester tester) async {
+ }
+ 
+ Future<void> enable(WidgetTester tester) async {
+-  await tester.tap(find.byKey(toggleKey));
+-  await tester.pump();
+-  await tester.pump();
++  if (find.byKey(toggleKey).evaluate().isNotEmpty) {
++    await tester.tap(find.byKey(toggleKey));
++    await settle(tester);
++  }
+ }
+ 
+ Future<void> send(WidgetTester tester, String code) async {
+@@ -974,14 +1326,25 @@ Future<void> enter(WidgetTester tester) async {
+   await tester.testTextInput.receiveAction(TextInputAction.done);
+ }
+ 
+-void readerTest(String name, Future<void> Function(WidgetTester) body) {
+-  testWidgets(name, (tester) async {
+-    try {
+-      await body(tester);
+-    } finally {
+-      await tester.pumpWidget(const SizedBox.shrink());
+-      await settle(tester);
+-      debugDefaultTargetPlatformOverride = null;
+-    }
+-  });
++void readerTest(
++  String name,
++  Future<void> Function(WidgetTester) body, {
++  List<TargetPlatform> platforms = const [
++    TargetPlatform.macOS,
++    TargetPlatform.windows,
++    TargetPlatform.android,
++  ],
++}) {
++  for (final platform in platforms) {
++    testWidgets('${platform.name}: $name', (tester) async {
++      debugDefaultTargetPlatformOverride = platform;
++      try {
++        await body(tester);
++      } finally {
++        await tester.pumpWidget(const SizedBox.shrink());
++        await settle(tester);
++        debugDefaultTargetPlatformOverride = null;
++      }
++    });
++  }
+ }
+diff --git a/test/presentation/pages/cotizaciones/caja_quotation_test.dart b/test/presentation/pages/cotizaciones/caja_quotation_test.dart
+index 4d6afad..c873781 100644
+--- a/test/presentation/pages/cotizaciones/caja_quotation_test.dart
++++ b/test/presentation/pages/cotizaciones/caja_quotation_test.dart
+@@ -8,6 +8,7 @@ import 'package:pos_flutter/presentation/pages/caja/caja_screen.dart';
+ import 'package:pos_flutter/presentation/pages/cotizaciones/quotation_ticket_screen.dart';
+ 
+ import '../../../support/fake_sale_draft_repository.dart';
++import '../../../support/fake_producto_repository.dart';
+ import '../../../support/pump_receipt_image.dart';
+ import '../../../support/quotation_ui_fixtures.dart';
+ import '../../../support/sale_draft_fixtures.dart';
+@@ -25,6 +26,8 @@ void main() {
+         MaterialApp(
+           home: Scaffold(
+             body: CajaScreen(
++              productoRepository: FakeProductoRepository(),
++              ventaBorradorCommandService: FakeQuotationDraftCommands(),
+               key: UniqueKey(),
+               saleDraftRepository: FakeSaleDraftRepository(
+                 () => Stream.value(draft),
+@@ -210,12 +213,13 @@ Future<void> _caja(
+       navigatorKey: navigator,
+       home: Scaffold(
+         body: CajaScreen(
++          productoRepository: FakeProductoRepository(),
+           saleDraftRepository: FakeSaleDraftRepository(
+             () => Stream.value(sale),
+           ),
+           quotationRepository: FakeQuotationRepository(),
+           cotizacionCommandService: commands,
+-          ventaBorradorCommandService: drafts,
++          ventaBorradorCommandService: drafts ?? FakeQuotationDraftCommands(),
+         ),
+       ),
+     ),
+diff --git a/test/widget_test.dart b/test/widget_test.dart
+index dcee164..f4034ce 100644
+--- a/test/widget_test.dart
++++ b/test/widget_test.dart
+@@ -1,15 +1,22 @@
+ import 'package:flutter_test/flutter_test.dart';
+ import 'package:pos_flutter/core/di/injection.dart';
++import 'package:pos_flutter/application/commands/ventas/venta_borrador_command_service.dart';
++import 'package:pos_flutter/domain/repositories/producto_repository.dart';
+ import 'package:pos_flutter/domain/repositories/sale_draft_repository.dart';
+ import 'package:pos_flutter/main.dart';
+ 
+ import 'support/fake_sale_draft_repository.dart';
++import 'support/fake_producto_repository.dart';
++import 'support/fake_venta_borrador_command_service.dart';
+ 
+ void main() {
+-  setUp(
+-    () =>
+-        getIt.registerSingleton<SaleDraftRepository>(FakeSaleDraftRepository()),
+-  );
++  setUp(() {
++    getIt.registerSingleton<SaleDraftRepository>(FakeSaleDraftRepository());
++    getIt.registerSingleton<ProductoRepository>(FakeProductoRepository());
++    getIt.registerSingleton<VentaBorradorCommandService>(
++      FakeVentaBorradorCommandService(),
++    );
++  });
+   tearDown(() => getIt.reset());
+   testWidgets('renders main app shell', (tester) async {
+     await tester.pumpWidget(const MainApp());

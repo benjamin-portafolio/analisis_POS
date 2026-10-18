@@ -1,0 +1,32 @@
+[
+  {
+    "label": "build-final",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit": 0
+  },
+  {
+    "label": "unit-final",
+    "command": [
+      "npm",
+      "test",
+      "--",
+      "--runInBand",
+      "--json",
+      "--outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Proveedores de productos/Evidencia/2026-10-08-fase6/unit-final.json"
+    ],
+    "exit": 0
+  },
+  {
+    "label": "nest-diff-check",
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit": 0
+  }
+]

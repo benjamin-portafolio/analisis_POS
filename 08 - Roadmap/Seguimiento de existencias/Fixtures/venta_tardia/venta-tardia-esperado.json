@@ -1,0 +1,24 @@
+{
+  "orden": [
+    "b1000000-0000-4000-8000-000000000001",
+    "b3000000-0000-4000-8000-000000000001",
+    "b3000000-0000-4000-8000-000000000003",
+    "b4000000-0000-4000-8000-000000000001"
+  ],
+  "nota": "La venta llega despues de la desvinculacion y aun así se acepta una sola vez contra el recurso capturado en su configuracion.",
+  "saldo_final_del_recurso": {
+    "inventory_item_id": "a3000000-0000-4000-8000-000000000001",
+    "quantity_on_hand_atomic": 248,
+    "quantity_available_atomic": 248
+  },
+  "recurso_conservado": true,
+  "descarte_generado": false,
+  "variant_inventory_memory": [
+    {
+      "variant_id": "a2000000-0000-4000-8000-000000000001",
+      "inventory_item_id": "a3000000-0000-4000-8000-000000000001",
+      "source_event_id": "b3000000-0000-4000-8000-000000000003",
+      "source_server_sequence": 41
+    }
+  ]
+}

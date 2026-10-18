@@ -1,0 +1,79 @@
+COMMAND: flutter --version
+Flutter 3.41.6 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision db50e20168 (7 months ago) • 2026-03-25 16:21:00 -0700
+Engine • hash 5cdd32777948fa7a648fac915f8da7120ac7e97a (revision 425cfb54d0) (6 months ago) • 2026-03-25 20:14:42.000Z
+Tools • Dart 3.11.4 • DevTools 2.54.2
+COMMAND: dart --version
+Dart SDK version: 3.11.4 (stable) (Tue Mar 24 01:02:20 2026 -0700) on "macos_arm64"
+COMMAND: flutter devices
+Found 2 connected devices:
+  macOS (desktop) • macos  • darwin-arm64   • macOS 27.0.1 26A434 darwin-arm64
+  Chrome (web)    • chrome • web-javascript • Google Chrome 154.0.8037.99
+
+Checking for wireless devices...
+
+No wireless devices were found.
+
+Run "flutter emulators" to list and start any available device emulators.
+
+If you expected another device to be detected, please run "flutter doctor" to diagnose potential issues. You may also try increasing the time to wait for connected devices with the "--device-timeout" flag. Visit https://flutter.dev/setup/ for troubleshooting tips.
+COMMAND: adb devices -l
+List of devices attached
+
+COMMAND: system_profiler SPBluetoothDataType -json
+{
+  "SPBluetoothDataType" : [
+    {
+      "controller_properties" : {
+        "controller_address" : "C0:C7:DB:BC:09:5D",
+        "controller_chipset" : "Apple N1",
+        "controller_discoverable" : "attrib_off",
+        "controller_firmwareVersion" : "MAC FW Version: 26.72.12.0, PHY FW Version: 3.1.46.0",
+        "controller_productID" : "0x4A46",
+        "controller_state" : "attrib_on",
+        "controller_supportedServices" : "0x1390039 < HFP AVRCP A2DP HID LEA AACP GATT SerialPort SCO >",
+        "controller_transport" : "PCIe",
+        "controller_vendorID" : "0x004C (Apple)"
+      },
+      "device_not_connected" : [
+        {
+          "BlueTooth Printer" : {
+            "device_address" : "5A:4A:C6:68:99:9D",
+            "device_firmwareVersion" : "6.4.4",
+            "device_minorType" : "Printer",
+            "device_productID" : "0x0239",
+            "device_rssi" : "-56",
+            "device_vendorID" : "0x05AC"
+          }
+        },
+        {
+          "MOBO Quo" : {
+            "device_address" : "5B:2D:FC:CC:41:65",
+            "device_minorType" : "Headset"
+          }
+        },
+        {
+          "YM-019" : {
+            "device_address" : "30:21:D4:A3:07:55",
+            "device_firmwareVersion" : "1.0.0",
+            "device_minorType" : "Keyboard",
+            "device_productID" : "0x022C",
+            "device_vendorID" : "0x05AC"
+          }
+        }
+      ]
+    }
+  ]
+}COMMAND: xcodebuild -version
+Xcode 27.0
+Build version 27A266a
+COMMAND: sw_vers
+ProductName:		macOS
+ProductVersion:		27.0.1
+BuildVersion:		26A434
+COMMAND: java -version
+openjdk version "21.0.11" 2026-04-21
+OpenJDK Runtime Environment Homebrew (build 21.0.11)
+OpenJDK 64-Bit Server VM Homebrew (build 21.0.11, mixed mode, sharing)
+COMMAND: git rev-parse HEAD
+fe509f6dc9cca738faf52c7615d0ae4b01cd2f92

@@ -1,0 +1,10 @@
+Analyzing pos_flutter...
+
+   info - test/data/local/drift/supplier_local_acceptance_test.dart:169:11 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test/data/local/drift/supplier_local_acceptance_test.dart:288:13 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test/data/local/drift/supplier_local_acceptance_test.dart:291:11 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test/data/local/drift/supplier_local_acceptance_test.dart:312:11 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test/data/local/drift/supplier_local_acceptance_test.dart:314:11 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test/data/local/drift/supplier_local_acceptance_test.dart:316:11 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+
+6 issues found.

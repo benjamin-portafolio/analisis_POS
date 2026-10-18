@@ -2,7 +2,7 @@
 tipo: especificacion_modulo
 modulo: unidades_y_cantidades
 estado: contrato_confirmado_pendiente_implementacion
-actualizado: 2026-08-24
+actualizado: 2026-08-29
 ---
 
 # Unidades y cantidades
@@ -91,10 +91,11 @@ unidad activa de la misma dimension. Esa preferencia de pantalla no cambia el
 entero canonico ni se necesita en el movimiento una vez convertido. No se
 convierte masa a volumen ni conteo a masa.
 
-La unidad predeterminada de un recurso puede cambiar por otra de la misma
-dimension sin modificar saldos. La dimension no puede cambiar cuando el
-recurso ya tiene movimientos; se crea otro recurso o se ejecuta una migracion
-explicita.
+La unidad predeterminada de un recurso es inmutable durante la edición porque
+su historial ya utiliza esa referencia. Una unidad distinta puede servir solo
+como unidad temporal de captura dentro de la misma dimensión y debe convertirse
+al átomo canónico sin modificar `default_unit_id`. Para cambiar la referencia
+predeterminada se crea otro recurso o se ejecuta una migración explícita.
 
 ## Conversion exacta desde la UI
 

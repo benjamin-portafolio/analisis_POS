@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Sol Mezclas Mangoyada",
+    "variant": "Lata 473 ml",
+    "price": 27,
+    "barcode": "7503032272375",
+    "source": "sol",
+    "note": "Etiqueta de $27 bajo las latas sabor mango."
+  },
+  {
+    "name": "Sol Mezclas Clamato",
+    "variant": "Lata 473 ml",
+    "price": 25,
+    "barcode": "7501049967062",
+    "source": "seven2025",
+    "note": "Etiqueta de $25 bajo las latas de Clamato."
+  },
+  {
+    "name": "Dos Equis Lager",
+    "variant": "Lata 473 ml",
+    "price": 27,
+    "barcode": "7501049912284",
+    "source": "xx473",
+    "note": "Lata del entrepaño superior; etiqueta de $27."
+  },
+  {
+    "name": "Dos Equis Lager",
+    "variant": "Lata 355 ml",
+    "price": 26,
+    "barcode": "75003821",
+    "source": "xx355",
+    "note": "Lata del segundo entrepaño; etiqueta de $26. Capacidad especialmente pendiente de confirmar."
+  },
+  {
+    "name": "Dos Equis Lager",
+    "variant": "Botella retornable 190 ml",
+    "price": 9,
+    "barcode": "75005283",
+    "source": "seven2025",
+    "note": "Se tomó $9 de la etiqueta que dice XX 1/4. Hay otra etiqueta genérica de $8 cerca; confirmar el precio."
+  },
+  {
+    "name": "Dos Equis Lager",
+    "variant": "Botella retornable 1200 ml",
+    "price": 48,
+    "barcode": "7501049912215",
+    "source": "chedraui",
+    "note": "Precio $48 asignado por las etiquetas con silueta dorada en el borde sobre el entrepaño inferior; confirmar correspondencia."
+  },
+  {
+    "name": "Tecate Original",
+    "variant": "Lata 710 ml",
+    "price": 36,
+    "barcode": "7501061671244",
+    "source": "tecate",
+    "note": "Etiqueta de $36 del entrepaño superior. Las latas rojas del segundo entrepaño se consideraron repetidas de esta presentación."
+  },
+  {
+    "name": "Tecate Original",
+    "variant": "Botella retornable 1200 ml",
+    "price": 44,
+    "barcode": "7501061668930",
+    "source": "seven2026",
+    "note": "Etiqueta de $44 debajo de las botellas Tecate. Hay etiquetas cercanas de $48; confirmar que $44 corresponde a Tecate."
+  },
+  {
+    "name": "Indio",
+    "variant": "Botella retornable 190 ml",
+    "price": 8,
+    "barcode": "75015541",
+    "source": "seven2025",
+    "note": "Etiqueta digital de $8 bajo las botellas pequeñas de Indio."
+  },
+  {
+    "name": "Indio",
+    "variant": "Botella retornable 1200 ml",
+    "price": 44,
+    "barcode": "75019303",
+    "source": "seven2026",
+    "note": "Precio $44 asignado por la etiqueta con silueta verde sobre las botellas grandes Indio; confirmar correspondencia."
+  },
+  {
+    "name": "Heineken 0.0",
+    "variant": "Lata 355 ml",
+    "price": 21,
+    "barcode": "7503024416510",
+    "source": "chedraui",
+    "note": "Etiqueta digital de $21 a la derecha del segundo entrepaño."
+  },
+  {
+    "name": "Carta Blanca",
+    "variant": "Lata 473 ml",
+    "price": 22,
+    "barcode": "7503028412587",
+    "source": "chedraui",
+    "note": "Etiqueta digital de $22 bajo las latas blancas altas."
+  },
+  {
+    "name": "Carta Blanca",
+    "variant": "Lata 355 ml",
+    "price": 24,
+    "barcode": "7501061651543",
+    "source": "seven2025",
+    "note": "Etiqueta de $24 bajo la lata más baja con franja dorada. Capacidad especialmente pendiente de confirmar."
+  }
+]

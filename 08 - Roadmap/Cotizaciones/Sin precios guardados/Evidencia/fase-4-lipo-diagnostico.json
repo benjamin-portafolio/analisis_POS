@@ -1,0 +1,42 @@
+[
+  {
+    "command": [
+      "lipo",
+      "/Users/benjamin/Projects/POS/pos_flutter/build/macos/Build/Products/Release/FlutterMacOS.framework/Versions/A/FlutterMacOS",
+      "-info"
+    ],
+    "exit": 0,
+    "output": "Architectures in the fat file: /Users/benjamin/Projects/POS/pos_flutter/build/macos/Build/Products/Release/FlutterMacOS.framework/Versions/A/FlutterMacOS are: x86_64 arm64 \n"
+  },
+  {
+    "command": [
+      "lipo",
+      "/Users/benjamin/Projects/POS/pos_flutter/build/macos/Build/Products/Release/FlutterMacOS.framework/Versions/A/FlutterMacOS",
+      "-verify_arch",
+      "arm64",
+      "x86_64"
+    ],
+    "exit": 1,
+    "output": "lipo: -verify_arch requires exactly one input file\n"
+  },
+  {
+    "command": [
+      "lipo",
+      "/Users/benjamin/Projects/POS/pos_flutter/build/macos/Build/Products/Release/FlutterMacOS.framework/Versions/A/FlutterMacOS",
+      "-verify_arch",
+      "arm64"
+    ],
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "command": [
+      "lipo",
+      "/Users/benjamin/Projects/POS/pos_flutter/build/macos/Build/Products/Release/FlutterMacOS.framework/Versions/A/FlutterMacOS",
+      "-verify_arch",
+      "x86_64"
+    ],
+    "exit": 0,
+    "output": ""
+  }
+]

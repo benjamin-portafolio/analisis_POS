@@ -1,0 +1,946 @@
+[
+  {
+    "term": "costeña",
+    "start": 50,
+    "count": 32,
+    "rows": [
+      {
+        "name": "Chiles Chipotles La Costeña adobados 380 g",
+        "url": "https://www.lagranbodega.com.mx/chipotle-la-costena-380-gr/p",
+        "ean": "7501017004911",
+        "price": 60.0,
+        "stock": 99999
+      },
+      {
+        "name": "Chiles Chipotles La Costeña adobados 2900 g",
+        "url": "https://www.lagranbodega.com.mx/chipotle-la-costeña-2-9-kg/p",
+        "ean": "7501017002030",
+        "price": 308.5,
+        "stock": 100
+      },
+      {
+        "name": "Frijoles entero bayo La Costeña 560 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-entero-bayo-la-costena-560-gr/p",
+        "ean": "7501017004362",
+        "price": 18.0,
+        "stock": 99999
+      },
+      {
+        "name": "Frijoles refritos negro La Costeña 820 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-refritos-negro-la-costena-820-gr/p",
+        "ean": "7501017003655",
+        "price": 30.5,
+        "stock": 99999
+      },
+      {
+        "name": "Frijoles entero negros La Costeña 840 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-entero-negros-la-costena-840-gr/p",
+        "ean": "7501017003518",
+        "price": 26.5,
+        "stock": 100
+      },
+      {
+        "name": "Frijoles entero bayos La Costeña 840 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-entero-bayos-la-costena-840-gr/p",
+        "ean": "7501017003501",
+        "price": 26.5,
+        "stock": 99999
+      },
+      {
+        "name": "Salsa de chiles chipotles La Costeña 100 g",
+        "url": "https://www.lagranbodega.com.mx/salsa-chile-chipotle-la-costeña-100-gr/p",
+        "ean": "7501017006298",
+        "price": 12.0,
+        "stock": 99999
+      },
+      {
+        "name": "Chiles jalapeños picados La Costeña 220 g",
+        "url": "https://www.lagranbodega.com.mx/jalapeño-picado-la-costeña-220-gr/p",
+        "ean": "7501017005765",
+        "price": 21.0,
+        "stock": 99999
+      },
+      {
+        "name": "Chiles chipotles La Costeña adobados 220 g",
+        "url": "https://www.lagranbodega.com.mx/chipotle-la-costena-220-gr/p",
+        "ean": "7501017005031",
+        "price": 35.0,
+        "stock": 99999
+      },
+      {
+        "name": "Frijoles entero bayo La Costeña 400 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-entero-bayo-la-costena-400-gr/p",
+        "ean": "7501017004416",
+        "price": 16.0,
+        "stock": 99999
+      },
+      {
+        "name": "Frijoles La Costeña refritos bayos 400 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-refritos-bayo-la-costena-400-gr/p",
+        "ean": "7501017004386",
+        "price": 18.0,
+        "stock": 99999
+      },
+      {
+        "name": "Frijoles entero negro La Costeña 560 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-entero-negro-la-costena-560-gr/p",
+        "ean": "7501017004294",
+        "price": 18.0,
+        "stock": 99999
+      },
+      {
+        "name": "Frijoles refritos negro La Costeña 580 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-refritos-negro-la-costena-580-gr/p",
+        "ean": "7501017004423",
+        "price": 19.5,
+        "stock": 99999
+      },
+      {
+        "name": "Frijoles refritos bayo La Costeña 580 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-refritos-bayo-la-costena-580-gr/p",
+        "ean": "7501017004270",
+        "price": 19.5,
+        "stock": 99999
+      },
+      {
+        "name": "Chiles nachos  jalapeños La Costeña 380 g",
+        "url": "https://www.lagranbodega.com.mx/jalapenos-nachos-la-costena-380-gr/p",
+        "ean": "7501017004621",
+        "price": 33.0,
+        "stock": 99999
+      },
+      {
+        "name": "Jalapeños La costeña rajas verdes  220 g",
+        "url": "https://www.lagranbodega.com.mx/jalapenos-rajas-verdes-la-costena-220-gr/p",
+        "ean": "7501017005024",
+        "price": 20.0,
+        "stock": 99999
+      },
+      {
+        "name": "Chiles Chipotles La Costeña adobados 105 g",
+        "url": "https://www.lagranbodega.com.mx/chipotle-la-costena-105-gr/p",
+        "ean": "7501017006021",
+        "price": 18.5,
+        "stock": 99999
+      },
+      {
+        "name": "Mayonesa con jugo de limón La Costeña 105 g",
+        "url": "https://www.lagranbodega.com.mx/mayonesa-con-jugo-de-limon-la-costena-105-gr/p",
+        "ean": "7501017006205",
+        "price": 17.5,
+        "stock": 99999
+      },
+      {
+        "name": "Mayonesa con jugo de limón La Costeña 190 g",
+        "url": "https://www.lagranbodega.com.mx/mayonesa-con-jugo-de-limon-la-costena-190-gr/p",
+        "ean": "7501017050215",
+        "price": 24.0,
+        "stock": 99999
+      },
+      {
+        "name": "Elote Dorado en granos La Costeña 410 g",
+        "url": "https://www.lagranbodega.com.mx/elote-dorado-en-granos-la-costena-410-gr/p",
+        "ean": "7501017004515",
+        "price": 23.0,
+        "stock": 99999
+      },
+      {
+        "name": "Frijoles refritos negros La Costeña bolsa 220 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-refritos-negros-la-costena-bolsa-220-gr/p",
+        "ean": "7501017043033",
+        "price": 12.0,
+        "stock": 99999
+      },
+      {
+        "name": "Frijoles refritos bayos La Costeña bolsa 220 g",
+        "url": "https://www.lagranbodega.com.mx/frijoles-refritos-bayos-la-costena-bolsa-220-gr/p",
+        "ean": "7501017043026",
+        "price": 12.0,
+        "stock": 99999
+      },
+      {
+        "name": "Mayonesa con jugo de limón La Costeña 725 g",
+        "url": "https://www.lagranbodega.com.mx/mayonesa-con-jugo-de-limon-la-costena-725-gr/p",
+        "ean": "7501017003815",
+        "price": 73.5,
+        "stock": 99999
+      },
+      {
+        "name": "Mayonesa con jugo de limón La Costeña 385 g",
+        "url": "https://www.lagranbodega.com.mx/mayonesa-con-jugo-de-limon-la-costena-385-gr/p",
+        "ean": "7501017040506",
+        "price": 43.0,
+        "stock": 99999
+      },
+      {
+        "name": "Chiles jalapeños rajas verdes La Costeña 820 g",
+        "url": "https://www.lagranbodega.com.mx/jalapenos-rajas-verdes-la-costena-800-gr/p",
+        "ean": "7501017003020",
+        "price": 47.5,
+        "stock": 100
+      },
+      {
+        "name": "Mayonesa La Costeña 385 g más jalapeño 240 g",
+        "url": "https://www.lagranbodega.com.mx/mayonesa-la-costeña-385-g-mas-jalapeño-240-g/p",
+        "ean": "7501017044788",
+        "price": 46.0,
+        "stock": 100
+      },
+      {
+        "name": "Elote Dorado en granos La Costeña 220 g",
+        "url": "https://www.lagranbodega.com.mx/elote-dorado-en-granos-la-costeña-220-gr/p",
+        "ean": "7501017005321",
+        "price": 15.0,
+        "stock": 99999
+      },
+      {
+        "name": "Chiles jalapeños La Costeña en rajas verdes  105 g",
+        "url": "https://www.lagranbodega.com.mx/jalapenos-rajas-verdes-la-costena-105-gr/p",
+        "ean": "7501017006014",
+        "price": 11.5,
+        "stock": 99999
+      },
+      {
+        "name": "Chiles jalapeños La costeña en rajas verdes 380 g",
+        "url": "https://www.lagranbodega.com.mx/jalapenos-rajas-verdes-la-costena-380-gr/p",
+        "ean": "7501017004027",
+        "price": 34.0,
+        "stock": 99999
+      },
+      {
+        "name": "Mayonesa con jugo de limón reducida en grasa La Costeña 385 g",
+        "url": "https://www.lagranbodega.com.mx/mayonesa-con-jugo-de-limon-reducida-en-grasa-la-costena-385-gr/p",
+        "ean": "7501017043217",
+        "price": 34.5,
+        "stock": 99999
+      },
+      {
+        "name": "Mayonesa con jugo de limón reducida en grasa La Costeña 190 g",
+        "url": "https://www.lagranbodega.com.mx/mayonesa-con-jugo-de-limon-reducida-en-grasa-la-costena-190-gr/p",
+        "ean": "7501017051311",
+        "price": 20.5,
+        "stock": 99999
+      },
+      {
+        "name": "Mayonesa con jugo de limón reducida en grasa La Costeña 500 g",
+        "url": "https://www.lagranbodega.com.mx/mayonesa-con-jugo-de-limon-reducida-en-grasa-la-costena-500-gr/p",
+        "ean": "7501017043224",
+        "price": 41.5,
+        "stock": 99999
+      }
+    ]
+  },
+  {
+    "term": "costeña",
+    "start": 100,
+    "count": 0,
+    "rows": []
+  },
+  {
+    "term": "totis",
+    "start": 0,
+    "count": 6,
+    "rows": [
+      {
+        "name": "Papitas Totis adobo 90 g",
+        "url": "https://www.lagranbodega.com.mx/papitas-totis-adobo-90-g/p",
+        "ean": "7500366003958",
+        "price": 21.5,
+        "stock": 99999
+      },
+      {
+        "name": "Papitas Totis sal 90 g",
+        "url": "https://www.lagranbodega.com.mx/papitas-totis-sal-90-g/p",
+        "ean": "7500366003941",
+        "price": 21.5,
+        "stock": 99999
+      },
+      {
+        "name": "Paps Totis adobo 170 g",
+        "url": "https://www.lagranbodega.com.mx/paps-totis-adobo-170-g/p",
+        "ean": "7500366000643",
+        "price": 47.0,
+        "stock": 99999
+      },
+      {
+        "name": "Paps Totis sal 170 g",
+        "url": "https://www.lagranbodega.com.mx/paps-totis-sal-170-g/p",
+        "ean": "7500366000629",
+        "price": 47.0,
+        "stock": 99999
+      },
+      {
+        "name": "Papitas Totis hot chili 90 g",
+        "url": "https://www.lagranbodega.com.mx/papitas-totis-hot-chili-90-g/p",
+        "ean": "7500366003910",
+        "price": 21.5,
+        "stock": 99999
+      },
+      {
+        "name": "Botana Totis donitas sal limón 50 g",
+        "url": "https://www.lagranbodega.com.mx/botana-totis-donitas-sal-limon-50-g/p",
+        "ean": "643795541244",
+        "price": 16.0,
+        "stock": 99999
+      }
+    ]
+  },
+  {
+    "term": "pronto",
+    "start": 0,
+    "count": 10,
+    "rows": [
+      {
+        "name": "Pronto leche condensada 380 g",
+        "url": "https://www.lagranbodega.com.mx/pronto-producto-lacteo-consensado-380-gr/p",
+        "ean": "7501200486005",
+        "price": 34.5,
+        "stock": 99999
+      },
+      {
+        "name": "Pronto jarabe maple 250 ml",
+        "url": "https://www.lagranbodega.com.mx/pronto-jarabe-maple-250-ml/p",
+        "ean": "7501200484087",
+        "price": 31.0,
+        "stock": 99999
+      },
+      {
+        "name": "Pure papa instantaneo Pronto 125 gr",
+        "url": "https://www.lagranbodega.com.mx/pure-papa-instantaneo-pronto-125-gr/p",
+        "ean": "7501200484506",
+        "price": 29.0,
+        "stock": 99999
+      },
+      {
+        "name": "Harina para pastel Pronto chocolate 515 g",
+        "url": "https://www.lagranbodega.com.mx/harina-para-pastel-pronto-chocolate-515-gr/p",
+        "ean": "7501200483608",
+        "price": 56.5,
+        "stock": 100
+      },
+      {
+        "name": "Harina para pastel Pronto vainilla 540 g",
+        "url": "https://www.lagranbodega.com.mx/harina-para-pastel-pronto-vainilla-540-gr/p",
+        "ean": "7501200483622",
+        "price": 56.5,
+        "stock": 100
+      },
+      {
+        "name": "Harina para hot cakes Pronto tradicional 500 g",
+        "url": "https://www.lagranbodega.com.mx/harina-para-hot-cakes-pronto-tradicional-500-gr/p",
+        "ean": "7501200483103",
+        "price": 35.0,
+        "stock": 99999
+      },
+      {
+        "name": "Harina para pastel Pronto panque de naranja 540 g",
+        "url": "https://www.lagranbodega.com.mx/harina-para-pastel-pronto-panque-de-naranja-540-gr/p",
+        "ean": "7501200483646",
+        "price": 56.5,
+        "stock": 100
+      },
+      {
+        "name": "Harina para pastel Pronto panqué elote 540 g",
+        "url": "https://www.lagranbodega.com.mx/harina-para-pastel-pronto-panque-elote-540-gr/p",
+        "ean": "7501200483639",
+        "price": 56.5,
+        "stock": 100
+      },
+      {
+        "name": "Harina para hot cakes Pronto tradicional 800 g",
+        "url": "https://www.lagranbodega.com.mx/harina-para-hot-cakes-pronto-tradicional-800-gr/p",
+        "ean": "7501200483134",
+        "price": 52.5,
+        "stock": 99999
+      },
+      {
+        "name": "Harina para hot cakes Pronto instantáneo bote 180 g",
+        "url": "https://www.lagranbodega.com.mx/harina-para-hot-cakes-pronto-instantaneo-bote-180-gr/p",
+        "ean": "7501200483158",
+        "price": 34.5,
+        "stock": 100
+      }
+    ]
+  },
+  {
+    "term": "macma",
+    "start": 0,
+    "count": 5,
+    "rows": [
+      {
+        "name": "Galleta MacMa waffer chocco 62 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-macma-waffer-chocco-62-g/p",
+        "ean": "850697003194",
+        "price": 15.5,
+        "stock": 99999
+      },
+      {
+        "name": "Galleta MacMa surtido 320 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-mac-ma-surtido-320-g/p",
+        "ean": "850697003484",
+        "price": 88.0,
+        "stock": 99999
+      },
+      {
+        "name": "Galleta MacMa waffer natta 62 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-macma-waffer-natta-62-g/p",
+        "ean": "850697003170",
+        "price": 15.5,
+        "stock": 99999
+      },
+      {
+        "name": "Galleta MacMa waffer fressa 62 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-macma-waffer-fressa-62-g/p",
+        "ean": "850697003187",
+        "price": 15.5,
+        "stock": 99999
+      },
+      {
+        "name": "Galleta MacMa gofrenata pocket 36 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-macma-gofrenata-pocket-36-g/p",
+        "ean": "850697003873",
+        "price": 10.5,
+        "stock": 99999
+      }
+    ]
+  },
+  {
+    "term": "marian",
+    "start": 0,
+    "count": 6,
+    "rows": [
+      {
+        "name": "Galleta Marian suspiros 175 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-marian-suspiros-175-g/p",
+        "ean": "020899087647",
+        "price": 45.5,
+        "stock": 99999
+      },
+      {
+        "name": "Galleta Marian surtido tradicional 380 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-marian-surtido-tradicional-380-g/p",
+        "ean": "020899087722",
+        "price": 114.0,
+        "stock": 100
+      },
+      {
+        "name": "Galleta Marian bolitas de nuez 45 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-marina-bolitas-de-nuez-45-g/p",
+        "ean": "020899002503",
+        "price": 12.5,
+        "stock": 99999
+      },
+      {
+        "name": "Galleta Moderna marianita vainilla 185 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-moderna-marianita-vainilla-185-g/p",
+        "ean": "038629002716",
+        "price": 13.5,
+        "stock": 99999
+      },
+      {
+        "name": "Galleta Moderna marianita nuez 185 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-moderna-marianita-nuez-185-g/p",
+        "ean": "038629001702",
+        "price": 13.5,
+        "stock": 99999
+      },
+      {
+        "name": "Galleta Moderna marianita coco 185 g",
+        "url": "https://www.lagranbodega.com.mx/galleta-moderna-marianita-coco-185-g/p",
+        "ean": "38629002068",
+        "price": 13.5,
+        "stock": 99999
+      }
+    ]
+  },
+  {
+    "term": "legal",
+    "start": 0,
+    "count": 18,
+    "rows": [
+      {
+        "name": "Café Legal soluble 100 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-100-gr/p",
+        "ean": "7501052414942",
+        "price": 70.5,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal soluble 50 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-50-gr/p",
+        "ean": "7501052411804",
+        "price": 39.5,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal soluble 10 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-10-g/p",
+        "ean": "7501052414027",
+        "price": 8.0,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal tradicional 1 kg",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-tradicional-1-kg/p",
+        "ean": "7501052401096",
+        "price": 241.0,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal soluble descafeinado 100 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-descafeinado-100-gr/p",
+        "ean": "7501052411385",
+        "price": 77.0,
+        "stock": 100
+      },
+      {
+        "name": "Café Legal soluble descafeinado 50 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-descafeinado-50-gr/p",
+        "ean": "7501052411378",
+        "price": 47.5,
+        "stock": 100
+      },
+      {
+        "name": "Café Legal soluble mezclado 180 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-mezclado-180-gr/p",
+        "ean": "7501052414447",
+        "price": 104.5,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal soluble de olla 100 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-de-olla-100-g/p",
+        "ean": "7501052414461",
+        "price": 71.5,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal soluble regular 175 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-regular-175-gr/p",
+        "ean": "7501052414430",
+        "price": 100.5,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal tradicional grano 200 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-tradicional-grano-200-gr/p",
+        "ean": "7501052411316",
+        "price": 57.0,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal soluble de olla 10 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-de-olla-10-g/p",
+        "ean": "7501052414539",
+        "price": 7.0,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal soluble de olla 180 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-de-olla-180-g/p",
+        "ean": "7501052414478",
+        "price": 104.5,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal soluble de olla 50 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-de-olla-50-g/p",
+        "ean": "7501052414454",
+        "price": 40.0,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal tradicional grano 400 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-tradicional-grano-400-gr/p",
+        "ean": "7501052411323",
+        "price": 101.5,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal soluble descafeinado 180 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-descafeinado-180-gr/p",
+        "ean": "7501052415628",
+        "price": 122.0,
+        "stock": 100
+      },
+      {
+        "name": "Café Legal soluble con leche 16 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-soluble-con-leche-16-g/p",
+        "ean": "7501052414034",
+        "price": 10.0,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal mezclado a la canela 200 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-mezclado-a-la-canela-200-gr/p",
+        "ean": "7501052411132",
+        "price": 73.0,
+        "stock": 99999
+      },
+      {
+        "name": "Café Legal grano a la canela 30 sobres de 28 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-legal-grano-a-la-canela-con-30-de-28-g/p",
+        "ean": "17501052411542",
+        "price": 361.0,
+        "stock": 99999
+      }
+    ]
+  },
+  {
+    "term": "oro",
+    "start": 0,
+    "count": 50,
+    "rows": [
+      {
+        "name": "Escobillón Ricitos de oro pieza",
+        "url": "https://www.lagranbodega.com.mx/escobillon-ricitos-de-oro-pieza/p",
+        "ean": "037836060182",
+        "price": 152.0,
+        "stock": 100
+      },
+      {
+        "name": "Café Oro soluble 100 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-oro-soluble-100-gr/p",
+        "ean": "7501052417400",
+        "price": 89.0,
+        "stock": 100
+      },
+      {
+        "name": "Café Oro soluble 200 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-oro-soluble-200-gr/p",
+        "ean": "7501052417608",
+        "price": 160.5,
+        "stock": 99999
+      },
+      {
+        "name": "Café Oro soluble 50 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-oro-soluble-50-gr/p",
+        "ean": "7501052417202",
+        "price": 51.0,
+        "stock": 99999
+      },
+      {
+        "name": "Café Oro soluble 10 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-oro-soluble-10-g/p",
+        "ean": "7501052417011",
+        "price": 10.0,
+        "stock": 99999
+      },
+      {
+        "name": "Brandy Azteca de oro 700 ml",
+        "url": "https://www.lagranbodega.com.mx/brandy-azteca-de-oro-700-ml/p",
+        "ean": "7503023578349",
+        "price": 232.5,
+        "stock": 99999
+      },
+      {
+        "name": "Café Oro soluble 175 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-oro-soluble-175-gr/p",
+        "ean": "7501052417424",
+        "price": 130.0,
+        "stock": 99999
+      },
+      {
+        "name": "Shampoo Grisi ricitos de oro 400 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ricitos-de-oro-400-ml/p",
+        "ean": "7501022103173",
+        "price": 119.0,
+        "stock": 100
+      },
+      {
+        "name": "Jabón Ricitos de Oro merengue 90 g",
+        "url": "https://www.lagranbodega.com.mx/jabon-ricitos-de-oro-merengue-90-g/p",
+        "ean": "810120500737",
+        "price": 27.0,
+        "stock": 99999
+      },
+      {
+        "name": "Mango oro peso aproximado 1 kilo",
+        "url": "https://www.lagranbodega.com.mx/mango-oro-peso-aproximado-1-kilo/p",
+        "ean": "1000109",
+        "price": 24.0,
+        "stock": 100
+      },
+      {
+        "name": "Shampoo Grisi ricitos de oro 250 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ricitos-de-oro-250-ml/p",
+        "ean": "7501022103166",
+        "price": 88.0,
+        "stock": 99999
+      },
+      {
+        "name": "Jabón Ricitos de Oro manzanilla 100 g",
+        "url": "https://www.lagranbodega.com.mx/jabon-de-tocador-grisi-ricitos-de-oro-manzanilla-100-gr/p",
+        "ean": "7501022105283",
+        "price": 27.0,
+        "stock": 99999
+      },
+      {
+        "name": "Café Oro soluble capuccino 16 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-oro-soluble-capuccino-16-g/p",
+        "ean": "7501052417059",
+        "price": 12.0,
+        "stock": 99999
+      },
+      {
+        "name": "Fibra Pureza de Oro natural 340 gr",
+        "url": "https://www.lagranbodega.com.mx/fibra-pureza-de-oro-natural-best-health-340-gr/p",
+        "ean": "7503007208026",
+        "price": 360.5,
+        "stock": 100
+      },
+      {
+        "name": "Crema Grisi ricitos de oro miel 250 ml",
+        "url": "https://www.lagranbodega.com.mx/crema-grisi-ricitos-de-oro-miel-250-ml/p",
+        "ean": "037836040252",
+        "price": 58.5,
+        "stock": 99999
+      },
+      {
+        "name": "Mini kid Ricitos de oro lavanda 4 piezas",
+        "url": "https://www.lagranbodega.com.mx/mini-kid-ricitos-de-oro-lavanda-4-piezas/p",
+        "ean": "7501022140543",
+        "price": 143.0,
+        "stock": 99999
+      },
+      {
+        "name": "Crema Grisi Ricitos de Oro Lavanda 250 ml",
+        "url": "https://www.lagranbodega.com.mx/crema-grisi-ricitos-de-oro-lavanda-250-ml/p",
+        "ean": "037836040412",
+        "price": 58.5,
+        "stock": 99999
+      },
+      {
+        "name": "Jabón Ricitos de Oro avena coloidal 90 g",
+        "url": "https://www.lagranbodega.com.mx/jabon-de-tocador-grisi-ricitos-de-oro-avena-90-gr/p",
+        "ean": "7501022150214",
+        "price": 27.0,
+        "stock": 100
+      },
+      {
+        "name": "Shampoo Grisi ricitos de oro lavanda 250 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ricitos-de-oro-lavanda-250-ml---jabon-ricitos-de-oro-lavanda-250-ml/p",
+        "ean": "7501022133118",
+        "price": 88.0,
+        "stock": 99999
+      },
+      {
+        "name": "Shampoo Bio Pure ricitos de oro 250 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-bio-pure-ricitos-de-oro-250-ml/p",
+        "ean": "037836032776",
+        "price": 93.0,
+        "stock": 99999
+      },
+      {
+        "name": "Crema Ricitos de oro corporal de manzanilla 250 ml",
+        "url": "https://www.lagranbodega.com.mx/crema-ricitos-de-oro-corporal-de-manzanilla-250ml/p",
+        "ean": "037836041112",
+        "price": 58.5,
+        "stock": 100
+      },
+      {
+        "name": "Shampoo Grisi ricitos de oro neutro 250 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ricitos-oro-neutro-250-ml/p",
+        "ean": "037836032660",
+        "price": 88.0,
+        "stock": 99999
+      },
+      {
+        "name": "Crema Grisi ricitos de oro almendras 250 ml",
+        "url": "https://www.lagranbodega.com.mx/crema-grisi-ricitos-de-ooro-almendras-250-ml/p",
+        "ean": "37836041471",
+        "price": 58.5,
+        "stock": 99999
+      },
+      {
+        "name": "Colonia Ricitos de oro con atomizador 100 ml",
+        "url": "https://www.lagranbodega.com.mx/colonia-ricitos-de-oro-con-atomizador-100-ml/p",
+        "ean": "037836040368",
+        "price": 51.0,
+        "stock": 100
+      },
+      {
+        "name": "Jabón Ricitos de Oro leche de almendras 90 g",
+        "url": "https://www.lagranbodega.com.mx/jabon-grisi-ricitos-de-oro-almendras-90-g/p",
+        "ean": "37836051722",
+        "price": 27.0,
+        "stock": 99999
+      },
+      {
+        "name": "Shampoo Grisi ricitos de oro miel 400 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ricitos-de-oro-miel-400-ml/p",
+        "ean": "7501022130025",
+        "price": 119.0,
+        "stock": 100
+      },
+      {
+        "name": "Shampoo GRISI Ricitos de Oro miel 100 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ricitos-de-oro-miel-100-ml/p",
+        "ean": "7501022130063",
+        "price": 40.5,
+        "stock": 99999
+      },
+      {
+        "name": "Café Oro soluble 24 Kilates 160 g",
+        "url": "https://www.lagranbodega.com.mx/cafe-oro-soluble-24-quilates-160-gr/p",
+        "ean": "7501052417509",
+        "price": 153.0,
+        "stock": 99999
+      },
+      {
+        "name": "Biberón Ricitos de oro cuello angosto de 4 oz",
+        "url": "https://www.lagranbodega.com.mx/biberon-ricitos-de-oro-cuello-angosto-4/p",
+        "ean": "037836060014",
+        "price": 69.5,
+        "stock": 10
+      },
+      {
+        "name": "Gel Grisi Ricitos de oro miel 115 g",
+        "url": "https://www.lagranbodega.com.mx/gel-grisi-ricitos-de-oro-miel-115-g/p",
+        "ean": "037836002915",
+        "price": 50.0,
+        "stock": 100
+      },
+      {
+        "name": "Gel Ricitos de oro para peinar 115 g",
+        "url": "https://www.lagranbodega.com.mx/gel-ricitos-de-oro-para-peinar-115-g/p",
+        "ean": "7501022102756",
+        "price": 50.0,
+        "stock": 99999
+      },
+      {
+        "name": "Crema Ricitos de oro corporal agua coco 250 ml",
+        "url": "https://www.lagranbodega.com.mx/crema-ricitos-de-oro-corpora-agua-coco-250ml/p",
+        "ean": "037836041488",
+        "price": 58.5,
+        "stock": 99999
+      },
+      {
+        "name": "Shampoo Grisi ricitos de oro con manzanilla 100 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ricitos-de-oro-con-manzanilla-100-ml/p",
+        "ean": "7501022103111",
+        "price": 40.5,
+        "stock": 99999
+      },
+      {
+        "name": "Shampoo Grisi ricitos de oro leche de almendras 250 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ricitos-de-oro-leche-almendras-250-ml/p",
+        "ean": "037836033742",
+        "price": 89.0,
+        "stock": 100
+      },
+      {
+        "name": "Shampoo Grisi ricitos de oro miel de abeja 250 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ricitos-de-oro-miel-de-abeja-250-ml/p",
+        "ean": "7501022133286",
+        "price": 88.0,
+        "stock": 99999
+      },
+      {
+        "name": "Jabon en barra Ricitos de Oro neutro 90 g",
+        "url": "https://www.lagranbodega.com.mx/jabon-de-tocador-grisi-ricitos-de-oro-neutro-90-gr/p",
+        "ean": "7501022150221",
+        "price": 27.0,
+        "stock": 99999
+      },
+      {
+        "name": "Mini kit Ricitos de Oro manzanilla con 4 pack",
+        "url": "https://www.lagranbodega.com.mx/mini-kit-ricitos-de-oro-manzanilla-4-piezas/p",
+        "ean": "7501022140659",
+        "price": 143.0,
+        "stock": 100
+      },
+      {
+        "name": "Shampoo Grisi ricitos de oro aloe & calendula 250 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ricitos-de-oro-aloe---calendula-250-ml/p",
+        "ean": "850040940732",
+        "price": 88.0,
+        "stock": 99999
+      },
+      {
+        "name": "Jabón GRISI ricitos de oro aloe & caléndula 90 g",
+        "url": "https://www.lagranbodega.com.mx/jabon-grisi-ricitos-de-oro-aloe---calendula-90-g/p",
+        "ean": "850040940756",
+        "price": 27.0,
+        "stock": 99999
+      },
+      {
+        "name": "Shampoo Grisi ricitos de oro lavanda y lechuga 400 ml",
+        "url": "https://www.lagranbodega.com.mx/shampoo-grisi-ric-oro-lavanda-lechuga-400-ml/p",
+        "ean": "7501022133019",
+        "price": 119.0,
+        "stock": 100
+      },
+      {
+        "name": "Jabón en barra Ricitos de Oro miel y argán 90 g",
+        "url": "https://www.lagranbodega.com.mx/jabon-de-tocador-grisi-ricitos-de-oro-miel-de-abeja-90-gr/p",
+        "ean": "7501022150412",
+        "price": 27.0,
+        "stock": 99999
+      },
+      {
+        "name": "Mini kit Ricitos de Oro viaje miel GRISI con 4 pack",
+        "url": "https://www.lagranbodega.com.mx/mini-kit-ricitos-de-oro-viaje-miel-grisi-4-piezas/p",
+        "ean": "7501022140215",
+        "price": 143.0,
+        "stock": 100
+      },
+      {
+        "name": "Detergente para ropa en polvo Persil reg oro 900 g",
+        "url": "https://www.lagranbodega.com.mx/detergente-para-ropa-en-polvo-persil-reg-oro-900-gr/p",
+        "ean": "7501199406671",
+        "price": 49.5,
+        "stock": 99999
+      },
+      {
+        "name": "Jabón en barra Ricitos de Oro lavanda y lechuga 90 g",
+        "url": "https://www.lagranbodega.com.mx/jabon-de-tocador-grisi-ricitos-de-oro-lavanda-lechuga-90-gr/p",
+        "ean": "7501022105344",
+        "price": 27.0,
+        "stock": 99999
+      },
+      {
+        "name": "Refresco Tehuacan toronja 2 l",
+        "url": "https://www.lagranbodega.com.mx/refresco-tehuacan-toronja-2-l/p",
+        "ean": "7501480720028",
+        "price": 33.5,
+        "stock": 99999
+      },
+      {
+        "name": "Rompope Coronado Vainilla 1 l",
+        "url": "https://www.lagranbodega.com.mx/rompope-coronado-vainilla-1-l/p",
+        "ean": "7501022899113",
+        "price": 180.0,
+        "stock": 100
+      },
+      {
+        "name": "Vodka Wyborowa 700 ml",
+        "url": "https://www.lagranbodega.com.mx/vodka-wyborowa-700-ml/p",
+        "ean": "5900685006197",
+        "price": 185.5,
+        "stock": 99999
+      },
+      {
+        "name": "Vodka Wyborowa 1000 ml",
+        "url": "https://www.lagranbodega.com.mx/vodka-wyborowa-1000-ml/p",
+        "ean": "5900685006067",
+        "price": 225.0,
+        "stock": 100
+      },
+      {
+        "name": "Blanqueador Clorox concentrado 10 l",
+        "url": "https://www.lagranbodega.com.mx/blanqueador-clorox-conc-10-lt/p",
+        "ean": "7501071901393",
+        "price": 151.5,
+        "stock": 100
+      },
+      {
+        "name": "Refresco Fresca Toronja 3 l",
+        "url": "https://www.lagranbodega.com.mx/fresca-3-l/p",
+        "ean": "7501055304813",
+        "price": 53.0,
+        "stock": 99999
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+ M lib/presentation/pages/caja/barcode/physical_barcode_reader_controller.dart
+ M lib/presentation/pages/caja/barcode/sale_barcode_read_coordinator.dart
+ M lib/presentation/pages/caja/caja_screen.dart
+ M lib/presentation/pages/pantalla_principal/home_screen.dart
+ M lib/presentation/pages/pantalla_principal/menu_lateral.dart
+ M lib/presentation/widgets/article_search_bar.dart
+ M test/presentation/pages/caja/barcode/physical_barcode_reader_controller_test.dart
+ M test/presentation/pages/pantalla_principal/menu_lateral_test.dart
+ M test/support/barcode_sale_fixture.dart
+?? lib/presentation/pages/caja/barcode/physical_barcode_finish_dialog.dart
+?? lib/presentation/pages/caja/barcode/physical_barcode_reader.dart
+?? test/presentation/pages/caja/physical_barcode_reader_test.dart

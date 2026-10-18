@@ -1,0 +1,620 @@
+[
+  {
+    "refs": [
+      "697"
+    ],
+    "nombre": "Jamón pierna Chimex 225 g",
+    "codigos": [
+      "7501040006975"
+    ],
+    "link": "https://www.lagranbodega.com.mx/jamon-pierna-chimex-225-gr/p",
+    "archivo": "vtex_lagranbodega_chimex_0.json"
+  },
+  {
+    "refs": [
+      "992"
+    ],
+    "nombre": "Salchicha Chimex pavo 400 g",
+    "codigos": [
+      "7501040009921"
+    ],
+    "link": "https://www.lagranbodega.com.mx/salchicha-pavo-chimex-400-gr/p",
+    "archivo": "vtex_lagranbodega_chimex_0.json"
+  },
+  {
+    "refs": [
+      "307"
+    ],
+    "nombre": "Salchicha Chimex para asar 800 g",
+    "codigos": [
+      "7501040003073"
+    ],
+    "link": "https://www.lagranbodega.com.mx/salchicha-chimex-para-asar-800-gr/p",
+    "archivo": "vtex_lagranbodega_chimex_0.json"
+  },
+  {
+    "refs": [
+      "4453"
+    ],
+    "nombre": "Pizza peperoni individual Fud",
+    "codigos": [
+      "7501040044533"
+    ],
+    "link": "https://www.lagranbodega.com.mx/pizza-peperoni-individual-fud/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [
+      "8371"
+    ],
+    "nombre": "Queso panela Fud 200 g",
+    "codigos": [
+      "7501040083716"
+    ],
+    "link": "https://www.lagranbodega.com.mx/queso-panela-200-gr-fud/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [
+      "341"
+    ],
+    "nombre": "Salchicha pavo Fud 500 g",
+    "codigos": [
+      "7501040003417"
+    ],
+    "link": "https://www.lagranbodega.com.mx/salchicha-pavo-tlf-500-gr/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [
+      "4515"
+    ],
+    "nombre": "Pizza Fud jamón y pepperoni",
+    "codigos": [
+      "7501040045158"
+    ],
+    "link": "https://www.lagranbodega.com.mx/pizza-fud-jamon-y-pepperoni-1-pza/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [
+      "8388"
+    ],
+    "nombre": "Queso manchego Fud rebanada redonda 190 g",
+    "codigos": [
+      "7501040083884"
+    ],
+    "link": "https://www.lagranbodega.com.mx/queso-manchego-rebanada-redonda-fud-190-gr/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [
+      "8380"
+    ],
+    "nombre": "Queso Fud americano natural rebanado 180 g",
+    "codigos": [
+      "7501040083808"
+    ],
+    "link": "https://www.lagranbodega.com.mx/queso-amer-natural-fud-180-gr/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [
+      "902"
+    ],
+    "nombre": "Queso de puerco rebanado Fud 250 g aproximado",
+    "codigos": [
+      "7501040009020"
+    ],
+    "link": "https://www.lagranbodega.com.mx/queso-de-puerco-fud-/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [
+      "8381"
+    ],
+    "nombre": "Queso Fud americano manchego rebanado 180 g",
+    "codigos": [
+      "7501040083815"
+    ],
+    "link": "https://www.lagranbodega.com.mx/queso-amer-manchego-fud-180-gr/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [
+      "116"
+    ],
+    "nombre": "Jamón pechuga de pavo virginia Fud 250 g",
+    "codigos": [
+      "7501040001161"
+    ],
+    "link": "https://www.lagranbodega.com.mx/jamon-pechuga-de-pavo-virginia-fud-250-gr/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [
+      "164"
+    ],
+    "nombre": "Jamón de pierna Fud rebanado peso aproximado de 250 g",
+    "codigos": [
+      "7501040001642"
+    ],
+    "link": "https://www.lagranbodega.com.mx/jamon-pierna-fud-/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [
+      "164"
+    ],
+    "nombre": "Jamón de Pierna a granel",
+    "codigos": [
+      "7501040001642"
+    ],
+    "link": "https://www.lagranbodega.com.mx/jamon-de-pierna-a-granel/p",
+    "archivo": "vtex_lagranbodega_fud_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Chocolate Hershey's de Almendras 27 g",
+    "codigos": [
+      "7501024599097"
+    ],
+    "link": "https://www.lagranbodega.com.mx/chocolate-hersheys-de-almendras-27g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hershey's Kisses Selección Especial Cereza 120g",
+    "codigos": [
+      "7501024546138"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-kisses-seleccion-especial-cereza-120g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Jarabe Hershey's sabor Chocolate 589 g",
+    "codigos": [
+      "7501024577057"
+    ],
+    "link": "https://www.lagranbodega.com.mx/jarabe-hersheys-sabor-chocolate-589g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Pastelito Marinela hersheys 25 g",
+    "codigos": [
+      "7500810039045"
+    ],
+    "link": "https://www.lagranbodega.com.mx/pastelito-marinela-hersheys-25-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hersheys barra leche 27 g",
+    "codigos": [
+      "7501024595594"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-barra-leche-27-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Muffin hersheys",
+    "codigos": [
+      "888826"
+    ],
+    "link": "https://www.lagranbodega.com.mx/muffin-hersheys-pieza/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hersheys kisses roses 73.9 g",
+    "codigos": [
+      "7501024597758"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-kisses-roses-73-9-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hersheys Kisses italiano 174.8 g",
+    "codigos": [
+      "7501024596256"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-kisses-italiano-174-8-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hersheys Kisses cereza 178.6 g",
+    "codigos": [
+      "7501024596188"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-kisses-cereza-178-6-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hersheys barra cookies cream 27 g",
+    "codigos": [
+      "7501024595587"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-barra-cookies-cream-27-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hersheys Kisses almendras 184.2 g",
+    "codigos": [
+      "7501024596157"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-kisses-almendras-184-2-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Leche Hersheys chocolate 200 ml",
+    "codigos": [
+      "7506443107632"
+    ],
+    "link": "https://www.lagranbodega.com.mx/leche-hersheys-chocolate-200-ml/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Rosca Hersheys pieza",
+    "codigos": [
+      "888822"
+    ],
+    "link": "https://www.lagranbodega.com.mx/rosca-hersheys-pieza/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Chocolate Hersheys bites cookies & cream 43 g",
+    "codigos": [
+      "7501024523788"
+    ],
+    "link": "https://www.lagranbodega.com.mx/chocolate-hersheys-bites-cookies---cream-43-gr/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hersheys kisses valentines collection 170.90 g",
+    "codigos": [
+      "7501024597765"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-kisses-valentines-collection-170-90-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hersheys Nuggets coffe 96.4 g",
+    "codigos": [
+      "7501024593057"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-nuggets-coffe-96-4-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hersheys kisses selección especial surtido 260.5 g",
+    "codigos": [
+      "7501024549078"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-kisses-seleccion-especial-surtido-260-5-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Hersheys Reeses crema de cacahuate 39.6 g",
+    "codigos": [
+      "7501024592517"
+    ],
+    "link": "https://www.lagranbodega.com.mx/hersheys-reeses-crema-de-cacahuate-39-6-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Pan Bimbo mantechox hersheys 160 g",
+    "codigos": [
+      "7500810038789"
+    ],
+    "link": "https://www.lagranbodega.com.mx/pan-bimbo-mantechox-hersheys-160-g/p",
+    "archivo": "vtex_lagranbodega_hershey_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Queso Philadelphia 180 g",
+    "codigos": [
+      "7622210561558"
+    ],
+    "link": "https://www.lagranbodega.com.mx/queso-philadelphia-180g/p",
+    "archivo": "vtex_lagranbodega_philadelphia_0.json"
+  },
+  {
+    "refs": [],
+    "nombre": "Queso Philadelphia untable 150 g",
+    "codigos": [
+      "7622210558671"
+    ],
+    "link": "https://www.lagranbodega.com.mx/queso-philadelphia-untable-150-g/p",
+    "archivo": "vtex_lagranbodega_philadelphia_0.json"
+  },
+  {
+    "refs": [
+      "8313"
+    ],
+    "nombre": "Queso La Villita manchego rebanado 200 g",
+    "codigos": [
+      "7501040083136"
+    ],
+    "link": "https://www.lagranbodega.com.mx/queso-lvi-manchego-rebanado-200g/p",
+    "archivo": "vtex_lagranbodega_villita_0.json"
+  },
+  {
+    "refs": [
+      "8004"
+    ],
+    "nombre": "Queso La Villita gouda 250 g aproximado",
+    "codigos": [
+      "7501040080043"
+    ],
+    "link": "https://www.lagranbodega.com.mx/queso-gouda-la-villita-/p",
+    "archivo": "vtex_lagranbodega_villita_0.json"
+  },
+  {
+    "refs": [
+      "8225"
+    ],
+    "nombre": "Margarina sin sal La Villita 190 g",
+    "codigos": [
+      "7501040082252"
+    ],
+    "link": "https://www.lagranbodega.com.mx/margarina-sin-sal-la-villita-190-g/p",
+    "archivo": "vtex_lagranbodega_villita_0.json"
+  },
+  {
+    "refs": [
+      "9008"
+    ],
+    "nombre": "Yogurth Yoplait fresa 1 kg",
+    "codigos": [
+      "7501040090080"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-fresa-yoplait-1-kg/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9002"
+    ],
+    "nombre": "Yogurth Yoplait natural 1 kg",
+    "codigos": [
+      "7501040090028"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-natural-yoplait-1-kg/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9076"
+    ],
+    "nombre": "Yogurth Yoplait manzana 125 g",
+    "codigos": [
+      "7501040090769"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-manzana-yoplait-125-g/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9009"
+    ],
+    "nombre": "Yogurth Yoplait durazno 1 kg",
+    "codigos": [
+      "7501040090097"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-durazno-yoplait-1-kg/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9608"
+    ],
+    "nombre": "Yoghurt Yoplait bebible fresa 100 g",
+    "codigos": [
+      "7501040096082"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yoghurt-yoplait-bebible-fresa-100g/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9757"
+    ],
+    "nombre": "Yoghurt Yoplait bebible fresa 470 g",
+    "codigos": [
+      "7501040097577"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yoghurt-yoplait-bebible-fresa-470g/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9607"
+    ],
+    "nombre": "Yoghurt Yoplait bebible fresa 220 g",
+    "codigos": [
+      "7501040096075"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yoghurt-yoplait-bebible-fresa-sp-220g/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9016"
+    ],
+    "nombre": "Yogurth Yoplait frutas cereal 1 kg",
+    "codigos": [
+      "7501040090165"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-frutas-cereal-yoplait-1-kg/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9140"
+    ],
+    "nombre": "Yogurth Yoplait  bebible fresa 220 g",
+    "codigos": [
+      "7501040091407"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-bebible-fresa-yoplait-220-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9122"
+    ],
+    "nombre": "Yogurth Yoplait bebible durazno 220 g",
+    "codigos": [
+      "7501040091223"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-bebible-durazno-yoplait-220-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9702"
+    ],
+    "nombre": "Flan horneado Yoplait duopack 220 g",
+    "codigos": [
+      "7501040097027"
+    ],
+    "link": "https://www.lagranbodega.com.mx/flan-horneado-duopack-yoplait-220-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9319"
+    ],
+    "nombre": "Yoghurt Yoplait licuado fresa 330 g",
+    "codigos": [
+      "7501040093197"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-yoplait-licuado-fresa-330-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9012"
+    ],
+    "nombre": "Yoghurt Yoplait batido manzana 1000 g",
+    "codigos": [
+      "7501040090127"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-manzana-yoplait-1-kg/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9187"
+    ],
+    "nombre": "Yogurth Yoplait bebible natural  220 g",
+    "codigos": [
+      "7501040091872"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-bebible-natural-yoplait-220-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9256"
+    ],
+    "nombre": "Yoghurt Yoplait placer coco 150 g",
+    "codigos": [
+      "7501040092565"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-batido-placer-coco-yoplait-150-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9592"
+    ],
+    "nombre": "Yoghurt Yoplait bebible placer pay de limón 220g",
+    "codigos": [
+      "7501040095924"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yoghurt-yoplait-bebible-placer-malteada-pay-de-limon-220g/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9288"
+    ],
+    "nombre": "Yoghurt Yoplait bebible griego fresa 220 g",
+    "codigos": [
+      "7501040092886"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-griego-bebible-fresa-yoplait-220-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9442"
+    ],
+    "nombre": "Yogurth Yoplait  bebible disfruta fresa 307 g",
+    "codigos": [
+      "7501040094422"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-bebible-disfruta-fresa-yoplait-307-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9123"
+    ],
+    "nombre": "Yogurth Yoplait bebible piña coco 220 g",
+    "codigos": [
+      "7501040091230"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-bebible-piña-coco-yoplait-220-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9259"
+    ],
+    "nombre": "Yogurth Yoplait bebible mini fresa  100 g",
+    "codigos": [
+      "7501040092596"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-bebible-mini-fresa-yoplait-100-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9258"
+    ],
+    "nombre": "Yoghurt Yoplait placer pay fresas 150 g",
+    "codigos": [
+      "7501040092589"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-batido-placer-pay-fresas-yoplait-150-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  },
+  {
+    "refs": [
+      "9085"
+    ],
+    "nombre": "Yogurth Yoplait  batido natural granola 125 g",
+    "codigos": [
+      "7501040090851"
+    ],
+    "link": "https://www.lagranbodega.com.mx/yogurth-batido-natural-granola-yoplait-125-gr/p",
+    "archivo": "vtex_lagranbodega_yoplait_0.json"
+  }
+]

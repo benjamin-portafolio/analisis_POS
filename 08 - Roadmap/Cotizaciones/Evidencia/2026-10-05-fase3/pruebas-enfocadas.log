@@ -1,0 +1,189 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart: ticket sólo incluye datos emitidos, cantidades separadas y leyenda
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart: PNG incluye todas las filas; exporta cotización y recibos para inspección
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart: PNG incluye todas las filas; exporta cotización y recibos para inspección
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart: PNG incluye todas las filas; exporta cotización y recibos para inspección
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+00:00 +6: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+00:00 +7: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: Recuperables incluye Disponible y En venta; Todas conserva filtro al regresar
+00:00 +8: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +9: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +9: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: doble toque abre un detalle; recuperar espera commit y devuelve resultado a su dueño
+
+Warning: A call to tap() with finder "Found 1 widget with text "Cotización quotation-1": [
+  Text("Cotización quotation-1", dependencies: [DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),
+]" derived an Offset (Offset(376.0, 151.2)) that would not hit test on the specified widget.
+Maybe the widget is actually off-screen, or another widget is obscuring it, or the widget cannot receive pointer events.
+The finder corresponds to this RenderBox: RenderParagraph#07dae relayoutBoundary=up13
+The hit test result at that offset is: HitTestResult(RenderPointerListener#c1d28@Offset(376.0, 151.2), RenderSemanticsAnnotations#909fb@Offset(376.0, 151.2), RenderCustomPaint#c9070@Offset(376.0, 151.2), RenderSemanticsAnnotations#d9f74@Offset(376.0, 151.2), RenderSemanticsAnnotations#735d8@Offset(376.0, 151.2), RenderSemanticsAnnotations#ad432@Offset(376.0, 151.2), RenderTapRegionSurface#22d4e@Offset(376.0, 151.2), RenderSemanticsAnnotations#45085@Offset(376.0, 151.2), RenderSemanticsAnnotations#0df5e@Offset(376.0, 151.2), HitTestEntry<HitTestTarget>#0f9a7(_ReusableRenderView#67b7f), HitTestEntry<HitTestTarget>#0a945(<AutomatedTestWidgetsFlutterBinding>))
+#0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2158:25)
+#1      WidgetController.getCenter (package:flutter_test/src/controller.dart:1942:12)
+#2      WidgetController.tap (package:flutter_test/src/controller.dart:1075:7)
+#3      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart:123:20)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+#6      StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+To silence this warning, pass "warnIfMissed: false" to "tap()".
+To make this warning fatal, set WidgetController.hitTestWarningShouldBeFatal to true.
+
+00:00 +10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +11: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +12: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +13: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +14: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +15: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +16: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +17: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +18: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +19: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +20: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +21: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +22: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +23: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +24: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +25: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +26: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +27: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +28: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +29: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +30: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +31: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +32: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +33: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +34: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +35: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +36: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +37: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +38: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +39: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +40: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +41: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +42: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +43: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +44: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +45: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +46: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +47: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +48: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +49: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +50: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +51: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +52: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +53: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:04 +54: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:04 +55: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: venta previa, A → B → A, regreso y reapertura en standalone
+00:04 +56: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +57: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:05 +58: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:05 +59: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:05 +60: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:05 +61: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:05 +62: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:05 +63: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:05 +64: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:05 +65: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:05 +66: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:05 +67: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: selección seguida de cantidad medida conserva evento y referencias en standalone
+00:05 +68: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: selección seguida de cantidad medida conserva evento y referencias en standalone
+00:05 +69: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: selección seguida de cantidad medida conserva evento y referencias en standalone
+00:05 +70: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart: confirma 200 después de commit y bloquea doble toque
+00:06 +71: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +72: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +73: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +74: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +75: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +76: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +77: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +78: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +79: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +80: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +81: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +82: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +83: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +84: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +85: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +86: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:06 +87: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +88: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +89: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: desconocido, incompatible, varios códigos e inactivos no escriben
+00:06 +90: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: reinicio real carga ticket por ID: editar captura/catalogo conserva PNG emitido
+00:06 +91: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: reinicio real carga ticket por ID: editar captura/catalogo conserva PNG emitido
+00:06 +92: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:06 +93: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart: compuerta → consulta → comando → evento → borrador en standalone
+00:06 +94: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:06 +95: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:07 +96: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:07 +97: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:07 +98: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:07 +99: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:07 +100: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:07 +101: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: normal, 200ms, marco nativo; normaliza y serializa guardado lento
+00:07 +102: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cancelar selector y callbacks duplicados/ocultos no repiten el diálogo
+00:07 +103: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cancelar selector y callbacks duplicados/ocultos no repiten el diálogo
+00:07 +104: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: ambigüedad e inválidos no ejecutan; un error no repite la presentación
+00:07 +105: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart: ambigüedad e inválidos no ejecutan; un error no repite la presentación
+00:07 +106: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: venta medida valida y convierte la cantidad con expectedUnitId
+00:07 +107: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: venta medida valida y convierte la cantidad con expectedUnitId
+00:07 +108: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: venta medida valida y convierte la cantidad con expectedUnitId
+00:07 +109: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: venta medida valida y convierte la cantidad con expectedUnitId
+00:07 +110: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +111: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +112: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +113: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +114: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:07 +115: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:08 +116: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:08 +117: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: apertura guarda tras commit y caja actual reacciona
+00:08 +118: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/pantalla_principal/menu_lateral_test.dart: Configuracion opens settings as a full page
+00:08 +119: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/pantalla_principal/menu_lateral_test.dart: Configuracion opens settings as a full page
+00:08 +120: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano durante cantidad espera confirmación explícita al volver
+00:08 +121: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano durante cantidad espera confirmación explícita al volver
+00:08 +122: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:08 +123: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:08 +124: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:08 +125: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart: corte muestra diferencia, historial y detalle inmutable
+00:08 +126: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cancelar selector o cantidad conserva artículos previos
+00:08 +127: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cancelar selector o cantidad conserva artículos previos
+00:08 +128: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cancelar selector o cantidad conserva artículos previos
+00:08 +129: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cancelar selector o cantidad conserva artículos previos
+00:08 +130: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cancelar selector o cantidad conserva artículos previos
+00:08 +131: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/pantalla_principal/menu_lateral_test.dart: Configuracion cambia la captura de caja de la instalacion
+00:08 +132: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/pantalla_principal/menu_lateral_test.dart: Configuracion cambia la captura de caja de la instalacion
+00:08 +133: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: unidad inactiva y variante retirada durante selección no escriben
+00:08 +134: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: unidad inactiva y variante retirada durante selección no escriben
+00:09 +135: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: unidad inactiva y variante retirada durante selección no escriben
+00:09 +136: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: fallo de consulta o guardado conserva venta previa y permite otra presentación
+00:09 +137: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta y guardado lentos serializan admisión y observan presencia
+00:10 +138: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cerrar con botón espera el guardado y descarta callbacks antiguos
+00:10 +139: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cerrar con regreso del sistema espera el guardado y descarta callbacks antiguos
+00:10 +140: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cerrar durante consulta descarta el resultado sin comenzar un guardado
+00:10 +141: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano y ruta cubierta no acreditan retirada ni aceptan callbacks
+00:11 +142: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por segundo plano no agrega al terminar
+00:11 +143: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por pausa y regreso no agrega al terminar
+00:11 +144: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:12 +145: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: segundo plano durante guardado conserva un solo commit
+00:12 +146: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: referencia vacía se valida antes de escribir en standalone
+00:12 +147: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+00:15 +148: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: fallo SQLite durante proyección revierte evento, refs y venta en standalone
+00:15 +149: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: referencia vacía se valida antes de escribir en serverSync
+00:15 +150: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: A ×2 y B ×2, Caja y reinicio SQLite real en serverSync
+00:18 +151: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: fallo SQLite durante proyección revierte evento, refs y venta en serverSync
+00:18 +152: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cámara permissionDenied conserva productos previos y regreso disponible
+00:19 +153: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: cámara unsupported conserva productos previos y regreso disponible
+00:19 +154: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: permiso pendiente al cerrar libera la cámara cuando termina el inicio
+00:19 +155: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: permiso pendiente al ir a segundo plano termina detenido y reanuda sin duplicar
+00:19 +156: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: snapshots de precios distintos mantienen tarjetas distintas y un artículo
+00:20 +157: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: snapshots de unidades distintas no se fusionan visualmente
+00:20 +158: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: callback ean13 conserva código y ceros iniciales
+00:20 +159: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: callback ean8 conserva código y ceros iniciales
+00:20 +160: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: callback upcA conserva código y ceros iniciales
+00:20 +161: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: rotar teléfono pequeño con texto ampliado conserva venta y controles
+00:20 +162: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: tarjetas desplazables, cámara y total sin overflow en Size(320.0, 640.0), texto 2.0
+00:21 +163: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: tarjetas desplazables, cámara y total sin overflow en Size(740.0, 360.0), texto 1.3
+00:21 +164: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart: tarjetas desplazables, cámara y total sin overflow en Size(1280.0, 800.0), texto 1.0
+00:21 +165: All tests passed!

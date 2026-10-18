@@ -1,0 +1,108 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart
+00:00 +0: HTTP real: alta offline, cadena causal, reinicio, ecos y terminal nueva
+WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)
+#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)
+#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:33:29)
+#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:158:17)
+#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)
+#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)
+#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:33:29)
+#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:184:11)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:01 +0 -1: HTTP real: alta offline, cadena causal, reinicio, ecos y terminal nueva [E]
+  Error enviando eventos: 500 {"statusCode":500,"message":"Internal server error"}
+  package:pos_flutter/application/sync/sync_push_service.dart 301:9  SyncPushService._postPushBody
+  
+00:01 +0 -1: HTTP real: concurrencia por producto y proveedor, preflight, restauración y reporte
+WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)
+#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)
+#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:33:29)
+#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:261:36)
+#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:01 +0 -2: HTTP real: concurrencia por producto y proveedor, preflight, restauración y reporte [E]
+  Expected: <0>
+    Actual: <2>
+  
+  package:matcher                                            expect
+  package:flutter_test/src/widget_tester.dart 473:18         expect
+  test/integration/product_suppliers_server_test.dart 120:7  main.sync
+  
+00:01 +0 -2: HTTP real: rechazo de alta bloquea y deshace dependientes antes de FK
+00:01 +0 -3: HTTP real: rechazo de alta bloquea y deshace dependientes antes de FK [E]
+  Expected: <1>
+    Actual: <3>
+  
+  package:matcher                                            expect
+  package:flutter_test/src/widget_tester.dart 473:18         expect
+  test/integration/product_suppliers_server_test.dart 326:7  main.<fn>
+  
+00:01 +0 -3: HTTP real: legado contra conjunto conocido y replay de ausencia histórica
+00:01 +0 -4: HTTP real: legado contra conjunto conocido y replay de ausencia histórica [E]
+  Expected: <0>
+    Actual: <2>
+  
+  package:matcher                                            expect
+  package:flutter_test/src/widget_tester.dart 473:18         expect
+  test/integration/product_suppliers_server_test.dart 120:7  main.sync
+  
+00:01 +0 -4: HTTP/WebSocket real: avisos, desconexión y reconexión del listener existente
+WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)
+#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)
+#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:33:29)
+#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:444:36)
+#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:11 +0 -5: HTTP/WebSocket real: avisos, desconexión y reconexión del listener existente [E]
+  TimeoutException after 0:00:10.000000: Future not completed
+  dart:async  _startMicrotaskLoop
+  
+00:11 +0 -5: Some tests failed.

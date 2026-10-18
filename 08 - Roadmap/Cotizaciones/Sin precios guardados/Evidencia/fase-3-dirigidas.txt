@@ -1,0 +1,45 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: P09: consulta conserva selección con precio/total no disponibles
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotations_screen_test.dart: P09: consulta conserva selección con precio/total no disponibles
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_ticket_test.dart: PNG incluye todas las filas; exporta cotización y recibos para inspección
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +6: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +7: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +8: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/caja_quotation_test.dart: Cotizar vacío o sin revisión está deshabilitado
+00:00 +9: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +10: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +11: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +12: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +13: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +14: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:00 +15: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +16: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +17: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +18: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +19: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +20: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +21: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +22: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +23: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +24: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +25: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +26: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +27: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +28: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +29: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +30: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:01 +31: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +32: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +33: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +34: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +35: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +36: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:02 +37: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +38: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +39: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:05 +40: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: P09/P10/P26: listado y detalle abiertos reaccionan a precio, producto y unidad sin escribir
+00:06 +41: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: P10/P26/P27: dos PNG en la misma pantalla; share estable durante cambio de precio, sin escrituras
+00:06 +42: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart: reinicio real carga ticket por ID: editar captura/catalogo muestra estimación vigente
+00:07 +43: All tests passed!

@@ -1,0 +1,37 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart
+00:00 +0: acceso 1 de Caja abre una sola cámara, sin crear venta
+00:00 +1: acceso 2 de Caja abre una sola cámara, sin crear venta
+00:01 +2: venta previa, A → B → A, regreso y reapertura en standalone
+00:01 +3: venta previa, A → B → A, regreso y reapertura en serverSync
+00:02 +4: 20 s de callbacks y tres presentaciones simuladas acumulan solo al rearmar
+00:02 +5: selección seguida de cantidad medida conserva evento y referencias en standalone
+00:03 +6: selección seguida de cantidad medida conserva evento y referencias en serverSync
+00:03 +7: un fallo de detección detiene la cámara y conserva el regreso
+00:03 +8: desconocido, incompatible, varios códigos e inactivos no escriben
+00:03 +9: código compartido selecciona producto, variante y precio sin primer resultado automático
+00:04 +10: cancelar selector y callbacks duplicados/ocultos no repiten el diálogo
+00:04 +11: venta medida valida y convierte la cantidad con expectedUnitId
+00:04 +12: cancelar cantidad y pausa del diálogo conservan la venta vacía
+00:04 +13: una unidad cambiada durante el diálogo falla sin una tarjeta optimista
+00:05 +14: unidad inactiva y variante retirada durante selección no escriben
+00:05 +15: fallo de consulta o guardado conserva venta previa y permite otra presentación
+00:05 +16: consulta y guardado lentos serializan admisión y observan presencia
+00:06 +17: cerrar con botón espera el guardado y descarta callbacks antiguos
+00:06 +18: cerrar con regreso del sistema espera el guardado y descarta callbacks antiguos
+00:06 +19: cerrar durante consulta descarta el resultado sin comenzar un guardado
+00:07 +20: segundo plano y ruta cubierta no acreditan retirada ni aceptan callbacks
+00:07 +21: consulta pendiente interrumpida por segundo plano no agrega al terminar
+00:07 +22: consulta pendiente interrumpida por pausa y regreso no agrega al terminar
+00:08 +23: consulta pendiente interrumpida por otra ruta no agrega al terminar
+00:08 +24: segundo plano durante guardado conserva un solo commit
+00:08 +25: referencia vacía se valida antes de escribir en standalone
+00:08 +26: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+01:07 +26 -1: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart [E]
+  Bad state: Cannot close sink while adding stream.
+  package:stream_channel/src/guarantee_channel.dart 180:7      _GuaranteeSink.close
+  package:flutter_tools/src/test/flutter_platform.dart 766:43  FlutterPlatform._startTest
+  
+One or more uncaught errors occurred shutting down:
+  Bad state: Cannot add event while adding stream.
+01:07 +26 -1: A ×2 y B ×2, Caja y reinicio SQLite real en standalone - did not complete [E]
+01:07 +26 -1: Some tests failed.

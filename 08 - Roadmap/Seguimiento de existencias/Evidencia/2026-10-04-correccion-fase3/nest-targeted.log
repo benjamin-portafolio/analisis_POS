@@ -1,0 +1,11 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand --json --outputFile=/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-fase3-fix-mcwy22ro/nest-targeted.json --testPathPatterns=1790774400000-AddInventoryOriginAndVariantMemory.postgres.spec.ts|1790860800000-ReconstructLegacyVariantInventoryMemory.postgres.spec.ts|variant-inventory-memory.postgres.spec.ts|variant-tracking-late-sale.postgres.spec.ts|producto-event.handler.postgres.spec.ts
+
+
+Test Suites: 5 passed, 5 total
+Tests:       44 passed, 44 total
+Snapshots:   0 total
+Time:        1.81 s, estimated 2 s
+Ran all test suites matching 1790774400000-AddInventoryOriginAndVariantMemory.postgres.spec.ts|1790860800000-ReconstructLegacyVariantInventoryMemory.postgres.spec.ts|variant-inventory-memory.postgres.spec.ts|variant-tracking-late-sale.postgres.spec.ts|producto-event.handler.postgres.spec.ts.
+Test results written to: ../../../../../../../../../var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-fase3-fix-mcwy22ro/nest-targeted.json

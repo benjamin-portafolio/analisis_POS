@@ -1,0 +1,49 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand --json --outputFile=/tmp/phase6-unit-first.json
+
+FAIL src/sync/producto-event.handler.spec.ts
+  ● ProductoEventHandler › aplica idempotentemente el mismo evento
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "accepted"
+    Received: "duplicate"
+
+      418 |     const result = await handler.apply(fixture.manager, productEvent());
+      419 |
+    > 420 |     expect(result.status).toBe('accepted');
+          |                           ^
+      421 |     expect(result.server_sequence).toBe(11);
+      422 |     expect(fixture.created).toHaveLength(0);
+      423 |   });
+
+      at Object.<anonymous> (sync/producto-event.handler.spec.ts:420:27)
+
+
+Summary of all failing tests
+FAIL sync/producto-event.handler.spec.ts
+  ● ProductoEventHandler › aplica idempotentemente el mismo evento
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "accepted"
+    Received: "duplicate"
+
+      418 |     const result = await handler.apply(fixture.manager, productEvent());
+      419 |
+    > 420 |     expect(result.status).toBe('accepted');
+          |                           ^
+      421 |     expect(result.server_sequence).toBe(11);
+      422 |     expect(fixture.created).toHaveLength(0);
+      423 |   });
+
+      at Object.<anonymous> (sync/producto-event.handler.spec.ts:420:27)
+
+
+Test Suites: 1 failed, 25 skipped, 20 passed, 21 of 46 total
+Tests:       1 failed, 139 skipped, 312 passed, 452 total
+Snapshots:   0 total
+Time:        2.452 s
+Ran all test suites.
+Test results written to: ../../../../../../../../../tmp/phase6-unit-first.json

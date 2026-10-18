@@ -1,0 +1,13 @@
+{
+  "command": [
+    "flutter",
+    "build",
+    "apk",
+    "--debug"
+  ],
+  "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+  "started": "2026-10-09T10:31:35.032681-06:00",
+  "finished": "2026-10-09T10:31:51.931440-06:00",
+  "duration_seconds": 16.9,
+  "exit_code": 0
+}

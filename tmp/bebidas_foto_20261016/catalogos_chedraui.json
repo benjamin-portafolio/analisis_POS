@@ -1,0 +1,1686 @@
+[
+  {
+    "query": "Pepsi",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=Pepsi&_from=0&_to=49",
+    "products": [
+      {
+        "nombre": "Refresco Pepsi 1.5L",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-15l-3140943/p",
+        "items": [
+          {
+            "ean": "750103131168",
+            "price": 25.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78781969/7501031311682_00.jpg?v=639274252897000000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi 400ml",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-400ml-3253118/p",
+        "items": [
+          {
+            "ean": "7501031302741",
+            "price": 12.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78581707/7501031302741_00.jpg?v=639269932372500000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-600ml-3080138/p",
+        "items": [
+          {
+            "ean": "261103131001",
+            "price": 18.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78781965/7501031310012_00.jpg?v=639274252884600000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola 3L",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-3l-3061511/p",
+        "items": [
+          {
+            "ean": "261103131009",
+            "price": 47.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78781953/7501031310098_00.jpg?v=639274252847870000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola 2.5L",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-25l-3062063/p",
+        "items": [
+          {
+            "ean": "261103131025",
+            "price": 40.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78221617/7501031310258_00.jpg?v=639263890941900000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola 2.5L",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-25l-3817418/p",
+        "items": [
+          {
+            "ean": "17501022015411",
+            "price": 38.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77867397/7501022015414_00.jpg?v=639257947605870000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-355ml-3061474/p",
+        "items": [
+          {
+            "ean": "750103131130",
+            "price": 19.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78781366/7501031311309_00.jpg?v=639274250865900000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola 1L",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-1l-3061480/p",
+        "items": [
+          {
+            "ean": "261103131164",
+            "price": 22.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/75356299/7501031311644_00.jpg?v=639223273361100000"
+          }
+        ]
+      },
+      {
+        "nombre": "Pepsi Crema Cereza 500ml",
+        "url": "https://www.chedraui.com.mx/pepsi-crema-cereza-500ml-3899671/p",
+        "items": [
+          {
+            "ean": "9999918899077",
+            "price": 20.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/76689241/12000240812_00.jpg?v=639241565464000000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola 2L",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-2l-3061476/p",
+        "items": [
+          {
+            "ean": "17501031311603",
+            "price": 35.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78781354/7501031311606_00.jpg?v=639274250848000000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cereza 10 Piezas",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cereza-10-piezas-3894279/p",
+        "items": [
+          {
+            "ean": "12000170577",
+            "price": 254.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/75903180/12000170577_00.jpg?v=639231971936630000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola Light 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-light-600ml-3061763/p",
+        "items": [
+          {
+            "ean": "261103131255",
+            "price": 16.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789227/7501031312559_00.jpg?v=639274275933830000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola Light 2L",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-light-2l-3061745/p",
+        "items": [
+          {
+            "ean": "17501031312402",
+            "price": 35.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77844448/7501031312405_00.jpg?v=639257887760570000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Kick Cola 500ml",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-kick-cola-500ml-3061527/p",
+        "items": [
+          {
+            "ean": "17501031304490",
+            "price": 17.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789214/7501022014257_00.jpg?v=639274275899600000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi 6 Pack 237ml",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-6-pack-237ml-3236383/p",
+        "items": [
+          {
+            "ean": "750103130617",
+            "price": 67.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78228535/7501031306176_00.jpg?v=639263910622000000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola Light 2.5L",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-light-25l-3061777/p",
+        "items": [
+          {
+            "ean": "17501031312778",
+            "price": 38.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/75557574/7501031312771_00.jpg?v=639226732691770000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Black sin Azúcar 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-black-sin-azucar-355ml-3607111/p",
+        "items": [
+          {
+            "ean": "7501022013861",
+            "price": 8.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78536980/7501022013861_00.jpg?v=639269307580670000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola Black sin Azúcar 1.5L",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-black-sin-azucar-15l-3702472/p",
+        "items": [
+          {
+            "ean": "7501022013069",
+            "price": 25.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78787997/7501022013069_00.jpg?v=639274272487530000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola Black sin Azúcar 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-black-sin-azucar-600ml-3607109/p",
+        "items": [
+          {
+            "ean": "17501022013059",
+            "price": 17.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78585603/7501022013052_00.jpg?v=639269943787530000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Cola Black sin Azúcar 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-cola-black-sin-azucar-355ml-3607108/p",
+        "items": [
+          {
+            "ean": "17501022013028",
+            "price": 17.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77831531/7501022013021_00.jpg?v=639257846646230000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Pepsi Black 6 pack de 237ml Cada Uno",
+        "url": "https://www.chedraui.com.mx/refresco-pepsi-black-6-pack-de-237ml-cada-uno-3687160/p",
+        "items": [
+          {
+            "ean": "750102201470",
+            "price": 63.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77841280/7501022014707_00.jpg?v=639257878903430000"
+          }
+        ]
+      },
+      {
+        "nombre": "6 Pack Refresco Pepsi Light de 237ml Cada Uno",
+        "url": "https://www.chedraui.com.mx/6-pack-refresco-pepsi-light-de-237ml-cada-uno-3236424/p",
+        "items": [
+          {
+            "ean": "7501031306145",
+            "price": 62.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/76547789/7501031306145_00.jpg?v=639240777273370000"
+          }
+        ]
+      },
+      {
+        "nombre": "6 Pack Refresco Pepsi Cola de 355ml Cada Uno",
+        "url": "https://www.chedraui.com.mx/6-pack-refresco-pepsi-cola-de-355ml-cada-uno-3061922/p",
+        "items": [
+          {
+            "ean": "7501031310036",
+            "price": 94.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77157364/7501031310036_00.jpg?v=639250332924300000"
+          }
+        ]
+      },
+      {
+        "nombre": "Peluche Hyojo Snacks & Food S3 Pepsi 1 Pieza",
+        "url": "https://www.chedraui.com.mx/peluche-hyojo-snacks--food-s3-pepsi-1-pieza-3920349/p",
+        "items": [
+          {
+            "ean": "0035051255697",
+            "price": 399.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78220413/35051255697_00.jpg?v=639263887447030000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "7up",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=7up&_from=0&_to=49",
+    "products": [
+      {
+        "nombre": "Refresco 7Up Limón 2L",
+        "url": "https://www.chedraui.com.mx/refresco-7up-limon-2l-3062114/p",
+        "items": [
+          {
+            "ean": "750102201462",
+            "price": 34.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789336/7501022014622_00.jpg?v=639274276244270000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7Up Lima Limón 2.5L",
+        "url": "https://www.chedraui.com.mx/refresco-7up-lima-limon-25l-3061604/p",
+        "items": [
+          {
+            "ean": "7501031322718",
+            "price": 36.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789400/7501022014639_00.jpg?v=639274276501600000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7Up Lima Limón 3L",
+        "url": "https://www.chedraui.com.mx/refresco-7up-lima-limon-3l-3062065/p",
+        "items": [
+          {
+            "ean": "7501031322589",
+            "price": 49.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77683816/7501022014646_00.jpg?v=639256025498170000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7Up Lima-Limón 1.5 L",
+        "url": "https://www.chedraui.com.mx/null-3856238/p",
+        "items": [
+          {
+            "ean": "37501022014081",
+            "price": 25.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78652285/7501022014080_00.jpg?v=639271046670930000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7 Up Tropical 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-7-up-tropical-355ml-3832111/p",
+        "items": [
+          {
+            "ean": "0078000037975",
+            "price": 28.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78802946/78000037975_00.jpg?v=639274316585470000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7 Up Citrus 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-7-up-citrus-355ml-3854137/p",
+        "items": [
+          {
+            "ean": "750102201584",
+            "price": 8.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77556022/7501022015841_00.jpg?v=639253862076300000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7 Up Citrus 2L",
+        "url": "https://www.chedraui.com.mx/refresco-7-up-citrus-2l-3854139/p",
+        "items": [
+          {
+            "ean": "17501022015886",
+            "price": 33.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77556023/7501022015889_00.jpg?v=639253862080700000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7 Up Citrus 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-7-up-citrus-600ml-3854680/p",
+        "items": [
+          {
+            "ean": "7501022015858",
+            "price": 18.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77556021/7501022015858_00.jpg?v=639253862071470000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7 Up Lima Limón 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-7-up-lima-limon-600ml-3672661/p",
+        "items": [
+          {
+            "ean": "7501022014585",
+            "price": 16.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78788421/7501022014585_00.jpg?v=639274273877800000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7 Up 6 pack 237ml",
+        "url": "https://www.chedraui.com.mx/refresco-7-up-6-pack-237ml-3236425/p",
+        "items": [
+          {
+            "ean": "7501022014547",
+            "price": 72.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78119245/7501022014547_00.jpg?v=639262155652470000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7 up Cherry 355 ml",
+        "url": "https://www.chedraui.com.mx/refresco-7-up-cherry-355-ml-3380565/p",
+        "items": [
+          {
+            "ean": "7800001182",
+            "price": 28.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78782287/78000005301_00.jpg?v=639274253983430000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7 Up Pink Lemonade 600 ml",
+        "url": "https://www.chedraui.com.mx/refresco-7-up-pink-lemonade-600-ml-3922393/p",
+        "items": [
+          {
+            "ean": "7501022016459",
+            "price": 18.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78919303/7501022016459_00.jpg?v=639277058127370000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7 Up Cereza Shirley Temporada 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-7-up-cereza-shirley-temporada-355ml-3847321/p",
+        "items": [
+          {
+            "ean": "9999918646992",
+            "price": 27.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/76595748/78000039191_00.jpg?v=639240905405400000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco 7 Up Lima Limón Sin Calorías 400ml",
+        "url": "https://www.chedraui.com.mx/refresco-7-up-lima-limon-sin-calorias-400ml-3616978/p",
+        "items": [
+          {
+            "ean": "750102201388",
+            "price": 12.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789394/7501022013885_00.jpg?v=639274276475300000"
+          }
+        ]
+      },
+      {
+        "nombre": "Pañales Autoajustables Bbtips Baby Up Talla 7 XXG 40 pañales",
+        "url": "https://www.chedraui.com.mx/panales-autoajustables-bbtips-baby-up-talla-7-xxg-40-panales-3737263/p",
+        "items": [
+          {
+            "ean": "10013117031611",
+            "price": 265.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77917850/13117031614_00.jpg?v=639258734672930000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bolígrafo Bic Cristal Up Barril Blanco Punto Grueso 7 Piezas + 1",
+        "url": "https://www.chedraui.com.mx/boligrafo-bic-cristal-up-barril-blanco-punto-grueso-7-piezas--1-3392699/p",
+        "items": [
+          {
+            "ean": "70330519237",
+            "price": 68.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78181264/70330519237_00.jpg?v=639263238768870000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Mirinda",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=Mirinda&_from=0&_to=49",
+    "products": [
+      {
+        "nombre": "Refresco Mirinda Naranaja 2.5L",
+        "url": "https://www.chedraui.com.mx/refresco-mirinda-naranaja-25l-3062116/p",
+        "items": [
+          {
+            "ean": "7501031345205",
+            "price": 37.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789412/7501031345205_00.jpg?v=639274276536530000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Mirinda Naranja 2L",
+        "url": "https://www.chedraui.com.mx/refresco-mirinda-naranja-2l-3061546/p",
+        "items": [
+          {
+            "ean": "7501022015698",
+            "price": 32.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78221610/7501031346608_00.jpg?v=639263890941730000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Mirinda Naranja 400ml",
+        "url": "https://www.chedraui.com.mx/refresco-mirinda-naranja-400ml-3253141/p",
+        "items": [
+          {
+            "ean": "750103130281",
+            "price": 12.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789276/7501031302819_00.jpg?v=639274276080930000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Mirinda Naranja 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-mirinda-naranja-600ml-3062099/p",
+        "items": [
+          {
+            "ean": "7501031345052",
+            "price": 16.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789231/7501031345052_00.jpg?v=639274275949000000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Mirinda Naranja de 335ml",
+        "url": "https://www.chedraui.com.mx/refresco-mirinda-naranja-de-335ml-3061544/p",
+        "items": [
+          {
+            "ean": "750103134630",
+            "price": 19.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/71233472/7501031346301_00.jpg?v=639168117622900000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Mirinda Naranja 3L",
+        "url": "https://www.chedraui.com.mx/refresco-mirinda-naranja-3l-3062068/p",
+        "items": [
+          {
+            "ean": "7501022015704",
+            "price": 49.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/72862118/7501031345083_00.jpg?v=639187057356100000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Mirinda 6 pack 237ml",
+        "url": "https://www.chedraui.com.mx/refresco-mirinda-6-pack-237ml-3236426/p",
+        "items": [
+          {
+            "ean": "750103130613",
+            "price": 67.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78119248/7501031306138_00.jpg?v=639262155663700000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Mirinda Naranja 1.5 L PET",
+        "url": "https://www.chedraui.com.mx/null-3856239/p",
+        "items": [
+          {
+            "ean": "7501022015292",
+            "price": 25.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78480348/7501022015292_00.jpg?v=639268228403800000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Manzanita",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "query": "Sangria Casera",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "query": "Squirt",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=Squirt&_from=0&_to=49",
+    "products": [
+      {
+        "nombre": "Refresco Squirt 2L",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-2l-3080171/p",
+        "items": [
+          {
+            "ean": "7501071120077",
+            "price": 35.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78782006/7501071120077_00.jpg?v=639274253040600000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-600ml-3094263/p",
+        "items": [
+          {
+            "ean": "0261107112038",
+            "price": 17.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78798472/7501071120183_00.jpg?v=639274304209430000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt 355 ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-355-ml-3650105/p",
+        "items": [
+          {
+            "ean": "750107112204",
+            "price": 18.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/72242444/7501071122040_00.jpg?v=639179436107900000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Toronja 3L",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-toronja-3l-3062070/p",
+        "items": [
+          {
+            "ean": "261107112030",
+            "price": 49.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78581746/7501071120305_00.jpg?v=639269932490900000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Toronja 2.5L",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-toronja-25l-3062134/p",
+        "items": [
+          {
+            "ean": "261107112041",
+            "price": 36.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78536863/7501071120411_00.jpg?v=639269307189270000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Toronja 300ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-toronja-300ml-3773907/p",
+        "items": [
+          {
+            "ean": "7501071121517",
+            "price": 10.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/61714046/7501071121517_00.jpg?v=639038669485470000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Toronja 400ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-toronja-400ml-3516917/p",
+        "items": [
+          {
+            "ean": "750107112066",
+            "price": 11.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789373/7501071120664_00.jpg?v=639274276409030000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Light 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-light-600ml-3062300/p",
+        "items": [
+          {
+            "ean": "17501071140249",
+            "price": 16.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789326/7501071140242_00.jpg?v=639274276219700000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Light 2L",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-light-2l-3062298/p",
+        "items": [
+          {
+            "ean": "7501071140075",
+            "price": 32.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78536962/7501071140075_00.jpg?v=639269307533470000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Toronja 1.5ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-toronja-15ml-3714205/p",
+        "items": [
+          {
+            "ean": "10400095084638",
+            "price": 27.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78642641/7501071120176_00.jpg?v=639271019063670000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Sin Azúcar 400ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-sin-azucar-400ml-3830138/p",
+        "items": [
+          {
+            "ean": "17501071140751",
+            "price": 11.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78331194/7501071140754_00.jpg?v=639264980255200000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt 6 pack 237ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-6-pack-237ml-3236451/p",
+        "items": [
+          {
+            "ean": "7501071121364",
+            "price": 67.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77831394/7501071121364_00.jpg?v=639257846286170000"
+          }
+        ]
+      },
+      {
+        "nombre": "Squirt Cantarito Cero Alcohol 355ml",
+        "url": "https://www.chedraui.com.mx/squirt-cantarito-cero-alcohol-355ml-3903178/p",
+        "items": [
+          {
+            "ean": "17501071140867",
+            "price": 20.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78191545/7501071140860_00.jpg?v=639263269596400000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt sin azúcar 2L",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-sin-azucar-2l-3845529/p",
+        "items": [
+          {
+            "ean": "9999918636818",
+            "price": 32.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/75758964/7501071140792_00.jpg?v=639229405462770000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt sin azúcar 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-sin-azucar-600ml-3845528/p",
+        "items": [
+          {
+            "ean": "750107114080",
+            "price": 18.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/75758965/7501071140808_00.jpg?v=639229405467600000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt sin azúcar 300ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-sin-azucar-300ml-3845527/p",
+        "items": [
+          {
+            "ean": "9999918636795",
+            "price": 11.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/75758966/7501071140761_00.jpg?v=639229405472000000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Sin Azúcar 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-sin-azucar-355ml-3843851/p",
+        "items": [
+          {
+            "ean": "750107114081",
+            "price": 7.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77552726/7501071140815_00.jpg?v=639253853162830000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Sin Azúcar 1.5L",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-sin-azucar-15l-3830139/p",
+        "items": [
+          {
+            "ean": "750107114074",
+            "price": 27.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78331192/7501071140747_00.jpg?v=639264980249400000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Squirt Light 6 pack 237ml",
+        "url": "https://www.chedraui.com.mx/refresco-squirt-light-6-pack-237ml-3236452/p",
+        "items": [
+          {
+            "ean": "750107114058",
+            "price": 64.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77831292/7501071140587_00.jpg?v=639257845872570000"
+          }
+        ]
+      },
+      {
+        "nombre": "Figura Funko Pop Pokemon Squirtle",
+        "url": "https://www.chedraui.com.mx/figura-funko-pop-pokemon-squirtle-3879968/p",
+        "items": [
+          {
+            "ean": "889698394420",
+            "price": 319.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/76605573/889698394420_00.jpg?v=639240932448600000"
+          }
+        ]
+      },
+      {
+        "nombre": "Peluche Pokemon 18 pulgadas Squirtle Dormido",
+        "url": "https://www.chedraui.com.mx/peluche-pokemon-18-pulgadas-squirtle-dormido-3850129/p",
+        "items": [
+          {
+            "ean": "0191726410225",
+            "price": 1239.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/70720475/191726410225_00.jpg?v=639160481065900000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Jumex Fresh",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "query": "Gatorade",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=Gatorade&_from=0&_to=49",
+    "products": [
+      {
+        "nombre": "Gatorade Moras 500ml",
+        "url": "https://www.chedraui.com.mx/gatorade-moras-500ml-3236578/p",
+        "items": [
+          {
+            "ean": "0036731135919",
+            "price": 21.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789460/36731135919_00.jpg?v=639274276755900000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Uva 500ml",
+        "url": "https://www.chedraui.com.mx/gatorade-uva-500ml-3095330/p",
+        "items": [
+          {
+            "ean": "3673150400",
+            "price": 21.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78225037/36731504005_00.jpg?v=639263898184170000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Ponche 1L",
+        "url": "https://www.chedraui.com.mx/gatorade-ponche-1l-3091986/p",
+        "items": [
+          {
+            "ean": "3673132600",
+            "price": 26.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78797687/36731326003_00.jpg?v=639274301852330000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Ponche 600ml",
+        "url": "https://www.chedraui.com.mx/gatorade-ponche-600ml-3096881/p",
+        "items": [
+          {
+            "ean": "36731106063",
+            "price": 24.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78798633/36731106063_00.jpg?v=639274304539870000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Naranja 500ml",
+        "url": "https://www.chedraui.com.mx/gatorade-naranja-500ml-3095327/p",
+        "items": [
+          {
+            "ean": "3673150100",
+            "price": 21.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77857514/36731501004_00.jpg?v=639257920965670000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Moras 600ml",
+        "url": "https://www.chedraui.com.mx/gatorade-moras-600ml-3095645/p",
+        "items": [
+          {
+            "ean": "3673113691",
+            "price": 24.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78798557/36731136916_00.jpg?v=639274304406330000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Naranja 350ml",
+        "url": "https://www.chedraui.com.mx/gatorade-naranja-350ml-3261301/p",
+        "items": [
+          {
+            "ean": "10036731103519",
+            "price": 14.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77832699/36731103512_00.jpg?v=639257850082570000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Uva 600ml",
+        "url": "https://www.chedraui.com.mx/gatorade-uva-600ml-3096882/p",
+        "items": [
+          {
+            "ean": "3673110604",
+            "price": 19.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78798642/36731106049_00.jpg?v=639274304552030000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Ponche 500ml",
+        "url": "https://www.chedraui.com.mx/gatorade-ponche-500ml-3095328/p",
+        "items": [
+          {
+            "ean": "0036731506009",
+            "price": 21.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78225027/36731506009_00.jpg?v=639263898184000000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Uva 1L",
+        "url": "https://www.chedraui.com.mx/gatorade-uva-1l-3091987/p",
+        "items": [
+          {
+            "ean": "36731324009",
+            "price": 26.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78797690/36731324009_00.jpg?v=639274301863370000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Naranja 1L",
+        "url": "https://www.chedraui.com.mx/gatorade-naranja-1l-3091985/p",
+        "items": [
+          {
+            "ean": "0036731321008",
+            "price": 26.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78797670/36731321008_00.jpg?v=639274301804770000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Naranja 600ml",
+        "url": "https://www.chedraui.com.mx/gatorade-naranja-600ml-3095651/p",
+        "items": [
+          {
+            "ean": "36731106018",
+            "price": 24.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78798539/36731106018_00.jpg?v=639274304361330000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Naranja 521g",
+        "url": "https://www.chedraui.com.mx/gatorade-naranja-521g-3094459/p",
+        "items": [
+          {
+            "ean": "36731451002",
+            "price": 175.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77857438/36731451002_00.jpg?v=639257920620100000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Lima Limón 600ml",
+        "url": "https://www.chedraui.com.mx/gatorade-lima-limon-600ml-3095647/p",
+        "items": [
+          {
+            "ean": "0036731106032",
+            "price": 19.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78798551/36731106032_00.jpg?v=639274304389500000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Lima Limón 1L",
+        "url": "https://www.chedraui.com.mx/gatorade-lima-limon-1l-3041887/p",
+        "items": [
+          {
+            "ean": "3673132300",
+            "price": 26.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78529595/36731323002_00.jpg?v=639269286203970000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gatorade Lima Limón 500ml",
+        "url": "https://www.chedraui.com.mx/gatorade-lima-limon-500ml-3095322/p",
+        "items": [
+          {
+            "ean": "36731503008",
+            "price": 21.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77857520/36731503008_00.jpg?v=639257920990800000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Gatorade Fierce Moras 1L",
+        "url": "https://www.chedraui.com.mx/bebida-gatorade-fierce-moras-1l-3490032/p",
+        "items": [
+          {
+            "ean": "750102200985",
+            "price": 26.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78581822/7501022009857_00.jpg?v=639269932760900000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Isotónica Gatorade Uva 350ml",
+        "url": "https://www.chedraui.com.mx/bebida-isotonica-gatorade-uva-350ml-3259073/p",
+        "items": [
+          {
+            "ean": "36731103543",
+            "price": 14.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77831527/36731103543_00.jpg?v=639257846619000000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Isotónica Gatorade Mora 1L",
+        "url": "https://www.chedraui.com.mx/bebida-isotonica-gatorade-mora-1l-3869620/p",
+        "items": [
+          {
+            "ean": "7501022016084",
+            "price": 27.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78315046/7501022016084_00.jpg?v=639264800109470000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Isotónica Gatorade Mora 600ml",
+        "url": "https://www.chedraui.com.mx/bebida-isotonica-gatorade-mora-600ml-3869621/p",
+        "items": [
+          {
+            "ean": "27501022016064",
+            "price": 24.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78315045/7501022016060_00.jpg?v=639264800105100000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Isotónica Gatorade Fierce Mora 350ml",
+        "url": "https://www.chedraui.com.mx/bebida-isotonica-gatorade-fierce-mora-350ml-3685451/p",
+        "items": [
+          {
+            "ean": "750102200952",
+            "price": 14.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77842317/7501022009529_00.jpg?v=639257882276100000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Isotónica Gatorade Lima Limón 350ml",
+        "url": "https://www.chedraui.com.mx/bebida-isotonica-gatorade-lima-limon-350ml-3259074/p",
+        "items": [
+          {
+            "ean": "3673110353",
+            "price": 14.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77832697/36731103536_00.jpg?v=639257850073270000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Isotónica Gatorade Mora Sin Azúcar 1L",
+        "url": "https://www.chedraui.com.mx/bebida-isotonica-gatorade-mora-sin-azucar-1l-3685369/p",
+        "items": [
+          {
+            "ean": "7501022014288",
+            "price": 27.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78249341/7501022014288_00.jpg?v=639264000632230000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Isotónica Gatorade Frambuesa Sin Azúcar 1L",
+        "url": "https://www.chedraui.com.mx/bebida-isotonica-gatorade-frambuesa-sin-azucar-1l-3685368/p",
+        "items": [
+          {
+            "ean": "17501022014292",
+            "price": 26.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77519556/7501022014295_00.jpg?v=639253762074600000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Isotónica Gatorade 6 pack varios sabores de 350ml c/u",
+        "url": "https://www.chedraui.com.mx/bebida-isotonica-gatorade-6-pack-varios-sabores-de-350ml-cu-3171726/p",
+        "items": [
+          {
+            "ean": "10036731193688",
+            "price": 87.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78300797/36731193681_00.jpg?v=639264764343770000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Manzanita",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=Manzanita",
+    "products": [
+      {
+        "nombre": "Refresco Manzanita Sol 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-355ml-3061568/p",
+        "items": [
+          {
+            "ean": "7501031360130",
+            "price": 19.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/74273699/7501031360130_00.jpg?v=639207604825530000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol 400ml",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-400ml-3253146/p",
+        "items": [
+          {
+            "ean": "750103130280",
+            "price": 12.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789238/7501031302802_00.jpg?v=639274275967830000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Peñafiel Manzanita 2L",
+        "url": "https://www.chedraui.com.mx/refresco-penafiel-manzanita-2l-3115692/p",
+        "items": [
+          {
+            "ean": "750107383198",
+            "price": 37.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78537787/7501073831988_00.jpg?v=639269309590200000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol 2.5L",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-25l-3062119/p",
+        "items": [
+          {
+            "ean": "7501031360338",
+            "price": 35.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78537049/7501031360338_00.jpg?v=639269307779230000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol 1.5L",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-15l-3908468/p",
+        "items": [
+          {
+            "ean": "17501022015381",
+            "price": 25.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78805153/7501022015384_00.jpg?v=639274323540730000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Peñafiel Manzanita 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-penafiel-manzanita-355ml-3773846/p",
+        "items": [
+          {
+            "ean": "750107384218",
+            "price": 11.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78475481/7501073831186_00.jpg?v=639268216429300000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol Manzana 3L",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-manzana-3l-3062072/p",
+        "items": [
+          {
+            "ean": "750103136004",
+            "price": 49.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77520266/7501031360048_00.jpg?v=639253764418000000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol Manzana 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-manzana-600ml-3062094/p",
+        "items": [
+          {
+            "ean": "750102201537",
+            "price": 16.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78782005/7501031360024_00.jpg?v=639274253034370000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Peñafiel Manzanita Light 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-penafiel-manzanita-light-600ml-3217909/p",
+        "items": [
+          {
+            "ean": "17501073839387",
+            "price": 20.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77846985/7501073839328_00.jpg?v=639257893876530000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Peñafiel Manzanita Light 2L",
+        "url": "https://www.chedraui.com.mx/refresco-penafiel-manzanita-light-2l-3216411/p",
+        "items": [
+          {
+            "ean": "17501073839394",
+            "price": 32.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77844636/7501073839335_00.jpg?v=639257888336500000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Sangria",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=Sangria",
+    "products": [
+      {
+        "nombre": "Lechuga Sangría Pieza",
+        "url": "https://www.chedraui.com.mx/lechuga-sangria-pieza-3100938/p",
+        "items": [
+          {
+            "ean": "2350214000005",
+            "price": 22.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78582037/2350214_00.jpg?v=639269933569930000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Peñafiel Sangria 2L",
+        "url": "https://www.chedraui.com.mx/refresco-penafiel-sangria-2l-3062303/p",
+        "items": [
+          {
+            "ean": "750107383199",
+            "price": 34.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78528360/7501073831995_00.jpg?v=639269282679570000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Sangría Casera 2.5L",
+        "url": "https://www.chedraui.com.mx/refresco-sangria-casera-25l-3062136/p",
+        "items": [
+          {
+            "ean": "7501505630080",
+            "price": 37.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78529869/7501505630080_00.jpg?v=639269287045330000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Sangria Señorial 2L",
+        "url": "https://www.chedraui.com.mx/refresco-sangria-senorial-2l-3001971/p",
+        "items": [
+          {
+            "ean": "0086154951399",
+            "price": 42.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78781992/7500326103339_00.jpg?v=639274252988970000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Sangría Casera 2L",
+        "url": "https://www.chedraui.com.mx/refresco-sangria-casera-2l-3061553/p",
+        "items": [
+          {
+            "ean": "7501505630028",
+            "price": 35.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789364/7501505630028_00.jpg?v=639274276376870000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Tehuacan Sangria 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-tehuacan-sangria-600ml-3804358/p",
+        "items": [
+          {
+            "ean": "9999918462233",
+            "price": 18.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77798390/7501480760000_00.jpg?v=639257253168500000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Peñafiel Sangria 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-penafiel-sangria-600ml-3002013/p",
+        "items": [
+          {
+            "ean": "7501073831933",
+            "price": 20.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77827720/7501073831933_00.jpg?v=639257833666330000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Señorial Sangría 2L",
+        "url": "https://www.chedraui.com.mx/refresco-senorial-sangria-2l-3813345/p",
+        "items": [
+          {
+            "ean": "750302948145",
+            "price": 34.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77867004/7503029481452_00.jpg?v=639257946439200000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Sangria Señorial 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-sangria-senorial-600ml-3382758/p",
+        "items": [
+          {
+            "ean": "750032610336",
+            "price": 23.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78529517/7500326103360_00.jpg?v=639269285954730000"
+          }
+        ]
+      },
+      {
+        "nombre": "Cooler Boones Sangría 750ml",
+        "url": "https://www.chedraui.com.mx/cooler-boones-sangria-750ml-3091589/p",
+        "items": [
+          {
+            "ean": "8500000914",
+            "price": 99.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78797607/85000009147_00.jpg?v=639274301611300000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Fresh",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=Fresh",
+    "products": [
+      {
+        "nombre": "Pan Integral Selecto Fresh",
+        "url": "https://www.chedraui.com.mx/pan-integral-selecto-fresh-3106176/p",
+        "items": [
+          {
+            "ean": "2359059000003",
+            "price": 62.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78226147/7501253641529_00.jpg?v=639263901721230000"
+          }
+        ]
+      },
+      {
+        "nombre": "Esparrago Fresh Garden 450g",
+        "url": "https://www.chedraui.com.mx/esparrago-fresh-garden-450g-3017748/p",
+        "items": [
+          {
+            "ean": "67132600054",
+            "price": 169.9,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78582824/671326000540_00.jpg?v=639269936176100000"
+          }
+        ]
+      },
+      {
+        "nombre": "Fibra Vileda Ultra Fresh",
+        "url": "https://www.chedraui.com.mx/fibra-vileda-ultra-fresh-3738433/p",
+        "items": [
+          {
+            "ean": "4023103223332",
+            "price": 59.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/76446334/4023103223332_00.jpg?v=639239831749470000"
+          }
+        ]
+      },
+      {
+        "nombre": "Sensodyne Blanqueador Extra Fresh 90g",
+        "url": "https://www.chedraui.com.mx/sensodyne-blanqueador-extra-fresh-90g-3855705/p",
+        "items": [
+          {
+            "ean": "17896090611673",
+            "price": 77.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78552377/7896090611676_00.jpg?v=639269352381230000"
+          }
+        ]
+      },
+      {
+        "nombre": "Pasta Dental Colgate Max Fresh",
+        "url": "https://www.chedraui.com.mx/pasta-dental-colgate-max-fresh-3893295/p",
+        "items": [
+          {
+            "ean": "7509546704609",
+            "price": 50.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78012800/7509546704609_00.jpg?v=639259734565170000"
+          }
+        ]
+      },
+      {
+        "nombre": "Gel Zeus Fresh 250 Gr",
+        "url": "https://www.chedraui.com.mx/gel-zeus-fresh-250-gr-3805280/p",
+        "items": [
+          {
+            "ean": "750303082920",
+            "price": 14.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/76854262/7503030829205_00.jpg?v=639245093505430000"
+          }
+        ]
+      },
+      {
+        "nombre": "Atun Fresh Label Desmenuzado 140g",
+        "url": "https://www.chedraui.com.mx/atun-fresh-label-desmenuzado-140g-3792682/p",
+        "items": [
+          {
+            "ean": "750301825656",
+            "price": 9.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77865115/7503018256566_00.jpg?v=639257941565970000"
+          }
+        ]
+      },
+      {
+        "nombre": "Galleta Ritz Fresh Stack 308g",
+        "url": "https://www.chedraui.com.mx/galleta-ritz-fresh-stack-308g-3506553/p",
+        "items": [
+          {
+            "ean": "762221082795",
+            "price": 45.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78788133/7622210827951_00.jpg?v=639274272919770000"
+          }
+        ]
+      },
+      {
+        "nombre": "Pan de 7 Granos Selecto Fresh",
+        "url": "https://www.chedraui.com.mx/pan-de-7-granos-selecto-fresh-3106177/p",
+        "items": [
+          {
+            "ean": "2359062000007",
+            "price": 62.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78529261/7501253641550_00.jpg?v=639269285214530000"
+          }
+        ]
+      },
+      {
+        "nombre": "Sensodyne Blanqueador Extra Fresh 50g",
+        "url": "https://www.chedraui.com.mx/sensodyne-blanqueador-extra-fresh-50g-3836581/p",
+        "items": [
+          {
+            "ean": "7896015519223",
+            "price": 58.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78551842/7896015519223_00.jpg?v=639269350526670000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Manzanita",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=Manzanita&_from=0&_to=49",
+    "products": [
+      {
+        "nombre": "Refresco Manzanita Sol 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-355ml-3061568/p",
+        "items": [
+          {
+            "ean": "7501031360130",
+            "price": 19.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/74273699/7501031360130_00.jpg?v=639207604825530000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol 400ml",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-400ml-3253146/p",
+        "items": [
+          {
+            "ean": "750103130280",
+            "price": 12.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789238/7501031302802_00.jpg?v=639274275967830000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Peñafiel Manzanita 2L",
+        "url": "https://www.chedraui.com.mx/refresco-penafiel-manzanita-2l-3115692/p",
+        "items": [
+          {
+            "ean": "750107383198",
+            "price": 37.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78537787/7501073831988_00.jpg?v=639269309590200000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol 2.5L",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-25l-3062119/p",
+        "items": [
+          {
+            "ean": "7501031360338",
+            "price": 35.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78537049/7501031360338_00.jpg?v=639269307779230000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol 1.5L",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-15l-3908468/p",
+        "items": [
+          {
+            "ean": "17501022015381",
+            "price": 25.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78805153/7501022015384_00.jpg?v=639274323540730000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Peñafiel Manzanita 355ml",
+        "url": "https://www.chedraui.com.mx/refresco-penafiel-manzanita-355ml-3773846/p",
+        "items": [
+          {
+            "ean": "750107384218",
+            "price": 11.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78475481/7501073831186_00.jpg?v=639268216429300000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol Manzana 3L",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-manzana-3l-3062072/p",
+        "items": [
+          {
+            "ean": "750103136004",
+            "price": 49.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77520266/7501031360048_00.jpg?v=639253764418000000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol 6 pack 237ml",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-6-pack-237ml-3236408/p",
+        "items": [
+          {
+            "ean": "750103130611",
+            "price": 67.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78119244/7501031306114_00.jpg?v=639262155643830000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol Manzana 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-manzana-600ml-3062094/p",
+        "items": [
+          {
+            "ean": "750102201537",
+            "price": 16.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78782005/7501031360024_00.jpg?v=639274253034370000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Peñafiel Manzanita Light 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-penafiel-manzanita-light-600ml-3217909/p",
+        "items": [
+          {
+            "ean": "17501073839387",
+            "price": 20.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77846985/7501073839328_00.jpg?v=639257893876530000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Peñafiel Manzanita Light 2L",
+        "url": "https://www.chedraui.com.mx/refresco-penafiel-manzanita-light-2l-3216411/p",
+        "items": [
+          {
+            "ean": "17501073839394",
+            "price": 32.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77844636/7501073839335_00.jpg?v=639257888336500000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Manzanita Sol Manzana 2L",
+        "url": "https://www.chedraui.com.mx/refresco-manzanita-sol-manzana-2l-3061570/p",
+        "items": [
+          {
+            "ean": "261103136016",
+            "price": 35.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78781995/7501031360161_00.jpg?v=639274253004430000"
+          }
+        ]
+      },
+      {
+        "nombre": "1Pack Peñafiel Manzanita con 6 Piezas de 355ml",
+        "url": "https://www.chedraui.com.mx/1pack-penafiel-manzanita-con-6-piezas-de-355ml-3755985/p",
+        "items": [
+          {
+            "ean": "750107384562",
+            "price": 49.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77862076/7501073845626_00.jpg?v=639257933052400000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Sangria Casera",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=Sangria%20Casera&_from=0&_to=49",
+    "products": [
+      {
+        "nombre": "Refresco Sangría Casera 2.5L",
+        "url": "https://www.chedraui.com.mx/refresco-sangria-casera-25l-3062136/p",
+        "items": [
+          {
+            "ean": "7501505630080",
+            "price": 36.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78529869/7501505630080_00.jpg?v=639269287045330000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Sangría Casera 2L",
+        "url": "https://www.chedraui.com.mx/refresco-sangria-casera-2l-3061553/p",
+        "items": [
+          {
+            "ean": "7501505630028",
+            "price": 35.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789364/7501505630028_00.jpg?v=639274276376870000"
+          }
+        ]
+      },
+      {
+        "nombre": "Refresco Sangría Casera 600ml",
+        "url": "https://www.chedraui.com.mx/refresco-sangria-casera-600ml-3061601/p",
+        "items": [
+          {
+            "ean": "261150563007",
+            "price": 17.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78789362/7501505630073_00.jpg?v=639274276367500000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Jumex Fresh",
+    "api_url": "https://www.chedraui.com.mx/api/catalog_system/pub/products/search/?ft=Jumex%20Fresh&_from=0&_to=49",
+    "products": [
+      {
+        "nombre": "Bebida Saborizada Jumex Fresh Citrus de 600ml",
+        "url": "https://www.chedraui.com.mx/bebida-saborizada-jumex-fresh-citrus-de-600ml-3244908/p",
+        "items": [
+          {
+            "ean": "750103130721",
+            "price": 12.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77844398/7501031307210_00.jpg?v=639257887632300000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Saborizada Jumex Fresh Uva 2L",
+        "url": "https://www.chedraui.com.mx/bebida-saborizada-jumex-fresh-uva-2l-3269601/p",
+        "items": [
+          {
+            "ean": "17501031307262",
+            "price": 31.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77845071/7501031307265_00.jpg?v=639257888893200000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Saborizada Jumex Fresh Conga 2L",
+        "url": "https://www.chedraui.com.mx/bebida-saborizada-jumex-fresh-conga-2l-3245137/p",
+        "items": [
+          {
+            "ean": "7501031307289",
+            "price": 30.5,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77844408/7501031307289_00.jpg?v=639257887660970000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Saborizada Jumex Fresh Citrus 3L",
+        "url": "https://www.chedraui.com.mx/bebida-saborizada-jumex-fresh-citrus-3l-3402055/p",
+        "items": [
+          {
+            "ean": "750103130729",
+            "price": 42.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77862753/7501031307296_00.jpg?v=639257935196470000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Saborizada Jumex Fresh Citrus 2L",
+        "url": "https://www.chedraui.com.mx/bebida-saborizada-jumex-fresh-citrus-2l-3245135/p",
+        "items": [
+          {
+            "ean": "17501031307255",
+            "price": 30.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/78585602/7501031307258_00.jpg?v=639269943781070000"
+          }
+        ]
+      },
+      {
+        "nombre": "Bebida Saborizada Jumex Fresh Conga de 600ml",
+        "url": "https://www.chedraui.com.mx/bebida-saborizada-jumex-fresh-conga-de-600ml-3245114/p",
+        "items": [
+          {
+            "ean": "750103130724",
+            "price": 16.0,
+            "image": "https://chedrauimx.vteximg.com.br/arquivos/ids/77845168/7501031307241_00.jpg?v=639257889048570000"
+          }
+        ]
+      }
+    ]
+  }
+]

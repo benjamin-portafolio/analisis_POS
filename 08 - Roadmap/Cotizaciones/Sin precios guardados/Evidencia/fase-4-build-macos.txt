@@ -1,0 +1,139 @@
+Running pod install...                                             769ms
+Building macOS application...                                   
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:264142:19: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 264142 |         is = zCsr - (unsigned char*)pText;
+        |            ~ ~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:264149:21: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 264149 |           is = zCsr - (unsigned char*)pText;
+        |              ~ ~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:264199:17: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 264199 |       ie = zCsr - (unsigned char*)pText;
+        |          ~ ~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:264203:37: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 264203 |     rc = xToken(pCtx, 0, aFold, zOut-aFold, is, ie);
+        |          ~~~~~~                 ~~~~^~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:265030:24: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 265030 |       aStart[ii] = zIn - (const unsigned char*)pText;
+        |                  ~ ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:265052:19: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 265052 |       iNext = zIn - (const unsigned char*)pText;
+        |             ~ ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:265062:36: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 265062 |     rc = xToken(pCtx, 0, aBuf, zOut-aBuf, aStart[0], iNext);
+        |          ~~~~~~                ~~~~^~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:266727:18: warning: ambiguous expansion of macro 'MIN' [-Wambiguous-macro]
+ 266727 |       int nCmp = MIN(nTerm, pCsr->nLeTerm);
+        |                  ^
+In module 'Darwin' imported from /Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:27675:
+  215 | #define MIN(a, b) (((a)<(b))?(a):(b))
+      |         ^
+ 15573 | # define MIN(A,B) ((A)<(B)?(A):(B))
+       |          ^
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:266801:20: warning: ambiguous expansion of macro 'MIN' [-Wambiguous-macro]
+ 266801 |         int nCmp = MIN(nTerm, pCsr->nLeTerm);
+        |                    ^
+In module 'Darwin' imported from /Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:27675:
+  215 | #define MIN(a, b) (((a)<(b))?(a):(b))
+      |         ^
+ 15573 | # define MIN(A,B) ((A)<(B)?(A):(B))
+       |          ^
+192 warnings generated.
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:264142:19: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 264142 |         is = zCsr - (unsigned char*)pText;
+        |            ~ ~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:264149:21: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 264149 |           is = zCsr - (unsigned char*)pText;
+        |              ~ ~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:264199:17: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 264199 |       ie = zCsr - (unsigned char*)pText;
+        |          ~ ~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:264203:37: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 264203 |     rc = xToken(pCtx, 0, aFold, zOut-aFold, is, ie);
+        |          ~~~~~~                 ~~~~^~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:265030:24: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 265030 |       aStart[ii] = zIn - (const unsigned char*)pText;
+        |                  ~ ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:265052:19: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 265052 |       iNext = zIn - (const unsigned char*)pText;
+        |             ~ ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:265062:36: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+ 265062 |     rc = xToken(pCtx, 0, aBuf, zOut-aBuf, aStart[0], iNext);
+        |          ~~~~~~                ~~~~^~~~~
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:266727:18: warning: ambiguous expansion of macro 'MIN' [-Wambiguous-macro]
+ 266727 |       int nCmp = MIN(nTerm, pCsr->nLeTerm);
+        |                  ^
+In module 'Darwin' imported from /Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:27675:
+  215 | #define MIN(a, b) (((a)<(b))?(a):(b))
+      |         ^
+ 15573 | # define MIN(A,B) ((A)<(B)?(A):(B))
+       |          ^
+/Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:266801:20: warning: ambiguous expansion of macro 'MIN' [-Wambiguous-macro]
+ 266801 |         int nCmp = MIN(nTerm, pCsr->nLeTerm);
+        |                    ^
+In module 'Darwin' imported from /Users/benjamin/Projects/POS/pos_flutter/macos/Pods/sqlite3/sqlite-src-3520000/sqlite3.c:27675:
+  215 | #define MIN(a, b) (((a)<(b))?(a):(b))
+      |         ^
+ 15573 | # define MIN(A,B) ((A)<(B)?(A):(B))
+       |          ^
+192 warnings generated.
+/Users/benjamin/.pub-cache/hosted/pub.dev/mobile_scanner-7.4.2/darwin/mobile_scanner/Sources/mobile_scanner/MobileScannerCameraSelector.swift:200:42: warning: 'devices(for:)' was deprecated in macOS 10.15: Use AVCaptureDeviceDiscoverySession instead. [#DeprecatedDeclaration]
+198 |         // macOS: ignore the facing filter (only a front camera is used on macOS),
+199 |         // consistent with getSupportedLenses.
+200 |         let hasDevice = !AVCaptureDevice.devices(for: .video).isEmpty
+    |                                          `- warning: 'devices(for:)' was deprecated in macOS 10.15: Use AVCaptureDeviceDiscoverySession instead. [#DeprecatedDeclaration]
+201 |         return hasDevice ? LensType.wideAngle.rawValue : nil
+202 | #endif
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/benjamin/.pub-cache/hosted/pub.dev/mobile_scanner-7.4.2/darwin/mobile_scanner/Sources/mobile_scanner/MobileScannerCameraSelector.swift:200:42: warning: 'devices(for:)' was deprecated in macOS 10.15: Use AVCaptureDeviceDiscoverySession instead. [#DeprecatedDeclaration]
+198 |         // macOS: ignore the facing filter (only a front camera is used on macOS),
+199 |         // consistent with getSupportedLenses.
+200 |         let hasDevice = !AVCaptureDevice.devices(for: .video).isEmpty
+    |                                          `- warning: 'devices(for:)' was deprecated in macOS 10.15: Use AVCaptureDeviceDiscoverySession instead. [#DeprecatedDeclaration]
+201 |         return hasDevice ? LensType.wideAngle.rawValue : nil
+202 | #endif
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+Target release_unpack_macos failed: Exception: Binary /Users/benjamin/Projects/POS/pos_flutter/build/macos/Build/Products/Release/FlutterMacOS.framework/Versions/A/FlutterMacOS does not contain architectures "arm64 x86_64".
+
+lipo -info:
+Architectures in the fat file: /Users/benjamin/Projects/POS/pos_flutter/build/macos/Build/Products/Release/FlutterMacOS.framework/Versions/A/FlutterMacOS are: x86_64 arm64
+Failed to package /Users/benjamin/Projects/POS/pos_flutter.
+Command PhaseScriptExecution failed with a nonzero exit code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+** BUILD FAILED **
+
+Build process failed

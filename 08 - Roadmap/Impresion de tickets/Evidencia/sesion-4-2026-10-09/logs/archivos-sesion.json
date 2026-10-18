@@ -1,0 +1,67 @@
+[
+  {
+    "file": "lib/application/printing/printer_test_payload.dart",
+    "status": "changed",
+    "sha256": "f74c87a0984fda36203786839cdd2f488b7c3e3b816440666eb6b5ffd25dbd61"
+  },
+  {
+    "file": "lib/application/printing/ticket_print_service.dart",
+    "status": "changed",
+    "sha256": "a87b5480aaed550df0a1c7ce643358f4d595ac100ec74e41a5ad4505cd05d221"
+  },
+  {
+    "file": "packages/pos_bluetooth_printer/README.md",
+    "status": "changed",
+    "sha256": "0887b57d6b11e87bcb7465579ef9c720b42718119d42bbc6d7de9d74da5b457c"
+  },
+  {
+    "file": "packages/pos_bluetooth_printer/android/src/main/kotlin/com/pos/printing/PosBluetoothPrinterPlugin.kt",
+    "status": "changed",
+    "sha256": "fb389f924accb2fc0d4ad18a6c11dbd070b4f28df255aef40c47a7be2592ee9c"
+  },
+  {
+    "file": "packages/pos_bluetooth_printer/android/src/main/kotlin/com/pos/printing/PrinterPermissionRequest.kt",
+    "status": "new",
+    "sha256": "ee544a0045fdb210d6a3f898ed1e9f868753c0ea96e385f837ecbd5b4e0747dd"
+  },
+  {
+    "file": "packages/pos_bluetooth_printer/android/src/test/kotlin/com/pos/printing/PrinterPermissionRequestTest.kt",
+    "status": "new",
+    "sha256": "c42b2ff4c06a86398f622359d5ecd788f041738ecd2cdbfa806dbf48dfa6b4ed"
+  },
+  {
+    "file": "test/application/printing/printer_profile_test.dart",
+    "status": "changed",
+    "sha256": "de1cdbce778a7c938bcffff20e02b404d539eed52a572ab5b21fd82326f561f2"
+  },
+  {
+    "file": "test/application/printing/ticket_generation_service_test.dart",
+    "status": "changed",
+    "sha256": "b0c0d8ba7d0226888968117602e3765a910e3a3aeb92e403c538dcafce07020a"
+  },
+  {
+    "file": "test/application/printing/ticket_print_service_test.dart",
+    "status": "changed",
+    "sha256": "1d6bc119fbe9908d628a0be4c1e06f4f19579589e0a926083386057b455d5d08"
+  },
+  {
+    "file": "test/core/di/printing_dependencies_test.dart",
+    "status": "changed",
+    "sha256": "24ca029c6318cdd23aa450d61e832b1f73c735e6c65ad604acf53f16c47a6c92"
+  },
+  {
+    "file": "test/data/printing/esc_pos_ticket_encoder_test.dart",
+    "status": "changed",
+    "sha256": "58e4f28d50d70300a8eea76e7436c03e3910b83cd11be305ba776a41e5996a10"
+  },
+  {
+    "file": "test/presentation/pages/impresoras/printer_settings_screen_test.dart",
+    "status": "changed",
+    "sha256": "eb04d0363ec135480f9af4fc385c2a129a5143c66999769b7f5bbb9ce6457b45"
+  },
+  {
+    "file": "test/presentation/tickets/ticket_print_action_test.dart",
+    "status": "changed",
+    "sha256": "343d6b168536bdfc096c745c5191a96dfedaac22b69280e915511aa4433ca855"
+  }
+]

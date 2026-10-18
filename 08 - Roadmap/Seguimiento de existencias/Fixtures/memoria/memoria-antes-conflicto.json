@@ -1,0 +1,17 @@
+{
+  "descripcion": "Pestado de memoria antes de una edicion local en conflicto.",
+  "variant_inventory_memory": [
+    {
+      "variant_id": "a2000000-0000-4000-8000-000000000001",
+      "inventory_item_id": "a3000000-0000-4000-8000-000000000001",
+      "source_event_id": "b3000000-0000-4000-8000-000000000001",
+      "source_server_sequence": 41
+    }
+  ],
+  "product_variants": [
+    {
+      "variant_id": "a2000000-0000-4000-8000-000000000001",
+      "inventory_item_id": "a3000000-0000-4000-8000-000000000001"
+    }
+  ]
+}

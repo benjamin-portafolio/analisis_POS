@@ -1,0 +1,1456 @@
+[
+  {
+    "productId": "11271",
+    "productName": "Galleta Marian suspiros 175 g",
+    "brand": "MARIAN",
+    "brandId": 2001798,
+    "brandImageUrl": null,
+    "linkText": "galleta-marian-suspiros-175-g",
+    "productReference": "12AMRN018",
+    "productReferenceCode": "12AMRN018",
+    "categoryId": "1147",
+    "productTitle": "galleta marian suspiros 175 g",
+    "metaTagDescription": "Compra Galleta Marian suspiros 175 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2022-10-19T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-marian-suspiros-175-g/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Café",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Dulce"
+    ],
+    "Presentación": [
+      "Caja"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Las Galletas Marian Suspiros son un clásico de la repostería tradicional mexicana, conocidas por su textura ligera y aireada, casi como una nube, y su delicado sabor dulce y vainillado. En su presentación de 175 gramos, son ideales para compartir en familia, acompañar una bebida caliente o disfrutar como postre.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/>",
+    "items": [
+      {
+        "itemId": "11242",
+        "name": "Galleta Marian suspiros 175 g",
+        "nameComplete": "Galleta Marian suspiros 175 g",
+        "complementName": "",
+        "ean": "020899087647",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMRN018"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "304275",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/304275-#width#-#height#/020899087647.jpg?v=638883038814100000\" width=\"#width#\" height=\"#height#\" alt=\"020899087647\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/304275/020899087647.jpg?v=638883038814100000",
+            "imageText": "020899087647",
+            "imageLastModified": "2025-07-16T23:04:41.4100000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=11242&qty=1&seller=1&sc=1&price=4550&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 45.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 45.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 45.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 45.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 45.5,
+              "ListPrice": 45.5,
+              "PriceWithoutDiscount": 45.5,
+              "FullSellingPrice": 45.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRkYzVjNzYxLWM5MGQtNGQxOS1iMmNlLTNkN2U4NTg0M2IzNSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo0NTUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NDU1MCwic2VsbGVyIjoiMSIsImlkIjoiMTEyNDIiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6IjIyY2M5NGU5LTg3ZTMtNGY0OC1hZTRhLWRiZTExZDIxNzliMiIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.o3vHFpqO92rLYSo00Ze3JIMMQyO14TTjqB50NRRSmUzXQ5Qw77-AHeovl_ORU9Y6qIJRczbX4Yx7fNy0mptJ0g",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T18:46:21Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 4550,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 4550,
+                        "total": 4550,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 4550,
+                            "total": 4550
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 4550,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 4550,
+                        "total": 4550,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 4550,
+                            "total": 4550
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T18:36:37.2782346Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T18:35:37.2782348Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "11272",
+    "productName": "Galleta Marian surtido tradicional 380 g",
+    "brand": "MARIAN",
+    "brandId": 2001798,
+    "brandImageUrl": null,
+    "linkText": "galleta-marian-surtido-tradicional-380-g",
+    "productReference": "12AMRN019",
+    "productReferenceCode": "12AMRN019",
+    "categoryId": "1147",
+    "productTitle": "galleta marian surtido tradicional 380 g",
+    "metaTagDescription": "Compra Galleta Marian surtido tradicional 380 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2022-10-19T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-marian-surtido-tradicional-380-g/p",
+    "Color": [
+      "Blanco",
+      "Café",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Dulce"
+    ],
+    "Presentación": [
+      "Caja"
+    ],
+    "Peso": [
+      "301g- 400g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Disfruta de la variedad y el sabor con las Galletas Marian Surtido Tradicional en su presentación de 380 g. Este surtido incluye una deliciosa selección de galletas clásicas, perfectas para compartir en familia, acompañar tu café o disfrutar como un antojo en cualquier momento del día. ¡Haz cada momento especial con el sabor inconfundible de Marian! <br/><br/>Las imágenes del producto son únicamente de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso. Asimismo, el color puede variar según la disponibilidad.",
+    "items": [
+      {
+        "itemId": "11243",
+        "name": "Galleta Marian surtido tradicional 380 g",
+        "nameComplete": "Galleta Marian surtido tradicional 380 g",
+        "complementName": "",
+        "ean": "020899087722",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMRN019"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "304276",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/304276-#width#-#height#/020899087722.jpg?v=638883040399500000\" width=\"#width#\" height=\"#height#\" alt=\"020899087722\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/304276/020899087722.jpg?v=638883040399500000",
+            "imageText": "020899087722",
+            "imageLastModified": "2025-07-16T23:07:19.9500000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=11243&qty=1&seller=1&sc=1&price=11400&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 114.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 114.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 114.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 114.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 114.0,
+              "ListPrice": 114.0,
+              "PriceWithoutDiscount": 114.0,
+              "FullSellingPrice": 114.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjE0NGFkMjFiLWU1MjMtNGFhOC04Yzk4LWFmZjU2NjJjN2QxOCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMTQwMCwicHJpY2VXaXRob3V0RGlzY291bnQiOjExNDAwLCJzZWxsZXIiOiIxIiwiaWQiOiIxMTI0MyIsImFjY291bnROYW1lIjoibGFncmFuYm9kZWdhIiwic2FsZXNDaGFubmVsIjoiMSJ9LCJleHAiOjE3OTIxNzgxODEsImlhdCI6MTc5MjE3NjM4MSwianRpIjoiZTExMDU2Y2EtODhkNC00N2FhLWI1NzEtODRiMDI0OGFmMTNiIiwiaXNzIjoic2Vzc2lvbi9kYXRhLXNpZ25lciJ9.OEAxr4Uzu84TuzhP3GzE87Tj-YmnD2TSjtdEzVj-XI6qspv353ztBKmw5B38yBYTjy2grqkIv1JPVYlJMLanEA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 100,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 11400,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 11400,
+                        "total": 11400,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 11400,
+                            "total": 11400
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 11400,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 11400,
+                        "total": 11400,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 11400,
+                            "total": 11400
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "11266",
+    "productName": "Galleta Marian bolitas de nuez 45 g",
+    "brand": "MARIAN",
+    "brandId": 2001798,
+    "brandImageUrl": null,
+    "linkText": "galleta-marina-bolitas-de-nuez-45-g",
+    "productReference": "12AMRN012",
+    "productReferenceCode": "12AMRN012",
+    "categoryId": "1147",
+    "productTitle": "galleta marian bolitas de nuez 45 g",
+    "metaTagDescription": "Compra Galleta Marian bolitas de nuez 45 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2022-10-19T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-marina-bolitas-de-nuez-45-g/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Nuez"
+    ],
+    "Sabor": [
+      "Nuez"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Peso": [
+      "41g - 50g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Las Galletas Marian Bolitas de Nuez son el acompañamiento perfecto para esos momentos en los que se antoja algo dulce, suave y con un toque casero. En su presentación individual de 45 gramos, estas galletitas redondas están elaboradas con una receta tradicional, que incluye nuez molida y azúcar glas, logrando una textura suave, arenosa y deliciosa.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/>",
+    "items": [
+      {
+        "itemId": "11237",
+        "name": "Galleta Marian bolitas de nuez 45 g",
+        "nameComplete": "Galleta Marian bolitas de nuez 45 g",
+        "complementName": "",
+        "ean": "020899002503",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMRN012"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "304271",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/304271-#width#-#height#/020899002503.jpg?v=638883031926430000\" width=\"#width#\" height=\"#height#\" alt=\"020899002503\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/304271/020899002503.jpg?v=638883031926430000",
+            "imageText": "020899002503",
+            "imageLastModified": "2025-07-16T22:53:12.6430000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=11237&qty=1&seller=1&sc=1&price=1250&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 12.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 12.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 12.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 12.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 12.5,
+              "ListPrice": 12.5,
+              "PriceWithoutDiscount": 12.5,
+              "FullSellingPrice": 12.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRlOGJmZDlhLWZlMDAtNGViNC05OTViLTA5MmEyZmZlYjEwZiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMjUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MTI1MCwic2VsbGVyIjoiMSIsImlkIjoiMTEyMzciLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6IjYyMDYxOWEzLTY5ZDUtNDk3NS05YzFhLWZmYTMwNmViMTNmZCIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.i0N1yzKgjD-itO2OaY3Ge00k1VbV6xPO5XjukQCcqRzVnQiTTxRi-s7nA_hn-tv5uq1QkpEDyHmRBrUPYsUnXA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 1250,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1250,
+                        "total": 1250,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1250,
+                            "total": 1250
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 1250,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1250,
+                        "total": 1250,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1250,
+                            "total": 1250
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "11469",
+    "productName": "Galleta Moderna marianita vainilla 185 g",
+    "brand": "LA MODERNA",
+    "brandId": 2000467,
+    "brandImageUrl": null,
+    "linkText": "galleta-moderna-marianita-vainilla-185-g",
+    "productReference": "12AMOD046",
+    "productReferenceCode": "12AMOD046",
+    "categoryId": "1147",
+    "productTitle": "galleta moderna marianita vainilla 185 g",
+    "metaTagDescription": "Compra Galleta Moderna marianita vainilla 185 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2022-11-15T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-moderna-marianita-vainilla-185-g/p",
+    "Color": [
+      "Amarillo",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Vainilla"
+    ],
+    "Presentación": [
+      "Rollo"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Las Galletas Marianita Vainilla de Moderna son un clásico irresistible que combina el sabor delicado de la vainilla con una textura crujiente que encanta a todas las edades. En su presentación de 185 gramos, son perfectas para compartir en familia, acompañar tu bebida favorita o disfrutar como snack dulce a cualquier hora del día.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/>",
+    "items": [
+      {
+        "itemId": "11435",
+        "name": "Galleta Moderna marianita vainilla 185 g",
+        "nameComplete": "Galleta Moderna marianita vainilla 185 g",
+        "complementName": "",
+        "ean": "038629002716",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMOD046"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "289400",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/289400-#width#-#height#/038629002716.jpg?v=638041249405800000\" width=\"#width#\" height=\"#height#\" alt=\"038629002716\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/289400/038629002716.jpg?v=638041249405800000",
+            "imageText": "038629002716",
+            "imageLastModified": "2022-11-15T16:02:20.5800000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=11435&qty=1&seller=1&sc=1&price=1350&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 13.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 13.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 13.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 13.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 13.5,
+              "ListPrice": 13.5,
+              "PriceWithoutDiscount": 13.5,
+              "FullSellingPrice": 13.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjA4YTFjNWU4LWM1YTktNDRhNi04NWRhLTYxZjEzMjU0OTY4MiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMzUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MTM1MCwic2VsbGVyIjoiMSIsImlkIjoiMTE0MzUiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6IjFiNzgwMWY5LWVjOTYtNDRiYS05YTk2LWEyOWZiMTk5OTljMyIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.Tp2z0vhS-cAZSihd6lI-0Je2LxjvuVJGcrYlvrDph8wwxwbazhoy9yiSBo0nz0Xj7H91dTk7pldvWW6xVZv-Vg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-23T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 1350,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1350,
+                        "total": 1350,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1350,
+                            "total": 1350
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 1350,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1350,
+                        "total": 1350,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1350,
+                            "total": 1350
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-30T16:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-24T16:23:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "11366",
+    "productName": "Galleta Moderna marianita nuez 185 g",
+    "brand": "LA MODERNA",
+    "brandId": 2000467,
+    "brandImageUrl": null,
+    "linkText": "galleta-moderna-marianita-nuez-185-g",
+    "productReference": "12AMOD044",
+    "productReferenceCode": "12AMOD044",
+    "categoryId": "1147",
+    "productTitle": "galleta moderna marianita nuez 185 g",
+    "metaTagDescription": "Compra Galleta Moderna marianita nuez 185 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2022-10-26T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-moderna-marianita-nuez-185-g/p",
+    "Color": [
+      "Amarillo",
+      "Café",
+      "Negro",
+      "Rosa"
+    ],
+    "Aroma": [
+      "Nuez"
+    ],
+    "Sabor": [
+      "Nuez"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Disfruta el sabor tradicional con un toque especial de las Galletas Marianita Nuez de Moderna, en presentación de 185 gramos. Estas galletas combinan una textura crujiente con el sabor distintivo y natural de la nuez, creando un snack ideal para quienes buscan un antojo dulce y lleno de sabor.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/>",
+    "items": [
+      {
+        "itemId": "11337",
+        "name": "Galleta Moderna marianita nuez 185 g",
+        "nameComplete": "Galleta Moderna marianita nuez 185 g",
+        "complementName": "",
+        "ean": "038629001702",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMOD044"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "289147",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/289147-#width#-#height#/038629001702.jpg?v=638024176607670000\" width=\"#width#\" height=\"#height#\" alt=\"038629001702\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/289147/038629001702.jpg?v=638024176607670000",
+            "imageText": "038629001702",
+            "imageLastModified": "2022-10-26T21:47:40.7670000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=11337&qty=1&seller=1&sc=1&price=1350&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 13.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 13.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 13.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 13.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 13.5,
+              "ListPrice": 13.5,
+              "PriceWithoutDiscount": 13.5,
+              "FullSellingPrice": 13.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6Ijc2MWZlMDg4LTYwMTgtNDQ1My05MTIzLWY4Yjg5MzBhYzRlOCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMzUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MTM1MCwic2VsbGVyIjoiMSIsImlkIjoiMTEzMzciLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6IjY4ZTJhMGU1LTkwNjMtNGI1ZS1iZDlhLWNjZDVjZTg0YWYxMiIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.t0FXhlvKIBaMGwi1Ehf_uz4AMTLKyfrty0chf0jF5ZKRUGSIX7HWBE74OOG6IOf_6zIjleLJKGGrk9Wwb2oHEQ",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-23T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 1350,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1350,
+                        "total": 1350,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1350,
+                            "total": 1350
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 1350,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1350,
+                        "total": 1350,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1350,
+                            "total": 1350
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-30T16:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-24T16:23:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "9474",
+    "productName": "Galleta Moderna marianita coco 185 g",
+    "brand": "LA MODERNA",
+    "brandId": 2000467,
+    "brandImageUrl": null,
+    "linkText": "galleta-moderna-marianita-coco-185-g",
+    "productReference": "12AMOD045",
+    "productReferenceCode": "12AMOD045",
+    "categoryId": "1147",
+    "productTitle": "galleta moderna marianita coco 185 g",
+    "metaTagDescription": "Compra Galleta Moderna marianita coco 185 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2022-11-15T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-moderna-marianita-coco-185-g/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Verde"
+    ],
+    "Aroma": [
+      "Coco",
+      "Varios"
+    ],
+    "Sabor": [
+      "Coco"
+    ],
+    "Presentación": [
+      "Paquete"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Déjate llevar por el sabor tradicional con un toque especial de coco con las deliciosas Galletas Marianita de la marca Moderna. Esta presentación de 185 gramos está pensada para quienes disfrutan los sabores de antaño con un giro tropical y reconfortante.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "9469",
+        "name": "Galleta Moderna marianita coco 185 g",
+        "nameComplete": "Galleta Moderna marianita coco 185 g",
+        "complementName": "",
+        "ean": "38629002068",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMOD045"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "289398",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/289398-#width#-#height#/038629002068.jpg?v=638041241020900000\" width=\"#width#\" height=\"#height#\" alt=\"038629002068\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/289398/038629002068.jpg?v=638041241020900000",
+            "imageText": "038629002068",
+            "imageLastModified": "2022-11-15T15:48:22.0900000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=9469&qty=1&seller=1&sc=1&price=1350&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 13.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 13.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 13.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 13.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 13.5,
+              "ListPrice": 13.5,
+              "PriceWithoutDiscount": 13.5,
+              "FullSellingPrice": 13.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjZiOTYwOTRhLTJjMDYtNDA1OC1hOWNmLTk1ZmIzNmRmMmMwZiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMzUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MTM1MCwic2VsbGVyIjoiMSIsImlkIjoiOTQ2OSIsImFjY291bnROYW1lIjoibGFncmFuYm9kZWdhIiwic2FsZXNDaGFubmVsIjoiMSJ9LCJleHAiOjE3OTIxNzgxODEsImlhdCI6MTc5MjE3NjM4MSwianRpIjoiZTg2MzRjZWEtY2JjZi00ZjMwLWEzOGMtYWVjMTIxY2UzOGI0IiwiaXNzIjoic2Vzc2lvbi9kYXRhLXNpZ25lciJ9.13JUvNtHB-GQJu2Q4wvFboZJ7HQS3w48bGDJoEeRfqn5lVx602iLwtIvwMnIwLK_HTJlB0ZUeCuzqHJ_QOOaKA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-23T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 1350,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1350,
+                        "total": 1350,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1350,
+                            "total": 1350
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 1350,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1350,
+                        "total": 1350,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1350,
+                            "total": 1350
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-30T16:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-24T16:23:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  }
+]

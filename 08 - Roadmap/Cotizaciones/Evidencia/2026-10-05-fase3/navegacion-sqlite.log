@@ -1,0 +1,6 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/cotizaciones/quotation_navigation_test.dart
+00:00 +0: menú cierra drawer y recuperación/continuación regresan al único Home y Caja persistida
+00:03 +1: Caja guarda una vez y Nueva captura limpia sólo origen; historial conserva documento
+00:04 +2: listado real observa cobrar y Toda permite consultar Vendida sin recuperar
+00:05 +3: reinicio real carga ticket por ID: editar captura/catalogo conserva PNG emitido
+00:05 +4: All tests passed!

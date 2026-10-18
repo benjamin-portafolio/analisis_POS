@@ -1,0 +1,4442 @@
+[
+  {
+    "productId": "3902",
+    "productName": "Café Legal soluble 100 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-100-gr",
+    "productReference": "07ALEG001",
+    "productReferenceCode": "07ALEG001",
+    "categoryId": "1112",
+    "productTitle": "café legal soluble 100 gr",
+    "metaTagDescription": "Compra Café Legal soluble 100 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-12-07T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-100-gr/p",
+    "Color": [
+      "Café"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Frasco"
+    ],
+    "Peso": [
+      "91g- 100g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Disfruta el sabor intenso y el aroma delicioso de un buen café con Café Legal Soluble 100 gramos, un café instantáneo diseñado para quienes buscan practicidad sin renunciar a la calidad. Su rápida disolución permite preparar una taza perfecta en segundos, ideal para comenzar el día con energía o para esos momentos de pausa.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/><br/>",
+    "items": [
+      {
+        "itemId": "3902",
+        "name": "Café Legal soluble 100 g",
+        "nameComplete": "Café Legal soluble 100 g",
+        "complementName": "",
+        "ean": "7501052414942",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG001"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "299959",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/299959-#width#-#height#/7501052414942.jpg?v=638496737174600000\" width=\"#width#\" height=\"#height#\" alt=\"7501052414942\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/299959/7501052414942.jpg?v=638496737174600000",
+            "imageText": "7501052414942",
+            "imageLastModified": "2024-04-25T20:28:37.4600000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=3902&qty=1&seller=1&sc=1&price=7050&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 70.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 70.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 70.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 70.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 70.5,
+              "ListPrice": 70.5,
+              "PriceWithoutDiscount": 70.5,
+              "FullSellingPrice": 70.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImVmZGQzMDQzLTEzYWUtNGVkZC1iNzVkLThmZDcyOTU1NGNiNiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo3MDUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NzA1MCwic2VsbGVyIjoiMSIsImlkIjoiMzkwMiIsImFjY291bnROYW1lIjoibGFncmFuYm9kZWdhIiwic2FsZXNDaGFubmVsIjoiMSJ9LCJleHAiOjE3OTIxNzgxODEsImlhdCI6MTc5MjE3NjM4MSwianRpIjoiY2M0ZDFjYjgtN2FiZC00ODlhLWI1N2UtYThmMDNjM2I2MWExIiwiaXNzIjoic2Vzc2lvbi9kYXRhLXNpZ25lciJ9.Y3WPKm0sJmoOJymywnKZ4v9NgkBo8iHvZEhoBxnJ_nDwIiMRuEsGbMu9sRKb7gdWNLV71eRNPfY8S0VFfGJJ-A",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T18:46:21Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 7050,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 7050,
+                        "total": 7050,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 7050,
+                            "total": 7050
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 7050,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 7050,
+                        "total": 7050,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 7050,
+                            "total": 7050
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T18:36:37.2782346Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T18:35:37.2782348Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "421",
+    "productName": "Café Legal soluble 50 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-50-gr",
+    "productReference": "07ALEG182",
+    "productReferenceCode": "07ALEG182",
+    "categoryId": "1112",
+    "productTitle": "café legal soluble 50 gr",
+    "metaTagDescription": "Compra Café Legal soluble 50 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-50-gr/p",
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Frasco"
+    ],
+    "Especificaciones": [
+      "Soluble"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "41g - 50g"
+    ],
+    "allSpecifications": [
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Cada taza es una invitación a compartir risas, historias y buenos momentos, realzados por el sabor inconfundible de granos cuidadosamente seleccionados.\r\n\r\nLas imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.",
+    "items": [
+      {
+        "itemId": "421",
+        "name": "Café Legal soluble 50 g",
+        "nameComplete": "Café Legal soluble 50 g",
+        "complementName": "",
+        "ean": "7501052411804",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG182"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "282735",
+            "imageLabel": "front",
+            "imageTag": "<img src=\"~/arquivos/ids/282735-#width#-#height#/7501052411804.jpg?v=637540223366230000\" width=\"#width#\" height=\"#height#\" alt=\"7501052411804\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/282735/7501052411804.jpg?v=637540223366230000",
+            "imageText": "7501052411804",
+            "imageLastModified": "2021-04-14T18:38:56.6230000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=421&qty=1&seller=1&sc=1&price=3950&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 39.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 39.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 39.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 39.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 39.5,
+              "ListPrice": 39.5,
+              "PriceWithoutDiscount": 39.5,
+              "FullSellingPrice": 39.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6Ijg2NDZiZjBiLTlmYTktNDgwMy04ZjNlLTcwMjQ1ZTBlYjQ1ZiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjozOTUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6Mzk1MCwic2VsbGVyIjoiMSIsImlkIjoiNDIxIiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MSwiaWF0IjoxNzkyMTc2MzgxLCJqdGkiOiJmMDZjMGVmZi05ZmZlLTQ0NjktYTdiZS02Y2RkMmZkM2NlMWUiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.NKMU5JOTM4BzN5vPmjjYAAO2hzGCRkk-yDtQCibKKgkGTToLb2WJD3bf6bvJFh3dzq1mKmrquTVBz468DHgImg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 3950,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 3950,
+                        "total": 3950,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 3950,
+                            "total": 3950
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 3950,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 3950,
+                        "total": 3950,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 3950,
+                            "total": 3950
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T16:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T16:51:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "18980",
+    "productName": "Café Legal soluble 10 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-10-g",
+    "productReference": "07ALEG204",
+    "productReferenceCode": "07ALEG204",
+    "categoryId": "1112",
+    "productTitle": "Café Legal soluble 10 g",
+    "metaTagDescription": "Café Legal soluble 10 g",
+    "releaseDate": "2026-07-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-10-g/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Sobre"
+    ],
+    "Especificaciones": [
+      "Soluble"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "10g- 20g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Empieza tu mañana con el pie derecho o recupera la energía en la tarde con el Café Soluble Legal Clásico de 10 g. Este café rinde tributo al tueste tradicional que ha acompañado a las familias mexicanas por generaciones, ofreciéndote una taza llena de aroma, un cuerpo equilibrado y ese sabor intenso y reconfortante que tanto te gusta.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "18587",
+        "name": "Café Legal soluble 10 g",
+        "nameComplete": "Café Legal soluble 10 g",
+        "complementName": "",
+        "ean": "7501052414027",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG204"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": "",
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "308513",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/308513-#width#-#height#/7501052414027.jpg?v=639207908767300000\" width=\"#width#\" height=\"#height#\" alt=\"7501052414027\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/308513/7501052414027.jpg?v=639207908767300000",
+            "imageText": "7501052414027",
+            "imageLastModified": "2026-07-27T23:14:36.7300000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=18587&qty=1&seller=1&sc=1&price=800&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 8.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 8.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 8.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 8.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 8.0,
+              "ListPrice": 8.0,
+              "PriceWithoutDiscount": 8.0,
+              "FullSellingPrice": 8.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImQzNjBlM2M0LTI5YTctNGFjNS1iODIwLTRmYzRlYWY3MmViZSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo4MDAsInByaWNlV2l0aG91dERpc2NvdW50Ijo4MDAsInNlbGxlciI6IjEiLCJpZCI6IjE4NTg3IiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MSwiaWF0IjoxNzkyMTc2MzgxLCJqdGkiOiI0M2U5ODg5ZC02MWJmLTQwNTktYjc0ZS1hZTlmZWU4Yzg2N2YiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.fSNDJrOcvyx6D5NaAgaoCSEdsa-_FpHBdEJVXUiKxWCE26X84GlW2pPQd7Ph5_u0YXoiKbvd_1-DQxgejeXbTA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 800,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 800,
+                        "total": 800,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 800,
+                            "total": 800
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 800,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 800,
+                        "total": 800,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 800,
+                            "total": 800
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "18602",
+    "productName": "Café Legal tradicional 1 kg",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-tradicional-1-kg",
+    "productReference": "07ALEG202",
+    "productReferenceCode": "07ALEG202",
+    "categoryId": "1112",
+    "productTitle": "Café Legal tradicional 1 kg",
+    "metaTagDescription": "Café Legal tradicional 1 kg",
+    "releaseDate": "2026-04-23T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-tradicional-1-kg/p",
+    "Contenido": [
+      "1 pieza"
+    ],
+    "Color": [
+      "Café"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Bolsa",
+      "Paquete"
+    ],
+    "Especificaciones": [
+      "Soluble"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "901g- 1000g"
+    ],
+    "allSpecifications": [
+      "Contenido",
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Contenido",
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Café Legal tradicional 1 kg, elaborado con granos seleccionados y tostado medio que ofrece un sabor equilibrado y aroma intenso característico del café mexicano. Su molienda permite una preparación sencilla en cafetera o de forma tradicional, brindando una bebida consistente en cada taza. Cuenta con notas suaves y un ligero toque a caramelo que le da un perfil agradable y rendidor, ideal para el consumo diario en hogares, oficinas o negocios. <br/><br/>Las imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.",
+    "items": [
+      {
+        "itemId": "18209",
+        "name": "Café Legal tradicional 1 kg",
+        "nameComplete": "Café Legal tradicional 1 kg",
+        "complementName": "",
+        "ean": "7501052401096",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG202"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": "",
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "307752",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/307752-#width#-#height#/7501052401096.jpg?v=639125573804900000\" width=\"#width#\" height=\"#height#\" alt=\"7501052401096\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/307752/7501052401096.jpg?v=639125573804900000",
+            "imageText": "7501052401096",
+            "imageLastModified": "2026-04-23T16:09:40.4900000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=18209&qty=1&seller=1&sc=1&price=24100&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 241.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 241.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 241.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 241.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 241.0,
+              "ListPrice": 241.0,
+              "PriceWithoutDiscount": 241.0,
+              "FullSellingPrice": 241.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjQyMmNiZTI5LTkxYjUtNGM2NS05ZDY3LWQwNTAzMTdmMDc5NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoyNDEwMCwicHJpY2VXaXRob3V0RGlzY291bnQiOjI0MTAwLCJzZWxsZXIiOiIxIiwiaWQiOiIxODIwOSIsImFjY291bnROYW1lIjoibGFncmFuYm9kZWdhIiwic2FsZXNDaGFubmVsIjoiMSJ9LCJleHAiOjE3OTIxNzgxODEsImlhdCI6MTc5MjE3NjM4MSwianRpIjoiODNmYzA0YTQtNjFlYi00ODg5LWJlODQtN2E4MmM5NGFjMWY2IiwiaXNzIjoic2Vzc2lvbi9kYXRhLXNpZ25lciJ9.hjaUjoUQywMLFu3s7jDCl4GuIanQ83TXeO9r5vH2exzDcby7eYhbkq7ByfB4hLkw2oFbVd1yncTj-DLCUXZUTA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 24100,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 24100,
+                        "total": 24100,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 24100,
+                            "total": 24100
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 24100,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 24100,
+                        "total": 24100,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 24100,
+                            "total": 24100
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "8282",
+    "productName": "Café Legal soluble descafeinado 100 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-descafeinado-100-gr",
+    "productReference": "07ALEG003",
+    "productReferenceCode": "07ALEG003",
+    "categoryId": "1112",
+    "productTitle": "café legal soluble descafeinado 100 gr",
+    "metaTagDescription": "Compra Café Legal soluble descafeinado 100 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2020-06-25T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-descafeinado-100-gr/p",
+    "Color": [
+      "Café",
+      "Negro",
+      "Verde"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Frasco"
+    ],
+    "Especificaciones": [
+      "Soluble"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "91g- 100g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Disfruta del sabor auténtico del café sin la cafeína con el Café Legal Soluble Descafeinado. Este café soluble está cuidadosamente elaborado para ofrecerte una experiencia de sabor rica y suave, ideal para quienes buscan reducir su consumo de cafeína sin sacrificar el placer de una buena taza de café.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/><br/>",
+    "items": [
+      {
+        "itemId": "8282",
+        "name": "Café Legal soluble descafeinado 100 g",
+        "nameComplete": "Café Legal soluble descafeinado 100 g",
+        "complementName": "",
+        "ean": "7501052411385",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG003"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "279911",
+            "imageLabel": "front",
+            "imageTag": "<img src=\"~/arquivos/ids/279911-#width#-#height#/7501052411385.png?v=637287033960100000\" width=\"#width#\" height=\"#height#\" alt=\"7501052411385\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/279911/7501052411385.png?v=637287033960100000",
+            "imageText": "7501052411385",
+            "imageLastModified": "2020-06-25T17:36:36.0100000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=8282&qty=1&seller=1&sc=1&price=7700&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 77.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 77.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 77.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 77.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 77.0,
+              "ListPrice": 77.0,
+              "PriceWithoutDiscount": 77.0,
+              "FullSellingPrice": 77.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImM2YTVmNmI2LWRhODEtNDY3MC05MjMwLWE3MDNlMGNkMmQwZSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo3NzAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NzcwMCwic2VsbGVyIjoiMSIsImlkIjoiODI4MiIsImFjY291bnROYW1lIjoibGFncmFuYm9kZWdhIiwic2FsZXNDaGFubmVsIjoiMSJ9LCJleHAiOjE3OTIxNzgxODEsImlhdCI6MTc5MjE3NjM4MSwianRpIjoiMDMzMmUzZmUtZjMxZS00ZjQzLWJhOTItMDJmYzQ0OGYwNTY4IiwiaXNzIjoic2Vzc2lvbi9kYXRhLXNpZ25lciJ9.qbNwzVUtWe_esTped2EuAXPZD9YZfnsKd1ENMQ1pEqZefCHhFge-K_1LG8rapx77a526X2sBKp-KMydqsbWLEg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 100,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 7700,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 7700,
+                        "total": 7700,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 7700,
+                            "total": 7700
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 7700,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 7700,
+                        "total": 7700,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 7700,
+                            "total": 7700
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "8253",
+    "productName": "Café Legal soluble descafeinado 50 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-descafeinado-50-gr",
+    "productReference": "07ALEG186",
+    "productReferenceCode": "07ALEG186",
+    "categoryId": "1112",
+    "productTitle": "café legal soluble descafeinado 50 gr",
+    "metaTagDescription": "Compra Café Legal soluble descafeinado 50 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2021-04-19T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-descafeinado-50-gr/p",
+    "Color": [
+      "Café",
+      "Negro",
+      "Verde"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Frasco"
+    ],
+    "Especificaciones": [
+      "Descafeinado"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "41g - 50g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Disfruta del sabor auténtico del café sin la cafeína con el Café Legal Soluble Descafeinado. Este café soluble está cuidadosamente elaborado para ofrecerte una experiencia de sabor rica y suave, ideal para quienes buscan reducir su consumo de cafeína sin sacrificar el placer de una buena taza de café.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/>",
+    "items": [
+      {
+        "itemId": "8253",
+        "name": "Café Legal soluble descafeinado 50 g",
+        "nameComplete": "Café Legal soluble descafeinado 50 g",
+        "complementName": "",
+        "ean": "7501052411378",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG186"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "282734",
+            "imageLabel": "front",
+            "imageTag": "<img src=\"~/arquivos/ids/282734-#width#-#height#/7501052411378.jpg?v=637540222964630000\" width=\"#width#\" height=\"#height#\" alt=\"7501052411378\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/282734/7501052411378.jpg?v=637540222964630000",
+            "imageText": "7501052411378",
+            "imageLastModified": "2021-04-14T18:38:16.4630000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=8253&qty=1&seller=1&sc=1&price=4750&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 47.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 47.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 47.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 47.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 47.5,
+              "ListPrice": 47.5,
+              "PriceWithoutDiscount": 47.5,
+              "FullSellingPrice": 47.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImM5YzliZTJlLTQ2MWEtNDgyOS1iYWVkLTQyZWZhZWI1Y2U1ZSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo0NzUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NDc1MCwic2VsbGVyIjoiMSIsImlkIjoiODI1MyIsImFjY291bnROYW1lIjoibGFncmFuYm9kZWdhIiwic2FsZXNDaGFubmVsIjoiMSJ9LCJleHAiOjE3OTIxNzgxODEsImlhdCI6MTc5MjE3NjM4MSwianRpIjoiZDNmNDEyZmQtM2I2MC00MDQxLTg0ODUtMGNhNjQ4NDRmNWZkIiwiaXNzIjoic2Vzc2lvbi9kYXRhLXNpZ25lciJ9.nkuH4JRwJ38mW3y0tutQ0WBq4e10FNiBugW9QM5UK0vt9FuStFyYbAPMIx0jAnIz5ReX5kzg6Yt6SRZZJM6fYQ",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 100,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 4750,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 4750,
+                        "total": 4750,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 4750,
+                            "total": 4750
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 4750,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 4750,
+                        "total": 4750,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 4750,
+                            "total": 4750
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "418",
+    "productName": "Café Legal soluble mezclado 180 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-mezclado-180-gr",
+    "productReference": "07ALEG006",
+    "productReferenceCode": "07ALEG006",
+    "categoryId": "1112",
+    "productTitle": "café legal soluble mezclado 180 g",
+    "metaTagDescription": "Compra Café Legal soluble mezclado 180 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-mezclado-180-gr/p",
+    "Color": [
+      "Café"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Frasco"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Este café instantáneo está diseñado para los verdaderos amantes del café que buscan practicidad sin renunciar a la calidad. Disfruta de una mezcla magistralmente equilibrada, donde cada taza te envuelve en un aroma irresistible y un sabor profundo que despierta tus mañanas y revitaliza tus tardes. <br/><br/>Las imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.",
+    "items": [
+      {
+        "itemId": "418",
+        "name": "Café Legal soluble mezclado 180 g",
+        "nameComplete": "Café Legal soluble mezclado 180 g",
+        "complementName": "",
+        "ean": "7501052414447",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG006"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303798",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303798-#width#-#height#/7501052414447.jpg?v=638860600937600000\" width=\"#width#\" height=\"#height#\" alt=\"7501052414447\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303798/7501052414447.jpg?v=638860600937600000",
+            "imageText": "7501052414447",
+            "imageLastModified": "2025-06-20T23:48:13.7600000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=418&qty=1&seller=1&sc=1&price=10450&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 104.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 104.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 104.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 104.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 104.5,
+              "ListPrice": 104.5,
+              "PriceWithoutDiscount": 104.5,
+              "FullSellingPrice": 104.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjI5MzdhNDY3LWJiYTQtNDUxMy05MDE2LTg4MjljNjMwMTRhMyIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMDQ1MCwicHJpY2VXaXRob3V0RGlzY291bnQiOjEwNDUwLCJzZWxsZXIiOiIxIiwiaWQiOiI0MTgiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6IjZlZDQ0YWZlLTczYjItNGM1MC04ODY2LTg5OWEwZWI3YjQyMiIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.SUbKXYYws4n9o-Fplh85lPnjKCTtL9uIq5hb84aSzbRkvHHXn1RbDKChH8QbHVpXR7ASSolZOOa9qe3hDYwFbQ",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 10450,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 10450,
+                        "total": 10450,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 10450,
+                            "total": 10450
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 10450,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 10450,
+                        "total": 10450,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 10450,
+                            "total": 10450
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T16:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T16:50:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "12390",
+    "productName": "Café Legal soluble de olla 100 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-de-olla-100-g",
+    "productReference": "07ALEG011",
+    "productReferenceCode": "07ALEG011",
+    "categoryId": "1112",
+    "productTitle": "café legal soluble de olla 100 g",
+    "metaTagDescription": "Compra Café Legal soluble de olla 100 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2023-03-27T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-de-olla-100-g/p",
+    "Color": [
+      "Café",
+      "Naranja",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Frasco"
+    ],
+    "Peso": [
+      "91g- 100g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Revive el sabor tradicional del café de olla en formato instantáneo con Café Legal Soluble de Olla. Esta presentación de 100?g combina la esencia del café mexicano con canela y piloncillo, para preparar una bebida aromática, dulce y reconfortante en segundos.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/><br/>",
+    "items": [
+      {
+        "itemId": "12285",
+        "name": "Café Legal soluble de olla 100 g",
+        "nameComplete": "Café Legal soluble de olla 100 g",
+        "complementName": "",
+        "ean": "7501052414461",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG011"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "291397",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/291397-#width#-#height#/7501052414461.jpg?v=638155346792870000\" width=\"#width#\" height=\"#height#\" alt=\"7501052414461\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/291397/7501052414461.jpg?v=638155346792870000",
+            "imageText": "7501052414461",
+            "imageLastModified": "2023-03-27T17:24:39.2870000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=12285&qty=1&seller=1&sc=1&price=7150&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 71.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 71.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 71.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 71.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 71.5,
+              "ListPrice": 71.5,
+              "PriceWithoutDiscount": 71.5,
+              "FullSellingPrice": 71.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjA0OTk2ODc1LWEwMjYtNDkyNC04NzhlLTFkNmNlMmJjZjk4YSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo3MTUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NzE1MCwic2VsbGVyIjoiMSIsImlkIjoiMTIyODUiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6IjM4ZGU3MGIwLWIzNjItNDFkMC04ZmQxLWY4MTdmYmY0ZTQ2NSIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.fjvEreHp6IYmeQ1L-HupU0sftHmR1sAJUZHAS91QJKJsSjH5SlhpzCipuw0fM3fy2FJ3r6ImzzUmS7mfUagL9Q",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 7150,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 7150,
+                        "total": 7150,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 7150,
+                            "total": 7150
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 7150,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 7150,
+                        "total": 7150,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 7150,
+                            "total": 7150
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "417",
+    "productName": "Café Legal soluble regular 175 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-regular-175-gr",
+    "productReference": "07ALEG005",
+    "productReferenceCode": "07ALEG005",
+    "categoryId": "1112",
+    "productTitle": "café legal soluble regular 175 g",
+    "metaTagDescription": "Compra Café Legal soluble regular 175 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-regular-175-gr/p",
+    "Color": [
+      "Café"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Doypack"
+    ],
+    "Especificaciones": [
+      "Soluble"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Café Legal es más que una bebida, es el cálido abrazo que une a la familia, transformando cada taza en una experiencia confortante y llena de recuerdos. ¡Haz de cada reunión un momento especial con el delicioso sabor familiar de Café Legal Soluble!<br/><br/> Las imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.",
+    "items": [
+      {
+        "itemId": "417",
+        "name": "Café Legal soluble regular 175 g",
+        "nameComplete": "Café Legal soluble regular 175 g",
+        "complementName": "",
+        "ean": "7501052414430",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG005"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303797",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303797-#width#-#height#/7501052414430.jpg?v=638860591693430000\" width=\"#width#\" height=\"#height#\" alt=\"7501052414430\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303797/7501052414430.jpg?v=638860591693430000",
+            "imageText": "7501052414430",
+            "imageLastModified": "2025-06-20T23:32:49.3430000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=417&qty=1&seller=1&sc=1&price=10050&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 100.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 100.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 100.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 100.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 100.5,
+              "ListPrice": 100.5,
+              "PriceWithoutDiscount": 100.5,
+              "FullSellingPrice": 100.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjlhNTBjOWQ5LWI3MTctNGU0OC1hYzUxLTVhOTk4MmEzNDVjZCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMDA1MCwicHJpY2VXaXRob3V0RGlzY291bnQiOjEwMDUwLCJzZWxsZXIiOiIxIiwiaWQiOiI0MTciLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6Ijk1MDIyYzU4LTg4ZDgtNDJiYi1hM2RjLTMyMmRmMjQ4NDMxZCIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.jFNM2Ip32rLtYJTuRVn_NTOT3KMWm1KFGHYxMuKZ9aXlLfv3TEh_JNAf-DIe3fEn-VFhwdNJQMk3u47ZTOvH8A",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 10050,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 10050,
+                        "total": 10050,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 10050,
+                            "total": 10050
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 10050,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 10050,
+                        "total": 10050,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 10050,
+                            "total": 10050
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T16:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T16:50:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "415",
+    "productName": "Café Legal tradicional grano 200 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-tradicional-grano-200-gr",
+    "productReference": "07ALEG002",
+    "productReferenceCode": "07ALEG002",
+    "categoryId": "1112",
+    "productTitle": "café legal tradicional grano 200 g",
+    "metaTagDescription": "Compra Café Legal tradicional grano 200 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-tradicional-grano-200-gr/p",
+    "Color": [
+      "Café",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Para hervir"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Ideal para los amantes del café que prefieren moler sus granos para obtener una frescura inigualable, Café Legal Tradicional garantiza una calidad superior en cada preparación. Perfecto para disfrutar en cualquier momento del día, transforma tus pausas en momentos de auténtica delicia. <br/><br/>Las imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.",
+    "items": [
+      {
+        "itemId": "415",
+        "name": "Café Legal tradicional grano 200 g",
+        "nameComplete": "Café Legal tradicional grano 200 g",
+        "complementName": "",
+        "ean": "7501052411316",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG002"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "297461",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/297461-#width#-#height#/7501052411316.jpg?v=638424906777070000\" width=\"#width#\" height=\"#height#\" alt=\"7501052411316\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/297461/7501052411316.jpg?v=638424906777070000",
+            "imageText": "7501052411316",
+            "imageLastModified": "2024-02-02T17:11:17.7070000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=415&qty=1&seller=1&sc=1&price=5700&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 57.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 57.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 57.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 57.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 57.0,
+              "ListPrice": 57.0,
+              "PriceWithoutDiscount": 57.0,
+              "FullSellingPrice": 57.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjI3ZWFiMzYxLTFkZTItNGQ3YS1hYTVkLTliZGM2YWZmMTRjZSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo1NzAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NTcwMCwic2VsbGVyIjoiMSIsImlkIjoiNDE1IiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MSwiaWF0IjoxNzkyMTc2MzgxLCJqdGkiOiIwZjcwNmY1OC03ZmQ3LTQ5MjUtOWY5NS0xYTU4YTczYTU0ZGEiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.FxRZ8hYPeO0EcP--D5yBeF_VluesgdfQsGkGjlqJw3LxMvcbWI9eGK-UiMDqGcH0a9x-tTpY4HU6HGWFRKJn0Q",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 5700,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5700,
+                        "total": 5700,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5700,
+                            "total": 5700
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 5700,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 5700,
+                        "total": 5700,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 5700,
+                            "total": 5700
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T16:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T16:49:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "18979",
+    "productName": "Café Legal soluble de olla 10 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-de-olla-10-g",
+    "productReference": "07ALEG203",
+    "productReferenceCode": "07ALEG203",
+    "categoryId": "1112",
+    "productTitle": "Café Legal soluble de olla 10 g",
+    "metaTagDescription": "Café Legal soluble de olla 10 g",
+    "releaseDate": "2026-07-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-de-olla-10-g/p",
+    "Color": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Sobre"
+    ],
+    "Especificaciones": [
+      "Soluble"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "10g- 20g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Revive los mejores recuerdos y el calientito sabor de la cocina mexicana con el Café Soluble Legal de Olla de 10 g. Este café rinde homenaje a la receta tradicional, combinando el grano tostado con las notas dulces e inconfundibles del piloncillo y la canela, creando una bebida aromática y reconfortante en cuestión de segundos.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "18586",
+        "name": "Café Legal soluble de olla 10 g",
+        "nameComplete": "Café Legal soluble de olla 10 g",
+        "complementName": "",
+        "ean": "7501052414539",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG203"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": "",
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "308509",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/308509-#width#-#height#/7501052414539.jpg?v=639207897955070000\" width=\"#width#\" height=\"#height#\" alt=\"7501052414539\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/308509/7501052414539.jpg?v=639207897955070000",
+            "imageText": "7501052414539",
+            "imageLastModified": "2026-07-27T22:56:35.5070000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=18586&qty=1&seller=1&sc=1&price=700&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 7.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 7.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 7.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 7.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 7.0,
+              "ListPrice": 7.0,
+              "PriceWithoutDiscount": 7.0,
+              "FullSellingPrice": 7.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6Ijk3YTRjMmViLWJhNjEtNDI1My04NGI5LTJkOGMzMzFjZTMxMyIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo3MDAsInByaWNlV2l0aG91dERpc2NvdW50Ijo3MDAsInNlbGxlciI6IjEiLCJpZCI6IjE4NTg2IiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MSwiaWF0IjoxNzkyMTc2MzgxLCJqdGkiOiI4MzkzNTVmZC00MTNkLTRmZGItOTUyOS1kNjBlOWFlYjBiZjQiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.A-gi8Q9NWreRVUiZNRpMA1tqteuDT2rpSF64hfHl15spNBT5tbdff0rEcWT9lzItQuvy8JgqsRZ-EWA9UnUInQ",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T18:46:21Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 700,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 700,
+                        "total": 700,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 700,
+                            "total": 700
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 700,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 700,
+                        "total": 700,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 700,
+                            "total": 700
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T18:36:37.2782346Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T18:35:37.2782348Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "12391",
+    "productName": "Café Legal soluble de olla 180 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-de-olla-180-g",
+    "productReference": "07ALEG012",
+    "productReferenceCode": "07ALEG012",
+    "categoryId": "1112",
+    "productTitle": "café legal soluble de olla 180 g",
+    "metaTagDescription": "Compra Café Legal soluble de olla 180 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2023-03-27T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-de-olla-180-g/p",
+    "Color": [
+      "Café",
+      "Naranja"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Frasco"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Disfruta la tradición del auténtico café de olla mexicano en una versión instantánea fácil y rápida de preparar. Ideal para quienes buscan una taza aromática y reconfortante sin complicaciones.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/>",
+    "items": [
+      {
+        "itemId": "12286",
+        "name": "Café Legal soluble de olla 180 g",
+        "nameComplete": "Café Legal soluble de olla 180 g",
+        "complementName": "",
+        "ean": "7501052414478",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG012"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "299956",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/299956-#width#-#height#/7501052414478.jpg?v=638496718968700000\" width=\"#width#\" height=\"#height#\" alt=\"7501052414478\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/299956/7501052414478.jpg?v=638496718968700000",
+            "imageText": "7501052414478",
+            "imageLastModified": "2024-04-25T19:58:16.8700000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=12286&qty=1&seller=1&sc=1&price=10450&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 104.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 104.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 104.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 104.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 104.5,
+              "ListPrice": 104.5,
+              "PriceWithoutDiscount": 104.5,
+              "FullSellingPrice": 104.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6Ijk3YjVlYmEzLTMwYzMtNGQyOC1iNTIyLTIzMTQzZjQ1NTc4OCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMDQ1MCwicHJpY2VXaXRob3V0RGlzY291bnQiOjEwNDUwLCJzZWxsZXIiOiIxIiwiaWQiOiIxMjI4NiIsImFjY291bnROYW1lIjoibGFncmFuYm9kZWdhIiwic2FsZXNDaGFubmVsIjoiMSJ9LCJleHAiOjE3OTIxNzgxODEsImlhdCI6MTc5MjE3NjM4MSwianRpIjoiMWFjZjE1MTUtZmE4Zi00MjExLWJjNGQtNmNhMWZiNGRlZWViIiwiaXNzIjoic2Vzc2lvbi9kYXRhLXNpZ25lciJ9.GFo3-hcfg0woSx6uQMqk6jxObTbO_97c7dtzYENdh22jjZHu5plOZBWUu7HESRWzI6EwNbwFOdIxxj-NNs5MUA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 10450,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 10450,
+                        "total": 10450,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 10450,
+                            "total": 10450
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 10450,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 10450,
+                        "total": 10450,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 10450,
+                            "total": 10450
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "12389",
+    "productName": "Café Legal soluble de olla 50 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-de-olla-50-g",
+    "productReference": "07ALEG010",
+    "productReferenceCode": "07ALEG010",
+    "categoryId": "1112",
+    "productTitle": "café legal soluble de olla 50 g",
+    "metaTagDescription": "Compra Café Legal soluble de olla 50 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2023-03-27T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-de-olla-50-g/p",
+    "Color": [
+      "Café",
+      "Naranja",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Frasco"
+    ],
+    "Peso": [
+      "41g - 50g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Revive la tradición mexicana con el auténtico Café Legal Soluble de Olla en presentación práctica de 50?g. Disfruta en segundos del sabor y aroma que caracteriza a esta bebida tradicional.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/><br/>",
+    "items": [
+      {
+        "itemId": "12284",
+        "name": "Café Legal soluble de olla 50 g",
+        "nameComplete": "Café Legal soluble de olla 50 g",
+        "complementName": "",
+        "ean": "7501052414454",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG010"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "299957",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/299957-#width#-#height#/7501052414454.jpg?v=638496720194600000\" width=\"#width#\" height=\"#height#\" alt=\"7501052414454\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/299957/7501052414454.jpg?v=638496720194600000",
+            "imageText": "7501052414454",
+            "imageLastModified": "2024-04-25T20:00:19.4600000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=12284&qty=1&seller=1&sc=1&price=4000&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 40.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 40.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 40.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 40.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 40.0,
+              "ListPrice": 40.0,
+              "PriceWithoutDiscount": 40.0,
+              "FullSellingPrice": 40.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjVkZTNiMTQ0LWFiYjItNDkxNy1hMGVlLTJkNDg0ZDhkYWU1MiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo0MDAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NDAwMCwic2VsbGVyIjoiMSIsImlkIjoiMTIyODQiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6ImE1YmMzMjc5LWJiOGQtNGM4Ny1iZTlkLTczYTI2ZWQ4YTI1MCIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.yo9SgwcfA3n5FrX51iJsqol_8JL5-zRGnxAWPhFOUExDPRs_70GWod5kQyUjiMkdr_coAcmWpB61uk0lUGiKdg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-15T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 4000,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 4000,
+                        "total": 4000,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 4000,
+                            "total": 4000
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 4000,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 4000,
+                        "total": 4000,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 4000,
+                            "total": 4000
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-22T17:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-16T17:05:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "420",
+    "productName": "Café Legal tradicional grano 400 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-tradicional-grano-400-gr",
+    "productReference": "07ALEG171",
+    "productReferenceCode": "07ALEG171",
+    "categoryId": "1112",
+    "productTitle": "café legal tradicional grano 400 g",
+    "metaTagDescription": "Compra Café Legal tradicional grano 400 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-tradicional-grano-400-gr/p",
+    "Color": [
+      "Café",
+      "Rojo"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Para hervir"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "301g- 400g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Si eres un amante del café que valora la calidad, este paquete de 400 g te brindará todo lo que buscas: frescura, sabor profundo y un viaje sensorial en cada taza. ¡Haz de tu ritual de café una experiencia extraordinaria con Café Legal Tradicional en Grano! <br/><br/>Las imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.",
+    "items": [
+      {
+        "itemId": "420",
+        "name": "Café Legal tradicional grano 400 g",
+        "nameComplete": "Café Legal tradicional grano 400 g",
+        "complementName": "",
+        "ean": "7501052411323",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG171"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303800",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303800-#width#-#height#/7501052411323.jpg?v=638860603763900000\" width=\"#width#\" height=\"#height#\" alt=\"7501052411323\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303800/7501052411323.jpg?v=638860603763900000",
+            "imageText": "7501052411323",
+            "imageLastModified": "2025-06-20T23:52:56.3900000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=420&qty=1&seller=1&sc=1&price=10150&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 101.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 101.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 101.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 101.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 101.5,
+              "ListPrice": 101.5,
+              "PriceWithoutDiscount": 101.5,
+              "FullSellingPrice": 101.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1ZDMzODc1LWI3MjctNDNjNS1hOTkzLWNlYjhjNWYyNTQ4ZiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMDE1MCwicHJpY2VXaXRob3V0RGlzY291bnQiOjEwMTUwLCJzZWxsZXIiOiIxIiwiaWQiOiI0MjAiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6ImRlOGNkYzM2LTdjZjUtNDBjOC1hYTRiLTc1MjEwNDI1MGUyZCIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.EajaRF_q4l22eLnlqdZg5pAo_0LfflbjjdybKGqeJK80ThvwwIukTqO_eIKAtSwIsYUi97Dw2SAYlaKn2hjDGg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-02T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 10150,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 10150,
+                        "total": 10150,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 10150,
+                            "total": 10150
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 10150,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 10150,
+                        "total": 10150,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 10150,
+                            "total": 10150
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-09T22:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-03T22:24:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "419",
+    "productName": "Café Legal soluble descafeinado 180 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-descafeinado-180-gr",
+    "productReference": "07ALEG007",
+    "productReferenceCode": "07ALEG007",
+    "categoryId": "1112",
+    "productTitle": "café legal soluble descafeinado 180 gr",
+    "metaTagDescription": "Compra Café Legal soluble descafeinado 180 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-descafeinado-180-gr/p",
+    "Color": [
+      "Café",
+      "Verde"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Presentación": [
+      "Frasco"
+    ],
+    "Especificaciones": [
+      "Descafeinado",
+      "Soluble"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "¡Descubre el Café Legal Soluble Descafeinado 180 g, la opción perfecta para disfrutar del sabor auténtico del café sin el impulso de la cafeína! Este café instantáneo ha sido cuidadosamente elaborado para conservar el delicioso aroma y sabor profundo que caracteriza al buen café, pero sin el efecto estimulante. <br/><br/>Las imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.",
+    "items": [
+      {
+        "itemId": "419",
+        "name": "Café Legal soluble descafeinado 180 g",
+        "nameComplete": "Café Legal soluble descafeinado 180 g",
+        "complementName": "",
+        "ean": "7501052415628",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG007"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303799",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303799-#width#-#height#/7501052415628.jpg?v=638860602557770000\" width=\"#width#\" height=\"#height#\" alt=\"7501052415628\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303799/7501052415628.jpg?v=638860602557770000",
+            "imageText": "7501052415628",
+            "imageLastModified": "2025-06-20T23:50:55.7770000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=419&qty=1&seller=1&sc=1&price=12200&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 122.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 122.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 122.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 122.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 122.0,
+              "ListPrice": 122.0,
+              "PriceWithoutDiscount": 122.0,
+              "FullSellingPrice": 122.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjFmNGZlYWVhLTEzOWYtNDBmNS1hMDFmLTRjNWRlYzU2ZmE2MiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMjIwMCwicHJpY2VXaXRob3V0RGlzY291bnQiOjEyMjAwLCJzZWxsZXIiOiIxIiwiaWQiOiI0MTkiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6IjQ1YTVhMWI0LWE2ODEtNDI2Yy05Mjc0LWViMjM5MGRkMWRlZSIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.He77I894lv1Hb5Fjv9KEZYmIqmJBAPad1hxMd6bB9eJxnIN7wgRAC8crbRyWl95bVpUPZyPMGCR4fBnUgQGGZA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-14T00:00:00Z",
+              "AvailableQuantity": 100,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 12200,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 12200,
+                        "total": 12200,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 12200,
+                            "total": 12200
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 12200,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 12200,
+                        "total": 12200,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 12200,
+                            "total": 12200
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-21T16:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-15T16:50:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "18435",
+    "productName": "Café Legal soluble con leche 16 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-soluble-con-leche-16-g",
+    "productReference": "07CLEG001",
+    "productReferenceCode": "07CLEG001",
+    "categoryId": "1112",
+    "productTitle": "Café Legal soluble con leche 16 g",
+    "metaTagDescription": "Café Legal soluble con leche 16 g",
+    "releaseDate": "2026-03-19T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-soluble-con-leche-16-g/p",
+    "Contenido": [
+      "1 pieza"
+    ],
+    "Color": [
+      "Varios colores"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café",
+      "Leche"
+    ],
+    "Presentación": [
+      "Sobre"
+    ],
+    "Especificaciones": [
+      "En polvo",
+      "Soluble"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "10g- 20g"
+    ],
+    "allSpecifications": [
+      "Contenido",
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Contenido",
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Bebida soluble que combina café con leche para disfrutar una taza cremosa y de sabor suave. Su práctica presentación individual permite prepararlo fácilmente agregando agua caliente. Ideal para disfrutar en casa, la oficina o llevar a cualquier lugar. Contiene 16 g de producto. <br/><br/>Las imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.",
+    "items": [
+      {
+        "itemId": "18042",
+        "name": "Café Legal soluble con leche 16 g",
+        "nameComplete": "Café Legal soluble con leche 16 g",
+        "complementName": "",
+        "ean": "7501052414034",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07CLEG001"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": "",
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "307413",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/307413-#width#-#height#/7501052414034.jpg?v=639090313420000000\" width=\"#width#\" height=\"#height#\" alt=\"7501052414034\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/307413/7501052414034.jpg?v=639090313420000000",
+            "imageText": "7501052414034",
+            "imageLastModified": "2026-03-13T20:42:22.0000000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=18042&qty=1&seller=1&sc=1&price=1000&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 10.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 10.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 10.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 10.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 10.0,
+              "ListPrice": 10.0,
+              "PriceWithoutDiscount": 10.0,
+              "FullSellingPrice": 10.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjNhNGU0MzM0LWY2OGEtNGZjMS1hNGY4LTFmYzhkZWRmODcyOSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMDAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MTAwMCwic2VsbGVyIjoiMSIsImlkIjoiMTgwNDIiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgxLCJpYXQiOjE3OTIxNzYzODEsImp0aSI6ImZkMDFhZTEzLTNhNGQtNGUxOC1hNmY2LTBlOTk0YzEyN2E5NiIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.2jJlOvn5Cmn13fwTRj0yomRRolT2yCmqeA51LyLiUjIA_liLpU64buNB6yY8s_hr0Mp_c47tMsaqxFzUq27YZQ",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-09-02T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 1000,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1000,
+                        "total": 1000,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1000,
+                            "total": 1000
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 1000,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1000,
+                        "total": 1000,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1000,
+                            "total": 1000
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-09T14:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-03T14:35:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "416",
+    "productName": "Café Legal mezclado a la canela 200 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-mezclado-a-la-canela-200-gr",
+    "productReference": "07ALEG004",
+    "productReferenceCode": "07ALEG004",
+    "categoryId": "1112",
+    "productTitle": "café legal mezclado a la canela 200 g",
+    "metaTagDescription": "Compra Café Legal mezclado a la canela 200 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2018-11-28T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-mezclado-a-la-canela-200-gr/p",
+    "Color": [
+      "Café"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Café",
+      "Canela"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Para hervir"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "101g- 200g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Ideal para disfrutar en cualquier momento del día, este café con canela es perfecto para quienes buscan un sabor diferente y aromático. ¡Haz de tus pausas algo especial con el equilibrio perfecto entre sabor robusto y el dulce toque de canela de Café Legal! <br/><br/>Las imágenes del producto son únicamente de referencia, tanto el diseño de etiquetas y el gramaje (ml, L, Kg, g, piezas, etc.) pueden cambiar o variar sin previo aviso.",
+    "items": [
+      {
+        "itemId": "416",
+        "name": "Café Legal mezclado a la canela 200 g",
+        "nameComplete": "Café Legal mezclado a la canela 200 g",
+        "complementName": "",
+        "ean": "7501052411132",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07ALEG004"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "303796",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/303796-#width#-#height#/7501052411132.jpg?v=638860588851630000\" width=\"#width#\" height=\"#height#\" alt=\"7501052411132\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/303796/7501052411132.jpg?v=638860588851630000",
+            "imageText": "7501052411132",
+            "imageLastModified": "2025-06-20T23:28:05.1630000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=416&qty=1&seller=1&sc=1&price=7300&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 73.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 73.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 73.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 73.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 73.0,
+              "ListPrice": 73.0,
+              "PriceWithoutDiscount": 73.0,
+              "FullSellingPrice": 73.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjJiYzIyZjgzLThkM2YtNDMyNC04M2JlLTkyYzE3MzIzODIyMyIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo3MzAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6NzMwMCwic2VsbGVyIjoiMSIsImlkIjoiNDE2IiwiYWNjb3VudE5hbWUiOiJsYWdyYW5ib2RlZ2EiLCJzYWxlc0NoYW5uZWwiOiIxIn0sImV4cCI6MTc5MjE3ODE4MSwiaWF0IjoxNzkyMTc2MzgxLCJqdGkiOiI4MGNiYWQ4MS1kNzAzLTQ2MTYtYjViOS00ZWFkM2I4MGY1NzQiLCJpc3MiOiJzZXNzaW9uL2RhdGEtc2lnbmVyIn0.GR87q8HLyGkQGkZSx6vRC2kbAZCRdk0VE2o4OubOhcptVoxVaIq62MzpoTNXFlsE7X38gP2_L9C7LjCPnttxAQ",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T18:46:21Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 7300,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 7300,
+                        "total": 7300,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 7300,
+                            "total": 7300
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 7300,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 7300,
+                        "total": 7300,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 7300,
+                            "total": 7300
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T18:36:37.2782346Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T18:35:37.2782348Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "16070",
+    "productName": "Café Legal grano a la canela 30 sobres de 28 g",
+    "brand": "LEGAL",
+    "brandId": 2000483,
+    "brandImageUrl": null,
+    "linkText": "cafe-legal-grano-a-la-canela-con-30-de-28-g",
+    "productReference": "07BLEG012",
+    "productReferenceCode": "07BLEG012",
+    "categoryId": "1112",
+    "productTitle": "Café Legal grano a la canela 30 sobres de 28 g",
+    "metaTagDescription": "Compra Café Legal grano a la canela 30 sobres de 28 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2024-04-04T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {
+      "203": "Velas y veladoras"
+    },
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Café, Té y Sustitutos/Café Soluble/",
+      "/Despensa/Café, Té y Sustitutos/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1047/1112/",
+      "/1003/1047/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/cafe-legal-grano-a-la-canela-con-30-de-28-g/p",
+    "description": "Café Legal grano a la canela 30 sobres de 28 g",
+    "items": [
+      {
+        "itemId": "15716",
+        "name": "Café Legal grano a la canela 30 sobres de 28 g",
+        "nameComplete": "Café Legal grano a la canela 30 sobres de 28 g",
+        "complementName": "",
+        "ean": "17501052411542",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "07BLEG012"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "299131",
+            "imageLabel": "Front",
+            "imageTag": "<img src=\"~/arquivos/ids/299131-#width#-#height#/17501052411542.jpg?v=638476089035170000\" width=\"#width#\" height=\"#height#\" alt=\"17501052411542\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/299131/17501052411542.jpg?v=638476089035170000",
+            "imageText": "17501052411542",
+            "imageLastModified": "2024-04-01T22:55:03.5170000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=15716&qty=1&seller=1&sc=1&price=36100&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 361.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 361.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 361.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 361.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 361.0,
+              "ListPrice": 361.0,
+              "PriceWithoutDiscount": 361.0,
+              "FullSellingPrice": 361.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRkNDM2ZjZmLTY5ZjItNGJlOC05MDMwLTAyMzIwZjQxMWQ4YiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjozNjEwMCwicHJpY2VXaXRob3V0RGlzY291bnQiOjM2MTAwLCJzZWxsZXIiOiIxIiwiaWQiOiIxNTcxNiIsImFjY291bnROYW1lIjoibGFncmFuYm9kZWdhIiwic2FsZXNDaGFubmVsIjoiMSJ9LCJleHAiOjE3OTIxNzgxODEsImlhdCI6MTc5MjE3NjM4MSwianRpIjoiYzZlZWZkM2MtMmY3Ny00N2QwLWFkZDAtMmM1YzVkNWJmZWZkIiwiaXNzIjoic2Vzc2lvbi9kYXRhLXNpZ25lciJ9.jwP_eIMXmPJavRaLyuz1lM75njgOfDJC7Uy0y5gRWQtelUnZ4lzpIbPyVGIv5R1OVQAhr-xA7_rf2dwkeHMuzg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-10-16T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 36100,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 36100,
+                        "total": 36100,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 36100,
+                            "total": 36100
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 36100,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 36100,
+                        "total": 36100,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 36100,
+                            "total": 36100
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-23T15:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-10-17T15:09:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  }
+]

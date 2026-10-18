@@ -1,0 +1,645 @@
+{
+  "evidenceType": "synthetic_fixture_not_physical_print",
+  "profile": {
+    "address": "AA:BB:CC:DD:EE:01",
+    "alias": "A58",
+    "paper": "mm58",
+    "printableWidthDots": 384,
+    "imageCommand": "gsV0",
+    "supportsCut": false
+  },
+  "document": {
+    "title": "RECIBO DE VENTA",
+    "identifier": "Recibo # térmico-123",
+    "date": "09/10/2026 12:34",
+    "dateLabel": "Fecha",
+    "currency": "MXN",
+    "details": [
+      "Cliente: María Muñoz",
+      "Referencia: SPEI-ñ-42"
+    ],
+    "summary": [
+      "Transferencia",
+      "100",
+      "2 piezas, 0.750 kg, 0.250 L",
+      "$245.00"
+    ],
+    "itemRows": [
+      [
+        "1. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "2. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "3. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "4. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "5. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "6. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "7. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "8. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "9. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "10. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "11. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "12. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "13. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "14. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "15. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "16. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "17. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "18. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "19. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "20. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "21. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "22. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "23. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "24. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "25. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "26. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "27. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "28. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "29. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "30. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "31. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "32. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "33. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "34. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "35. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "36. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "37. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "38. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "39. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "40. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "41. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "42. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "43. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "44. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "45. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "46. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "47. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "48. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "49. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "50. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "51. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "52. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "53. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "54. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "55. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "56. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "57. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "58. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "59. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "60. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "61. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "62. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "63. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "64. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "65. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "66. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "67. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "68. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "69. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "70. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "71. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "72. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "73. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "74. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "75. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "76. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "77. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "78. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "79. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "80. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "81. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "82. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "83. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "84. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "85. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "86. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "87. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "88. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "89. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "90. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "91. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "92. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "93. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "94. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "95. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "96. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "97. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "98. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "99. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ],
+      [
+        "100. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ]
+    ],
+    "totals": [
+      [
+        "Subtotal",
+        "$245.00"
+      ],
+      [
+        "Total general",
+        "$245.00"
+      ],
+      [
+        "Transferencia recibida",
+        "$245.00"
+      ]
+    ],
+    "footer": "Gracias, vuelva pronto. ñ Ñ á é í ó ú ü € °"
+  }
+}

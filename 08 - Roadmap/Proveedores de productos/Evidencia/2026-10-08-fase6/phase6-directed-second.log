@@ -1,0 +1,10 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand supplier
+
+
+Test Suites: 3 passed, 3 total
+Tests:       112 passed, 112 total
+Snapshots:   0 total
+Time:        1.931 s
+Ran all test suites matching supplier.

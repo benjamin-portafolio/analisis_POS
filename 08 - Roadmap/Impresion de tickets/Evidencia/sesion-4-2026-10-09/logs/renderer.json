@@ -1,0 +1,14 @@
+{
+  "command": [
+    "flutter",
+    "test",
+    "test/data/printing/esc_pos_ticket_encoder_test.dart",
+    "--reporter",
+    "expanded"
+  ],
+  "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+  "started": "2026-10-09T09:28:04.307600-06:00",
+  "finished": "2026-10-09T09:28:15.547380-06:00",
+  "duration_seconds": 11.24,
+  "exit_code": 0
+}

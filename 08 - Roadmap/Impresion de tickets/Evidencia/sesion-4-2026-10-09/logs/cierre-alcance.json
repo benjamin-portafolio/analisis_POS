@@ -1,0 +1,13 @@
+{
+  "analysis_existing_files_changed": [
+    "08 - Roadmap/Impresion de tickets/Sesiones/04 - Verificacion y cierre.md",
+    "08 - Roadmap/Impresion de tickets/Estado y continuidad.md"
+  ],
+  "flutter_files_changed_or_added": 13,
+  "unrelated_baseline_files": "unchanged",
+  "matrix_cases": 25,
+  "renders": 10,
+  "synthetic_documents": 8,
+  "markdown_local_links": "all_exist",
+  "git_diff_check": "passed"
+}

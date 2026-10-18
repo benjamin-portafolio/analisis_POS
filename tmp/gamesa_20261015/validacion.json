@@ -1,0 +1,1079 @@
+{
+  "archivo": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /outputs/gamesa_20261015/gamesa_carga_masiva.csv",
+  "filas": 56,
+  "articulos": 56,
+  "conCodigo": 48,
+  "sinCodigo": 8,
+  "notas": [
+    "Los importes son por paquete de venta. Los sufijos X48X1, X24X1 y similares son el embalaje del proveedor y no se convierten en existencias ni multiplican precios.",
+    "La segunda fila de Emperador Senzo repite SKU de 117 g pero la columna Gramaje indica 121 g. Se conserva como presentación separada sin asignar barcode por inferencia.",
+    "Chokis Chocobase y Chokis rollo indican 73.5 g y 180.5 g en el SKU, mientras que Gramaje redondea a 73 g y 180 g. Se conserva la precisión del SKU.",
+    "Categoría sin asignar y seguimiento de existencias desactivado: el catálogo no incluye stock."
+  ],
+  "mapped": [
+    {
+      "id": 1,
+      "marca": "Emperador",
+      "sku": "EMPERADOR SENZO DTS RG3 117GRX48X1",
+      "gramos": 117,
+      "row": [
+        "",
+        "Gamesa Emperador Senzo 117 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478022373"
+      ],
+      "barcodeFuente": "https://daniel-correa-9j7n.squarespace.com/mexico/2025/9/8/trminos-y-condiciones-chocolocura-gamesa"
+    },
+    {
+      "id": 2,
+      "marca": "Emperador",
+      "sku": "EMPERADOR SENZO DTS RG3 117GRX48X1",
+      "gramos": 121,
+      "row": [
+        "",
+        "Gamesa Emperador Senzo 121 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        ""
+      ],
+      "barcodeFuente": null
+    },
+    {
+      "id": 3,
+      "marca": "Emperador",
+      "sku": "EMPERADOR PIR FU RF RG2 115GRX44X1",
+      "gramos": 115,
+      "row": [
+        "",
+        "Gamesa Emperador Piruetas 115 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478022502"
+      ],
+      "barcodeFuente": "https://www.scorpion.com.mx/tienda/emperador-galletas-piruetas-115-gr-27828.html"
+    },
+    {
+      "id": 4,
+      "marca": "Emperador",
+      "sku": "EMPERADOR VAIN RF RG2 109GRX44X1",
+      "gramos": 109,
+      "row": [
+        "",
+        "Gamesa Emperador vainilla 109 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478022519"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 5,
+      "marca": "Emperador",
+      "sku": "EMPERADOR NUEZ RF RG2 109GRX44X1",
+      "gramos": 109,
+      "row": [
+        "",
+        "Gamesa Emperador nuez 109 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478022540"
+      ],
+      "barcodeFuente": "https://superdtodo.com/product/emperador-nuez-gamesa-109-gr"
+    },
+    {
+      "id": 6,
+      "marca": "Emperador",
+      "sku": "EMPERADOR COM DTS RF RG2 109GRX44X1",
+      "gramos": 109,
+      "row": [
+        "",
+        "Gamesa Emperador combinado 109 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478021581"
+      ],
+      "barcodeFuente": "https://farmaciasanjorge.com/products/35734"
+    },
+    {
+      "id": 7,
+      "marca": "Emperador",
+      "sku": "EMPERADOR PB 109GRX44X1",
+      "gramos": 109,
+      "row": [
+        "",
+        "Gamesa Emperador PB 109 g",
+        "unidad",
+        "",
+        "",
+        23,
+        19.49,
+        "no",
+        "",
+        ""
+      ],
+      "barcodeFuente": null
+    },
+    {
+      "id": 8,
+      "marca": "Emperador",
+      "sku": "EMPERADOR MOKA 109GRX44X1",
+      "gramos": 109,
+      "row": [
+        "",
+        "Gamesa Emperador moka 109 g",
+        "unidad",
+        "",
+        "",
+        23,
+        19.49,
+        "no",
+        "",
+        ""
+      ],
+      "barcodeFuente": null
+    },
+    {
+      "id": 9,
+      "marca": "Emperador",
+      "sku": "EMPERADOR NOCT RF RG2 109GRX44X1",
+      "gramos": 109,
+      "row": [
+        "",
+        "Gamesa Emperador nocturno 109 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478021574"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 10,
+      "marca": "Chokis",
+      "sku": "CHOKIS CLASICA FU NF 76GRX45X1",
+      "gramos": 76,
+      "row": [
+        "",
+        "Gamesa Chokis clásica 76 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478014569"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 11,
+      "marca": "Chokis",
+      "sku": "CHOKIS RELLENA FU RG NI PRD 90GRX42X1",
+      "gramos": 90,
+      "row": [
+        "",
+        "Gamesa Chokis rellena 90 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7501000604685"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 12,
+      "marca": "Chokis",
+      "sku": "MINI CHOKIS FU NF 42GRX48X1",
+      "gramos": 42,
+      "row": [
+        "",
+        "Gamesa Mini Chokis 42 g",
+        "unidad",
+        "",
+        "",
+        10,
+        8.48,
+        "no",
+        "",
+        "7500478022694"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 13,
+      "marca": "Chokis",
+      "sku": "CHOKIS CHOCOBASE 73.5GRX50X1",
+      "gramos": 73.5,
+      "row": [
+        "",
+        "Gamesa Chokis Chocobase 73.5 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478037421"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 14,
+      "marca": "Chokis",
+      "sku": "CHOKIS BROWNIE DTS RG 64GRX69X1",
+      "gramos": 64,
+      "row": [
+        "",
+        "Gamesa Chokis Brownie 64 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7501000636495"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 15,
+      "marca": "Gamesa Clásicas",
+      "sku": "BARRAS D COCO MG FU RG2 117GRX36X1",
+      "gramos": 117,
+      "row": [
+        "",
+        "Gamesa Barras de coco 117 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.95,
+        "no",
+        "",
+        "7501000669509"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 16,
+      "marca": "Gamesa Clásicas",
+      "sku": "FLORENTINAS FRESA NI 110GRX30X1",
+      "gramos": 110,
+      "row": [
+        "",
+        "Gamesa Florentinas fresa 110 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        ""
+      ],
+      "barcodeFuente": null
+    },
+    {
+      "id": 17,
+      "marca": "Gamesa Clásicas",
+      "sku": "FLORENTINAS CAJETA NI 110GRX30X1",
+      "gramos": 110,
+      "row": [
+        "",
+        "Gamesa Florentinas cajeta 110 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        ""
+      ],
+      "barcodeFuente": null
+    },
+    {
+      "id": 18,
+      "marca": "Gamesa Clásicas",
+      "sku": "DELICIAS CHOCOLATE DTS 153GRX18X1",
+      "gramos": 153,
+      "row": [
+        "",
+        "Gamesa Delicias chocolate 153 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.95,
+        "no",
+        "",
+        "7500478039449"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 19,
+      "marca": "Gamesa Clásicas",
+      "sku": "FLOR DE NARANJO MG RG2 100GRX48X1",
+      "gramos": 100,
+      "row": [
+        "",
+        "Gamesa Flor de Naranjo 100 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7501000624683"
+      ],
+      "barcodeFuente": "https://www.klyns.mx/flor-de-naranjo-100-gr/p"
+    },
+    {
+      "id": 20,
+      "marca": "Gamesa Clásicas",
+      "sku": "MARAVILLAS MG FU RF 116GRX32X1",
+      "gramos": 116,
+      "row": [
+        "",
+        "Gamesa Maravillas 116 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.95,
+        "no",
+        "",
+        "7501000641482"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 21,
+      "marca": "Gamesa Clásicas",
+      "sku": "DELICIAS NARANJA DTS 153GRX18X1",
+      "gramos": 153,
+      "row": [
+        "",
+        "Gamesa Delicias naranja 153 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.95,
+        "no",
+        "",
+        "7500478039456"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 22,
+      "marca": "Gamesa Clásicas",
+      "sku": "DELICIAS DTS 153GRX18X1",
+      "gramos": 153,
+      "row": [
+        "",
+        "Gamesa Delicias 153 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.95,
+        "no",
+        "",
+        "7500478038886"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 23,
+      "marca": "Gamesa Clásicas",
+      "sku": "RICANELAS DTS 113GRX34X1",
+      "gramos": 113,
+      "row": [
+        "",
+        "Gamesa Ricanelas 113 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.95,
+        "no",
+        "",
+        "7500478038794"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 24,
+      "marca": "Cremax",
+      "sku": "CREMAX FRESA FU RG3 113GRX36X1",
+      "gramos": 113,
+      "row": [
+        "",
+        "Gamesa Cremax fresa 113 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478022908"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 25,
+      "marca": "Cremax",
+      "sku": "CREMAX CHOCO FU RG3 113GRX36X1",
+      "gramos": 113,
+      "row": [
+        "",
+        "Gamesa Cremax chocolate 113 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478022885"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 26,
+      "marca": "Cremax",
+      "sku": "CREMAX VAINILLA FU RG3 113GRX36X1",
+      "gramos": 113,
+      "row": [
+        "",
+        "Gamesa Cremax vainilla 113 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478022892"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 27,
+      "marca": "Giro",
+      "sku": "GIRO DTS NI RF 114GRX44X1",
+      "gramos": 114,
+      "row": [
+        "",
+        "Gamesa Giro 114 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478021598"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 28,
+      "marca": "Marías",
+      "sku": "MARIAS CLASICAS 185GRX22X1",
+      "gramos": 185,
+      "row": [
+        "",
+        "Gamesa Marías clásicas 185 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.32,
+        "no",
+        "",
+        "7500478039135"
+      ],
+      "barcodeFuente": "https://farmaciasanjorge.com/products/32498"
+    },
+    {
+      "id": 29,
+      "marca": "Marías",
+      "sku": "MARIAS DORADAS 199GRX15X1",
+      "gramos": 199,
+      "row": [
+        "",
+        "Gamesa Marías doradas 199 g",
+        "unidad",
+        "",
+        "",
+        30,
+        25.42,
+        "no",
+        "",
+        "7500478037254"
+      ],
+      "barcodeFuente": "https://farmaciasanjorge.com/products/31020"
+    },
+    {
+      "id": 30,
+      "marca": "Marías",
+      "sku": "MARIAS AZU RG2 144GRX22X1",
+      "gramos": 144,
+      "row": [
+        "",
+        "Gamesa Marías azucaradas 144 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.32,
+        "no",
+        "",
+        ""
+      ],
+      "barcodeFuente": null
+    },
+    {
+      "id": 31,
+      "marca": "Marías",
+      "sku": "MARIAS CHOCO UNIF 144GRX22X1",
+      "gramos": 144,
+      "row": [
+        "",
+        "Gamesa Marías chocolate 144 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.32,
+        "no",
+        "",
+        "7500478036486"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 32,
+      "marca": "Arcoíris",
+      "sku": "FRUTS RG 130GRX21X1",
+      "gramos": 130,
+      "row": [
+        "",
+        "Gamesa Fruts 130 g",
+        "unidad",
+        "",
+        "",
+        25,
+        21.19,
+        "no",
+        "",
+        "7500478015931"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 33,
+      "marca": "Arcoíris",
+      "sku": "ARCOIRIS FU AUTO RG2 94GRX28X1",
+      "gramos": 94,
+      "row": [
+        "",
+        "Gamesa Arcoíris 94 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478021079"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 34,
+      "marca": "Arcoíris",
+      "sku": "ARCOIRIS FU AUTO RG 75GRX36X1",
+      "gramos": 75,
+      "row": [
+        "",
+        "Gamesa Arcoíris 75 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7501000635726"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 35,
+      "marca": "Mamut",
+      "sku": "MAMUT SUPER FU RG3 44GRX72X1",
+      "gramos": 44,
+      "row": [
+        "",
+        "Gamesa Mamut Súper 44 g",
+        "unidad",
+        "",
+        "",
+        12,
+        10.17,
+        "no",
+        "",
+        "7501000651375"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 36,
+      "marca": "Mamut",
+      "sku": "FLIPY FU RG3 45GRX50X1",
+      "gramos": 45,
+      "row": [
+        "",
+        "Gamesa Flipy 45 g",
+        "unidad",
+        "",
+        "",
+        12,
+        10.17,
+        "no",
+        "",
+        "7500478024650"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 37,
+      "marca": "Mamut",
+      "sku": "MINI MAMUT AUTO RG4 12GRX168X1",
+      "gramos": 12,
+      "row": [
+        "",
+        "Gamesa Mini Mamut 12 g",
+        "unidad",
+        "",
+        "",
+        4,
+        3.39,
+        "no",
+        "",
+        "7501000630363"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 38,
+      "marca": "Saladitas",
+      "sku": "SALADITAS CUAR 10 RG 186GRX12X1",
+      "gramos": 186,
+      "row": [
+        "",
+        "Gamesa Saladitas 186 g",
+        "unidad",
+        "",
+        "",
+        25,
+        19.49,
+        "no",
+        "",
+        "7501000664221"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 39,
+      "marca": "Saladitas",
+      "sku": "SALADITAS TABLETA 137GRX20X1",
+      "gramos": 137,
+      "row": [
+        "",
+        "Gamesa Saladitas tableta 137 g",
+        "unidad",
+        "",
+        "",
+        21,
+        17.8,
+        "no",
+        "",
+        "7501000658404"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 40,
+      "marca": "Saladitas",
+      "sku": "SALADITAS GAMESA CP RG 2400GRX1X1",
+      "gramos": 2400,
+      "row": [
+        "",
+        "Gamesa Saladitas 2400 g",
+        "unidad",
+        "",
+        "",
+        290,
+        245.63,
+        "no",
+        "",
+        ""
+      ],
+      "barcodeFuente": null
+    },
+    {
+      "id": 41,
+      "marca": "Crackets",
+      "sku": "CRACKETS ROLLO RG 139GRX24X1",
+      "gramos": 139,
+      "row": [
+        "",
+        "Gamesa Crackets rollo 139 g",
+        "unidad",
+        "",
+        "",
+        22,
+        18.64,
+        "no",
+        "",
+        "7500478015870"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 42,
+      "marca": "Crackets",
+      "sku": "CRACKETS FU RG2 95GRX32X1",
+      "gramos": 95,
+      "row": [
+        "",
+        "Gamesa Crackets 95 g",
+        "unidad",
+        "",
+        "",
+        16,
+        13.56,
+        "no",
+        "",
+        "7500478005635"
+      ],
+      "barcodeFuente": "https://daniel-correa-9j7n.squarespace.com/mexico/2025/9/8/trminos-y-condiciones-chocolocura-gamesa"
+    },
+    {
+      "id": 43,
+      "marca": "Habaneras",
+      "sku": "HABANERAS INTEGRAL RG RS 117GRX24X1",
+      "gramos": 117,
+      "row": [
+        "",
+        "Gamesa Habaneras integrales 117 g",
+        "unidad",
+        "",
+        "",
+        20,
+        16.95,
+        "no",
+        "",
+        "7501000662654"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 44,
+      "marca": "Chocotella",
+      "sku": "FLORENTINAS CHOCOTELLA 83GRX70X1",
+      "gramos": 83,
+      "row": [
+        "",
+        "Gamesa Florentinas Chocotella 83 g",
+        "unidad",
+        "",
+        "",
+        15,
+        11.95,
+        "no",
+        "",
+        "7500478037445"
+      ],
+      "barcodeFuente": "https://www.chedraui.com.mx/galleta-gamesa-florentinas-chocotella-83g-3845338/p"
+    },
+    {
+      "id": 45,
+      "marca": "Chocotella",
+      "sku": "EMPERADOR SENZO CHOCOTELLA DTS 70GRX60X1",
+      "gramos": 70,
+      "row": [
+        "",
+        "Gamesa Emperador Senzo Chocotella 70 g",
+        "unidad",
+        "",
+        "",
+        15,
+        11.95,
+        "no",
+        "",
+        "7500478035274"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 46,
+      "marca": "Chocotella",
+      "sku": "EMPERADOR CHOCOTELLA DTS CP 72GRX66X1",
+      "gramos": 72,
+      "row": [
+        "",
+        "Gamesa Emperador Chocotella 72 g",
+        "unidad",
+        "",
+        "",
+        15,
+        11.95,
+        "no",
+        "",
+        "7500478035212"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 47,
+      "marca": "Chocotella",
+      "sku": "CREMAX CHOCOTELLA DTS CP 85GRX52X1",
+      "gramos": 85,
+      "row": [
+        "",
+        "Gamesa Cremax Chocotella 85 g",
+        "unidad",
+        "",
+        "",
+        15,
+        11.95,
+        "no",
+        "",
+        "7500478040360"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 48,
+      "marca": "Chocotella",
+      "sku": "MARIAS CHOCOTELLA SWH DTS CPP 70GRX52X1",
+      "gramos": 70,
+      "row": [
+        "",
+        "Gamesa Marías Chocotella 70 g",
+        "unidad",
+        "",
+        "",
+        15,
+        11.95,
+        "no",
+        "",
+        ""
+      ],
+      "barcodeFuente": null
+    },
+    {
+      "id": 49,
+      "marca": "Paketón",
+      "sku": "EMPERADOR CHOCO DTS RF RG2 200GRX24X1",
+      "gramos": 200,
+      "row": [
+        "",
+        "Gamesa Emperador chocolate 200 g",
+        "unidad",
+        "",
+        "",
+        32,
+        27.12,
+        "no",
+        "",
+        "7500478015238"
+      ],
+      "barcodeFuente": "https://sierraserver.no-ip.org/SOPORTEMXL/MAGGS%20DAGAL/Catalogo_Productos%20upc%20sku%20maggs.pdf"
+    },
+    {
+      "id": 50,
+      "marca": "Paketón",
+      "sku": "EMPERADOR PIR FU RF RG2 PRE 211GRX24X1",
+      "gramos": 211,
+      "row": [
+        "",
+        "Gamesa Emperador Piruetas 211 g",
+        "unidad",
+        "",
+        "",
+        32,
+        27.12,
+        "no",
+        "",
+        "7500478015108"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 51,
+      "marca": "Paketón",
+      "sku": "EMPERADOR COM DTS RF RG2 200GRX24X1",
+      "gramos": 200,
+      "row": [
+        "",
+        "Gamesa Emperador combinado 200 g",
+        "unidad",
+        "",
+        "",
+        32,
+        27.12,
+        "no",
+        "",
+        "7500478015085"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 52,
+      "marca": "Paketón",
+      "sku": "CHOKIS ROLLO DTS PRD 180.5GRX18X1",
+      "gramos": 180.5,
+      "row": [
+        "",
+        "Gamesa Chokis rollo 180.5 g",
+        "unidad",
+        "",
+        "",
+        32,
+        27.12,
+        "no",
+        "",
+        "7500478013944"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 53,
+      "marca": "Paketón",
+      "sku": "CREMAX FRESA FU RG2 213GRX17X1",
+      "gramos": 213,
+      "row": [
+        "",
+        "Gamesa Cremax fresa 213 g",
+        "unidad",
+        "",
+        "",
+        32,
+        27.12,
+        "no",
+        "",
+        "7501000612147"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 54,
+      "marca": "Paketón",
+      "sku": "CREMAX CHOCO FU RG2 213GRX17X1",
+      "gramos": 213,
+      "row": [
+        "",
+        "Gamesa Cremax chocolate 213 g",
+        "unidad",
+        "",
+        "",
+        32,
+        27.12,
+        "no",
+        "",
+        "7501000612130"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 55,
+      "marca": "Paketón",
+      "sku": "CREMAX VA FU RG2 213GRX17X1",
+      "gramos": 213,
+      "row": [
+        "",
+        "Gamesa Cremax vainilla 213 g",
+        "unidad",
+        "",
+        "",
+        32,
+        27.12,
+        "no",
+        "",
+        "7501000612161"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    },
+    {
+      "id": 56,
+      "marca": "Paketón",
+      "sku": "GIRO DTS NI RF 199GRX24X1",
+      "gramos": 199,
+      "row": [
+        "",
+        "Gamesa Giro 199 g",
+        "unidad",
+        "",
+        "",
+        32,
+        27.12,
+        "no",
+        "",
+        "7500478027439"
+      ],
+      "barcodeFuente": "https://michedraui.com.mx/tyc/2023/tablas/06-junio/productos/productos-mba3-galletas-junio-2026.pdf"
+    }
+  ]
+}

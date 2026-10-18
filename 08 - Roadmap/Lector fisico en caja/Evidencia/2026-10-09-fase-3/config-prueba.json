@@ -1,0 +1,17 @@
+{
+  "mode": "standalone",
+  "setup_completed": true,
+  "business_name": "Prueba lector fase 3",
+  "user_id": "phase3-user",
+  "user_name": "Prueba fase 3",
+  "auth_provider": "google",
+  "sync_provider": "none",
+  "backup_provider": "google_drive",
+  "google_user_id": null,
+  "google_user_email": null,
+  "backup_hour": 3,
+  "last_backup_at": "2026-10-10T04:42:51.781573+00:00",
+  "last_backup_local_sequence": 0,
+  "cash_enabled": true,
+  "bank_enabled": true
+}

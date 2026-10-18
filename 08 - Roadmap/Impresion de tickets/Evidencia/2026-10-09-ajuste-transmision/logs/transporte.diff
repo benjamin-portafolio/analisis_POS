@@ -1,0 +1,33 @@
+--- antes/PrinterTransport.kt
++++ actual/PrinterTransport.kt
+@@ -17,7 +17,10 @@
+ /** Owns exactly one SPP socket. Close aborts on a separate executor and then
+  * waits for the I/O worker: returning from close is a termination barrier.
+  * A stuck/failed close keeps the transport unavailable for another send. */
+-internal class PrinterTransport(private val createSocket: (String) -> PrinterSocket) {
++internal class PrinterTransport(
++    private val pauseBetweenBlocks: () -> Unit = { Thread.sleep(40) },
++    private val createSocket: (String) -> PrinterSocket
++) {
+     private val gate = Any()
+     private val worker = Executors.newSingleThreadExecutor()
+     private val closer = Executors.newSingleThreadExecutor()
+@@ -51,10 +54,16 @@
+                 synchronized(gate) {
+                     if (closing) throw TransportFailure("timeout")
+                 }
+-                val count = minOf(1024, snapshot.size - offset)
++                val count = minOf(256, snapshot.size - offset)
+                 destination.write(snapshot, offset, count)
+                 offset += count
+-                if (offset < snapshot.size) Thread.sleep(20)
++                // Include the last block: completing write must not let the
++                // next raster band immediately burst into the receiver buffer.
++                // This is pacing, not an acknowledgement of physical printing.
++                pauseBetweenBlocks()
++            }
++            synchronized(gate) {
++                if (closing) throw TransportFailure("timeout")
+             }
+             destination.flush()
+         }

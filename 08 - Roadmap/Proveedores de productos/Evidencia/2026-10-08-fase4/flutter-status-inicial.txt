@@ -1,0 +1,105 @@
+ M lib/application/commands/articulos/crear_articulo_variante_command.dart
+ M lib/application/commands/articulos/inventory_resource_resolver.dart
+ M lib/application/commands/articulos/producto_command_service.dart
+ M lib/application/commands/ventas/limpiar_venta_borrador_command.dart
+ M lib/application/commands/ventas/venta_borrador_command_service.dart
+ M lib/application/sync/handlers/producto_event_handler.dart
+ M lib/application/sync/payloads/producto_actualizado_payload.dart
+ M lib/application/sync/payloads/producto_creado_payload.dart
+ M lib/application/sync/projections/sale_item_projection.dart
+ M lib/core/di/application_dependencies.dart
+ M lib/core/di/data_dependencies.dart
+ M lib/data/local/backup/database_restore_service.dart
+ M lib/data/local/drift/app_database.dart
+ M lib/data/local/drift/app_database.g.dart
+ M lib/data/local/drift/daos/producto_dao.dart
+ M lib/data/local/drift/daos/sale_dao.dart
+ M lib/data/local/drift/drift_local_event_store.dart
+ M lib/data/local/drift/drift_producto_projection_store.dart
+ M lib/data/repositories/producto_repository_impl.dart
+ M lib/domain/articulos/variante_detalle.dart
+ M lib/presentation/pages/caja/caja_screen.dart
+ M lib/presentation/pages/caja/models/sale_receipt_display.dart
+ M lib/presentation/pages/caja/sale_receipt_image_generator.dart
+ M lib/presentation/pages/gestion_inventario/articulos/article_form_screen.dart
+ M lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_result.dart
+ M lib/presentation/pages/gestion_inventario/articulos/models/articulo_preview_form.dart
+ M lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart
+ M lib/presentation/pages/gestion_inventario/inventory_management_screen.dart
+ M lib/presentation/pages/gestion_inventario/widgets/inventory_add_options_bottom_sheet.dart
+ M lib/presentation/pages/pantalla_principal/home_screen.dart
+ M lib/presentation/pages/pantalla_principal/menu_lateral.dart
+ M test/presentation/pages/gestion_inventario/articulos/articulo_preview_form_test.dart
+ M test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart
+ M test/support/variant_tracking_harness.dart
+?? docs/architecture/product_suppliers.md
+?? lib/application/commands/cotizaciones/
+?? lib/application/commands/proveedores/
+?? lib/application/sync/handlers/cotizacion_guardada_event_handler.dart
+?? lib/application/sync/handlers/cotizacion_recuperada_event_handler.dart
+?? lib/application/sync/handlers/proveedor_actualizado_event_handler.dart
+?? lib/application/sync/handlers/proveedor_creado_event_handler.dart
+?? lib/application/sync/payloads/cotizacion_guardada_line.dart
+?? lib/application/sync/payloads/cotizacion_guardada_payload.dart
+?? lib/application/sync/payloads/cotizacion_recovery_line_identity.dart
+?? lib/application/sync/payloads/cotizacion_recuperada_payload.dart
+?? lib/application/sync/payloads/producto_proveedor_dependencia.dart
+?? lib/application/sync/payloads/producto_proveedor_precio.dart
+?? lib/application/sync/payloads/proveedor_actualizado_payload.dart
+?? lib/application/sync/payloads/proveedor_creado_payload.dart
+?? lib/application/sync/payloads/quotation_json.dart
+?? lib/application/sync/payloads/quotation_selection_snapshot.dart
+?? lib/application/sync/payloads/supplier_json.dart
+?? lib/application/sync/prepared_quotation_line.dart
+?? lib/application/sync/projections/producto_proveedores_projection_store.dart
+?? lib/application/sync/projections/proveedor_projection.dart
+?? lib/application/sync/projections/proveedor_projection_store.dart
+?? lib/application/sync/projections/quotation_item_projection.dart
+?? lib/application/sync/projections/quotation_projection.dart
+?? lib/application/sync/projections/quotation_projection_store.dart
+?? lib/application/sync/quotation_draft_validator.dart
+?? lib/application/sync/quotation_recovery_line_exception.dart
+?? lib/application/sync/quotation_recovery_validator.dart
+?? lib/data/local/drift/daos/proveedor_dao.dart
+?? lib/data/local/drift/daos/quotation_dao.dart
+?? lib/data/local/drift/drift_proveedor_projection_store.dart
+?? lib/data/local/drift/supplier_schema.dart
+?? lib/data/local/drift/tables/quotation_items.dart
+?? lib/data/local/drift/tables/quotations.dart
+?? lib/data/local/drift/tables/suppliers.dart
+?? lib/data/local/drift/tables/variant_suppliers.dart
+?? lib/data/repositories/proveedor_repository_impl.dart
+?? lib/data/repositories/quotation_repository_impl.dart
+?? lib/domain/articulos/precio_proveedor.dart
+?? lib/domain/articulos/proveedor_variante.dart
+?? lib/domain/cotizaciones/
+?? lib/domain/proveedores/
+?? lib/domain/repositories/proveedor_repository.dart
+?? lib/domain/repositories/quotation_repository.dart
+?? lib/presentation/pages/cotizaciones/
+?? lib/presentation/pages/gestion_inventario/proveedores/
+?? lib/presentation/tickets/
+?? test/application/commands/articulos/product_supplier_relations_test.dart
+?? test/application/commands/cotizaciones/
+?? test/application/commands/proveedores/
+?? test/application/sync/handlers/
+?? test/application/sync/payloads/cotizacion_guardada_payload_test.dart
+?? test/application/sync/payloads/cotizacion_recuperada_payload_test.dart
+?? test/application/sync/payloads/producto_suppliers_payload_test.dart
+?? test/application/sync/payloads/proveedor_payload_test.dart
+?? test/core/
+?? test/data/local/drift/quotation_backup_test.dart
+?? test/data/local/drift/supplier_backup_test.dart
+?? test/data/local/drift/supplier_schema_test.dart
+?? test/data/repositories/quotation_estimation_test.dart
+?? test/fixtures/quotation_v2/
+?? test/fixtures/suppliers_v1/
+?? test/presentation/pages/cotizaciones/
+?? test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart
+?? test/presentation/pages/gestion_inventario/proveedores/
+?? test/support/product_supplier_harness.dart
+?? test/support/proveedor_harness.dart
+?? test/support/quotation_contract_fixtures.dart
+?? test/support/quotation_harness.dart
+?? test/support/quotation_ui_fixtures.dart
+?? test/support/supplier_contract_fixtures.dart

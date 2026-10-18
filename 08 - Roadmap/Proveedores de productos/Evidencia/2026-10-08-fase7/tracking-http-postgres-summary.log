@@ -1,0 +1,19 @@
+        event_type         | sync_status | count 
+---------------------------+-------------+-------
+ producto_actualizado      | synced      |     4
+ producto_actualizado      | conflict    |     2
+ producto_creado           | synced      |     2
+ recurso_inventario_creado | synced      |     2
+ venta_confirmada          | synced      |     2
+(5 rows)
+
+ supplier_count 
+----------------
+              0
+(1 row)
+
+ prices_count 
+--------------
+            0
+(1 row)
+

@@ -1,0 +1,512 @@
+{
+  "counts": {
+    "aprobado": 1567,
+    "no_ejecutado": 1
+  },
+  "duration_seconds": 62.733,
+  "success": true,
+  "drift_warnings": 56,
+  "skipped": [
+    {
+      "file": "test/integration/variant_tracking_server_test.dart",
+      "name": "HTTP real: B cobra offline, A desvincula, B entrega, duplicado y pull desde cero",
+      "line": 18,
+      "status": "no_ejecutado",
+      "test_id": 13
+    }
+  ],
+  "by_file": {
+    "test/application/backup/backup_service_test.dart": {
+      "aprobado": 6
+    },
+    "test/application/commands/articulos/product_supplier_relations_test.dart": {
+      "aprobado": 49
+    },
+    "test/application/commands/articulos/producto_command_service_test.dart": {
+      "aprobado": 13
+    },
+    "test/application/commands/caja/cash_enabled_test.dart": {
+      "aprobado": 7
+    },
+    "test/application/commands/caja/cash_flow_test.dart": {
+      "aprobado": 9
+    },
+    "test/application/commands/categorias/categoria_command_service_test.dart": {
+      "aprobado": 14
+    },
+    "test/application/commands/cotizaciones/cotizacion_command_service_test.dart": {
+      "aprobado": 15
+    },
+    "test/application/commands/cotizaciones/quotation_mode_verification_test.dart": {
+      "aprobado": 2
+    },
+    "test/application/commands/cotizaciones/quotation_selection_v2_test.dart": {
+      "aprobado": 8
+    },
+    "test/application/commands/cotizaciones/quotation_verification_test.dart": {
+      "aprobado": 10
+    },
+    "test/application/commands/cotizaciones/recuperar_cotizacion_test.dart": {
+      "aprobado": 34
+    },
+    "test/application/commands/cuenta/cuenta_command_flow_test.dart": {
+      "aprobado": 12
+    },
+    "test/application/commands/espacios/espacio_command_service_test.dart": {
+      "aprobado": 3
+    },
+    "test/application/commands/finanzas/financial_flow_test.dart": {
+      "aprobado": 22
+    },
+    "test/application/commands/proveedores/proveedor_command_service_test.dart": {
+      "aprobado": 23
+    },
+    "test/application/commands/ventas/venta_borrador_command_service_test.dart": {
+      "aprobado": 27
+    },
+    "test/application/commands/ventas/venta_command_service_test.dart": {
+      "aprobado": 54
+    },
+    "test/application/config/app_config_test.dart": {
+      "aprobado": 13
+    },
+    "test/application/import/articulo_import_batch_service_test.dart": {
+      "aprobado": 6
+    },
+    "test/application/sync/cash_sync_test.dart": {
+      "aprobado": 5
+    },
+    "test/application/sync/categoria_eliminada_remote_preparer_test.dart": {
+      "aprobado": 8
+    },
+    "test/application/sync/categoria_event_handler_test.dart": {
+      "aprobado": 11
+    },
+    "test/application/sync/categoria_movida_conflict_projection_restorer_test.dart": {
+      "aprobado": 2
+    },
+    "test/application/sync/cliente_flow_test.dart": {
+      "aprobado": 17
+    },
+    "test/application/sync/espacio_event_handler_test.dart": {
+      "aprobado": 5
+    },
+    "test/application/sync/event_processor_test.dart": {
+      "aprobado": 3
+    },
+    "test/application/sync/financial_sync_test.dart": {
+      "aprobado": 14
+    },
+    "test/application/sync/handlers/cotizacion_recuperada_event_handler_test.dart": {
+      "aprobado": 22
+    },
+    "test/application/sync/payloads/categoria_actualizada_payload_test.dart": {
+      "aprobado": 3
+    },
+    "test/application/sync/payloads/categoria_creada_payload_test.dart": {
+      "aprobado": 2
+    },
+    "test/application/sync/payloads/categoria_eliminada_payload_test.dart": {
+      "aprobado": 7
+    },
+    "test/application/sync/payloads/categoria_financiera_creada_payload_test.dart": {
+      "aprobado": 12
+    },
+    "test/application/sync/payloads/categoria_movida_payload_test.dart": {
+      "aprobado": 3
+    },
+    "test/application/sync/payloads/cotizacion_guardada_payload_test.dart": {
+      "aprobado": 3
+    },
+    "test/application/sync/payloads/cotizacion_recuperada_payload_test.dart": {
+      "aprobado": 4
+    },
+    "test/application/sync/payloads/espacio_creado_payload_test.dart": {
+      "aprobado": 3
+    },
+    "test/application/sync/payloads/movimiento_financiero_registrado_payload_test.dart": {
+      "aprobado": 14
+    },
+    "test/application/sync/payloads/producto_actualizado_borrador_payload_test.dart": {
+      "aprobado": 2
+    },
+    "test/application/sync/payloads/producto_eliminado_borrador_payload_test.dart": {
+      "aprobado": 2
+    },
+    "test/application/sync/payloads/producto_suppliers_payload_test.dart": {
+      "aprobado": 45
+    },
+    "test/application/sync/payloads/proveedor_payload_test.dart": {
+      "aprobado": 23
+    },
+    "test/application/sync/payloads/venta_borrador_limpiada_payload_test.dart": {
+      "aprobado": 2
+    },
+    "test/application/sync/producto_actualizado_payload_test.dart": {
+      "aprobado": 3
+    },
+    "test/application/sync/producto_creado_payload_test.dart": {
+      "aprobado": 15
+    },
+    "test/application/sync/recurso_inventario_creado_payload_test.dart": {
+      "aprobado": 14
+    },
+    "test/application/sync/recurso_inventario_descartado_payload_test.dart": {
+      "aprobado": 17
+    },
+    "test/application/sync/sync_availability_monitor_test.dart": {
+      "aprobado": 6
+    },
+    "test/application/sync/sync_conflict_report_service_test.dart": {
+      "aprobado": 2
+    },
+    "test/application/sync/sync_endpoint_config_test.dart": {
+      "aprobado": 4
+    },
+    "test/application/sync/sync_health_service_test.dart": {
+      "aprobado": 1
+    },
+    "test/application/sync/sync_orchestrator_test.dart": {
+      "aprobado": 3
+    },
+    "test/application/sync/sync_preflight_service_test.dart": {
+      "aprobado": 7
+    },
+    "test/application/sync/sync_pull_service_test.dart": {
+      "aprobado": 1
+    },
+    "test/application/sync/sync_push_service_test.dart": {
+      "aprobado": 21
+    },
+    "test/architecture/import_boundaries_test.dart": {
+      "aprobado": 1
+    },
+    "test/core/di/proveedor_dependencies_test.dart": {
+      "aprobado": 3
+    },
+    "test/core/di/quotation_dependencies_test.dart": {
+      "aprobado": 4
+    },
+    "test/data/local/drift/account_balance_schema_test.dart": {
+      "aprobado": 3
+    },
+    "test/data/local/drift/cash_backup_test.dart": {
+      "aprobado": 3
+    },
+    "test/data/local/drift/cash_schema_test.dart": {
+      "aprobado": 1
+    },
+    "test/data/local/drift/categoria_local_event_store_test.dart": {
+      "aprobado": 16
+    },
+    "test/data/local/drift/drift_local_event_store_test.dart": {
+      "aprobado": 2
+    },
+    "test/data/local/drift/drift_synced_event_store_test.dart": {
+      "aprobado": 5
+    },
+    "test/data/local/drift/financial_schema_reset_test.dart": {
+      "aprobado": 4
+    },
+    "test/data/local/drift/inventory_local_event_store_test.dart": {
+      "aprobado": 14
+    },
+    "test/data/local/drift/inventory_schema_migration_test.dart": {
+      "aprobado": 3
+    },
+    "test/data/local/drift/product_deletion_schema_reset_test.dart": {
+      "aprobado": 4
+    },
+    "test/data/local/drift/product_inventory_tracking_local_event_store_test.dart": {
+      "aprobado": 4
+    },
+    "test/data/local/drift/product_variant_constraints_test.dart": {
+      "aprobado": 2
+    },
+    "test/data/local/drift/producto_local_event_store_test.dart": {
+      "aprobado": 17
+    },
+    "test/data/local/drift/quotation_backup_test.dart": {
+      "aprobado": 28
+    },
+    "test/data/local/drift/supplier_backup_test.dart": {
+      "aprobado": 9
+    },
+    "test/data/local/drift/supplier_local_acceptance_test.dart": {
+      "aprobado": 8
+    },
+    "test/data/local/drift/supplier_schema_test.dart": {
+      "aprobado": 17
+    },
+    "test/data/local/drift/variant_inventory_memory_schema_test.dart": {
+      "aprobado": 5
+    },
+    "test/data/local/drift/variant_memory_schema_reset_test.dart": {
+      "aprobado": 3
+    },
+    "test/data/local/drift/variant_tracking_phase3_test.dart": {
+      "aprobado": 43
+    },
+    "test/data/local/export/articulo_catalog_pdf_test.dart": {
+      "aprobado": 15
+    },
+    "test/data/local/export/drift_articulo_catalog_export_service_test.dart": {
+      "aprobado": 23
+    },
+    "test/data/local/identity/device_identity_file_store_test.dart": {
+      "aprobado": 2
+    },
+    "test/data/local/import/articulo_import_csv_test.dart": {
+      "aprobado": 55
+    },
+    "test/data/local/import/articulo_import_csv_vuelta_test.dart": {
+      "aprobado": 5
+    },
+    "test/data/local/sync/sync_detection_settings_file_store_test.dart": {
+      "aprobado": 3
+    },
+    "test/data/local/sync/sync_endpoint_file_store_test.dart": {
+      "aprobado": 2
+    },
+    "test/data/repositories/categoria_repository_impl_test.dart": {
+      "aprobado": 4
+    },
+    "test/data/repositories/cliente_resumen_repository_impl_test.dart": {
+      "aprobado": 5
+    },
+    "test/data/repositories/producto_codigo_barras_test.dart": {
+      "aprobado": 3
+    },
+    "test/data/repositories/producto_repository_impl_test.dart": {
+      "aprobado": 14
+    },
+    "test/data/repositories/quotation_estimation_test.dart": {
+      "aprobado": 3
+    },
+    "test/data/repositories/recurso_inventario_repository_impl_test.dart": {
+      "aprobado": 6
+    },
+    "test/data/repositories/transfer_summary_repository_impl_test.dart": {
+      "aprobado": 11
+    },
+    "test/data/repositories/unidad_inventario_repository_impl_test.dart": {
+      "aprobado": 1
+    },
+    "test/domain/articulos/codigo_barras_test.dart": {
+      "aprobado": 8
+    },
+    "test/domain/articulos/nombre_variante_test.dart": {
+      "aprobado": 2
+    },
+    "test/domain/articulos/precio_venta_test.dart": {
+      "aprobado": 3
+    },
+    "test/domain/categorias/nombre_categoria_test.dart": {
+      "aprobado": 2
+    },
+    "test/domain/cuenta/saldo_cuenta_estimado_test.dart": {
+      "aprobado": 6
+    },
+    "test/domain/espacios/identificacion_espacio_test.dart": {
+      "aprobado": 2
+    },
+    "test/domain/espacios/nombre_espacio_test.dart": {
+      "aprobado": 2
+    },
+    "test/domain/inventario/inventory_quantity_codec_test.dart": {
+      "aprobado": 4
+    },
+    "test/integration/variant_tracking_server_test.dart": {
+      "no_ejecutado": 1
+    },
+    "test/presentation/pages/articulos/article_search_item_test.dart": {
+      "aprobado": 6
+    },
+    "test/presentation/pages/articulos/article_search_screen_test.dart": {
+      "aprobado": 9
+    },
+    "test/presentation/pages/articulos/articles_screen_test.dart": {
+      "aprobado": 5
+    },
+    "test/presentation/pages/backup/backup_settings_page_test.dart": {
+      "aprobado": 1
+    },
+    "test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart": {
+      "aprobado": 2
+    },
+    "test/presentation/pages/caja/barcode/barcode_read_gate_test.dart": {
+      "aprobado": 11
+    },
+    "test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart": {
+      "aprobado": 10
+    },
+    "test/presentation/pages/caja/caja_screen_test.dart": {
+      "aprobado": 8
+    },
+    "test/presentation/pages/caja/cash_confirmation_test.dart": {
+      "aprobado": 4
+    },
+    "test/presentation/pages/caja/cash_management_test.dart": {
+      "aprobado": 6
+    },
+    "test/presentation/pages/caja/cash_payment_screen_test.dart": {
+      "aprobado": 4
+    },
+    "test/presentation/pages/caja/credit_payment_test.dart": {
+      "aprobado": 1
+    },
+    "test/presentation/pages/caja/draft_item_edit_test.dart": {
+      "aprobado": 10
+    },
+    "test/presentation/pages/caja/saldo_cuenta_estimado_card_test.dart": {
+      "aprobado": 7
+    },
+    "test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart": {
+      "aprobado": 46
+    },
+    "test/presentation/pages/caja/sale_receipt_test.dart": {
+      "aprobado": 7
+    },
+    "test/presentation/pages/caja/transfer_payment_screen_test.dart": {
+      "aprobado": 1
+    },
+    "test/presentation/pages/caja/transfer_summary_card_test.dart": {
+      "aprobado": 7
+    },
+    "test/presentation/pages/cotizaciones/caja_quotation_test.dart": {
+      "aprobado": 7
+    },
+    "test/presentation/pages/cotizaciones/quotation_navigation_test.dart": {
+      "aprobado": 6
+    },
+    "test/presentation/pages/cotizaciones/quotation_ticket_test.dart": {
+      "aprobado": 13
+    },
+    "test/presentation/pages/cotizaciones/quotations_screen_test.dart": {
+      "aprobado": 14
+    },
+    "test/presentation/pages/cuenta/declarar_saldo_cuenta_screen_test.dart": {
+      "aprobado": 7
+    },
+    "test/presentation/pages/finanzas/categoria_financiera_form_screen_test.dart": {
+      "aprobado": 8
+    },
+    "test/presentation/pages/finanzas/financial_category_picker_screen_test.dart": {
+      "aprobado": 5
+    },
+    "test/presentation/pages/finanzas/financial_entry_detail_screen_test.dart": {
+      "aprobado": 5
+    },
+    "test/presentation/pages/finanzas/ingresos_y_gastos_screen_test.dart": {
+      "aprobado": 7
+    },
+    "test/presentation/pages/finanzas/money_input_test.dart": {
+      "aprobado": 3
+    },
+    "test/presentation/pages/finanzas/movimiento_financiero_form_screen_test.dart": {
+      "aprobado": 8
+    },
+    "test/presentation/pages/gestion_clientes/cliente_compras_section_test.dart": {
+      "aprobado": 6
+    },
+    "test/presentation/pages/gestion_clientes/cliente_edit_test.dart": {
+      "aprobado": 2
+    },
+    "test/presentation/pages/gestion_clientes/cliente_resumen_display_test.dart": {
+      "aprobado": 9
+    },
+    "test/presentation/pages/gestion_clientes/cliente_resumen_query_test.dart": {
+      "aprobado": 8
+    },
+    "test/presentation/pages/gestion_clientes/clientes_screen_test.dart": {
+      "aprobado": 12
+    },
+    "test/presentation/pages/gestion_clientes/customer_account_test.dart": {
+      "aprobado": 12
+    },
+    "test/presentation/pages/gestion_inventario/articulos/article_creation_listing_integration_test.dart": {
+      "aprobado": 1
+    },
+    "test/presentation/pages/gestion_inventario/articulos/article_form_screen_test.dart": {
+      "aprobado": 37
+    },
+    "test/presentation/pages/gestion_inventario/articulos/articulo_preview_form_test.dart": {
+      "aprobado": 1
+    },
+    "test/presentation/pages/gestion_inventario/articulos/inventory_article_card_test.dart": {
+      "aprobado": 9
+    },
+    "test/presentation/pages/gestion_inventario/articulos/inventory_articles_tab_test.dart": {
+      "aprobado": 20
+    },
+    "test/presentation/pages/gestion_inventario/articulos/product_supplier_forms_test.dart": {
+      "aprobado": 4
+    },
+    "test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart": {
+      "aprobado": 7
+    },
+    "test/presentation/pages/gestion_inventario/articulos/proveedor_precio_form_test.dart": {
+      "aprobado": 33
+    },
+    "test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart": {
+      "aprobado": 20
+    },
+    "test/presentation/pages/gestion_inventario/articulos/variant_inventory_movement_test.dart": {
+      "aprobado": 7
+    },
+    "test/presentation/pages/gestion_inventario/articulos/variant_recipe_creation_test.dart": {
+      "aprobado": 1
+    },
+    "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart": {
+      "aprobado": 26
+    },
+    "test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart": {
+      "aprobado": 16
+    },
+    "test/presentation/pages/gestion_inventario/categorias/inventory_category_card_test.dart": {
+      "aprobado": 1
+    },
+    "test/presentation/pages/gestion_inventario/categorias/linked_category_products_summary_test.dart": {
+      "aprobado": 1
+    },
+    "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart": {
+      "aprobado": 22
+    },
+    "test/presentation/pages/gestion_inventario/proveedores/proveedor_catalog_test.dart": {
+      "aprobado": 14
+    },
+    "test/presentation/pages/gestion_inventario/recursos/inventory_resource_card_test.dart": {
+      "aprobado": 2
+    },
+    "test/presentation/pages/gestion_inventario/recursos/inventory_resource_form_screen_test.dart": {
+      "aprobado": 5
+    },
+    "test/presentation/pages/gestion_inventario/recursos/inventory_resources_tab_test.dart": {
+      "aprobado": 1
+    },
+    "test/presentation/pages/informes/beneficio_bruto_card_test.dart": {
+      "aprobado": 6
+    },
+    "test/presentation/pages/informes/collections_report_card_test.dart": {
+      "aprobado": 1
+    },
+    "test/presentation/pages/informes/models/sales_reports_calculator_test.dart": {
+      "aprobado": 17
+    },
+    "test/presentation/pages/informes/report_period_test.dart": {
+      "aprobado": 4
+    },
+    "test/presentation/pages/informes/reports_screen_test.dart": {
+      "aprobado": 6
+    },
+    "test/presentation/pages/informes/sales_by_method_screen_test.dart": {
+      "aprobado": 6
+    },
+    "test/presentation/pages/pantalla_principal/menu_lateral_test.dart": {
+      "aprobado": 8
+    },
+    "test/widget_test.dart": {
+      "aprobado": 1
+    }
+  }
+}

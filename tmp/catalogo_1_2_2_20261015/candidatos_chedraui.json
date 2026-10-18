@@ -1,0 +1,864 @@
+[
+  {
+    "refs": [
+      "9757"
+    ],
+    "nombre": "Yoplait Bebible Fresa 470g",
+    "codigos": [
+      "750104009757",
+      "7501040097577"
+    ],
+    "contenido": [
+      "1 pz de 470g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoplait-bebible-fresa-470g-3728442/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9087"
+    ],
+    "nombre": "Yoghurt Yoplait Batido Fresa 125g",
+    "codigos": [
+      "750104009087",
+      "7501040090745",
+      "7501040090875"
+    ],
+    "contenido": [
+      "1 pieza con 125g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-fresa-125g-3100868/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9008"
+    ],
+    "nombre": "Yoghurt Yoplait Batido Fresa 1kg",
+    "codigos": [
+      "7501040090080"
+    ],
+    "contenido": [
+      "1 pieza con 1kg"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-fresa-1kg-3098936/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9012"
+    ],
+    "nombre": "Yoghurt Batido Yoplait Manzana 1kg",
+    "codigos": [
+      "7501040090127"
+    ],
+    "contenido": null,
+    "link": "https://www.chedraui.com.mx/yoghurt-batido-yoplait-manzana-1kg-3098935/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9002"
+    ],
+    "nombre": "Yoghurt Yoplait Batido Natural 1Kg",
+    "codigos": [
+      "7501040090028"
+    ],
+    "contenido": [
+      "1 pieza con 1kg"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-natural-1kg-3098934/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9702"
+    ],
+    "nombre": "Flan Yoplait Horneado Vainilla 220g",
+    "codigos": [
+      "750104009702",
+      "7501040097027"
+    ],
+    "contenido": [
+      "1 pieza con 220g"
+    ],
+    "link": "https://www.chedraui.com.mx/flan-yoplait-horneado-vainilla-220g-3015589/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9009"
+    ],
+    "nombre": "Yoghurt Batido Yoplait Durazno 1kg",
+    "codigos": [
+      "750104009009",
+      "7501040090097"
+    ],
+    "contenido": null,
+    "link": "https://www.chedraui.com.mx/yoghurt-batido-yoplait-durazno-1kg-3098937/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9285"
+    ],
+    "nombre": "Yoghurt Yoplait Batido Griego Fresa 145g",
+    "codigos": [
+      "750104009285",
+      "7501040092855"
+    ],
+    "contenido": [
+      "1 pieza con 145g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-griego-fresa-145g-3255477/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9442"
+    ],
+    "nombre": "Yoghurt Yoplait Bebible Disfruta Fresa 307g",
+    "codigos": [
+      "17501040094429",
+      "7501040094422"
+    ],
+    "contenido": [
+      "1 pz de 307g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-bebible-disfruta-fresa-307g-3424040/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9256"
+    ],
+    "nombre": "Yoghurt Yoplait Batido Placer Coco 145g",
+    "codigos": [
+      "7501040092565"
+    ],
+    "contenido": [
+      "1 pz de 145g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-placer-coco-145g-3218204/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9286"
+    ],
+    "nombre": "Yoghurt Yoplait Batido Griego Natural 145g",
+    "codigos": [
+      "750104009286",
+      "7501040092862"
+    ],
+    "contenido": [
+      "1 pieza con 145g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-griego-natural-145g-3255475/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "9278"
+    ],
+    "nombre": "Yoghurt Yoplait Batido Disfruta Fresa 442g",
+    "codigos": [
+      "750104009278",
+      "7501040092787"
+    ],
+    "contenido": [
+      "1 pz de 442g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-disfruta-fresa-442g-3240777/p",
+    "archivo": "vtex_chedraui.json"
+  },
+  {
+    "refs": [
+      "7019"
+    ],
+    "nombre": "Café con Leche Café Olé Cappuccino Expreso 281ml",
+    "codigos": [
+      "7501040070198"
+    ],
+    "contenido": [
+      "1 pz de 281ml"
+    ],
+    "link": "https://www.chedraui.com.mx/cafe-con-leche-cafe-ole-cappuccino-expreso-281ml-3261887/p",
+    "archivo": "vtex_chedraui_cafe_ole_0.json"
+  },
+  {
+    "refs": [
+      "697"
+    ],
+    "nombre": "Jamón Chimex de Pierna 225g",
+    "codigos": [
+      "750104000697",
+      "7501040006975"
+    ],
+    "contenido": [
+      "1 pz de 225g"
+    ],
+    "link": "https://www.chedraui.com.mx/jamon-chimex-de-pierna-225g-3722060/p",
+    "archivo": "vtex_chedraui_chimex_0.json"
+  },
+  {
+    "refs": [
+      "992"
+    ],
+    "nombre": "Salchichas de Pavo Chimex 400g",
+    "codigos": [
+      "7501040009921"
+    ],
+    "contenido": [
+      "1 pieza con 400g"
+    ],
+    "link": "https://www.chedraui.com.mx/salchichas-de-pavo-chimex-400g-3351482/p",
+    "archivo": "vtex_chedraui_chimex_0.json"
+  },
+  {
+    "refs": [
+      "138"
+    ],
+    "nombre": "Jamón de Pierna Chimex kg",
+    "codigos": [
+      "2500134000009",
+      "7501040001383",
+      "000002500134"
+    ],
+    "contenido": null,
+    "link": "https://www.chedraui.com.mx/jamon-de-pierna-chimex-kg-3008248/p",
+    "archivo": "vtex_chedraui_chimex_0.json"
+  },
+  {
+    "refs": [
+      "1216"
+    ],
+    "nombre": "Chuleta Ahumada Chimex Kg",
+    "codigos": [
+      "2507153000003",
+      "000002507153",
+      "7501040012167"
+    ],
+    "contenido": null,
+    "link": "https://www.chedraui.com.mx/chuleta-ahumada-chimex-kg-3250231/p",
+    "archivo": "vtex_chedraui_chimex_0.json"
+  },
+  {
+    "refs": [
+      "307"
+    ],
+    "nombre": "Salchichas para Asar Chimex 800g",
+    "codigos": [
+      "7501040003073"
+    ],
+    "contenido": [
+      "1 pieza con 800g"
+    ],
+    "link": "https://www.chedraui.com.mx/salchichas-para-asar-chimex-800g-3007912/p",
+    "archivo": "vtex_chedraui_chimex_0.json"
+  },
+  {
+    "refs": [
+      "167"
+    ],
+    "nombre": "Jamón Chimex Pavo Económico Kg",
+    "codigos": [
+      "750104000167",
+      "2513777000008",
+      "7501040001673",
+      "000002513777"
+    ],
+    "contenido": [
+      "Aprox 100g c/u"
+    ],
+    "link": "https://www.chedraui.com.mx/jamon-chimex-pavo-economico-kg-3768890/p",
+    "archivo": "vtex_chedraui_chimex_0.json"
+  },
+  {
+    "refs": [
+      "763"
+    ],
+    "nombre": "Chorizo Original Chimex para Asar 400g",
+    "codigos": [
+      "7501040007637"
+    ],
+    "contenido": [
+      "1 pieza con 400g"
+    ],
+    "link": "https://www.chedraui.com.mx/chorizo-original-chimex-para-asar-400g-3376709/p",
+    "archivo": "vtex_chedraui_chimex_0.json"
+  },
+  {
+    "refs": [
+      "3411"
+    ],
+    "nombre": "Taquitos Dorados de Res El Cazo 324g",
+    "codigos": [
+      "750104003411",
+      "7501040034114"
+    ],
+    "contenido": [
+      "1 pz de 324g"
+    ],
+    "link": "https://www.chedraui.com.mx/taquitos-dorados-de-res-el-cazo-324g-3331343/p",
+    "archivo": "vtex_chedraui_el_cazo_0.json"
+  },
+  {
+    "refs": [
+      "503"
+    ],
+    "nombre": "Mortadela Fud kg",
+    "codigos": [
+      "2500746000008",
+      "7501040005039",
+      "000002500746"
+    ],
+    "contenido": null,
+    "link": "https://www.chedraui.com.mx/mortadela-fud-kg-3009167/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "406"
+    ],
+    "nombre": "Pastel Pimiento Fud kg",
+    "codigos": [
+      "2500780000002",
+      "000002500780",
+      "7501040004063"
+    ],
+    "contenido": null,
+    "link": "https://www.chedraui.com.mx/pastel-pimiento-fud-kg-3009221/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "902"
+    ],
+    "nombre": "Queso de Puerco Fud kg",
+    "codigos": [
+      "2500800000005",
+      "000002500800",
+      "7501040009020"
+    ],
+    "contenido": [
+      "Aprox 100g c/u"
+    ],
+    "link": "https://www.chedraui.com.mx/queso-de-puerco-fud-kg-3009249/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "8371"
+    ],
+    "nombre": "Queso Fud Panela 200g",
+    "codigos": [
+      "750104008371",
+      "7501040083716"
+    ],
+    "contenido": [
+      "1 pieza con 200g"
+    ],
+    "link": "https://www.chedraui.com.mx/queso-fud-panela-200g-3015784/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "4453"
+    ],
+    "nombre": "Pizza de Pepperoni Fud Individual",
+    "codigos": [
+      "750104004453",
+      "7501040044533"
+    ],
+    "contenido": [
+      "1 pz de 216g"
+    ],
+    "link": "https://www.chedraui.com.mx/pizza-de-pepperoni-fud-individual-3015898/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "8372"
+    ],
+    "nombre": "Queso Panela Fud por Kg",
+    "codigos": [
+      "2503800000006",
+      "7501040083723",
+      "000002503800"
+    ],
+    "contenido": [
+      "Aprox 100g c/u"
+    ],
+    "link": "https://www.chedraui.com.mx/queso-panela-fud-por-kg-3016012/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "117"
+    ],
+    "nombre": "Jamón de Pierna Fud York kg",
+    "codigos": [
+      "2500052000006",
+      "000002500052",
+      "7501040001178"
+    ],
+    "contenido": [
+      "Aprox 100g c/u"
+    ],
+    "link": "https://www.chedraui.com.mx/jamon-de-pierna-fud-york-kg-3008121/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "582"
+    ],
+    "nombre": "Jamón de Pavo Fud Virginia kg",
+    "codigos": [
+      "2500242000007",
+      "000002500242",
+      "7501040005824"
+    ],
+    "contenido": [
+      "Aprox 100g c/u"
+    ],
+    "link": "https://www.chedraui.com.mx/jamon-de-pavo-fud-virginia-kg-3008422/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "341"
+    ],
+    "nombre": "Salchichas Fud con Pavo 500g",
+    "codigos": [
+      "750104000341",
+      "7501040003417"
+    ],
+    "contenido": [
+      "1 pieza con 500g"
+    ],
+    "link": "https://www.chedraui.com.mx/salchichas-fud-con-pavo-500g-3007910/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "116"
+    ],
+    "nombre": "Pechuga de Pavo Fud Virginia 250g",
+    "codigos": [
+      "7501040001161"
+    ],
+    "contenido": [
+      "1 pieza con 250g"
+    ],
+    "link": "https://www.chedraui.com.mx/pechuga-de-pavo-fud-virginia-250g-3154704/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "360"
+    ],
+    "nombre": "Salchichas Cocktail Fud con Pavo 500g",
+    "codigos": [
+      "7501040003608"
+    ],
+    "contenido": [
+      "1 pieza con 500g"
+    ],
+    "link": "https://www.chedraui.com.mx/salchichas-cocktail-fud-con-pavo-500g-3537211/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "8388"
+    ],
+    "nombre": "Queso Fud Manchego Rebanadas Redondas 190g",
+    "codigos": [
+      "750104008388",
+      "7501040083884"
+    ],
+    "contenido": [
+      "1 pieza con 170g"
+    ],
+    "link": "https://www.chedraui.com.mx/queso-fud-manchego-rebanadas-redondas-190g-3240793/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "889"
+    ],
+    "nombre": "Salchichas Fud con Pavo 1 kg",
+    "codigos": [
+      "7501040008894"
+    ],
+    "contenido": [
+      "1 pieza con 1kg"
+    ],
+    "link": "https://www.chedraui.com.mx/salchichas-fud-con-pavo-1-kg-3007864/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "4458"
+    ],
+    "nombre": "Pizza Hawaiana Fud Individual 1 Pieza",
+    "codigos": [
+      "17501040044585",
+      "7501040044588"
+    ],
+    "contenido": [
+      "1 pz de 280g"
+    ],
+    "link": "https://www.chedraui.com.mx/pizza-hawaiana-fud-individual-1-pieza-3015914/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "306"
+    ],
+    "nombre": "Salchichas Fud para Hot Dog kg",
+    "codigos": [
+      "2500470000008",
+      "7501040003066",
+      "000002500470"
+    ],
+    "contenido": null,
+    "link": "https://www.chedraui.com.mx/salchichas-fud-para-hot-dog-kg-3008762/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "474"
+    ],
+    "nombre": "Jamón de Pavo y Cerdo Fud Virginia 290g",
+    "codigos": [
+      "750104000474",
+      "7501040004742"
+    ],
+    "contenido": [
+      "1 pieza con 290g"
+    ],
+    "link": "https://www.chedraui.com.mx/jamon-de-pavo-y-cerdo-fud-virginia-290g-3007897/p",
+    "archivo": "vtex_chedraui_fud_0.json"
+  },
+  {
+    "refs": [
+      "890"
+    ],
+    "nombre": "Salchichas Fud para Hot Dogs 1 kg",
+    "codigos": [
+      "7501040008900"
+    ],
+    "contenido": [
+      "1 kg"
+    ],
+    "link": "https://www.chedraui.com.mx/salchichas-fud-para-hot-dogs-1-kg-3007861/p",
+    "archivo": "vtex_chedraui_fud_50.json"
+  },
+  {
+    "refs": [
+      "4525"
+    ],
+    "nombre": "Pizza Fud Pepperoni y Jamón 2 Pack",
+    "codigos": [
+      "7501040045257"
+    ],
+    "contenido": [
+      "1 pz con 435g"
+    ],
+    "link": "https://www.chedraui.com.mx/pizza-fud-pepperoni-y-jamon-2-pack-3671309/p",
+    "archivo": "vtex_chedraui_fud_50.json"
+  },
+  {
+    "refs": [
+      "7229"
+    ],
+    "nombre": "Rollito de Jamón de Pavo y Queso Mozzarella FUD 40g",
+    "codigos": [
+      "750104007229",
+      "7501040072291"
+    ],
+    "contenido": null,
+    "link": "https://www.chedraui.com.mx/rollito-de-jamon-de-pavo-y-queso-mozzarella-fud-40g-3801602/p",
+    "archivo": "vtex_chedraui_fud_50.json"
+  },
+  {
+    "refs": [
+      "4773"
+    ],
+    "nombre": "Fajitas de Res Guten 350g",
+    "codigos": [
+      "750104004773",
+      "7501040047732",
+      "7501040047596"
+    ],
+    "contenido": [
+      "1 pieza con 350g"
+    ],
+    "link": "https://www.chedraui.com.mx/fajitas-de-res-guten-350g-3311006/p",
+    "archivo": "vtex_chedraui_guten_0.json"
+  },
+  {
+    "refs": [
+      "8147"
+    ],
+    "nombre": "Queso La Villita Americano 175g",
+    "codigos": [
+      "7501040081477"
+    ],
+    "contenido": [
+      "1 pz de 175g"
+    ],
+    "link": "https://www.chedraui.com.mx/queso-la-villita-americano-175g-3118618/p",
+    "archivo": "vtex_chedraui_la_villita_0.json"
+  },
+  {
+    "refs": [
+      "8004"
+    ],
+    "nombre": "Queso La Villita Gouda Kg",
+    "codigos": [
+      "750104008004",
+      "000002509917",
+      "7501040080043",
+      "2509917000007"
+    ],
+    "contenido": [
+      "Desde 100g"
+    ],
+    "link": "https://www.chedraui.com.mx/queso-la-villita-gouda-kg-3488152/p",
+    "archivo": "vtex_chedraui_la_villita_0.json"
+  },
+  {
+    "refs": [
+      "8144"
+    ],
+    "nombre": "Imitación Queso Canasto la Villita por Kg",
+    "codigos": [
+      "2506237000007",
+      "000002506237",
+      "7501040081446"
+    ],
+    "contenido": null,
+    "link": "https://www.chedraui.com.mx/imitacion-queso-canasto-la-villita-por-kg-3216329/p",
+    "archivo": "vtex_chedraui_la_villita_0.json"
+  },
+  {
+    "refs": [
+      "8313"
+    ],
+    "nombre": "Queso La Villita Tipo Manchego Rebanado 200g",
+    "codigos": [
+      "750104008313",
+      "7501040083136",
+      "9999917278019"
+    ],
+    "contenido": [
+      "1 pieza con 200g"
+    ],
+    "link": "https://www.chedraui.com.mx/queso-la-villita-tipo-manchego-rebanado-200g-3569618/p",
+    "archivo": "vtex_chedraui_la_villita_0.json"
+  },
+  {
+    "refs": [
+      "8225"
+    ],
+    "nombre": "Margarina La Villita Untable Sin Sal 190g",
+    "codigos": [
+      "7501040082252"
+    ],
+    "contenido": null,
+    "link": "https://www.chedraui.com.mx/margarina-la-villita-untable-sin-sal-190g-3193624/p",
+    "archivo": "vtex_chedraui_la_villita_0.json"
+  },
+  {
+    "refs": [
+      "921"
+    ],
+    "nombre": "Jamón de Pierna San Rafael Real Kg",
+    "codigos": [
+      "2500096000000",
+      "000002500096",
+      "7501040009211"
+    ],
+    "contenido": [
+      "Aprox 100g c/u"
+    ],
+    "link": "https://www.chedraui.com.mx/jamon-de-pierna-san-rafael-real-kg-3008193/p",
+    "archivo": "vtex_chedraui_san_rafael_0.json"
+  },
+  {
+    "refs": [
+      "9553"
+    ],
+    "nombre": "Yoghurt Yoplait batido griego sin azúcar natural 145g",
+    "codigos": [
+      "7501040095535"
+    ],
+    "contenido": [
+      "1 pieza con 145g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-griego-sin-azucar-natural-145g-3470819/p",
+    "archivo": "vtex_chedraui_yoplait_100.json"
+  },
+  {
+    "refs": [
+      "9608"
+    ],
+    "nombre": "Yoghurt Yoplait Bebible Mini con Fresa Tapa Antiderrames 100g",
+    "codigos": [
+      "7501040096082",
+      "9999917457445"
+    ],
+    "contenido": [
+      "1 pz de 100g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-bebible-mini-con-fresa-tapa-antiderrames-100g-3663305/p",
+    "archivo": "vtex_chedraui_yoplait_100.json"
+  },
+  {
+    "refs": [
+      "9728"
+    ],
+    "nombre": "Yoghurt Yoplait Disfruta Licuado Manzana, Guayaba y Granola 307g",
+    "codigos": [
+      "750104009728",
+      "7501040097287"
+    ],
+    "contenido": [
+      "1 pz de 307g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-disfruta-licuado-manzana-guayaba-y-granola-307g-3728445/p",
+    "archivo": "vtex_chedraui_yoplait_100.json"
+  },
+  {
+    "refs": [
+      "9727"
+    ],
+    "nombre": "Yoghurt Yoplait Disfruta Licuado Plátano Moras y Nuez 307g",
+    "codigos": [
+      "7501040097270"
+    ],
+    "contenido": [
+      "307 g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-disfruta-licuado-platano-moras-y-nuez-307g-3728444/p",
+    "archivo": "vtex_chedraui_yoplait_100.json"
+  },
+  {
+    "refs": [
+      "9867"
+    ],
+    "nombre": "Yoghurt Yoplait Doble Cero + Fibra Bebible Frutos Rojos 220g",
+    "codigos": [
+      "7501040098673"
+    ],
+    "contenido": [
+      "1 pz de 220g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-doble-cero--fibra-bebible-frutos-rojos-220g-3728446/p",
+    "archivo": "vtex_chedraui_yoplait_100.json"
+  },
+  {
+    "refs": [
+      "9866"
+    ],
+    "nombre": "Yoghurt Yoplait Doble Cero + Fibra Bebible Ciruela Pasa 220g",
+    "codigos": [
+      "750104009866",
+      "7501040098666"
+    ],
+    "contenido": [
+      "1 pz de 220g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-doble-cero--fibra-bebible-ciruela-pasa-220g-3728447/p",
+    "archivo": "vtex_chedraui_yoplait_100.json"
+  },
+  {
+    "refs": [
+      "9594"
+    ],
+    "nombre": "Malteada Yoplait Placer Cook&Cream 220g",
+    "codigos": [
+      "999991732094",
+      "7501040095948",
+      "9999917320947"
+    ],
+    "contenido": [
+      "1 pz de 220g"
+    ],
+    "link": "https://www.chedraui.com.mx/malteada-yoplait-placer-cookcream-220g-3616792/p",
+    "archivo": "vtex_chedraui_yoplait_50.json"
+  },
+  {
+    "refs": [
+      "9016"
+    ],
+    "nombre": "Yoghurt Batido Yoplait Frutas y Cereales 1kg",
+    "codigos": [
+      "7501040090165"
+    ],
+    "contenido": [
+      "1 pieza con 1kg"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-batido-yoplait-frutas-y-cereales-1kg-3015504/p",
+    "archivo": "vtex_chedraui_yoplait_50.json"
+  },
+  {
+    "refs": [
+      "9259"
+    ],
+    "nombre": "Yoghurt Yoplait Kids Bebible sabor Fresa 100g",
+    "codigos": [
+      "750104009259",
+      "7501040092596"
+    ],
+    "contenido": [
+      "1 pz de 100g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-kids-bebible-sabor-fresa-100g-3255489/p",
+    "archivo": "vtex_chedraui_yoplait_50.json"
+  },
+  {
+    "refs": [
+      "9257"
+    ],
+    "nombre": "Yoghurt Yoplait Batido Placer Cookie&Cream 145g",
+    "codigos": [
+      "7501040092572"
+    ],
+    "contenido": [
+      "1 pieza con 145g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-placer-cookiecream-145g-3218209/p",
+    "archivo": "vtex_chedraui_yoplait_50.json"
+  },
+  {
+    "refs": [
+      "9258"
+    ],
+    "nombre": "Yoghurt Yoplait Batido Placer Pay Fresa 145g",
+    "codigos": [
+      "7501040092589"
+    ],
+    "contenido": [
+      "1 pz de 145g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-placer-pay-fresa-145g-3218234/p",
+    "archivo": "vtex_chedraui_yoplait_50.json"
+  },
+  {
+    "refs": [
+      "9085"
+    ],
+    "nombre": "Yoghurt Yoplait Batido Natural con Granola 125g",
+    "codigos": [
+      "7501040090851"
+    ],
+    "contenido": [
+      "1 pz de 125g"
+    ],
+    "link": "https://www.chedraui.com.mx/yoghurt-yoplait-batido-natural-con-granola-125g-3115657/p",
+    "archivo": "vtex_chedraui_yoplait_50.json"
+  }
+]

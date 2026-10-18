@@ -1,0 +1,1241 @@
+[
+  {
+    "productId": "18955",
+    "productName": "Galleta MacMa waffer chocco 62 g",
+    "brand": "MAC MA",
+    "brandId": 2000502,
+    "brandImageUrl": null,
+    "linkText": "galleta-macma-waffer-chocco-62-g",
+    "productReference": "12AMAC058",
+    "productReferenceCode": "12AMAC058",
+    "categoryId": "1147",
+    "productTitle": "Galleta MacMa waffer chocco 62 g",
+    "metaTagDescription": "Galleta MacMa waffer chocco 62 g",
+    "releaseDate": "2026-07-17T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-macma-waffer-chocco-62-g/p",
+    "Color": [
+      "Blanco",
+      "Café",
+      "Negro"
+    ],
+    "Aroma": [
+      "Chocolate"
+    ],
+    "Sabor": [
+      "Chocolate"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Galleta dulce"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "61g - 70g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Para los verdaderos amantes del chocolate que buscan un antojo delicioso sin que se sienta pesado, llega la Galleta MacMa Waffer Chocco de 62 g. Esta irresistible creación combina la ligereza extrema de las clásicas láminas de barquillo horneadas al punto perfecto de crujido con un relleno cremoso y profundo sabor a cacao seleccionado que se funde delicadamente en tu boca.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/>",
+    "items": [
+      {
+        "itemId": "18562",
+        "name": "Galleta MacMa waffer chocco 62 g",
+        "nameComplete": "Galleta MacMa waffer chocco 62 g",
+        "complementName": "",
+        "ean": "850697003194",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMAC058"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": "",
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "308448",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/308448-#width#-#height#/850697003194.jpg?v=639199087477770000\" width=\"#width#\" height=\"#height#\" alt=\"850697003194\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/308448/850697003194.jpg?v=639199087477770000",
+            "imageText": "850697003194",
+            "imageLastModified": "2026-07-17T18:12:27.7770000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=18562&qty=1&seller=1&sc=1&price=1550&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 15.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 15.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 15.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 15.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 15.5,
+              "ListPrice": 15.5,
+              "PriceWithoutDiscount": 15.5,
+              "FullSellingPrice": 15.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjM3NjdkN2NkLTBhMzQtNDlhNS1iYTYxLWU5OTIyYWRkZTc0ZiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxNTUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MTU1MCwic2VsbGVyIjoiMSIsImlkIjoiMTg1NjIiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6IjdhZDM2M2U1LTliM2EtNGJhOC1iNjRiLTZiNjM5NzdlMWUyOCIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.nzEU7rgqJp5xI8-NkbGe5uUvdtbyqjamLR4mzlGyHFHfdxoZnqTYtW2sJ_YcDPfMYzUvmIeWTfZJZYExnSDoYg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 1550,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1550,
+                        "total": 1550,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1550,
+                            "total": 1550
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 1550,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1550,
+                        "total": 1550,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1550,
+                            "total": 1550
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "11715",
+    "productName": "Galleta MacMa surtido 320 g",
+    "brand": "MAC MA",
+    "brandId": 2000502,
+    "brandImageUrl": null,
+    "linkText": "galleta-mac-ma-surtido-320-g",
+    "productReference": "12AMAC038",
+    "productReferenceCode": "12AMAC038",
+    "categoryId": "1147",
+    "productTitle": "Galleta MacMa surtido 320 g",
+    "metaTagDescription": "Compra Galleta MacMa surtido 320 g al mejor precio. Ideal para tu despensa, con calidad garantizada y envío rápido. Disponible en línea.",
+    "releaseDate": "2022-12-12T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-mac-ma-surtido-320-g/p",
+    "Color": [
+      "Amarillo",
+      "Azul",
+      "Blanco"
+    ],
+    "Aroma": [
+      "Mixto"
+    ],
+    "Presentación": [
+      "Caja"
+    ],
+    "Peso": [
+      "301g- 400g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Presentación",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Presentación",
+      "Peso"
+    ],
+    "description": "Disfruta del delicioso sabor de las Galletas MacMa Surtido en su presentación de 320 g. Un combo de sabores ideales para compartir en cualquier momento del día. ¡Perfectas para acompañar tu café o para un snack delicioso! <br/><br/>\tLas imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.",
+    "items": [
+      {
+        "itemId": "11656",
+        "name": "Galleta MacMa surtido 320 g",
+        "nameComplete": "Galleta MacMa surtido 320 g",
+        "complementName": "",
+        "ean": "850697003484",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMAC038"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": null,
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "304282",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/304282-#width#-#height#/850697003484.jpg?v=638883716847400000\" width=\"#width#\" height=\"#height#\" alt=\"850697003484\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/304282/850697003484.jpg?v=638883716847400000",
+            "imageText": "850697003484",
+            "imageLastModified": "2025-07-17T17:54:44.7400000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=11656&qty=1&seller=1&sc=1&price=8800&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 88.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 88.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 88.0,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 88.0,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 88.0,
+              "ListPrice": 88.0,
+              "PriceWithoutDiscount": 88.0,
+              "FullSellingPrice": 88.0,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6Ijc1ZGM3MWM5LTZjNzQtNGE0Mi05MzJkLWJkNTExMGJiYjIzZCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjo4ODAwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6ODgwMCwic2VsbGVyIjoiMSIsImlkIjoiMTE2NTYiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6ImM4NTQ5OTY0LWJkNzgtNGM2Zi1hN2I4LWY5ZjA3N2Q2MWY3ZCIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.eF3EsjkMzdWBTAmj_SDv4VSLXpXs4OcO1fQOC2iyONKrHl_3L_k1nD8ZhMvksFKIFcD2q4Cs8Q8WCXmqhWNMiw",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 8800,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 8800,
+                        "total": 8800,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 8800,
+                            "total": 8800
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 8800,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 8800,
+                        "total": 8800,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 8800,
+                            "total": 8800
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "18954",
+    "productName": "Galleta MacMa waffer natta 62 g",
+    "brand": "MAC MA",
+    "brandId": 2000502,
+    "brandImageUrl": null,
+    "linkText": "galleta-macma-waffer-natta-62-g",
+    "productReference": "12AMAC057",
+    "productReferenceCode": "12AMAC057",
+    "categoryId": "1147",
+    "productTitle": "Galleta MacMa waffer natta 62 g",
+    "metaTagDescription": "Galleta MacMa waffer natta 62 g",
+    "releaseDate": "2026-07-17T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-macma-waffer-natta-62-g/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Café",
+      "Negro"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Sabor": [
+      "Mantequilla"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Con Galleta",
+      "Niña",
+      "Niño"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "61g - 70g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Viaja a través de los sabores clásicos de la repostería fina con la Galleta MacMa Waffer Natta de 62 g. Esta exclusiva variedad combina delicadas y ligeras láminas de oblea horneadas a la perfección con un relleno suave, terso y cremoso sabor a nata tradicional, que aporta una dulzura sutil y reconfortante en cada mordida.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "18561",
+        "name": "Galleta MacMa waffer natta 62 g",
+        "nameComplete": "Galleta MacMa waffer natta 62 g",
+        "complementName": "",
+        "ean": "850697003170",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMAC057"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": "",
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "308447",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/308447-#width#-#height#/850697003170.jpg?v=639199085693030000\" width=\"#width#\" height=\"#height#\" alt=\"850697003170\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/308447/850697003170.jpg?v=639199085693030000",
+            "imageText": "850697003170",
+            "imageLastModified": "2026-07-17T18:09:29.3030000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=18561&qty=1&seller=1&sc=1&price=1550&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 15.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 15.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 15.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 15.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 15.5,
+              "ListPrice": 15.5,
+              "PriceWithoutDiscount": 15.5,
+              "FullSellingPrice": 15.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImQ3YTZkNmU5LTg2NWYtNDUzOC05YzZmLWZlYmU4MzI3Yjc1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxNTUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MTU1MCwic2VsbGVyIjoiMSIsImlkIjoiMTg1NjEiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6IjJjNmE1YzI0LTYzYzgtNGIzNC04NmIzLWE3ZmI1NDI5MmZhZSIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.DVTa1_a4PzL8DoJ0yOUin6Rcr_toL-vIRYe8rKpOii8c0tbYOzNQ-ISqzfV4ue8FGgRcjiAgWHEYgUUZkLIvpg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 1550,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1550,
+                        "total": 1550,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1550,
+                            "total": 1550
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 1550,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1550,
+                        "total": 1550,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1550,
+                            "total": 1550
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "18953",
+    "productName": "Galleta MacMa waffer fressa 62 g",
+    "brand": "MAC MA",
+    "brandId": 2000502,
+    "brandImageUrl": null,
+    "linkText": "galleta-macma-waffer-fressa-62-g",
+    "productReference": "12AMAC056",
+    "productReferenceCode": "12AMAC056",
+    "categoryId": "1147",
+    "productTitle": "Galleta MacMa waffer fressa 62 g",
+    "metaTagDescription": "Galleta MacMa waffer fressa 62 g",
+    "releaseDate": "2026-07-17T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-macma-waffer-fressa-62-g/p",
+    "Color": [
+      "Amarillo",
+      "Blanco",
+      "Negro",
+      "Rosa"
+    ],
+    "Aroma": [
+      "Fresa"
+    ],
+    "Sabor": [
+      "Fresa",
+      "Mantequilla"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Niña",
+      "Niño",
+      "Galleta dulce"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "61g - 70g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Sabor",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Eleva tu momento del postre con la Galleta MacMa Waffer Fresa de 62 g. Esta creación combina la ligereza inigualable de las láminas de barquillo tipo waffer, horneadas a la perfección para lograr un crujido sutil, con un relleno cremoso y aromático sabor a fresa que equilibra cada bocado.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span><br/>",
+    "items": [
+      {
+        "itemId": "18560",
+        "name": "Galleta MacMa waffer fressa 62 g",
+        "nameComplete": "Galleta MacMa waffer fressa 62 g",
+        "complementName": "",
+        "ean": "850697003187",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMAC056"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": "",
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "308446",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/308446-#width#-#height#/850697003187.jpg?v=639199083437630000\" width=\"#width#\" height=\"#height#\" alt=\"850697003187\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/308446/850697003187.jpg?v=639199083437630000",
+            "imageText": "850697003187",
+            "imageLastModified": "2026-07-17T18:05:43.7630000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=18560&qty=1&seller=1&sc=1&price=1550&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 15.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 15.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 15.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 15.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 15.5,
+              "ListPrice": 15.5,
+              "PriceWithoutDiscount": 15.5,
+              "FullSellingPrice": 15.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjNhNGU0MzM0LWY2OGEtNGZjMS1hNGY4LTFmYzhkZWRmODcyOSIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxNTUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MTU1MCwic2VsbGVyIjoiMSIsImlkIjoiMTg1NjAiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6IjYxZjhkYmY5LTQ3ZGUtNGVlZi04MzM5LTJjMmJjZWExNWUzMyIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.15_saVSXcGe10HBt1YL-uIKsC2KtFnkjOL6tyMSwDwREFU9g2Qs2AVx-Zrmag5IuYJelrkef3ASHu8nAzN4NCA",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 1550,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1550,
+                        "total": 1550,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1550,
+                            "total": 1550
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 1550,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1550,
+                        "total": 1550,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1550,
+                            "total": 1550
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  },
+  {
+    "productId": "18952",
+    "productName": "Galleta MacMa gofrenata pocket 36 g",
+    "brand": "MAC MA",
+    "brandId": 2000502,
+    "brandImageUrl": null,
+    "linkText": "galleta-macma-gofrenata-pocket-36-g",
+    "productReference": "12AMAC053",
+    "productReferenceCode": "12AMAC053",
+    "categoryId": "1147",
+    "productTitle": "Galleta MacMa gofrenata pocket 36 g",
+    "metaTagDescription": "Galleta MacMa gofrenata pocket 36 g",
+    "releaseDate": "2026-07-17T00:00:00Z",
+    "clusterHighlights": {},
+    "productClusters": {},
+    "searchableClusters": {},
+    "categories": [
+      "/Despensa/Galletas/Galletas Dulces/",
+      "/Despensa/Galletas/",
+      "/Despensa/"
+    ],
+    "categoriesIds": [
+      "/1003/1051/1147/",
+      "/1003/1051/",
+      "/1003/"
+    ],
+    "link": "https://www.lagranbodega.com.mx/galleta-macma-gofrenata-pocket-36-g/p",
+    "Color": [
+      "Blanco",
+      "Café",
+      "Negro"
+    ],
+    "Aroma": [
+      "Varios"
+    ],
+    "Presentación": [
+      "Bolsa"
+    ],
+    "Especificaciones": [
+      "Galleta dulce"
+    ],
+    "Características": [
+      "Especificaciones"
+    ],
+    "Peso": [
+      "31g- 40g"
+    ],
+    "allSpecifications": [
+      "Color",
+      "Aroma",
+      "Presentación",
+      "Especificaciones",
+      "Peso"
+    ],
+    "allSpecificationsGroups": [
+      "Color",
+      "Aroma",
+      "Presentación",
+      "Características",
+      "Peso"
+    ],
+    "description": "Date un respiro en tu día y disfruta de un momento de alta repostería con la Galleta MacMa Gofrenata Pocket de 36 g. Esta delicia captura la esencia de la tradición de MacMa: una galleta ligera, crujiente y con ese waffleado característico (gofre) que envuelve un sabor sutil, elegante y perfectamente horneado que se derrite en tu boca.<br/><br/><span style=\"font-size:14px\">Las imágenes del producto son solo de referencia. El diseño de las etiquetas y el gramaje (ml, L, kg, g, piezas, etc.) pueden variar sin previo aviso.</span>",
+    "items": [
+      {
+        "itemId": "18559",
+        "name": "Galleta MacMa gofrenata pocket 36 g",
+        "nameComplete": "Galleta MacMa gofrenata pocket 36 g",
+        "complementName": "",
+        "ean": "850697003873",
+        "referenceId": [
+          {
+            "Key": "RefId",
+            "Value": "12AMAC053"
+          }
+        ],
+        "measurementUnit": "un",
+        "unitMultiplier": 1.0,
+        "modalType": "",
+        "isKit": false,
+        "images": [
+          {
+            "imageId": "308445",
+            "imageLabel": "",
+            "imageTag": "<img src=\"~/arquivos/ids/308445-#width#-#height#/850697003873.jpg?v=639199080799500000\" width=\"#width#\" height=\"#height#\" alt=\"850697003873\" id=\"\" />",
+            "imageUrl": "https://lagranbodega.vteximg.com.br/arquivos/ids/308445/850697003873.jpg?v=639199080799500000",
+            "imageText": "850697003873",
+            "imageLastModified": "2026-07-17T18:01:19.9500000Z"
+          }
+        ],
+        "sellers": [
+          {
+            "sellerId": "1",
+            "sellerName": "lagranbodega",
+            "addToCartLink": "https://www.lagranbodega.com.mx/checkout/cart/add?sku=18559&qty=1&seller=1&sc=1&price=1050&cv=_&sc=1",
+            "sellerDefault": true,
+            "commertialOffer": {
+              "DeliverySlaSamplesPerRegion": {
+                "0": {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              },
+              "Installments": [
+                {
+                  "Value": 10.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 10.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Promissory",
+                  "PaymentSystemGroupName": "promissoryPaymentGroup",
+                  "Name": "Promissory à vista"
+                },
+                {
+                  "Value": 10.5,
+                  "InterestRate": 0.0,
+                  "TotalValuePlusInterestRate": 10.5,
+                  "NumberOfInstallments": 1,
+                  "PaymentSystemName": "Pago con Tarjeta",
+                  "PaymentSystemGroupName": "custom202PaymentGroupPaymentGroup",
+                  "Name": "Pago con Tarjeta à vista"
+                }
+              ],
+              "DiscountHighLight": [],
+              "GiftSkuIds": [],
+              "Teasers": [],
+              "PromotionTeasers": [],
+              "BuyTogether": [],
+              "ItemMetadataAttachment": [],
+              "Price": 10.5,
+              "ListPrice": 10.5,
+              "PriceWithoutDiscount": 10.5,
+              "FullSellingPrice": 10.5,
+              "PriceToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjdiY2Q0N2ZiLTFlZjMtNDA5ZC1hZWRjLTgyODBiZjRiZTY3OCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InByaWNlIjoxMDUwLCJwcmljZVdpdGhvdXREaXNjb3VudCI6MTA1MCwic2VsbGVyIjoiMSIsImlkIjoiMTg1NTkiLCJhY2NvdW50TmFtZSI6ImxhZ3JhbmJvZGVnYSIsInNhbGVzQ2hhbm5lbCI6IjEifSwiZXhwIjoxNzkyMTc4MTgwLCJpYXQiOjE3OTIxNzYzODAsImp0aSI6IjZhN2M0MjMzLWE5OTAtNGI5OC05ZmY2LTdkYjcyM2ZhMmE3YSIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.XvMFXv2clOPs15lMbgu06V-KJnJguKMcm8r-sV0vu83fp9Jbat6gnpLJQTRke7Ls1wXGQSyZ_zG3lbH9Nuq7jg",
+              "RewardValue": 0.0,
+              "PriceValidUntil": "2027-08-25T00:00:00Z",
+              "AvailableQuantity": 99999,
+              "IsAvailable": true,
+              "Tax": 0.0,
+              "DeliverySlaSamples": [
+                {
+                  "DeliverySlaPerTypes": [],
+                  "Region": null
+                }
+              ],
+              "GetInfoErrorMessage": null,
+              "CacheVersionUsedToCallCheckout": "_",
+              "PaymentOptions": {
+                "installmentOptions": [
+                  {
+                    "paymentSystem": "17",
+                    "bin": null,
+                    "paymentName": "Promissory",
+                    "paymentGroupName": "promissoryPaymentGroup",
+                    "value": 1050,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1050,
+                        "total": 1050,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1050,
+                            "total": 1050
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "paymentSystem": "202",
+                    "bin": null,
+                    "paymentName": "Pago con Tarjeta",
+                    "paymentGroupName": "custom202PaymentGroupPaymentGroup",
+                    "value": 1050,
+                    "installments": [
+                      {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 1050,
+                        "total": 1050,
+                        "sellerMerchantInstallments": [
+                          {
+                            "id": "LAGRANBODEGA",
+                            "count": 1,
+                            "hasInterestRate": false,
+                            "interestRate": 0,
+                            "value": 1050,
+                            "total": 1050
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "paymentSystems": [
+                  {
+                    "id": 17,
+                    "name": "Promissory",
+                    "groupName": "promissoryPaymentGroup",
+                    "validator": null,
+                    "stringId": "17",
+                    "template": "promissoryPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": false,
+                    "description": null,
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-09-01T18:00:00Z",
+                    "availablePayments": null
+                  },
+                  {
+                    "id": 202,
+                    "name": "Pago con Tarjeta",
+                    "groupName": "custom202PaymentGroupPaymentGroup",
+                    "validator": null,
+                    "stringId": "202",
+                    "template": "custom202PaymentGroupPaymentGroup-template",
+                    "requiresDocument": false,
+                    "isCustom": true,
+                    "description": "Pago con Tarjeta",
+                    "requiresAuthentication": false,
+                    "dueDate": "2026-08-26T18:30:00Z",
+                    "availablePayments": null
+                  }
+                ],
+                "payments": [],
+                "giftCards": [],
+                "giftCardMessages": [],
+                "availableAccounts": [],
+                "availableTokens": []
+              }
+            }
+          }
+        ],
+        "Videos": [],
+        "estimatedDateArrival": null
+      }
+    ]
+  }
+]

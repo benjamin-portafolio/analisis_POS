@@ -1,0 +1,41 @@
+{
+  "emulator": "MotoG / sdk_gphone16k_arm64",
+  "mode": "read-only, no-window, no-audio, no-snapshot-load, no-snapshot-save",
+  "entry": "fase-3-native-probe.dart.txt",
+  "data": "Fixture en memoria; no inicializa DI, SQLite, sync ni command services",
+  "selector": {
+    "selector": {
+      "packages": [
+        "com.android.intentresolver"
+      ],
+      "buttons": {}
+    },
+    "cancel": {
+      "packages": [
+        "com.example.pos_flutter"
+      ],
+      "buttons": {
+        "Compartir": "true",
+        "WhatsApp": "true"
+      }
+    },
+    "whatsapp": {
+      "packages": [
+        "com.android.intentresolver"
+      ],
+      "buttons": {}
+    },
+    "whatsapp-cancel": {
+      "packages": [
+        "com.example.pos_flutter"
+      ],
+      "buttons": {
+        "Compartir": "true",
+        "WhatsApp": "true"
+      }
+    }
+  },
+  "whatsapp_installed": false,
+  "real_delivery": false,
+  "limits": "Sin dispositivo físico Android/iOS; no se probó selector iOS ni envío/recepción real a WhatsApp. com.whatsapp ausente en el emulador. Los widgets usan ShareResult simulado; el selector Android sí fue nativo y se canceló sin elegir destino."
+}

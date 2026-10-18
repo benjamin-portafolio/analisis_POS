@@ -1,0 +1,7 @@
+flutter devices --device-timeout 5 (observado 2026-10-10)
+
+iPhone 17 — simulador iOS 26.5
+macOS — macOS 27.0.1 arm64
+Chrome — navegador web
+
+No se detectó Android conectado. No se ensayó lector HID real ni Windows nativo.

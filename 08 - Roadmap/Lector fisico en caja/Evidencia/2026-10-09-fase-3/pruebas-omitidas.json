@@ -1,0 +1,152 @@
+[
+  {
+    "id": 11,
+    "name": "HTTP real: alta offline, cadena causal, reinicio, ecos y terminal nueva",
+    "suiteID": 6,
+    "groupIDs": [
+      10
+    ],
+    "metadata": {
+      "skip": true,
+      "skipReason": "Requires POS_SUPPLIER_SYNC_URL with isolated NestJS/PostgreSQL."
+    },
+    "line": 168,
+    "column": 3,
+    "url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"
+  },
+  {
+    "id": 12,
+    "name": "HTTP real: concurrencia por producto y proveedor, preflight, restauración y reporte",
+    "suiteID": 6,
+    "groupIDs": [
+      10
+    ],
+    "metadata": {
+      "skip": true,
+      "skipReason": "Requires POS_SUPPLIER_SYNC_URL with isolated NestJS/PostgreSQL."
+    },
+    "line": 277,
+    "column": 3,
+    "url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"
+  },
+  {
+    "id": 13,
+    "name": "HTTP real: rechazo de alta bloquea y deshace dependientes antes de FK",
+    "suiteID": 6,
+    "groupIDs": [
+      10
+    ],
+    "metadata": {
+      "skip": true,
+      "skipReason": "Requires POS_SUPPLIER_SYNC_URL with isolated NestJS/PostgreSQL."
+    },
+    "line": 327,
+    "column": 3,
+    "url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"
+  },
+  {
+    "id": 14,
+    "name": "HTTP real: legado contra conjunto conocido y replay de ausencia histórica",
+    "suiteID": 6,
+    "groupIDs": [
+      10
+    ],
+    "metadata": {
+      "skip": true,
+      "skipReason": "Requires POS_SUPPLIER_SYNC_URL with isolated NestJS/PostgreSQL."
+    },
+    "line": 359,
+    "column": 3,
+    "url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"
+  },
+  {
+    "id": 15,
+    "name": "HTTP/WebSocket real: avisos, desconexión y reconexión del listener existente",
+    "suiteID": 6,
+    "groupIDs": [
+      10
+    ],
+    "metadata": {
+      "skip": true,
+      "skipReason": "Requires POS_SUPPLIER_SYNC_URL with isolated NestJS/PostgreSQL."
+    },
+    "line": 460,
+    "column": 3,
+    "url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"
+  },
+  {
+    "id": 16,
+    "name": "HTTP real: recetas, seguimiento, precios, fechas y venta sobreviven conflicto completo",
+    "suiteID": 6,
+    "groupIDs": [
+      10
+    ],
+    "metadata": {
+      "skip": true,
+      "skipReason": "Requires POS_SUPPLIER_SYNC_URL with isolated NestJS/PostgreSQL."
+    },
+    "line": 496,
+    "column": 3,
+    "url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"
+  },
+  {
+    "id": 17,
+    "name": "HTTP real: alta oficial colisiona con alta offline y restaura cadena inversa",
+    "suiteID": 6,
+    "groupIDs": [
+      10
+    ],
+    "metadata": {
+      "skip": true,
+      "skipReason": "Requires POS_SUPPLIER_SYNC_URL with isolated NestJS/PostgreSQL."
+    },
+    "line": 660,
+    "column": 3,
+    "url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"
+  },
+  {
+    "id": 18,
+    "name": "HTTP real: rechazo de base de producto retira ediciones dependientes y restaura oficial",
+    "suiteID": 6,
+    "groupIDs": [
+      10
+    ],
+    "metadata": {
+      "skip": true,
+      "skipReason": "Requires POS_SUPPLIER_SYNC_URL with isolated NestJS/PostgreSQL."
+    },
+    "line": 694,
+    "column": 3,
+    "url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"
+  },
+  {
+    "id": 19,
+    "name": "HTTP/PostgreSQL real: evento futuro detiene página completa y conserva cursor",
+    "suiteID": 6,
+    "groupIDs": [
+      10
+    ],
+    "metadata": {
+      "skip": true,
+      "skipReason": "Requires POS_SUPPLIER_SYNC_URL with isolated NestJS/PostgreSQL."
+    },
+    "line": 740,
+    "column": 3,
+    "url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"
+  },
+  {
+    "id": 25,
+    "name": "HTTP real: B cobra offline, A desvincula, B entrega, duplicado y pull desde cero",
+    "suiteID": 8,
+    "groupIDs": [
+      24
+    ],
+    "metadata": {
+      "skip": true,
+      "skipReason": "Requires POS_PHASE3_SYNC_URL pointing to an isolated PostgreSQL-backed Nest test server."
+    },
+    "line": 18,
+    "column": 3,
+    "url": "file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/variant_tracking_server_test.dart"
+  }
+]

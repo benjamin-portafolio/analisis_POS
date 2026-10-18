@@ -1,0 +1,19 @@
+{
+  "source": "user_attachment",
+  "original_attachment": "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/codex-clipboard-eca7fc3c-4459-4e89-838e-56d8873274cc.png",
+  "width": 1204,
+  "height": 1600,
+  "sha256": "d665b72cbb54a0cceb1a8a579903c87a3558c2044f8b6119c1879a57062ae6ba",
+  "visible_profile": {
+    "alias": "BlueTooth Printer",
+    "address": "5A:4A:C6:68:99:9D",
+    "paper_mm_as_printed": 58,
+    "printable_width_dots_as_printed": 384,
+    "image_command_as_printed": "gsV0"
+  },
+  "physical_model": "unknown",
+  "android_version": "unknown",
+  "result": "calibration legible in photographed area; quotation/receipt contain alternating legible and garbage spans",
+  "cause": "not_confirmed",
+  "transport_adjustment": "256 bytes/40 ms including last block; awaiting physical retest"
+}

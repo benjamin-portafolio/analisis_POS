@@ -1,0 +1,92 @@
+00:00 +0: loading /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/core_prerequisites_test.dart
+00:00 +0: standalone standalone: alta por handlers establece memoria durable
+00:00 +0 -1: standalone standalone: alta por handlers establece memoria durable [E]
+  Expected: an object with length of <1>
+    Actual: []
+     Which: has length of <0>
+  
+  package:matcher                                                                                                                    expect
+  package:flutter_test/src/widget_tester.dart 473:18                                                                                 expect
+  /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/core_prerequisites_test.dart 86:7  main.<fn>.<fn>
+  
+00:00 +0 -1: standalone standalone: SEG-05 legado conserva ID al guardar apagado y reactivar
+00:00 +0 -2: standalone standalone: SEG-05 legado conserva ID al guardar apagado y reactivar [E]
+  Expected: '20000000-0000-4000-8000-000000000001'
+    Actual: '3ffc1c51-68f8-40e3-b876-b2d642861b4c'
+     Which: is different.
+            Expected: 20000000-0 ...
+              Actual: 3ffc1c51-6 ...
+                      ^
+             Differ at offset 0
+  
+  package:matcher                                                                                                                    expect
+  package:flutter_test/src/widget_tester.dart 473:18                                                                                 expect
+  /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/core_prerequisites_test.dart 92:7  main.<fn>.<fn>
+  
+00:00 +0 -2: standalone standalone: SEG-06 descarta autogenerado vacío después de desvincular
+00:00 +0 -3: standalone standalone: SEG-06 descarta autogenerado vacío después de desvincular [E]
+  Expected: empty
+    Actual: [
+              InventoryItemRow:InventoryItemRow(id: 28eee64a-e6cd-4453-bbcf-9a2991374997, active: true, version: 1, createdEventId: 86cd1c35-b685-4c6f-aebd-71467e993a84, lastEventId: 86cd1c35-b685-4c6f-aebd-71467e993a84, lastServerSequence: null, defaultUnitId: 10000000-0000-4000-8000-000000000001, name: Nuevo, originVariantId: e4b9bf82-6128-42fb-b9fb-f7935b6fb727)
+            ]
+  
+  package:matcher                                                                                                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18                                                                                  expect
+  /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/core_prerequisites_test.dart 102:9  main.<fn>.<fn>
+  
+00:00 +0 -3: standalone standalone: SEG-22 catálogo legado con historia incompleta requiere selección
+00:00 +0 -4: standalone standalone: SEG-22 catálogo legado con historia incompleta requiere selección [E]
+  Expected: <Instance of 'RecursoSeleccionRequeridaResultado'>
+    Actual: <Instance of 'RecursoNuevoResultado'>
+     Which: is not an instance of 'RecursoSeleccionRequeridaResultado'
+  
+  package:matcher                                                                                                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18                                                                                  expect
+  /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/core_prerequisites_test.dart 115:7  main.<fn>.<fn>
+  
+00:00 +0 -4: serverSync serverSync: alta por handlers establece memoria durable
+00:00 +0 -5: serverSync serverSync: alta por handlers establece memoria durable [E]
+  Expected: an object with length of <1>
+    Actual: []
+     Which: has length of <0>
+  
+  package:matcher                                                                                                                    expect
+  package:flutter_test/src/widget_tester.dart 473:18                                                                                 expect
+  /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/core_prerequisites_test.dart 86:7  main.<fn>.<fn>
+  
+00:00 +0 -5: serverSync serverSync: SEG-05 legado conserva ID al guardar apagado y reactivar
+00:00 +0 -6: serverSync serverSync: SEG-05 legado conserva ID al guardar apagado y reactivar [E]
+  Expected: '20000000-0000-4000-8000-000000000001'
+    Actual: 'b95a6c67-fa15-4e1a-8b2c-c85a3232c9b1'
+     Which: is different.
+            Expected: 20000000-0 ...
+              Actual: b95a6c67-f ...
+                      ^
+             Differ at offset 0
+  
+  package:matcher                                                                                                                    expect
+  package:flutter_test/src/widget_tester.dart 473:18                                                                                 expect
+  /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/core_prerequisites_test.dart 92:7  main.<fn>.<fn>
+  
+00:00 +0 -6: serverSync serverSync: SEG-22 catálogo legado con historia incompleta requiere selección
+00:00 +0 -7: serverSync serverSync: SEG-22 catálogo legado con historia incompleta requiere selección [E]
+  Expected: <Instance of 'RecursoSeleccionRequeridaResultado'>
+    Actual: <Instance of 'RecursoNuevoResultado'>
+     Which: is not an instance of 'RecursoSeleccionRequeridaResultado'
+  
+  package:matcher                                                                                                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18                                                                                  expect
+  /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/core_prerequisites_test.dart 115:7  main.<fn>.<fn>
+  
+00:00 +0 -7: serverSync serverSync: SEG-15 rollback restaura ausencia exacta de memoria
+00:00 +0 -8: serverSync serverSync: SEG-15 rollback restaura ausencia exacta de memoria [E]
+  Expected: empty
+    Actual: [
+              VariantInventoryMemoryRow:VariantInventoryMemoryRow(variantId: 10000000-0000-4000-8000-000000000002, inventoryItemId: 20000000-0000-4000-8000-000000000001, sourceEventId: 40000000-0000-4000-8000-000000000088, sourceServerSequence: null)
+            ]
+  
+  package:matcher                                                                                                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18                                                                                  expect
+  /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/core_prerequisites_test.dart 130:9  main.<fn>.<fn>
+  
+00:00 +0 -8: Some tests failed.

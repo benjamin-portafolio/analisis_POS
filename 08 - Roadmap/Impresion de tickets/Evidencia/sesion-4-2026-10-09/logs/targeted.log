@@ -1,0 +1,189 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/printer_settings_controller_test.dart
+test/application/printing/printer_profile_test.dart:56:20: Error: The method 'take' isn't defined for the type 'TicketDocument'.
+ - 'TicketDocument' is from 'package:pos_flutter/application/tickets/ticket_document.dart' ('lib/application/tickets/ticket_document.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'take'.
+      expect(bytes.take(2), [27, 64]);
+                   ^^^^
+test/application/printing/printer_profile_test.dart:57:39: Error: The method 'sublist' isn't defined for the type 'TicketDocument'.
+ - 'TicketDocument' is from 'package:pos_flutter/application/tickets/ticket_document.dart' ('lib/application/tickets/ticket_document.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'sublist'.
+      final text = ascii.decode(bytes.sublist(2));
+                                      ^^^^^^^
+test/application/printing/printer_profile_test.dart:61:20: Error: The method 'where' isn't defined for the type 'TicketDocument'.
+ - 'TicketDocument' is from 'package:pos_flutter/application/tickets/ticket_document.dart' ('lib/application/tickets/ticket_document.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'where'.
+      expect(bytes.where((b) => b == 27), hasLength(1));
+                   ^^^^^
+00:00 +0 -1: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/printer_profile_test.dart [E]
+  Failed to load "/Users/benjamin/Projects/POS/pos_flutter/test/application/printing/printer_profile_test.dart":
+  Compilation failed for testPath=/Users/benjamin/Projects/POS/pos_flutter/test/application/printing/printer_profile_test.dart: test/application/printing/printer_profile_test.dart:56:20: Error: The method 'take' isn't defined for the type 'TicketDocument'.
+   - 'TicketDocument' is from 'package:pos_flutter/application/tickets/ticket_document.dart' ('lib/application/tickets/ticket_document.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'take'.
+        expect(bytes.take(2), [27, 64]);
+                     ^^^^
+  test/application/printing/printer_profile_test.dart:57:39: Error: The method 'sublist' isn't defined for the type 'TicketDocument'.
+   - 'TicketDocument' is from 'package:pos_flutter/application/tickets/ticket_document.dart' ('lib/application/tickets/ticket_document.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'sublist'.
+        final text = ascii.decode(bytes.sublist(2));
+                                        ^^^^^^^
+  test/application/printing/printer_profile_test.dart:61:20: Error: The method 'where' isn't defined for the type 'TicketDocument'.
+   - 'TicketDocument' is from 'package:pos_flutter/application/tickets/ticket_document.dart' ('lib/application/tickets/ticket_document.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'where'.
+        expect(bytes.where((b) => b == 27), hasLength(1));
+                     ^^^^^
+  .
+00:00 +0 -2: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/printer_settings_controller_test.dart [E]
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 939:11    DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 733:19                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 726:19                      _CustomZone.run
+  dart:async/zone.dart 625:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 666:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 194:5      _RawReceivePort._handleMessage
+  
+00:00 +0 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: configuration probe uses the captured raster profile and Spanish document
+00:00 +1 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: immutable document owns all nested rows, totals, details and summary
+00:00 +2 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: slow generation reserves global service, including configuration tests
+00:00 +3 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: next band is not generated while native write/flush is pending
+00:00 +4 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: generation timeout retains lock until original generation drains; no late write
+00:00 +5 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/printer_settings_controller_test.dart: serial mutations use latest committed state and identity is address
+00:00 +6 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/printer_settings_controller_test.dart: serial mutations use latest committed state and identity is address
+00:00 +7 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: construction does not request permission or connect
+00:00 +8 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: construction does not request permission or connect
+00:00 +9 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: construction does not request permission or connect
+00:00 +10 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: construction does not request permission or connect
+00:00 +11 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: construction does not request permission or connect
+00:00 +12 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: construction does not request permission or connect
+00:00 +13 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: construction does not request permission or connect
+00:00 +14 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +15 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +16 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +17 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +18 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +19 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +20 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +21 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +22 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +23 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +24 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +25 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +26 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_generation_service_test.dart: timeout in later band stops stream, drains write and close; no ending or retry
+00:00 +27 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: deadline reports early but native pending write AND close retain ownership
+00:00 +28 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: late connection after timeout is closed without starting a write
+00:00 +29 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: permission timeout drains late grant and never continues into connect
+00:00 +30 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: close timeout reports but unlocks only after successful late close
+00:00 +31 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: failed close quarantines sends until explicit dispose really closes
+00:00 +32 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: dispose waits write and close, rejects requests and never replays
+00:00 +33 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: dispose while connecting discards attempt before write
+00:00 +34 -2: /Users/benjamin/Projects/POS/pos_flutter/test/application/printing/ticket_print_service_test.dart: A -> B -> A captures the destination and closes each attempt
+00:01 +35 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/printer_settings_file_store_test.dart: absent file is empty and reading does not create it
+00:01 +36 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/printer_settings_file_store_test.dart: multiple independent profiles, duplicate-address edit, default and reload
+00:01 +37 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/android_bluetooth_printer_gateway_test.dart: unsupported platforms make no plugin calls including close
+00:01 +38 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/android_bluetooth_printer_gateway_test.dart: unsupported platforms make no plugin calls including close
+00:01 +39 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/printer_settings_file_store_test.dart: invalid format is retained until explicit recovery: {broken
+00:01 +40 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/printer_settings_file_store_test.dart: invalid format is retained until explicit recovery: {broken
+00:01 +41 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/printer_settings_file_store_test.dart: invalid format is retained until explicit recovery: {broken
+00:01 +42 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/printer_settings_file_store_test.dart: invalid format is retained until explicit recovery: {broken
+00:01 +43 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +44 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +45 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +46 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +47 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +48 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +49 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +50 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +51 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +52 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +53 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +54 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +55 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +56 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +57 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +58 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +59 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +60 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +61 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:01 +62 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/ticket_business_isolation_test.dart: real fixture standalone: sale/quotation print and manual reprint change no table or sync
+00:02 +63 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/esc_pos_ticket_encoder_test.dart: 100 rows mm58: identical raster at different band boundaries; all methods retain order
+00:02 +64 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/esc_pos_ticket_encoder_test.dart: 100 rows mm58: identical raster at different band boundaries; all methods retain order
+00:02 +65 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/esc_pos_ticket_encoder_test.dart: raster mm80: direct width, Spanish, measured amounts, payments and footer
+00:02 +66 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/esc_pos_ticket_encoder_test.dart: 100 rows mm80: identical raster at different band boundaries; all methods retain order
+00:03 +67 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/esc_pos_ticket_encoder_test.dart: 100 rows mm80: identical raster at different band boundaries; all methods retain order
+00:03 +68 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/esc_pos_ticket_encoder_test.dart: 100 rows mm80: identical raster at different band boundaries; all methods retain order
+00:03 +69 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/esc_pos_ticket_encoder_test.dart: 100 rows mm80: identical raster at different band boundaries; all methods retain order
+00:03 +70 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/esc_pos_ticket_encoder_test.dart: 100 rows mm80: identical raster at different band boundaries; all methods retain order
+00:03 +71 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/esc_pos_ticket_encoder_test.dart: 100 rows mm80: identical raster at different band boundaries; all methods retain order
+00:03 +72 -2: /Users/benjamin/Projects/POS/pos_flutter/test/data/printing/esc_pos_ticket_encoder_test.dart: 100 rows mm80: identical raster at different band boundaries; all methods retain order
+00:03 +73 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/impresoras/printer_settings_screen_test.dart: opening configuration never requests Bluetooth and add shows names/addresses
+00:03 +74 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/impresoras/printer_settings_screen_test.dart: opening configuration never requests Bluetooth and add shows names/addresses
+00:03 +75 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/impresoras/printer_settings_screen_test.dart: opening configuration never requests Bluetooth and add shows names/addresses
+00:04 +76 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/impresoras/printer_settings_screen_test.dart: save same address edits; equal names create separate profiles; cancel is inert
+00:04 +77 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/impresoras/printer_settings_screen_test.dart: edit paper, preserve compatibility on alias edit, validate and cancel
+00:04 +78 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/impresoras/printer_settings_screen_test.dart: choose and clear default; remove only from app and no silent replacement
+00:04 +79 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: default/paper shown; cancel does nothing; other destination is for one send
+00:04 +80 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: default/paper shown; cancel does nothing; other destination is for one send
+00:04 +81 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: default/paper shown; cancel does nothing; other destination is for one send
+00:04 +82 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: default/paper shown; cancel does nothing; other destination is for one send
+00:05 +83 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: default/paper shown; cancel does nothing; other destination is for one send
+00:05 +84 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: default/paper shown; cancel does nothing; other destination is for one send
+00:05 +85 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: default/paper shown; cancel does nothing; other destination is for one send
+00:05 +86 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: default/paper shown; cancel does nothing; other destination is for one send
+00:05 +87 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: default/paper shown; cancel does nothing; other destination is for one send
+00:05 +88 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: default/paper shown; cancel does nothing; other destination is for one send
+00:05 +89 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/impresoras/printer_settings_screen_test.dart: closing during test permission prevents a late connection or send
+00:05 +90 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: without default requires explicit selection; deleting selected profile disables send
+00:05 +91 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/impresoras/printer_settings_screen_test.dart: failed profile save does not publish edits to screen
+00:05 +92 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: no profiles opens existing configuration without Bluetooth or sending
+00:05 +93 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: no profiles opens existing configuration without Bluetooth or sending
+00:05 +94 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: confirmation captures latest visible doc/profile; later mutations and double touch cannot replace it
+00:05 +95 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: permission pending and route closed: no late send or UI callback
+00:05 +96 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: permission deadline owns late preflight until native permission finishes
+00:05 +97 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: background invalidates pending permission; resume never prints automatically
+00:05 +98 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: closing during generation cancels before connect; closing during write keeps single job cleanup
+00:05 +99 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: partial failure warns; reprint requires a new manual action
+00:05 +100 -2: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: busy configuration probe disables ticket action until native close finishes
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: empty
+  Actual: [Instance of 'TicketDocument']
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart:367:7)
+<asynchronous suspension>
+#5      main.testPrinting.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart:67:9)
+<asynchronous suspension>
+#6      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#7      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart line 367
+The test description was:
+  busy configuration probe disables ticket action until native close finishes
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:05 +100 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: busy configuration probe disables ticket action until native close finishes [E]
+  Test failed. See exception logs above.
+  The test description was: busy configuration probe disables ticket action until native close finishes
+  
+00:05 +100 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: unavailable platform explains limitation and never calls gateway/plugin
+00:05 +101 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: no document keeps print disabled
+00:05 +102 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: sale screen prints confirmed cash snapshot and permits manual reprint
+00:06 +103 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: sale screen prints confirmed transfer snapshot and permits manual reprint
+00:06 +104 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: sale screen prints confirmed credit snapshot and permits manual reprint
+00:06 +105 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: quotation freezes displayed prices/date/legend across later price publication
+00:06 +106 -3: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/tickets/ticket_print_action_test.dart: quotation missing prices prints unavailable strings unchanged without persistence
+00:06 +107 -3: Some tests failed.

@@ -1,0 +1,17 @@
+lib/presentation/pages/caja/payment_method_screen.dart:76:          expectedTotalMinor: widget.totalMinor,
+lib/presentation/pages/caja/cash_payment_screen.dart:46:          expectedTotalMinor: widget.totalMinor,
+lib/presentation/pages/caja/transfer_payment_screen.dart:37:          expectedTotalMinor: widget.totalMinor,
+test/integration/variant_tracking_server_test.dart:64:          expectedTotalMinor: draft.totalMinor,
+test/support/quotation_harness.dart:286:        expectedTotalMinor: sale.totalMinor,
+test/application/commands/cotizaciones/quotation_selection_v2_test.dart:182:      'catalog_unit_price_minor',
+test/application/sync/payloads/cotizacion_recuperada_payload_test.dart:57:        'catalog_unit_price_minor',
+test/application/commands/ventas/venta_command_service_test.dart:174:      expectedTotalMinor: d.totalMinor,
+test/application/commands/ventas/venta_command_service_test.dart:839:        expectedTotalMinor: c.expectedTotalMinor,
+test/application/commands/ventas/venta_command_service_test.dart:1071:            expectedTotalMinor: c.expectedTotalMinor,
+test/application/commands/ventas/venta_command_service_test.dart:1084:            expectedTotalMinor: c.expectedTotalMinor,
+test/application/commands/ventas/venta_command_service_test.dart:1098:            expectedTotalMinor: c.expectedTotalMinor,
+test/data/local/drift/variant_tracking_phase3_test.dart:686:            expectedTotalMinor: draft.totalMinor,
+test/data/local/drift/variant_tracking_phase3_test.dart:929:            expectedTotalMinor: draft.totalMinor,
+lib/application/commands/ventas/venta_command_service.dart:46:        sale.totalMinor != command.expectedTotalMinor) {
+lib/application/commands/ventas/confirmar_venta_command.dart:5:    required this.expectedTotalMinor,
+lib/application/commands/ventas/confirmar_venta_command.dart:13:  final int expectedTotalMinor;

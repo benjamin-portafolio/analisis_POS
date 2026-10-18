@@ -1,0 +1,63 @@
+{
+  "evidenceType": "synthetic_fixture_not_physical_print",
+  "profile": {
+    "address": "AA:BB:CC:DD:EE:01",
+    "alias": "B80",
+    "paper": "mm80",
+    "printableWidthDots": 576,
+    "imageCommand": "gsV0",
+    "supportsCut": false
+  },
+  "document": {
+    "title": "RECIBO DE VENTA",
+    "identifier": "Recibo # térmico-123",
+    "date": "09/10/2026 12:34",
+    "dateLabel": "Fecha",
+    "currency": "MXN",
+    "details": [
+      "Cliente: María Muñoz",
+      "Referencia: SPEI-ñ-42"
+    ],
+    "summary": [
+      "Transferencia",
+      "3",
+      "2 piezas, 0.750 kg, 0.250 L",
+      "$245.00"
+    ],
+    "itemRows": [
+      [
+        "1. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$200.00 / 1 kg",
+        "0.750 kg",
+        "$150.00"
+      ],
+      [
+        "2. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "Precio no disponible",
+        "0.250 L",
+        "Importe no disponible"
+      ],
+      [
+        "3. Café de especialidad de la sierra con nombre largo y piñón\nTueste medio, selección de origen",
+        "$35.00",
+        "2",
+        "$150.00"
+      ]
+    ],
+    "totals": [
+      [
+        "Subtotal",
+        "$245.00"
+      ],
+      [
+        "Total general",
+        "$245.00"
+      ],
+      [
+        "Transferencia recibida",
+        "$245.00"
+      ]
+    ],
+    "footer": "Gracias, vuelva pronto. ñ Ñ á é í ó ú ü € °"
+  }
+}

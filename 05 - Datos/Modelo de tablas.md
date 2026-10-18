@@ -1,10 +1,19 @@
 ---
 tipo: datos
 estado: alineado_con_modelo_canonico
-actualizado: 2026-08-26
+actualizado: 2026-10-04
 ---
 
 # Modelo de tablas
+
+> Esquema adicional verificado el 2026-10-04:
+> `inventory_items.origin_variant_id` y `variant_inventory_memory` existen en
+> SQLite/PG; no habilitan consumo ni almacenan stock en la variante. SQLite
+> además tiene `inventory_item_discards` y `product_update_undo.memory_json`,
+> con aplicación funcional todavía incompleta. El receptor PG pasa sus pruebas;
+> Flutter falla memoria/legado/descarte/undo. Ver
+> [[08 - Roadmap/Seguimiento de existencias/Mapeo fisico de esquemas|Mapeo físico real]]
+> y [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-prerrequisitos-fase5/Resultados|Auditoría de entrada a fase 5, 2026-10-04]]. Se conservan las FK RESTRICT de movimientos/recetas.
 
 Modelo inicial para SQLite local y base central. No todas las columnas finales estan cerradas.
 
@@ -226,7 +235,6 @@ erDiagram
         integer sale_price_minor
         integer standard_cost_minor "nullable"
         string inventory_item_id FK, UK "nullable; direct tracking"
-        boolean is_default
         integer sort_order
         boolean active
         integer version
@@ -261,6 +269,7 @@ erDiagram
         string inventory_item_id PK, FK
         integer quantity_on_hand_atomic
         integer quantity_available_atomic
+        integer version
         string last_event_id FK
         integer last_server_sequence
     }
@@ -436,8 +445,14 @@ mode
 auth_provider
 sync_provider
 backup_provider
+cash_enabled
 installation_id
 ```
+
+`cash_enabled` habilita la captura de caja en esa instalacion, con default
+`true`. Es un ajuste local, no un evento: no se sincroniza y el servidor no lo
+valida. Ver
+[[02 - Decisiones/ADR-0016 Habilitacion de caja por instalacion|ADR-0016]].
 
 No es obligatorio que estos campos vivan en la base de negocio, pero la app debe poder consultarlos antes de registrar dependencias.
 
@@ -456,6 +471,16 @@ No es obligatorio que estos campos vivan en la base de negocio, pero la app debe
   tabla de variantes.
 - `inventory_balances` se consulta para la existencia actual. La suma de
   `inventory_movements` se usa solo para auditoría o reconstrucción.
+- `inventory_movements` conserva únicamente `quantity_delta_atomic`: no hay
+  snapshots de cantidad anterior o posterior. `reason` es nullable y solo
+  `manual_adjustment` lo exige; todo valor presente usa NFKC + `trim` y 1..500
+  caracteres.
+- `initial_balance` y `stock_receipt` exigen delta positivo;
+  `manual_adjustment` admite ambos signos sin cero. `reversal` exige una FK
+  `reversal_of_movement_id` distinta de sí misma y los demás tipos la exigen
+  nula. La FK conserva `ON DELETE RESTRICT`.
+- `inventory_movements.total_cost_minor` permanece nullable y en `null` hasta
+  que se implemente valuación de inventario.
 - Codigo, dimension, factor y precision de una unidad referenciada son
   inmutables. `active = false` bloquea nuevas configuraciones, no historicos.
 - En PostgreSQL, `events.sync_status` puede ser `pending`, `synced`, `rejected`
@@ -482,3 +507,12 @@ No es obligatorio que estos campos vivan en la base de negocio, pero la app debe
 - [[03 - Dominio/Modulos/Articulos|Modulo Articulos]]
 - [[03 - Dominio/Modulos/Unidades y cantidades|Unidades y cantidades]]
 - [[03 - Dominio/Modulos/Categorias|Modulo Categorias]]
+
+## Estado actualizado del seguimiento — corrección de fase 3, 2026-10-04
+
+La auditoría inicial fallida se conserva como historial. El core Flutter ahora
+mantiene memoria por eventos, recupera el mismo recurso con historial, descarta
+solo standalone elegible con rollback/replay comprobados y restaura memoria exacta.
+Server_sync conserva recurso/balance; transporte HTTP/PG/SQLite y pull a cliente
+vacío están verificados en su alcance. UI de fase 4 y cierre de fase 5 pendientes;
+no se acredita uso físico ni despliegue. Evidencia y comandos: [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-correccion-fase3/Resultados|Corrección y verificación de fase 3, 2026-10-04]].

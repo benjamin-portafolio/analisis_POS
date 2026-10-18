@@ -1,0 +1,42 @@
+{
+  "cotizacion-muchas-lineas.png": {
+    "width": 880,
+    "height": 4152,
+    "sha256": "3f2a8a155f194c5c0965258deb5ddd7fb11cb7e8242fd6b5a71c2b58069ff1c7"
+  },
+  "cotizacion-no-disponible.png": {
+    "width": 880,
+    "height": 1432,
+    "sha256": "789820503a7c7474eb13401da977471c114d3b0714596d5b2845200fc6a9db11"
+  },
+  "cotizacion-precio-antes.png": {
+    "width": 880,
+    "height": 1032,
+    "sha256": "4cc0bcc10f217ebb8ee70ff1b94547f455bccefd31cabaf2f3a247453788fd1a"
+  },
+  "cotizacion-precio-despues.png": {
+    "width": 880,
+    "height": 1032,
+    "sha256": "57ee54ef220e7fbd50a870ed59012eb5e842fa576660946fee5be192ea500902"
+  },
+  "cotizacion-quotation-1.png": {
+    "width": 880,
+    "height": 1352,
+    "sha256": "9cec0b396c1a14df31df1acdd21ba714652d5cbd6b243f6d8e4cb056e979ced2"
+  },
+  "recibo-cash.png": {
+    "width": 880,
+    "height": 4466,
+    "sha256": "b82acacc7d7af7b501ca9c03a78f6becde4ce034ab491c64d156e75dfeab31d1"
+  },
+  "recibo-credit.png": {
+    "width": 880,
+    "height": 4436,
+    "sha256": "2cdb7f88c983b0bad72b09013ec06329c9a4e9845a73ae347b42a208500a1090"
+  },
+  "recibo-transfer.png": {
+    "width": 880,
+    "height": 4436,
+    "sha256": "f61bd58b55668b260ce423d4a80fd8474103f98c8c971bb95279654fa75d0622"
+  }
+}

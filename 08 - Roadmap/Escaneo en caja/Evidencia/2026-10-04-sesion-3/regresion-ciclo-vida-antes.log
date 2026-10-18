@@ -1,0 +1,83 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart
+00:00 +0: consulta pendiente interrumpida por segundo plano no agrega al terminar
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: empty
+  Actual: [Instance of 'AgregarProductoBorradorCommand']
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart:722:9)
+<asynchronous suspension>
+#5      main.scannerTest.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart:62:9)
+<asynchronous suspension>
+#6      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#7      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart line 722
+The test description was:
+  consulta pendiente interrumpida por segundo plano no agrega al terminar
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:00 +0 -1: consulta pendiente interrumpida por segundo plano no agrega al terminar [E]
+  Test failed. See exception logs above.
+  The test description was: consulta pendiente interrumpida por segundo plano no agrega al terminar
+  
+00:00 +0 -1: consulta pendiente interrumpida por pausa y regreso no agrega al terminar
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: empty
+  Actual: [Instance of 'AgregarProductoBorradorCommand']
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart:722:9)
+<asynchronous suspension>
+#5      main.scannerTest.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart:62:9)
+<asynchronous suspension>
+#6      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#7      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart line 722
+The test description was:
+  consulta pendiente interrumpida por pausa y regreso no agrega al terminar
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -2: consulta pendiente interrumpida por pausa y regreso no agrega al terminar [E]
+  Test failed. See exception logs above.
+  The test description was: consulta pendiente interrumpida por pausa y regreso no agrega al terminar
+  
+00:01 +0 -2: consulta pendiente interrumpida por otra ruta no agrega al terminar
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: empty
+  Actual: [Instance of 'AgregarProductoBorradorCommand']
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart:722:9)
+<asynchronous suspension>
+#5      main.scannerTest.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart:62:9)
+<asynchronous suspension>
+#6      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#7      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart line 722
+The test description was:
+  consulta pendiente interrumpida por otra ruta no agrega al terminar
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -3: consulta pendiente interrumpida por otra ruta no agrega al terminar [E]
+  Test failed. See exception logs above.
+  The test description was: consulta pendiente interrumpida por otra ruta no agrega al terminar
+  
+00:01 +0 -3: Some tests failed.

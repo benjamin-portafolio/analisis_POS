@@ -2,14 +2,59 @@
 tipo: especificacion_modulo
 modulo: articulos
 estado: implementacion_parcial
-actualizado: 2026-08-28
+actualizado: 2026-10-04
 ---
 
 # Modulo Articulos
 
+## Recuperación y descarte de seguimiento — revalidación 2026-10-04
+
+Contrato normativo: esquemas, receptor y core de seguimiento probados; UI de recuperación pendiente;
+Flutter falla memoria/legado/descarte/undo y la interfaz sigue pendiente.
+Evidencia: [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-prerrequisitos-fase5/Resultados|Auditoría de entrada a fase 5, 2026-10-04]].
+
+La decisión exige que guardar sin seguimiento directo
+conserva una memoria durable del último recurso. Activarlo de nuevo recupera su
+identidad, saldo e historial si es compatible y está disponible; no crea otra
+existencia inicial. Un autogenerado vacío solo puede descartarse en standalone
+con las comprobaciones de ADR-0017. Server_sync conserva siempre recurso/balance
+para ventas históricas pendientes de otras terminales.
+
+La memoria no habilita consumo, no reserva el vínculo único y debe restaurarse
+con la edición en conflicto. Los casos legados ambiguos requieren selección
+explícita; no hay purga de recursos por nombre ni por saldo cero. Desactivar o
+eliminar lógicamente producto/variante no dispara el descarte de este plan.
+
+Contrato y ejecución por sesiones:
+[[08 - Roadmap/Seguimiento de existencias/Contrato funcional y de eventos|Contrato]],
+[[08 - Roadmap/Seguimiento de existencias/Plan de implementacion|Plan en cinco fases]] y
+[[08 - Roadmap/Seguimiento de existencias/Estado y continuidad|Continuidad]].
+
+## Eliminacion de variante principal — 2026-09-08
+
+Las variantes no tienen una prioridad de negocio ni un campo `is_default`.
+`sort_order` expresa solamente el orden visual. El listado deriva el precio
+minimo y maximo entre variantes activas: muestra un importe si coinciden y un
+rango si difieren. Reordenar no cambia ese resumen ni selecciona una variante
+para venta.
+
+Los contratos implementados de `producto_creado` y `producto_actualizado`
+(incluidos sus snapshots `before`/`after`) aceptan eventos anteriores con
+`is_default` como campo legado ignorado, pero no lo emiten ni lo comparan para
+conflictos. No se reescribe el historial persistido. Actualizar servidor y
+clientes de forma coordinada: versiones anteriores exigen el campo.
+
+En Flutter se mantiene `schemaVersion` y se recrea al inicio una base del
+esquema anterior, conforme a la politica de desarrollo. Un respaldo antiguo
+incompatible se rechaza sin eliminarlo. En PostgreSQL se retira la columna;
+la migracion conserva las filas y sus relaciones. Su rollback reconstruye la
+antigua marca desde el orden activo y no recupera flags historicos.
+
 > [!IMPORTANT]
-> El alcance vigente incorpora seguimiento directo según ADR-0014. Las recetas
-> y el descuento automático por venta permanecen fuera de esta característica.
+> El seguimiento directo se define en ADR-0014 y su nueva política de recuperación
+> en ADR-0017, parcialmente implementada y sin cierre. Las recetas y el consumo histórico por
+> venta ya aparecen en el código revisado; ver
+> [[04 - Sincronizacion/Confirmacion de ventas en efectivo|contrato de ventas vigente]].
 > El ER canónico es
 > [[05 - Datos/Catalogo e inventario|Catálogo e inventario]].
 
@@ -102,7 +147,6 @@ El modulo incluye:
 - Alta atomica de producto y variante inicial.
 - Edicion de nombre y categoria opcional.
 - Alta y edicion de variantes.
-- Seleccion de una variante predeterminada.
 - Reordenamiento de variantes dentro de su producto.
 - Desactivacion y reactivacion de productos y variantes.
 - SKU y un codigo de barras opcionales por variante.
@@ -147,7 +191,6 @@ No incluye:
 | Producto | Entidad comercial con nombre, categoria opcional, configuracion comun de venta y ciclo de vida |
 | Variante | Presentacion vendible con precio de venta, costo estandar opcional, SKU/codigo y habilitacion/configuracion de consumo propios |
 | Variante sencilla | Unica variante activa sin nombre visible |
-| Variante predeterminada | Variante usada para resumir precio y seleccion inicial |
 | Articulo de inventario | Recurso fisico cuyo saldo se calcula por movimientos |
 | Modo de venta | Estrategia comun `unit` o `measured` usada por todas las variantes del producto |
 | Unidad de venta | Unidad activa usada para capturar y presentar una venta medida |
@@ -347,7 +390,7 @@ Flujo sencillo:
 
 1. El usuario captura nombre, categoria opcional y precio de venta; puede
    capturar ademas el costo estandar de referencia.
-2. El formulario crea una variante sin nombre, activa, predeterminada y con
+2. El formulario crea una variante sin nombre, activa y con
    `sort_order = 0`.
 3. El producto usa `sale_mode = unit` por defecto; unidad y cantidad de
    referencia inician nulas.
@@ -367,9 +410,8 @@ Flujo con variantes:
 2. Cada variante captura precio de venta, costo estandar opcional,
    identificadores opcionales y decide de forma independiente si no da
    seguimiento, usa existencia directa o receta.
-3. Exactamente una se marca predeterminada.
-4. El orden inicial debe ser consecutivo desde cero.
-5. Guardar genera un solo evento con el agregado completo.
+3. El orden inicial debe ser consecutivo desde cero.
+4. Guardar genera un solo evento con el agregado completo.
 
 Alternativas:
 
@@ -384,7 +426,7 @@ Alternativas:
 1. El formulario carga producto, todas sus variantes y configuraciones
    actuales, incluidas las inactivas cuando se administra el catalogo.
 2. El usuario puede cambiar datos del producto, agregar variantes, editar
-   variantes existentes y cambiar la predeterminada.
+   variantes existentes y su orden.
 3. La configuracion de venta cambia como un bloque y solo cuando no existen
    lineas abiertas o provisionales de ninguna variante del producto.
 4. La estrategia de inventario puede cambiar por variante dentro de una sola
@@ -418,10 +460,7 @@ variantes activas.
 
 - La accion visible se llama `Desactivar`, no `Borrar`.
 - Desactivar un producto conserva variantes, recetas, claves y orden.
-- Reactivar un producto exige al menos una variante activa y exactamente una
-  predeterminada activa.
-- Desactivar la variante predeterminada de un producto activo exige elegir
-  otra activa en la misma transaccion.
+- Reactivar un producto exige al menos una variante activa.
 - La ultima variante activa de un producto activo no puede desactivarse.
 - Una variante inactiva conserva y reserva SKU y codigo.
 - Desactivar o reactivar una variante conserva `sort_order`.
@@ -496,7 +535,7 @@ sin respaldo.
 | Elemento de la referencia | Decision para este POS | Motivo |
 |---|---|---|
 | Lista vertical de tarjetas | Adoptar | Permite escaneo visual rapido del catalogo |
-| Nombre y precio principal | Adoptar | Existen en producto y variante predeterminada |
+| Nombre y precio resumen | Adoptar | Nombre del producto y precio unico o rango de sus variantes activas |
 | Opciones de variante | Adoptar cuando existan variantes nombradas | La fase actual solo crea una variante sencilla sin nombre |
 | Indicador circular con imagen | Adaptar a icono y color de categoria | Articulos no maneja imagenes |
 | Busqueda superior | Adoptar | Opera sobre SQLite local |
@@ -529,15 +568,14 @@ ArticuloListado
   categoriaId?
   categoriaNombre?
   categoriaColorKey?
-  variantePredeterminadaId
-  precioPredeterminadoMenor
+  precioMinimoMenor (derivado)
+  precioMaximoMenor (derivado)
   variantesActivas: List<VarianteListado>
 
 VarianteListado
   variantId
   nombre?
   precioVentaMenor
-  predeterminada
   orden
 ```
 
@@ -545,7 +583,7 @@ Reglas de lectura:
 
 - La vista inicial incluye `products.active = true` y
   `product_variants.active = true`.
-- El producto debe tener una variante activa predeterminada; una proyeccion
+- El producto debe tener al menos una variante activa; una proyeccion
   invalida produce error de lectura y no una tarjeta con precio inventado.
 - Productos se ordenan por nombre y `product_id` como desempate estable.
 - Variantes se ordenan por `sort_order`, nombre e ID.
@@ -567,13 +605,13 @@ Cada tarjeta activa contiene, en este orden visual:
    forma de comunicar informacion.
 2. Nombre del producto como texto principal.
 3. Nombre de categoria como texto secundario cuando no sea nula.
-4. Precio formateado de la variante activa predeterminada.
+4. Precio unico si todas las variantes activas cuestan lo mismo; rango minimo–maximo en caso contrario.
 5. Variantes activas nombradas, cuando existan, mediante chips informativos en
    `sort_order`. Cada chip muestra nombre y precio.
 
 Una variante sencilla con `name = null` no genera un chip redundante. Si hay
-varias variantes activas, el precio principal sigue siendo el de la
-predeterminada. Los chips no cambian el precio principal ni seleccionan una
+varias variantes activas, el resumen muestra su precio unico o rango. El
+resumen no depende del orden y los chips son informativos; no seleccionan una
 variante en este corte.
 
 El objetivo final es que tocar la tarjeta abra `Gestionar articulo`. Mientras
@@ -682,7 +720,7 @@ filtro no modifica datos persistidos ni genera eventos.
 Incluye:
 
 - Repositorio y stream reactivo de productos activos.
-- Join/agregacion de categoria y variante sencilla predeterminada.
+- Join/agregacion de categoria y variantes activas.
 - Tarjeta sin imagen.
 - Busqueda por nombre de producto.
 - Filtro multiple por categoria y `Sin categoria`.
@@ -732,7 +770,7 @@ directamente y el repositorio de lectura no crea comandos ni eventos.
 |---|---|
 | `ART-LST-AC-001` | La pestana observa SQLite y no realiza llamadas de red para cargar, buscar o filtrar. |
 | `ART-LST-AC-002` | Solo se listan productos y variantes activas, ordenados de forma estable. |
-| `ART-LST-AC-003` | Cada tarjeta muestra icono/color, nombre, categoria opcional y precio de la predeterminada sin cargar recetas o saldos. |
+| `ART-LST-AC-003` | Cada tarjeta muestra icono/color, nombre, categoria opcional y precio unico o rango de variantes activas sin cargar recetas o saldos. |
 | `ART-LST-AC-004` | La variante sencilla sin nombre no produce un chip; variantes nombradas futuras se ordenan por `sort_order`. |
 | `ART-LST-AC-005` | La busqueda actual encuentra por nombre de producto, reacciona mientras se escribe y una cadena vacia no filtra. |
 | `ART-LST-AC-006` | Texto y categorias se combinan con AND; varias categorias y `Sin categoria` se combinan con OR. |
@@ -754,7 +792,6 @@ directamente y el repositorio de lectura no crea comandos ni eventos.
 - Categoria admite `Sin categoria` y reutiliza el selector de Categorias.
 - El modo sencillo es una presentacion del mismo modelo, no otro esquema.
 - Agregar la segunda variante exige nombrar la primera antes de guardar.
-- La predeterminada se selecciona explicitamente cuando hay varias.
 - Guardar se deshabilita durante el commit local para evitar doble envio.
 - Los errores de campo se muestran junto al control; un error transaccional se
   muestra a nivel formulario y conserva la captura.
@@ -774,7 +811,6 @@ directamente y el repositorio de lectura no crea comandos ni eventos.
 | Costo estandar | Entrada monetaria | `null` o entero `0..9007199254740991` | Opcional; cero es un costo conocido, vacio es desconocido |
 | SKU | Texto | NFKC, mayusculas, 1..80 o `null` | Unico en el catalogo actual |
 | Codigo de barras | Texto/escaneo | NFKC, 1..128 o `null`; se conserva como texto | Unico en el catalogo actual |
-| Predeterminada | Radio/seleccion unica | Exactamente una activa por producto activo | Impide cero o multiples |
 | Seguimiento de inventario | Selector de variante | Sin seguimiento, directo o receta; inicia sin seguimiento | Se deriva de la forma correspondiente |
 | Recurso directo | Selector local | `inventory_item_id` activo sin vinculo directo con otra variante; puede usarse en recetas | Obligatorio solo en configuracion directa |
 | Componentes | Lista editable | Uno o mas recursos distintos | Obligatoria solo en configuracion por receta |
@@ -792,7 +828,7 @@ El precio de venta es el unico dato de negocio que el usuario debe proporcionar
 para toda variante. El costo estandar, nombre, SKU, codigo y configuracion de
 inventario son opcionales o condicionales. La configuracion de venta se captura
 una vez en el producto.
-`is_default`, `sort_order`, `active`, versión y
+`sort_order`, `active`, versión y
 trazabilidad siguen siendo valores estructurales no nulos asignados o validados
 por el sistema.
 
@@ -850,7 +886,6 @@ nota.
 | Unidad/presentacion | `presentation_unit_id` y cantidad decimal | Reemplazar por configuracion comun `sale_mode`, `sale_unit_id` y cantidad de referencia atomica en producto | Todas las variantes comparten forma de venta y la base persiste enteros atomicos | Confirmado |
 | Precio | `sale_price_minor` | Mantener como entero positivo | Evita `double` monetario y pertenece a la variante | Confirmado |
 | Costo | `standard_cost_minor` | Mantener nulable y no negativo | Separa el costo comercial de referencia del costo real de movimientos de inventario | Confirmado por negocio; pendiente de implementar |
-| Variante predeterminada | `is_default` | Mantener | Exactamente una activa por producto activo | Confirmado |
 | Orden | `sort_order` | Mantener por producto | Solo se ordenan variantes | Confirmado |
 | Ciclo de variante | Sin campo funcional | Agregar `active` | Desactivacion independiente confirmada | Confirmado |
 | SKU/codigo | Unicos y nulables | Mantener, normalizados, reservados aun inactivos y unicos en el catalogo actual | Evita colisiones dentro de la instalacion actual | Confirmado |
@@ -910,7 +945,6 @@ Los nombres de producto pueden repetirse. La identidad es `product_id`.
 | `barcode` | texto nulable | Canonico, 1..128, unico cuando existe |
 | `salePriceMinor` | entero 64 | Mayor que cero |
 | `standardCostMinor` | entero 64 nulable | `null` o mayor o igual que cero; costo estandar vigente |
-| `isDefault` | booleano | Como maximo una variante activa predeterminada |
 | `sortOrder` | entero | `0..n-1` dentro del producto |
 | `active` | booleano | Inicia `true` |
 | `inventoryEnabled` | booleano | Inicia `false`; decide si la venta afecta inventario |
@@ -1029,15 +1063,11 @@ la variante; la concurrencia y trazabilidad viven en `product_variants` y en
 - Categoria e ingredientes referenciados deben existir en la misma base de
   datos operativa que el producto.
 - Un producto debe tener al menos una variante persistida.
-- Un producto activo debe tener al menos una variante activa y exactamente una
-  variante activa predeterminada.
-- Una variante predeterminada debe estar activa.
+- Un producto activo debe tener al menos una variante activa.
 - La ultima variante activa no puede desactivarse mientras el producto este
   activo.
-- La variante predeterminada no puede desactivarse sin seleccionar otra activa
-  en la misma transaccion.
 - Un producto inactivo puede conservar variantes activas para permitir una
-  reactivacion posterior. Reactivarlo exige una predeterminada activa.
+  reactivacion posterior. Reactivarlo exige al menos una variante activa.
 - Solo puede existir una variante con `name = null` por producto. Puede quedar
   inactiva si el producto completo esta inactivo.
 - Antes de crear o reactivar una segunda variante activa, todas las variantes activas
@@ -1054,6 +1084,10 @@ la variante; la concurrencia y trazabilidad viven en `product_variants` y en
 - La configuracion de venta no cambia mientras exista una linea abierta o
   provisional de cualquiera de las variantes del producto.
 - Sin seguimiento exige `inventory_item_id = NULL` y ausencia de componentes.
+- La memoria del último recurso directo no participa en esta configuración de
+  consumo. Su recuperación y el descarte standalone se rigen por ADR-0017 y su
+  contrato, con core Flutter e interfaz aún pendientes de completar; la desactivación conserva las reglas
+  de ciclo de vida descritas aquí.
 - Precio y cantidades de componentes usan enteros; no se persiste
   `double` ni `REAL` para dinero o cantidades canonicas.
 - En productos `unit`, la configuracion directa y de receta es por una unidad
@@ -1116,7 +1150,6 @@ erDiagram
         string barcode UK "nullable"
         integer sale_price_minor
         integer standard_cost_minor "nullable"
-        boolean is_default
         integer sort_order
         boolean active
         string inventory_item_id FK, UK "nullable; unique direct link"
@@ -1220,7 +1253,6 @@ Proyeccion mutable de cada presentacion vendible.
 | `barcode` | `TEXT` | `varchar(128)` | Si | `null` | Canonico y unico cuando existe |
 | `sale_price_minor` | `INTEGER` | `bigint` | No | Sin default | `1..9007199254740991` |
 | `standard_cost_minor` | `INTEGER` | `bigint` | Si | `null` | `0..9007199254740991`; `null` es desconocido |
-| `is_default` | entero booleano | `boolean` | No | `false` | Predeterminada dentro del producto |
 | `sort_order` | `INTEGER` | `integer` | No | Sin default | `>= 0`, unico por producto |
 | `active` | entero booleano | `boolean` | No | `true` | Ciclo funcional |
 | `inventory_item_id` | `TEXT` | `uuid` | Si | `null` | Vínculo directo; único cuando existe y excluyente con componentes |
@@ -1242,8 +1274,6 @@ UNIQUE ux_product_variants_sku(sku)
   WHERE sku IS NOT NULL
 UNIQUE ux_product_variants_barcode(barcode)
   WHERE barcode IS NOT NULL
-UNIQUE ux_product_variants_active_default(product_id)
-  WHERE active = true AND is_default = true
 UNIQUE ux_product_variants_direct_item(inventory_item_id)
   WHERE inventory_item_id IS NOT NULL
 
@@ -1336,7 +1366,7 @@ no existente -> activo -> inactivo -> activo
   lineas abiertas o provisionales.
 - Desactivar no cambia automaticamente `active` de sus variantes.
 - Un producto inactivo se conserva para historial y puede reactivarse.
-- Reactivar exige una variante activa predeterminada valida.
+- Reactivar exige al menos una variante activa.
 - No hay estado `deleted` ni fila eliminada por comando de negocio.
 
 ### Variante
@@ -1352,7 +1382,6 @@ no existente -> activa -> inactiva -> activa
   unico. No desactiva el `inventory_item`, que puede seguir siendo consumido
   por recetas.
 - Desactivar o reactivar conserva `sort_order`; no renumera la secuencia.
-- Si la variante era predeterminada, la misma transaccion selecciona otra.
 - Si el producto esta activo, no se puede desactivar la ultima activa.
 - Una variante inactiva no participa en nuevas ventas ni en disponibilidad
   calculada.
@@ -1488,7 +1517,6 @@ La consulta de un producto debe devolver:
 - Producto.
 - Categoria opcional.
 - Variantes ordenadas.
-- Variante predeterminada.
 - Para administracion, estado inactivo.
 - Configuracion comun de venta `unit/measured`, unidad y cantidad de referencia.
 - Modo `direct/recipe`, bandera de habilitacion y configuracion concreta.
@@ -1510,7 +1538,7 @@ analizara con evidencia y migracion propia.
 ## Datos calculados que no se persisten
 
 - Nombre mostrado de la variante sencilla.
-- Precio resumen del producto: precio de su variante predeterminada.
+- Precio resumen del producto: precio unico o rango minimo–maximo de sus variantes activas; se deriva y no se persiste.
 - Costo estandar total de una linea: se deriva del snapshot, cantidad y
   referencia; no se persiste en el catalogo.
 - Numero de variantes activas.
@@ -1543,7 +1571,6 @@ variantes que comparten recursos y queda fuera de la UI inicial.
 Las siguientes reglas requieren transaccion y bloqueo logico:
 
 - Producto + variante inicial en una sola operacion.
-- Exactamente una predeterminada activa.
 - No desactivar la ultima variante activa de un producto activo.
 - Nombrar la variante sencilla al crear una segunda.
 - Reordenar sin huecos.
@@ -1696,12 +1723,12 @@ Drift.
 | Comando | Entrada principal | Evento | Resultado sin cambios |
 |---|---|---|---|
 | `CrearArticuloCommand` | Nombre, categoria, configuraciones comunes y una o mas variantes completas | `producto_creado` | No aplica |
-| `EditarArticuloCommand` | Estado deseado de campos editables, variantes nuevas o editadas y cambio de predeterminada | `producto_actualizado` | No crea evento |
+| `EditarArticuloCommand` | Estado deseado de campos editables, variantes nuevas o editadas | `producto_actualizado` | No crea evento |
 | `MoverVarianteCommand` | Producto, variante y direccion arriba/abajo | `variante_movida` | No crea evento en limites |
 | `DesactivarArticuloCommand` | `productId` | `producto_desactivado` | Error si ya esta inactivo |
 | `ReactivarArticuloCommand` | `productId` | `producto_reactivado` | Error si ya esta activo |
-| `DesactivarVarianteCommand` | `productId`, `variantId` y reemplazo predeterminado cuando aplica | `variante_desactivada` | Error si ya esta inactiva |
-| `ReactivarVarianteCommand` | `productId`, `variantId`, cambio opcional de predeterminada | `variante_reactivada` | Error si ya esta activa |
+| `DesactivarVarianteCommand` | `productId`, `variantId` | `variante_desactivada` | Error si ya esta inactiva |
+| `ReactivarVarianteCommand` | `productId`, `variantId` | `variante_reactivada` | Error si ya esta activa |
 
 `EditarArticuloCommand` es una unidad de guardado atomica para el formulario.
 Puede:
@@ -1710,7 +1737,6 @@ Puede:
 - Agregar variantes al final.
 - Editar nombre, precio de venta, costo estandar, SKU, codigo o configuracion de
   inventario de variantes existentes, activas o inactivas.
-- Cambiar la variante predeterminada.
 - Insertar, reemplazar o retirar los componentes como parte del cambio de
   `inventory_configuration`.
 
@@ -1745,8 +1771,8 @@ Todos los tipos siguientes son nuevos y quedan reservados para Articulos:
 | `variante_movida` | Intercambiar dos variantes adyacentes | Producto y dos variantes |
 | `producto_desactivado` | Retirar el articulo de nuevas operaciones | Producto |
 | `producto_reactivado` | Volver a habilitar el articulo | Producto |
-| `variante_desactivada` | Retirar una presentacion y, si aplica, cambiar predeterminada | Producto y una o dos variantes |
-| `variante_reactivada` | Habilitar una presentacion y, si aplica, cambiar predeterminada | Producto y una o dos variantes |
+| `variante_desactivada` | Retirar una presentacion | Producto y variante afectada |
+| `variante_reactivada` | Habilitar una presentacion | Producto y variante afectada |
 
 No se define `precio_actualizado` separado. El precio pertenece a
 `producto_actualizado`; esto evita que un solo guardado visual produzca una
@@ -1883,7 +1909,6 @@ concurrentes sobre ese campo compiten como conjunto.
       "barcode": null,
       "sale_price_minor": 5000,
       "standard_cost_minor": 3000,
-      "is_default": true,
       "sort_order": 0,
       "inventory_configuration": {
         "enabled": true,
@@ -1902,7 +1927,6 @@ concurrentes sobre ese campo compiten como conjunto.
       "barcode": null,
       "sale_price_minor": 12000,
       "standard_cost_minor": null,
-      "is_default": false,
       "sort_order": 1,
       "inventory_configuration": {
         "enabled": true,
@@ -1938,7 +1962,7 @@ Validaciones especificas:
 
 - El ID del producto es el `aggregate_id`; no se repite en el payload.
 - Producto y todas las variantes inician activos.
-- Debe existir al menos una variante y exactamente una predeterminada.
+- Debe existir al menos una variante.
 - Los IDs de variantes no se repiten.
 - El orden es `0..n-1` sin huecos.
 - Si hay mas de una variante, todas tienen nombre y `name_key` unico.
@@ -2033,7 +2057,6 @@ por una variante:
       }
     }
   ],
-  "default_variant_change": null,
   "dependencies": [
     {
       "ref_type": "inventory_item",
@@ -2077,40 +2100,7 @@ Cada variante nueva en `variants_added` usa el mismo snapshot de variante que
 
 - Inicia activa.
 - Se agrega al final del orden actual.
-- No define `is_default`; inicia `false` salvo que sea el destino de
-  `default_variant_change` en la misma transaccion.
 - Genera el campo global `variant:<variant_id>:created`.
-
-Un cambio de predeterminada usa:
-
-```json
-{
-  "from_variant_id": "var_8oz",
-  "to_variant_id": "var_1l",
-  "from_variant_base": {
-    "base_event_id": "evt_var_8oz",
-    "base_version": 3,
-    "base_server_sequence": 480
-  },
-  "to_variant_base": {
-    "base_event_id": "evt_var_1l",
-    "base_version": 2,
-    "base_server_sequence": 470
-  }
-}
-```
-
-`to_variant_base` se omite si el destino esta en `variants_added`. El campo
-global correspondiente es `product:default_variant_id`.
-
-`from_variant_id` o `to_variant_id` pueden ser `null`, pero no ambos. La base
-asociada se incluye solamente para un ID existente:
-
-- `from = null, to = variant_id` asigna una predeterminada a un producto
-  inactivo que no tenia ninguna.
-- `from = variant_id, to = null` retira la predeterminada solamente mientras
-  el producto permanece inactivo.
-- Un producto activo nunca puede terminar con destino `null`.
 
 Reglas del change-set:
 
@@ -2118,9 +2108,8 @@ Reglas del change-set:
   exactamente con el contenido anidado.
 - Los paths globales usan `product:<field>` o
   `variant:<variant_id>:<field>`.
-- `product_changes`, `variants_added`, `variant_updates` y
-  `default_variant_change` pueden estar vacios individualmente, pero el
-  conjunto debe contener al menos un cambio.
+- `product_changes`, `variants_added` y `variant_updates` pueden estar vacios
+  individualmente, pero el conjunto debe contener al menos un cambio.
 - Una variante no puede aparecer a la vez como nueva y actualizada.
 - Los valores `from` deben coincidir con la base capturada.
 - `inventory_configuration` es un solo campo lógico: vínculo directo y
@@ -2201,7 +2190,7 @@ version. Un movimiento fuera de limites no crea evento.
 
 La reactivacion invierte `from` y `to`. Desactivar el producto no cambia el
 estado, orden ni configuracion de sus variantes. Reactivar exige que ya exista
-al menos una variante activa y exactamente una predeterminada activa.
+al menos una variante activa.
 
 ### `variante_desactivada` y `variante_reactivada`
 
@@ -2218,20 +2207,13 @@ al menos una variante activa y exactamente una predeterminada activa.
       "from": true,
       "to": false
     }
-  },
-  "default_variant_change": null
+  }
 }
 ```
 
-Si se desactiva la predeterminada de un producto activo, el mismo evento
-incluye el cambio hacia otra variante activa. No se permite desactivar la
-ultima variante activa de un producto activo. Si el producto esta inactivo,
-el evento puede elegir otra predeterminada o cambiarla a `null`; tambien puede
-quedar sin variantes activas.
-
-Al reactivar una variante, `default_variant_change` es opcional. Puede usarse
-para convertirla en predeterminada en la misma transaccion. La reactivacion no
-renombra automaticamente variantes ni libera identificadores.
+No se permite desactivar la ultima variante activa de un producto activo.
+Un producto inactivo puede quedar sin variantes activas. La reactivacion de
+una variante no renombra automaticamente variantes ni libera identificadores.
 
 ## Dependencias y eventos base
 
@@ -2363,7 +2345,7 @@ Aplicacion por evento:
 | `producto_actualizado` | Valida bases y `from`, aplica solo el change-set, incrementa versiones afectadas |
 | `variante_movida` | Valida ambos ordenes y ejecuta un intercambio absoluto, no un incremento relativo |
 | Ciclo de producto | Valida `from`, cambia `active` y version del producto |
-| Ciclo de variante | Valida variante, reemplazo predeterminado e invariantes; actualiza todas las filas atomicas |
+| Ciclo de variante | Valida variante e invariantes; actualiza todas las filas atomicas |
 
 Una violacion de contrato recibida por pull aborta la pagina completa y no
 avanza el checkpoint. Una inconsistencia local al crear el comando no deja
@@ -2492,7 +2474,6 @@ product:name
 product:category_id
 product:sale_configuration
 product:active
-product:default_variant_id
 variant:<id>:name
 variant:<id>:sku
 variant:<id>:barcode
@@ -2543,7 +2524,7 @@ Tipos recomendados:
 | `concurrent_inventory_configuration` | Cambio concurrente de consumo directo o receta |
 | `stale_variant_move_base` | Bases o posiciones del movimiento no son validas |
 | `concurrent_variant_move` | El orden oficial de alguna variante cambio |
-| `stale_lifecycle_base` | Estado activo/predeterminado cambio desde la base |
+| `stale_lifecycle_base` | Estado activo cambio desde la base |
 | `dependency_state_changed` | Categoria, unidad o recurso dejo de ser valido |
 | `product_invariant_conflict` | El merge propuesto rompe una invariante del agregado |
 | `dependency_failed` | Un evento local requerido fue rechazado o entro en conflicto |
@@ -2579,9 +2560,8 @@ Reglas de restauracion por tipo:
 | Campo actualizado | Restaurar `from` solo si el valor actual sigue en `to` y no existe un evento oficial posterior para ese path |
 | Variante agregada | Borrar variante y componentes solo si fueron creados por ese evento |
 | Configuracion de receta cambiada | Reponer snapshot `from` solo si `product_variants.last_event_id` sigue apuntando al evento retirado |
-| Cambio de predeterminada | Reponer ambos flags solo si no hay una decision oficial posterior |
 | Movimiento | Reponer las dos posiciones solo si forman todavia el `to` del evento |
-| Ciclo de vida | Reponer `active` y predeterminada solo si la metadata sigue en la cadena retirada |
+| Ciclo de vida | Reponer `active` solo si la metadata sigue en la cadena retirada |
 
 Si una guarda falla porque la proyeccion ya no coincide con la cadena, el
 cliente no intenta una restauracion parcial. Marca el agregado para
@@ -2658,7 +2638,6 @@ duplicate_direct_inventory_item
 invalid_inventory_configuration
 missing_inventory_item
 inactive_inventory_item
-invalid_default_variant
 last_active_variant
 invalid_variant_order
 permission_denied_local
@@ -2745,7 +2724,7 @@ La granularidad confirmada es `catalog.articles.read` y
 - Cambios concurrentes en paths distintos se fusionan.
 - Cambios concurrentes en el mismo path entran en conflicto.
 - Dos recetas concurrentes no se mezclan por componente.
-- Movimiento, ciclo y predeterminada se validan bajo bloqueo.
+- Movimiento y ciclo se validan bajo bloqueo.
 - Un evento invalido no modifica ninguna proyeccion.
 - El evento en conflicto conserva referencias y participantes.
 
@@ -2773,11 +2752,13 @@ Flutter:
 
 ```text
 lib/domain/articulos/
-lib/application/commands/producto_command_service.dart
-lib/application/commands/crear_articulo_command.dart
-lib/application/commands/editar_articulo_command.dart
-lib/application/commands/mover_variante_command.dart
-lib/application/commands/*activar_*_command.dart
+lib/application/commands/articulos/producto_command_service.dart
+lib/application/commands/articulos/crear_articulo_command.dart
+lib/application/commands/articulos/crear_articulo_variante_command.dart
+lib/application/commands/articulos/crear_articulo_recipe_component_command.dart
+lib/application/commands/articulos/editar_articulo_command.dart
+lib/application/commands/articulos/mover_variante_command.dart
+lib/application/commands/articulos/*activar_*_command.dart
 lib/application/sync/payloads/producto_*_payload.dart
 lib/application/sync/payloads/variante_*_payload.dart
 lib/application/sync/handlers/producto_event_handler.dart
@@ -2875,16 +2856,16 @@ transversales de los ADR.
 | `ART-AC-002` | Un usuario con lectura y sin gestion puede consultar, pero no ve o no puede usar controles mutables. |
 | `ART-AC-003` | La lista activa se alimenta de SQLite, filtra productos/variantes inactivos y ordena las variantes por su unica secuencia administrativa. |
 | `ART-AC-004` | La busqueda local encuentra por nombre de producto, variante, SKU canonico o codigo exacto y distingue vacio de sin resultados. |
-| `ART-AC-005` | Crear en modo sencillo genera un producto activo en venta `unit`, con una variante activa sin nombre, predeterminada y en orden cero. |
-| `ART-AC-006` | Crear con varias variantes exige nombres distinguibles, precios de venta positivos, costos estandar nulos o no negativos, orden consecutivo y exactamente una predeterminada; todas heredan la configuracion de venta del producto. |
+| `ART-AC-005` | Crear en modo sencillo genera un producto activo en venta `unit`, con una variante activa sin nombre y en orden cero. |
+| `ART-AC-006` | Crear con varias variantes exige nombres distinguibles, precios de venta positivos, costos estandar nulos o no negativos, orden consecutivo; todas heredan la configuracion de venta del producto. |
 | `ART-AC-007` | `category_id = null` representa `Sin categoria` y no crea una fila de categoria. |
 | `ART-AC-008` | Guardar una edicion sin cambios normalizados no genera evento. |
 | `ART-AC-009` | Un guardado con cambios genera un solo `producto_actualizado`; producto, variantes y componentes se aplican o revierten juntos. |
-| `ART-AC-010` | Agregar una variante la coloca al final; convertirla en predeterminada actualiza ambos flags en la misma transaccion. |
+| `ART-AC-010` | Agregar una variante la coloca al final sin asignarle prioridad de negocio. |
 | `ART-AC-011` | Mover intercambia dos posiciones adyacentes; los limites no generan evento. |
 | `ART-AC-012` | La secuencia incluye variantes activas e inactivas y desactivar/reactivar no modifica `sort_order`. |
 | `ART-AC-013` | Desactivar usa ciclo funcional y una variante inactiva conserva SKU/codigo reservados; el hard delete futuro solo puede ocurrir mediante un caso de uso que compruebe ausencia de ventas. |
-| `ART-AC-014` | No puede desactivarse la ultima variante activa de un producto activo ni dejarlo sin predeterminada activa. |
+| `ART-AC-014` | No puede desactivarse la ultima variante activa de un producto activo. |
 | `ART-AC-015` | Producto y variantes inactivos pueden editarse con permiso de administracion sin reactivarse implicitamente. |
 | `ART-AC-016` | Vínculo directo y componentes cumplen exactamente sus combinaciones permitidas por variante; directo y receta son excluyentes y un recurso tiene como máximo una variante directa. |
 | `ART-AC-017` | Articulos no persiste saldo en producto/variante ni crea movimientos al guardar configuracion; Ventas conserva `sale_items` aun cuando inventario este deshabilitado y desactivar Articulos no modifica el recurso. |
@@ -2935,12 +2916,12 @@ transversales de los ADR.
 |---|---|---|---|---|
 | `ART-T-001` | Dominio | Normalizar nombre, SKU y codigo en Dart y TypeScript con los mismos vectores | Valores canonicos y longitudes identicos | 006, 019, 021 |
 | `ART-T-002` | Command/SQLite | Crear articulo sencillo en standalone | Evento `not_required`, sin refs persistidas, una variante valida | 005, 022-024 |
-| `ART-T-003` | Command/SQLite | Crear varias variantes con categoria nula y recetas validas | Un evento atomico, orden y predeterminada correctos | 006, 007, 016 |
+| `ART-T-003` | Command/SQLite | Crear varias variantes con categoria nula y recetas validas | Un evento atomico, orden correcto | 006, 007, 016 |
 | `ART-T-004` | Validacion | Precio cero, costo negativo, nombre vacio, variante duplicada, receta vacia y recurso repetido | Error local sin evento ni proyeccion parcial | 006, 016, 022, 046 |
 | `ART-T-005` | Command | Guardar formulario sin diferencias | No cambia base ni crea evento | 008 |
 | `ART-T-006` | Transaccion SQLite | Forzar fallo al escribir un componente | Se revierten evento, refs y todas las proyecciones | 009, 022 |
 | `ART-T-007` | Handler | Aplicar dos veces cada uno de los siete tipos de evento | Segunda aplicacion solo reconoce metadata | 026 |
-| `ART-T-008` | Ciclo | Desactivar predeterminada sin reemplazo en producto activo | Comando rechazado localmente | 013, 014 |
+| `ART-T-008` | Ciclo | Desactivar la ultima variante activa de un producto activo | Comando rechazado localmente | 013, 014 |
 | `ART-T-009` | Ciclo | Editar una variante inactiva y reactivarla despues | Edicion conserva estado; reactivacion conserva orden y claves | 012, 013, 015 |
 | `ART-T-010` | Orden | Mover arriba/abajo y probar ambos limites con una inactiva intermedia | Intercambio adyacente global; limites sin evento | 011, 012 |
 | `ART-T-011` | Unicidad/DB | Crear dos variantes con el mismo SKU o codigo canonico | El duplicado se rechaza sin escritura parcial | 020, 021, 037 |
@@ -2961,7 +2942,7 @@ transversales de los ADR.
 | `ART-T-026` | Arquitectura | Buscar escrituras Drift desde widgets de Articulos | No existen; todas pasan por command services | 022 |
 | `ART-T-027` | Modo | Iniciar app standalone con instrumentacion de red | Cero llamadas o conexiones de sync | 023, 024 |
 | `ART-T-028` | Importacion futura | Importar historial standalone de prueba | Refs reconstruidas explicitamente, estados originales preservados | 035 |
-| `ART-T-029` | DAO/Drift | Observar dos productos con categoria, variante predeterminada y orden diferente | Una lista agrupada, activa y estable sin N+1 | LST-001-003, LST-013 |
+| `ART-T-029` | DAO/Drift | Observar dos productos con categoria, variantes activas y orden diferente | Una lista agrupada, activa y estable sin N+1 | LST-001-003, LST-013 |
 | `ART-T-030` | Widget | Renderizar un articulo sencillo sin categoria | Muestra icono neutral, nombre y precio; no muestra chip de variante | LST-003, LST-004 |
 | `ART-T-031` | Widget | Buscar por nombre, limpiar texto y conservar categorias aplicadas | Resultados reactivos y filtros independientes | LST-005, LST-006, LST-008 |
 | `ART-T-032` | Widget | Seleccionar dos categorias y `Sin categoria` en el borrador | No cambia la lista hasta Aplicar; despues usa OR | LST-006, LST-007 |
@@ -3068,3 +3049,12 @@ listo para implementacion y verificacion**.
 La implementacion queda autorizable por una solicitud posterior explicita. La
 existencia de esta especificacion no autoriza por si sola cambios en Flutter o
 NestJS.
+
+## Estado actualizado del seguimiento — corrección de fase 3, 2026-10-04
+
+La auditoría inicial fallida se conserva como historial. El core Flutter ahora
+mantiene memoria por eventos, recupera el mismo recurso con historial, descarta
+solo standalone elegible con rollback/replay comprobados y restaura memoria exacta.
+Server_sync conserva recurso/balance; transporte HTTP/PG/SQLite y pull a cliente
+vacío están verificados en su alcance. UI de fase 4 y cierre de fase 5 pendientes;
+no se acredita uso físico ni despliegue. Evidencia y comandos: [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-correccion-fase3/Resultados|Corrección y verificación de fase 3, 2026-10-04]].

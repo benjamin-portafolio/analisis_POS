@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "import subprocess; commands=[[\"flutter\",\"--version\"],[\"dart\",\"--version\"],[\"flutter\",\"devices\"],[\"adb\",\"devices\",\"-l\"],[\"system_profiler\",\"SPBluetoothDataType\",\"-json\"],[\"xcodebuild\",\"-version\"],[\"sw_vers\"],[\"java\",\"-version\"],[\"git\",\"rev-parse\",\"HEAD\"]]; [(print(\"COMMAND:\",\" \".join(c),flush=True),subprocess.run(c)) for c in commands]"
+  ],
+  "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+  "started": "2026-10-09T09:26:58.761555-06:00",
+  "finished": "2026-10-09T09:27:06.256026-06:00",
+  "duration_seconds": 7.49,
+  "exit_code": 0
+}

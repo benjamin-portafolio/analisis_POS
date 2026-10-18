@@ -1,0 +1,16 @@
+{
+  "lib/presentation/pages/gestion_inventario/inventory_management_screen.dart": "a42fc2c26b3939d674a947ea29fa69ce3fbab61ad56c36bdb709c5bd8448725d",
+  "lib/presentation/pages/gestion_inventario/articulos/article_form_screen.dart": "c2777eac9545b855e14cb94c84b8feb2f6fc6eba0740014be0dd35293e3623a0",
+  "lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_result.dart": "c83132150975c109cff2b2bd347cfa12c9129dcf9a548503fb2fd5a83e0138a1",
+  "lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart": "832ba757c1c35989b1110f4f21d78c961734b8971e08178bbab8be37a60e413d",
+  "docs/architecture/product_suppliers.md": "c331c7bebba0ca2b39802ef3ad7edbe3b49751d29c7fd5362fdba3e2dfb15381",
+  "lib/presentation/pages/gestion_inventario/articulos/models/proveedor_precio_form.dart": "f2547a15e98185d3e9ac345ab8f00681a337bd3ca83363731093026ac1328dc5",
+  "lib/presentation/pages/gestion_inventario/articulos/models/proveedor_precio_input.dart": "cf211f05dbb89f7fe07e68a6640d64dd7d379fdb2e36c5d55245f6f9e15739e8",
+  "lib/presentation/pages/gestion_inventario/articulos/models/proveedor_precios_form_result.dart": "47355b711cedb46c3146f0668a69e4a05f54f6c1bc3efb18502a7cce05a67bd0",
+  "lib/presentation/pages/gestion_inventario/articulos/widgets/variant_suppliers_editor_screen.dart": "a8b06a7f2359a9bd1f744aeecb0163816ed838834036d5370ac6a90ee9b58127",
+  "lib/presentation/pages/gestion_inventario/articulos/widgets/proveedor_precio_card.dart": "1851f4ab79f4b4f483ce50bba170b3345f437929c842248f16e4bfa4310f9cf3",
+  "lib/presentation/pages/gestion_inventario/articulos/widgets/variant_suppliers_summary.dart": "b649b4bedac6cc4ec429778ea4f3a28fd4729981a44545e97c356dd83ac40cbf",
+  "test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart": "a0754d87ee34bbf155f132d4faed19bad652c0add19b440c8f960b40d3d1b53a",
+  "test/presentation/pages/gestion_inventario/articulos/proveedor_precio_form_test.dart": "7f74b8f7b5ee1a2500d217a23808aaab1bf84b32c38f7d79a55d1912a0fac9c7",
+  "test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart": "30f522170452eb72363d4764e2b7c495050534453e6b440f1393bdbac4da822b"
+}

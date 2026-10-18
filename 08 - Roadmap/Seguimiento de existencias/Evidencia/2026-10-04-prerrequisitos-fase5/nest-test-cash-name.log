@@ -1,0 +1,137 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand --json --outputFile=/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/nest-test-cash-name.json
+
+(node:28123) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+FAIL src/sync/account-balance-baselines.postgres.spec.ts
+  ● Saldo en cuenta bancaria PostgreSQL temporal › acepta la declaración y la fila queda sincronizada
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:88:20)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › admite un saldo sobregirado y no lo recorta
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:115:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › la segunda declaración se conserva como conflicto y no borra la primera
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:124:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › misma identidad con otro event_id también se conserva sin pisar la fila
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:147:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › el reintento del mismo event_id se reconoce como duplicado
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:162:13)
+
+
+Summary of all failing tests
+FAIL sync/account-balance-baselines.postgres.spec.ts
+  ● Saldo en cuenta bancaria PostgreSQL temporal › acepta la declaración y la fila queda sincronizada
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:88:20)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › admite un saldo sobregirado y no lo recorta
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:115:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › la segunda declaración se conserva como conflicto y no borra la primera
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:124:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › misma identidad con otro event_id también se conserva sin pisar la fila
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:147:13)
+
+  ● Saldo en cuenta bancaria PostgreSQL temporal › el reintento del mismo event_id se reconoce como duplicado
+
+    You must provide selection conditions in order to find a single row.
+
+      at EntityManager.findOne (entity-manager/EntityManager.ts:1336:19)
+      at AccountBalanceBaselineEventHandler.apply (sync/account-balance-baseline-event.handler.ts:84:36)
+      at EntityManager.transaction (entity-manager/EntityManager.ts:160:28)
+      at SyncService.processEvent (sync/sync.service.ts:451:14)
+      at SyncService.pushEvents (sync/sync.service.ts:151:22)
+      at push (sync/account-balance-baselines.postgres.spec.ts:84:6)
+      at Object.<anonymous> (sync/account-balance-baselines.postgres.spec.ts:162:13)
+
+
+Test Suites: 1 failed, 44 passed, 45 total
+Tests:       5 failed, 381 passed, 386 total
+Snapshots:   0 total
+Time:        4.993 s, estimated 5 s
+Ran all test suites.
+Test results written to: ../../../../../../../../../var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/nest-test-cash-name.json

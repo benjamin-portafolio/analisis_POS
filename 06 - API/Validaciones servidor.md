@@ -1,7 +1,7 @@
 ---
 tipo: api
 estado: borrador
-actualizado: 2026-08-26
+actualizado: 2026-10-04
 ---
 
 # Validaciones servidor
@@ -52,6 +52,19 @@ Estas validaciones aplican al modo `server_sync`. En modo `standalone`, las regl
 
 ## Validaciones por inventario
 
+> Receptor de seguimiento implementado, revalidado el 2026-10-04 en PG aislado:
+> 44 pruebas de migraciones/memoria/venta tardía/producto aprobadas. La verificación
+> integrada está bloqueada por core Flutter/interfaz; no se probó una instancia HTTP.
+> Evidencia: [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-prerrequisitos-fase5/Resultados|Auditoría de entrada a fase 5, 2026-10-04]]. Decisión vigente:
+> [[02 - Decisiones/ADR-0017 Reutilizacion y descarte seguro de recursos de inventario|ADR-0017]]
+> y [[08 - Roadmap/Seguimiento de existencias/Contrato funcional y de eventos|contrato de seguimiento]].
+> Al desvincular se preservan recurso/balance y se deriva memoria durable para
+> recuperación. No hay descarte físico automático server_sync, aunque no haya
+> movimientos oficiales; una venta histórica puede llegar de otra terminal.
+> El servidor conserva procedencia opcional al canonicalizar y rechaza
+> `recurso_inventario_descartado` sin alterar proyecciones. Validar nuevamente
+> existencia, actividad, unidad y unicidad al recuperar un recurso.
+
 - El servidor administra `inventory_items`, saldos y movimientos como un
   agregado independiente.
 - `producto_creado` admite `product_variants.inventory_item_id` nullable. Cada
@@ -67,9 +80,33 @@ Estas validaciones aplican al modo `server_sync`. En modo `standalone`, las regl
   `measured` exige que recurso y unidad de venta compartan dimensión.
 - Activar seguimiento en el alta crea primero `inventory_item` y
   `inventory_balance`; una existencia inicial positiva agrega un movimiento
-  `manual_adjustment`. Recurso, saldo, movimiento y vínculo se aplican
-  atómicamente en el dispositivo; el servidor procesa los eventos en orden
-  causal.
+  `initial_balance` con motivo opcional. Recurso, saldo, movimiento y vínculo se
+  aplican atómicamente en el dispositivo; el servidor procesa los eventos en
+  orden causal.
+- `recurso_inventario_actualizado` solo admite `name`, exige `base_event_id`,
+  `base_version` y una base oficial coherente. Nunca admite
+  `default_unit_id`; la unidad es inmutable desde dispositivo y servidor.
+- `movimiento_inventario_registrado` exige `movement_id` idempotente,
+  `base_event_id`, `base_version`, delta entero seguro distinto de cero y una
+  combinación válida de tipo, signo, motivo y reversión. El servidor bloquea
+  recurso y balance, inserta el movimiento y actualiza ambos dentro de la
+  misma transacción.
+- `initial_balance` y `stock_receipt` exigen delta positivo y permiten
+  `reason = null`. `manual_adjustment` admite ambos signos y exige un motivo
+  normalizado con NFKC + `trim` de 1 a 500 caracteres. Una cadena vacía se
+  rechaza; no representa ausencia.
+- `reversal` exige `reversal_of_movement_id` de otro movimiento del mismo
+  recurso. Los demás tipos exigen esa referencia nula. Se conservan la FK
+  autorreferenciada `RESTRICT` y la prohibición de autorreferencia.
+- El saldo resultante debe permanecer dentro del rango entero seguro común.
+  Movimiento, `quantity_on_hand_atomic` y `quantity_available_atomic` avanzan
+  atómicamente; recurso y balance incrementan versión y actualizan
+  `last_event_id`/`last_server_sequence`.
+- `movement_id` repetido por otro evento produce conflicto funcional. Un
+  `event_id` repetido devuelve duplicado sin insertar ni sumar otra vez.
+- Los eventos históricos `recurso_inventario_creado` con existencia inicial
+  `manual_adjustment` continúan siendo válidos y conservan su payload; las
+  altas nuevas deben emitir `initial_balance`.
 - La existencia ordinaria se lee de `inventory_balances`. La suma completa de
   `inventory_movements` se reserva para auditoría o reconstrucción.
 - Desactivar un producto o una variante no desactiva ni elimina recursos de
@@ -79,10 +116,14 @@ Estas validaciones aplican al modo `server_sync`. En modo `standalone`, las regl
   `inventory_items`.
 - `inventory_movements.total_cost_minor` es el costo real del movimiento y no
   se infiere ni actualiza automaticamente desde el costo estandar de catalogo.
+  En este alcance debe permanecer `null`.
+- No existen columnas ni payloads de cantidad anterior o posterior. La
+  existencia actual se consulta exclusivamente desde `inventory_balances`.
 - Si la politica bloquea stock negativo, validar existencias oficiales.
-- No se admiten recetas ni componentes dentro de esta característica. El
-  movimiento automático por venta queda pendiente del evento de confirmación
-  del módulo Ventas.
+- El código actual admite recetas y consumo por confirmación de ventas según
+  [[04 - Sincronizacion/Confirmacion de ventas en efectivo|contrato vigente]].
+  La configuración histórica determina el consumo de una venta tardía, no el
+  vínculo actual ni la memoria de recuperación.
 
 ## Validaciones por unidades y cantidades
 
@@ -99,9 +140,9 @@ Estas validaciones aplican al modo `server_sync`. En modo `standalone`, las regl
 - `inventory_items.default_unit_id` debe existir y estar activo al crear el
   recurso. Una captura alternativa solo puede usar otra unidad activa de la
   misma dimension.
-- Cambiar la unidad predeterminada de un recurso solo conserva sus saldos si la
-  nueva unidad pertenece a la misma dimension. Un recurso con referencias o
-  movimientos no puede cambiar de dimension mediante una edicion ordinaria.
+- La unidad predeterminada de un recurso no puede cambiarse mediante edición
+  ordinaria, aunque otra unidad pertenezca a la misma dimensión. El historial
+  y el saldo continúan interpretándose con la unidad estable del recurso.
 - Payloads de venta, entrada, ajuste y movimiento transportan enteros
   atomicos seguros. Se rechazan numeros fraccionarios JSON, notacion cientifica,
   cero, negativos fuera de movimientos con signo y valores fuera de rango.
@@ -129,8 +170,7 @@ Estas validaciones aplican al modo `server_sync`. En modo `standalone`, las regl
 - SKU y codigo de barras no deben duplicarse dentro del catalogo actual.
 - Si `category_id` no es nulo, la categoria relacionada debe existir. En el
   alcance actual no existe estado activo/inactivo para categorias.
-- Un producto activo debe conservar al menos una variante activa y exactamente
-  una variante activa predeterminada.
+- Un producto activo debe conservar al menos una variante activa.
 - El precio de venta de cada variante debe ser mayor que cero.
 - El costo estandar de cada variante admite `null` o un entero mayor o igual
   que cero. `null` significa desconocido y cero, costo conocido igual a cero.
@@ -148,7 +188,7 @@ Estas validaciones aplican al modo `server_sync`. En modo `standalone`, las regl
 - Ninguna variante puede sobrescribir modo, unidad o cantidad de referencia.
 - El precio es el unico dato de negocio incondicional que el usuario captura
   para una variante; el costo estandar es opcional. La configuracion de venta
-  se captura una vez en el producto y orden, predeterminada, estado,
+  se captura una vez en el producto y orden, estado,
   habilitacion, version y trazabilidad siguen siendo valores estructurales
   obligatorios del sistema.
 - `sort_order` debe ser unico y consecutivo dentro de cada producto contando
@@ -214,3 +254,12 @@ Al marcar un evento como `conflict`, el servidor debe:
 
 - [[03 - Dominio/Modulos/Articulos|Modulo Articulos]]
 - [[03 - Dominio/Modulos/Categorias|Modulo Categorias]]
+
+## Estado actualizado del seguimiento — corrección de fase 3, 2026-10-04
+
+La auditoría inicial fallida se conserva como historial. El core Flutter ahora
+mantiene memoria por eventos, recupera el mismo recurso con historial, descarta
+solo standalone elegible con rollback/replay comprobados y restaura memoria exacta.
+Server_sync conserva recurso/balance; transporte HTTP/PG/SQLite y pull a cliente
+vacío están verificados en su alcance. UI de fase 4 y cierre de fase 5 pendientes;
+no se acredita uso físico ni despliegue. Evidencia y comandos: [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-correccion-fase3/Resultados|Corrección y verificación de fase 3, 2026-10-04]].

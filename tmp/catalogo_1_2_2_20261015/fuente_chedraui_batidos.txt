@@ -1,0 +1,957 @@
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Productos participantes Campaña Febrero 2023: 20% de bonificación en Yoghurts batidos (excepto infantiles) 
+ 
+
+
+ 
+#tyc_vtex {
+ background: #fff;
+ padding: 25px 15px;
+ margin-bottom: 20px;
+ border-radius: 8px;
+ box-shadow: 0 2px 5px rgb(84 110 122 / 15%);
+ border: 1px solid #f3f5f7;
+}
+.breadcrumb_tyc .vtex-store-components-3-x-container {
+ padding: 15px 0 0 0; 
+}
+.breadcrumb_tyc a {
+ font-weight: 400 !important;
+}
+#tyc_vtex h2 {
+ font: normal normal bold 22px/26px sans-serif;
+ color: #464646;
+ margin: 0;
+ font-weight: 700;
+ padding: 0 0 20px 0;
+}
+#tyc_vtex p {
+ font: normal normal normal 16px/24px Montserrat,sans-serif;
+ color: #3e3e3e;
+ /* font-weight: 300; */
+ margin: 0;
+}
+#tyc_vtex th {
+ font: normal normal normal 16px/20px Montserrat,sans-serif;
+ background-color: #0053a1;
+ color: #ffffff;
+}
+#tyc_vtex td {
+ font: normal normal normal 14px/20px Montserrat,sans-serif;
+ color: #3e3e3e;
+}
+#tyc_vtex .tg {
+ max-width: 100%;
+ min-width: 80%;
+}
+@media (max-width:767px) {
+ #tyc_vtex h2 {
+ font: normal normal bold 18px/22px sans-serif;
+ }
+ #tyc_vtex p {
+ font: normal normal normal 14px/20px Montserrat,sans-serif;
+ }
+ #tyc_vtex th {
+ font: normal normal normal 14px/18px Montserrat,sans-serif;
+ }
+ #tyc_vtex td {
+ font: normal normal normal 12px/16px Montserrat,sans-serif;
+ }
+}
+ 
+
+ 
+ .tg {border-collapse:collapse;border-spacing:0;max-width:70%;margin:auto;}
+ .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+ .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+ .tg .tg-baqh{text-align:center;vertical-align:top}
+ 
+
+ 
+
+
+
+
+ 
+ Productos participantes Campaña Febrero 2023: 20% de bonificación en Yoghurts batidos (excepto infantiles) 
+ 
+ 
+ 
+ 
+ SKU UPC / PLU Descripcion 
+ 3011541 7502005244425 Yoghurt Aldia Entero Fresa 150 g 
+ 3011729 7501020532425 Yoghurt Lala Con Cereales 125 gr 
+ 3012086 7501041201775 Yoghurt Batido Chen Entero Fresa 1 kg 
+ 3012541 7501032338121 Yog Danone Bat MorasNzCrls 125 
+ 3012545 7501032332358 Yoghurt Danone Batido Natural 120 gr 
+ 3012549 7501032332365 Yoghurt Danone Batido Fresa 120 Gr 
+ 3012553 7501032332389 Yoghurt Danone Batido Manzana 120 gr 
+ 3012557 7501032332372 Yoghurt Danone Batido Durazno 120 Gr 
+ 3012900 7501639305038 Yoghurt Tierra Mia Batido Fresa 900 Gr 
+ 3013312 7501055901272 Yoghurt Alpura Batido Varios 900 Gr 
+ 3013316 7501055903498 Yoghurt Alpura Batido Nat Cremoso 150gr 
+ 3014565 7501059233874 Yoghurt Svelty Bat Funcional Cer 125gr 
+ 3014569 7501059229099 AlimLF Chamyto 4P Fresa 480 g 
+ 3014689 7503008272316 Alimento Lacteo Fermentado Shuiz Fsa 4kg 
+ 3015090 7501314940288 Yoghurt Carranco Frutas Tropicales 1 kg 
+ 3015435 7503000703030 Yoghurt VillaAlpina Ligh Frut 250ml 
+ 3015504 7501040090165 Yoghurt Yoplait Bat Frutas Cereales 1 Kg 
+ 3015507 7501040090882 Yog Bat Yplait Acido Folico Na 
+ 3015512 7501040091889 YogBat 8P Yoplait Ent Frut 125 
+ 3015517 7501040090981 YogBat Yplait Prodigst Fre 0.4 
+ 3015521 7501040090974 Yoghurt Yoplait Bat Prodigst Ciruela 
+ 3015525 7501040090899 Yog Bat Ypt Dslact Nat 125 G 
+ 3016328 7501025511104 Alim Lacteo Ferm Soful Natural 107Gr 
+ 3016352 7501020532364 YogBat LalaViv Lig Fresa 980 m 
+ 3098709 Yogurt Bat Alpura 150 gr 
+ 3098710 Yogurt Bat Carrn 1 kg 
+ 3098711 Yogurt Hacienda kg 
+ 3098712 YogBat AlDia 1 kg 
+ 3098713 YogBat AlDia 1 kg 
+ 3098714 Yogurt Bat Alpura 1kg 
+ 3098715 Yogurt Bat Alpura 150 gr 
+ 3098716 Yogurt Batido Cham 120 gr 
+ 3098717 Yogurt Bat Danone 1kg 
+ 3098718 Yogurt Bat Danone 125 gr 
+ 3098719 Yogurt Batido Delight 950 gr 
+ 3098720 Yogurt Batido Lala 1 kg 
+ 3098721 Yogurt Batido Lala 125 gr 
+ 3098722 Yogurt Batido Normex 1 kg 
+ 3098723 Yogurt Batido Valp 980 gr 
+ 3098724 Yogurt Bat Yoplait1kg 
+ 3098726 Yogurt 19 Hermanos 
+ 3098727 Yogurt Batido Vitalinea 1 kg 
+ 3098728 Yogurt Batido Vitalinea 125 gr 
+ 3098730 Yogurt Batido Activia 1 kg 
+ 3098731 Yogurt Bat Activia 125 gr 
+ 3098732 Yogurt Batido Svelty 120 gr 
+ 3098735 Yog Bat Alpura Desl 150 gr 
+ 3098736 Yogurt Lala 1 kg 
+ 3098737 Yogurt Batido Danone 140 gr 
+ 3098738 Yogurt Batido Delighurt 
+ 3098739 Yogurt Batido Lala Light 1 kg 
+ 3098740 Yogurt Batido Yoplait 125 gr 
+ 3098742 Alim Liq Ferm Cremeri 1 kg 
+ 3098932 7501040090103 Yoghurt Bat Yoplait1kg Frutas tropicales 
+ 3098933 7501040090110 Yoghurt Yoplait Bat Mango 1 Kg 
+ 3098934 7501040090028 Yoghurt Yoplait Bat Natural 1 Kg 
+ 3098935 7501040090127 Yoghurt Yoplait Bat Manzana 1 Kg 
+ 3098936 7501040090080 Yoghurt Yoplait Bat Fresa 1 Kg 
+ 3098937 7501040090097 Yoghurt Yoplait Bat Durazno 1 Kg 
+ 3098938 7501040090158 Yoghurt Yoplait Bat Frutas Rojas 1 Kg 
+ 3098939 7501040090363 Yoghurt Yoplait Bat Cereales Mora 1 Kg 
+ 3098940 7501055901104 YogBatFresa150gAlpura 
+ 3098941 7501055901111 YogBatDurazno150gAlpura 
+ 3098942 7501055901180 YogBatNatural150gAlpura 
+ 3098943 7501055901159 YogBatZarzamora150gAlpura 
+ 3098944 7501055900213 Yoghurt Alpura Bat Manzana 1Kg 
+ 3098945 7501055900220 Yoghurt Alpura Bat Durazno 1Kg 
+ 3098946 7501055900206 Yoghurt Alpura Bat Fresa 1Kg 
+ 3098947 7501055902255 Yoghurt Alpura Bat Mango 1Kg 
+ 3098948 7501055903504 YogBatNaturalCremoso900gAlpura 
+ 3098985 7503000703061 Yoghurt Batido Valp 980 gr, Natural 
+ 3098986 7503000703177 Yoghurt Batido Valp 980 gr, Fresa 
+ 3098987 7503000703023 Yoghurt Batido Valp 980 gr, Frutas 
+ 3098988 7503000703184 Yoghurt Batido Valp 980 gr, Durazno 
+ 3098989 7503000703191 Yoghurt Batido Valp 980 gr, Nuez 
+ 3098992 7501020526981 Yoghurt Batido Lala Zero  Fresa 1kg 
+ 3098993 7501020512458 Yoghurt Batido Lala Zero Natural 1 kg 
+ 3099076 7501314940189 Yoghurt Bat Carrn 1 kg, Natural 
+ 3099077 7501314940066 Yoghurt Bat Carrn 1 kg, Durazno 
+ 3099078 7501314940028 Yoghurt Bat Carrn 1 kg, Fresa 
+ 3099079 7503000437805 Yoghurt 19 Hermanos, Fresa 
+ 3099080 7503000437799 Yoghurt 19 Hermanos, Nuez 
+ 3099081 7503000437812 Yoghurt 19 Hermanos, Durazno 
+ 3099082 7501055901128 YogBatManzana150gAlpura 
+ 3099083 7501055901135 YogBatMango150gAlpura 
+ 3099084 7501055901418 YogBatPiñaCoco150gAlpura 
+ 3099108 7501032344542 Yoghurt Bat Activia 125 gr, Ciruela pasa 
+ 3099109 7501032344535 Yoghurt Bat Activia 125 gr, Fresa 
+ 3099110 7501032344559 Yoghurt Bat Activia 125 gr, Natural 
+ 3099111 7501032334062 Yoghurt Bat Activia 125 gr, Apio nopal 
+ 3099127 7502005244562 YogBat AlDia 1 kg, Fresa 
+ 3099128 7502005244739 YogBat AlDia 1 kg, Nuez 
+ 3099129 7501055904761 YogBatDeslactosadoFresa150gAlpura 
+ 3099130 7501055904778 YogBatDeslactosadoDurazno150gAlpura 
+ 3099137 7501209701352 Yoghurt Delighurt Batido Durazno 900 g 
+ 3099138 7501209701680 Yoghurt Delighurt Batido Nuez 900 g 
+ 3099139 7501209701437 Yoghurt Delighurt Batido Natural 900 g 
+ 3099175 7501020513639 Yoghurt Lala 1 kg, Cereal 
+ 3099176 7501020514841 Yoghurt Lala 1 kg, Manzana 
+ 3099189 7501040090783 Yoghurt Yoplait Bat Frutas Cereales 125g 
+ 3099190 7501040090714 Yoghurt Yoplait Bat Cereales Fresa 125g 
+ 3099191 7501040090721 Yoghurt Batido Yoplait 125 gr, Durazno 
+ 3099192 7501040090738 Yog Batido Ytp Cereales Moras Nuez 125g 
+ 3099197 7501032344054 Yoghurt Batido Vitalinea 125 gr, Fresa 
+ 3099198 7501032344061 Yoghurt Batido Vitalinea 125 gr, Natural 
+ 3099214 7501020514254 Yoghurt Batido Lala 125 gr, Fresa 
+ 3099215 7501020514261 Yoghurt Batido Lala 125 gr, Durazno 
+ 3099216 7501020514278 Yoghurt Batido Lala 125 gr, Manzana 
+ 3099217 7501020514247 Yoghurt Batido Lala 125 gr, Coco 
+ 3099218 7501020514285 Yoghurt Batido Lala 125 gr, Natural 
+ 3099219 7501020533064 Yoghurt Batido Lala 125 gr, Mango 
+ 3099238 7501059224605 Yoghurt Batido Cham 120 gr, Cereal fresa 
+ 3099239 7501059229075 Yoghurt Batido Cham 120 gr, Trix 
+ 3099250 7501041206572 Yoghurt Batido Normex 1 kg Frutas cereal 
+ 3099251 7501041106230 Yoghurt Batido Normex 1 kg, Fresa 
+ 3099399 7503008272385 Alim Liq Ferm Cremeri 1 kg, Fresa 
+ 3099400 7503008272392 Alim Liq Ferm Cremeri 1 kg, Manzana 
+ 3099401 7503008272484 Alim Liq Ferm Cremeri 1 kg, Piña coco 
+ 3099430 7501032344962 Yoghurt Batido Vitalinea 1 kg, Fresa 
+ 3099431 7501032344979 Yoghurt Batido Vitalinea 1 kg, Natural 
+ 3099434 7501032344955 Yoghurt Batido Activia 1 kg Ciruela pasa 
+ 3099435 7501032344993 Yoghurt Batido Activia 1 kg, Fresa 
+ 3099436 7501032344986 Yoghurt Batido Activia 1 kg, Natural 
+ 3099498 7501032332013 Yoghurt Danone Fresa Choco 142g 
+ 3099499 7501032332020 Yoghurt Danone Fresa Zucaradas 143g 
+ 3099500 7501032332099 Yoghurt Bat Danone 1kg, Fresa 
+ 3099501 7501032332105 Yoghurt Bat Danone 1kg, Natural 
+ 3099502 7501032332112 Yoghurt Bat Danone 1kg, Durazno 
+ 3099503 7501032331993 Yoghurt Bat Danone 1kg Pera piña manzana 
+ 3099504 7501032331986 Yoghurt Bat Danone 1kg, Moras nuez 
+ 3099505 7501032332068 Yoghurt Bat Danone 125 gr, Natural 
+ 3099506 7501032332044 Yoghurt Bat Danone 125 gr, Durazno 
+ 3099507 7501032332051 Yoghurt Bat Danone 125 gr, Manzana 
+ 3099561 7502005244715 YogBat AlDia 1 kg, Fresa 
+ 3099562 7502005244760 YogBat AlDia 1 kg, Ciruela pasa 
+ 3099577 7501209705695 Yoghurt Delighurt Batido Fresa 220 g 
+ 3099578 7501209701284 Yoghurt Batido Delighurt, Durazno 
+ 3099579 7501209701291 Yoghurt Batido Delighurt, Piña coco 
+ 3099580 7501209705725 Yoghurt Delighurt Batido Nuez 220 g 
+ 3099596 7501059236691 Yoghurt Batido Svelty 120 gr, Natural 
+ 3099597 7501059236684 Yoghurt Batido Svelty 120 gr, Fresa 
+ 3099670 7501343517079 Yoghurt Hacienda kg, Durazno 
+ 3099671 7501343517109 Yoghurt Hacienda kg, Piña 
+ 3099672 7501343517116 Yoghurt Hacienda kg, Natural 
+ 3099673 7501343517062 Yoghurt Hacienda kg, Fresa 
+ 3099676 7501020510478 Yoghurt Batido Lala 1 kg, Fresa 
+ 3099677 7501020510591 Yoghurt Batido Lala 1 kg, Durazno 
+ 3099678 7501020510607 Yoghurt Batido Lala 1 kg, Manzana 
+ 3099679 7501020510928 Yoghurt Batido Lala 1 kg, Coco 
+ 3099680 7501020510614 Yoghurt Batido Lala 1 kg, Natural 
+ 3099681 7501020510881 Yoghurt Batido Lala 1 kg, Mango 
+ 3100835 Yogurt Batido Yoplait 1 kg 
+ 3100836 Yogurt Bat Yoplait Light 1 kg 
+ 3100841 Yogurt Bat Yoplait Ent 125 gr 
+ 3100842 Yogurt Batido Yoplait 125gr 
+ 3100851 7501040090349 Yoghurt Yoplait Bat Cereales Fresa 1 Kg 
+ 3100852 7501040090356 Yoghurt Yoplait Bat Cereales Durazno 1Kg 
+ 3100853 7501040098062 Yoghurt Yoplait Bat Natural Granola 1 Kg 
+ 3100854 7501040090295 Yoghurt Yoplait Bat Doble Cero Fresa 1Kg 
+ 3100855 7501040090387 Yoghurt Yoplait Bat Doble Cero Duraz 1Kg 
+ 3100856 7501040090394 Yoghurt Yoplait Bat Doble Cero Nat 1Kg 
+ 3100868 7501040090745 Yoghurt Yoplait Bat Fresa 125 gr 
+ 3100869 7501040090752 Yoghurt Yoplait Bat Mango 125 gr 
+ 3100870 7501040090769 Yoghurt Yoplait Bat Manzana 125 gr 
+ 3100871 7501040090776 Yoghurt Yoplait Bat Durazno 125 gr 
+ 3100872 7501040090707 Yoghurt Yoplait Bat Natural 125 gr 
+ 3100873 7501040090806 Yoghurt Yoplait Bat Doble Cero Fsa 125g 
+ 3100874 7501040090790 Yoghurt Yoplait Bat Doble Cero Nat 125g 
+ 3108451 7501032338114 Yog Danone Bat PerPinCrls 125 
+ 3110186 7501055900237 Yoghurt Alpura Bat Natural 900Gr 
+ 3115232 7501020513653 Yoghurt Lala Bat cCereal Fresa 1kg 
+ 3115649 7501040090912 Yog Bat Yplait Calcio Nat 125 
+ 3115657 7501040090851 Yoghurt Yoplait Bat Natural Granola 125g 
+ 3115808 7501020513561 Yogbeb Vive Fun Ciruep 1.5 kg 
+ 3128224 466750007612 Yoghurt Breyers Crunch Vainilla 
+ 3128225 466750007926 Yoghurt Breyers Crunch Vainilla 
+ 3128226 466750008084 Yoghurt Breyes Cookies Vainilla 
+ 3128699 3070470006502 Yoghurt Light Fresa Yoplait 177 
+ 3129427 5075270001915 Yoghurt Mounta Low Fat Natural 
+ 3131110 7070399229651 Yoghurt Alta Low Fat Rasperry 
+ 3131111 7070399229958 Yoghurt Fresa Low Fat Alta Den 
+ 3131113 7070399230909 Yoghurt Vainilla Low Fat Alta 
+ 3131114 7070399231005 Yoghurt Fresa Low Fat Alta Den 
+ 3131115 7070399251157 Yoghurt Natural Non Fat Alta D 
+ 3131121 7070470003002 Yoghurt Yoplait Strawberry 6 pz 
+ 3131122 7070470003033 Yoghurt Yoplait Original Cereza 
+ 3131123 7070470003088 Yoghurt Yoplait Original Piña 
+ 3131124 7070470006430 Yoghurt Very Light Vainilla 
+ 3131125 7070470006515 Yoghurt Yoplait Light Rasperry 
+ 3131126 7070470006522 Yoghurt Yoplait Light BlueBerry 
+ 3131127 7070470006546 Yoghurt Light Fresa Platano Yop 
+ 3131128 7070470006553 Yoghurt Yoplait Light Durazno 1lt 
+ 3131500 7075270001609 Yoghurt Mounta Plain High 946ml 
+ 3131501 7075270001661 Yoghurt Mounta Non Fat Natural 
+ 3131502 7075270001944 Yoghurt Mounta Low Fat Vainilla 
+ 3131503 7075270001951 Yoghurt Fresa Low Fat Mountain 
+ 3132235 7501020510676 Yoghurt Durazno Lala 125G 
+ 3132237 7501020510690 Yoghurt Natural 125Gr Lala 
+ 3132511 7501052570747 Yoghurt Levia Bat Granola Fresa 900gr 
+ 3132512 7501052570754 Yoghurt Lactigu Bat Fresa 900gr 
+ 3132513 7501052570815 Yoghurt Natural Cremoso Levia 
+ 3132514 7501052570846 Yoghurt Lactigu Bat Miel Canela 225gr 
+ 3132644 7501077201015 Yoghurt Fresa Del Valle 1Litro 
+ 3132645 7501077201039 Yoghurt Del Valle Ciruela Pasa 
+ 3132646 7501077201046 Yoghurt Del Valle Fresa 473ml 
+ 3132647 7501077201053 Yoghurt Del Valle Durazno 473ml 
+ 3132648 7501077201060 Yoghurt Nuez Cereales Del Vall 
+ 3132649 7501077201091 Yoghurt Del Valle Piñ Coco 473ml 
+ 3132983 7501209701246 Yoghurt Cremoso Fresa Delighrt 
+ 3132984 7501209701253 Yoghurt Durazno C Granola Sell 
+ 3132985 7501209701260 Yoghurt Cremoso Pina.Coco Deli 
+ 3132986 7501209701710 Yoghurt Nuez C Granola Sello R 
+ 3132987 7501209702175 Yoghurt Ciruela Pasa C Granola Sel 
+ 3132991 7501209709860 Yoghurt Caracol cGranola Light Nat 
+ 3139585 739922949 Yoghurt La St 12 
+ 3144007 7501040090905 Yog Bat Yplait Fibra Nat 125 G 
+ 3144009 7501032332037 YogBat Danone Ent Fresa 125 g 
+ 3144010 7501032332129 Yoghurt Bat Danone Ent Manz 1 Kg 
+ 3144014 7503000703047 Yoghurt bat Valp Lig Frutas 980 Ml 
+ 3144015 7501040090813 Yogbat Yplait Lig Durz 125 G 
+ 3147864 7501020537123 Yog Lala Bat Natural 900 gr s/Azúcar 
+ 3159294 7501059244450 Svelty Yoghurt Batido Fresa 500G 
+ 3159295 7501059244467 Svelty Yoghurt Batido Natural 500G 
+ 3159832 7501020532715 Yoghurt Lala Bat Fresa Cereales 125 Gr 
+ 3160613 7501032332440 Yoghurt Danone Fresa Saborizado 120g 
+ 3160614 7501032332464 Yoghurt Danone Saboriz Durazno 120 
+ 3164158 7501032332495 Yoghurt Danone Saborizad Fresa 1 Kg 
+ 3164169 7501032332501 Yoghurt Danone Saboriz Durazno 1 Kg 
+ 3164734 7501059245020 Yoghurt Bat Svelty Gastro Fresa Cer 126G 
+ 3171448 7501032311186 Lacteo Fermentado Activia Fresa 900G 
+ 3193585 7501020538199 Yoghurt Bio Balance Bat Ent Fsa Ave 1 pz 
+ 3193586 7501020538182 Yoghurt Bio Balance Bat Ent Cir 1Pz 
+ 3200321 7501040092541 Yoghurt Yoplait Bat Disfruta Fresa 145g 
+ 3200323 7501040092527 Yoghurt Yoplait Bat Ent Disfr Mnza 1Pz 
+ 3200324 7501040092534 Yoghurt Yoplait Bat Ent Disfr Dzno 1Pz 
+ 3218234 7501040092589 Yoghurt Yoplait Bat Placer PayFresa 145g 
+ 3218204 7501040092565 Yoghurt Yoplait Bat Placer Coco 145 gr 
+ 3218209 7501040092572 Yoghurt Yoplait Bat Mini CookieCr 145g 
+ 3224148 7501032395070 Yog Beb Danone 6P Ent Durazno 120 Gr 
+ 3238653 7501032395209 Yoghurt Danone Pera Cereales 120 Gr 
+ 3238656 7501032395230 Yoghurt Danone Bat Mzna con Cereal 140gr 
+ 3240777 7501040092787 Yoghurt Yoplait Bat Disfruta Fresa 442g 
+ 3240779 7501040092770 Yoghurt Yoplait Bat Disfruta Durazn 442g 
+ 3241928 7501295640054 Yoghurt Santa Clara Ent B Berry 150 Gr 
+ 3241985 7501295640412 Yoghurt Santa Clara Ent Guayaba 150 Gr 
+ 3241988 7501295640719 Yoghurt Santa Clara Ent Mnza 150 Gr 
+ 3241989 7501295640610 Yoghurt Santa Clara Ent Zarzam 150 Gr 
+ 3242096 7501295640061 Yoghurt Santa Clara Ent B Berry 500 Gr 
+ 3242109 7501295640320 Yoghurt Santa Clara Ent Fsa 500 Gr 
+ 3242122 7501295640429 Yoghurt Santa Clara Ent Guayaba 500 Gr 
+ 3242145 7501295640726 Yoghurt Santa Clara Ent Mnza 1Pz 500 Gr 
+ 3242146 7501295640122 Yoghurt Ent Natural 1Pz 500 Gr 
+ 3241993 7501295640115 Yoghurt Santa Clara Ent Natu 150 Gr 
+ 3242147 7501295640627 Yoghurt Santa Clara Ent Zarzam 1Pz 
+ 3243176 7501059283794 Yog Griego Batido Miel-Cereal 125 Gramos 
+ 3243179 7501059283770 Yog Giego Batido Fresa 125 Gramos 
+ 3243187 7501059283787 Yog Griego Bat Natural 125 Gramos 
+ 3246576 7501032395223 Yoghurt Activia Bat Fono Fsa 150Gr 
+ 3246577 7501032395247 Yoghurt Activia Bat Fondo Dzno 150gr 
+ 3246592 7501032395254 Yoghurt Activia Bat Fondo Papay 150Gr 
+ 3252371 7503002555323 Yoghurt Miahuatl 1 Pza Ent Manzana 1 Lit 
+ 3252373 7503002555330 Yoghurt Miahuatl 1 Pza Ent Natural 1 Lit 
+ 3252374 7503002555347 Yoghurt Miahuatl 1 Pza Ent Fresa 1 Litro 
+ 3252376 7503002555354 Yoghurt Miahuatl 1 Pza Ent Piña Coco 1 L 
+ 3254008 7501020540130 Yoghurt Bio4 Balance Bat Cir 1Pz 
+ 3254022 7501020540147 Yoghurt Bio4 Balance Bat Fsa 1Pz 
+ 3254040 7501032395308 Yoghurt Danone Bat Ent Dzno 1Pz 125 gr 
+ 3254043 7501032395292 Yoghurt Danone Bat Ent Fsa 1Pz 125 Gr 
+ 3254044 7501032395315 Yoghurt Danone Bat Ent Mnza 1Pz 125 Gr 
+ 3254047 7501032395322 Yoghurt Danone Bat Ent Natu 1Pz 125 Gr 
+ 3254049 7501032395339 Yoghurt Danone Bat Ent Pera 1Pz 125 Gr 
+ 3255254 7501025511302 Soful Yakult Fermantado Mgo 1Pz 111 Gr 
+ 3255256 7501025511289 Soful Yakult Fermantado Fsa 1Pz 112 Gr 
+ 3255258 7501025511272 Soful Yakult Fermantado Natu 1Pz 112 Gr 
+ 3255475 7501040092862 Yoghurt Yoplait Bat Griego Natural 145 g 
+ 3255477 7501040092855 Yoghurt Yoplait Bat Griego Fresa 145 gr 
+ 3255478 7501040092848 Yoghurt Yoplait Bat Griego Moras 145 gr 
+ 3255485 7501040092909 Yoghurt Placer Batido Mousse Guayaba 
+ 3255487 7501040092916 Yoghurt Yoplait Bat Placer Nuez 145 gr 
+ 3255488 7501040092923 Yoghurt Placer Batido Cajeta 145 Gr 
+ 3255270 7501025511296 Soful Yakult Fermantado Mnza 1Pz 109 Gr 
+ 3256985 7501209701345 Yoghurt Delighurt Batido Fresa 900 g 
+ 3258919 7502209113084 Yoghurt Flaveur Griego Natu 1Pz 380 gr 
+ 3258932 7502209113138 Yoghurt Flaveur Griego F Bosq 1Pz 380 gr 
+ 3265903 7501343517352 Yoghurt L Hacienda Anti Ent Dzno 1Pz Gr 
+ 3265906 7501343517215 Yoghurt L Hacienda Anti Ent Nuez 1Pz Gr 
+ 3265931 7501343517222 Yoghurt L Hacienda Anti Ent Piñ 1Pz Gr 
+ 3265936 7501343517185 Yoghurt L Hacienda Anti Ent Cereales 
+ 3265857 7501343515594 Yoghurt L Hacienda Anti Ent Fsa 1Pz Gr 
+ 3266689 7501020540970 Yoghurt Bio4 Balance Bat Cir 1Pz 
+ 3266698 7501020540987 Yoghurt Bio4 Balance Bat Fsa Ave 1Pz 
+ 3266701 7501020540963 Yoghurt Bio4 Balance Bat Piñ Ap 1Pz 
+ 3269253 7501052570860 Yoghurt Levia Fun Miel Canela 900gr 
+ 3269254 7501052570785 Yoghurt Levia Bat Durazno 900gr 
+ 3269221 7501052571904 Yoghurt Levia Bat Ciruela Pasa 225 gr 
+ 3269234 7501052570778 Yoghurt Levia Bat Granola Dzno 225 gr 
+ 3269235 7501052570808 Yoghurt Levia Bat Granola Natu 225 gr 
+ 3270535 7501032395582 Yoghurt Oikos Natural 150g 
+ 3270537 7501032395599 Yoghurt Oikos Fresa 150g 
+ 3270538 7501032395605 Yoghurt Oikos Arandano 150g 
+ 3270819 7501059285040 Yog Griego Batido Mora 125 Gramos 
+ 3273649 7501040092954 Yoghurt Yoplait Zarzam 1Pz 145 Gr 
+ 3274899 7501020541304 Yoghurt Lala 1 Pza Tentacion Batido Pay 
+ 3274921 7501020541311 Yoghurt Lala 1 Pza Tentacion Batido Coco 
+ 3281126 7501040093142 Yoghurt Yoplait Bat Griego Natural 442 g 
+ 3281127 7501040093135 Yoghurt Yoplait Bat Griego Moras 442 gr 
+ 3285219 7501639304406 Yog Casa Blanca Ent Piña Coco 1Pza 4 Kg 
+ 3285168 7501639304376 Yog Casa Blanca Ent Fsa 1Pza 4 Lt 
+ 3287691 7501055907014 Yoghurt Alpura Bicapa Mango 1 Pza 150 Gr 
+ 3287695 7501055905935 Yoghurt Alpura Bicapa Dzno 1 Pza 150 Gr 
+ 3287697 7501055905928 Yoghurt Alpura Bicapa Fresa 1 Pza 150 Gr 
+ 3288246 7501032395865 Yog Activia Fondo Zarzamora 1 Pz 150 Gr 
+ 3288248 7501032395841 Yog Activia Fondo Ciruela 1 Pz 150 Gr 
+ 3299622 7501032395902 Yoghurt Oikos Coco 150g 
+ 3302429 7501032395872 Yoghurt Danone Batido Fresa Manzana 6 pk 
+ 3303243 7503007844835 Yoghurt Biolei Batido Natural 1 Pz 1 Kg 
+ 3303246 7503007844309 Yoghurt Biolei Batido Cereales 1 Pz 1 Kg 
+ 3303249 7503007844576 Yoghurt Biolei Batido Ciruela Con Manzan 
+ 3303251 7503007844323 Yoghurt Biolei Batido Nuez 1 Pz 1 Kg 
+ 3303259 7503007844620 Yoghurt De Soya Biolei Bebible Ciruela C 
+ 3303804 7501020542547 Yoghurt Lala Griego Fresa 150 Gr 
+ 3303805 7501020542554 Yoghurt Lala Griego Natural 150 Gr 
+ 3306529 717544203308 Yoghurt Original Batido, Bajo En Grasas 
+ 3306602 717544202974 Yoghurt Sabor Vainilla Bat Bajo en Grasa 
+ 3306603 717544202950 Yoghurt Sabor Mora Batido Bajo en Grasa 
+ 3306604 717544202943 Yoghurt Sabor Fresa Batido Bajo en Grasa 
+ 3308182 7501040093913 Yoghurt Yoplait Batido Griego Ciruela 14 
+ 3310019 53600000420 La Yoghurt sabor latino Strawberry - Kiw 
+ 3310031 53600000307 La Yoghurt sabor latino Banana 
+ 3309468 689544085003 Yoghurt Fage Griego 0% Natural 150 gr 
+ 3309470 689544085409 Yoghurt Fage Griego Miel sin Grasa 150gr 
+ 3309471 689544085638 Yoghurt Fage Griego Arandano 150 Gr 
+ 3309472 689544086505 Yoghurt Fage Griego 0% Natural 454 gr 
+ 3309473 689544085232 Yoghurt Fage Griego Cereza Granada 150gr 
+ 3310800 53600000567 La Yoghurt Strawberry Banana 
+ 3311030 7503016517171 Yog Parflight C/Splen Ftos Del Bosq950Gr 
+ 3311033 7503016517188 Yog Parflight C/Splenda Kiwi Mzna 950 Gr 
+ 3311042 7503016517034 Yoghurt Parfait Nuez 950 Gr 
+ 3311025 7503016517003 Yog Parfait Nat Light S Endulzante 950Gr 
+ 3311027 7503018164410 Yog Parf Light C/Splenda Natural  950 Gr 
+ 3311039 7503016517195 Yog Parf Light C/Splenda Gyaba Fsa 950Gr 
+ 3311040 7503016517010 Yoghurt Parfait Fresa 950 Gr 
+ 3312913 7501032395889 Yoghurt Danone Solido Natural Cereales 1 
+ 3312941 7501032395995 Yoghurt Danone Frances Vainilla . 125 Gr 
+ 3312971 7501032395926 Yoghurt Danone Frances Frutos Rojos 125g 
+ 3316010 7502209113237 Yoghurt Onei Griego Natural 150 Gr 
+ 3316012 7502209113251 Yoghurt Onei Griego Mora Azul 150 Gr 
+ 3316013 7502209113244 Yoghurt Onei Griego Mnz/Canel 150 Gr 
+ 3318925 7501032396060 Yoghurt Danone Danfrut Mango 150 Grs 
+ 3318933 7501032396077 Yoghurt Danone DanFrut PiñaCoco 150 Gr 
+ 3320434 7501032396022 Yoghurt Oikos Batido Natural 440 gr 
+ 3320543 7501020544107 Yoghurt Club Batido Natural 120 Gr 
+ 3320545 7501020544084 Yoghurt Club Batido Durazno 120 Gr 
+ 3320562 7501020544091 Yoghurt Club Batido Manzana 120 Gr 
+ 3320575 7501020544077 Yoghurt Club Batido Fresa 120 Gr 
+ 3320582 7501020544039 Yoghurt Club Batido Fresa 950 Gr 
+ 3320597 7501020544053 Yoghurt Club Batido Manzana 950 Gr 
+ 3320622 7501020544060 Yoghurt Club Batido Natural 950 Gr 
+ 3320642 7501020544046 Yoghurt Club Batido Durazno 950 Gr 
+ 3323058 7501040093227 Yoghurt Yoplait Bat Placer PayLimón 145g 
+ 3323066 7501040093203 Yoghurt Placer Batido Ban Spl / 145 Gr 
+ 3325738 7501158411609 Yoghurt San Marcos Batido Fresa 1 Kg 
+ 3325739 7501158411616 Yoghurt San Marcos Batido Durazno 1 Kg 
+ 3325740 7501158411661 Yoghurt San Marcos Batido Natural 1 Kg 
+ 3327465 7501032396091 Yoghurt Danfrut Solido Fresa 150 Grs 
+ 3329308 7501032396671 Yoghurt Activia Con Cereal Natural 1000 
+ 3330382 7501020544268 Yoghurt Grekos Batido Manzana 150 Gr 
+ 3330383 7501020544275 Yoghurt Grekos Batido Mora 150 Gr 
+ 3330386 7501020544312 Yoghurt Grekos Con Granola Fresa 160 Gr 
+ 3330387 7501020544305 Yoghurt Grekos C/Gran Natural 165 Gr 
+ 3335728 7501032395988 Yoghurt Oikos Frutos Verdes 150g 
+ 3344364 7501040091476 Yoghurt Yoplait Bat Griego Natural 1 Kg 
+ 3344687 7501295640528 Yoghurt Santa Clara Batido Mango 500 Gr 
+ 3344688 7501295640511 Yoghurt Santa Clara Batido Mango 150 Gr 
+ 3344691 7501295640085 Yoghurt Santa Clara Batido Limon 150 Gr 
+ 3344705 7501295640214 Yoghurt Sta Clara Batido Drzn 150 Gr 
+ 3344724 7501295640092 Yoghurt Santa Clara Batido Limon 500 Gr 
+ 3344725 7501295640221 Yoghurt Sta Clara Batido Drzn 500 Gr 
+ 3348384 7501020532630 Yoghurt Batido Lala Zero Fresa 125 g 
+ 3348401 7501020532647 Yoghurt Batido Lala Zero Natural 125 g 
+ 3349564 7501040093364 Yoghurt Yoplait Batido Piña/Coco 145 Gr 
+ 3349567 7501040093371 Yoghurt Yoplait Griego Batido Arandano 
+ 3350533 7501639306325 Yoghurt Bové  Organico Natural 1 Kg 
+ 3351973 Yogurth Ched Fresa Cubeta 4kg CHEQUEO 
+ 3351975 Yogurth Ched PiCola Cubeta 4Kg CHEQUEO 
+ 3351411 7501020545531 Yoghurt NutriYoghurt Batido Mnz . 120 Gr 
+ 3351412 7501020545494 Nutri Yoghurt Batido Durazno 120 gr 
+ 3351416 7501020545517 Nutri Yoghurt Batido Fresa 120 gr 
+ 3351418 7501020545555 Nutri Yoghurt Batido Natural 120 gr 
+ 3351423 7501020545548 Yoghurt NutriYoghurt Batido Mnz . 900 Gr 
+ 3351424 7501020545500 Nutri Yoghurt Batido Durazno 900 gr 
+ 3351426 7501020545524 Nutri Yoghurt Batido Fresa 900 gr 
+ 3351427 7501020545562 Yoghurt NutriYoghurt Batido Natural 900 
+ 3353130 7501040093395 Yoghurt Yoplait Bat Piña Coco 125 gr 
+ 3353131 7501040093425 Yoghurt Yoplait Bat Piña Coco 1 Kg 
+ 3353858 7501295640313 Yoghurt Santa Clara Fresa 150 Gr 
+ 3353859 7501032397005 Yoghurt Danone Saborizado Manzana 1 Kg 
+ 3353870 7501032396824 Yoghurt Danone Oikos Fob Nuez 150 G 
+ 3356100 7501040093944 Yoghurt Yoplait Stevia Fresa 125Gr 
+ 3356103 7501040093975 Yoghurt Yoplait Stevia Natural 125Gr 
+ 3356122 7501040093456 Yoghurt Yoplait Placer Bat Brownie 145Gr 
+ 3356158 7501040093432 Yog Griego Bat Blueberry Gran 145 
+ 3356159 7501040093449 Yoghurt Yoplait Griego Fres/Chía 145Gr 
+ 3357887 7501040092831 Yoghurt Yoplait Disfruta Mango 145 Gr 
+ 3358081 7501032397074 Danone BiPieza Batido Fresa/Granola 148G 
+ 3358084 7501032396985 Yoghurt Activia Fresa/Granola 146G 
+ 3361404 7501020538311 Yoghurt Lala Cereal Choco Fresa / 100 Gr 
+ 3361409 7501020546194 Yoghurt Lala Con Granola Fresa / 100 Gr 
+ 3361418 7501020535266 Yoghurt Lala Con Granola Fresa 190 Grs 
+ 3361400 7501032397135 Danone Saborizado Batido Manzana 120 G 
+ 3361416 7501032397081 Danone BiPieza Batido Natural Honey Gran 
+ 3361417 7501032397111 Activia Natural Granola Chia Y Linaza / 
+ 3367521 7501040093258 Yoghurt Placer Bat Cookies/Cream 442 Gr 
+ 3367522 7501040093265 Yoghurt Placer Batido Pay De Limon 1pz 
+ 3368902 7501058611789 Yoghurt Nestle Batido Manzana / 120 Gr 
+ 3368904 7501058611796 Yoghurt Nestle Batido Durazno / 120 Gr 
+ 3368906 7501058611772 Yoghurt Nestle Batido Fresa / 120 Gr 
+ 3368909 7501058611802 Yoghurt Nestle Batido Natural / 120 Gr 
+ 3368912 7501058611819 Yoghurt Nestle Batido Fresa / 900 Gr 
+ 3368916 7501058611826 Yoghurt Nestle Batido Manzana / 900 Gr 
+ 3368930 7501058611833 Yoghurt Nestle Batido Durazno / 900 Gr 
+ 3368934 7501058611840 Yoghurt Nestle Batido Natural / 900 Gr 
+ 3370199 7501040094071 Yoghurt Yoplait Placer Ensa Navideña 14 
+ 3370201 7501040094088 Yoghurt Yoplait Griego Ponche Navideño / 
+ 3370206 7501040093999 Yoghurt Yop Bat Light Stevia Fresa 750 
+ 3370212 7501040094002 Yoghurt Yoplait Natural Light 750 Gramos 
+ 3373275 7503018164731 Yoghurt Parfait Ciruela Pasa . 990 Gr 
+ 3373754 7501094512507 Yoghurt Gota Blanca Crem Fresa/Gran / 20 
+ 3373757 7501094512514 Yoghurt Gota Blanca Crem Gran/Duraz / 20 
+ 3373758 7501094512538 Yoghurt Gota Blanca Crem Gran/Miel / 200 
+ 3379581 7501020548884 Yog Lala Semillas Bat Fresa/Chia 150 gr 
+ 3379582 7501020548198 Yog Lala Semillas F Bosque Amaranto 150g 
+ 3379585 7501020548211 Yog Lala Semillas F Tropicales Chia 150 
+ 3379587 7501020547818 Yog Lala Semillas Natural Quinoa 150 g 
+ 3381895 7501020547252 Yoghurt Lala Bat Desl Natural 900 gr 
+ 3381907 7501020547108 Yoghurt Lala Bat Deslac Fresa 900 gr 
+ 3383650 7501032397265 Yoghurt Danone Bat Sab Miel 1 kg 
+ 3386826 7501040094200 Yoghurt Yoplait Disfruta Bat Mix 145 gr 
+ 3386828 7501040094194 Yoghurt Yoplait Bat Disfruta Mix 442 gr 
+ 3389224 7501094513122 Yoghurt Gota Blanca Bat Gran/Fre 150 gr 
+ 3389225 7501094513337 Yoghurt Gota Blanca Bat Nuez/Cer 150 gr 
+ 3389241 7501094513139 Yoghurt GotaBlanca Bat Gran/Miel 150 gr 
+ 3389613 7501032397296 Yoghurt Danone MVF batido Fresa 120G 
+ 3398222 7501209702267 Yoghurt Sello Rojo Bat Chia/Durazno 170 
+ 3398223 7501209702274 Yoghurt Sello Rojo Bat Chia/Natural 170 
+ 3398227 7501209702250 Yoghurt Sello Rojo Bat Chia/Fresa 170 gr 
+ 3403208 894700010045 Yoghurt Chobani Bat Fresa 150 gr 
+ 3403222 894700010052 Yoghurt Chobani Bat Mora Azul 150 gr 
+ 3403223 818290010353 Yogurt Chobani Bat Durazno 150 gr 
+ 3403224 818290010360 Yoghurt Chobani Bat Mango 150 gr 
+ 3403225 894700010014 Yoghurt Chobani Bat Natural 0% 150 gr 
+ 3403226 818290012739 Yoghurt Chobani Bat Coco 150 gr 
+ 3403227 894700010137 Yoghurt Chobani Bat Natural 0% 907 gr 
+ 3403228 818290010391 Yoghurt Chobani TP Coco Loco 150 gr 
+ 3403229 818290010407 Yoghurt Chobani TP Lime Crumble 150 gr 
+ 3403230 818290010414 Yogurt Chobani TP Caramel Crunch 150 gr 
+ 3403231 818290010421 Yoghurt Chobani Bat Tropical 150 gr 
+ 3410324 7501040094309 Yoghurt Griego GA Bat Miel/Ama/Quin 145 
+ 3410326 7501040094460 Yoghurt Yoplait Bat Placer Vainilla 125g 
+ 3410328 7501040094477 Yoghurt Yoplait Bat Placer Pistache 125g 
+ 3416048 7501303904208 Yoghurt Chilchota Fresa 1 Kg 
+ 3416069 7501303915273 Yoghurt Chilchota Cremoso Natural 1 Kg 
+ 3416081 7501303990881 Yoghurt Chilchota Piña Apio Nopal 1 Kg 
+ 3416086 7501303904222 Yoghurt Chilchota Mango 1 Kg 
+ 3416108 7501303904017 Yoghurt Chilchota Vaso Fresa 150 gr 
+ 3416109 7501303991413 Yoghurt Chilchota Vaso Pña Api Nop 150 
+ 3415407 689544085997 Yoghurt Fage Griego Piña 150 g 
+ 3415408 689544085768 Yoghurt Fage Griego Limon 150 gr 
+ 3417735 7501055904488 Yog Alpura Bat Fruto Ten Piezas 150 c 
+ 3417557 689544083061 Yoghurt Fage Griego 0% Natural 907 gr 
+ 3428611 7501032397654 Yoghurt Oikos Solido Fresa 4Pz 600 gr 
+ 3428692 7501032397678 Yoghurt Oikos Solido Natural 1 kg 
+ 3428698 7501032397593 Yoghurt Vitalinea Entero Fresa 1 kg 
+ 3428713 7501032397548 Yoghurt Vitalinea Manzana 125g 
+ 3435157 7501032397289 Yogurt Activia Solido Ciruela con Aros 
+ 3435158 7501032397630 Yoghurt Activia Solido Fresa con Aros Mu 
+ 3435159 7501032397715 Yoghurt Vitalinea Griego Natural 125g 
+ 3435160 7501032397760 Yoghurt Vitalinea Griego Frutos Roj 125g 
+ 3435161 7501032397777 Yoghurt Vitalinea Grieg Dzno 1 pz 125 gr 
+ 3437320 7501303904246 Yogurt Chilchota Batido Piña Coco 1 Kg 
+ 3437322 7501303991741 Yoghurt Vidaplus Beb Papaya Nja 236 Gr 
+ 3437323 7501303992120 Yoghurt Vidaplus Bat Mora Azul-Zarz Pala 
+ 3437324 7501303991772 Yoghurt Vidaplus Bat Papaya Naranja Pala 
+ 3437325 7501303904239 Yoghurt Chilchota Bat Frut Cereal 1 kg 
+ 3437326 7501303949827 Yoghurt Chilchota Bat Cereales 110 gr 
+ 3447721 7501032397852 Yoghurt Danone Mango Choco 141g 
+ 3447731 7501032397722 Yoghurt Danone Batido Nat sin azucar 1 k 
+ 3448320 7501055909278 Yoghurt Alpura Batido Fresa . 145 Gr 
+ 3448321 7501055909285 Yoghurt Alpura Batido Durazno . 145 gr 
+ 3448322 7501055909292 Yoghurt Alpura Batido Mango . 145 gr 
+ 3448323 7501055909308 Yoghurt Alpura Batido Manzana . 145 gr 
+ 3448324 7501055909315 Yoghurt Alpura Batido Piña Coco 145 gr 
+ 3448357 7501055909322 Yoghurt Alpura Batido Zarzamora 145 gr 
+ 3448400 7501055909353 Yoghurt Alpura Batido Natural 145 gr 
+ 3448430 7501055909339 Yoghurt Alpura Bat Frut dl Bsq 145 gr 
+ 3448437 7501055909483 Yoghurt Alpura Bat Deslac Durazno 145 gr 
+ 3448484 7501055909476 Yoghurt Alpura Bat Deslac Fresa 145 gr 
+ 3448485 7501055909568 Yoghurt Alpura Batido Limon 145 gr 
+ 3448523 7502209113275 Yoghurt Onei Griego Natural 700 gr 
+ 3450373 7501040094491 Yoghurt Placer Dulce d Leche Crunch 125 
+ 3450465 7501020552799 Yoghurt Lala Delicias Pay Fresas 150 gr 
+ 3450466 7501020552782 Yoghurt Lala Delicias Pay Limn 150 gr 
+ 3450467 7501020552829 Yoghurt Lala Delicias Pay Red Velv 150 g 
+ 3450477 7501055909377 Yog Alpura Batido Var. 10 Piezas 145 G 
+ 3450480 7501055909360 Yoghurt Alpura Batido Mix 6 Piezas 145g 
+ 3451752 Yogh Nutriyoghu Bati Mnz 900 Gr CHEQUEO 
+ 3451753 Yoghurt Bat Yoplait1Kg, Natural CHEQUEO 
+ 3451754 Yogbatfresa1Kgalpura CHEQUEO 
+ 3451755 Yoghurt Bat Yoplait1Kg, Fresa CHEQUEO 
+ 3451756 Nutri Yoghu Bat Fresa 900 Gr CHEQUEO 
+ 3451761 Yogbatfresa150Galpura CHEQUEO 
+ 3451762 Yogbatdurazno150Galpura CHEQUEO 
+ 3455690 7503002671849 Yoghurt Flor Alfalfa Batido Natural 1 Kg 
+ 3455739 7503002671207 Yoghurt Flor Alfalfa Batido Fresa 1 kg 
+ 3457823 871459003047 Yoghurt Daiya Vegano Grieg Cereza Negra 
+ 3457824 871459003023 Yoghurt Daiya Vegano Grieg Arandano 150 
+ 3457825 871459003016 Yoghurt Daiya Vegano Griego Fsa 150 gr 
+ 3460436 7501040095177 Yoghurt Yoplait Bat Griego SAzuc Nat 1Kg 
+ 3460767 7501032398019 Yoghurt Oikos Frutos Caribeños 150g 
+ 3466182 4014500510965 Yoghurt Cremabella Cremoso Vaini 120 gr 
+ 3466257 4014500510828 Yoghurt Cremabella Manzana Hor 120 gr 
+ 3467295 4014500510811 Yoghurt Cremabella Fresa Panna 120 gr 
+ 3470792 7501032398309 Yoghurt Activia Semillas Ciruela 150 gr 
+ 3470796 7501032398293 Yoghurt Activia Semillas Mango 150 gr 
+ 3470819 7501040095535 Yoghurt Yoplait Bat Grieg SAzuc Nat 145g 
+ 3471225 4014500514000 Yoghurt Sahne Crem Banana Split 140 gr 
+ 3471231 4014500513980 Yoghurt Sahne Crem Cereza Split 140 gr 
+ 3471244 4014500513973 Yoghurt Sahne Crem Fresa Split 140 gr 
+ 3478350 7501032398859 Yoghurt Activia Semillas 4 Piezas 600  g 
+ 3481356 7501092112105 Yoghurt Lyncott Solido Piña Coco 1 kg 
+ 3481358 7501092112099 Yoghurt Lyncott Solido Durazno 1 kg 
+ 3481359 7501092112068 Yoghurt Lyncott Solido Fresa 1 kg 
+ 3481361 7501092112051 Yoghurt Lyncott Solido Natural 1 kg 
+ 3487239 7501032398354 Yoghurt Danone Fresa 900g 
+ 3487241 7501032398378 Yoghurt Danone Manzana 900g 
+ 3487242 7501032398361 Yoghurt Danone Durazno 900g 
+ 3487243 7501032398385 Yoghurt Danone Natural 900g 
+ 3487245 7501032398392 Yoghurt Danone Fresa Saborizado 900g 
+ 3487246 7501032398408 Yoghurt Danone Durazno Saborizado 900g 
+ 3487248 7501032398415 Yoghurt Danone Manzana Saborizado 900g 
+ 3487280 7501032398439 Yoghurt Danone Natural Sin Azucar 900g 
+ 3487287 7501032398330 Yoghurt Activia Ciruela Pasa 900g 
+ 3487288 7501032398316 Yoghurt Activia Fresa 900g 
+ 3487289 7501032398323 Yoghurt Activia Natural 900g 
+ 3487281 7501032398446 Yoghurt Oikos Natural 900g 
+ 3487283 7501032398453 Yoghurt Vitalinea Natural 900g 
+ 3487285 7501032398460 Yoghurt Vitalinea 900g 
+ 3489743 7501032398279 Yoghurt Activia Semilla FrutoRojo 150 g 
+ 3494566 7501032398996 Yoghurt Danone Oikos Mix Cortadores 
+ 3495258 894700010168 Yoghurt Chobani Bat Cereza 150 gr 
+ 3499678 7501032398934 Yoghurt Danone Natural Sin Azucar 150 g 
+ 3499710 7501032398477 Yoghurt Vitalinea Manzana 900g 
+ 3499716 7501055910403 Yoghurt Alpura Batido Guayaba 145 gr 
+ 3504872 7501032398927 Yoghurt Vitalinea Griego Guanabana 125g 
+ 3504873 7501032399092 Yoghurt Vitalinea Griego Natural 900 gr 
+ 3504874 7501032399061 Yogurth Activia Ciruela Pasa 410 gr 
+ 3504876 7501032399078 Yoghurt Danone Fresa 410 gr 
+ 3516697 7501040094361 Yoghurt Yoplait G Nat Piña Alm Se 150 g 
+ 3518554 7501040094330 Yoghurt Yoplait G Ave Alme Choc 150 gr 
+ 3518556 7501040094378 Yoghurt Yoplait G Miel Nuez Alm 150 gr 
+ 3526830 7501032399191 Yoghurt Danone Cereal y Fresa 125 gr 
+ 3526833 7501032399207 Yoghurt Danone Cereal y Durazno 125 gr 
+ 3528920 7503002671658 Yoghurt Flor de Alfalfa Nat Frutas 540g 
+ 3533281 7501040095283 Yoghurt Yoplait Bat Grie SAzu Fresa 145g 
+ 3533283 7501040095306 Yoghurt Yoplait Bat Grie SAzu Mango 145g 
+ 3533307 7501040095320 Yoghurt Yoplait Bat Grie SAzuc Coco 145g 
+ 3536322 894700010120 Yoghurt Chobani Bat Frambuesa 150 gr 
+ 3536327 894700010021 Yoghurt Chobani Bat Vainilla 150 gr 
+ 3536380 818290011855 Yogurt Chobani TP Manzana Canela 150 gr 
+ 3537802 7501032398880 Yoghurt Danone Batido Fresa 190g 
+ 3541462 7501040095801 Yog Yoplait Bat Jicam Pepin Zanah 125 gr 
+ 3541463 7501040095818 Yog Yoplait Bat Naran Piña Zanah 125 gr 
+ 3541464 7501040095825 Yog Yoplait Bat Naran Brocol 125 gr 
+ 3541459 7501020556629 Yoghurt Lala Delicias Bat Mza Cnla 150g 
+ 3544523 7501055361007 Yoghurt Santa Clara Bat Platano 500 gr 
+ 3544530 7501055360994 Yoghurt Santa Clara Bat Platano 150 gr 
+ 3551308 814558020607 Yoghurt Organico Forager Natural 150 gr 
+ 3551312 814558020317 Yoghurt Organico Forager Blueberry 150 g 
+ 3551809 814558020324 Yoghurt Organico Forager Fresa 150 gr 
+ 3551902 814558020638 Yoghurt Organico Forager Cereza 150 gr 
+ 3551907 814558020294 Yoghurt Organico Forager Vainilla 150 gr 
+ 3551908 814558020645 Yoghurt Organico Forager Coco 150 gr 
+ 3551967 689544085737 Yoghurt Griego Fage Frambuesa 150 gr 
+ 3555987 7501052572352 Yoghurt Levia Fresa Granola 190 gr 
+ 3555988 7501052572376 Yoghurt Levia Miel Canela 190 gr 
+ 3556092 7501052572369 Yoghurt Levia Durazno 190 gr 
+ 3556532 7501209701369 Yoghurt Delighurt Batido Piña Coco 900 g 
+ 3556690 7501209701642 Yoghurt Sello Rojo Bat Nat 0% Grasa 900g 
+ 3557850 7501032399665 Yog Danone Bat Durazno Fruta Nat 120 g 
+ 3557912 7501032398842 Yog Danone Bat Fresa Fruta Nat 120 g 
+ 3558010 7501032398873 Yog Danone Bat Manzana Fruta Nat 120 g 
+ 3559030 7501055362677 Yoghurt Santa Clara Bat Mamey 150 gr 
+ 3559899 7501055362943 Yoghurt Santa Clara Bat Nat Miel 150 gr 
+ 3559972 7501055363209 Yoghurt Santa Clara Bat Nat Miel 500 gr 
+ 3561489 7501020556308 Yoghurt Lala Semillas Bat FBosq Amto G 
+ 3561521 7501020556285 Yoghurt Lala Semillas Bat Fresa Chia G 
+ 3561527 7501020556827 Yoghurt Lala Delicias Pay Oreo 150 gr 
+ 3567271 7501020538304 Yoghurt Lala Bat Fresa Cereal 100 gr 
+ 3570410 7501040095238 Yoghurt Yoplait Bat Doble Cero Tor 125g 
+ 3570631 7501040095559 Yoghurt Yoplait Bat PayZarzamora 145g 
+ 3578597 7506443100169 Yoghurt Silk Batido Mango Pina 150 gr 
+ 3578598 7506443100152 Yoghurt Silk Batido Manzana 150 gr 
+ 3578599 7506443100138 Yoghurt Silk Batido Frutos Rojos 150 gr 
+ 3583232 7500462131449 Yoghurt Yes Im Vegan Bat Natural 500 gr 
+ 3583234 7500462131432 Yoghurt Yes Im Vegan Bat Fresa 500 gr 
+ 3583236 7500462131418 Yoghurt Yes Im Vegan Bat Natural 150 gr 
+ 3583238 7500462131425 Yoghurt Yes Im Vegan Bat Fresa 150 gr 
+ 3596154 7501055912070 Yoghurt Alpura Bat Mora Azul . 145 gr 
+ 3606319 7501040095979 Yoghurt Yoplait Bat Grieg SAzuc Coco 1Kg 
+ 3606183 7501025500047 Soful Yakult Fermentado Durazno 112 gr 
+ 3606284 7501040095450 Yoghurt Yoplait Bat Placer ChOreo 125gr 
+ 3606312 7501040095986 Yoghurt Yoplait Bat Grieg SAzuc Fsa 1Kg 
+ 3609890 75069230 Yoghurt Lala Griego Natural 120 gr 
+ 3609901 75069247 Yoghurt Lala Griego Mora 120 gr 
+ 3609920 75069261 Yoghurt Lala Griego Frutos Rojos 120 gr 
+ 3609962 75069308 Yoghurt  Lala Griego Fresa-Vainilla 120g 
+ 3609963 75069285 Yoghurt Lala Griego Frutos Amarillos120g 
+ 3613222 689544085300 Yoghurt Fage Griego Miel 2% 150 gr 
+ 3615907 7506443100381 Yoghurt Vitalinea Griego Sin Endul 900 
+ 3616377 7501040095375 Yoghurt Yoplait Bat Origen Natural 950g 
+ 3616378 7501040095382 Yoghurt Yoplait Bat Origen Fresa 950 gr 
+ 3616379 7501040095405 Yoghurt Yoplait Bat Origen Natural 145g 
+ 3616717 7501055912391 Yoghurt Alpura Batido Fresa . 125 gr 
+ 3616718 7501055912414 Yoghurt Alpura Batido Durazno . 125 gr 
+ 3616719 7501055912438 Yoghurt Alpura Batido Manzana . 125 gr 
+ 3616790 7501040095412 Yoghurt Yoplait Bat Origen Fresa 145 gr 
+ 3617230 7501055912452 Yoghurt Alpura Batido Mango . 125 gr 
+ 3617231 7501055912476 Yoghurt Alpura Bat Zarzamora 125 gr 
+ 3617232 7501055912490 Yoghurt Alpura Bat Fru del Bosq 125 gr 
+ 3617233 7501055912513 Yoghurt Alpura Bat Piña/Coco 125 gr 
+ 3617234 7501055912537 Yoghurt Alpura Batido Guayaba . 125 gr 
+ 3617235 7501055912551 Yoghurt Alpura Batido Natural . 125 gr 
+ 3617236 7501055912711 Yoghurt Alpura Bat 6 Pck Surtido 125 gr 
+ 3618980 689544085416 Yoghurt Fage Griego Fresa 5% 150 gr 
+ 3618982 689544085904 Yoghurt Fage Griego Durazno 5% 150 gr 
+ 3618983 689544085102 Yoghurt Fage Griego Mango 5% 150 gr 
+ 3618986 689544085157 Yoghurt Fage Griego Limon 5% 150 gr 
+ 3619156 689544085607 Yoghurt Fage Griego 5% Natural 150 gr 
+ 3619157 689544085836 Yoghurt Fage Griego 5% Natural 454 gr 
+ 3619158 689544085010 Yoghurt Fage Griego 5% Natural 907 gr 
+ 3618868 7506443100916 Yoghurt Yopro Batido Platano Mango 150gr 
+ 3618942 7506443100923 Yoghurt YoPro Bat Frutos Rojos 150 gr 
+ 3621929 7501040095429 Yoghurt Yoplait Bat Origen Granola 145 g 
+ 3621950 7501040095399 Yoghurt Yoplait Bat Origen Granola 950 g 
+ 3627071 7501020560183 Yoghurt Lala Bat Sueño de Angel 150 gr 
+ 3627380 7501020560169 Yoghurt Lala Bat Elote Miel 150 gr 
+ 3627478 7501020560145 Yoghurt Lala Bat Tuna Guanabano 150 gr 
+ 3626982 7501020560121 Yoghurt Lala Bat Sueño de Angel 1 Kg 
+ 3627355 7501020560107 Yoghurt Lala Bat Elote Miel 1 Kg 
+ 3628786 818290019196 Yog Chobani Bat flip Cookies&Cream 128 g 
+ 3628811 818290019325 Yog Chobani Bat flip Strawberry Ch 128 g 
+ 3630683 7501055368181 Yoghurt Santa Clara Batido Guayaba 450 
+ 3630684 7501055368259 Yoghurt Santa Clara Batido Fresa 450 gr 
+ 3630685 7501055368198 Yoghurt Santa Clara Batido Natural 450 
+ 3630697 7506443101258 Yoghurt Danone Batido Mango 900 gr 
+ 3630698 7506443101265 Yoghurt Danone Batido Piña Coco 900 gr 
+ 3630699 7506443101616 Yoghurt Danone Batido Fresa Mora 900 gr 
+ 3630700 7506443101326 Yoghurt Danone Bat Natural Endulzan 900g 
+ 3630701 7506443101036 Yoghurt Oikos Griego Coco 900 gr 
+ 3632500 7501040090691 Yoghurt Yoplait Bat Frutas Cereales 442g 
+ 3632501 7501040090950 Yoghurt Yoplait Bat Fresa 442 gr 
+ 3632502 7501040090967 Yoghurt Yoplait Bat Natural 442 gr 
+ 3632503 7501040092398 Yoghurt Yoplait Bat Durazno 442 gr 
+ 3632504 7501040096099 Yoghurt Yoplait Bat Piña Coco 442 gr 
+ 3632505 7501040096105 Yoghurt Yoplait Bat Natural granola 442g 
+ 3632506 7501040096112 Yoghurt Yoplait Bat Mango 442 gr 
+ 3632507 7501040096129 Yoghurt Yoplait Bat Frutas Rojas 442 gr 
+ 3632508 7501040096136 Yoghurt Yoplait Bat Manzana 442 gr 
+ 3632509 7501040096143 Yoghurt Yoplait Bat Cereales Mora 442 gr 
+ 3632510 7501040096150 Yoghurt Yoplait Bat Cereales Fresa 442g 
+ 3632511 7501040096167 Yoghurt Yoplait Bat CerealDurazno 442g 
+ 3634881 7501020561067 Yoghurt Lala Batido Pay de Calabaza 150 
+ 3637222 7501020560084 Yoghurt Lala Bat Tuna Guanabana 1 Kg 
+ 3638691 7506443101913 Yoghurt Danone Bat Higo 145 gr 
+ 3638692 7506443101906 Yoghurt Danone Bat Guayaba 145 gr 
+ 3638693 7506443101937 Yoghurt Danone Bat Platano 145 gr 
+ 3638694 7506443101920 Yoghurt Danone Bat Coco Limon 145 gr 
+ 3638695 7506443101074 Yoghurt Oikos B Natural s Azucar 900 g 
+ 3638696 7506443102026 Yoghurt Oikos Bat Fresa 900 gr 
+ 3638697 7506443101586 Yoghurt Oikos Bat Fresa Almendra 150 gr 
+ 3638698 7506443101579 Yoghurt Oikos Bat Guayaba y Limon 150 gr 
+ 3638699 7506443101593 Yoghurt Oikos Bat Natural 150 gr 
+ 3638702 7506443102040 Yoghurt Vitalinea Bat Pitahaya 125 gr 
+ 3639433 7501055368433 Yoghurt Santa Clara Bat Natural 125 ml 
+ 3639434 7501055368464 Yoghurt Santa Clara Bat Fresa 125 ml 
+ 3639435 7501055368426 Yoghurt Santa Clara Bat Guayaba 125 ml 
+ 3639436 7501055368440 Yoghurt Santa Clara Bat Limon 125 ml 
+ 3639437 7501055368471 Yoghurt Santa Clara Bat Bluberry 125 ml 
+ 3639438 7501055368457 Yoghurt Santa Clara Bat Mango 125 ml 
+ 3639439 7501055368488 Yoghurt Santa Clara Bat Manzana 125 ml 
+ 3640688 818290016683 Yoghurt Chobani Batido Durazno 113 gr 
+ 3640689 818290016645 Yoghurt Chobani Batido Fresa 113 gr 
+ 3642880 818290016706 Yoghurt Chobani Batido Mora Azul 113 gr 
+ 3642881 818290016690 Yoghurt Chobani Batido Frutos Rojos 113 
+ 3644536 7506443102163 Yoghurt Vitalinea Griego Muesli 135 gr 
+ 3645171 7506443101609 Yoghurt Oikos Griego Mango 150 gr 
+ 3646190 894700010328 Yoghurt Chobani Batido Fresa Plát 150 gr 
+ 3649990 Yog Yoplait Bat Granola 990 gr CHEQUEO 
+ 3649991 Yog Yoplait Bat Fresa 990 gr CHEQUEO 
+ 3649992 Yog natural C/miel d/agave 990g CHEQUEO 
+ 3654835 7501040097737 Yoghurt Yoplait Griego Fresa Nuez 125 g 
+ 3654836 7501040097744 Yoghurt Yoplait Griego Natural 125 g 
+ 3656668 7506443103313 Yoghurt Danone Batido Fresa 140 gr 
+ 3656669 7506443103320 Yoghurt Danone Batido Natural 900 gr 
+ 3658174 7501639310148 Yoghurt Bové Organico Cúrcuma 1 Kg 
+ 3658175 7501639310155 Yoghurt Bové Organico Jengibre 1 Kg 
+ 3657835 7501020563771 Yoghurt Lala Batido Natural 900 gr 
+ 3657836 7501020563733 Yoghurt Lala Batido Fresa 900 gr 
+ 3657837 7501020563764 Yoghurt Lala Batido Manzana 900 gr 
+ 3657838 7501020563757 Yoghurt Lala Batido Mango 900 gr 
+ 3657839 7501020563726 Yoghurt Lala Batido Durazno 900 gr 
+ 3658820 7501020563719 Yoghurt Lala Batido Cereal 900 gr 
+ 3658821 7501020563825 Yoghurt Lala Batido Natural 120 gr 
+ 3658822 7501020563795 Yoghurt Lala Batido Fresa 120 gr 
+ 3658823 7501020563788 Yoghurt Lala Batido Durazno 120 gr 
+ 3658824 7501020563818 Yoghurt Lala Batido Manzana 120 gr 
+ 3658825 7501020563801 Yoghurt Lala Batido Mango 120 gr 
+ 3658826 7501020563702 Yoghurt Lala Zero Batido Natural 900 gr 
+ 3658827 7501020563696 Yoghurt Lala Zero Batido Fresa 900 gr 
+ 3659839 75071523 Yog Lala Griego Zero Fts Amarillos 120g 
+ 3660120 75071547 Yog Lala Griego Zero Nat S Azucar 120g 
+ 3660121 75071530 Yog Lala Griego Zero Frutos Rojos 120g 
+ 3660122 7501020563351 Yog Lala Go! Bat Nat Top Choco Kris 170 
+ 3660123 7501020563368 Yog Lala Go! Bat Nat Top Froot Loop 170 
+ 3660124 7501020563344 Yog Lala Go! Bat Nat Top Zucaritas 170 
+ 3663311 7501040097331 Yog Yoplait Almond Bati Natural 145 gr 
+ 3663312 7501040097348 Yoghurt Yoplait Almond Bati Fresa 145 gr 
+ 3668400 7506443101302 Yog Danone Cereales Coco con Nuez 900 gr 
+ 3668401 7506443101296 Yog Danone Cereales Miel Granola 900 gr 
+ 3668402 7506443101289 Yog Danone Cereales Piña Coco Quin 900 
+ 3670356 7506443101968 Yoghurt Danone Batido DANMIX M&M's 110 g 
+ 3671149 7501020560916 Yoghurt Lala Griego Zero Natural 900 g 
+ 3671392 7501040097881 Yoghurt Yoplait Disfruta Bat Mango 145 g 
+ 3671394 7501040097898 Yog Yoplait Disfruta Bat Durazno 145 g 
+ 3671395 7501040097942 Yoghurt Yoplait Disfruta Bat Fresa 750 g 
+ 3671430 7501020560909 Yoghurt Lala Griego Natural 900 g 
+ 3671431 7501020563894 Yog Lala Griego Frutos Amarillos 900 g 
+ 3672269 894700010267 Yog Chobani Batido Griego Fresa 907 g 
+ 3672410 894700010144 Yog Chobani Batido Griego Vainilla 907 g 
+ 3674345 818290010469 Yog Chobani Batido Griego Natural 1.13 
+ 3674857 7501040097980 Yog Yoplait Batido Natural s/azu 950 gr 
+ 3674858 7501040097973 Yog Yoplait Batido Fresa s/azu 950 gr 
+ 3677577 7506443104754 Yog Danone Bat Frut Select Durazno 900 g 
+ 3677578 7506443104747 Yog Danone Bat Frut Select Fresa 900 g 
+ 3677579 7506443104730 Yog Danone Bat Frut Manzana 900 g 
+ 3677580 75073664 Yoghurt Danone Batido Fresa 95 g 
+ 3678041 75069278 Yog Lala Griego Bat Cereza 120 g 
+ 3678315 7501020564471 Yoghurt Lala Batido Fresa 4 pzs 120 g 
+ 3678316 7501020564488 Yoghurt Lala Batido Natural 4 pzs 120 g 
+ 3679801 9999917501858 Yog Rancho Los Agustines Bat Nat s/a 1 
+ 3680849 7501055914463 Yoghurt Alpura Batido Fresa 900 g 
+ 3680860 7501055914500 Yoghurt Alpura Batido Manzana 900 g 
+ 3680861 7501055914487 Yoghurt Alpura Batido Durazno 900 g 
+ 3680862 7501055914524 Yoghurt Alpura Batido Mango 900 g 
+ 3682517 7506443104563 Yog Activia Bat Ciruela Deslac s/a 750 g 
+ 3682518 7506443104570 Yog Activia Bat FrutRojo Deslac s/ 750 
+ 3682611 7506443105171 Yog Danone Bat Natural 120 g 
+ 3682612 7506443105232 Yog Danone Bat Platano Mix Choco 141 g 
+ 3682613 7506443104587 Yog Activia Bat Natural Deslac s/a 750 g 
+ 3682614 7506443104648 Yog Activia Bat Chia Deslactosado 750 g 
+ 3684256 7501040098147 Yog Yoplait Batido Griego Fresa 1 kg 
+ 3684258 7501040097911 Yog Yoplait Bat Skyr Griego Natural 750 
+ 3684259 7501040098109 Yog Yoplait Batido Griego Natural 120 g 
+ 3684290 7501040098116 Yog Yoplait Batido Griego Fresa 120 g 
+ 3684291 7501040098123 Yog Yoplait Batido Griego Moras 120 g 
+ 3685446 689544085669 Yoghurt Fage Griego 2% Arandano 150 gr 
+ 3685447 689544085775 Yoghurt Fage Griego 2% Frutos Rojos 150 
+ 3694484 7506475104487 Yog Nestlé Griego Bat Natural 4 Pz 120 g 
+ 3694485 7506475104432 Yog Nestlé Griego Bat Fresa 4 Pz 120 g 
+ 3694489 75073909 Yog Lala Griego Bat Platano Choco 120 g 
+ 3694510 75073893 Yog Lala Griego Bat Fresa Chocolat 120 g 
+ 3694511 75073886 Yog Lala Griego Bat Fresa 120 g 
+ 3696096 818290017642 Yog Chobani Complete Bat Fresa 150 gr 
+ 3696097 818290017697 Yog Chobani Complete Bat Vainilla 150 gr 
+ 3696098 818290017659 Yog Chobani Complete Bat Mora 150 gr 
+ 3698291 7506443105935 Yog Oikos Bat Griego Natural s/a 440 g 
+ 3702306 7500462836207 Alimento Ferm Zahini Bat Natural 450 g 
+ 3702307 7500462836238 Alimento Ferm Zahini Bat Natural 125 g 
+ 3702308 7500462836245 Alimento Ferm Zahini Bat Zarzamora 125 g 
+ 3702309 7500462836252 Alimento Ferm Zahini Bat Mango 125 g 
+ 3703191 7501040098291 Yog Yoplait Bat Frutas Tropicales 1 kg 
+ 3703192 7501040098307 Yog Yoplait Bat Frutos del Bosque 1 kg 
+ 3703193 7501040095610 Yoghurt Yoplait Griego Fsa Mrs 4 Pack 
+ 3703194 7501040095498 Yoghurt Yoplait Griego Cereal Nat 1 kg 
+ 3703195 7501040095481 Yoghurt Yoplait Griego Cereal Fresa 1 kg 
+ 3703564 7503002671283 Yoghurt Flor De Alfalfa Frutas 1 Kg 
+ 3703565 7503002671764 Yoghurt Flor De Alfalfa Ciruela Pasa 1Kg 
+ 3703566 7503002671214 Yoghurt Flor De Alfalfa Cereal Nuez 1 Kg 
+ 3703584 7503002671870 Yoghurt Flor De Alfalfa Griego Nat 500 g 
+ 3706254 7506443105539 Yoghurt Danone Batido Frutas Rojas 900 
+ 3709766 818290018021 Yog Chobani GrieBat Probiotic Vain 150 g 
+ 3709767 818290018014 Yog Chobani GrieBat Probiotic Mora 150 g 
+ 3709768 818290018038 Yog Chobani GrieBat Probiotic Fres 150 g 
+ 3709769 818290018045 Yog Chobani GrieBat ProbioticDuraz 150 g 
+ 3709047 7501303992403 Yoghurt Temazcal Batido Natural 1 Kg 
+ 3710994 7501040098260 Yoghurt Yoplait Bat Fresa Platano 900 gr 
+ 3710995 7501040098284 Yoghurt Yoplait Bat Fresa Durazno 900 gr 
+ 3714133 7502209115088 Yoghurt Onei Griego 0% Natural 700 gr 
+ 3714134 7502209115071 Yoghurt Onei Griego 0% Natural 150 gr 
+ 3714135 7502209115163 Yoghurt Onei Griego Vainilla Ca 0% 150g 
+ 3714136 7502209115125 Yoghurt Onei Griego Miel Avena 0% 150g 
+ 3714137 7502209115101 Yoghurt Onei Griego 0% Frutos Rojos 150 
+ 3717711 7506443106291 Yog Danone Bat Mix Vainilla Kranky 157 g 
+ 3717712 7506443105546 Yog Danone Bat Natural Granola 900 g 
+ 3718125 7500462836214 Alimento Ferm Zahini Bat Zarzamora 450 g 
+ 3718126 7500462836221 Alimento Ferm Zahini Bat Mango 450 g 
+ 3719102 7506443106321 Yog Oikos Bat Grie Natural S/A Aña 900 g 
+ 3719103 7506443105911 Yog Oikos Bat Grie Nat MonkFruit 900 g 
+ 3719874 7501020563740 Yoghurt Lala Batido Fresa Cereales 900 g 
+ 3719875 7501020563900 Yoghurt Lala Griego Frutos Rojos 900 g 
+ 3724147 7506443106468 Yog Oikos Bat Griego Natural 440 g 
+ 3724148 7506443106475 Yog Oikos Bat Griego Natural S/A 440 g 
+ 3728448 7501040098659 Yog Yoplait Bat DobleCero FrutRojo 750 g 
+ 3728449 7501040098642 Yog Yoplait Bat DobleCero Ciruela 750 g 
+ 3728531 7501040097539 Yog Yoplait Bat Griego Natural s/a 442 g 
+ 3728534 7501040098468 Yog Yoplait Bat Grieg FrutoAmarill 145 g 
+ 3728537 7501040098451 Yog Yoplait Bat Griego FrutosRojos 145 g 
+ 3729840 818290018281 Yog Chobani Bat CeroAzucarVainilla 150 g 
+ 3729841 818290018298 Yog Chobani Bat CeroAzucar Fresa 150 g 
+ 3729842 818290018304 Yog Chobani Bat CeroAzucarFrutRojo 150 g 
+ 3729843 818290018311 Yog Chobani Bat CeroAzucarMoraAzul 150 g 
+ 3729844 818290012272 Yog Chobani Bat flip Key Lime 128 g 
+ 3729845 818290010735 Yog Chobani Bat flip S´mores 128 g 
+ 3729846 818290018571 Yog Chobani Bat CeroAzucarVainilla 907 g 
+ 3729853 818290012289 Yog Chobani Bat flip Coco Loco 128 g 
+ 3730047 689544087250 Yog Fage Bat Griego 0% Fresa 150 g 
+ 3730048 689544087267 Yog Fage Bat Griego 0% Cereza 150 g 
+ 3730049 689544087274 Yog Fage Bat Griego 0% Durazno 150 g 
+ 3730050 689544087281 Yog Fage Bat Griego 0% Arandano 150 g 
+ 3730051 689544087304 Yog Fage Bat Griego 0% Vainilla 150 g 
+ 3730052 689544087038 Yog Fage Bat Griego 0% Vainilla 907 g 
+ 3730155 7501020565690 Yog Lala 100 Bat +Fruta Fresa 120 g 
+ 3730156 7501020565706 Yog Lala 100 Bat +Fruta Mango 120 g 
+ 3733120 7501020566581 Yog Lala Bat Griego Natural S/Azuc 900 g 
+ 3736853 7501020565577 Yog Lala Bat Fresa 440 g 
+ 3736854 7501020565560 Yog Lala Bat Natural Endulzado 440 g 
+ 3742570 7501055915880 Yog Alpura Bat SF Natural Cereales 900 g 
+ 3742571 7501055915903 Yog Alpura Bat SF Fresa Cereales 900 g 
+ 3743466 7501040097904 Yog Yoplait Skyr BatGriego Natural 120 g 
+ 3743467 7501040075360 Yog Yoplait Skyr Bat Griego Fresa 120 g 
+ 3743468 7501040075377 Yog Yoplait Skyr Bat Griego Coco 120 g 
+ 3743469 7503019994306 Yog Yoplait Bat Multisabores 8pack 800 g 
+ 3744963 75076894 Yog Lala Bat Griego Natural S/Azu 120 g 
+ 3745543 7506443106376 Yog Danone Bat DanMix Hershey's 110 g 
+ 3748025 7500462567385 Yoghurt Villa Patos Griego Natural 480 
+ 3750611 7501639310957 Yogurth Bove Org Desl Natural 180 gr 
+ 3750612 7501639310971 Yogurth Bove Org Desl Vainilla 180 gr 
+ 3753812 7501055915996 Yoghurt Alpura Batido Limon 125 g 
+ 3759048 7501032300180 Yog Oikos Griego Prot Natural 150 gr 
+ 3759049 7501032300197 Yog Oikos Griego Prot Frutos Rojos 150 g 
+ 3759150 7501032300203 Yog Oikos Griego Prot Coco Mango 150 gr 
+ 
+
+ 
+ 
+ 
+
+
+ 
+
+ 
+ 

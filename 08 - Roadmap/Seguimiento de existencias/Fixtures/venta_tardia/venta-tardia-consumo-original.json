@@ -1,0 +1,58 @@
+{
+  "event_id": "b4000000-0000-4000-8000-000000000001",
+  "aggregate_type": "sale",
+  "aggregate_id": "b6000000-0000-4000-8000-000000000001",
+  "event_type": "venta_confirmada",
+  "device_id": "dispositivo-1",
+  "user_id": "usuario-1",
+  "local_sequence": 6,
+  "base_server_sequence": null,
+  "base_version": null,
+  "created_at_local": "2026-10-01T12:00:00.000Z",
+  "payload": {
+    "payment_id": "b8000000-0000-4000-8000-000000000001",
+    "payment_method": "transfer",
+    "total_minor": 9000,
+    "received_minor": 9000,
+    "change_minor": 0,
+    "currency": "MXN",
+    "lines": [
+      {
+        "sale_item_id": "b7000000-0000-4000-8000-000000000001",
+        "product_id": "a1000000-0000-4000-8000-000000000001",
+        "configuration_event_id": "b3000000-0000-4000-8000-000000000001",
+        "snapshot": {
+          "variant_id": "a2000000-0000-4000-8000-000000000001",
+          "consumption_configuration_key": null,
+          "product_name_snapshot": "Café molido",
+          "variant_name_snapshot": "250 g",
+          "sale_mode_snapshot": "unit",
+          "quantity": 2,
+          "measured_quantity_atomic": null,
+          "unit_price_minor": 4500,
+          "standard_cost_minor_snapshot": 1800,
+          "price_reference_quantity_atomic_snapshot": null,
+          "sale_unit_code_snapshot": null,
+          "sale_unit_symbol_snapshot": null,
+          "sale_unit_atomic_factor_snapshot": null
+        },
+        "consumption_mode": "direct",
+        "sale_unit_id": null,
+        "consumptions": [
+          {
+            "inventory_item_id": "a3000000-0000-4000-8000-000000000001",
+            "component_atomic": 1,
+            "quantity_delta_atomic": -2,
+            "movement_id": "b5000000-0000-4000-8000-000000000001",
+            "movement_type": "sale_consumption",
+            "total_cost_minor": null
+          }
+        ]
+      }
+    ],
+    "dependency_event_ids": [
+      "b3000000-0000-4000-8000-000000000001",
+      "b1000000-0000-4000-8000-000000000001"
+    ]
+  }
+}

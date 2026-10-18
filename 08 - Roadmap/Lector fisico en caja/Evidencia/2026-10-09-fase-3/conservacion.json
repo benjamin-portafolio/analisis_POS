@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-10-10T14:42:55.337156+00:00",
+  "prior_files": [
+    {
+      "path": "lib/presentation/pages/caja/barcode/physical_barcode_finish_dialog.dart",
+      "preserved": true
+    },
+    {
+      "path": "lib/presentation/pages/caja/barcode/physical_barcode_reader.dart",
+      "preserved": true
+    },
+    {
+      "path": "test/presentation/pages/caja/physical_barcode_reader_test.dart",
+      "preserved": true
+    },
+    {
+      "path": "lib/presentation/pages/caja/barcode/physical_barcode_reader_controller.dart",
+      "preserved": true
+    },
+    {
+      "path": "lib/presentation/pages/caja/barcode/sale_barcode_read_coordinator.dart",
+      "preserved": true
+    },
+    {
+      "path": "lib/presentation/pages/caja/caja_screen.dart",
+      "preserved": true
+    },
+    {
+      "path": "lib/presentation/pages/pantalla_principal/home_screen.dart",
+      "preserved": true
+    },
+    {
+      "path": "lib/presentation/pages/pantalla_principal/menu_lateral.dart",
+      "preserved": true
+    },
+    {
+      "path": "lib/presentation/widgets/article_search_bar.dart",
+      "preserved": true
+    },
+    {
+      "path": "test/presentation/pages/caja/barcode/physical_barcode_reader_controller_test.dart",
+      "preserved": true
+    },
+    {
+      "path": "test/presentation/pages/pantalla_principal/menu_lateral_test.dart",
+      "preserved": true
+    },
+    {
+      "path": "test/support/barcode_sale_fixture.dart",
+      "preserved": true
+    }
+  ],
+  "usual_databases": [
+    {
+      "path": "/Users/benjamin/Library/Containers/com.example.posFlutter/Data/Documents/pos_db.sqlite",
+      "sha256_after": "da4eedd33119ca4c40ef6ed2bd1502c986482faeb24f346c7e00893dd84c03c7",
+      "preserved": true
+    }
+  ],
+  "git_status": " M lib/presentation/pages/caja/barcode/physical_barcode_reader_controller.dart\n M lib/presentation/pages/caja/barcode/sale_barcode_read_coordinator.dart\n M lib/presentation/pages/caja/caja_screen.dart\n M lib/presentation/pages/pantalla_principal/home_screen.dart\n M lib/presentation/pages/pantalla_principal/menu_lateral.dart\n M lib/presentation/widgets/article_search_bar.dart\n M test/presentation/pages/caja/barcode/physical_barcode_reader_controller_test.dart\n M test/presentation/pages/pantalla_principal/menu_lateral_test.dart\n M test/support/barcode_sale_fixture.dart\n?? lib/presentation/pages/caja/barcode/physical_barcode_finish_dialog.dart\n?? lib/presentation/pages/caja/barcode/physical_barcode_reader.dart\n?? test/presentation/pages/caja/physical_barcode_reader_test.dart\n",
+  "native_event_count": 18,
+  "native_delivery_statuses": [
+    "not_required"
+  ],
+  "native_event_ref_count": 0
+}

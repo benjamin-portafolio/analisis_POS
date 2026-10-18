@@ -1,0 +1,5 @@
+Wiki links verified for 10 current notes (escaped table pipes handled).
+30 current SEG rows, ordered and unique.
+Code fences balanced.
+15 unrelated/generated Flutter files match initial SHA256 (preserved-files.json).
+HTTP harness and PostgreSQL stopped; temporary pgdata removed.

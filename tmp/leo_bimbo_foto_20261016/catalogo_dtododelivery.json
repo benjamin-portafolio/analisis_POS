@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Semillas de Girasol Leo 70 g",
+    "handle": "semillas-de-girasol-leo-70-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "15.00",
+        "barcode": null,
+        "sku": "D763"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/SemillasdeGirasolLeo70g.jpg?v=1750966890"
+  },
+  {
+    "name": "Triachos Chiles y Especias 60 g",
+    "handle": "triachos-chiles-y-especias-60-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "15.00",
+        "barcode": null,
+        "sku": "D762"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/TriachosChilesyEspecias60g.jpg?v=1750965810"
+  },
+  {
+    "name": "Enkanton Mix Clasico 40 g",
+    "handle": "enkanton-mix-clasico-40-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "10.00",
+        "barcode": null,
+        "sku": "D761"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/EnkantonMixClasico40g_589be107-94b5-4ef1-8688-0083b8770ae0.jpg?v=1750965506"
+  },
+  {
+    "name": "Enkanton Mix Extremo 40 g",
+    "handle": "enkanton-mix-extremo-40-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "10.00",
+        "barcode": null,
+        "sku": "D760"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/EnkantonMixExtremo40g.jpg?v=1750964725"
+  },
+  {
+    "name": "Enkanton Mix Chile y Limon 40 g",
+    "handle": "enkanton-mix-chile-y-limon-40-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "10.00",
+        "barcode": null,
+        "sku": "D759"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/EnkantonMixChileyLimon40g.jpg?v=1750960964"
+  },
+  {
+    "name": "Papirringas Chamoy 38 g",
+    "handle": "papirringas-chamoy-38-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "10.00",
+        "barcode": null,
+        "sku": "D758"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/PapirringasChamoy38g.jpg?v=1750959501"
+  },
+  {
+    "name": "Papirringas Queso Intenso 35 g",
+    "handle": "papirringas-queso-intenso-35-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "10.00",
+        "barcode": null,
+        "sku": "D757"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/PapirringasQuesoIntenso35g.jpg?v=1750959136"
+  },
+  {
+    "name": "Ke Chidos Puff 40 g",
+    "handle": "ke-chidos-puff-40-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "12.00",
+        "barcode": null,
+        "sku": "D756"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/KeChidosPuff40g.jpg?v=1750958772"
+  },
+  {
+    "name": "Ke Chidos Sabor Queso y Chile 48 g",
+    "handle": "ke-chidos-sabor-queso-y-chile-48-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "12.00",
+        "barcode": null,
+        "sku": "D755"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/KeChidosSaborQuesoyChile48g.jpg?v=1750958092"
+  },
+  {
+    "name": "Ke Chidos Extremo 48 g",
+    "handle": "ke-chidos-extremo-48-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "12.00",
+        "barcode": null,
+        "sku": "D754"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/KeChidosExtremo48g.jpg?v=1750957929"
+  },
+  {
+    "name": "Ke Chidos Mini 50 g",
+    "handle": "ke-chidos-mini-50-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "10.00",
+        "barcode": null,
+        "sku": "D753"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/KeChidosMini50g.jpg?v=1750950757"
+  },
+  {
+    "name": "Totos Extremo 46 g",
+    "handle": "totos-extremo-46-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "10.00",
+        "barcode": null,
+        "sku": "D752"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/TotosExtremo46g.jpg?v=1750903520"
+  },
+  {
+    "name": "Totos Queso Jalapeño 60 g",
+    "handle": "totos-queso-jalapeno-60-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "15.00",
+        "barcode": null,
+        "sku": "D751"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/TotosQuesoJalapeno60g.jpg?v=1750899180"
+  },
+  {
+    "name": "Papas Rugileo Extremo 45 g",
+    "handle": "papas-rugileo-extremo-45-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "15.00",
+        "barcode": null,
+        "sku": "D750"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/PapasRugileoExtremo45g.jpg?v=1750898252"
+  },
+  {
+    "name": "Papas Rugileo Salsa Negra 45 g",
+    "handle": "papas-rugileo-salsa-negra-45-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "15.00",
+        "barcode": null,
+        "sku": "D749"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/PapasRugileoSalsaNegra45g.jpg?v=1750897255"
+  },
+  {
+    "name": "Papas Rugileo Limon 45 g",
+    "handle": "papas-rugileo-limon-45-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "15.00",
+        "barcode": null,
+        "sku": "D748"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/PapasRugileoLimon45g.jpg?v=1750897088"
+  },
+  {
+    "name": "Papas Rugileo Sal 32 g",
+    "handle": "papas-rugileo-sal-32-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "10.00",
+        "barcode": null,
+        "sku": "D747"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/PapasRugileoSal32g.jpg?v=1750895971"
+  },
+  {
+    "name": "Papas Rugileo Adobada 32 g",
+    "handle": "papas-rugileo-adobada-32-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "10.00",
+        "barcode": null,
+        "sku": "D746"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/PapasRugileoAdobada32g.jpg?v=1750894154"
+  },
+  {
+    "name": "Papas Rugileo Queso 32 g",
+    "handle": "papas-rugileo-queso-32-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "10.00",
+        "barcode": null,
+        "sku": "D745"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/PapasRugileoQueso32g.jpg?v=1750893156"
+  },
+  {
+    "name": "Rugi Mix 155 g",
+    "handle": "rugi-mix-155-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "45.00",
+        "barcode": null,
+        "sku": "D744"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/RugiMix155g.jpg?v=1750888352"
+  },
+  {
+    "name": "Ke Chidos Puff 150 g",
+    "handle": "ke-chidos-puff-150-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "32.00",
+        "barcode": null,
+        "sku": "D743"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/KeChidosPuff150g_7657613b-f8c4-4d94-a78a-8ce9792417ca.jpg?v=1750892756"
+  },
+  {
+    "name": "Papirringas a la Francesa 100 g",
+    "handle": "papirringas-a-la-francesa-100-g",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "28.00",
+        "barcode": null,
+        "sku": "D742"
+      }
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0685/0412/5718/files/PapirringasalaFrancesa100g.jpg?v=1750884433"
+  }
+]

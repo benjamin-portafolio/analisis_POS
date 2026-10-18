@@ -1,0 +1,68 @@
+{
+  "categorias": [
+    {
+      "id": "11111111-1111-4111-8111-111111111111",
+      "name": "Renta",
+      "direction": "out",
+      "nature": "operating"
+    },
+    {
+      "id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+      "name": "Ingresos varios",
+      "direction": "in",
+      "nature": "operating"
+    }
+  ],
+  "registros": [
+    {
+      "id": "33333333-3333-4333-8333-333333333333",
+      "category_id": "11111111-1111-4111-8111-111111111111",
+      "amount_minor": 50000,
+      "method": "cash",
+      "direction": "out",
+      "occurred_at_ms": 1789041600000,
+      "category_name_snapshot": "Renta",
+      "nature": "operating"
+    },
+    {
+      "id": "77777777-7777-4777-8777-777777777777",
+      "category_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+      "amount_minor": 200000,
+      "method": "cash",
+      "direction": "in",
+      "occurred_at_ms": 1789463700000,
+      "category_name_snapshot": "Ingresos varios",
+      "nature": "operating"
+    },
+    {
+      "id": "55555555-5555-4555-8555-555555555555",
+      "category_id": "11111111-1111-4111-8111-111111111111",
+      "amount_minor": 150000,
+      "method": "transfer",
+      "direction": "out",
+      "occurred_at_ms": 1789929000000,
+      "category_name_snapshot": "Renta",
+      "nature": "operating"
+    },
+    {
+      "id": "eee... (borde: en to_ms, excluido)",
+      "category_id": "11111111-1111-4111-8111-111111111111",
+      "amount_minor": 12345,
+      "method": "cash",
+      "direction": "out",
+      "occurred_at_ms": 1790812800000,
+      "category_name_snapshot": "Renta",
+      "nature": "operating"
+    },
+    {
+      "id": "fff... (borde: antes de from_ms, excluido)",
+      "category_id": "11111111-1111-4111-8111-111111111111",
+      "amount_minor": 67890,
+      "method": "cash",
+      "direction": "out",
+      "occurred_at_ms": 1788220799999,
+      "category_name_snapshot": "Renta",
+      "nature": "operating"
+    }
+  ]
+}

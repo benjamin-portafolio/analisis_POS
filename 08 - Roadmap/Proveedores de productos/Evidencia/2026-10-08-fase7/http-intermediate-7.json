@@ -1,0 +1,217 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":35473,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
+{"suite":{"id":2,"platform":"vm","path":"/Users/benjamin/Projects/POS/pos_flutter/test/integration/variant_tracking_server_test.dart"},"type":"suite","time":2}
+{"test":{"id":3,"name":"loading /Users/benjamin/Projects/POS/pos_flutter/test/integration/variant_tracking_server_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":4,"platform":"vm","path":"/Users/benjamin/Projects/POS/pos_flutter/test/application/sync/product_suppliers_transport_safety_test.dart"},"type":"suite","time":2}
+{"test":{"id":5,"name":"loading /Users/benjamin/Projects/POS/pos_flutter/test/application/sync/product_suppliers_transport_safety_test.dart","suiteID":4,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"count":3,"time":2,"type":"allSuites"}
+{"testID":5,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1307}
+{"group":{"id":6,"suiteID":4,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":null,"column":null,"url":null},"type":"group","time":1309}
+{"test":{"id":7,"name":"servidor previo sin capability recibe health y ningún proveedor/precio","suiteID":4,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":13,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/product_suppliers_transport_safety_test.dart"},"type":"testStart","time":1309}
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1310}
+{"group":{"id":8,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":1310}
+{"test":{"id":9,"name":"HTTP real: B cobra offline, A desvincula, B entrega, duplicado y pull desde cero","suiteID":2,"groupIDs":[8],"metadata":{"skip":false,"skipReason":null},"line":18,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/variant_tracking_server_test.dart"},"type":"testStart","time":1310}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1320}
+{"group":{"id":10,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":8,"line":null,"column":null,"url":null},"type":"group","time":1320}
+{"test":{"id":11,"name":"HTTP real: alta offline, cadena causal, reinicio, ecos y terminal nueva","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":168,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"},"type":"testStart","time":1320}
+{"testID":11,"messageType":"print","message":"WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. ","type":"print","time":1345}
+{"testID":11,"messageType":"print","message":"Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true","type":"print","time":1345}
+{"testID":11,"messageType":"print","message":"Here is the stacktrace from when the database was opened a second time:","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:39:29)","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:172:17)","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":1346}
+{"testID":11,"messageType":"print","message":"This warning will only appear on debug builds.","type":"print","time":1346}
+{"testID":7,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1814}
+{"test":{"id":12,"name":"tipo desconocido también falla en un eco y conserva checkpoint","suiteID":4,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":63,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/product_suppliers_transport_safety_test.dart"},"type":"testStart","time":1815}
+{"testID":12,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1825}
+{"test":{"id":13,"name":"fallo de aplicación revierte página, catálogo y cursor; reintento válido aplica todo","suiteID":4,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":86,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/product_suppliers_transport_safety_test.dart"},"type":"testStart","time":1826}
+{"testID":13,"messageType":"print","message":"WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. ","type":"print","time":1827}
+{"testID":13,"messageType":"print","message":"Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true","type":"print","time":1828}
+{"testID":13,"messageType":"print","message":"Here is the stacktrace from when the database was opened a second time:","type":"print","time":1828}
+{"testID":13,"messageType":"print","message":"#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)","type":"print","time":1828}
+{"testID":13,"messageType":"print","message":"#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)","type":"print","time":1828}
+{"testID":13,"messageType":"print","message":"#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)","type":"print","time":1828}
+{"testID":13,"messageType":"print","message":"#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)","type":"print","time":1828}
+{"testID":13,"messageType":"print","message":"#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)","type":"print","time":1828}
+{"testID":13,"messageType":"print","message":"#5      new VariantTrackingHarness (file:///Users/benjamin/Projects/POS/pos_flutter/test/support/variant_tracking_harness.dart:68:37)","type":"print","time":1828}
+{"testID":13,"messageType":"print","message":"#6      new ProductSupplierHarness (file:///Users/benjamin/Projects/POS/pos_flutter/test/support/product_supplier_harness.dart:32:19)","type":"print","time":1828}
+{"testID":13,"messageType":"print","message":"#7      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/product_suppliers_transport_safety_test.dart:90:20)","type":"print","time":1829}
+{"testID":13,"messageType":"print","message":"#8      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)","type":"print","time":1829}
+{"testID":13,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":1829}
+{"testID":13,"messageType":"print","message":"#9      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)","type":"print","time":1829}
+{"testID":13,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":1829}
+{"testID":13,"messageType":"print","message":"#10     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)","type":"print","time":1829}
+{"testID":13,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":1829}
+{"testID":13,"messageType":"print","message":"This warning will only appear on debug builds.","type":"print","time":1829}
+{"testID":11,"messageType":"print","message":"WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. ","type":"print","time":1838}
+{"testID":11,"messageType":"print","message":"Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true","type":"print","time":1838}
+{"testID":11,"messageType":"print","message":"Here is the stacktrace from when the database was opened a second time:","type":"print","time":1838}
+{"testID":11,"messageType":"print","message":"#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)","type":"print","time":1838}
+{"testID":11,"messageType":"print","message":"#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:39:29)","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:198:11)","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":1839}
+{"testID":11,"messageType":"print","message":"This warning will only appear on debug builds.","type":"print","time":1839}
+{"testID":13,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1852}
+{"test":{"id":14,"name":"cambiar modo no importa proveedor ni artículo standalone","suiteID":4,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":133,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/application/sync/product_suppliers_transport_safety_test.dart"},"type":"testStart","time":1852}
+{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1863}
+{"testID":9,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2402}
+{"testID":11,"messageType":"print","message":"WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. ","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"Here is the stacktrace from when the database was opened a second time:","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:39:29)","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:250:17)","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":2578}
+{"testID":11,"messageType":"print","message":"#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)","type":"print","time":2579}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":2579}
+{"testID":11,"messageType":"print","message":"#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)","type":"print","time":2579}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":2579}
+{"testID":11,"messageType":"print","message":"#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)","type":"print","time":2579}
+{"testID":11,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":2579}
+{"testID":11,"messageType":"print","message":"This warning will only appear on debug builds.","type":"print","time":2579}
+{"testID":11,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2799}
+{"test":{"id":15,"name":"HTTP real: concurrencia por producto y proveedor, preflight, restauración y reporte","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":272,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"},"type":"testStart","time":2799}
+{"testID":15,"messageType":"print","message":"WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. ","type":"print","time":2800}
+{"testID":15,"messageType":"print","message":"Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true","type":"print","time":2800}
+{"testID":15,"messageType":"print","message":"Here is the stacktrace from when the database was opened a second time:","type":"print","time":2800}
+{"testID":15,"messageType":"print","message":"#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)","type":"print","time":2800}
+{"testID":15,"messageType":"print","message":"#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)","type":"print","time":2800}
+{"testID":15,"messageType":"print","message":"#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)","type":"print","time":2800}
+{"testID":15,"messageType":"print","message":"#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)","type":"print","time":2800}
+{"testID":15,"messageType":"print","message":"#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)","type":"print","time":2800}
+{"testID":15,"messageType":"print","message":"#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:39:29)","type":"print","time":2801}
+{"testID":15,"messageType":"print","message":"#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:275:36)","type":"print","time":2801}
+{"testID":15,"messageType":"print","message":"#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)","type":"print","time":2801}
+{"testID":15,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":2801}
+{"testID":15,"messageType":"print","message":"#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)","type":"print","time":2801}
+{"testID":15,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":2801}
+{"testID":15,"messageType":"print","message":"#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)","type":"print","time":2801}
+{"testID":15,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":2801}
+{"testID":15,"messageType":"print","message":"This warning will only appear on debug builds.","type":"print","time":2801}
+{"testID":15,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3181}
+{"test":{"id":16,"name":"HTTP real: rechazo de alta bloquea y deshace dependientes antes de FK","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":322,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"},"type":"testStart","time":3181}
+{"testID":16,"messageType":"print","message":"WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. ","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"Here is the stacktrace from when the database was opened a second time:","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:39:29)","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:347:17)","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3207}
+{"testID":16,"messageType":"print","message":"This warning will only appear on debug builds.","type":"print","time":3207}
+{"testID":16,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3300}
+{"test":{"id":17,"name":"HTTP real: legado contra conjunto conocido y replay de ausencia histórica","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":354,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"},"type":"testStart","time":3300}
+{"testID":17,"messageType":"print","message":"WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. ","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"Here is the stacktrace from when the database was opened a second time:","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:39:29)","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:388:17)","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3511}
+{"testID":17,"messageType":"print","message":"This warning will only appear on debug builds.","type":"print","time":3511}
+{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3636}
+{"test":{"id":18,"name":"HTTP/WebSocket real: avisos, desconexión y reconexión del listener existente","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":455,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"},"type":"testStart","time":3636}
+{"testID":18,"messageType":"print","message":"WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. ","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"Here is the stacktrace from when the database was opened a second time:","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:39:29)","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:458:36)","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3637}
+{"testID":18,"messageType":"print","message":"This warning will only appear on debug builds.","type":"print","time":3637}
+{"testID":18,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3943}
+{"test":{"id":19,"name":"HTTP real: recetas, seguimiento, precios, fechas y venta sobreviven conflicto completo","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":491,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"},"type":"testStart","time":3943}
+{"testID":19,"messageType":"print","message":"WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. ","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"Here is the stacktrace from when the database was opened a second time:","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:39:29)","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:494:36)","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3944}
+{"testID":19,"messageType":"print","message":"#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)","type":"print","time":3945}
+{"testID":19,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3945}
+{"testID":19,"messageType":"print","message":"#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)","type":"print","time":3945}
+{"testID":19,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":3945}
+{"testID":19,"messageType":"print","message":"This warning will only appear on debug builds.","type":"print","time":3945}
+{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4343}
+{"test":{"id":20,"name":"HTTP real: alta oficial colisiona con alta offline y restaura cadena inversa","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":647,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"},"type":"testStart","time":4344}
+{"testID":20,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4371}
+{"test":{"id":21,"name":"HTTP real: rechazo de base de producto retira ediciones dependientes y restaura oficial","suiteID":0,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":681,"column":3,"url":"file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart"},"type":"testStart","time":4371}
+{"testID":21,"messageType":"print","message":"WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. ","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"Here is the stacktrace from when the database was opened a second time:","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"#5      main.terminal (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:39:29)","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"#6      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/integration/product_suppliers_server_test.dart:709:17)","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":4604}
+{"testID":21,"messageType":"print","message":"This warning will only appear on debug builds.","type":"print","time":4605}
+{"testID":21,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4699}
+{"success":true,"type":"done","time":4708}

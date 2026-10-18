@@ -1,12 +1,18 @@
 ---
 tipo: ADR
 id: ADR-0014
-estado: decidido
+estado: parcialmente_reemplazado_por_ADR-0017
 fecha: 2026-08-26
-actualizado: 2026-08-26
+actualizado: 2026-10-02
 ---
 
 # ADR-0014 Seguimiento directo de existencias por variante
+
+> Actualización de decisión 2026-10-02, pendiente de implementación:
+> [[02 - Decisiones/ADR-0017 Reutilizacion y descarte seguro de recursos de inventario|ADR-0017]]
+> introduce recuperación durable al reactivar y una excepción de descarte para
+> autogenerados vacíos en standalone. Conserva todo recurso con historial y
+> todo recurso server_sync. El resto de las reglas de esta ADR sigue vigente.
 
 ## Contexto
 
@@ -26,7 +32,9 @@ autorice el descuento automático.
   booleano redundante como `inventory_enabled`.
 - Activar el seguimiento durante el alta crea un `inventory_item` y exactamente
   un `inventory_balance`. Si la existencia inicial es mayor que cero, también
-  crea un `inventory_movement` de tipo `manual_adjustment`.
+  crea un `inventory_movement` de tipo `initial_balance`, positivo y con motivo
+  opcional. El lector conserva compatibilidad explícita con altas históricas
+  que usaron `manual_adjustment`, sin reescribir eventos.
 - La unidad del recurso debe ser pieza (`count`, factor atómico `1`) para venta
   `unit`. En venta `measured`, debe tener la misma dimensión que la unidad de
   venta.
@@ -52,6 +60,15 @@ autorice el descuento automático.
   confirmación, su handler resolverá `product_variants.inventory_item_id`,
   insertará el movimiento negativo y actualizará el balance en una sola
   transacción.
+- El recurso se edita desde la misma pantalla de alta: el nombre es mutable,
+  la unidad permanece inmutable y la existencia vigente se consulta desde el
+  balance. Una reposición usa `stock_receipt`; una corrección usa
+  `manual_adjustment` y exige motivo.
+- Cambiar el nombre y registrar un movimiento son operaciones independientes.
+  Un solo guardado crea `recurso_inventario_actualizado` y
+  `movimiento_inventario_registrado` como eventos separados y causalmente
+  encadenados; recurso, movimiento y balance avanzan sus versiones y
+  trazabilidad según el evento que los afecta.
 
 ## Consecuencias
 
@@ -59,11 +76,13 @@ autorice el descuento automático.
   recorrer el historial.
 - La existencia puede verificarse reconstruyendo el saldo como la suma de
   movimientos y comparándolo con `inventory_balances`.
-- Desactivar o desvincular una variante no debe borrar el recurso, su balance ni
-  sus movimientos. El flujo de edición/desvinculación se especificará cuando se
-  implemente edición de artículos.
-- Recetas, alertas de stock bajo, bloqueo de ventas sin existencia y reposición
-  permanecen fuera de esta característica.
+- Desactivar una variante conserva recurso, balance y movimientos. Desvincular
+  conserva memoria para recuperar el mismo recurso; el único descarte automático
+  permitido por la nueva decisión es el de autogenerados vacíos y sin dependencias
+  en standalone según ADR-0017. En server_sync se conservan recurso y balance.
+  Este cambio está especificado y todavía no implementado.
+- Recetas, alertas de stock bajo, bloqueo de ventas sin existencia, valuación y
+  UI de reversiones permanecen fuera de esta característica.
 
 ## Referencia canónica
 
@@ -75,6 +94,7 @@ vigente.
 ## Enlaces
 
 - [[02 - Decisiones/ADR-0004 Inventario por movimientos|ADR-0004]]
+- [[02 - Decisiones/ADR-0017 Reutilizacion y descarte seguro de recursos de inventario|ADR-0017]]
 - [[02 - Decisiones/ADR-0012 Cantidades atomicas y unidades por dimension|ADR-0012]]
 - [[03 - Dominio/Modulos/Articulos|Módulo Artículos]]
 - [[04 - Sincronizacion/Flujo local de comandos y eventos|Flujo local de comandos y eventos]]

@@ -1,7 +1,7 @@
 ---
 tipo: contexto
 estado: borrador
-actualizado: 2026-08-24
+actualizado: 2026-10-08
 ---
 
 # Alcance inicial
@@ -60,7 +60,10 @@ El MVP puede implementar primero un subconjunto funcional, pero no debe asumir q
 ## Por validar
 
 - Si cocina/barra requiere una pantalla dedicada o solo impresion.
-- Si se requiere impresora local desde dispositivos moviles.
+- Compatibilidad física por modelo de impresora Android: la impresión local
+  Bluetooth de ventas/cotizaciones ya se solicita y tiene un
+  [[08 - Roadmap/Impresion de tickets/Plan de implementacion|plan de implementación]],
+  con varios perfiles y primera prueba de 58 mm pendientes de desarrollar/verificar.
 - Para `server_sync`, si el servidor sera local, VPS o arquitectura mixta.
 - Si habra roles separados para mesero, cajero, cocina y administrador.
 - Lista final de operaciones que se registran offline como solicitud pendiente y no como confirmacion completada.

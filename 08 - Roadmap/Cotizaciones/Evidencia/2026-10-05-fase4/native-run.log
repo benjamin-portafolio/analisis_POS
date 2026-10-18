@@ -1,0 +1,18 @@
+Launching /Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Cotizaciones/Evidencia/2026-10-05-fase4/native_probe.dart on macOS in debug mode...
+Building macOS application...                                   
+✓ Built build/macos/Build/Products/Debug/pos_flutter.app
+2026-10-05 17:26:47.279 pos_flutter[36225:1737788] Running with merged UI and platform thread. Experimental.
+Failed to foreground app; open returned 1
+flutter: NATIVE_PROBE temp=/Users/benjamin/Library/Containers/com.example.posFlutter/Data/tmp/pos_quotation_native_s2uFQ1 quotation=c671ecd8-5816-495c-9784-0fcee8cb97af
+Syncing files to device macOS...                                   176ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on macOS is available at: http://127.0.0.1:49469/Yg0dj3gTEeM=/
+The Flutter DevTools debugger and profiler on macOS is available at: http://127.0.0.1:49469/Yg0dj3gTEeM=/devtools/?uri=ws://127.0.0.1:49469/Yg0dj3gTEeM=/ws

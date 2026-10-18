@@ -1,0 +1,46 @@
+{
+  "descripcion": "La variante simplemente se retiro del producto y su vinculo quedo sin transicion de desvinculacion que lo acredite como disparador.",
+  "estado_previo": {
+    "events": [
+      {
+        "event_id": "b3000000-0000-4000-8000-000000000003",
+        "event_type": "producto_actualizado",
+        "server_sequence": 41,
+        "before_variants": [
+          {
+            "variant_id": "a2000000-0000-4000-8000-000000000004",
+            "inventory_item_id": "a3000000-0000-4000-8000-000000000001"
+          }
+        ],
+        "after_variants": []
+      }
+    ],
+    "product_variants": [
+      {
+        "variant_id": "a2000000-0000-4000-8000-000000000001",
+        "inventory_item_id": "a3000000-0000-4000-8000-000000000001"
+      }
+    ]
+  },
+  "evento": {
+    "event_id": "b3000000-0000-4000-8000-000000000006",
+    "aggregate_type": "inventory_item",
+    "aggregate_id": "a3000000-0000-4000-8000-000000000001",
+    "event_type": "recurso_inventario_descartado",
+    "device_id": "dispositivo-1",
+    "user_id": "usuario-1",
+    "local_sequence": 4,
+    "base_server_sequence": null,
+    "base_version": 1,
+    "created_at_local": "2026-10-01T12:00:00.000Z",
+    "payload": {
+      "base_event_id": "b1000000-0000-4000-8000-000000000001",
+      "trigger_product_id": "a1000000-0000-4000-8000-000000000001",
+      "trigger_product_event_id": "b3000000-0000-4000-8000-000000000003",
+      "origin_variant_id": "a2000000-0000-4000-8000-000000000001",
+      "policy_version": 1
+    }
+  },
+  "resultado_esperado": "rechazado; el recurso de la variante 250 g no se descarta",
+  "fase": 3
+}

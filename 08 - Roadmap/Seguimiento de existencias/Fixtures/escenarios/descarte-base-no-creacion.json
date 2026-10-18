@@ -1,0 +1,28 @@
+{
+  "descripcion": "base_event_id no es el evento de alta del recurso. La version y la secuencia base tampoco coinciden con la fila persistida.",
+  "estado_previo": {
+    "inventory_items": [
+      {
+        "inventory_item_id": "a3000000-0000-4000-8000-000000000001",
+        "created_event_id": "b1000000-0000-4000-8000-000000000001",
+        "version": 1,
+        "last_server_sequence": 41
+      }
+    ]
+  },
+  "evento": {
+    "aggregate_type": "inventory_item",
+    "aggregate_id": "a3000000-0000-4000-8000-000000000001",
+    "base_version": 3,
+    "base_server_sequence": 99,
+    "payload": {
+      "base_event_id": "b3000000-0000-4000-8000-000000000001",
+      "trigger_product_id": "a1000000-0000-4000-8000-000000000001",
+      "trigger_product_event_id": "b3000000-0000-4000-8000-000000000003",
+      "origin_variant_id": "a2000000-0000-4000-8000-000000000001",
+      "policy_version": 1
+    }
+  },
+  "resultado_esperado": "rechazado; no se borra recurso ni balance",
+  "fase": 3
+}

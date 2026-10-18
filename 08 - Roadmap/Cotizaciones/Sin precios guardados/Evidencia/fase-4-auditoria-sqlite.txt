@@ -1,0 +1,1 @@
+PASS: 11 bases actuales, 6 cobros, 2 fixtures core; esquema exacto y JSON quotation cerrado sin copias anidadas; precios de venta/catalogo conservados; legado protegido hash intacto.

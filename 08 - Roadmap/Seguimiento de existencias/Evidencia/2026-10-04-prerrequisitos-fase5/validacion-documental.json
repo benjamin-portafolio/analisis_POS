@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-04",
+  "changed_documents": [
+    "02 - Decisiones/ADR-0017 Reutilizacion y descarte seguro de recursos de inventario.md",
+    "03 - Dominio/Modulos/Articulos.md",
+    "05 - Datos/Catalogo e inventario.md",
+    "05 - Datos/Eventos.md",
+    "05 - Datos/Modelo de tablas.md",
+    "06 - API/Validaciones servidor.md",
+    "08 - Roadmap/Seguimiento de existencias/Casos de aceptacion.md",
+    "08 - Roadmap/Seguimiento de existencias/Contrato funcional y de eventos.md",
+    "08 - Roadmap/Seguimiento de existencias/Estado y continuidad.md",
+    "08 - Roadmap/Seguimiento de existencias/Fases/03 - Flutter y sincronizacion.md",
+    "08 - Roadmap/Seguimiento de existencias/Fases/05 - Verificacion y cierre.md",
+    "08 - Roadmap/Seguimiento de existencias/Mapeo fisico de esquemas.md",
+    "08 - Roadmap/Seguimiento de existencias/Plan de implementacion.md"
+  ],
+  "additional_change_preserved_without_editing": [
+    ".obsidian/workspace.json"
+  ],
+  "flutter_nest_changed_files": [],
+  "matrix_rows": 30,
+  "fixtures_valid_unchanged": 33,
+  "resolved_internal_links": 117,
+  "probe_matches_previous": true
+}

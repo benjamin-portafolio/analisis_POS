@@ -1,0 +1,10 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand --runTestsByPath src/sync/financial-events.postgres.spec.ts --json --outputFile=/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/nest-head-financial.json
+
+Test Suites: 1 passed, 1 total
+Tests:       14 passed, 14 total
+Snapshots:   0 total
+Time:        1.059 s
+Ran all test suites within paths "src/sync/financial-events.postgres.spec.ts".
+Test results written to: ../../../../../../../../var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-seg-prerrequisitos-fase5-20261004-iacflla8/nest-head-financial.json

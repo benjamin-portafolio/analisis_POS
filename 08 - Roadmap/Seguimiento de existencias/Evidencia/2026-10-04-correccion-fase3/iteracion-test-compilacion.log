@@ -1,0 +1,77 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/variant_tracking_phase3_test.dart
+test/data/local/drift/variant_tracking_phase3_test.dart:223:50: Error: Required named parameter 'priceReferenceQuantityAtomic' must be provided.
+            sale: const MeasuredSaleConfiguration(
+                                                 ^
+lib/domain/articulos/sale_configuration.dart:31:11: Context: Found this candidate, but the arguments don't match.
+  factory MeasuredSaleConfiguration({
+          ^
+test/data/local/drift/variant_tracking_phase3_test.dart:397:13: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+            isNull,
+            ^^^^^^
+test/data/local/drift/variant_tracking_phase3_test.dart:617:61: Error: 'isNotNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+      expect(await h.memory.findByVariantId(ids.variantId), isNotNull);
+                                                            ^^^^^^^^^
+test/data/local/drift/variant_tracking_phase3_test.dart:625:61: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+      expect(await h.memory.findByVariantId(ids.variantId), isNull);
+                                                            ^^^^^^
+test/data/local/drift/variant_tracking_phase3_test.dart:683:45: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+        expect(memory.sourceServerSequence, isNull);
+                                            ^^^^^^
+test/data/local/drift/variant_tracking_phase3_test.dart:688:11: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+          isNull,
+          ^^^^^^
+test/data/local/drift/variant_tracking_phase3_test.dart:319:46: Error: The getter 'inventoryDiscards' isn't defined for the type 'AppDatabase'.
+ - 'AppDatabase' is from 'package:pos_flutter/data/local/drift/app_database.dart' ('lib/data/local/drift/app_database.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'inventoryDiscards'.
+          await rebuilt.db.select(rebuilt.db.inventoryDiscards).get(),
+                                             ^^^^^^^^^^^^^^^^^
+test/data/local/drift/variant_tracking_phase3_test.dart:354:37: Error: The getter 'inventoryDiscards' isn't defined for the type 'AppDatabase'.
+ - 'AppDatabase' is from 'package:pos_flutter/data/local/drift/app_database.dart' ('lib/data/local/drift/app_database.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'inventoryDiscards'.
+      expect(await h.db.select(h.db.inventoryDiscards).get(), isEmpty);
+                                    ^^^^^^^^^^^^^^^^^
+test/data/local/drift/variant_tracking_phase3_test.dart:404:41: Error: The getter 'inventoryDiscards' isn't defined for the type 'AppDatabase'.
+ - 'AppDatabase' is from 'package:pos_flutter/data/local/drift/app_database.dart' ('lib/data/local/drift/app_database.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'inventoryDiscards'.
+          expect(await h.db.select(h.db.inventoryDiscards).get(), isEmpty);
+                                        ^^^^^^^^^^^^^^^^^
+00:00 +0 -1: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/variant_tracking_phase3_test.dart [E]
+  Failed to load "/Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/variant_tracking_phase3_test.dart":
+  Compilation failed for testPath=/Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/variant_tracking_phase3_test.dart: test/data/local/drift/variant_tracking_phase3_test.dart:223:50: Error: Required named parameter 'priceReferenceQuantityAtomic' must be provided.
+              sale: const MeasuredSaleConfiguration(
+                                                   ^
+  lib/domain/articulos/sale_configuration.dart:31:11: Context: Found this candidate, but the arguments don't match.
+    factory MeasuredSaleConfiguration({
+            ^
+  test/data/local/drift/variant_tracking_phase3_test.dart:397:13: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+              isNull,
+              ^^^^^^
+  test/data/local/drift/variant_tracking_phase3_test.dart:617:61: Error: 'isNotNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+        expect(await h.memory.findByVariantId(ids.variantId), isNotNull);
+                                                              ^^^^^^^^^
+  test/data/local/drift/variant_tracking_phase3_test.dart:625:61: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+        expect(await h.memory.findByVariantId(ids.variantId), isNull);
+                                                              ^^^^^^
+  test/data/local/drift/variant_tracking_phase3_test.dart:683:45: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+          expect(memory.sourceServerSequence, isNull);
+                                              ^^^^^^
+  test/data/local/drift/variant_tracking_phase3_test.dart:688:11: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+            isNull,
+            ^^^^^^
+  test/data/local/drift/variant_tracking_phase3_test.dart:319:46: Error: The getter 'inventoryDiscards' isn't defined for the type 'AppDatabase'.
+   - 'AppDatabase' is from 'package:pos_flutter/data/local/drift/app_database.dart' ('lib/data/local/drift/app_database.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'inventoryDiscards'.
+            await rebuilt.db.select(rebuilt.db.inventoryDiscards).get(),
+                                               ^^^^^^^^^^^^^^^^^
+  test/data/local/drift/variant_tracking_phase3_test.dart:354:37: Error: The getter 'inventoryDiscards' isn't defined for the type 'AppDatabase'.
+   - 'AppDatabase' is from 'package:pos_flutter/data/local/drift/app_database.dart' ('lib/data/local/drift/app_database.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'inventoryDiscards'.
+        expect(await h.db.select(h.db.inventoryDiscards).get(), isEmpty);
+                                      ^^^^^^^^^^^^^^^^^
+  test/data/local/drift/variant_tracking_phase3_test.dart:404:41: Error: The getter 'inventoryDiscards' isn't defined for the type 'AppDatabase'.
+   - 'AppDatabase' is from 'package:pos_flutter/data/local/drift/app_database.dart' ('lib/data/local/drift/app_database.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'inventoryDiscards'.
+            expect(await h.db.select(h.db.inventoryDiscards).get(), isEmpty);
+                                          ^^^^^^^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.

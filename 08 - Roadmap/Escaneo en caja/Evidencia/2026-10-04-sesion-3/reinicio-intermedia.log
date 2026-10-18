@@ -1,0 +1,58 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart
+00:00 +0: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "Total: $7.00": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart:848:7)
+<asynchronous suspension>
+#5      main.scannerTest.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart:66:9)
+<asynchronous suspension>
+#6      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#7      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart line 848
+The test description was:
+  A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:03 +0 -1: A ×2 y B ×2, Caja y reinicio SQLite real en standalone [E]
+  Test failed. See exception logs above.
+  The test description was: A ×2 y B ×2, Caja y reinicio SQLite real en standalone
+  
+00:03 +0 -1: A ×2 y B ×2, Caja y reinicio SQLite real en serverSync
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "Total: $7.00": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart:848:7)
+<asynchronous suspension>
+#5      main.scannerTest.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart:66:9)
+<asynchronous suspension>
+#6      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#7      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart line 848
+The test description was:
+  A ×2 y B ×2, Caja y reinicio SQLite real en serverSync
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:06 +0 -2: A ×2 y B ×2, Caja y reinicio SQLite real en serverSync [E]
+  Test failed. See exception logs above.
+  The test description was: A ×2 y B ×2, Caja y reinicio SQLite real en serverSync
+  
+00:06 +0 -2: Some tests failed.

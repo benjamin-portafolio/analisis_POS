@@ -1,0 +1,17 @@
+{
+  "AGENTS.md": "85f5ad48000229e7fc8e21a646d72aab0a42fb719af743d2f38020a2c8ccb6cc",
+  "ios/Podfile.lock": "7bc6de02a088684650b5ed61d7eb97f032be6ab492849e209f3d62aa866cdfb6",
+  "ios/Runner/Info.plist": "0176d5c0c6567ee3fb14784e30924186d2dacdef40c7e0acdcb6a602f0ef271a",
+  "macos/Flutter/GeneratedPluginRegistrant.swift": "3c5bb5b3591b7e8db4d0428119a0cb6f3a6a5d77d9c0b30dd1ff0fa4371d69c1",
+  "macos/Podfile.lock": "5db77c3f12578bb36e4e052daa7b932ca028412d005e3ddf328ce133cbf748ac",
+  "macos/Runner/DebugProfile.entitlements": "fb6c52415ff1595aee1d8df98d9589a249eaa53689b8ded4bf8f97abb5f3bbab",
+  "macos/Runner/Info.plist": "cf48eeeb3f53d1f1454ef54a6185837cf07739717bded3ac214152db1a77f78f",
+  "macos/Runner/Release.entitlements": "ba8688494b20ba40375f48d0f3ead228c0888116a8ff61dc83b13566da7d16d1",
+  "pubspec.lock": "9d1e3e42da8ab86e33fe288f8ece8a264bf3488b426c652f6abf2fbfea5ea86c",
+  "pubspec.yaml": "7f80892a9c428916333d92559a50cfab4adf528044ebaa396bdbb82804714c06",
+  "lib/presentation/pages/gestion_inventario/articulos/widgets/barcode_scanner_screen.dart": "7c4a387aca5e6c2818f3dd047660a32c129ec0b7c676671044d8582990e8eb0b",
+  "test/presentation/pages/gestion_inventario/articulos/article_form_screen_test.dart": "272c206ad73ea2bfa88b1689ee55b18ee09c78a20dad09f3271e319d2b3f28ec",
+  "test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart": "71f876eec095ca33bb18978f3f0ab10700e38426b09937da57e25fce549c03ef",
+  "test/support/fake_mobile_scanner_platform.dart": "9b213e07706a1b2df675e4906237bff6587da629fbcd933a1dc55f0a5b206de1",
+  "lib/data/local/drift/app_database.g.dart": "d551c70574aa5dedcb5a50c9c0f72628f72944f2bc489dff222ddef16d420be5"
+}

@@ -1,0 +1,964 @@
+diff --git a/src/app.module.ts b/src/app.module.ts
+index 6bee6ec..687a853 100644
+--- a/src/app.module.ts
++++ b/src/app.module.ts
+@@ -1,3 +1,6 @@
++import { SupplierEntity } from './entities/supplier.entity';
++import { VariantSupplierEntity } from './entities/variant-supplier.entity';
++import { ProveedorEventHandler } from './sync/proveedor-event.handler';
+ import { CollectionsReportService } from './reports/collections-report.service';
+ import { CollectionsReportController } from './reports/collections-report.controller';
+ import { CreditSaleEntity } from './entities/credit-sale.entity';
+@@ -68,6 +71,8 @@ import { FinancialReportController } from './reports/financial-report.controller
+           CustomerPaymentEntity,
+           CreditAllocationEntity,
+           ClienteEntity,
++          SupplierEntity,
++          VariantSupplierEntity,
+           SaleEntity,
+           SaleItemEntity,
+           SalePaymentEntity,
+@@ -109,6 +114,7 @@ import { FinancialReportController } from './reports/financial-report.controller
+     CustomerCreditProjector,
+     AbonoClienteEventHandler,
+     ClienteEventHandler,
++    ProveedorEventHandler,
+     VentaEventHandler,
+     FinancialCategoryEventHandler,
+     FinancialEntryEventHandler,
+diff --git a/src/sync/account-balance-baseline-event.handler.ts b/src/sync/account-balance-baseline-event.handler.ts
+index 3cc08e0..0d7fea1 100644
+--- a/src/sync/account-balance-baseline-event.handler.ts
++++ b/src/sync/account-balance-baseline-event.handler.ts
+@@ -83,7 +83,7 @@ export class AccountBalanceBaselineEventHandler {
+     }
+     const declared = await manager.findOne(
+       AccountBalanceBaselineEntity,
+-      { order: { createdAtServer: 'ASC' } },
++      { where: {}, order: { createdAtServer: 'ASC' } },
+     );
+     if (declared) {
+       return this.saveConflict(manager, e, SLOT_REASON, declared.id);
+diff --git a/src/sync/payloads/producto-actualizado.payload.ts b/src/sync/payloads/producto-actualizado.payload.ts
+index c564085..99b33df 100644
+--- a/src/sync/payloads/producto-actualizado.payload.ts
++++ b/src/sync/payloads/producto-actualizado.payload.ts
+@@ -1,3 +1,4 @@
++import { ProductoProveedorPrecio } from './producto-proveedor-precio';
+ import { ProductoCreadoPayload } from './producto-creado.payload';
+ 
+ export class ProductoActualizadoPayload {
+@@ -8,7 +9,19 @@ export class ProductoActualizadoPayload {
+     readonly before: ProductoCreadoPayload,
+     readonly after: ProductoCreadoPayload,
+     readonly deleteProduct = false,
+-  ) {}
++  ) {
++    if (before.knowsSuppliers !== after.knowsSuppliers && !deleteProduct)
++      throw new Error(
++        'La edición debe conocer suppliers en before y after, o conservar ambos estados legados.',
++      );
++    if (
++      JSON.stringify(before.saleConfiguration) !==
++      JSON.stringify(after.saleConfiguration)
++    )
++      throw new Error('No se puede cambiar la forma de venta.');
++    if (deleteProduct && !ProductoActualizadoPayload.sameState(before, after))
++      throw new Error('El borrado debe conservar el estado anterior.');
++  }
+   static fromJson(json: Record<string, unknown>): ProductoActualizadoPayload {
+     if (
+       typeof json.base_event_id !== 'string' ||
+@@ -31,11 +44,6 @@ export class ProductoActualizadoPayload {
+       );
+     const before = read(json.before);
+     const after = deleteProduct ? before : read(json.after);
+-    if (
+-      JSON.stringify(before.saleConfiguration) !==
+-      JSON.stringify(after.saleConfiguration)
+-    )
+-      throw new Error('No se puede cambiar la forma de venta.');
+     return new ProductoActualizadoPayload(
+       json.base_event_id,
+       before,
+@@ -43,6 +51,58 @@ export class ProductoActualizadoPayload {
+       deleteProduct,
+     );
+   }
++  static sameState(
++    a: ProductoCreadoPayload,
++    b: ProductoCreadoPayload,
++  ): boolean {
++    if (
++      a.name !== b.name ||
++      a.categoryId !== b.categoryId ||
++      JSON.stringify(a.saleConfiguration) !==
++        JSON.stringify(b.saleConfiguration) ||
++      a.variants.length !== b.variants.length
++    )
++      return false;
++    return a.variants.every((v) => {
++      const other = b.variants.find((candidate) => candidate.id === v.id);
++      return (
++        other != null &&
++        v.name === other.name &&
++        v.nameKey === other.nameKey &&
++        v.barcode === other.barcode &&
++        v.salePriceMinor === other.salePriceMinor &&
++        v.standardCostMinor === other.standardCostMinor &&
++        v.inventoryItemId === other.inventoryItemId &&
++        v.sortOrder === other.sortOrder &&
++        ProductoProveedorPrecio.sameList(v.suppliers, other.suppliers) &&
++        v.recipeComponents.length === other.recipeComponents.length &&
++        v.recipeComponents.every((c) =>
++          other.recipeComponents.some(
++            (d) =>
++              c.inventoryItemId === d.inventoryItemId &&
++              c.quantityAtomic === d.quantityAtomic,
++          ),
++        )
++      );
++    });
++  }
++  static sameEditingBase(
++    current: ProductoCreadoPayload,
++    before: ProductoCreadoPayload,
++  ): boolean {
++    return (
++      this.sameState(current, before) ||
++      (!current.knowsSuppliers &&
++        before.knowsSuppliers &&
++        this.sameState(current.withKnownSuppliers(), before))
++    );
++  }
++  get dependencyEventIds(): ReadonlySet<string> {
++    return new Set([
++      this.baseEventId,
++      ...(this.deleteProduct ? [] : this.after.dependencyEventIds),
++    ]);
++  }
+   get removedVariants() {
+     return this.before.variants.filter(
+       (v) =>
+diff --git a/src/sync/payloads/producto-creado.payload.ts b/src/sync/payloads/producto-creado.payload.ts
+index af24763..621594e 100644
+--- a/src/sync/payloads/producto-creado.payload.ts
++++ b/src/sync/payloads/producto-creado.payload.ts
+@@ -1,3 +1,5 @@
++import { ProductoProveedorPrecio } from './producto-proveedor-precio';
++import { ProductoProveedorDependencia } from './producto-proveedor-dependencia';
+ import { SaleMode } from '../../enums/sale-mode.enum';
+ 
+ const MAX_SAFE_MINOR_AMOUNT = Number.MAX_SAFE_INTEGER;
+@@ -22,6 +24,8 @@ export interface ProductoCreadoVariantValue {
+   inventoryItemId: string | null;
+   recipeComponents: readonly ProductoCreadoRecipeComponentValue[];
+   sortOrder: number;
++  /** null/ausente es desconocimiento legado; [] es conjunto conocido vacío. */
++  suppliers?: readonly ProductoProveedorPrecio[] | null;
+ }
+ 
+ export interface ProductoCreadoRecipeComponentValue {
+@@ -52,7 +56,25 @@ export class ProductoCreadoPayload {
+     readonly variants: readonly ProductoCreadoVariantValue[],
+     readonly categoryDependency: ProductoCreadoDependencyValue | null,
+     readonly inventoryDependencies: readonly ProductoCreadoInventoryDependencyValue[],
+-  ) {}
++    readonly supplierDependencies: readonly ProductoProveedorDependencia[] = [],
++  ) {
++    validateVariants([...variants]);
++    this.variants = Object.freeze(
++      variants.map((v) => {
++        const suppliers =
++          v.suppliers == null
++            ? null
++            : ProductoProveedorPrecio.parseVariant({
++                suppliers: v.suppliers.map((s) => s.toJson()),
++              });
++        return Object.freeze({ ...v, suppliers });
++      }),
++    );
++    this.supplierDependencies = ProductoProveedorDependencia.validate(
++      this.supplierIds,
++      supplierDependencies,
++    );
++  }
+ 
+   static fromJson(payload: Record<string, unknown>): ProductoCreadoPayload {
+     const product = requiredRecord(payload.product, 'product');
+@@ -80,6 +102,7 @@ export class ProductoCreadoPayload {
+     let categoryDependencySeen = false;
+     let saleUnitDependencyId: string | null = null;
+     const inventoryDependencies: ProductoCreadoInventoryDependencyValue[] = [];
++    const supplierDependencies: ProductoProveedorDependencia[] = [];
+     for (let index = 0; index < payload.dependencies.length; index += 1) {
+       const dependency = requiredRecord(
+         payload.dependencies[index],
+@@ -123,8 +146,14 @@ export class ProductoCreadoPayload {
+         inventoryDependencies.push(parseInventoryDependency(dependency, index));
+         continue;
+       }
++      if (dependency.ref_type === 'supplier') {
++        supplierDependencies.push(
++          ProductoProveedorDependencia.fromJson(dependency),
++        );
++        continue;
++      }
+       throw new Error(
+-        'producto_creado solo admite dependencias category, unit e inventory_item.',
++        'producto_creado solo admite dependencias category, unit, inventory_item y supplier.',
+       );
+     }
+     if (categoryId === null && categoryDependencySeen) {
+@@ -152,6 +181,57 @@ export class ProductoCreadoPayload {
+       variants,
+       categoryDependency,
+       inventoryDependencies,
++      ProductoProveedorDependencia.validate(
++        new Set(
++          variants.flatMap((v) => (v.suppliers ?? []).map((s) => s.supplierId)),
++        ),
++        supplierDependencies,
++      ),
++    );
++  }
++
++  static knowsSuppliersJson(json: Record<string, unknown>): boolean {
++    if (!Array.isArray(json?.variants) || json.variants.length === 0)
++      return false;
++    const values = json.variants.map((v) =>
++      ProductoProveedorPrecio.parseVariant(requiredRecord(v, 'variant')),
++    );
++    const known = values[0] != null;
++    if (values.some((v) => (v != null) !== known))
++      throw new Error('Snapshot parcial de proveedores.');
++    return known;
++  }
++  get supplierIds(): ReadonlySet<string> {
++    return new Set(
++      this.variants.flatMap((v) =>
++        (v.suppliers ?? []).map((s) => s.supplierId),
++      ),
++    );
++  }
++  get knowsSuppliers(): boolean {
++    return this.variants[0]?.suppliers != null;
++  }
++  get dependencyEventIds(): ReadonlySet<string> {
++    return new Set(
++      [
++        this.categoryDependency?.dependsOnEventId,
++        ...this.inventoryDependencies.map((d) => d.dependsOnEventId),
++        ...this.supplierDependencies.map((d) => d.dependsOnEventId),
++      ].filter((id): id is string => id != null),
++    );
++  }
++  withKnownSuppliers(): ProductoCreadoPayload {
++    return new ProductoCreadoPayload(
++      this.name,
++      this.categoryId,
++      this.saleConfiguration,
++      this.variants.map((v) => ({
++        ...v,
++        suppliers: v.suppliers ?? Object.freeze([]),
++      })),
++      this.categoryDependency,
++      this.inventoryDependencies,
++      this.supplierDependencies,
+     );
+   }
+ 
+@@ -199,6 +279,9 @@ export class ProductoCreadoPayload {
+                 })),
+               },
+             }),
++        ...(variant.suppliers == null
++          ? {}
++          : { suppliers: variant.suppliers.map((s) => s.toJson()) }),
+         sort_order: variant.sortOrder,
+       })),
+       dependencies: [
+@@ -229,6 +312,7 @@ export class ProductoCreadoPayload {
+             ? { depends_on_event_id: dependency.dependsOnEventId }
+             : {}),
+         })),
++        ...this.supplierDependencies.map((d) => d.toJson()),
+       ],
+     };
+   }
+@@ -280,6 +364,7 @@ function parseVariant(
+       : null,
+     inventoryItemId,
+     recipeComponents,
++    suppliers: ProductoProveedorPrecio.parseVariant(variant),
+     sortOrder: nonNegativeSafeInteger(
+       variant.sort_order,
+       `${fieldName}.sort_order`,
+@@ -288,6 +373,13 @@ function parseVariant(
+ }
+ 
+ function validateVariants(variants: ProductoCreadoVariantValue[]): void {
++  if (
++    variants.some((v) => v.suppliers == null) &&
++    variants.some((v) => v.suppliers != null)
++  )
++    throw new Error(
++      'Todas las variantes deben declarar suppliers o conservar su ausencia legada.',
++    );
+   const ids = new Set<string>();
+   const nameKeys = new Set<string>();
+   const inventoryItemIds = new Set<string>();
+diff --git a/src/sync/producto-event.handler.postgres.spec.ts b/src/sync/producto-event.handler.postgres.spec.ts
+index f07d3e2..c08d7e9 100644
+--- a/src/sync/producto-event.handler.postgres.spec.ts
++++ b/src/sync/producto-event.handler.postgres.spec.ts
+@@ -1,3 +1,5 @@
++import { SupplierEntity } from '../entities/supplier.entity';
++import { VariantSupplierEntity } from '../entities/variant-supplier.entity';
+ import { ClienteEntity } from '../entities/cliente.entity';
+ import { SalePaymentEntity } from '../entities/sale-payment.entity';
+ import { SaleEntity } from '../entities/sale.entity';
+@@ -43,6 +45,8 @@ runPostgresIntegration('ProductoEventHandler con PostgreSQL real', () => {
+       ...connection,
+       schema,
+       entities: [
++        SupplierEntity,
++        VariantSupplierEntity,
+         ClienteEntity,
+         SaleEntity,
+         SaleItemEntity,
+diff --git a/src/sync/producto-event.handler.spec.ts b/src/sync/producto-event.handler.spec.ts
+index 1b96032..41f866e 100644
+--- a/src/sync/producto-event.handler.spec.ts
++++ b/src/sync/producto-event.handler.spec.ts
+@@ -396,6 +396,7 @@ describe('ProductoEventHandler', () => {
+ 
+   it('aplica idempotentemente el mismo evento', async () => {
+     const existingEvent = Object.assign(new EventEntity(), {
++      syncStatus: EventSyncStatus.SYNCED,
+       eventId: '00000000-0000-4000-8000-000000000001',
+       serverSequence: '11',
+       createdAtServer: new Date('2026-08-05T20:31:00.000Z'),
+@@ -570,7 +571,16 @@ describe('ProductoEventHandler', () => {
+         active: true,
+         version: 1,
+         lastEventId: '00000000-0000-4000-8000-000000000001',
+-        lastServerSequence: null,
++        lastServerSequence: '1',
++      }),
++      baseEvent: Object.assign(new EventEntity(), {
++        eventId: '00000000-0000-4000-8000-000000000001',
++        aggregateType: 'product',
++        aggregateId: '00000000-0000-4000-8000-000000000002',
++        eventType: 'producto_creado',
++        syncStatus: EventSyncStatus.SYNCED,
++        serverSequence: '1',
++        payload: productPayload(null, null),
+       }),
+       variant: Object.assign(new ProductVariantEntity(), {
+         id: '00000000-0000-4000-8000-000000000003',
+@@ -634,7 +644,16 @@ describe('ProductoEventHandler', () => {
+         active: true,
+         version: 1,
+         lastEventId: '00000000-0000-4000-8000-000000000001',
+-        lastServerSequence: null,
++        lastServerSequence: '1',
++      }),
++      baseEvent: Object.assign(new EventEntity(), {
++        eventId: '00000000-0000-4000-8000-000000000001',
++        aggregateType: 'product',
++        aggregateId: '00000000-0000-4000-8000-000000000002',
++        eventType: 'producto_creado',
++        syncStatus: EventSyncStatus.SYNCED,
++        serverSequence: '1',
++        payload: productPayload(null, null),
+       }),
+       variant: Object.assign(new ProductVariantEntity(), {
+         id: '00000000-0000-4000-8000-000000000003',
+@@ -940,6 +959,7 @@ function managerFixture(
+   ];
+   let sequence = 10;
+   const manager = {
++    query: jest.fn().mockResolvedValue([]),
+     // La comparación de `before` lee las variantes persistidas del producto;
+     // sin ellas, oldValues quedaría vacío y ocultaría la regresión.
+     find: jest.fn(
+diff --git a/src/sync/producto-event.handler.ts b/src/sync/producto-event.handler.ts
+index c4da8d3..b53de60 100644
+--- a/src/sync/producto-event.handler.ts
++++ b/src/sync/producto-event.handler.ts
+@@ -1,3 +1,10 @@
++import { ProductoProveedorDependencia } from './payloads/producto-proveedor-dependencia';
++import { SupplierEntity } from '../entities/supplier.entity';
++import { VariantSupplierEntity } from '../entities/variant-supplier.entity';
++import { ProductoProveedorPrecio } from './payloads/producto-proveedor-precio';
++import { ProveedorCreadoPayload } from './payloads/proveedor-creado.payload';
++import { supplierBaseSequence } from './payloads/supplier-event-envelope';
++import { supplierDuplicateMatches } from './payloads/supplier-event-identity';
+ import { ProductoActualizadoPayload } from './payloads/producto-actualizado.payload';
+ import { randomUUID } from 'crypto';
+ import { Injectable } from '@nestjs/common';
+@@ -17,6 +24,7 @@ import type { PushEventDto, PushEventResultDto } from './dto/push-events.dto';
+ import {
+   ProductoCreadoPayload,
+   productVariantNameRefId,
++  type ProductoCreadoVariantValue,
+   type ProductoCreadoDependencyValue,
+   type ProductoCreadoInventoryDependencyValue,
+ } from './payloads/producto-creado.payload';
+@@ -47,6 +55,33 @@ export class ProductoEventHandler {
+       return this.rejectedResult(event.event_id, identityError);
+     }
+ 
++    await manager.query(
++      'SELECT pg_advisory_xact_lock(hashtextextended($1, 0))',
++      ['event:' + event.event_id.toLowerCase()],
++    );
++    await manager.query(
++      'SELECT pg_advisory_xact_lock(hashtextextended($1, 0))',
++      ['product:' + event.aggregate_id.toLowerCase()],
++    );
++    const prior = await manager.findOneBy(EventEntity, {
++      eventId: event.event_id,
++    });
++    if (prior) {
++      if (!supplierDuplicateMatches(event, prior))
++        return this.rejectedResult(
++          event.event_id,
++          'El event_id ya existe con otro contenido.',
++        );
++      return this.toResult(
++        prior,
++        prior.syncStatus === EventSyncStatus.SYNCED ? 'accepted' : 'duplicate',
++      );
++    }
++    try {
++      supplierBaseSequence(event.base_server_sequence);
++    } catch (error) {
++      return this.rejectedResult(event.event_id, this.errorMessage(error));
++    }
+     let payload: ProductoCreadoPayload;
+     let update: ProductoActualizadoPayload | null = null;
+     try {
+@@ -68,15 +103,6 @@ export class ProductoEventHandler {
+       return this.saveRejectedEvent(manager, event, envelopeError);
+     }
+ 
+-    {
+-      // A creation replay must not resurrect a physically deleted aggregate.
+-      const duplicate = await manager.findOneBy(EventEntity, {
+-        eventId: event.event_id,
+-      });
+-      if (duplicate?.syncStatus === EventSyncStatus.SYNCED)
+-        return this.toResult(duplicate, 'accepted');
+-    }
+-
+     const existingProduct = await manager.findOne(ProductEntity, {
+       where: { id: event.aggregate_id },
+       lock: { mode: 'pessimistic_write' },
+@@ -118,7 +144,34 @@ export class ProductoEventHandler {
+       const variants = await manager.find(ProductVariantEntity, {
+         where: { productId: existingProduct.id, active: true },
+       });
+-      const oldValues = [] as Array<Record<string, unknown>>;
++      const base = await manager.findOneBy(EventEntity, {
++        eventId: update.baseEventId,
++      });
++      if (
++        !base ||
++        base.syncStatus !== EventSyncStatus.SYNCED ||
++        base.aggregateType !== 'product' ||
++        base.aggregateId !== event.aggregate_id ||
++        !this.supports(base.eventType) ||
++        existingProduct.lastServerSequence !== base.serverSequence ||
++        (event.base_server_sequence != null &&
++          supplierBaseSequence(event.base_server_sequence) !==
++            Number(base.serverSequence))
++      )
++        return this.saveRejectedEvent(
++          manager,
++          event,
++          'El evento o secuencia base no corresponde al producto aceptado.',
++        );
++      const baseState =
++        base.eventType === ProductoActualizadoPayload.eventType
++          ? (base.payload.after ?? base.payload.before)
++          : base.payload;
++      const known = ProductoCreadoPayload.knowsSuppliersJson(
++        baseState as Record<string, unknown>,
++      );
++      const oldValues: ProductoCreadoVariantValue[] = [];
++      let hasStoredSuppliers = false;
+       for (const variant of variants.sort(
+         (a, b) => a.sortOrder - b.sortOrder,
+       )) {
+@@ -126,52 +179,56 @@ export class ProductoEventHandler {
+           where: { variantId: variant.id },
+           order: { inventoryItemId: 'ASC' },
+         });
++        const suppliers = await manager.find(VariantSupplierEntity, {
++          where: { variantId: variant.id },
++          order: { supplierId: 'ASC' },
++        });
++        hasStoredSuppliers ||= suppliers.length > 0;
+         oldValues.push({
+           id: variant.id,
+           name: variant.name,
+-          name_key: variant.nameKey,
++          nameKey: variant.nameKey,
+           barcode: variant.barcode,
+-          sale_price_minor: Number(variant.salePriceMinor),
+-          standard_cost_minor:
++          salePriceMinor: Number(variant.salePriceMinor),
++          standardCostMinor:
+             variant.standardCostMinor === null
+               ? null
+               : Number(variant.standardCostMinor),
+-          inventory_item_id: variant.inventoryItemId,
+-          recipe_components: recipe.map((c) => ({
+-            inventory_item_id: c.inventoryItemId,
+-            quantity_atomic: Number(c.quantityAtomic),
++          inventoryItemId: variant.inventoryItemId,
++          recipeComponents: recipe.map((c) => ({
++            inventoryItemId: c.inventoryItemId,
++            quantityAtomic: Number(c.quantityAtomic),
+           })),
+-          sort_order: variant.sortOrder,
++          suppliers: suppliers.map(
++            (row) =>
++              new ProductoProveedorPrecio(
++                row.supplierId,
++                Number(row.quotedPriceMinor),
++                Number(row.quotedAtMs),
++              ),
++          ),
++          sortOrder: variant.sortOrder,
+         });
+       }
+-      const previous = update.before;
+-      if (
+-        previous.name !== existingProduct.name ||
+-        previous.categoryId !== existingProduct.categoryId ||
+-        previous.variants.length !== oldValues.length ||
+-        previous.variants.some((v, index) => {
+-          const old = oldValues[index];
+-          const components = [...v.recipeComponents].sort((a, b) =>
+-            a.inventoryItemId.localeCompare(b.inventoryItemId),
+-          );
+-          return (
+-            v.id !== old.id ||
+-            v.name !== old.name ||
+-            v.nameKey !== old.name_key ||
+-            v.barcode !== old.barcode ||
+-            v.salePriceMinor !== old.sale_price_minor ||
+-            v.standardCostMinor !== old.standard_cost_minor ||
+-            v.inventoryItemId !== old.inventory_item_id ||
+-            v.sortOrder !== old.sort_order ||
+-            JSON.stringify(
+-              components.map((c) => ({
+-                inventory_item_id: c.inventoryItemId,
+-                quantity_atomic: c.quantityAtomic,
+-              })),
+-            ) !== JSON.stringify(old.recipe_components)
+-          );
+-        })
+-      )
++      const current = new ProductoCreadoPayload(
++        existingProduct.name,
++        existingProduct.categoryId,
++        payload.saleConfiguration,
++        oldValues.map((v) => ({
++          ...v,
++          suppliers: known || hasStoredSuppliers ? v.suppliers : null,
++        })),
++        null,
++        [],
++        [
++          ...new Set(
++            oldValues.flatMap((v) =>
++              (v.suppliers ?? []).map((s) => s.supplierId),
++            ),
++          ),
++        ].map((id) => new ProductoProveedorDependencia(id)),
++      );
++      if (!ProductoActualizadoPayload.sameEditingBase(current, update.before))
+         return this.saveRejectedEvent(
+           manager,
+           event,
+@@ -442,6 +499,53 @@ export class ProductoEventHandler {
+       }
+     }
+ 
++    for (const dependency of update?.deleteProduct
++      ? []
++      : payload.supplierDependencies) {
++      const supplier = await manager.findOne(SupplierEntity, {
++        where: { id: dependency.refId },
++        lock: { mode: 'pessimistic_read' },
++      });
++      if (!supplier || !supplier.active)
++        return this.saveConflict(
++          manager,
++          event,
++          payload,
++          `No existe el proveedor ${dependency.refId}.`,
++          'missing_dependency',
++          'supplier',
++          dependency.refId,
++          supplier?.lastEventId ?? null,
++        );
++      if (dependency.dependsOnEventId) {
++        const creation = await manager.findOneBy(EventEntity, {
++          eventId: dependency.dependsOnEventId,
++        });
++        if (!creation || creation.syncStatus !== EventSyncStatus.SYNCED)
++          return this.saveConflict(
++            manager,
++            event,
++            payload,
++            'El alta del proveedor no fue aceptada por el servidor.',
++            'dependency_failed',
++            'supplier',
++            dependency.refId,
++            supplier.createdEventId,
++          );
++        if (
++          creation.eventType !== ProveedorCreadoPayload.eventType ||
++          creation.aggregateType !== 'supplier' ||
++          creation.aggregateId !== supplier.id ||
++          creation.eventId !== supplier.createdEventId
++        )
++          return this.saveRejectedEvent(
++            manager,
++            event,
++            'La dependencia no corresponde al alta aceptada del proveedor.',
++          );
++      }
++    }
++
+     const canonicalEvent: PushEventDto = {
+       ...event,
+       payload: update
+@@ -629,6 +733,22 @@ export class ProductoEventHandler {
+       }
+     }
+ 
++    // Solo conjuntos explícitos reemplazan relaciones. La omisión legada nunca retira.
++    for (const variant of payload.variants) {
++      if (variant.suppliers == null) continue;
++      await manager.delete(VariantSupplierEntity, { variantId: variant.id });
++      if (variant.suppliers.length > 0)
++        await manager.insert(
++          VariantSupplierEntity,
++          variant.suppliers.map((supplier) => ({
++            variantId: variant.id,
++            supplierId: supplier.supplierId,
++            quotedPriceMinor: String(supplier.quotedPriceMinor),
++            quotedAtMs: String(supplier.quotedAtMs),
++          })),
++        );
++    }
++
+     await this.maintainVariantInventoryMemory(
+       manager,
+       event,
+@@ -1134,7 +1254,49 @@ export class ProductoEventHandler {
+           where: { productId: event.aggregate_id },
+         })
+       : [];
++    const supplierStates = update
++      ? [update.before, ...(update.deleteProduct ? [] : [update.after])]
++      : [payload];
++    const supplierRefs = supplierStates.flatMap((state) =>
++      state.variants.flatMap((variant) =>
++        variant.suppliers == null
++          ? []
++          : [
++              {
++                refType: 'variant_suppliers',
++                refId: variant.id,
++                relationship: 'affects',
++              },
++              ...variant.suppliers.map((supplier) => ({
++                refType: 'supplier',
++                refId: supplier.supplierId,
++                relationship: 'uses',
++              })),
++            ],
++      ),
++    );
++    // El borrado lógico incluye también variantes históricas ya inactivas.
++    if (update?.deleteProduct && update.before.knowsSuppliers) {
++      for (const variant of persistedVariantsToDelete) {
++        supplierRefs.push({
++          refType: 'variant_suppliers',
++          refId: variant.id,
++          relationship: 'affects',
++        });
++        const rows = await manager.find(VariantSupplierEntity, {
++          where: { variantId: variant.id },
++        });
++        supplierRefs.push(
++          ...rows.map((row) => ({
++            refType: 'supplier',
++            refId: row.supplierId,
++            relationship: 'uses',
++          })),
++        );
++      }
++    }
+     const rawValues = [
++      ...supplierRefs,
+       ...[
+         ...(update?.removedVariants ?? []),
+         ...persistedVariantsToDelete,
+diff --git a/src/sync/sync.service.spec.ts b/src/sync/sync.service.spec.ts
+index 4821a3d..5652937 100644
+--- a/src/sync/sync.service.spec.ts
++++ b/src/sync/sync.service.spec.ts
+@@ -252,7 +252,10 @@ describe('SyncService', () => {
+           .mockResolvedValueOnce(null)
+           .mockResolvedValueOnce(accepted),
+       };
+-      const manager = {} as EntityManager;
++      const manager = {
++        query: jest.fn().mockResolvedValue([]),
++        findOneBy: jest.fn().mockResolvedValue(null),
++      } as unknown as EntityManager;
+       const dataSource = {
+         getRepository: jest.fn().mockReturnValue(repository),
+         transaction: jest.fn(
+@@ -343,7 +346,10 @@ describe('SyncService', () => {
+           .mockResolvedValueOnce(null)
+           .mockResolvedValueOnce(accepted),
+       };
+-      const manager = {} as EntityManager;
++      const manager = {
++        query: jest.fn().mockResolvedValue([]),
++        findOneBy: jest.fn().mockResolvedValue(null),
++      } as unknown as EntityManager;
+       const dataSource = {
+         getRepository: jest.fn().mockReturnValue(repository),
+         transaction: jest.fn(
+@@ -413,7 +419,10 @@ describe('SyncService', () => {
+           .mockResolvedValueOnce(null)
+           .mockResolvedValueOnce(accepted),
+       };
+-      const manager = {} as EntityManager;
++      const manager = {
++        query: jest.fn().mockResolvedValue([]),
++        findOneBy: jest.fn().mockResolvedValue(null),
++      } as unknown as EntityManager;
+       const dataSource = {
+         getRepository: jest.fn().mockReturnValue(repository),
+         transaction: jest.fn(
+@@ -485,7 +494,10 @@ describe('SyncService', () => {
+           .mockResolvedValueOnce(null)
+           .mockResolvedValueOnce(accepted),
+       };
+-      const manager = {} as EntityManager;
++      const manager = {
++        query: jest.fn().mockResolvedValue([]),
++        findOneBy: jest.fn().mockResolvedValue(null),
++      } as unknown as EntityManager;
+       const dataSource = {
+         getRepository: jest.fn().mockReturnValue(repository),
+         transaction: jest.fn(
+diff --git a/src/sync/sync.service.ts b/src/sync/sync.service.ts
+index 815307e..490f09e 100644
+--- a/src/sync/sync.service.ts
++++ b/src/sync/sync.service.ts
+@@ -1,3 +1,10 @@
++import { ProveedorEventHandler } from './proveedor-event.handler';
++import { SupplierJson } from './payloads/supplier-json';
++import { supplierEnvelopeError } from './payloads/supplier-event-envelope';
++import {
++  isSupplierContractEvent,
++  supplierDuplicateMatches,
++} from './payloads/supplier-event-identity';
+ import { cashDuplicateMatches } from './payloads/cash-event-identity';
+ import { CashOperationPayload } from './payloads/cash-operation.payload';
+ import { CashEventHandler } from './cash-event.handler';
+@@ -125,6 +132,7 @@ export class SyncService {
+     @Optional() private readonly cashEventHandler?: CashEventHandler,
+     @Optional()
+     private readonly accountBalanceBaselineEventHandler?: AccountBalanceBaselineEventHandler,
++    @Optional() private readonly proveedorEventHandler?: ProveedorEventHandler,
+   ) {}
+ 
+   async health(): Promise<SyncHealthResponseDto> {
+@@ -348,12 +356,19 @@ export class SyncService {
+     requestDeviceId: string,
+     event: PushEventDto,
+   ): Promise<PushEventResultDto> {
++    if (isSupplierContractEvent(event)) {
++      const error = supplierEnvelopeError(event);
++      if (error) return this.rejectedResult(event?.event_id, error);
++      event = { ...event, event_id: SupplierJson.uuid(event.event_id, 'event_id'), aggregate_id: SupplierJson.uuid(event.aggregate_id, 'aggregate_id') };
++    }
+     const duplicate = await this.dataSource
+       .getRepository(EventEntity)
+       .findOneBy({ eventId: event.event_id });
+ 
+     if (duplicate) {
+-      if(!cashDuplicateMatches(event,duplicate)) return this.rejectedResult(event.event_id,'El event_id ya existe con otro contenido.');
++      if (!cashDuplicateMatches(event, duplicate) || !supplierDuplicateMatches(event, duplicate)) {
++        return this.rejectedResult(event.event_id, 'El event_id ya existe con otro contenido.');
++      }
+       return this.toResult(
+         duplicate,
+         'duplicate',
+@@ -370,6 +385,8 @@ export class SyncService {
+     const isCashEvent = this.cashEventHandler?.supports(event.event_type) ?? false;
+     const isPaymentEvent =
+       this.abonoClienteEventHandler?.supports(event.event_type) ?? false;
++    const isSupplierEvent =
++      this.proveedorEventHandler?.supports(event.event_type) ?? false;
+     const isClienteEvent =
+       this.clienteEventHandler?.supports(event.event_type) ?? false;
+     const isSaleEvent =
+@@ -394,6 +411,7 @@ export class SyncService {
+       !isInventoryEvent &&
+       !isSaleEvent &&
+       !isClienteEvent &&
++      !isSupplierEvent &&
+       !isPaymentEvent &&
+       !isFinancialCategoryEvent &&
+       !isFinancialEntryEvent &&
+@@ -448,11 +466,25 @@ export class SyncService {
+     }
+ 
+     try {
+-      return await this.dataSource.transaction((manager) => {
++      return await this.dataSource.transaction(async (manager) => {
++        if (isSupplierEvent || isProductEvent) {
++          await manager.query(
++            'SELECT pg_advisory_xact_lock(hashtextextended($1, 0))',
++            ['event:' + event.event_id.toLowerCase()],
++          );
++          const prior = await manager.findOneBy(EventEntity, { eventId: event.event_id });
++          if (prior) {
++            return supplierDuplicateMatches(event, prior)
++              ? this.toResult(prior, 'duplicate', prior.rejectionReason ?? undefined, { originalSyncStatus: prior.syncStatus })
++              : this.rejectedResult(event.event_id, 'El event_id ya existe con otro contenido.');
++          }
++        }
+         if (isCashEvent) return this.cashEventHandler!.apply(manager,event);
+         const applyOperation = () => {
+         if (isPaymentEvent)
+           return this.abonoClienteEventHandler!.apply(manager, event);
++        if (isSupplierEvent)
++          return this.proveedorEventHandler!.apply(manager, event);
+         if (isClienteEvent)
+           return this.clienteEventHandler!.apply(manager, event);
+         if (isSaleEvent) return this.ventaEventHandler!.apply(manager, event);
+@@ -486,7 +518,9 @@ export class SyncService {
+         .findOneBy({ eventId: event.event_id });
+ 
+       if (duplicateAfterRace) {
+-        if(!cashDuplicateMatches(event,duplicateAfterRace)) return this.rejectedResult(event.event_id,'El event_id ya existe con otro contenido.');
++        if (!cashDuplicateMatches(event, duplicateAfterRace) || !supplierDuplicateMatches(event, duplicateAfterRace)) {
++          return this.rejectedResult(event.event_id, 'El event_id ya existe con otro contenido.');
++        }
+         return this.toResult(
+           duplicateAfterRace,
+           'duplicate',
+@@ -495,6 +529,14 @@ export class SyncService {
+         );
+       }
+ 
++      if ((isSupplierEvent || isProductEvent) && event.local_sequence != null) {
++        const sameSequence = await this.dataSource
++          .getRepository(EventEntity)
++          .findOneBy({ deviceId: event.device_id, localSequence: event.local_sequence });
++        if (sameSequence) {
++          return this.rejectedResult(event.event_id, 'La secuencia local ya pertenece a otro evento.');
++        }
++      }
+       if (this.cashEventHandler && (isCashEvent || CashOperationPayload.fromEvent(event)!=null)) return this.dataSource.transaction(manager=>this.cashEventHandler!.conflict(manager,event,'Identidad de caja o movimiento ya utilizada.',isCashEvent?event.aggregate_id:CashOperationPayload.fromEvent(event)!.cash.sessionId));
+       if (isPaymentEvent)
+         return this.dataSource.transaction((manager) =>
+@@ -503,6 +545,10 @@ export class SyncService {
+             event,
+           ),
+         );
++      if (isSupplierEvent)
++        return this.dataSource.transaction((manager) =>
++          this.proveedorEventHandler!.saveUniqueViolationConflict(manager, event),
++        );
+       if (isClienteEvent)
+         return this.dataSource.transaction((manager) =>
+           this.clienteEventHandler!.saveUniqueViolationConflict(manager, event),
+diff --git a/src/testing/variant-tracking-scenario.ts b/src/testing/variant-tracking-scenario.ts
+index 2a5c276..ad8813c 100644
+--- a/src/testing/variant-tracking-scenario.ts
++++ b/src/testing/variant-tracking-scenario.ts
+@@ -232,6 +232,32 @@ export async function seedSharedDirectLink(
+   );
+ 
+   const state = sharedDirectState();
++  // Los fixtures reservan 41 para la base y 42 para la desvinculación.
++  // Acreditar esa base también en la secuencia real del esquema aislado.
++  const fixtureBase = variantTrackingEvent(
++    'producto/producto-directo-a-ninguno.json',
++  ).base_server_sequence;
++  await database.query(
++    "SELECT setval(pg_get_serial_sequence($1, 'server_sequence'), $2, true)",
++    [database.getMetadata(EventEntity).tablePath, Number(fixtureBase) - 1],
++  );
++  const creation = await database.manager.save(
++    database.manager.create(EventEntity, {
++      eventId: VARIANT_TRACKING.evProductoCreado,
++      aggregateType: 'product',
++      aggregateId: VARIANT_TRACKING.productoMolido,
++      eventType: 'producto_creado',
++      deviceId: 'dispositivo-1',
++      userId: 'usuario-1',
++      localSequence: 2,
++      baseServerSequence: null,
++      baseVersion: 1,
++      createdAtLocal: new Date('2026-10-01T12:00:00.000Z'),
++      payload: state,
++      syncStatus: EventSyncStatus.SYNCED,
++      rejectionReason: null,
++    }),
++  );
+   await database.manager.save(
+     database.manager.create(ProductEntity, {
+       id: VARIANT_TRACKING.productoMolido,
+@@ -244,7 +270,7 @@ export async function seedSharedDirectLink(
+       version: 1,
+       createdEventId: VARIANT_TRACKING.evProductoCreado,
+       lastEventId: VARIANT_TRACKING.evProductoCreado,
+-      lastServerSequence: null,
++      lastServerSequence: creation.serverSequence,
+     }),
+   );
+   await database.manager.save(
+@@ -263,25 +289,8 @@ export async function seedSharedDirectLink(
+         version: 1,
+         createdEventId: VARIANT_TRACKING.evProductoCreado,
+         lastEventId: VARIANT_TRACKING.evProductoCreado,
+-        lastServerSequence: null,
++        lastServerSequence: creation.serverSequence,
+       }),
+     ),
+   );
+-  await database.manager.save(
+-    database.manager.create(EventEntity, {
+-      eventId: VARIANT_TRACKING.evProductoCreado,
+-      aggregateType: 'product',
+-      aggregateId: VARIANT_TRACKING.productoMolido,
+-      eventType: 'producto_creado',
+-      deviceId: 'dispositivo-1',
+-      userId: 'usuario-1',
+-      localSequence: 2,
+-      baseServerSequence: null,
+-      baseVersion: 1,
+-      createdAtLocal: new Date('2026-10-01T12:00:00.000Z'),
+-      payload: state,
+-      syncStatus: EventSyncStatus.SYNCED,
+-      rejectionReason: null,
+-    }),
+-  );
+ }

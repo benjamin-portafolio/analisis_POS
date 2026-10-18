@@ -1,0 +1,1082 @@
+{
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/variant_editor_barcode_test.dart": [
+    {
+      "name": "el campo muestra la etiqueta, la ayuda y la pista del video",
+      "result": "success"
+    },
+    {
+      "name": "solo admite dígitos: el teclado numérico descarta letras",
+      "result": "success"
+    },
+    {
+      "name": "no se implementó GENERAR: no existe ese botón",
+      "result": "success"
+    },
+    {
+      "name": "ESCANEAR navega a la pantalla de escaneo",
+      "result": "success"
+    },
+    {
+      "name": "el X cierra la pantalla, devuelve null y no toca el campo",
+      "result": "success"
+    },
+    {
+      "name": "el valor devuelto por la pantalla se setea y lo guarda _save",
+      "result": "success"
+    },
+    {
+      "name": "CodigoBarras rechaza un valor devuelto que no es dígito",
+      "result": "success"
+    },
+    {
+      "name": "ignora lecturas vacías y acepta solo la primera lectura",
+      "result": "success"
+    },
+    {
+      "name": "volver conserva el campo e ignora lecturas durante la salida",
+      "result": "success"
+    },
+    {
+      "name": "pausa la cámara en segundo plano y reanuda la lectura",
+      "result": "success"
+    },
+    {
+      "name": "muestra un mensaje y permite cancelar con MobileScannerErrorCode.permissionDenied",
+      "result": "success"
+    },
+    {
+      "name": "muestra un mensaje y permite cancelar con MobileScannerErrorCode.unsupported",
+      "result": "success"
+    },
+    {
+      "name": "muestra un mensaje y permite cancelar con MobileScannerErrorCode.genericError",
+      "result": "success"
+    },
+    {
+      "name": "un fallo del plugin muestra el error sin dejar la carga activa",
+      "result": "success"
+    },
+    {
+      "name": "libera la cámara si se cierra mientras solicita permiso",
+      "result": "success"
+    },
+    {
+      "name": "rechaza 33 dígitos con el mensaje del value object",
+      "result": "success"
+    },
+    {
+      "name": "guarda el valor normalizado por el value object",
+      "result": "success"
+    },
+    {
+      "name": "un código vacío se guarda como null, no como cadena",
+      "result": "success"
+    },
+    {
+      "name": "el campo precarga el código existente y respeta preview",
+      "result": "success"
+    },
+    {
+      "name": "la fila campo y botón no desborda en pantallas angostas",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/articles_screen_test.dart": [
+    {
+      "name": "abre Artículos con buscador y conserva los otros controles inertes",
+      "result": "success"
+    },
+    {
+      "name": "actualiza conteos y orden sin perder la selección por categoría",
+      "result": "success"
+    },
+    {
+      "name": "muestra catálogo vacío",
+      "result": "success"
+    },
+    {
+      "name": "muestra errores de categorías",
+      "result": "success"
+    },
+    {
+      "name": "no confunde un error de artículos con conteos en cero",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_item_test.dart": [
+    {
+      "name": "ordena por creación descendente y después por orden de variante",
+      "result": "success"
+    },
+    {
+      "name": "el nombre del producto encuentra todas sus variantes",
+      "result": "success"
+    },
+    {
+      "name": "el nombre de variante no incluye las otras variantes del producto",
+      "result": "success"
+    },
+    {
+      "name": "combina palabras del producto y de la misma variante",
+      "result": "success"
+    },
+    {
+      "name": "admite variantes sin nombre y trata comodines como texto literal",
+      "result": "success"
+    },
+    {
+      "name": "excluye artículos inactivos y resuelve empates de forma estable",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/articulos/article_search_screen_test.dart": [
+    {
+      "name": "observa cantidades, conserva el botón al filtrar y lo retira al limpiar",
+      "result": "success"
+    },
+    {
+      "name": "ir a caja desde la búsqueda de artículos selecciona la pestaña caja",
+      "result": "success"
+    },
+    {
+      "name": "abre con recientes de todo el catálogo y regresa a categorías",
+      "result": "success"
+    },
+    {
+      "name": "filtra producto y variante, agrega al tocar el mosaico y limpia",
+      "result": "success"
+    },
+    {
+      "name": "muestra precio, nombre opcional y círculos con color de categoría",
+      "result": "success"
+    },
+    {
+      "name": "observa cambios locales sin perder el texto de búsqueda",
+      "result": "success"
+    },
+    {
+      "name": "admite nombres largos y texto ampliado en teléfono con teclado",
+      "result": "success"
+    },
+    {
+      "name": "venta medida pide cantidad, valida y permite cancelar sin capturar",
+      "result": "success"
+    },
+    {
+      "name": "evita dobles envíos mientras guarda y permite reintentar un fallo",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_receipt_test.dart": [
+    {
+      "name": "recibo de transferencia conserva referencia y excluye efectivo y cambio",
+      "result": "success"
+    },
+    {
+      "name": "cuenta variantes distintas y separa piezas, kilos y litros",
+      "result": "success"
+    },
+    {
+      "name": "genera PNG completo y aumenta su altura con todas las líneas",
+      "result": "success"
+    },
+    {
+      "name": "muestra imagen, habilita compartir y permite una nueva venta",
+      "result": "success"
+    },
+    {
+      "name": "maneja carga, venta ausente y errores del repositorio",
+      "result": "success"
+    },
+    {
+      "name": "comparte el PNG completo una vez y permite cancelar y reabrir",
+      "result": "success"
+    },
+    {
+      "name": "permite reintentar al fallar y salir con el selector abierto",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/pantalla_principal/menu_lateral_test.dart": [
+    {
+      "name": "Configuracion opens local Impresoras in standalone",
+      "result": "success"
+    },
+    {
+      "name": "Configuracion opens local Impresoras in serverSync",
+      "result": "success"
+    },
+    {
+      "name": "ruta del menú espera permiso de navegación y puede denegarse",
+      "result": "success"
+    },
+    {
+      "name": "Configuracion opens settings as a full page",
+      "result": "success"
+    },
+    {
+      "name": "Gestión de inventarios opens inventory management",
+      "result": "success"
+    },
+    {
+      "name": "el badge de inventarios muestra las variantes dadas de alta",
+      "result": "success"
+    },
+    {
+      "name": "Sync settings persists wifi detection preference",
+      "result": "success"
+    },
+    {
+      "name": "Sync settings shows installed mode without mode selector",
+      "result": "success"
+    },
+    {
+      "name": "el menu muestra caja solo con la captura habilitada",
+      "result": "success"
+    },
+    {
+      "name": "Configuracion cambia la captura de caja de la instalacion",
+      "result": "success"
+    },
+    {
+      "name": "Configuracion no cambia la captura con caja abierta",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/caja_screen_test.dart": [
+    {
+      "name": "caja muestra líneas, cantidades e importes y deja acciones pendientes deshabilitadas",
+      "result": "success"
+    },
+    {
+      "name": "cobrar abre efectivo y regresar conserva la venta",
+      "result": "success"
+    },
+    {
+      "name": "no permite cobrar un borrador sin artículos",
+      "result": "success"
+    },
+    {
+      "name": "limpiar envía la venta concreta, bloquea dobles toques y observa el estado vacío",
+      "result": "success"
+    },
+    {
+      "name": "un fallo al limpiar conserva el detalle y permite reintentar",
+      "result": "success"
+    },
+    {
+      "name": "el lápiz abre la edición y cerrar descarta los cambios sin comandar",
+      "result": "success"
+    },
+    {
+      "name": "presenta medidas separadas de piezas con texto ampliado en teléfono estrecho",
+      "result": "success"
+    },
+    {
+      "name": "indicadores acumulan una variante con condiciones distintas y separan medidas",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart": [
+    {
+      "name": "acceso 1 de Caja abre una sola cámara, sin crear venta",
+      "result": "success"
+    },
+    {
+      "name": "acceso 2 de Caja abre una sola cámara, sin crear venta",
+      "result": "success"
+    },
+    {
+      "name": "venta previa, A → B → A, regreso y reapertura en standalone",
+      "result": "success"
+    },
+    {
+      "name": "venta previa, A → B → A, regreso y reapertura en serverSync",
+      "result": "success"
+    },
+    {
+      "name": "20 s de callbacks y tres presentaciones simuladas acumulan solo al rearmar",
+      "result": "success"
+    },
+    {
+      "name": "selección seguida de cantidad medida conserva evento y referencias en standalone",
+      "result": "success"
+    },
+    {
+      "name": "selección seguida de cantidad medida conserva evento y referencias en serverSync",
+      "result": "success"
+    },
+    {
+      "name": "un fallo de detección detiene la cámara y conserva el regreso",
+      "result": "success"
+    },
+    {
+      "name": "desconocido, incompatible, varios códigos e inactivos no escriben",
+      "result": "success"
+    },
+    {
+      "name": "código compartido selecciona producto, variante y precio sin primer resultado automático",
+      "result": "success"
+    },
+    {
+      "name": "cancelar selector y callbacks duplicados/ocultos no repiten el diálogo",
+      "result": "success"
+    },
+    {
+      "name": "venta medida valida y convierte la cantidad con expectedUnitId",
+      "result": "success"
+    },
+    {
+      "name": "cancelar cantidad y pausa del diálogo conservan la venta vacía",
+      "result": "success"
+    },
+    {
+      "name": "una unidad cambiada durante el diálogo falla sin una tarjeta optimista",
+      "result": "success"
+    },
+    {
+      "name": "segundo plano durante cantidad espera confirmación explícita al volver",
+      "result": "success"
+    },
+    {
+      "name": "cancelar selector o cantidad conserva artículos previos",
+      "result": "success"
+    },
+    {
+      "name": "unidad inactiva y variante retirada durante selección no escriben",
+      "result": "success"
+    },
+    {
+      "name": "fallo de consulta o guardado conserva venta previa y permite otra presentación",
+      "result": "success"
+    },
+    {
+      "name": "consulta y guardado lentos serializan admisión y observan presencia",
+      "result": "success"
+    },
+    {
+      "name": "cerrar con botón espera el guardado y descarta callbacks antiguos",
+      "result": "success"
+    },
+    {
+      "name": "cerrar con regreso del sistema espera el guardado y descarta callbacks antiguos",
+      "result": "success"
+    },
+    {
+      "name": "cerrar durante consulta descarta el resultado sin comenzar un guardado",
+      "result": "success"
+    },
+    {
+      "name": "segundo plano y ruta cubierta no acreditan retirada ni aceptan callbacks",
+      "result": "success"
+    },
+    {
+      "name": "consulta pendiente interrumpida por segundo plano no agrega al terminar",
+      "result": "success"
+    },
+    {
+      "name": "consulta pendiente interrumpida por pausa y regreso no agrega al terminar",
+      "result": "success"
+    },
+    {
+      "name": "consulta pendiente interrumpida por otra ruta no agrega al terminar",
+      "result": "success"
+    },
+    {
+      "name": "segundo plano durante guardado conserva un solo commit",
+      "result": "success"
+    },
+    {
+      "name": "referencia vacía se valida antes de escribir en standalone",
+      "result": "success"
+    },
+    {
+      "name": "A ×2 y B ×2, Caja y reinicio SQLite real en standalone",
+      "result": "success"
+    },
+    {
+      "name": "fallo SQLite durante proyección revierte evento, refs y venta en standalone",
+      "result": "success"
+    },
+    {
+      "name": "referencia vacía se valida antes de escribir en serverSync",
+      "result": "success"
+    },
+    {
+      "name": "A ×2 y B ×2, Caja y reinicio SQLite real en serverSync",
+      "result": "success"
+    },
+    {
+      "name": "fallo SQLite durante proyección revierte evento, refs y venta en serverSync",
+      "result": "success"
+    },
+    {
+      "name": "cámara permissionDenied conserva productos previos y regreso disponible",
+      "result": "success"
+    },
+    {
+      "name": "cámara unsupported conserva productos previos y regreso disponible",
+      "result": "success"
+    },
+    {
+      "name": "permiso pendiente al cerrar libera la cámara cuando termina el inicio",
+      "result": "success"
+    },
+    {
+      "name": "permiso pendiente al ir a segundo plano termina detenido y reanuda sin duplicar",
+      "result": "success"
+    },
+    {
+      "name": "snapshots de precios distintos mantienen tarjetas distintas y un artículo",
+      "result": "success"
+    },
+    {
+      "name": "snapshots de unidades distintas no se fusionan visualmente",
+      "result": "success"
+    },
+    {
+      "name": "callback ean13 conserva código y ceros iniciales",
+      "result": "success"
+    },
+    {
+      "name": "callback ean8 conserva código y ceros iniciales",
+      "result": "success"
+    },
+    {
+      "name": "callback upcA conserva código y ceros iniciales",
+      "result": "success"
+    },
+    {
+      "name": "rotar teléfono pequeño con texto ampliado conserva venta y controles",
+      "result": "success"
+    },
+    {
+      "name": "tarjetas desplazables, cámara y total sin overflow en Size(320.0, 640.0), texto 2.0",
+      "result": "success"
+    },
+    {
+      "name": "tarjetas desplazables, cámara y total sin overflow en Size(740.0, 360.0), texto 1.3",
+      "result": "success"
+    },
+    {
+      "name": "tarjetas desplazables, cámara y total sin overflow en Size(1280.0, 800.0), texto 1.0",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_summary_card_test.dart": [
+    {
+      "name": "el bloque de efectivo no cambia y el de transferencias va aparte",
+      "result": "success"
+    },
+    {
+      "name": "ninguna etiqueta del bloque de transferencias dice total ni saldo",
+      "result": "success"
+    },
+    {
+      "name": "periodo vacio lo dice y no muestra ceros pelados",
+      "result": "success"
+    },
+    {
+      "name": "sin saldo inicial declarado no hay ningun total combinado",
+      "result": "success"
+    },
+    {
+      "name": "el periodo por defecto es el turno y el selector cambia a hoy",
+      "result": "success"
+    },
+    {
+      "name": "un fallo de consulta se dice y no tapa el bloque de efectivo",
+      "result": "success"
+    },
+    {
+      "name": "sin caja abierta el bloque no ofrece turno y cae al dia",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/saldo_cuenta_estimado_card_test.dart": [
+    {
+      "name": "con saldo declarado conviven flujo y stock con etiquetas distintas",
+      "result": "success"
+    },
+    {
+      "name": "el total en fondos solo con saldo declarado y efectivo esperado",
+      "result": "success"
+    },
+    {
+      "name": "sin saldo inicial hay aviso con forma de declararlo, no total",
+      "result": "success"
+    },
+    {
+      "name": "el aviso lleva a declarar el saldo inicial",
+      "result": "success"
+    },
+    {
+      "name": "la conciliacion es efimera: diferencia con signo y sin persistir",
+      "result": "success"
+    },
+    {
+      "name": "sin sesion de caja no hay total aunque el saldo este declarado",
+      "result": "success"
+    },
+    {
+      "name": "la conciliacion no se persiste ni se convierte en evento",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/transfer_payment_screen_test.dart": [
+    {
+      "name": "transferencia habilitada sin cliente, límite, doble toque y fallo conserva captura",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/physical_barcode_reader_test.dart": [
+    {
+      "name": "activar una vez y Enter FIFO/repetidos en TargetPlatform.macOS standalone",
+      "result": "success"
+    },
+    {
+      "name": "activar una vez y Enter FIFO/repetidos en TargetPlatform.macOS serverSync",
+      "result": "success"
+    },
+    {
+      "name": "activar una vez y Enter FIFO/repetidos en TargetPlatform.windows standalone",
+      "result": "success"
+    },
+    {
+      "name": "activar una vez y Enter FIFO/repetidos en TargetPlatform.windows serverSync",
+      "result": "success"
+    },
+    {
+      "name": "vacío/repetido, inválidos íntegros, límite sin truncado y NFKC",
+      "result": "success"
+    },
+    {
+      "name": "selector propio conserva FIFO y foco, cancelar=false",
+      "result": "success"
+    },
+    {
+      "name": "cantidad propia conserva cola y foco, cancelar=false",
+      "result": "success"
+    },
+    {
+      "name": "selector propio conserva FIFO y foco, cancelar=true",
+      "result": "success"
+    },
+    {
+      "name": "cantidad propia conserva cola y foco, cancelar=true",
+      "result": "success"
+    },
+    {
+      "name": "error SQLite pausa y reanuda resto sin reintentar fallo",
+      "result": "success"
+    },
+    {
+      "name": "Tab respeta foco de botones y permite reanudación",
+      "result": "success"
+    },
+    {
+      "name": "perder ventana limpia y exige reanudación",
+      "result": "success"
+    },
+    {
+      "name": "perder aplicación limpia y exige reanudación",
+      "result": "success"
+    },
+    {
+      "name": "búsqueda textual vuelve con modo/foco sin capturar en buscador",
+      "result": "success"
+    },
+    {
+      "name": "cobro drena cola y obtiene revisión/total actualizados",
+      "result": "success"
+    },
+    {
+      "name": "desactivar drena; reactivar crea otra sesión",
+      "result": "success"
+    },
+    {
+      "name": "Home espera guardado; descarte no deshace commit y regreso desactivado",
+      "result": "success"
+    },
+    {
+      "name": "menú espera consulta y descarte confirmado invalida respuestas tardías",
+      "result": "success"
+    },
+    {
+      "name": "limpieza espera cola, elimina origen y nueva sesión no recibe lecturas viejas",
+      "result": "success"
+    },
+    {
+      "name": "cotización guarda revisión drenada y nueva captura queda sin cola anterior",
+      "result": "success"
+    },
+    {
+      "name": "edición recibe cantidad posterior al drenaje y al cerrar recupera foco",
+      "result": "success"
+    },
+    {
+      "name": "cámara espera lector, conserva contrato y regresar recupera modo/foco",
+      "result": "success"
+    },
+    {
+      "name": "finalizar con selector visible deja resolverlo y termina las otras lecturas",
+      "result": "success"
+    },
+    {
+      "name": "pausa externa durante cantidad no se reanuda al cerrar diálogo",
+      "result": "success"
+    },
+    {
+      "name": "ruta externa congela consulta y volver exige reanudación",
+      "result": "success"
+    },
+    {
+      "name": "error durante drenaje permite reanudar sin esperar indefinidamente",
+      "result": "success"
+    },
+    {
+      "name": "fuera de macOS/Windows no se muestra modo lector",
+      "result": "success"
+    },
+    {
+      "name": "regreso de Home espera lecturas aceptadas antes de sacar la ruta",
+      "result": "success"
+    },
+    {
+      "name": "pérdida de ventana durante búsqueda conserva modo pausado al volver",
+      "result": "success"
+    },
+    {
+      "name": "cerrar menú sin navegar recupera modo y foco para otras lecturas",
+      "result": "success"
+    },
+    {
+      "name": "error final del drenaje informa antes de cobrar, commit=false",
+      "result": "success"
+    },
+    {
+      "name": "error final del drenaje informa antes de cobrar, commit=true",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/draft_item_edit_test.dart": [
+    {
+      "name": "muestra título, precio, cantidad y controles del modo",
+      "result": "success"
+    },
+    {
+      "name": "+ habilita actualizar, aplica la cantidad y cierra el panel",
+      "result": "success"
+    },
+    {
+      "name": "cantidad inválida deshabilita actualizar y muestra error",
+      "result": "success"
+    },
+    {
+      "name": "cerrar sin actualizar descarta los cambios",
+      "result": "success"
+    },
+    {
+      "name": "− al llegar a cero confirma; cancelar conserva el producto",
+      "result": "success"
+    },
+    {
+      "name": "− al llegar a cero y confirmar elimina y cierra",
+      "result": "success"
+    },
+    {
+      "name": "papelera elimina la línea tras confirmar",
+      "result": "success"
+    },
+    {
+      "name": "línea medida muestra unidad y + suma la referencia del precio",
+      "result": "success"
+    },
+    {
+      "name": "medida inválida deshabilita actualizar con mensaje de error",
+      "result": "success"
+    },
+    {
+      "name": "− se deshabilita cuando la medida no alcanza el paso",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/credit_payment_test.dart": [
+    {
+      "name": "crédito exige seleccionar cliente, filtra y confirma una sola vez",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_confirmation_test.dart": [
+    {
+      "name": "confirma  después de commit y bloquea doble toque",
+      "result": "success"
+    },
+    {
+      "name": "confirma 100 después de commit y bloquea doble toque",
+      "result": "success"
+    },
+    {
+      "name": "confirma 200 después de commit y bloquea doble toque",
+      "result": "success"
+    },
+    {
+      "name": "insuficiente no confirma; fallo conserva captura para revisión",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/sale_barcode_read_coordinator_test.dart": [
+    {
+      "name": "pieza, contrato e idempotencia reales en standalone",
+      "result": "success"
+    },
+    {
+      "name": "pieza, contrato e idempotencia reales en serverSync",
+      "result": "success"
+    },
+    {
+      "name": "desconocido informa sin selección ni escritura",
+      "result": "success"
+    },
+    {
+      "name": "consulta omite producto o variante inactivos",
+      "result": "success"
+    },
+    {
+      "name": "varias coincidencias agregan exclusivamente la seleccionada",
+      "result": "success"
+    },
+    {
+      "name": "cancelar selector no genera comando ni evento",
+      "result": "success"
+    },
+    {
+      "name": "cantidad medida conserva texto y expectedUnitId",
+      "result": "success"
+    },
+    {
+      "name": "cancelar cantidad no genera comando ni evento",
+      "result": "success"
+    },
+    {
+      "name": "unidad inactiva impide solicitar cantidad",
+      "result": "success"
+    },
+    {
+      "name": "cambio de unidad en diálogo lo rechaza el comando real",
+      "result": "success"
+    },
+    {
+      "name": "consulta obsoleta de 001 no abre diálogos ni guarda",
+      "result": "success"
+    },
+    {
+      "name": "consulta obsoleta de 003 no abre diálogos ni guarda",
+      "result": "success"
+    },
+    {
+      "name": "consulta obsoleta de 004 no abre diálogos ni guarda",
+      "result": "success"
+    },
+    {
+      "name": "finalizar desde el aviso de guardado impide iniciar comando",
+      "result": "success"
+    },
+    {
+      "name": "solo confirma agregado después de finalizar el comando",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_gate_test.dart": [
+    {
+      "name": "20 segundos de observaciones positivas: una presentación y una admisión",
+      "result": "success"
+    },
+    {
+      "name": "tres presentaciones con silencio; no necesita capturas vacías",
+      "result": "success"
+    },
+    {
+      "name": "A → B → A admite tres presentaciones incluso antes del umbral",
+      "result": "success"
+    },
+    {
+      "name": "variaciones cortas de observación no rearman; el límite sí",
+      "result": "success"
+    },
+    {
+      "name": "guardado lento observa la etiqueta: no simula retirada",
+      "result": "success"
+    },
+    {
+      "name": "otra presentación durante guardado se admite solo al observarla libre",
+      "result": "success"
+    },
+    {
+      "name": "no encola una presentación que desaparece durante el guardado",
+      "result": "success"
+    },
+    {
+      "name": "diálogo/ruta/segundo plano: pausa y primera observación no rearman",
+      "result": "success"
+    },
+    {
+      "name": "otro código al reanudar sí delimita una nueva presentación",
+      "result": "success"
+    },
+    {
+      "name": "ambigüedad no elige por orden ni rearma una etiqueta que sigue visible",
+      "result": "success"
+    },
+    {
+      "name": "un intento consumido sigue consumido aunque falle o se cancele",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/physical_barcode_reader_controller_test.dart": [
+    {
+      "name": "inicia desactivado y no revive después de terminar",
+      "result": "success"
+    },
+    {
+      "name": "FIFO A → B → A durante consulta real en standalone",
+      "result": "success"
+    },
+    {
+      "name": "FIFO A → B → A durante consulta real en serverSync",
+      "result": "success"
+    },
+    {
+      "name": "tres códigos iguales durante guardado son tres intenciones",
+      "result": "success"
+    },
+    {
+      "name": "trim y NFKC conservan ceros iniciales, vacío no agrega",
+      "result": "success"
+    },
+    {
+      "name": "rechaza íntegramente A001",
+      "result": "success"
+    },
+    {
+      "name": "rechaza íntegramente 00A1",
+      "result": "success"
+    },
+    {
+      "name": "rechaza íntegramente 001A",
+      "result": "success"
+    },
+    {
+      "name": "rechaza íntegramente 00 1",
+      "result": "success"
+    },
+    {
+      "name": "rechaza íntegramente 00\\n1",
+      "result": "success"
+    },
+    {
+      "name": "rechaza íntegramente 111111111111111111111111111111111",
+      "result": "success"
+    },
+    {
+      "name": "acepta el límite de 32 dígitos sin truncarlo",
+      "result": "success"
+    },
+    {
+      "name": "desconocido seguido de conocido continúa sin escribir el primero",
+      "result": "success"
+    },
+    {
+      "name": "selector pausa admisión y conserva FIFO, cancelado=true",
+      "result": "success"
+    },
+    {
+      "name": "selector pausa admisión y conserva FIFO, cancelado=false",
+      "result": "success"
+    },
+    {
+      "name": "cancelar cantidad conserva lo aceptado y no crea evento medido",
+      "result": "success"
+    },
+    {
+      "name": "pausa externa durante diálogo requiere reanudación explícita",
+      "result": "success"
+    },
+    {
+      "name": "pausa durante consulta de 001 congela pasos hasta reanudar",
+      "result": "success"
+    },
+    {
+      "name": "pausa durante consulta de 003 congela pasos hasta reanudar",
+      "result": "success"
+    },
+    {
+      "name": "pausa durante consulta de 004 congela pasos hasta reanudar",
+      "result": "success"
+    },
+    {
+      "name": "pausa durante comando permite commit y congela siguiente consulta",
+      "result": "success"
+    },
+    {
+      "name": "error real SQLite pausa sin reintentar en standalone",
+      "result": "success"
+    },
+    {
+      "name": "error real SQLite pausa sin reintentar en serverSync",
+      "result": "success"
+    },
+    {
+      "name": "error de consulta también pausa y se puede descartar el resto",
+      "result": "success"
+    },
+    {
+      "name": "error después del commit no reintenta una respuesta incierta",
+      "result": "success"
+    },
+    {
+      "name": "pausar desde el estado de diálogo impide presentarlo hasta reanudar",
+      "result": "success"
+    },
+    {
+      "name": "una consulta de la sesión anterior no altera la sesión siguiente",
+      "result": "success"
+    },
+    {
+      "name": "consulta tardía de 001 al descartar no abre diálogo ni comando",
+      "result": "success"
+    },
+    {
+      "name": "consulta tardía de 003 al descartar no abre diálogo ni comando",
+      "result": "success"
+    },
+    {
+      "name": "consulta tardía de 004 al descartar no abre diálogo ni comando",
+      "result": "success"
+    },
+    {
+      "name": "respuesta de diálogo tras terminar no agrega, medida=false",
+      "result": "success"
+    },
+    {
+      "name": "respuesta de diálogo tras terminar no agrega, medida=true",
+      "result": "success"
+    },
+    {
+      "name": "descartar durante guardado espera commit y no inicia la siguiente",
+      "result": "success"
+    },
+    {
+      "name": "notificación de guardado puede terminar sin iniciar comando",
+      "result": "success"
+    },
+    {
+      "name": "notificación de diálogo puede terminar antes de presentarlo",
+      "result": "success"
+    },
+    {
+      "name": "dispose libera listeners y deja finalizar solo el comando iniciado=false",
+      "result": "success"
+    },
+    {
+      "name": "dispose libera listeners y deja finalizar solo el comando iniciado=true",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_read_probe_screen_test.dart": [
+    {
+      "name": "normal, 200ms, marco nativo; normaliza y serializa guardado lento",
+      "result": "success"
+    },
+    {
+      "name": "silencio sin callbacks vacíos: tres presentaciones y A → B → A",
+      "result": "success"
+    },
+    {
+      "name": "ambigüedad e inválidos no ejecutan; un error no repite la presentación",
+      "result": "success"
+    },
+    {
+      "name": "ambigüedad durante guardado observa presencia y muestra aviso al liberarse",
+      "result": "success"
+    },
+    {
+      "name": "un diálogo que cancela suspende cámara y no rearma al regresar",
+      "result": "success"
+    },
+    {
+      "name": "cambio de ruta y segundo plano preservan protección sin frames ocultos",
+      "result": "success"
+    },
+    {
+      "name": "cerrar y reabrir con la misma compuerta no acredita retirada",
+      "result": "success"
+    },
+    {
+      "name": "cerrar espera guardado y descarta callbacks antiguos",
+      "result": "success"
+    },
+    {
+      "name": "cierre con permiso pendiente libera cámara al acabar el inicio",
+      "result": "success"
+    },
+    {
+      "name": "permiso denegado permite cerrar sin aceptar lecturas",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/barcode/barcode_draft_flow_test.dart": [
+    {
+      "name": "compuerta → consulta → comando → evento → borrador en standalone",
+      "result": "success"
+    },
+    {
+      "name": "compuerta → consulta → comando → evento → borrador en serverSync",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_management_test.dart": [
+    {
+      "name": "importes de apertura/conteo permiten cero y mantienen centavos exactos",
+      "result": "success"
+    },
+    {
+      "name": "apertura guarda tras commit y caja actual reacciona",
+      "result": "success"
+    },
+    {
+      "name": "corte muestra diferencia, historial y detalle inmutable",
+      "result": "success"
+    },
+    {
+      "name": "doble toque bloqueado, fallo conserva conteo/nota y permite reintentar",
+      "result": "success"
+    },
+    {
+      "name": "incidencia de entrega visible sin reabrir corte",
+      "result": "success"
+    },
+    {
+      "name": "finanzas selecciona cajón explícitamente y transferencia limpia selección",
+      "result": "success"
+    }
+  ],
+  "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/caja/cash_payment_screen_test.dart": [
+    {
+      "name": "calcula cambio, importe exacto y faltante como en el video",
+      "result": "success"
+    },
+    {
+      "name": "acepta centavos con punto o coma sin redondeos",
+      "result": "success"
+    },
+    {
+      "name": "suma denominaciones desde cero y sobre el importe capturado",
+      "result": "success"
+    },
+    {
+      "name": "se adapta a teléfono estrecho, texto grande y teclado",
+      "result": "success"
+    }
+  ]
+}

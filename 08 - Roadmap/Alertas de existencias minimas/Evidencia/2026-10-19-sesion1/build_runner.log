@@ -1,0 +1,13 @@
+  0s drift_dev on 3580 inputs; lib/application/backup/backup_manifest.dart
+  0s drift_dev on 3580 inputs: 1 skipped; lib/application/backup/backup_scheduler.dart
+  4s drift_dev on 3580 inputs: 229 skipped, 2 output, 37 same; spent 3s analyzing; lib/core/di/application_dependencies.dart
+  5s drift_dev on 3580 inputs: 376 skipped, 3 output, 91 same; spent 4s analyzing; lib/presentation/app/app_restart_scope.dart
+  6s drift_dev on 3580 inputs: 1119 skipped, 63 output, 545 same; spent 5s analyzing; test/presentation/pages/gestion_inventario/articulos/variant_suppliers_editor_test.dart
+  227s drift_dev on 3580 inputs: 2010 skipped, 78 output, 571 same, 100 no-op; spent 222s building, 5s analyzing; lib/presentation/pages/caja/barcode/physical_barcode_reader.dart.types.temp.dart
+  228s drift_dev on 3580 inputs: 2306 skipped, 78 output, 571 same, 180 no-op; spent 222s building, 6s analyzing; test/application/import/articulo_import_batch_service_test.dart.types.temp.dart
+  230s drift_dev on 3580 inputs: 2508 skipped, 78 output, 571 same, 276 no-op; spent 223s building, 6s analyzing; test/presentation/pages/gestion_inventario/articulos/article_form_screen_test.dart.types.temp.dart
+  231s drift_dev on 3580 inputs: 2608 skipped, 78 output, 571 same, 323 no-op; spent 224s building, 6s analyzing
+  0s source_gen:combining_builder on 1790 inputs; lib/application/backup/backup_manifest.dart
+  0s source_gen:combining_builder on 1790 inputs: 554 skipped, 1 output; lib/data/local/drift/app_database.dart.types.temp.dart
+  0s source_gen:combining_builder on 1790 inputs: 1761 skipped, 1 output, 28 no-op
+  Built with build_runner/aot in 233s; wrote 650 outputs.

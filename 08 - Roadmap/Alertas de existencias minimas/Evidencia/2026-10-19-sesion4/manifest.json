@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-19",
+  "heads": {
+    "flutter": "3e8e1edfc0332ac82a2f9fb4eef9d8e2a20ff083",
+    "vault": "b077dc72cc81ddd991ed7cb36daecd6283368ab2",
+    "nest": "dcc29074801e85d49c145f29955a33ef53724dd1"
+  },
+  "flutter_session_files": {
+    "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/minimum_stock_contract.md": "e593e8a3a6333724dc8bf00930ec24fde662ab4849e8202f39b7760690e5412d",
+    "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/offline_feature_flow.md": "ba36d54b1387bfecf61a9f75a7336ca7ffcd72faf09bae3ccb6f778cdb164630",
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/article_form_screen.dart": "b7998550499c6f193240f570a7a45a9f47cd9ea7f15ee96657f158750c5a9fc5",
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_result.dart": "158eff602e91d117e7f5b7048cef995ad15c6ecbe4493f642981162e8e63ae32",
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_preview_form.dart": "79fb587657ffec024a3e4aa9e29407c72fb4a9bd109f26e374c2ee9d8d437128",
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_command.dart": "9851dd0ac469badb19a48db74e57508f4488b05e10a60ea4e8c7669ed9e6edc5",
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart": "8b7d8d843fb19318bc996654bcd59afc0f6f41e48cf3a6dea71f201bb2751ce2",
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/inventory_management_screen.dart": "50d6f5dc2067ef34a53b7926acbb50ea5414204c1f84a6c9f008b7989ea71ba7",
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/models/remaining_stock_item.dart": "f19ba1afd30ee4a9e519efc86d8d044590dfe9964639e0fdbdefd1a3ea79e8f5",
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/remaining_stock_screen.dart": "cde30f5905866a9fb56dde061333dbe2909370d20297baab121ecafa27d49633",
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/widgets/remaining_stock_report_card.dart": "388ca85d15e9abef979ded742b59eb7dd84dc600767118ff562b3415fc2eac7f",
+    "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart": "46e7bee3949f9923bda23c7e81e5e63061a0e4559ac3882962e0e6c9ccdc09f6",
+    "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/reports_screen_test.dart": "ad44fc92074bf26c4d49587cfb5e2316ccf037876b8baf62cc2a1befbe68ab5d"
+  },
+  "vault_session_files": {
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Matriz de aceptacion.md": "631b5588ccfa23b8910abf63b3316b88461bb2de520403044477560baeb42947",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Estado y continuidad.md": "4f8e10d71439709129203e1f008256c42732af56b4033cd5b0c200fa1a77f157",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /03 - Dominio/Modulos/Articulos.md": "107b99fe5585e9f971bfeea5d5ff097c16c9c2604acf52946f35299a55fb9c59",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /05 - Datos/Catalogo e inventario.md": "dfa9a9864abddedebfd4a40c091d95e6a36d7b3f5637311e02f915c5effefea4",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /04 - Sincronizacion/Flujo push pull.md": "9cfb10260fc85b7bbffa9926ba95e09cd6ad5a4d08166f25833f3ddecf8d46b0",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/README.md": "91a16fe66e3ec7b12d4d1264bd9f7d857331e480abc5aee85bd0eb416acc5787",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/baseline.json": "2ca2f4cb62c92e956136eca781b22c2d2946c6f16b4ead9f99ffacc2e5fbfa4c",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/checks.log": "1e622aeffac0d555517760d3d27e76134ad79a5e8acc586e9631a448e963453f",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/dart-analyze-definitivo.log": "647c0365bc804adf3eb128df7629b74b9b1cfe6ac56a0a04d7220f882242b155",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/dart-analyze-final.log": "647c0365bc804adf3eb128df7629b74b9b1cfe6ac56a0a04d7220f882242b155",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/dart-analyze-inicial.log": "647c0365bc804adf3eb128df7629b74b9b1cfe6ac56a0a04d7220f882242b155",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/dart-analyze.log": "48482fb5949ebc8985432b1c6d6d2da3c023b46bfe20830c453691653f14e74f",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/environment-public.json": "6006d7eef6be7f2c3b1450ac23616e6dbc554da0e0868b7e947f85297b42cc33",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/flutter-completo-final.log": "29b68a451176dffd38c1847a1123011f2aeccebda711c572bdd316302c36ca83",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/flutter-completo.log": "ee4e1737a3f5a4507fba9a05fd30204db477d4cd2a618a2728a19c994cd52e39",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/flutter-minimos-cuarta.log": "ef6de8b8ac97105aa8ebde2b9f66ce19c78f45f48bc16bfaa9b56c05bf00eae8",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/flutter-minimos-final.log": "0f01656e6bd98e11b33a5097d09dce77560e704597557546bd245e8abe16cb5b",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/flutter-minimos-inicial.log": "111fdcffedd5bdf0fd8342c9c52ac90ee5990a4ff4056c56612a8325c8599dc4",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/flutter-minimos-quinta.log": "869de7d2a2772333a1cbd3768cba489bc50a20c8bec8cd6d4ec60392db8d4407",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/flutter-minimos-segunda.log": "111fdcffedd5bdf0fd8342c9c52ac90ee5990a4ff4056c56612a8325c8599dc4",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/flutter-minimos-tercera.log": "1b1ac05d3c3f17922ba5a169a467b70a3a638474b2e9933dc2d8e3afb9ff4c34",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/flutter-regresion-editor-informe.log": "4d6b49c67511c924ba56de1d4702b0bd41abcd36b8c17ca3da8e49930fbc1127",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/flutter-reports-final.log": "4eca79b2129a4e8c6f2df0a70270fff7b3d73ec58be62e668fff3bbf6e0d8710",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/preservation.json": "b4aba553a0ae3f37cde43c888d45412b008644287fbc2ff12181a3aa5fdbe576",
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion4/session4-existing-files.diff": "6323df7962ee9382e6f1eea6f9c8256d317ce63c94028cf6bc2109b3d6e0b5f2"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "fecha": "2026-10-19",
+  "heads": {
+    "flutter": "3e8e1edfc0332ac82a2f9fb4eef9d8e2a20ff083",
+    "nest": "dcc29074801e85d49c145f29955a33ef53724dd1",
+    "analisis": "b077dc72cc81ddd991ed7cb36daecd6283368ab2"
+  },
+  "archivos": {
+    "flutter": {
+      "docs/architecture/offline_feature_flow.md": "b5e1175061f2ba6155007fa1fa5c07c5ff1c3a1a5c635afcf6b18bfe15dbded0",
+      "docs/architecture/minimum_stock_contract.md": "718447a3e4fe00f62560bcbee5978c8fa860a5d90ee0d415d38aacc149c47cde",
+      "lib/application/sync/payloads/producto_creado_payload.dart": "b216508fe3277cedc96dcbfa689aac59059519e47deb9ecce12202d8929b32ee",
+      "lib/application/sync/payloads/producto_actualizado_payload.dart": "4c806a0414a42855cc484e6055eac6c2d5a056bb92e5e36a4c1bcfd2ac1eb364",
+      "lib/data/local/drift/tables/product_variants.dart": "fa8bfadef5369e1201d8d07537ae85868670743541875b40b4b5217c1e1a6255",
+      "lib/data/local/drift/current_database_schema.dart": "7d86a759223f9a24db57bed33b786c5c6b3becfcd03408508f1f85dac767e126",
+      "lib/data/local/drift/app_database.g.dart": "b264438b7e93d2e30da46a4fe499414560bc41c28299cdbefe0686965958e462",
+      "test/application/sync/minimum_stock_contract_test.dart": "577f1aefd5813e30be6a4f4fbd530c97844a9a13d5045bcf7332edd84ecb4003",
+      "test/data/local/drift/minimum_stock_schema_test.dart": "a71fd39849ddb947babd626b65c5c8b2384143b04cfec722f5bab15296fb86cd",
+      "test/fixtures/minimum_stock_v1/contracts.json": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295"
+    },
+    "nest": {
+      "docs/minimum_stock_contract.md": "7aaf5f13b7340475db799b479286cd1038a4c9dc519c0a1996562ba9296fb76d",
+      "src/app.module.ts": "b564734ea1a5f17da2914f89f7f6058c079e72c387d5e08009bb0c94028a3a03",
+      "src/entities/product-variant.entity.ts": "3fcd2fa331a65b18af5a215c811067868a230157a9530319d7c32837a56b26d9",
+      "src/sync/payloads/producto-creado.payload.ts": "7be0588fba34d66ec4a142a921c5ff835ccd42e89909b48ef069c730eb95d74c",
+      "src/sync/payloads/producto-actualizado.payload.ts": "a3270d001a06d958852c6af1adfc1d158eede94d3b13f8f03bed93d3b9006479",
+      "src/sync/payloads/minimum-stock-contract.spec.ts": "1bdf954841128abd8960132b3d6f133df51534d238f90dfb4d528290c3c0db07",
+      "src/migrations/1792368000000-AddVariantMinimumStock.ts": "991388f6c9e4c427c498c73e6f377b459b9f0b04b81b52f00bb9680297cf46dd",
+      "src/migrations/1792368000000-AddVariantMinimumStock.postgres.spec.ts": "28567a5fa513d55b562dc8832373a1e148927626471e2064c95fbbf73b45b96b",
+      "test/fixtures/minimum_stock_v1/contracts.json": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295"
+    }
+  },
+  "cambios_flutter_previos_preservados": {
+    "lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart": true,
+    "lib/presentation/pages/gestion_inventario/inventory_management_screen.dart": true,
+    "lib/presentation/pages/informes/reports_screen.dart": true,
+    "test/presentation/pages/informes/beneficio_bruto_card_test.dart": true,
+    "test/presentation/pages/informes/reports_screen_test.dart": true,
+    "test/presentation/pages/informes/sales_by_method_screen_test.dart": true,
+    "lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_command.dart": true,
+    "lib/presentation/pages/informes/models/remaining_stock_item.dart": true,
+    "lib/presentation/pages/informes/remaining_stock_screen.dart": true,
+    "lib/presentation/pages/informes/remaining_stock_variant_editor.dart": true,
+    "lib/presentation/pages/informes/widgets/remaining_stock_report_card.dart": true,
+    "test/presentation/pages/informes/remaining_stock_screen_test.dart": true,
+    "test/presentation/pages/informes/remaining_stock_variant_edit_test.dart": true,
+    "test/support/fake_reports_producto_repository.dart": true,
+    "test/support/remaining_stock_fixture.dart": true
+  },
+  "fixtures_identicos": true,
+  "fixture_sha256": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295",
+  "resultados": {
+    "flutter_focalizadas": {
+      "aprobadas": 57,
+      "fallidas": 0,
+      "omitidas": 0
+    },
+    "flutter_completo": {
+      "aprobadas": 2492,
+      "fallidas": 0,
+      "omitidas_http": 16
+    },
+    "nest_postgres_completo": {
+      "suites": 50,
+      "aprobadas": 567,
+      "fallidas": 0,
+      "omitidas": 0
+    }
+  },
+  "postgres_temporal": {
+    "host": "127.0.0.1",
+    "port": 57079,
+    "database": "pos_cash_test_minimum_stock_session1",
+    "version": "18.4",
+    "detenido": true,
+    "directorio_eliminado": true
+  }
+}

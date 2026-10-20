@@ -1,0 +1,223 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand inventory-event.handler producto-event.handler product-suppliers.postgres sync.service.spec --json --outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Edicion masiva y recepcion de mercancia/Evidencia/2026-10-18-sesion-6/nest-postgres.json
+
+FAIL src/sync/producto-event.handler.postgres.spec.ts
+  ● ProductoEventHandler con PostgreSQL real › desactiva producto y variantes históricas con none conservando inventario
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      727 |   ] as const;
+      728 |   for (const key of required) {
+    > 729 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      730 |   }
+      731 |   return {
+      732 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/producto-event.handler.postgres.spec.ts:729:34)
+      at Object.<anonymous> (sync/producto-event.handler.postgres.spec.ts:40:24)
+
+  ● ProductoEventHandler con PostgreSQL real › desactiva producto y variantes históricas con inventory conservando inventario
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      727 |   ] as const;
+      728 |   for (const key of required) {
+    > 729 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      730 |   }
+      731 |   return {
+      732 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/producto-event.handler.postgres.spec.ts:729:34)
+      at Object.<anonymous> (sync/producto-event.handler.postgres.spec.ts:40:24)
+
+  ● ProductoEventHandler con PostgreSQL real › desactiva producto y variantes históricas con recipe conservando inventario
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      727 |   ] as const;
+      728 |   for (const key of required) {
+    > 729 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      730 |   }
+      731 |   return {
+      732 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/producto-event.handler.postgres.spec.ts:729:34)
+      at Object.<anonymous> (sync/producto-event.handler.postgres.spec.ts:40:24)
+
+  ● ProductoEventHandler con PostgreSQL real › actualiza precios, costo, nombre y orden sin reemplazar identidades
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      727 |   ] as const;
+      728 |   for (const key of required) {
+    > 729 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      730 |   }
+      731 |   return {
+      732 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/producto-event.handler.postgres.spec.ts:729:34)
+      at Object.<anonymous> (sync/producto-event.handler.postgres.spec.ts:40:24)
+
+  ● ProductoEventHandler con PostgreSQL real › rechaza forma de venta adulterada incluso cambiando ambos estados
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      727 |   ] as const;
+      728 |   for (const key of required) {
+    > 729 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      730 |   }
+      731 |   return {
+      732 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/producto-event.handler.postgres.spec.ts:729:34)
+      at Object.<anonymous> (sync/producto-event.handler.postgres.spec.ts:40:24)
+
+  ● ProductoEventHandler con PostgreSQL real › persiste el orden de variantes y refs atómica e idempotentemente
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      727 |   ] as const;
+      728 |   for (const key of required) {
+    > 729 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      730 |   }
+      731 |   return {
+      732 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/producto-event.handler.postgres.spec.ts:729:34)
+      at Object.<anonymous> (sync/producto-event.handler.postgres.spec.ts:40:24)
+
+  ● ProductoEventHandler con PostgreSQL real › una colisión de la segunda variante no escribe parcialmente
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      727 |   ] as const;
+      728 |   for (const key of required) {
+    > 729 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      730 |   }
+      731 |   return {
+      732 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/producto-event.handler.postgres.spec.ts:729:34)
+      at Object.<anonymous> (sync/producto-event.handler.postgres.spec.ts:40:24)
+
+  ● ProductoEventHandler con PostgreSQL real › persiste una receta y su referencia de inventario atómicamente
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      727 |   ] as const;
+      728 |   for (const key of required) {
+    > 729 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      730 |   }
+      731 |   return {
+      732 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/producto-event.handler.postgres.spec.ts:729:34)
+      at Object.<anonymous> (sync/producto-event.handler.postgres.spec.ts:40:24)
+
+FAIL src/sync/inventory-event.handler.postgres.spec.ts
+  ● InventoryEventHandler con PostgreSQL real › aplica atómicamente un movimiento inicial 250
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      281 |   ] as const;
+      282 |   for (const key of required) {
+    > 283 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      284 |   }
+      285 |   return {
+      286 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/inventory-event.handler.postgres.spec.ts:283:34)
+      at Object.<anonymous> (sync/inventory-event.handler.postgres.spec.ts:38:24)
+
+  ● InventoryEventHandler con PostgreSQL real › aplica atómicamente un movimiento inicial -250
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      281 |   ] as const;
+      282 |   for (const key of required) {
+    > 283 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      284 |   }
+      285 |   return {
+      286 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/inventory-event.handler.postgres.spec.ts:283:34)
+      at Object.<anonymous> (sync/inventory-event.handler.postgres.spec.ts:38:24)
+
+  ● InventoryEventHandler con PostgreSQL real › sin movimiento crea balance cero y ninguna cantidad cero
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      281 |   ] as const;
+      282 |   for (const key of required) {
+    > 283 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      284 |   }
+      285 |   return {
+      286 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/inventory-event.handler.postgres.spec.ts:283:34)
+      at Object.<anonymous> (sync/inventory-event.handler.postgres.spec.ts:38:24)
+
+  ● InventoryEventHandler con PostgreSQL real › sincroniza push/pull entre dispositivos sin duplicar el movimiento
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      281 |   ] as const;
+      282 |   for (const key of required) {
+    > 283 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      284 |   }
+      285 |   return {
+      286 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/inventory-event.handler.postgres.spec.ts:283:34)
+      at Object.<anonymous> (sync/inventory-event.handler.postgres.spec.ts:38:24)
+
+  ● InventoryEventHandler con PostgreSQL real › convierte un movement_id duplicado en conflicto funcional
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      281 |   ] as const;
+      282 |   for (const key of required) {
+    > 283 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      284 |   }
+      285 |   return {
+      286 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/inventory-event.handler.postgres.spec.ts:283:34)
+      at Object.<anonymous> (sync/inventory-event.handler.postgres.spec.ts:38:24)
+
+  ● InventoryEventHandler con PostgreSQL real › revierte evento, refs, recurso y balance ante fallo del movimiento
+
+    Falta DATABASE_PASSWORD para la integración.
+
+      281 |   ] as const;
+      282 |   for (const key of required) {
+    > 283 |     if (!process.env[key]) throw new Error(`Falta ${key} para la integración.`);
+          |                                  ^
+      284 |   }
+      285 |   return {
+      286 |     type: 'postgres' as const,
+
+      at postgresConnectionOptions (sync/inventory-event.handler.postgres.spec.ts:283:34)
+      at Object.<anonymous> (sync/inventory-event.handler.postgres.spec.ts:38:24)
+
+
+Test Suites: 2 failed, 4 passed, 6 total
+Tests:       14 failed, 90 passed, 104 total
+Snapshots:   0 total
+Time:        2.204 s
+Ran all test suites matching inventory-event.handler|producto-event.handler|product-suppliers.postgres|sync.service.spec.
+Test results written to: ../analisis /08 - Roadmap/Edicion masiva y recepcion de mercancia/Evidencia/2026-10-18-sesion-6/nest-postgres.json

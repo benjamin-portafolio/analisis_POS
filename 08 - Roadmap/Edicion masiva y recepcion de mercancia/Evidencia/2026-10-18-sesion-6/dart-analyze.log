@@ -1,0 +1,12 @@
+Analyzing pos_flutter...
+
+warning - test/presentation/pages/gestion_inventario/edicion_masiva/recepcion_verificacion_test.dart:4:8 - Unused import: 'package:drift/drift.dart'. Try removing the import directive. - unused_import
+   info - test/integration/recepcion_masiva_server_test.dart:59:9 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - test/integration/recepcion_masiva_server_test.dart:455:9 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - tool/benchmarks/recepcion_masiva_verification.dart:28:9 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - tool/benchmarks/recepcion_masiva_verification.dart:163:23 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - tool/benchmarks/recepcion_masiva_verification.dart:206:19 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - tool/benchmarks/recepcion_masiva_verification.dart:208:19 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - tool/benchmarks/recepcion_masiva_verification.dart:269:17 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+
+8 issues found.

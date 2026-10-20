@@ -1,0 +1,263 @@
+{
+  "account_balance_baselines": [],
+  "cash_movements": [],
+  "cash_sessions": [],
+  "categories": [],
+  "clientes": [],
+  "credit_allocations": [],
+  "credit_sales": [],
+  "customer_payments": [],
+  "espacios": [],
+  "event_refs": [],
+  "events": [
+    {
+      "event_id": "bd15d31f-911a-42f8-87b0-5dda82f809f4",
+      "aggregate_type": "inventory_item",
+      "aggregate_id": "91480f87-4664-4ee4-9ea9-5e0a785cdbf9",
+      "event_type": "recurso_inventario_creado",
+      "device_id": "supplier-device",
+      "user_id": "supplier-user",
+      "local_sequence": 1,
+      "server_sequence": null,
+      "base_server_sequence": null,
+      "base_version": 1,
+      "created_at_local": 1792363481,
+      "created_at_server": null,
+      "payload": "{\"inventory_item\":{\"inventory_item_id\":\"91480f87-4664-4ee4-9ea9-5e0a785cdbf9\",\"name\":\"CSV Manual Café · Chica\",\"default_unit_id\":\"10000000-0000-4000-8000-000000000001\",\"origin_variant_id\":\"a16c88ec-8b90-4b35-aff6-af446262d19f\"},\"initial_movement\":{\"movement_id\":\"48e7215f-6b2b-42f7-a312-79dfc8c08943\",\"movement_type\":\"initial_balance\",\"quantity_delta_atomic\":12,\"reason\":null,\"reversal_of_movement_id\":null,\"total_cost_minor\":null}}",
+      "application_status": "applied",
+      "delivery_status": "not_required",
+      "rejection_reason": null
+    },
+    {
+      "event_id": "bcea003d-a69e-426d-bd0a-009159d08afc",
+      "aggregate_type": "product",
+      "aggregate_id": "e5cfb02b-98c7-457e-88d8-610a9b2c2676",
+      "event_type": "producto_creado",
+      "device_id": "supplier-device",
+      "user_id": "supplier-user",
+      "local_sequence": 2,
+      "server_sequence": null,
+      "base_server_sequence": null,
+      "base_version": 1,
+      "created_at_local": 1792363481,
+      "created_at_server": null,
+      "payload": "{\"product\":{\"name\":\"CSV Manual Café\",\"category_id\":null,\"sale_configuration\":{\"mode\":\"unit\"}},\"variants\":[{\"variant_id\":\"a16c88ec-8b90-4b35-aff6-af446262d19f\",\"name\":\"Chica\",\"sku\":null,\"barcode\":\"00123\",\"sale_price_minor\":2500,\"standard_cost_minor\":1000,\"inventory_item_id\":\"91480f87-4664-4ee4-9ea9-5e0a785cdbf9\",\"suppliers\":[],\"sort_order\":0},{\"variant_id\":\"69959333-7e81-4d0c-a8f5-a2580f67b47b\",\"name\":\"Grande\",\"sku\":null,\"barcode\":\"00456\",\"sale_price_minor\":3500,\"standard_cost_minor\":1500,\"suppliers\":[],\"sort_order\":1}],\"dependencies\":[{\"ref_type\":\"inventory_item\",\"ref_id\":\"91480f87-4664-4ee4-9ea9-5e0a785cdbf9\",\"depends_on_event_id\":\"bd15d31f-911a-42f8-87b0-5dda82f809f4\"}]}",
+      "application_status": "applied",
+      "delivery_status": "not_required",
+      "rejection_reason": null
+    },
+    {
+      "event_id": "1fa32061-573d-40e8-9bd2-e8d541cd6c50",
+      "aggregate_type": "product",
+      "aggregate_id": "83504f88-73a4-4ff9-93df-aaaa3183e076",
+      "event_type": "producto_creado",
+      "device_id": "supplier-device",
+      "user_id": "supplier-user",
+      "local_sequence": 3,
+      "server_sequence": null,
+      "base_server_sequence": null,
+      "base_version": 1,
+      "created_at_local": 1792363481,
+      "created_at_server": null,
+      "payload": "{\"product\":{\"name\":\"CSV Manual Agua\",\"category_id\":null,\"sale_configuration\":{\"mode\":\"unit\"}},\"variants\":[{\"variant_id\":\"7c507cd0-0139-4f9d-85dc-3647642f5232\",\"name\":null,\"sku\":null,\"barcode\":null,\"sale_price_minor\":1800,\"standard_cost_minor\":null,\"suppliers\":[],\"sort_order\":0}],\"dependencies\":[]}",
+      "application_status": "applied",
+      "delivery_status": "not_required",
+      "rejection_reason": null
+    }
+  ],
+  "financial_categories": [],
+  "financial_entries": [],
+  "inventory_balances": [
+    {
+      "inventory_item_id": "91480f87-4664-4ee4-9ea9-5e0a785cdbf9",
+      "quantity_on_hand_atomic": 12,
+      "quantity_available_atomic": 12,
+      "version": 1,
+      "last_event_id": "bd15d31f-911a-42f8-87b0-5dda82f809f4",
+      "last_server_sequence": null
+    }
+  ],
+  "inventory_item_discards": [],
+  "inventory_items": [
+    {
+      "id": "91480f87-4664-4ee4-9ea9-5e0a785cdbf9",
+      "active": 1,
+      "version": 1,
+      "created_event_id": "bd15d31f-911a-42f8-87b0-5dda82f809f4",
+      "last_event_id": "bd15d31f-911a-42f8-87b0-5dda82f809f4",
+      "last_server_sequence": null,
+      "default_unit_id": "10000000-0000-4000-8000-000000000001",
+      "name": "CSV Manual Café · Chica",
+      "origin_variant_id": "a16c88ec-8b90-4b35-aff6-af446262d19f"
+    }
+  ],
+  "inventory_movements": [
+    {
+      "movement_id": "48e7215f-6b2b-42f7-a312-79dfc8c08943",
+      "inventory_item_id": "91480f87-4664-4ee4-9ea9-5e0a785cdbf9",
+      "sale_item_id": null,
+      "event_id": "bd15d31f-911a-42f8-87b0-5dda82f809f4",
+      "reversal_of_movement_id": null,
+      "movement_type": "initial_balance",
+      "quantity_delta_atomic": 12,
+      "total_cost_minor": null,
+      "reason": null,
+      "created_at_local": 1792363481,
+      "server_sequence": null
+    }
+  ],
+  "product_update_undo": [],
+  "product_variants": [
+    {
+      "id": "a16c88ec-8b90-4b35-aff6-af446262d19f",
+      "active": 1,
+      "version": 1,
+      "created_event_id": "bcea003d-a69e-426d-bd0a-009159d08afc",
+      "last_event_id": "bcea003d-a69e-426d-bd0a-009159d08afc",
+      "last_server_sequence": null,
+      "product_id": "e5cfb02b-98c7-457e-88d8-610a9b2c2676",
+      "name": "Chica",
+      "name_key": "chica",
+      "barcode": "00123",
+      "sale_price_minor": 2500,
+      "standard_cost_minor": 1000,
+      "inventory_item_id": "91480f87-4664-4ee4-9ea9-5e0a785cdbf9",
+      "sort_order": 0
+    },
+    {
+      "id": "69959333-7e81-4d0c-a8f5-a2580f67b47b",
+      "active": 1,
+      "version": 1,
+      "created_event_id": "bcea003d-a69e-426d-bd0a-009159d08afc",
+      "last_event_id": "bcea003d-a69e-426d-bd0a-009159d08afc",
+      "last_server_sequence": null,
+      "product_id": "e5cfb02b-98c7-457e-88d8-610a9b2c2676",
+      "name": "Grande",
+      "name_key": "grande",
+      "barcode": "00456",
+      "sale_price_minor": 3500,
+      "standard_cost_minor": 1500,
+      "inventory_item_id": null,
+      "sort_order": 1
+    },
+    {
+      "id": "7c507cd0-0139-4f9d-85dc-3647642f5232",
+      "active": 1,
+      "version": 1,
+      "created_event_id": "1fa32061-573d-40e8-9bd2-e8d541cd6c50",
+      "last_event_id": "1fa32061-573d-40e8-9bd2-e8d541cd6c50",
+      "last_server_sequence": null,
+      "product_id": "83504f88-73a4-4ff9-93df-aaaa3183e076",
+      "name": null,
+      "name_key": null,
+      "barcode": null,
+      "sale_price_minor": 1800,
+      "standard_cost_minor": null,
+      "inventory_item_id": null,
+      "sort_order": 0
+    }
+  ],
+  "products": [
+    {
+      "id": "e5cfb02b-98c7-457e-88d8-610a9b2c2676",
+      "active": 1,
+      "version": 1,
+      "created_event_id": "bcea003d-a69e-426d-bd0a-009159d08afc",
+      "last_event_id": "bcea003d-a69e-426d-bd0a-009159d08afc",
+      "last_server_sequence": null,
+      "name": "CSV Manual Café",
+      "category_id": null,
+      "sale_mode": "unit",
+      "sale_unit_id": null,
+      "price_reference_quantity_atomic": null
+    },
+    {
+      "id": "83504f88-73a4-4ff9-93df-aaaa3183e076",
+      "active": 1,
+      "version": 1,
+      "created_event_id": "1fa32061-573d-40e8-9bd2-e8d541cd6c50",
+      "last_event_id": "1fa32061-573d-40e8-9bd2-e8d541cd6c50",
+      "last_server_sequence": null,
+      "name": "CSV Manual Agua",
+      "category_id": null,
+      "sale_mode": "unit",
+      "sale_unit_id": null,
+      "price_reference_quantity_atomic": null
+    }
+  ],
+  "quotation_items": [],
+  "quotations": [],
+  "recipe_components": [],
+  "sale_items": [],
+  "sale_payments": [],
+  "sales": [],
+  "sqlite_sequence": [
+    {
+      "name": "events",
+      "seq": 3
+    }
+  ],
+  "suppliers": [],
+  "sync_checkpoints": [],
+  "units": [
+    {
+      "unit_id": "10000000-0000-4000-8000-000000000001",
+      "code": "piece",
+      "name": "Pieza",
+      "symbol": "pza",
+      "dimension": "count",
+      "atomic_factor": 1,
+      "max_fraction_digits": 0,
+      "active": 1
+    },
+    {
+      "unit_id": "10000000-0000-4000-8000-000000000002",
+      "code": "g",
+      "name": "Gramo",
+      "symbol": "g",
+      "dimension": "mass",
+      "atomic_factor": 1,
+      "max_fraction_digits": 0,
+      "active": 1
+    },
+    {
+      "unit_id": "10000000-0000-4000-8000-000000000003",
+      "code": "kg",
+      "name": "Kilogramo",
+      "symbol": "kg",
+      "dimension": "mass",
+      "atomic_factor": 1000,
+      "max_fraction_digits": 3,
+      "active": 1
+    },
+    {
+      "unit_id": "10000000-0000-4000-8000-000000000004",
+      "code": "ml",
+      "name": "Mililitro",
+      "symbol": "ml",
+      "dimension": "volume",
+      "atomic_factor": 1,
+      "max_fraction_digits": 0,
+      "active": 1
+    },
+    {
+      "unit_id": "10000000-0000-4000-8000-000000000005",
+      "code": "l",
+      "name": "Litro",
+      "symbol": "L",
+      "dimension": "volume",
+      "atomic_factor": 1000,
+      "max_fraction_digits": 3,
+      "active": 1
+    }
+  ],
+  "variant_inventory_memory": [
+    {
+      "variant_id": "a16c88ec-8b90-4b35-aff6-af446262d19f",
+      "inventory_item_id": "91480f87-4664-4ee4-9ea9-5e0a785cdbf9",
+      "source_event_id": "bcea003d-a69e-426d-bd0a-009159d08afc",
+      "source_server_sequence": null
+    }
+  ],
+  "variant_suppliers": []
+}

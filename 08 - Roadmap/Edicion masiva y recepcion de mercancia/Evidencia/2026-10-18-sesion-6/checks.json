@@ -1,0 +1,269 @@
+[
+  {
+    "name": "dart-analyze-final",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "args": [
+      "dart",
+      "analyze"
+    ],
+    "synthetic_environment": {
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "63518",
+      "DATABASE_USER": "recepcion_s6",
+      "DATABASE_PASSWORD": "",
+      "DATABASE_NAME": "pos_nest_test_recepcion_s6",
+      "POS_BULK_SYNC_URL": "http://127.0.0.1:63523",
+      "POS_BULK_PG_SCHEMA": "seg_phase3_http_36740_1792384351269",
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64070",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_38507_1792384609989",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:64071"
+    },
+    "exit_code": 0,
+    "seconds": 5.033
+  },
+  {
+    "name": "flutter-test-final",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "args": [
+      "flutter",
+      "test",
+      "--concurrency=2",
+      "--reporter",
+      "expanded"
+    ],
+    "synthetic_environment": {
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "63518",
+      "DATABASE_USER": "recepcion_s6",
+      "DATABASE_PASSWORD": "",
+      "DATABASE_NAME": "pos_nest_test_recepcion_s6",
+      "POS_BULK_SYNC_URL": "http://127.0.0.1:63523",
+      "POS_BULK_PG_SCHEMA": "seg_phase3_http_36740_1792384351269",
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64070",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_38507_1792384609989",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:64071"
+    },
+    "exit_code": 0,
+    "seconds": 192.393
+  },
+  {
+    "name": "nest-build",
+    "cwd": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest",
+    "args": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "synthetic_environment": {
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "63518",
+      "DATABASE_USER": "recepcion_s6",
+      "DATABASE_PASSWORD": "",
+      "DATABASE_NAME": "pos_nest_test_recepcion_s6",
+      "POS_BULK_SYNC_URL": "http://127.0.0.1:63523",
+      "POS_BULK_PG_SCHEMA": "seg_phase3_http_36740_1792384351269",
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64070",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_38507_1792384609989",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:64071"
+    },
+    "exit_code": 0,
+    "seconds": 2.512
+  },
+  {
+    "name": "nest-postgres",
+    "cwd": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest",
+    "args": [
+      "npm",
+      "test",
+      "--",
+      "--runInBand",
+      "inventory-event.handler",
+      "producto-event.handler",
+      "product-suppliers.postgres",
+      "sync.service.spec",
+      "--json",
+      "--outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Edicion masiva y recepcion de mercancia/Evidencia/2026-10-18-sesion-6/nest-postgres.json"
+    ],
+    "synthetic_environment": {
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "63518",
+      "DATABASE_USER": "recepcion_s6",
+      "DATABASE_PASSWORD": "",
+      "DATABASE_NAME": "pos_nest_test_recepcion_s6",
+      "POS_BULK_SYNC_URL": "http://127.0.0.1:63523",
+      "POS_BULK_PG_SCHEMA": "seg_phase3_http_36740_1792384351269",
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64070",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_38507_1792384609989",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:64071"
+    },
+    "exit_code": 1,
+    "seconds": 2.668
+  },
+  {
+    "name": "harness-typecheck",
+    "cwd": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest",
+    "args": [
+      "npx",
+      "tsc",
+      "--noEmit",
+      "--skipLibCheck",
+      "--experimentalDecorators",
+      "--emitDecoratorMetadata",
+      "--strictNullChecks",
+      "--target",
+      "ES2023",
+      "--module",
+      "commonjs",
+      "--esModuleInterop",
+      "test/support/variant-tracking-server.ts"
+    ],
+    "synthetic_environment": {
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "63518",
+      "DATABASE_USER": "recepcion_s6",
+      "DATABASE_PASSWORD": "",
+      "DATABASE_NAME": "pos_nest_test_recepcion_s6",
+      "POS_BULK_SYNC_URL": "http://127.0.0.1:63523",
+      "POS_BULK_PG_SCHEMA": "seg_phase3_http_36740_1792384351269",
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64070",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_38507_1792384609989",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:64071"
+    },
+    "exit_code": 0,
+    "seconds": 1.021
+  },
+  {
+    "name": "nest-postgres-final",
+    "args": [
+      "npm",
+      "test",
+      "--",
+      "--runInBand",
+      "inventory-event.handler",
+      "producto-event.handler",
+      "product-suppliers.postgres",
+      "sync.service.spec",
+      "--json",
+      "--outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Edicion masiva y recepcion de mercancia/Evidencia/2026-10-18-sesion-6/nest-postgres.json"
+    ],
+    "exit_code": 0,
+    "seconds": 2.8937561250000003,
+    "environment": {
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "63518",
+      "DATABASE_USER": "recepcion_s6",
+      "DATABASE_PASSWORD": "isolated-test",
+      "DATABASE_NAME": "pos_nest_test_recepcion_s6",
+      "RUN_POSTGRES_INTEGRATION": "1"
+    }
+  },
+  {
+    "name": "dart-analyze-final",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "args": [
+      "dart",
+      "analyze"
+    ],
+    "synthetic_environment": {
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "63518",
+      "DATABASE_USER": "recepcion_s6",
+      "DATABASE_PASSWORD": "isolated-test",
+      "DATABASE_NAME": "pos_nest_test_recepcion_s6",
+      "POS_BULK_SYNC_URL": "http://127.0.0.1:63523",
+      "POS_BULK_PG_SCHEMA": "seg_phase3_http_36740_1792384351269",
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64070",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_38507_1792384609989",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:64071"
+    },
+    "exit_code": 0,
+    "seconds": 5.298
+  },
+  {
+    "name": "flutter-test-final",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "args": [
+      "flutter",
+      "test",
+      "--concurrency=2",
+      "--reporter",
+      "expanded"
+    ],
+    "synthetic_environment": {
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "63518",
+      "DATABASE_USER": "recepcion_s6",
+      "DATABASE_PASSWORD": "isolated-test",
+      "DATABASE_NAME": "pos_nest_test_recepcion_s6",
+      "POS_BULK_SYNC_URL": "http://127.0.0.1:63523",
+      "POS_BULK_PG_SCHEMA": "seg_phase3_http_36740_1792384351269",
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64070",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_38507_1792384609989",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:64071"
+    },
+    "exit_code": 0,
+    "seconds": 199.388
+  },
+  {
+    "name": "benchmark-final",
+    "args": [
+      "flutter",
+      "test",
+      "tool/benchmarks/recepcion_masiva_verification.dart",
+      "--reporter",
+      "expanded"
+    ],
+    "exit_code": 0,
+    "seconds": 32.93674975,
+    "environment": {
+      "BULK_BENCH_OUT": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Edicion masiva y recepcion de mercancia/Evidencia/2026-10-18-sesion-6/mediciones.json"
+    }
+  },
+  {
+    "name": "dart-analyze-final",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "args": [
+      "dart",
+      "analyze"
+    ],
+    "synthetic_environment": {
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "63518",
+      "DATABASE_USER": "recepcion_s6",
+      "DATABASE_PASSWORD": "isolated-test",
+      "DATABASE_NAME": "pos_nest_test_recepcion_s6",
+      "POS_BULK_SYNC_URL": "http://127.0.0.1:63523",
+      "POS_BULK_PG_SCHEMA": "seg_phase3_http_36740_1792384351269",
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64070",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_38507_1792384609989",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:64071"
+    },
+    "exit_code": 0,
+    "seconds": 5.144
+  },
+  {
+    "name": "flutter-test-final",
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "args": [
+      "flutter",
+      "test",
+      "--concurrency=2",
+      "--reporter",
+      "expanded"
+    ],
+    "synthetic_environment": {
+      "DATABASE_HOST": "127.0.0.1",
+      "DATABASE_PORT": "63518",
+      "DATABASE_USER": "recepcion_s6",
+      "DATABASE_PASSWORD": "isolated-test",
+      "DATABASE_NAME": "pos_nest_test_recepcion_s6",
+      "POS_BULK_SYNC_URL": "http://127.0.0.1:63523",
+      "POS_BULK_PG_SCHEMA": "seg_phase3_http_36740_1792384351269",
+      "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:64070",
+      "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_38507_1792384609989",
+      "POS_PHASE3_SYNC_URL": "http://127.0.0.1:64071"
+    },
+    "exit_code": 0,
+    "seconds": 187.357
+  }
+]

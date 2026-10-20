@@ -1,0 +1,30 @@
+ M docs/architecture/offline_feature_flow.md
+ M lib/application/commands/articulos/producto_command_service.dart
+ M lib/application/commands/inventario/inventory_command_service.dart
+ M lib/core/di/application_dependencies.dart
+ M lib/data/local/drift/app_database.dart
+ M lib/data/local/drift/app_database.g.dart
+ M lib/data/local/drift/current_database_schema.dart
+ M lib/presentation/pages/gestion_inventario/inventory_management_screen.dart
+ M lib/presentation/pages/gestion_inventario/widgets/inventory_add_options_bottom_sheet.dart
+ M test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart
+?? docs/architecture/bulk_receipt_operations.md
+?? lib/application/commands/articulos/editar_articulo_comercial_command.dart
+?? lib/application/commands/articulos/editar_articulo_comercial_result.dart
+?? lib/application/commands/edicion_masiva/
+?? lib/application/commands/inventario/registrar_entrada_confirmada_command.dart
+?? lib/application/commands/inventario/registrar_entrada_confirmada_result.dart
+?? lib/application/edicion_masiva/
+?? lib/data/local/drift/daos/bulk_edit_operation_dao.dart
+?? lib/data/local/drift/drift_diario_edicion_masiva.dart
+?? lib/data/local/drift/tables/bulk_edit_operations.dart
+?? lib/data/repositories/drift_catalogo_edicion_masiva.dart
+?? lib/domain/articulos/importe_comercial_codec.dart
+?? lib/presentation/pages/gestion_inventario/edicion_masiva/
+?? test/application/commands/articulos/editar_articulo_comercial_test.dart
+?? test/application/commands/edicion_masiva/
+?? test/core/di/edicion_masiva_dependencies_test.dart
+?? test/domain/articulos/importe_comercial_codec_test.dart
+?? test/presentation/pages/gestion_inventario/edicion_masiva/
+?? test/support/recepcion_masiva_crash_worker.dart
+?? test/support/recepcion_masiva_fixture.dart

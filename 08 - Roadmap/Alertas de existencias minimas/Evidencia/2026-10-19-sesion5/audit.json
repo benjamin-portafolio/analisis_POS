@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-10-19T15:42:22.426887+00:00",
+  "cases_42_linked": true,
+  "session5_wikilinks_valid": true,
+  "production_sources_unchanged": true,
+  "other_plans_unchanged": true,
+  "historical_evidence_unchanged": true,
+  "unexpected_changes": 0,
+  "full_flutter_passed": 2567,
+  "full_flutter_failed": 0,
+  "full_flutter_skipped": 0,
+  "http_included": 23,
+  "affected_suites_final_passed": 68,
+  "physical_test": "pending A42"
+}

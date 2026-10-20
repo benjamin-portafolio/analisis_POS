@@ -1,0 +1,25 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart
+Error: Couldn't resolve the package 'csv' in 'package:csv/csv.dart'.
+test/application/commands/articulos/actualizar_articulo_csv_test.dart:28:8: Error: Not found: 'package:csv/csv.dart'
+import 'package:csv/csv.dart';
+       ^
+test/application/commands/articulos/actualizar_articulo_csv_test.dart:219:28: Error: Couldn't find constructor 'CsvToListConverter'.
+        final rows = const CsvToListConverter(
+                           ^^^^^^^^^^^^^^^^^^
+test/application/commands/articulos/actualizar_articulo_csv_test.dart:233:27: Error: Couldn't find constructor 'ListToCsvConverter'.
+        final csv = const ListToCsvConverter().convert([edited, row]);
+                          ^^^^^^^^^^^^^^^^^^
+00:00 +0 -1: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart [E]
+  Failed to load "/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart":
+  Compilation failed for testPath=/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: Error: Couldn't resolve the package 'csv' in 'package:csv/csv.dart'.
+  test/application/commands/articulos/actualizar_articulo_csv_test.dart:28:8: Error: Not found: 'package:csv/csv.dart'
+  import 'package:csv/csv.dart';
+         ^
+  test/application/commands/articulos/actualizar_articulo_csv_test.dart:219:28: Error: Couldn't find constructor 'CsvToListConverter'.
+          final rows = const CsvToListConverter(
+                             ^^^^^^^^^^^^^^^^^^
+  test/application/commands/articulos/actualizar_articulo_csv_test.dart:233:27: Error: Couldn't find constructor 'ListToCsvConverter'.
+          final csv = const ListToCsvConverter().convert([edited, row]);
+                            ^^^^^^^^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.

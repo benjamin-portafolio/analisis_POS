@@ -1,0 +1,16 @@
+{
+  "DATABASE_HOST": "127.0.0.1",
+  "DATABASE_PORT": "52886",
+  "DATABASE_NAME": "pos_nest_test_minimum_stock_session5",
+  "POS_MINIMUM_SYNC_URL": "http://127.0.0.1:52900",
+  "minimum_schema": "seg_phase3_http_10164_1792423571791",
+  "POS_MINIMUM_PG_SCHEMA": "seg_phase3_http_10164_1792423571791",
+  "POS_PHASE3_SYNC_URL": "http://127.0.0.1:52902",
+  "tracking_schema": "seg_phase3_http_10165_1792423571805",
+  "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:52899",
+  "suppliers_schema": "seg_phase3_http_10166_1792423571784",
+  "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_10166_1792423571784",
+  "POS_BULK_SYNC_URL": "http://127.0.0.1:52901",
+  "bulk_schema": "seg_phase3_http_10167_1792423571796",
+  "POS_BULK_PG_SCHEMA": "seg_phase3_http_10167_1792423571796"
+}

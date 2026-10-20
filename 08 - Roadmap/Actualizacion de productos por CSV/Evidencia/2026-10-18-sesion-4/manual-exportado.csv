@@ -1,0 +1,4 @@
+﻿product_id,variant_id,categoria,nombre_articulo,tipo_venta,unidad_venta,nombre_variante,precio_venta,precio_coste,seguimiento_existencias,existencias,codigo_barras
+83504f88-73a4-4ff9-93df-aaaa3183e076,7c507cd0-0139-4f9d-85dc-3647642f5232,,CSV Manual Agua,unidad,,,18.00,,no,0,
+e5cfb02b-98c7-457e-88d8-610a9b2c2676,a16c88ec-8b90-4b35-aff6-af446262d19f,,CSV Manual Café,unidad,,Chica,25.00,10.00,si,12,00123
+e5cfb02b-98c7-457e-88d8-610a9b2c2676,69959333-7e81-4d0c-a8f5-a2580f67b47b,,CSV Manual Café,unidad,,Grande,35.00,15.00,no,0,00456

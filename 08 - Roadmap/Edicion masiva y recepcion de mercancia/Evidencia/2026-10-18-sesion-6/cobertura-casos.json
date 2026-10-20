@@ -1,0 +1,343 @@
+{
+  "M01": {
+    "tests": [
+      "borrador_edicion_masiva_test.dart",
+      "edicion_masiva_task_screen_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M02": {
+    "tests": [
+      "borrador_edicion_masiva_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M03": {
+    "tests": [
+      "borrador_edicion_masiva_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M04": {
+    "tests": [
+      "importe_comercial_codec_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M05": {
+    "tests": [
+      "borrador_edicion_masiva_test.dart",
+      "importe_comercial_codec_test.dart",
+      "editar_articulo_comercial_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M06": {
+    "tests": [
+      "borrador_edicion_masiva_test.dart",
+      "edicion_masiva_command_service_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M07": {
+    "tests": [
+      "editar_articulo_comercial_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M08": {
+    "tests": [
+      "editar_articulo_comercial_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M09": {
+    "tests": [
+      "editar_articulo_comercial_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M10": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M11": {
+    "tests": [
+      "borrador_edicion_masiva_test.dart",
+      "edicion_masiva_task_screen_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M12": {
+    "tests": [
+      "editar_articulo_comercial_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M13": {
+    "tests": [
+      "editar_articulo_comercial_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M14": {
+    "tests": [
+      "editar_articulo_comercial_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M15": {
+    "tests": [
+      "editar_articulo_comercial_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M16": {
+    "tests": [
+      "borrador_edicion_masiva_test.dart",
+      "editar_articulo_comercial_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M17": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M18": {
+    "tests": [
+      "borrador_edicion_masiva_test.dart",
+      "edicion_masiva_task_screen_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M19": {
+    "tests": [
+      "editar_articulo_comercial_test.dart",
+      "edicion_masiva_command_service_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M20": {
+    "tests": [
+      "editar_articulo_comercial_test.dart",
+      "edicion_masiva_command_service_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M21": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M22": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart",
+      "edicion_masiva_task_screen_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M23": {
+    "tests": [
+      "editar_articulo_comercial_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M24": {
+    "tests": [
+      "editar_articulo_comercial_test.dart",
+      "edicion_masiva_command_service_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M25": {
+    "tests": [
+      "borrador_edicion_masiva_test.dart",
+      "editar_articulo_comercial_test.dart",
+      "edicion_masiva_command_service_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M26": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M27": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M28": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart",
+      "recepcion_reapertura_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M29": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart",
+      "recepcion_reapertura_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M30": {
+    "tests": [
+      "recepcion_reapertura_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M31": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart",
+      "recepcion_reapertura_test.dart",
+      "recepcion_recorrido_test.dart",
+      "recepcion_masiva_server_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M32": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart",
+      "recepcion_reapertura_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M33": {
+    "tests": [
+      "recepcion_reapertura_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M34": {
+    "tests": [
+      "edicion_masiva_command_service_test.dart",
+      "recepcion_reapertura_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M35": {
+    "tests": [
+      "edicion_masiva_task_screen_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M36": {
+    "tests": [
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M37": {
+    "tests": [
+      "edicion_masiva_task_screen_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M38": {
+    "tests": [
+      "edicion_masiva_task_screen_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M39": {
+    "tests": [
+      "recepcion_recorrido_test.dart",
+      "inventory_management_screen_test.dart",
+      "edicion_masiva_dependencies_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M40": {
+    "tests": [
+      "edicion_masiva_task_screen_test.dart",
+      "recepcion_recorrido_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M41": {
+    "tests": [
+      "editar_articulo_comercial_test.dart",
+      "edicion_masiva_command_service_test.dart",
+      "edicion_masiva_dependencies_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M42": {
+    "tests": [
+      "editar_articulo_comercial_test.dart",
+      "edicion_masiva_command_service_test.dart",
+      "edicion_masiva_dependencies_test.dart",
+      "recepcion_masiva_server_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M43": {
+    "tests": [
+      "recepcion_masiva_server_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M44": {
+    "tests": [
+      "recepcion_masiva_server_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M45": {
+    "tests": [
+      "recepcion_masiva_server_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M46": {
+    "tests": [
+      "recepcion_masiva_server_test.dart"
+    ],
+    "status": "aprobado_automatizado"
+  },
+  "M47": {
+    "tests": [
+      "edicion_masiva_task_screen_test.dart",
+      "recepcion_compacta_screen_test.dart",
+      "recepcion_verificacion_test.dart"
+    ],
+    "status": "automatico_aprobado_fisico_pendiente"
+  },
+  "M48": {
+    "tests": [
+      "recepcion_verificacion_test.dart",
+      "recepcion_masiva_verification.dart"
+    ],
+    "status": "medido_escritorio_tablet_pendiente"
+  }
+}

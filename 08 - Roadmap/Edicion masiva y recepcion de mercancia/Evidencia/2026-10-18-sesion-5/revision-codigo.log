@@ -1,0 +1,9 @@
+Sin Drift/data en UI o application de edición masiva ni TODO/FIXME/placeholders
+Comando: rg -n TODO|FIXME|UnimplementedError|data/local|package:drift lib/presentation/pages/gestion_inventario/edicion_masiva lib/application/edicion_masiva lib/application/commands/edicion_masiva
+Salida: 1
+
+Sin cambios de dependencias
+Comando: git diff --name-only -- pubspec.yaml pubspec.lock
+Salida: 0
+
+Se revisaron los usos de registros/validarModo/consultarPendientes/revisarEstadoNuevo, los controladores/focos por campo, el único ejecutor UI y la DI sobre AppDatabase compartida.

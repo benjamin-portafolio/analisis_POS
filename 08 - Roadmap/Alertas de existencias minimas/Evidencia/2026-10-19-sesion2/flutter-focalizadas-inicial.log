@@ -1,0 +1,134 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart
+test/application/commands/articulos/minimum_stock_local_test.dart:312:55: Error: Required named parameter 'saleConfiguration' must be provided.
+          final changed = ProductoCreadoPayload.create(
+                                                      ^
+lib/application/sync/payloads/producto_creado_payload.dart:126:11: Context: Found this candidate, but the arguments don't match.
+  factory ProductoCreadoPayload.create({
+          ^^^^^^
+test/application/commands/articulos/minimum_stock_local_test.dart:590:45: Error: Required named parameter 'saleConfiguration' must be provided.
+  final state = ProductoCreadoPayload.create(
+                                            ^
+lib/application/sync/payloads/producto_creado_payload.dart:126:11: Context: Found this candidate, but the arguments don't match.
+  factory ProductoCreadoPayload.create({
+          ^^^^^^
+00:00 +0 -1: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart [E]
+  Failed to load "/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart":
+  Compilation failed for testPath=/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: test/application/commands/articulos/minimum_stock_local_test.dart:312:55: Error: Required named parameter 'saleConfiguration' must be provided.
+            final changed = ProductoCreadoPayload.create(
+                                                        ^
+  lib/application/sync/payloads/producto_creado_payload.dart:126:11: Context: Found this candidate, but the arguments don't match.
+    factory ProductoCreadoPayload.create({
+            ^^^^^^
+  test/application/commands/articulos/minimum_stock_local_test.dart:590:45: Error: Required named parameter 'saleConfiguration' must be provided.
+    final state = ProductoCreadoPayload.create(
+                                              ^
+  lib/application/sync/payloads/producto_creado_payload.dart:126:11: Context: Found this candidate, but the arguments don't match.
+    factory ProductoCreadoPayload.create({
+            ^^^^^^
+  .
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 939:11    DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 733:19                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 726:19                      _CustomZone.run
+  dart:async/zone.dart 625:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 666:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 194:5      _RawReceivePort._handleMessage
+  
+00:00 +0 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M07/M12/M23/M24 superpone solo lo pedido en un único evento
+00:00 +1 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone edición parcial conserva datos exactos (medido=false)
+00:00 +2 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30/M31/M34 misma base reabre reservas y aplicadas sin ejecutar al arrancar
+00:00 +3 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30/M31/M34 misma base reabre reservas y aplicadas sin ejecutar al arrancar
+00:00 +4 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30/M31/M34 misma base reabre reservas y aplicadas sin ejecutar al arrancar
+00:00 +5 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30/M31/M34 misma base reabre reservas y aplicadas sin ejecutar al arrancar
+00:00 +6 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30/M31/M34 misma base reabre reservas y aplicadas sin ejecutar al arrancar
+00:00 +7 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +8 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +9 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +10 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M32 reapertura bajo otro modo conserva captura y bloquea continuación
+00:00 +11 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M15 conserva legado, conocido vacío y poblado
+00:00 +12 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M15 conserva legado, conocido vacío y poblado
+00:00 +13 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:00 +14 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:00 +15 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:00 +16 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:00 +17 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:00 +18 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:00 +19 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +20 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +21 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +22 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +23 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +24 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +25 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +26 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +27 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +28 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +29 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +30 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:01 +31 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M41 standalone no inicia transporte ni persiste refs
+00:01 +32 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M41 standalone no inicia transporte ni persiste refs
+00:01 +33 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +34 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +35 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +36 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +37 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +38 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +39 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +40 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +41 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +42 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +43 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +44 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +45 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +46 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +47 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +48 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +49 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +50 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +51 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +52 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +53 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +54 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +55 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +56 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +57 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +58 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +59 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +60 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +61 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +62 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +63 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +64 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +65 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +66 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +67 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +68 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +69 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +70 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:01 +71 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:03 +72 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: standalone M30 cierre abrupto after commit y reapertura conserva cero o una aplicación
+00:05 +73 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: serverSync M30/M31/M34 misma base reabre reservas y aplicadas sin ejecutar al arrancar
+00:05 +74 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: serverSync M32 reapertura bajo otro modo conserva captura y bloquea continuación
+00:05 +75 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: serverSync M33 snapshot/restore vigente conserva diario, catálogo, eventos y saldos
+00:05 +76 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: serverSync M30 cierre abrupto before commit y reapertura conserva cero o una aplicación
+00:07 +77 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: serverSync M30 cierre abrupto after commit y reapertura conserva cero o una aplicación
+00:08 +78 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: M33 esquema sin tabla, protegido=false
+00:08 +79 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: M33 esquema sin tabla, protegido=true
+00:08 +80 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: M33 esquema sin columna, protegido=false
+00:09 +81 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: M33 esquema sin columna, protegido=true
+00:09 +82 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: M33 esquema sin indice, protegido=false
+00:09 +83 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: M33 esquema sin indice, protegido=true
+00:09 +84 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: M33 restore rechaza respaldo sin diario antes de reemplazar base
+00:09 +85 -1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/edicion_masiva/recepcion_reapertura_test.dart: (tearDownAll)
+00:09 +85 -1: Some tests failed.

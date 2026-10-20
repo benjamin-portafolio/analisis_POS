@@ -1,0 +1,669 @@
+{
+  "timestamp_utc": "2026-10-19T15:42:22.420682+00:00",
+  "sessions": {
+    "1": {
+      "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/offline_feature_flow.md": {
+        "same": false,
+        "expected": "b5e1175061f2ba6155007fa1fa5c07c5ff1c3a1a5c635afcf6b18bfe15dbded0",
+        "actual": "f6a6e30e86f00faada753d6305393b82cec0e4f18dc03839f9517a1894f8eef7"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/minimum_stock_contract.md": {
+        "same": false,
+        "expected": "718447a3e4fe00f62560bcbee5978c8fa860a5d90ee0d415d38aacc149c47cde",
+        "actual": "caf0a97912eddaa9b3178228b07210e14ca0f39af6672fe36bed603aa7eb571b"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/application/sync/payloads/producto_creado_payload.dart": {
+        "same": true,
+        "expected": "b216508fe3277cedc96dcbfa689aac59059519e47deb9ecce12202d8929b32ee",
+        "actual": "b216508fe3277cedc96dcbfa689aac59059519e47deb9ecce12202d8929b32ee"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/application/sync/payloads/producto_actualizado_payload.dart": {
+        "same": false,
+        "expected": "4c806a0414a42855cc484e6055eac6c2d5a056bb92e5e36a4c1bcfd2ac1eb364",
+        "actual": "b70d3d2fbfb8a8a21ef7970a6cfb720bf2c4f49bc12e9f8091998a05360c10ad"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/tables/product_variants.dart": {
+        "same": true,
+        "expected": "fa8bfadef5369e1201d8d07537ae85868670743541875b40b4b5217c1e1a6255",
+        "actual": "fa8bfadef5369e1201d8d07537ae85868670743541875b40b4b5217c1e1a6255"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/current_database_schema.dart": {
+        "same": true,
+        "expected": "7d86a759223f9a24db57bed33b786c5c6b3becfcd03408508f1f85dac767e126",
+        "actual": "7d86a759223f9a24db57bed33b786c5c6b3becfcd03408508f1f85dac767e126"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/app_database.g.dart": {
+        "same": true,
+        "expected": "b264438b7e93d2e30da46a4fe499414560bc41c28299cdbefe0686965958e462",
+        "actual": "b264438b7e93d2e30da46a4fe499414560bc41c28299cdbefe0686965958e462"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/application/sync/minimum_stock_contract_test.dart": {
+        "same": true,
+        "expected": "577f1aefd5813e30be6a4f4fbd530c97844a9a13d5045bcf7332edd84ecb4003",
+        "actual": "577f1aefd5813e30be6a4f4fbd530c97844a9a13d5045bcf7332edd84ecb4003"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/minimum_stock_schema_test.dart": {
+        "same": true,
+        "expected": "a71fd39849ddb947babd626b65c5c8b2384143b04cfec722f5bab15296fb86cd",
+        "actual": "a71fd39849ddb947babd626b65c5c8b2384143b04cfec722f5bab15296fb86cd"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/fixtures/minimum_stock_v1/contracts.json": {
+        "same": true,
+        "expected": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295",
+        "actual": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/docs/minimum_stock_contract.md": {
+        "same": false,
+        "expected": "7aaf5f13b7340475db799b479286cd1038a4c9dc519c0a1996562ba9296fb76d",
+        "actual": "f0c0e708dd1dc603b3c24d44dafaa9f38bbb91b1c141377a35030e84b2894fa2"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/app.module.ts": {
+        "same": true,
+        "expected": "b564734ea1a5f17da2914f89f7f6058c079e72c387d5e08009bb0c94028a3a03",
+        "actual": "b564734ea1a5f17da2914f89f7f6058c079e72c387d5e08009bb0c94028a3a03"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/entities/product-variant.entity.ts": {
+        "same": true,
+        "expected": "3fcd2fa331a65b18af5a215c811067868a230157a9530319d7c32837a56b26d9",
+        "actual": "3fcd2fa331a65b18af5a215c811067868a230157a9530319d7c32837a56b26d9"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/payloads/producto-creado.payload.ts": {
+        "same": true,
+        "expected": "7be0588fba34d66ec4a142a921c5ff835ccd42e89909b48ef069c730eb95d74c",
+        "actual": "7be0588fba34d66ec4a142a921c5ff835ccd42e89909b48ef069c730eb95d74c"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/payloads/producto-actualizado.payload.ts": {
+        "same": true,
+        "expected": "a3270d001a06d958852c6af1adfc1d158eede94d3b13f8f03bed93d3b9006479",
+        "actual": "a3270d001a06d958852c6af1adfc1d158eede94d3b13f8f03bed93d3b9006479"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/payloads/minimum-stock-contract.spec.ts": {
+        "same": true,
+        "expected": "1bdf954841128abd8960132b3d6f133df51534d238f90dfb4d528290c3c0db07",
+        "actual": "1bdf954841128abd8960132b3d6f133df51534d238f90dfb4d528290c3c0db07"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/migrations/1792368000000-AddVariantMinimumStock.ts": {
+        "same": true,
+        "expected": "991388f6c9e4c427c498c73e6f377b459b9f0b04b81b52f00bb9680297cf46dd",
+        "actual": "991388f6c9e4c427c498c73e6f377b459b9f0b04b81b52f00bb9680297cf46dd"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/migrations/1792368000000-AddVariantMinimumStock.postgres.spec.ts": {
+        "same": true,
+        "expected": "28567a5fa513d55b562dc8832373a1e148927626471e2064c95fbbf73b45b96b",
+        "actual": "28567a5fa513d55b562dc8832373a1e148927626471e2064c95fbbf73b45b96b"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/test/fixtures/minimum_stock_v1/contracts.json": {
+        "same": true,
+        "expected": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295",
+        "actual": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295"
+      }
+    },
+    "2": {
+      "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/minimum_stock_contract.md": {
+        "same": false,
+        "expected": "8cbc9ff8beab6808b90d9161d6099d93a8ac7af2fdcff8fae9d50dde634c75cf",
+        "actual": "caf0a97912eddaa9b3178228b07210e14ca0f39af6672fe36bed603aa7eb571b"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/offline_feature_flow.md": {
+        "same": false,
+        "expected": "11d8ee6780106cc682d9d43385f18e362377d54f435da6d691cea943b62b40b6",
+        "actual": "f6a6e30e86f00faada753d6305393b82cec0e4f18dc03839f9517a1894f8eef7"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/application/commands/articulos/crear_articulo_variante_command.dart": {
+        "same": true,
+        "expected": "bb302fbe0b8c9ca3255dcdf3d775f7f2f1145539a1cd68bbe31d7186abe722f9",
+        "actual": "bb302fbe0b8c9ca3255dcdf3d775f7f2f1145539a1cd68bbe31d7186abe722f9"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/application/commands/articulos/producto_command_service.dart": {
+        "same": true,
+        "expected": "bb7c1d80b55249cc85bb8e9ef11b712f568c53f4ac6f11c55b5d63923b1b3757",
+        "actual": "bb7c1d80b55249cc85bb8e9ef11b712f568c53f4ac6f11c55b5d63923b1b3757"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/application/sync/handlers/producto_event_handler.dart": {
+        "same": true,
+        "expected": "37b841d15665d204876745b3fe8eac14e3ea10df49b27c37ad66d9d75da595ab",
+        "actual": "37b841d15665d204876745b3fe8eac14e3ea10df49b27c37ad66d9d75da595ab"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/application/sync/payloads/producto_actualizado_payload.dart": {
+        "same": true,
+        "expected": "b70d3d2fbfb8a8a21ef7970a6cfb720bf2c4f49bc12e9f8091998a05360c10ad",
+        "actual": "b70d3d2fbfb8a8a21ef7970a6cfb720bf2c4f49bc12e9f8091998a05360c10ad"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/application/sync/projections/producto_projection_store.dart": {
+        "same": true,
+        "expected": "2a7d2f4426b7d531fda2ead65806daa1d60c9fab4fac04ade14484fa9a0c4629",
+        "actual": "2a7d2f4426b7d531fda2ead65806daa1d60c9fab4fac04ade14484fa9a0c4629"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/daos/producto_dao.dart": {
+        "same": true,
+        "expected": "08e644f63840f5044acd77177ee31c8367788f7ef614202b21f48908c2604730",
+        "actual": "08e644f63840f5044acd77177ee31c8367788f7ef614202b21f48908c2604730"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/daos/producto_listado_row.dart": {
+        "same": true,
+        "expected": "c4c052662de3af77dad9ba2b0db3414d3a243d61e01414237bb98954f4cf59bc",
+        "actual": "c4c052662de3af77dad9ba2b0db3414d3a243d61e01414237bb98954f4cf59bc"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/drift_producto_projection_store.dart": {
+        "same": true,
+        "expected": "ec968198cf3516ce16134fb2be5757b2d1e57525c638ffebb56757f46ab9ed99",
+        "actual": "ec968198cf3516ce16134fb2be5757b2d1e57525c638ffebb56757f46ab9ed99"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/data/repositories/producto_repository_impl.dart": {
+        "same": true,
+        "expected": "6947fce9125f24bccd423c4eca9658c86f668bd702477fd53459df6e7d560dde",
+        "actual": "6947fce9125f24bccd423c4eca9658c86f668bd702477fd53459df6e7d560dde"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/domain/articulos/variante_detalle.dart": {
+        "same": true,
+        "expected": "ab1396ee1e423dfa65559c53affd2420cc86b42149f312e3e9f0d1f1a014755f",
+        "actual": "ab1396ee1e423dfa65559c53affd2420cc86b42149f312e3e9f0d1f1a014755f"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/domain/articulos/variante_listado.dart": {
+        "same": true,
+        "expected": "c3368fd4545d352fbe7cd8192019f899b5ad355b0499e4cb7b004991266d81f9",
+        "actual": "c3368fd4545d352fbe7cd8192019f899b5ad355b0499e4cb7b004991266d81f9"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/domain/inventario/minimum_stock_policy.dart": {
+        "same": true,
+        "expected": "f70f2927ca926c162debafea74478109536faf21789ccf6cce8a3a1e2733cef5",
+        "actual": "f70f2927ca926c162debafea74478109536faf21789ccf6cce8a3a1e2733cef5"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart": {
+        "same": true,
+        "expected": "6391946f70c5ac7d48a59e73000fbf5e5edd14375f17a0061ab4cb1b139128b9",
+        "actual": "6391946f70c5ac7d48a59e73000fbf5e5edd14375f17a0061ab4cb1b139128b9"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart": {
+        "same": false,
+        "expected": "a123de22b658518e0f3753b1304e69ab015066fc1c55a5c1ab3d3dcc4e147ec2",
+        "actual": "335bb1c6b8cc1631868938b732c73c9df4e7552aed0d9b239d6cb5a1a333802d"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart": {
+        "same": false,
+        "expected": "da5bff8b5654855896b330108f791213c001c2e3119001016faa8b05efd26a68",
+        "actual": "c7cd2f418b6ba08c61c35718622e6e683f337ad5c23719d492b0f092ef6d9bba"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart": {
+        "same": true,
+        "expected": "0a8db0eae9956829aab596f71e74d7176eae83550f930ac42fafa068ea1ddc7e",
+        "actual": "0a8db0eae9956829aab596f71e74d7176eae83550f930ac42fafa068ea1ddc7e"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/variant_tracking_phase3_test.dart": {
+        "same": true,
+        "expected": "d95ff24598b69f39f7f5c17339fa019ae644edd1c703124b12b2ef2458bf6b2f",
+        "actual": "d95ff24598b69f39f7f5c17339fa019ae644edd1c703124b12b2ef2458bf6b2f"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/support/recepcion_masiva_fixture.dart": {
+        "same": true,
+        "expected": "8827b6734cce8f65f76c26a7b95fb447aa0d9270fa02255d409d05e69242f2ca",
+        "actual": "8827b6734cce8f65f76c26a7b95fb447aa0d9270fa02255d409d05e69242f2ca"
+      }
+    },
+    "3": {
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/producto-event.handler.ts": {
+        "same": true,
+        "expected": "08d26668dcf224de2ce91a4088a236975efb46adfdf2a7942d745f28df3ca5c4",
+        "actual": "08d26668dcf224de2ce91a4088a236975efb46adfdf2a7942d745f28df3ca5c4"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/payloads/supplier-event-identity.ts": {
+        "same": true,
+        "expected": "ad3e753463a3e11bf44a8a56214b147755e129e9e989f4e862e5fa268f8f5fe2",
+        "actual": "ad3e753463a3e11bf44a8a56214b147755e129e9e989f4e862e5fa268f8f5fe2"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/product-suppliers.postgres.spec.ts": {
+        "same": true,
+        "expected": "c4d2a49cae81a9d8dba9b7410b066d054e0f3af0ef97ee2a185d2cc176a1010a",
+        "actual": "c4d2a49cae81a9d8dba9b7410b066d054e0f3af0ef97ee2a185d2cc176a1010a"
+      },
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/docs/minimum_stock_contract.md": {
+        "same": true,
+        "expected": "f0c0e708dd1dc603b3c24d44dafaa9f38bbb91b1c141377a35030e84b2894fa2",
+        "actual": "f0c0e708dd1dc603b3c24d44dafaa9f38bbb91b1c141377a35030e84b2894fa2"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/integration/minimum_stock_server_test.dart": {
+        "same": true,
+        "expected": "3fe17955ca27dc9a48bf825b829a27e27ad53195b599bedcc75804a3fc188a58",
+        "actual": "3fe17955ca27dc9a48bf825b829a27e27ad53195b599bedcc75804a3fc188a58"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/minimum_stock_contract.md": {
+        "same": false,
+        "expected": "c8b0ac40787b4dfbae92d2a693672846070fe0f8f310defadad796b3a1bbf8ab",
+        "actual": "caf0a97912eddaa9b3178228b07210e14ca0f39af6672fe36bed603aa7eb571b"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/offline_feature_flow.md": {
+        "same": false,
+        "expected": "f57457d433361edf50bb0c72295cbc40195010894f9d86911d92ce163cf08566",
+        "actual": "f6a6e30e86f00faada753d6305393b82cec0e4f18dc03839f9517a1894f8eef7"
+      }
+    },
+    "4": {
+      "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/minimum_stock_contract.md": {
+        "same": false,
+        "expected": "e593e8a3a6333724dc8bf00930ec24fde662ab4849e8202f39b7760690e5412d",
+        "actual": "caf0a97912eddaa9b3178228b07210e14ca0f39af6672fe36bed603aa7eb571b"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/offline_feature_flow.md": {
+        "same": false,
+        "expected": "ba36d54b1387bfecf61a9f75a7336ca7ffcd72faf09bae3ccb6f778cdb164630",
+        "actual": "f6a6e30e86f00faada753d6305393b82cec0e4f18dc03839f9517a1894f8eef7"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/article_form_screen.dart": {
+        "same": true,
+        "expected": "b7998550499c6f193240f570a7a45a9f47cd9ea7f15ee96657f158750c5a9fc5",
+        "actual": "b7998550499c6f193240f570a7a45a9f47cd9ea7f15ee96657f158750c5a9fc5"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_result.dart": {
+        "same": true,
+        "expected": "158eff602e91d117e7f5b7048cef995ad15c6ecbe4493f642981162e8e63ae32",
+        "actual": "158eff602e91d117e7f5b7048cef995ad15c6ecbe4493f642981162e8e63ae32"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_preview_form.dart": {
+        "same": true,
+        "expected": "79fb587657ffec024a3e4aa9e29407c72fb4a9bd109f26e374c2ee9d8d437128",
+        "actual": "79fb587657ffec024a3e4aa9e29407c72fb4a9bd109f26e374c2ee9d8d437128"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_command.dart": {
+        "same": true,
+        "expected": "9851dd0ac469badb19a48db74e57508f4488b05e10a60ea4e8c7669ed9e6edc5",
+        "actual": "9851dd0ac469badb19a48db74e57508f4488b05e10a60ea4e8c7669ed9e6edc5"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart": {
+        "same": true,
+        "expected": "8b7d8d843fb19318bc996654bcd59afc0f6f41e48cf3a6dea71f201bb2751ce2",
+        "actual": "8b7d8d843fb19318bc996654bcd59afc0f6f41e48cf3a6dea71f201bb2751ce2"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/inventory_management_screen.dart": {
+        "same": true,
+        "expected": "50d6f5dc2067ef34a53b7926acbb50ea5414204c1f84a6c9f008b7989ea71ba7",
+        "actual": "50d6f5dc2067ef34a53b7926acbb50ea5414204c1f84a6c9f008b7989ea71ba7"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/models/remaining_stock_item.dart": {
+        "same": true,
+        "expected": "f19ba1afd30ee4a9e519efc86d8d044590dfe9964639e0fdbdefd1a3ea79e8f5",
+        "actual": "f19ba1afd30ee4a9e519efc86d8d044590dfe9964639e0fdbdefd1a3ea79e8f5"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/remaining_stock_screen.dart": {
+        "same": true,
+        "expected": "cde30f5905866a9fb56dde061333dbe2909370d20297baab121ecafa27d49633",
+        "actual": "cde30f5905866a9fb56dde061333dbe2909370d20297baab121ecafa27d49633"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/widgets/remaining_stock_report_card.dart": {
+        "same": true,
+        "expected": "388ca85d15e9abef979ded742b59eb7dd84dc600767118ff562b3415fc2eac7f",
+        "actual": "388ca85d15e9abef979ded742b59eb7dd84dc600767118ff562b3415fc2eac7f"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart": {
+        "same": true,
+        "expected": "46e7bee3949f9923bda23c7e81e5e63061a0e4559ac3882962e0e6c9ccdc09f6",
+        "actual": "46e7bee3949f9923bda23c7e81e5e63061a0e4559ac3882962e0e6c9ccdc09f6"
+      },
+      "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/reports_screen_test.dart": {
+        "same": true,
+        "expected": "ad44fc92074bf26c4d49587cfb5e2316ccf037876b8baf62cc2a1befbe68ab5d",
+        "actual": "ad44fc92074bf26c4d49587cfb5e2316ccf037876b8baf62cc2a1befbe68ab5d"
+      }
+    }
+  },
+  "latest_known_files": {
+    "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/offline_feature_flow.md": {
+      "same": false,
+      "expected": "ba36d54b1387bfecf61a9f75a7336ca7ffcd72faf09bae3ccb6f778cdb164630",
+      "actual": "f6a6e30e86f00faada753d6305393b82cec0e4f18dc03839f9517a1894f8eef7",
+      "latest_evidence_session": 4,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/docs/architecture/minimum_stock_contract.md": {
+      "same": false,
+      "expected": "e593e8a3a6333724dc8bf00930ec24fde662ab4849e8202f39b7760690e5412d",
+      "actual": "caf0a97912eddaa9b3178228b07210e14ca0f39af6672fe36bed603aa7eb571b",
+      "latest_evidence_session": 4,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/application/sync/payloads/producto_creado_payload.dart": {
+      "same": true,
+      "expected": "b216508fe3277cedc96dcbfa689aac59059519e47deb9ecce12202d8929b32ee",
+      "actual": "b216508fe3277cedc96dcbfa689aac59059519e47deb9ecce12202d8929b32ee",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/application/sync/payloads/producto_actualizado_payload.dart": {
+      "same": true,
+      "expected": "b70d3d2fbfb8a8a21ef7970a6cfb720bf2c4f49bc12e9f8091998a05360c10ad",
+      "actual": "b70d3d2fbfb8a8a21ef7970a6cfb720bf2c4f49bc12e9f8091998a05360c10ad",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/tables/product_variants.dart": {
+      "same": true,
+      "expected": "fa8bfadef5369e1201d8d07537ae85868670743541875b40b4b5217c1e1a6255",
+      "actual": "fa8bfadef5369e1201d8d07537ae85868670743541875b40b4b5217c1e1a6255",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/current_database_schema.dart": {
+      "same": true,
+      "expected": "7d86a759223f9a24db57bed33b786c5c6b3becfcd03408508f1f85dac767e126",
+      "actual": "7d86a759223f9a24db57bed33b786c5c6b3becfcd03408508f1f85dac767e126",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/app_database.g.dart": {
+      "same": true,
+      "expected": "b264438b7e93d2e30da46a4fe499414560bc41c28299cdbefe0686965958e462",
+      "actual": "b264438b7e93d2e30da46a4fe499414560bc41c28299cdbefe0686965958e462",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/application/sync/minimum_stock_contract_test.dart": {
+      "same": true,
+      "expected": "577f1aefd5813e30be6a4f4fbd530c97844a9a13d5045bcf7332edd84ecb4003",
+      "actual": "577f1aefd5813e30be6a4f4fbd530c97844a9a13d5045bcf7332edd84ecb4003",
+      "latest_evidence_session": 1,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/minimum_stock_schema_test.dart": {
+      "same": true,
+      "expected": "a71fd39849ddb947babd626b65c5c8b2384143b04cfec722f5bab15296fb86cd",
+      "actual": "a71fd39849ddb947babd626b65c5c8b2384143b04cfec722f5bab15296fb86cd",
+      "latest_evidence_session": 1,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/fixtures/minimum_stock_v1/contracts.json": {
+      "same": true,
+      "expected": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295",
+      "actual": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295",
+      "latest_evidence_session": 1,
+      "production_source": false
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/docs/minimum_stock_contract.md": {
+      "same": true,
+      "expected": "f0c0e708dd1dc603b3c24d44dafaa9f38bbb91b1c141377a35030e84b2894fa2",
+      "actual": "f0c0e708dd1dc603b3c24d44dafaa9f38bbb91b1c141377a35030e84b2894fa2",
+      "latest_evidence_session": 3,
+      "production_source": false
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/app.module.ts": {
+      "same": true,
+      "expected": "b564734ea1a5f17da2914f89f7f6058c079e72c387d5e08009bb0c94028a3a03",
+      "actual": "b564734ea1a5f17da2914f89f7f6058c079e72c387d5e08009bb0c94028a3a03",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/entities/product-variant.entity.ts": {
+      "same": true,
+      "expected": "3fcd2fa331a65b18af5a215c811067868a230157a9530319d7c32837a56b26d9",
+      "actual": "3fcd2fa331a65b18af5a215c811067868a230157a9530319d7c32837a56b26d9",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/payloads/producto-creado.payload.ts": {
+      "same": true,
+      "expected": "7be0588fba34d66ec4a142a921c5ff835ccd42e89909b48ef069c730eb95d74c",
+      "actual": "7be0588fba34d66ec4a142a921c5ff835ccd42e89909b48ef069c730eb95d74c",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/payloads/producto-actualizado.payload.ts": {
+      "same": true,
+      "expected": "a3270d001a06d958852c6af1adfc1d158eede94d3b13f8f03bed93d3b9006479",
+      "actual": "a3270d001a06d958852c6af1adfc1d158eede94d3b13f8f03bed93d3b9006479",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/payloads/minimum-stock-contract.spec.ts": {
+      "same": true,
+      "expected": "1bdf954841128abd8960132b3d6f133df51534d238f90dfb4d528290c3c0db07",
+      "actual": "1bdf954841128abd8960132b3d6f133df51534d238f90dfb4d528290c3c0db07",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/migrations/1792368000000-AddVariantMinimumStock.ts": {
+      "same": true,
+      "expected": "991388f6c9e4c427c498c73e6f377b459b9f0b04b81b52f00bb9680297cf46dd",
+      "actual": "991388f6c9e4c427c498c73e6f377b459b9f0b04b81b52f00bb9680297cf46dd",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/migrations/1792368000000-AddVariantMinimumStock.postgres.spec.ts": {
+      "same": true,
+      "expected": "28567a5fa513d55b562dc8832373a1e148927626471e2064c95fbbf73b45b96b",
+      "actual": "28567a5fa513d55b562dc8832373a1e148927626471e2064c95fbbf73b45b96b",
+      "latest_evidence_session": 1,
+      "production_source": true
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/test/fixtures/minimum_stock_v1/contracts.json": {
+      "same": true,
+      "expected": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295",
+      "actual": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295",
+      "latest_evidence_session": 1,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/application/commands/articulos/crear_articulo_variante_command.dart": {
+      "same": true,
+      "expected": "bb302fbe0b8c9ca3255dcdf3d775f7f2f1145539a1cd68bbe31d7186abe722f9",
+      "actual": "bb302fbe0b8c9ca3255dcdf3d775f7f2f1145539a1cd68bbe31d7186abe722f9",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/application/commands/articulos/producto_command_service.dart": {
+      "same": true,
+      "expected": "bb7c1d80b55249cc85bb8e9ef11b712f568c53f4ac6f11c55b5d63923b1b3757",
+      "actual": "bb7c1d80b55249cc85bb8e9ef11b712f568c53f4ac6f11c55b5d63923b1b3757",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/application/sync/handlers/producto_event_handler.dart": {
+      "same": true,
+      "expected": "37b841d15665d204876745b3fe8eac14e3ea10df49b27c37ad66d9d75da595ab",
+      "actual": "37b841d15665d204876745b3fe8eac14e3ea10df49b27c37ad66d9d75da595ab",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/application/sync/projections/producto_projection_store.dart": {
+      "same": true,
+      "expected": "2a7d2f4426b7d531fda2ead65806daa1d60c9fab4fac04ade14484fa9a0c4629",
+      "actual": "2a7d2f4426b7d531fda2ead65806daa1d60c9fab4fac04ade14484fa9a0c4629",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/daos/producto_dao.dart": {
+      "same": true,
+      "expected": "08e644f63840f5044acd77177ee31c8367788f7ef614202b21f48908c2604730",
+      "actual": "08e644f63840f5044acd77177ee31c8367788f7ef614202b21f48908c2604730",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/daos/producto_listado_row.dart": {
+      "same": true,
+      "expected": "c4c052662de3af77dad9ba2b0db3414d3a243d61e01414237bb98954f4cf59bc",
+      "actual": "c4c052662de3af77dad9ba2b0db3414d3a243d61e01414237bb98954f4cf59bc",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/data/local/drift/drift_producto_projection_store.dart": {
+      "same": true,
+      "expected": "ec968198cf3516ce16134fb2be5757b2d1e57525c638ffebb56757f46ab9ed99",
+      "actual": "ec968198cf3516ce16134fb2be5757b2d1e57525c638ffebb56757f46ab9ed99",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/data/repositories/producto_repository_impl.dart": {
+      "same": true,
+      "expected": "6947fce9125f24bccd423c4eca9658c86f668bd702477fd53459df6e7d560dde",
+      "actual": "6947fce9125f24bccd423c4eca9658c86f668bd702477fd53459df6e7d560dde",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/domain/articulos/variante_detalle.dart": {
+      "same": true,
+      "expected": "ab1396ee1e423dfa65559c53affd2420cc86b42149f312e3e9f0d1f1a014755f",
+      "actual": "ab1396ee1e423dfa65559c53affd2420cc86b42149f312e3e9f0d1f1a014755f",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/domain/articulos/variante_listado.dart": {
+      "same": true,
+      "expected": "c3368fd4545d352fbe7cd8192019f899b5ad355b0499e4cb7b004991266d81f9",
+      "actual": "c3368fd4545d352fbe7cd8192019f899b5ad355b0499e4cb7b004991266d81f9",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/domain/inventario/minimum_stock_policy.dart": {
+      "same": true,
+      "expected": "f70f2927ca926c162debafea74478109536faf21789ccf6cce8a3a1e2733cef5",
+      "actual": "f70f2927ca926c162debafea74478109536faf21789ccf6cce8a3a1e2733cef5",
+      "latest_evidence_session": 2,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart": {
+      "same": true,
+      "expected": "6391946f70c5ac7d48a59e73000fbf5e5edd14375f17a0061ab4cb1b139128b9",
+      "actual": "6391946f70c5ac7d48a59e73000fbf5e5edd14375f17a0061ab4cb1b139128b9",
+      "latest_evidence_session": 2,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart": {
+      "same": false,
+      "expected": "a123de22b658518e0f3753b1304e69ab015066fc1c55a5c1ab3d3dcc4e147ec2",
+      "actual": "335bb1c6b8cc1631868938b732c73c9df4e7552aed0d9b239d6cb5a1a333802d",
+      "latest_evidence_session": 2,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart": {
+      "same": false,
+      "expected": "da5bff8b5654855896b330108f791213c001c2e3119001016faa8b05efd26a68",
+      "actual": "c7cd2f418b6ba08c61c35718622e6e683f337ad5c23719d492b0f092ef6d9bba",
+      "latest_evidence_session": 2,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart": {
+      "same": true,
+      "expected": "0a8db0eae9956829aab596f71e74d7176eae83550f930ac42fafa068ea1ddc7e",
+      "actual": "0a8db0eae9956829aab596f71e74d7176eae83550f930ac42fafa068ea1ddc7e",
+      "latest_evidence_session": 2,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/data/local/drift/variant_tracking_phase3_test.dart": {
+      "same": true,
+      "expected": "d95ff24598b69f39f7f5c17339fa019ae644edd1c703124b12b2ef2458bf6b2f",
+      "actual": "d95ff24598b69f39f7f5c17339fa019ae644edd1c703124b12b2ef2458bf6b2f",
+      "latest_evidence_session": 2,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/support/recepcion_masiva_fixture.dart": {
+      "same": true,
+      "expected": "8827b6734cce8f65f76c26a7b95fb447aa0d9270fa02255d409d05e69242f2ca",
+      "actual": "8827b6734cce8f65f76c26a7b95fb447aa0d9270fa02255d409d05e69242f2ca",
+      "latest_evidence_session": 2,
+      "production_source": false
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/producto-event.handler.ts": {
+      "same": true,
+      "expected": "08d26668dcf224de2ce91a4088a236975efb46adfdf2a7942d745f28df3ca5c4",
+      "actual": "08d26668dcf224de2ce91a4088a236975efb46adfdf2a7942d745f28df3ca5c4",
+      "latest_evidence_session": 3,
+      "production_source": true
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/payloads/supplier-event-identity.ts": {
+      "same": true,
+      "expected": "ad3e753463a3e11bf44a8a56214b147755e129e9e989f4e862e5fa268f8f5fe2",
+      "actual": "ad3e753463a3e11bf44a8a56214b147755e129e9e989f4e862e5fa268f8f5fe2",
+      "latest_evidence_session": 3,
+      "production_source": true
+    },
+    "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest/src/sync/product-suppliers.postgres.spec.ts": {
+      "same": true,
+      "expected": "c4d2a49cae81a9d8dba9b7410b066d054e0f3af0ef97ee2a185d2cc176a1010a",
+      "actual": "c4d2a49cae81a9d8dba9b7410b066d054e0f3af0ef97ee2a185d2cc176a1010a",
+      "latest_evidence_session": 3,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/integration/minimum_stock_server_test.dart": {
+      "same": true,
+      "expected": "3fe17955ca27dc9a48bf825b829a27e27ad53195b599bedcc75804a3fc188a58",
+      "actual": "3fe17955ca27dc9a48bf825b829a27e27ad53195b599bedcc75804a3fc188a58",
+      "latest_evidence_session": 3,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/article_form_screen.dart": {
+      "same": true,
+      "expected": "b7998550499c6f193240f570a7a45a9f47cd9ea7f15ee96657f158750c5a9fc5",
+      "actual": "b7998550499c6f193240f570a7a45a9f47cd9ea7f15ee96657f158750c5a9fc5",
+      "latest_evidence_session": 4,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_result.dart": {
+      "same": true,
+      "expected": "158eff602e91d117e7f5b7048cef995ad15c6ecbe4493f642981162e8e63ae32",
+      "actual": "158eff602e91d117e7f5b7048cef995ad15c6ecbe4493f642981162e8e63ae32",
+      "latest_evidence_session": 4,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_preview_form.dart": {
+      "same": true,
+      "expected": "79fb587657ffec024a3e4aa9e29407c72fb4a9bd109f26e374c2ee9d8d437128",
+      "actual": "79fb587657ffec024a3e4aa9e29407c72fb4a9bd109f26e374c2ee9d8d437128",
+      "latest_evidence_session": 4,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_command.dart": {
+      "same": true,
+      "expected": "9851dd0ac469badb19a48db74e57508f4488b05e10a60ea4e8c7669ed9e6edc5",
+      "actual": "9851dd0ac469badb19a48db74e57508f4488b05e10a60ea4e8c7669ed9e6edc5",
+      "latest_evidence_session": 4,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart": {
+      "same": true,
+      "expected": "8b7d8d843fb19318bc996654bcd59afc0f6f41e48cf3a6dea71f201bb2751ce2",
+      "actual": "8b7d8d843fb19318bc996654bcd59afc0f6f41e48cf3a6dea71f201bb2751ce2",
+      "latest_evidence_session": 4,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/inventory_management_screen.dart": {
+      "same": true,
+      "expected": "50d6f5dc2067ef34a53b7926acbb50ea5414204c1f84a6c9f008b7989ea71ba7",
+      "actual": "50d6f5dc2067ef34a53b7926acbb50ea5414204c1f84a6c9f008b7989ea71ba7",
+      "latest_evidence_session": 4,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/models/remaining_stock_item.dart": {
+      "same": true,
+      "expected": "f19ba1afd30ee4a9e519efc86d8d044590dfe9964639e0fdbdefd1a3ea79e8f5",
+      "actual": "f19ba1afd30ee4a9e519efc86d8d044590dfe9964639e0fdbdefd1a3ea79e8f5",
+      "latest_evidence_session": 4,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/remaining_stock_screen.dart": {
+      "same": true,
+      "expected": "cde30f5905866a9fb56dde061333dbe2909370d20297baab121ecafa27d49633",
+      "actual": "cde30f5905866a9fb56dde061333dbe2909370d20297baab121ecafa27d49633",
+      "latest_evidence_session": 4,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/widgets/remaining_stock_report_card.dart": {
+      "same": true,
+      "expected": "388ca85d15e9abef979ded742b59eb7dd84dc600767118ff562b3415fc2eac7f",
+      "actual": "388ca85d15e9abef979ded742b59eb7dd84dc600767118ff562b3415fc2eac7f",
+      "latest_evidence_session": 4,
+      "production_source": true
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart": {
+      "same": true,
+      "expected": "46e7bee3949f9923bda23c7e81e5e63061a0e4559ac3882962e0e6c9ccdc09f6",
+      "actual": "46e7bee3949f9923bda23c7e81e5e63061a0e4559ac3882962e0e6c9ccdc09f6",
+      "latest_evidence_session": 4,
+      "production_source": false
+    },
+    "/Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/reports_screen_test.dart": {
+      "same": true,
+      "expected": "ad44fc92074bf26c4d49587cfb5e2316ccf037876b8baf62cc2a1befbe68ab5d",
+      "actual": "ad44fc92074bf26c4d49587cfb5e2316ccf037876b8baf62cc2a1befbe68ab5d",
+      "latest_evidence_session": 4,
+      "production_source": false
+    }
+  },
+  "all_latest_production_sources_match": true,
+  "expected_differences": "Documentación y dos tests existentes reforzados con aserciones; la suite afectada final aprueba 68. Código productivo sin cambios."
+}

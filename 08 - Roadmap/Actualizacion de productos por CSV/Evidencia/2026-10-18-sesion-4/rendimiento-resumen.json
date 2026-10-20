@@ -1,0 +1,728 @@
+[
+  {
+    "mode": "standalone",
+    "scenario": "new_untracked",
+    "validation_ms": {
+      "median": 5.496,
+      "min": 5.377,
+      "max": 7.203
+    },
+    "save_ms": {
+      "median": 137.05,
+      "min": 122.615,
+      "max": 158.251
+    },
+    "total_ms": {
+      "median": 142.427,
+      "min": 128.095,
+      "max": 165.454
+    },
+    "validation_sql": {
+      "selects": 3,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 1501,
+      "inserts": 1500,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 20,
+      "outer_transactions": 10,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "events": 500,
+    "event_refs": 0,
+    "undo": 0,
+    "batches": 10,
+    "outer_transactions_save": 10,
+    "created": 500,
+    "updated": 0,
+    "omitted": 0,
+    "baseline_total_ms": {
+      "median": 128.675,
+      "min": 114.908,
+      "max": 148.503
+    },
+    "ratio": 1.106873907130367
+  },
+  {
+    "mode": "standalone",
+    "scenario": "new_tracked",
+    "validation_ms": {
+      "median": 5.786,
+      "min": 5.138,
+      "max": 5.851
+    },
+    "save_ms": {
+      "median": 431.652,
+      "min": 420.041,
+      "max": 442.114
+    },
+    "total_ms": {
+      "median": 437.438,
+      "min": 425.472,
+      "max": 447.91
+    },
+    "validation_sql": {
+      "selects": 3,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 6501,
+      "inserts": 4000,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 520,
+      "outer_transactions": 10,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "events": 1000,
+    "event_refs": 0,
+    "undo": 0,
+    "batches": 10,
+    "outer_transactions_save": 10,
+    "created": 500,
+    "updated": 0,
+    "omitted": 0,
+    "baseline_total_ms": {
+      "median": 377.96,
+      "min": 367.92,
+      "max": 389.23
+    },
+    "ratio": 1.1573658588210394
+  },
+  {
+    "mode": "standalone",
+    "scenario": "unchanged",
+    "validation_ms": {
+      "median": 13.071,
+      "min": 13.038,
+      "max": 27.237
+    },
+    "save_ms": {
+      "median": 0.011,
+      "min": 0.008,
+      "max": 0.021
+    },
+    "total_ms": {
+      "median": 13.079,
+      "min": 13.049,
+      "max": 27.258
+    },
+    "validation_sql": {
+      "selects": 6,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 0,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0,
+      "outer_transactions": 0,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "events": 0,
+    "event_refs": 0,
+    "undo": 0,
+    "batches": 0,
+    "outer_transactions_save": 0,
+    "created": 0,
+    "updated": 0,
+    "omitted": 500
+  },
+  {
+    "mode": "standalone",
+    "scenario": "changed_20",
+    "validation_ms": {
+      "median": 12.972,
+      "min": 12.549,
+      "max": 26.349
+    },
+    "save_ms": {
+      "median": 27.619,
+      "min": 27.214,
+      "max": 29.107
+    },
+    "total_ms": {
+      "median": 40.211,
+      "min": 39.797,
+      "max": 55.019
+    },
+    "validation_sql": {
+      "selects": 6,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 560,
+      "inserts": 20,
+      "updates": 60,
+      "deletes": 20,
+      "customs": 0,
+      "transactions": 2,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 80,
+      "history_rows": 100
+    },
+    "events": 20,
+    "event_refs": 0,
+    "undo": 0,
+    "batches": 1,
+    "outer_transactions_save": 1,
+    "created": 0,
+    "updated": 20,
+    "omitted": 480
+  },
+  {
+    "mode": "standalone",
+    "scenario": "changed_all",
+    "validation_ms": {
+      "median": 12.069,
+      "min": 11.514,
+      "max": 12.344
+    },
+    "save_ms": {
+      "median": 666.072,
+      "min": 646.801,
+      "max": 682.299
+    },
+    "total_ms": {
+      "median": 677.586,
+      "min": 658.686,
+      "max": 694.643
+    },
+    "validation_sql": {
+      "selects": 6,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 14000,
+      "inserts": 500,
+      "updates": 1500,
+      "deletes": 500,
+      "customs": 0,
+      "transactions": 20,
+      "outer_transactions": 10,
+      "batch_statements": 0,
+      "history_selects": 2000,
+      "history_rows": 2500
+    },
+    "events": 500,
+    "event_refs": 0,
+    "undo": 0,
+    "batches": 10,
+    "outer_transactions_save": 10,
+    "created": 0,
+    "updated": 500,
+    "omitted": 0
+  },
+  {
+    "mode": "standalone",
+    "scenario": "mixed",
+    "validation_ms": {
+      "median": 10.299,
+      "min": 10.185,
+      "max": 10.637
+    },
+    "save_ms": {
+      "median": 339.881,
+      "min": 335.784,
+      "max": 352.188
+    },
+    "total_ms": {
+      "median": 350.07,
+      "min": 346.083,
+      "max": 362.373
+    },
+    "validation_sql": {
+      "selects": 6,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 6901,
+      "inserts": 1000,
+      "updates": 600,
+      "deletes": 200,
+      "customs": 0,
+      "transactions": 112,
+      "outer_transactions": 6,
+      "batch_statements": 0,
+      "history_selects": 800,
+      "history_rows": 1000
+    },
+    "events": 400,
+    "event_refs": 0,
+    "undo": 0,
+    "batches": 6,
+    "outer_transactions_save": 6,
+    "created": 100,
+    "updated": 200,
+    "omitted": 200
+  },
+  {
+    "mode": "standalone",
+    "scenario": "large_unchanged",
+    "validation_ms": {
+      "median": 37.759,
+      "min": 37.478,
+      "max": 44.768
+    },
+    "save_ms": {
+      "median": 0.013,
+      "min": 0.011,
+      "max": 0.019
+    },
+    "total_ms": {
+      "median": 37.77,
+      "min": 37.493,
+      "max": 44.787
+    },
+    "validation_sql": {
+      "selects": 6,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 0,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0,
+      "outer_transactions": 0,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "events": 0,
+    "event_refs": 0,
+    "undo": 0,
+    "batches": 0,
+    "outer_transactions_save": 0,
+    "created": 0,
+    "updated": 0,
+    "omitted": 500
+  },
+  {
+    "mode": "server-sync",
+    "scenario": "new_untracked",
+    "validation_ms": {
+      "median": 5.518,
+      "min": 5.162,
+      "max": 7.316
+    },
+    "save_ms": {
+      "median": 153.813,
+      "min": 140.884,
+      "max": 206.034
+    },
+    "total_ms": {
+      "median": 159.331,
+      "min": 146.046,
+      "max": 213.35
+    },
+    "validation_sql": {
+      "selects": 3,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 1501,
+      "inserts": 1500,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 20,
+      "outer_transactions": 10,
+      "batch_statements": 1500,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "events": 500,
+    "event_refs": 1500,
+    "undo": 0,
+    "batches": 10,
+    "outer_transactions_save": 10,
+    "created": 500,
+    "updated": 0,
+    "omitted": 0
+  },
+  {
+    "mode": "server-sync",
+    "scenario": "new_tracked",
+    "validation_ms": {
+      "median": 6.003,
+      "min": 5.302,
+      "max": 6.787
+    },
+    "save_ms": {
+      "median": 477.464,
+      "min": 471.288,
+      "max": 499.847
+    },
+    "total_ms": {
+      "median": 483.467,
+      "min": 478.075,
+      "max": 505.463
+    },
+    "validation_sql": {
+      "selects": 3,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 6501,
+      "inserts": 4000,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 520,
+      "outer_transactions": 10,
+      "batch_statements": 3500,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "events": 1000,
+    "event_refs": 3500,
+    "undo": 0,
+    "batches": 10,
+    "outer_transactions_save": 10,
+    "created": 500,
+    "updated": 0,
+    "omitted": 0
+  },
+  {
+    "mode": "server-sync",
+    "scenario": "unchanged",
+    "validation_ms": {
+      "median": 13.422,
+      "min": 12.965,
+      "max": 25.938
+    },
+    "save_ms": {
+      "median": 0.01,
+      "min": 0.009,
+      "max": 0.022
+    },
+    "total_ms": {
+      "median": 13.434,
+      "min": 12.974,
+      "max": 25.96
+    },
+    "validation_sql": {
+      "selects": 6,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 0,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0,
+      "outer_transactions": 0,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "events": 0,
+    "event_refs": 0,
+    "undo": 0,
+    "batches": 0,
+    "outer_transactions_save": 0,
+    "created": 0,
+    "updated": 0,
+    "omitted": 500
+  },
+  {
+    "mode": "server-sync",
+    "scenario": "changed_20",
+    "validation_ms": {
+      "median": 13.804,
+      "min": 12.336,
+      "max": 43.315
+    },
+    "save_ms": {
+      "median": 36.845,
+      "min": 32.806,
+      "max": 55.824
+    },
+    "total_ms": {
+      "median": 50.649,
+      "min": 45.142,
+      "max": 99.139
+    },
+    "validation_sql": {
+      "selects": 6,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 680,
+      "inserts": 40,
+      "updates": 60,
+      "deletes": 20,
+      "customs": 0,
+      "transactions": 2,
+      "outer_transactions": 1,
+      "batch_statements": 100,
+      "history_selects": 100,
+      "history_rows": 120
+    },
+    "events": 20,
+    "event_refs": 100,
+    "undo": 20,
+    "batches": 1,
+    "outer_transactions_save": 1,
+    "created": 0,
+    "updated": 20,
+    "omitted": 480
+  },
+  {
+    "mode": "server-sync",
+    "scenario": "changed_all",
+    "validation_ms": {
+      "median": 11.528,
+      "min": 11.259,
+      "max": 12.084
+    },
+    "save_ms": {
+      "median": 799.904,
+      "min": 786.436,
+      "max": 823.468
+    },
+    "total_ms": {
+      "median": 811.988,
+      "min": 797.966,
+      "max": 834.996
+    },
+    "validation_sql": {
+      "selects": 6,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 17000,
+      "inserts": 1000,
+      "updates": 1500,
+      "deletes": 500,
+      "customs": 0,
+      "transactions": 20,
+      "outer_transactions": 10,
+      "batch_statements": 2500,
+      "history_selects": 2500,
+      "history_rows": 3000
+    },
+    "events": 500,
+    "event_refs": 2500,
+    "undo": 500,
+    "batches": 10,
+    "outer_transactions_save": 10,
+    "created": 0,
+    "updated": 500,
+    "omitted": 0
+  },
+  {
+    "mode": "server-sync",
+    "scenario": "mixed",
+    "validation_ms": {
+      "median": 10.597,
+      "min": 10.412,
+      "max": 10.852
+    },
+    "save_ms": {
+      "median": 398.842,
+      "min": 397.059,
+      "max": 409.462
+    },
+    "total_ms": {
+      "median": 409.694,
+      "min": 407.656,
+      "max": 420.061
+    },
+    "validation_sql": {
+      "selects": 6,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 8101,
+      "inserts": 1200,
+      "updates": 600,
+      "deletes": 200,
+      "customs": 0,
+      "transactions": 112,
+      "outer_transactions": 6,
+      "batch_statements": 1700,
+      "history_selects": 1000,
+      "history_rows": 1200
+    },
+    "events": 400,
+    "event_refs": 1700,
+    "undo": 200,
+    "batches": 6,
+    "outer_transactions_save": 6,
+    "created": 100,
+    "updated": 200,
+    "omitted": 200
+  },
+  {
+    "mode": "server-sync",
+    "scenario": "large_unchanged",
+    "validation_ms": {
+      "median": 38.861,
+      "min": 37.151,
+      "max": 43.006
+    },
+    "save_ms": {
+      "median": 0.018,
+      "min": 0.012,
+      "max": 0.023
+    },
+    "total_ms": {
+      "median": 38.879,
+      "min": 37.163,
+      "max": 43.029
+    },
+    "validation_sql": {
+      "selects": 6,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 1,
+      "outer_transactions": 1,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "save_sql": {
+      "selects": 0,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0,
+      "outer_transactions": 0,
+      "batch_statements": 0,
+      "history_selects": 0,
+      "history_rows": 0
+    },
+    "events": 0,
+    "event_refs": 0,
+    "undo": 0,
+    "batches": 0,
+    "outer_transactions_save": 0,
+    "created": 0,
+    "updated": 0,
+    "omitted": 500
+  }
+]

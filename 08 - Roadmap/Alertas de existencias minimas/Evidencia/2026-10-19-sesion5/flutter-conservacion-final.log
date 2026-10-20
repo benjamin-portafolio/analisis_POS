@@ -1,0 +1,70 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M07/M12/M23/M24 superpone solo lo pedido en un único evento
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone edición parcial conserva datos exactos (medido=false)
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M08/M09 costo sin proveedor y venta sola conservan parejas
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone edición parcial conserva datos exactos (medido=true)
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone edición parcial conserva datos exactos (medido=true)
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M14 precio idéntico conserva fecha; nuevo usa fecha UTC
+00:00 +6: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +7: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +8: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +9: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M15 conserva legado, conocido vacío y poblado
+00:00 +10: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M15 conserva legado, conocido vacío y poblado
+00:00 +11: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone asocia categoría oficial y declara su referencia
+00:00 +12: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M16 medido conserva configuración y referencia
+00:00 +13: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M16 medido conserva configuración y referencia
+00:00 +14: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone rechaza producto ausente dentro de la transacción
+00:00 +15: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M19 rechaza destinos inválidos sin escribir
+00:00 +16: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M19 rechaza destinos inválidos sin escribir
+00:00 +17: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M19 rechaza destinos inválidos sin escribir
+00:00 +18: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M19 rechaza destinos inválidos sin escribir
+00:00 +19: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M19 rechaza destinos inválidos sin escribir
+00:00 +20: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone rechaza base vacía dentro de la transacción
+00:00 +21: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M20 base obsoleta rechaza sin sustituir la base viva
+00:00 +22: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M20 base obsoleta rechaza sin sustituir la base viva
+00:00 +23: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone valida colisión omitida sobre el agregado completo
+00:00 +24: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone refs declaradas por modo y persistidas solo en server_sync
+00:00 +25: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone refs declaradas por modo y persistidas solo en server_sync
+00:00 +26: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone valida lista vacía sobre el agregado completo
+00:00 +27: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M41 standalone no inicia transporte ni persiste refs
+00:00 +28: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M41 standalone no inicia transporte ni persiste refs
+00:00 +29: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: standalone M41 standalone no inicia transporte ni persiste refs
+00:00 +30: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone conserva proveedores conocidos vacíos
+00:00 +31: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M07/M12/M23/M24 superpone solo lo pedido en un único evento
+00:00 +32: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone conserva proveedores desconocidos
+00:00 +33: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M08/M09 costo sin proveedor y venta sola conservan parejas
+00:00 +34: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M08/M09 costo sin proveedor y venta sola conservan parejas
+00:00 +35: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: standalone cambiar a server_sync no promueve historial standalone
+00:00 +36: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M13 estándar igual con pareja distinta o nueva no es no-op
+00:00 +37: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync edición parcial conserva datos exactos (medido=false)
+00:00 +38: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M14 precio idéntico conserva fecha; nuevo usa fecha UTC
+00:00 +39: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync edición parcial conserva datos exactos (medido=true)
+00:00 +40: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M05 costo cero válido y venta cero rechazada
+00:00 +41: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +42: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +43: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +44: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M16 medido conserva configuración y referencia
+00:00 +45: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync sameState normalizado no emite, ni cambia metadatos
+00:00 +46: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M19 rechaza destinos inválidos sin escribir
+00:00 +47: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M19 rechaza destinos inválidos sin escribir
+00:00 +48: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M19 rechaza destinos inválidos sin escribir
+00:00 +49: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M19 rechaza destinos inválidos sin escribir
+00:00 +50: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M19 rechaza destinos inválidos sin escribir
+00:00 +51: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync rechaza variante ausente dentro de la transacción
+00:01 +52: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M20 base obsoleta rechaza sin sustituir la base viva
+00:01 +53: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M20 base obsoleta rechaza sin sustituir la base viva
+00:01 +54: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync rechaza variante ajena dentro de la transacción
+00:01 +55: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync refs declaradas por modo y persistidas solo en server_sync
+00:01 +56: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync refs declaradas por modo y persistidas solo en server_sync
+00:01 +57: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync rechaza base obsoleta dentro de la transacción
+00:01 +58: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M42 conserva base pendiente y la promueve al aceptarse
+00:01 +59: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart: serverSync M42 conserva base pendiente y la promueve al aceptarse
+00:01 +60: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync valida variante duplicada sobre el agregado completo
+00:01 +61: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync valida lista vacía sobre el agregado completo
+00:01 +62: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync valida precio inválido sobre el agregado completo
+00:01 +63: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync valida barcode inválido sobre el agregado completo
+00:01 +64: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync conserva proveedores conocidos vacíos
+00:01 +65: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync conserva proveedores desconocidos
+00:01 +66: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync el store valida refs incluso si no las persiste
+00:01 +67: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart: serverSync mantiene base oficial y dependencia de base pendiente
+00:01 +68: All tests passed!

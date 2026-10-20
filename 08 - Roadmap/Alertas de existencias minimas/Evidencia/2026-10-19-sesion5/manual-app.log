@@ -1,0 +1,41 @@
+Launching test/support/session5_manual_entry.dart on macOS in debug mode...
+Running pod install...                                             922ms
+Building macOS application...                                   
+/Users/benjamin/.pub-cache/hosted/pub.dev/mobile_scanner-7.4.2/darwin/mobile_scanner/Sources/mobile_scanner/MobileScannerCameraSelector.swift:200:42: warning: 'devices(for:)' was deprecated in macOS 10.15: Use AVCaptureDeviceDiscoverySession instead. [#DeprecatedDeclaration]
+198 |         // macOS: ignore the facing filter (only a front camera is used on macOS),
+199 |         // consistent with getSupportedLenses.
+200 |         let hasDevice = !AVCaptureDevice.devices(for: .video).isEmpty
+    |                                          `- warning: 'devices(for:)' was deprecated in macOS 10.15: Use AVCaptureDeviceDiscoverySession instead. [#DeprecatedDeclaration]
+201 |         return hasDevice ? LensType.wideAngle.rawValue : nil
+202 | #endif
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+
+
+
+
+
+
+
+
+
+
+
+✓ Built build/macos/Build/Products/Debug/pos_flutter.app
+2026-10-19 09:03:45.587 pos_flutter[8212:2447307] Running with merged UI and platform thread. Experimental.
+Failed to foreground app; open returned 1
+flutter: SESSION5_ISOLATED_DIRECTORY=/Users/benjamin/Library/Containers/com.example.posFlutter/Data/tmp/pos_s5_manual_isolated
+Syncing files to device macOS...                                   123ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on macOS is available at: http://127.0.0.1:52354/gKVSBoGnflU=/
+The Flutter DevTools debugger and profiler on macOS is available at: http://127.0.0.1:52354/gKVSBoGnflU=/devtools/?uri=ws://127.0.0.1:52354/gKVSBoGnflU=/ws
+
+Application finished.

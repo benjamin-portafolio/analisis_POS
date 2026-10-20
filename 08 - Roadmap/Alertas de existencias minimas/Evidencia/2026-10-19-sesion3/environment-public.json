@@ -1,0 +1,14 @@
+{
+  "RUN_POSTGRES_INTEGRATION": "1",
+  "DATABASE_HOST": "127.0.0.1",
+  "DATABASE_PORT": "61042",
+  "NEST_DATABASE_NAME": "pos_cash_test_minimum_stock_session3",
+  "DATABASE_NAME": "pos_nest_test_minimum_stock_session3",
+  "POS_MINIMUM_SYNC_URL": "http://127.0.0.1:61110",
+  "POS_MINIMUM_PG_SCHEMA": "seg_phase3_http_85371_1792416322267",
+  "POS_PHASE3_SYNC_URL": "http://127.0.0.1:62880",
+  "POS_SUPPLIER_SYNC_URL": "http://127.0.0.1:62878",
+  "POS_SUPPLIER_PG_SCHEMA": "seg_phase3_http_88442_1792416669324",
+  "POS_BULK_SYNC_URL": "http://127.0.0.1:62879",
+  "POS_BULK_PG_SCHEMA": "seg_phase3_http_88426_1792416669385"
+}

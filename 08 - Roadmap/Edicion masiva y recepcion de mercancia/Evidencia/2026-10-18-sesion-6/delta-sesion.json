@@ -1,0 +1,46 @@
+{
+  "flutter": {
+    "changed_from_initial": [
+      "docs/architecture/bulk_receipt_operations.md",
+      "lib/presentation/pages/gestion_inventario/edicion_masiva/fila_edicion_masiva.dart",
+      "test/presentation/pages/gestion_inventario/edicion_masiva/edicion_masiva_task_screen_test.dart",
+      "test/presentation/pages/gestion_inventario/edicion_masiva/recepcion_compacta_screen_test.dart",
+      "lib/application/commands/inventario/inventory_command_service.dart"
+    ],
+    "removed_from_initial": [],
+    "new_from_initial": [
+      "test/integration/recepcion_masiva_server_test.dart",
+      "test/presentation/pages/gestion_inventario/edicion_masiva/recepcion_verificacion_test.dart",
+      "tool/benchmarks/recepcion_masiva_verification.dart",
+      "lib/application/sync/remote_event_preparer.dart",
+      "lib/application/sync/sync_push_service.dart"
+    ],
+    "previously_clean_tracked_now_modified": [
+      "lib/application/sync/remote_event_preparer.dart",
+      "lib/application/sync/sync_push_service.dart"
+    ],
+    "new_untracked_files": [
+      "test/integration/recepcion_masiva_server_test.dart",
+      "test/presentation/pages/gestion_inventario/edicion_masiva/recepcion_verificacion_test.dart",
+      "tool/benchmarks/recepcion_masiva_verification.dart"
+    ]
+  },
+  "nest": {
+    "changed_from_initial": [],
+    "removed_from_initial": [],
+    "new_from_initial": [],
+    "previously_clean_tracked_now_modified": [],
+    "new_untracked_files": []
+  },
+  "vault": {
+    "changed_from_initial": [
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Estado y continuidad.md",
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Matriz de aceptacion.md"
+    ],
+    "removed_from_initial": [],
+    "new_from_initial": [],
+    "previously_clean_tracked_now_modified": [],
+    "new_untracked_files": []
+  },
+  "manifest_scope": "Snapshots de archivos modificados/sin seguimiento. new_from_initial significa nuevo en ese snapshot; no implica un archivo fuente nuevo."
+}

@@ -1,0 +1,10 @@
+{
+  "runtime": "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-recepcion-s6-tfvoxv5q",
+  "pg_port": 63518,
+  "http_pid": 36740,
+  "database": "pos_nest_test_recepcion_s6",
+  "user": "recepcion_s6",
+  "pg_bin": "/Applications/Postgres.app/Contents/Versions/latest/bin",
+  "supplier_pid": 38507,
+  "tracking_pid": 38508
+}

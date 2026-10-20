@@ -1,7 +1,7 @@
 ---
 tipo: api
 estado: borrador
-actualizado: 2026-08-29
+actualizado: 2026-10-19
 ---
 
 # Payloads ejemplo
@@ -308,6 +308,7 @@ servidor lo valida y lo retira del payload canónico aceptado, conservando
       "barcode": null,
       "sale_price_minor": 2500,
       "standard_cost_minor": null,
+      "minimum_stock_atomic": null,
       "inventory_item_id": "00000000-0000-4000-8000-000000000010",
       "sort_order": 0
     }
@@ -325,12 +326,29 @@ servidor lo valida y lo retira del payload canónico aceptado, conservando
 Si la variante no controla existencias, omite `inventory_item_id` y no declara
 la dependencia. No se transportan `inventory_enabled`, receta ni componentes.
 
+`minimum_stock_atomic` está implementado en Flutter/NestJS: entero JSON seguro
+0..9007199254740991 o null, en átomos de la unidad de inventario vinculada
+(1.5 kg → 1500 átomos). No cambia consumo, saldo ni movimientos. Los escritores
+actuales declaran el campo en todas las variantes, incluso null; historia legada
+puede omitirlo en todas. Se rechazan declaraciones parciales y coerciones de
+strings/booleanos/fracciones. Push/pull canónicos conservan presencia y valor.
+
 ## producto_actualizado
 
 El contrato canonico confirmado vive en
 [[03 - Dominio/Modulos/Articulos|Articulos, payload producto_actualizado]].
-Un guardado genera un solo change-set atomico con cambios de producto,
-variantes y las bases de cada entidad interna. Modo/unidad de venta son cambios
+Un guardado genera un solo change-set atómico con `base_event_id`, `before` y
+`after` completos del agregado producto. El sobre mantiene versión y secuencia
+base. El mínimo se conserva/compara en las variantes de ambos snapshots: conservar
+por defecto, número explícito para establecer y null explícito para retirar.
+Before/after deben conocer el campo en todas sus variantes o ser ambos legados;
+la promoción desde una base realmente legada se valida explícitamente. Un escritor
+legado sobre una base que ya conoce mínimos se rechaza incluso para borrado
+(`delete_product: true`, `after: null`); no puede perder mínimos ni conocimiento.
+Concurrencia, rechazo/undo y reentrega están verificados sobre SQLite/PostgreSQL/HTTP.
+Ver [[08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion5/README|Evidencia final y límites]].
+
+Modo/unidad de venta son cambios
 del producto; precio, costo estandar, SKU y codigo nunca se
 interpretan como columnas planas de `products`.
 

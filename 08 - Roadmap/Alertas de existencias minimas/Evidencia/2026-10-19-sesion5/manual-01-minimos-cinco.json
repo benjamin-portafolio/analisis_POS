@@ -1,0 +1,111 @@
+{
+  "timestamp_utc": "2026-10-19T15:25:01.494413+00:00",
+  "source": "/Users/benjamin/Library/Containers/com.example.posFlutter/Data/tmp/pos_s5_manual_isolated/pos_db.sqlite",
+  "stage": "01-minimos-cinco",
+  "variants": [
+    {
+      "name": "Sesión 5 medido",
+      "id": "4c8d867b-540b-4a41-bafc-b711d5a17adf",
+      "minimum_stock_atomic": 5000,
+      "default_unit_id": "10000000-0000-4000-8000-000000000003",
+      "quantity_on_hand_atomic": 6000
+    },
+    {
+      "name": "Sesión 5 piezas",
+      "id": "24712b68-00be-46a6-8154-41544cd65fcf",
+      "minimum_stock_atomic": 5,
+      "default_unit_id": "10000000-0000-4000-8000-000000000001",
+      "quantity_on_hand_atomic": 6
+    }
+  ],
+  "events": [
+    {
+      "event_id": "fd80f9e5-36ae-4403-8686-36c2bcad05b0",
+      "event_type": "recurso_inventario_creado",
+      "delivery_status": "not_required",
+      "payload": "{\"inventory_item\":{\"inventory_item_id\":\"8a1f0b38-05b1-46ac-8b8c-0772d3915cac\",\"name\":\"Sesión 5 piezas\",\"default_unit_id\":\"10000000-0000-4000-8000-000000000001\",\"origin_variant_id\":\"24712b68-00be-46a6-8154-41544cd65fcf\"},\"initial_movement\":{\"movement_id\":\"772d6180-4ce3-4a7e-b8f0-7e920c754c75\",\"movement_type\":\"initial_balance\",\"quantity_delta_atomic\":6,\"reason\":null,\"reversal_of_movement_id\":null,\"total_cost_minor\":null}}"
+    },
+    {
+      "event_id": "6184ee58-4095-4fbe-81f9-6f69bcf39e7e",
+      "event_type": "producto_creado",
+      "delivery_status": "not_required",
+      "payload": "{\"product\":{\"name\":\"Sesión 5 piezas\",\"category_id\":null,\"sale_configuration\":{\"mode\":\"unit\"}},\"variants\":[{\"variant_id\":\"24712b68-00be-46a6-8154-41544cd65fcf\",\"name\":null,\"sku\":null,\"barcode\":null,\"sale_price_minor\":1000,\"standard_cost_minor\":500,\"minimum_stock_atomic\":null,\"inventory_item_id\":\"8a1f0b38-05b1-46ac-8b8c-0772d3915cac\",\"suppliers\":[],\"sort_order\":0}],\"dependencies\":[{\"ref_type\":\"inventory_item\",\"ref_id\":\"8a1f0b38-05b1-46ac-8b8c-0772d3915cac\",\"depends_on_event_id\":\"fd80f9e5-36ae-4403-8686-36c2bcad05b0\"}]}"
+    },
+    {
+      "event_id": "059f6b0d-a110-4677-a630-a9512243eebd",
+      "event_type": "recurso_inventario_creado",
+      "delivery_status": "not_required",
+      "payload": "{\"inventory_item\":{\"inventory_item_id\":\"a8b1caf8-6c63-4c01-a69b-8453c6813bfb\",\"name\":\"Sesión 5 medido\",\"default_unit_id\":\"10000000-0000-4000-8000-000000000003\",\"origin_variant_id\":\"4c8d867b-540b-4a41-bafc-b711d5a17adf\"},\"initial_movement\":{\"movement_id\":\"f5e0a1fe-b7fa-4641-a66c-468247e295d8\",\"movement_type\":\"initial_balance\",\"quantity_delta_atomic\":6000,\"reason\":null,\"reversal_of_movement_id\":null,\"total_cost_minor\":null}}"
+    },
+    {
+      "event_id": "8d75a7b3-0650-467e-8044-78bf6cec468f",
+      "event_type": "producto_creado",
+      "delivery_status": "not_required",
+      "payload": "{\"product\":{\"name\":\"Sesión 5 medido\",\"category_id\":null,\"sale_configuration\":{\"mode\":\"measured\",\"sale_unit_id\":\"10000000-0000-4000-8000-000000000003\",\"price_reference_quantity_atomic\":1000}},\"variants\":[{\"variant_id\":\"4c8d867b-540b-4a41-bafc-b711d5a17adf\",\"name\":null,\"sku\":null,\"barcode\":null,\"sale_price_minor\":1000,\"standard_cost_minor\":500,\"minimum_stock_atomic\":null,\"inventory_item_id\":\"a8b1caf8-6c63-4c01-a69b-8453c6813bfb\",\"suppliers\":[],\"sort_order\":0}],\"dependencies\":[{\"ref_type\":\"unit\",\"ref_id\":\"10000000-0000-4000-8000-000000000003\"},{\"ref_type\":\"inventory_item\",\"ref_id\":\"a8b1caf8-6c63-4c01-a69b-8453c6813bfb\",\"depends_on_event_id\":\"059f6b0d-a110-4677-a630-a9512243eebd\"}]}"
+    },
+    {
+      "event_id": "8bb674f1-90ac-410e-8bf6-d98d1b386b99",
+      "event_type": "producto_actualizado",
+      "delivery_status": "not_required",
+      "payload": "{\"base_event_id\":\"6184ee58-4095-4fbe-81f9-6f69bcf39e7e\",\"before\":{\"product\":{\"name\":\"Sesión 5 piezas\",\"category_id\":null,\"sale_configuration\":{\"mode\":\"unit\"}},\"variants\":[{\"variant_id\":\"24712b68-00be-46a6-8154-41544cd65fcf\",\"name\":null,\"sku\":null,\"barcode\":null,\"sale_price_minor\":1000,\"standard_cost_minor\":500,\"minimum_stock_atomic\":null,\"inventory_item_id\":\"8a1f0b38-05b1-46ac-8b8c-0772d3915cac\",\"suppliers\":[],\"sort_order\":0}],\"dependencies\":[{\"ref_type\":\"inventory_item\",\"ref_id\":\"8a1f0b38-05b1-46ac-8b8c-0772d3915cac\"}]},\"after\":{\"product\":{\"name\":\"Sesión 5 piezas\",\"category_id\":null,\"sale_configuration\":{\"mode\":\"unit\"}},\"variants\":[{\"variant_id\":\"24712b68-00be-46a6-8154-41544cd65fcf\",\"name\":null,\"sku\":null,\"barcode\":null,\"sale_price_minor\":1000,\"standard_cost_minor\":500,\"minimum_stock_atomic\":5,\"inventory_item_id\":\"8a1f0b38-05b1-46ac-8b8c-0772d3915cac\",\"suppliers\":[],\"sort_order\":0}],\"dependencies\":[{\"ref_type\":\"inventory_item\",\"ref_id\":\"8a1f0b38-05b1-46ac-8b8c-0772d3915cac\"}]}}"
+    },
+    {
+      "event_id": "74636e87-93bc-47df-a813-e48475604ce0",
+      "event_type": "producto_actualizado",
+      "delivery_status": "not_required",
+      "payload": "{\"base_event_id\":\"8d75a7b3-0650-467e-8044-78bf6cec468f\",\"before\":{\"product\":{\"name\":\"Sesión 5 medido\",\"category_id\":null,\"sale_configuration\":{\"mode\":\"measured\",\"sale_unit_id\":\"10000000-0000-4000-8000-000000000003\",\"price_reference_quantity_atomic\":1000}},\"variants\":[{\"variant_id\":\"4c8d867b-540b-4a41-bafc-b711d5a17adf\",\"name\":null,\"sku\":null,\"barcode\":null,\"sale_price_minor\":1000,\"standard_cost_minor\":500,\"minimum_stock_atomic\":null,\"inventory_item_id\":\"a8b1caf8-6c63-4c01-a69b-8453c6813bfb\",\"suppliers\":[],\"sort_order\":0}],\"dependencies\":[{\"ref_type\":\"unit\",\"ref_id\":\"10000000-0000-4000-8000-000000000003\"},{\"ref_type\":\"inventory_item\",\"ref_id\":\"a8b1caf8-6c63-4c01-a69b-8453c6813bfb\"}]},\"after\":{\"product\":{\"name\":\"Sesión 5 medido\",\"category_id\":null,\"sale_configuration\":{\"mode\":\"measured\",\"sale_unit_id\":\"10000000-0000-4000-8000-000000000003\",\"price_reference_quantity_atomic\":1000}},\"variants\":[{\"variant_id\":\"4c8d867b-540b-4a41-bafc-b711d5a17adf\",\"name\":null,\"sku\":null,\"barcode\":null,\"sale_price_minor\":1000,\"standard_cost_minor\":500,\"minimum_stock_atomic\":5000,\"inventory_item_id\":\"a8b1caf8-6c63-4c01-a69b-8453c6813bfb\",\"suppliers\":[],\"sort_order\":0}],\"dependencies\":[{\"ref_type\":\"unit\",\"ref_id\":\"10000000-0000-4000-8000-000000000003\"},{\"ref_type\":\"inventory_item\",\"ref_id\":\"a8b1caf8-6c63-4c01-a69b-8453c6813bfb\"}]}}"
+    }
+  ],
+  "tables": {
+    "inventory_balances": [
+      {
+        "inventory_item_id": "8a1f0b38-05b1-46ac-8b8c-0772d3915cac",
+        "quantity_on_hand_atomic": 6,
+        "quantity_available_atomic": 6,
+        "version": 1,
+        "last_event_id": "fd80f9e5-36ae-4403-8686-36c2bcad05b0",
+        "last_server_sequence": null
+      },
+      {
+        "inventory_item_id": "a8b1caf8-6c63-4c01-a69b-8453c6813bfb",
+        "quantity_on_hand_atomic": 6000,
+        "quantity_available_atomic": 6000,
+        "version": 1,
+        "last_event_id": "059f6b0d-a110-4677-a630-a9512243eebd",
+        "last_server_sequence": null
+      }
+    ],
+    "inventory_movements": [
+      {
+        "movement_id": "772d6180-4ce3-4a7e-b8f0-7e920c754c75",
+        "inventory_item_id": "8a1f0b38-05b1-46ac-8b8c-0772d3915cac",
+        "sale_item_id": null,
+        "event_id": "fd80f9e5-36ae-4403-8686-36c2bcad05b0",
+        "reversal_of_movement_id": null,
+        "movement_type": "initial_balance",
+        "quantity_delta_atomic": 6,
+        "total_cost_minor": null,
+        "reason": null,
+        "created_at_local": 1792422226,
+        "server_sequence": null
+      },
+      {
+        "movement_id": "f5e0a1fe-b7fa-4641-a66c-468247e295d8",
+        "inventory_item_id": "a8b1caf8-6c63-4c01-a69b-8453c6813bfb",
+        "sale_item_id": null,
+        "event_id": "059f6b0d-a110-4677-a630-a9512243eebd",
+        "reversal_of_movement_id": null,
+        "movement_type": "initial_balance",
+        "quantity_delta_atomic": 6000,
+        "total_cost_minor": null,
+        "reason": null,
+        "created_at_local": 1792422226,
+        "server_sequence": null
+      }
+    ],
+    "sales": [],
+    "sale_items": [],
+    "sale_payments": [],
+    "event_refs": []
+  }
+}

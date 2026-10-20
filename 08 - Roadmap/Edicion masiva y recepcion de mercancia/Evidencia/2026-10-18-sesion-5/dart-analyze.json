@@ -1,0 +1,8 @@
+{
+  "command": [
+    "dart",
+    "analyze"
+  ],
+  "exit_code": 0,
+  "seconds": 6.96
+}

@@ -1,0 +1,13 @@
+Instancia creada exclusivamente para sesión 1
+{
+  "root": "/tmp/pos_minimum_stock_pg_08hfmtis",
+  "port": 57079
+}
+Base: pos_cash_test_minimum_stock_session1
+Usuario: minimum_stock_test
+Host: 127.0.0.1
+.env no cargado
+waiting for server to shut down.... done
+server stopped
+
+Directorio temporal eliminado tras detener PostgreSQL.

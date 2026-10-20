@@ -1,0 +1,84 @@
+{
+  "fecha": "2026-10-19",
+  "heads": {
+    "flutter": "3e8e1edfc0332ac82a2f9fb4eef9d8e2a20ff083",
+    "nest": "dcc29074801e85d49c145f29955a33ef53724dd1",
+    "analisis": "b077dc72cc81ddd991ed7cb36daecd6283368ab2"
+  },
+  "archivos_flutter_sesion2": {
+    "docs/architecture/minimum_stock_contract.md": "8cbc9ff8beab6808b90d9161d6099d93a8ac7af2fdcff8fae9d50dde634c75cf",
+    "docs/architecture/offline_feature_flow.md": "11d8ee6780106cc682d9d43385f18e362377d54f435da6d691cea943b62b40b6",
+    "lib/application/commands/articulos/crear_articulo_variante_command.dart": "bb302fbe0b8c9ca3255dcdf3d775f7f2f1145539a1cd68bbe31d7186abe722f9",
+    "lib/application/commands/articulos/producto_command_service.dart": "bb7c1d80b55249cc85bb8e9ef11b712f568c53f4ac6f11c55b5d63923b1b3757",
+    "lib/application/sync/handlers/producto_event_handler.dart": "37b841d15665d204876745b3fe8eac14e3ea10df49b27c37ad66d9d75da595ab",
+    "lib/application/sync/payloads/producto_actualizado_payload.dart": "b70d3d2fbfb8a8a21ef7970a6cfb720bf2c4f49bc12e9f8091998a05360c10ad",
+    "lib/application/sync/projections/producto_projection_store.dart": "2a7d2f4426b7d531fda2ead65806daa1d60c9fab4fac04ade14484fa9a0c4629",
+    "lib/data/local/drift/daos/producto_dao.dart": "08e644f63840f5044acd77177ee31c8367788f7ef614202b21f48908c2604730",
+    "lib/data/local/drift/daos/producto_listado_row.dart": "c4c052662de3af77dad9ba2b0db3414d3a243d61e01414237bb98954f4cf59bc",
+    "lib/data/local/drift/drift_producto_projection_store.dart": "ec968198cf3516ce16134fb2be5757b2d1e57525c638ffebb56757f46ab9ed99",
+    "lib/data/repositories/producto_repository_impl.dart": "6947fce9125f24bccd423c4eca9658c86f668bd702477fd53459df6e7d560dde",
+    "lib/domain/articulos/variante_detalle.dart": "ab1396ee1e423dfa65559c53affd2420cc86b42149f312e3e9f0d1f1a014755f",
+    "lib/domain/articulos/variante_listado.dart": "c3368fd4545d352fbe7cd8192019f899b5ad355b0499e4cb7b004991266d81f9",
+    "lib/domain/inventario/minimum_stock_policy.dart": "f70f2927ca926c162debafea74478109536faf21789ccf6cce8a3a1e2733cef5",
+    "test/application/commands/articulos/minimum_stock_local_test.dart": "6391946f70c5ac7d48a59e73000fbf5e5edd14375f17a0061ab4cb1b139128b9",
+    "test/application/commands/articulos/actualizar_articulo_csv_test.dart": "a123de22b658518e0f3753b1304e69ab015066fc1c55a5c1ab3d3dcc4e147ec2",
+    "test/application/commands/articulos/editar_articulo_comercial_test.dart": "da5bff8b5654855896b330108f791213c001c2e3119001016faa8b05efd26a68",
+    "test/application/commands/articulos/product_supplier_relations_test.dart": "0a8db0eae9956829aab596f71e74d7176eae83550f930ac42fafa068ea1ddc7e",
+    "test/data/local/drift/variant_tracking_phase3_test.dart": "d95ff24598b69f39f7f5c17339fa019ae644edd1c703124b12b2ef2458bf6b2f",
+    "test/support/recepcion_masiva_fixture.dart": "8827b6734cce8f65f76c26a7b95fb447aa0d9270fa02255d409d05e69242f2ca"
+  },
+  "cambios_flutter_previos_preservados": {
+    "lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart": "d022efe693bd8793a0cd28ee68e555966f55acf2ca6dd0a8c6b320ce7d82c6b2",
+    "lib/presentation/pages/gestion_inventario/inventory_management_screen.dart": "86a481cbcd079231c797f5c8eba5f5a1ce616b4ffb5361afc5a95b1a531acb88",
+    "lib/presentation/pages/informes/reports_screen.dart": "372958dbdb62ab62a7e9cfb23c41ac991833e9333f8843566bacd201948dca04",
+    "test/presentation/pages/informes/beneficio_bruto_card_test.dart": "6cd604f22de0f8809aacd259aff6be9e45d54cd1a90ac730a089379a9b41fa4b",
+    "test/presentation/pages/informes/reports_screen_test.dart": "a9cf26b53b9ca07f25ec00f4fcdf652184dcc28720f821b95b44241c33a80a1c",
+    "test/presentation/pages/informes/sales_by_method_screen_test.dart": "c43ed9c515389430f6e2f0fdfa309748a90bb8db4d1cc2826dec04032d35f10c",
+    "lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_command.dart": "e4f5010e5d4b842cb33fba5d38b13a81a4c4ab20a4825906acf50b696d57cf13",
+    "lib/presentation/pages/informes/models/remaining_stock_item.dart": "ad324966ae6027754e573ec2c3d023475183a2ae4cf95726ba702426ac205fa3",
+    "lib/presentation/pages/informes/remaining_stock_screen.dart": "6ccfba3906e60d24278782d3c4d42093d53de7e82585defaee34f14cd8abf579",
+    "lib/presentation/pages/informes/remaining_stock_variant_editor.dart": "cbfe6d33f6627e3207f9b993b2623369129069acc1841b9c56c82baa53881ac7",
+    "lib/presentation/pages/informes/widgets/remaining_stock_report_card.dart": "b6fdf83f82faf3171ca98ea46af319c11fc113d1a66dcd16aab3bf496df54a8c",
+    "test/presentation/pages/informes/remaining_stock_screen_test.dart": "c49fe5a8cf7ed528c76bda0dd9dd7cba330b13a4822b22a0fdf171feeccf3546",
+    "test/presentation/pages/informes/remaining_stock_variant_edit_test.dart": "ea2df999b28683eebf073a49c37934f2c3c747447c01759669211f6058862ebd",
+    "test/support/fake_reports_producto_repository.dart": "69c6555ecd3fcdb3c1b2ac1e57c76d01965d13e116dc38139c9fc55d78fdc265",
+    "test/support/remaining_stock_fixture.dart": "0684192bd46aa4dd678db4cb900e87d7ec3cb12529da0c763f2836fcf2b9ba3e"
+  },
+  "sesion1_flutter_preservados_sin_rehacer": {
+    "test/application/sync/minimum_stock_contract_test.dart": "577f1aefd5813e30be6a4f4fbd530c97844a9a13d5045bcf7332edd84ecb4003",
+    "test/data/local/drift/minimum_stock_schema_test.dart": "a71fd39849ddb947babd626b65c5c8b2384143b04cfec722f5bab15296fb86cd",
+    "test/fixtures/minimum_stock_v1/contracts.json": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295",
+    "lib/application/sync/payloads/producto_creado_payload.dart": "b216508fe3277cedc96dcbfa689aac59059519e47deb9ecce12202d8929b32ee",
+    "lib/data/local/drift/app_database.g.dart": "b264438b7e93d2e30da46a4fe499414560bc41c28299cdbefe0686965958e462",
+    "lib/data/local/drift/current_database_schema.dart": "7d86a759223f9a24db57bed33b786c5c6b3becfcd03408508f1f85dac767e126",
+    "lib/data/local/drift/tables/product_variants.dart": "fa8bfadef5369e1201d8d07537ae85868670743541875b40b4b5217c1e1a6255"
+  },
+  "nest_sin_cambios_respecto_sesion1": {
+    "docs/minimum_stock_contract.md": "7aaf5f13b7340475db799b479286cd1038a4c9dc519c0a1996562ba9296fb76d",
+    "src/app.module.ts": "b564734ea1a5f17da2914f89f7f6058c079e72c387d5e08009bb0c94028a3a03",
+    "src/entities/product-variant.entity.ts": "3fcd2fa331a65b18af5a215c811067868a230157a9530319d7c32837a56b26d9",
+    "src/sync/payloads/producto-creado.payload.ts": "7be0588fba34d66ec4a142a921c5ff835ccd42e89909b48ef069c730eb95d74c",
+    "src/sync/payloads/producto-actualizado.payload.ts": "a3270d001a06d958852c6af1adfc1d158eede94d3b13f8f03bed93d3b9006479",
+    "src/sync/payloads/minimum-stock-contract.spec.ts": "1bdf954841128abd8960132b3d6f133df51534d238f90dfb4d528290c3c0db07",
+    "src/migrations/1792368000000-AddVariantMinimumStock.ts": "991388f6c9e4c427c498c73e6f377b459b9f0b04b81b52f00bb9680297cf46dd",
+    "src/migrations/1792368000000-AddVariantMinimumStock.postgres.spec.ts": "28567a5fa513d55b562dc8832373a1e148927626471e2064c95fbbf73b45b96b",
+    "test/fixtures/minimum_stock_v1/contracts.json": "390c2720a6413e7a87afbe5fc07733526dab97e8de2f372b6dc0522189002295"
+  },
+  "resultados": {
+    "dart_analyze": "exit 0; No issues found",
+    "flutter_test": "exit 0; 2517 passed, 16 skipped HTTP, 0 failed",
+    "focalizadas": "110 passed; 0 failed",
+    "compatibilidad_ventas": "79 passed; 0 failed",
+    "proveedores_seguimiento": "92 passed; 0 failed",
+    "build_runner": "no ejecutado: no cambiaron tablas"
+  },
+  "logs": {
+    "flutter-focalizadas-inicial.log": "a9b955ad474ec6724b2e06250dd90c784b89e815e0819af32865bd0c365bb6a6",
+    "flutter-proveedores-seguimiento.log": "50a81ff6c9b040350a20df3a0b9d95118519c8c3cc13499f0e023b1f60c8cc7b",
+    "flutter-compatibilidad-ventas.log": "5a9a73dc9a37a426971b5a6d0ccae5f46e9749af9b5397d647f3b9f241bd091b",
+    "flutter-completo.log": "fb57bde05df9d31c715f4a3db7cec756bd154c33deed4d3be4c44a38e011fc71",
+    "dart-analyze.log": "647c0365bc804adf3eb128df7629b74b9b1cfe6ac56a0a04d7220f882242b155",
+    "flutter-completo-inicial.log": "0bd77c88eebd598605bce6660761fbae2fcbcad8f8290988ce23bbfcbb79ba29",
+    "flutter-focalizadas.log": "75dce7c8bb08d3be9b963e5ffbd69b99c785bffd8889c62c784744f5ce31e3b2"
+  }
+}

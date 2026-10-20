@@ -1,0 +1,8 @@
+Name                    Hostname   Identifier                                    State       Model                              Reality  
+---------------------   --------   -------------------------------------------   ---------   --------------------------------   ---------
+iPad Pro 13-inch (M5)              132CDA8E-5B3C-4C18-A85C-9D70EE4BD385 (UDID)   shutdown    iPad Pro 13-inch (M5) (iPad17,4)   simulated
+iPhone 17                          5A57FAD3-8535-4EE4-8D60-9E6E6DF87B50 (UDID)   connected   iPhone 17 (iPhone18,3)             simulated
+iPhone 17                          7A546492-395D-4B2E-B4FB-75808BDEB390 (UDID)   shutdown    iPhone 17 (iPhone18,3)             simulated
+iPhone 17 Pro                      16782DA8-C7E3-40BC-9CED-E1D5032AC89A (UDID)   shutdown    iPhone 17 Pro (iPhone18,1)         simulated
+
+STDERR:

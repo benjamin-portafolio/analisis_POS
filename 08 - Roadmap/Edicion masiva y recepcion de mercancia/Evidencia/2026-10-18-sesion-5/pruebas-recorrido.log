@@ -1,0 +1,23 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/edicion_masiva/recepcion_recorrido_test.dart
+00:00 +0: (setUpAll)
+00:00 +0: Recorrido con SQLite real standalone M03/M09/M11/M12/M16: dos vistas, proveedor, cantidades sustituidas y venta independiente
+00:00 +1: Recorrido con SQLite real standalone M40: avance después del commit, doble confirmación y cancelación esperan al producto activo
+00:00 +2: Recorrido con SQLite real standalone M34/M40: rollback real del segundo producto, tercero aplicado y reintento sin repetir éxitos
+00:00 +3: Recorrido con SQLite real standalone M22/M34/M37: saldo obsoleto conserva captura, nueva revisión explícita cierra solo pendientes
+00:00 +4: Recorrido con SQLite real standalone M34: editar una pendiente requiere nueva identidad explícita y conserva aplicados
+00:00 +5: Recorrido con SQLite real standalone M32/M34: recuperar o cambiar bases en otro modo no promueve historial
+00:00 +6: Recorrido con SQLite real standalone M34: continuar no descarta capturas nuevas de un producto pendiente
+00:00 +7: Recorrido con SQLite real standalone M16/M21/M34: revisar bases no convierte una entrada a otra unidad
+00:00 +8: Recorrido con SQLite real standalone M25/M40: productos sin diferencias se informan omitidos sin reservar ni escribir
+00:00 +9: Recorrido con SQLite real serverSync M03/M09/M11/M12/M16: dos vistas, proveedor, cantidades sustituidas y venta independiente
+00:00 +10: Recorrido con SQLite real serverSync M40: avance después del commit, doble confirmación y cancelación esperan al producto activo
+00:00 +11: Recorrido con SQLite real serverSync M34/M40: rollback real del segundo producto, tercero aplicado y reintento sin repetir éxitos
+00:00 +12: Recorrido con SQLite real serverSync M22/M34/M37: saldo obsoleto conserva captura, nueva revisión explícita cierra solo pendientes
+00:00 +13: Recorrido con SQLite real serverSync M34: editar una pendiente requiere nueva identidad explícita y conserva aplicados
+00:00 +14: Recorrido con SQLite real serverSync M32/M34: recuperar o cambiar bases en otro modo no promueve historial
+00:00 +15: Recorrido con SQLite real serverSync M34: continuar no descarta capturas nuevas de un producto pendiente
+00:00 +16: Recorrido con SQLite real serverSync M16/M21/M34: revisar bases no convierte una entrada a otra unidad
+00:00 +17: Recorrido con SQLite real serverSync M25/M40: productos sin diferencias se informan omitidos sin reservar ni escribir
+00:00 +18: M34: cerrar/reabrir SQLite recupera confirmados y aplicados sin ejecución automática
+00:00 +19: (tearDownAll)
+00:00 +19: All tests passed!

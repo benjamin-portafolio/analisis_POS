@@ -1,0 +1,10 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/tool/benchmarks/articulo_import_verification.dart
+00:00 +0: C39-C42 mediciones CSV aisladas
+CSV_SCENARIO server_sync new_untracked complete
+CSV_SCENARIO server_sync new_tracked complete
+CSV_SCENARIO server_sync unchanged complete
+CSV_SCENARIO server_sync changed_20 complete
+CSV_SCENARIO server_sync changed_all complete
+CSV_SCENARIO server_sync mixed complete
+CSV_SCENARIO server_sync large_unchanged complete
+00:27 +1: All tests passed!

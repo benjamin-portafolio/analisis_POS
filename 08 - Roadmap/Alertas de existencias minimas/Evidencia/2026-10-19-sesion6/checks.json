@@ -1,0 +1,177 @@
+{
+  "recorded_at": "2026-10-19T09:51:50.417914-06:00",
+  "git_diff_check": [
+    {
+      "project": "flutter",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "chunk_id": "8e22da",
+      "wall_time_seconds": 5.583e-06,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "project": "nest",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "chunk_id": "18d49f",
+      "wall_time_seconds": 5.417e-06,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "project": "analisis",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "chunk_id": "694c4f",
+      "wall_time_seconds": 5.583e-06,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  ],
+  "new_local_links": [
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Estado y continuidad.md",
+      "target": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Plan de implementacion.md",
+      "target": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Plan de implementacion.md",
+      "target": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Matriz de aceptacion.md",
+      "target": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README#A42",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Matriz de aceptacion.md",
+      "target": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "discovery.json",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "../../Estado y continuidad.md",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "../../Matriz de aceptacion.md",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "../../Plan de implementacion.md",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "baseline.json",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "previous-evidence-validation.json",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "flutter-devices.log",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "adb-devices.log",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "apple-devices.json",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "apple-devices.log",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "xctrace-devices.log",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "usb-devices.log",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "../2026-10-19-sesion5/Casos.md#A42",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "preservation.json",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "checks.json",
+      "exists": true,
+      "anchor_valid": true
+    },
+    {
+      "source": "08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/README.md",
+      "target": "manifest.json",
+      "exists": true,
+      "anchor_valid": true
+    }
+  ],
+  "all_new_local_links_valid": true,
+  "unexpected_changes_count": 0,
+  "physical_test": "pending; no accessible physical phone/tablet",
+  "new_notes_trailing_whitespace": false,
+  "acceptance_matrix_case_count": 42
+}

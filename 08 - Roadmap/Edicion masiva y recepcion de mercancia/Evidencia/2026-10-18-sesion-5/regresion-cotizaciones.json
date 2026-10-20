@@ -1,0 +1,11 @@
+{
+  "command": [
+    "flutter",
+    "test",
+    "test/presentation/pages/cotizaciones/quotation_navigation_test.dart",
+    "--reporter",
+    "expanded"
+  ],
+  "exit_code": 0,
+  "seconds": 9.37
+}

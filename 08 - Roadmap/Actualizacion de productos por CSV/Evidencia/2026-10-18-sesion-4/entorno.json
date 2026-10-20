@@ -1,0 +1,31 @@
+{
+  "macos": {
+    "command": [
+      "sw_vers"
+    ],
+    "exit": 0,
+    "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0.1\nBuildVersion:\t\t26A434\n",
+    "stderr": ""
+  },
+  "hardware": {
+    "command": [
+      "sysctl",
+      "-n",
+      "hw.model",
+      "hw.memsize",
+      "machdep.cpu.brand_string"
+    ],
+    "exit": 0,
+    "stdout": "Mac17,3\n17179869184\nApple M5\n",
+    "stderr": ""
+  },
+  "xcode": {
+    "command": [
+      "xcodebuild",
+      "-version"
+    ],
+    "exit": 0,
+    "stdout": "Xcode 27.1\nBuild version 27A9275\n",
+    "stderr": ""
+  }
+}

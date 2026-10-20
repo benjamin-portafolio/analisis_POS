@@ -1,0 +1,7 @@
+Analyzing pos_flutter...
+
+warning - test/presentation/pages/informes/minimum_stock_ui_test.dart:104:36 - The '!' will have no effect because the receiver can't be null. Try removing the '!' operator. - unnecessary_non_null_assertion
+warning - test/presentation/pages/informes/minimum_stock_ui_test.dart:385:50 - The '!' will have no effect because the receiver can't be null. Try removing the '!' operator. - unnecessary_non_null_assertion
+   info - test/presentation/pages/informes/minimum_stock_ui_test.dart:130:11 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+
+3 issues found.

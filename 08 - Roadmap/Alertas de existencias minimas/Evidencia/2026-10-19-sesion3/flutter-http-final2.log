@@ -1,0 +1,11 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/integration/minimum_stock_server_test.dart
+00:00 +0: (setUpAll)
+00:00 +0: A24/A27/A32/A33 HTTP: mínimo solo conserva inventario, ventas y clave; venta abierta confirma
+00:01 +1: A11/A27/A30/A34 HTTP: pendientes en disco, cadena causal, ecos y replay desde cero
+00:01 +2: A28/A29/A30 HTTP: mínimo contra otra variante, preflight, dependientes y resolución posterior
+00:02 +3: A29/A30 HTTP: rechazo real restaura mínimo y pendientes tras reapertura; undo tardío respeta sucesor
+00:02 +4: A15/A29 HTTP: borrado optimista legado rechazado restaura valores y presencia
+00:03 +5: A10/A13/A14/A15/A34 HTTP: historia legada, promoción y rechazo antiguo incluso null conocido
+00:03 +6: A06/A08/A11/A12/A13 HTTP: medido, máximo, parciales y bases falsas no pierden canónico
+00:04 +7: (tearDownAll)
+00:04 +7: All tests passed!

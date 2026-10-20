@@ -1,0 +1,392 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/producto_command_service_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/producto_command_service_test.dart: el lote exige un almacén atómico antes de escribir
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/producto_command_service_test.dart: preparar un producto inválido no escribe ningún evento del lote
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +6: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +7: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +8: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +9: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +10: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +11: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +12: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +13: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: alta con variantes, proveedores compartidos, cero y listas canónicas inmutables
+00:00 +14: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +15: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +16: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +17: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +18: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +19: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +20: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +21: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +22: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +23: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +24: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +25: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +26: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +27: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +28: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +29: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +30: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:00 +31: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +32: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +33: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +34: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +35: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +36: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +37: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +38: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +39: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +40: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +41: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +42: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +43: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +44: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +45: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +46: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +47: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +48: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +49: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +50: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +51: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +52: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +53: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +54: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +55: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +56: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +57: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +58: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +59: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +60: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +61: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +62: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +63: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +64: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +65: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +66: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +67: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +68: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +69: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +70: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +71: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +72: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +73: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +74: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +75: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +76: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +77: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +78: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +78: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: reapertura SQLite temporal conserva conjuntos vacíos conocidos y precios
+WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)
+#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)
+#5      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart:1061:31)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#8      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:01 +79: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +80: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +81: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +82: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +82: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart: reapertura SQLite temporal conserva conjuntos vacíos conocidos y precios
+WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$AppDatabase (package:pos_flutter/data/local/drift/app_database.g.dart:20851:36)
+#4      new AppDatabase.forTesting (package:pos_flutter/data/local/drift/app_database.dart)
+#5      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/product_supplier_relations_test.dart:1112:31)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#8      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:01 +83: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +84: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +85: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +86: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +87: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +88: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +89: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +90: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +91: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +92: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +93: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +94: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +95: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +96: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +97: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +98: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +99: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +100: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +101: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +102: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +103: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +104: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +105: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +106: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +107: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +108: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +109: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +110: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +111: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +112: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +113: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +114: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +115: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +116: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +117: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +118: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +119: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +120: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +121: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +122: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +123: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +124: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +125: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +126: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +127: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +128: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +129: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +130: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +131: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +132: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +133: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +134: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +135: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +136: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +137: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +138: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/asignar_codigo_barras_variante_test.dart: standalone rollback íntegro ante fallo de aplicación y permite reintento
+00:01 +139: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:01 +140: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:01 +141: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +142: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +143: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +144: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +145: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +146: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +147: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +148: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +149: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +150: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +151: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +152: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_mixed_batch_service_test.dart: serverSync 500 existentes, 20 cambios: solo 20 eventos y un lote
+00:02 +153: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +154: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +155: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +156: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +157: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +158: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +159: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +160: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +161: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +162: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +163: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +164: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +165: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +166: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +167: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +168: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +169: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +170: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +171: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +172: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +173: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +174: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +175: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +176: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +177: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +178: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +179: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +180: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +181: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +182: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +183: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/asignar_codigo_barras_variante_test.dart: serverSync conserva suppliers legado ausente sin promoverlo a lista vacía
+00:02 +184: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: un lote fallido revierte todo y conserva los anteriores y posteriores
+00:02 +185: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: un lote fallido revierte todo y conserva los anteriores y posteriores
+00:02 +186: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: un lote fallido revierte todo y conserva los anteriores y posteriores
+00:02 +187: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: un lote fallido revierte todo y conserva los anteriores y posteriores
+00:02 +188: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: un lote fallido revierte todo y conserva los anteriores y posteriores
+00:02 +189: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: un lote fallido revierte todo y conserva los anteriores y posteriores
+00:02 +190: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: un lote fallido revierte todo y conserva los anteriores y posteriores
+00:02 +191: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: un lote fallido revierte todo y conserva los anteriores y posteriores
+00:03 +192: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: un lote fallido revierte todo y conserva los anteriores y posteriores
+00:03 +193: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura una fila con un número de campos distinto del encabezado
+00:03 +194: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura una fila con un número de campos distinto del encabezado
+00:03 +195: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura una fila con un número de campos distinto del encabezado
+00:03 +196: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura una fila con un número de campos distinto del encabezado
+00:03 +197: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura una fila con un número de campos distinto del encabezado
+00:03 +198: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +199: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +200: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +201: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +202: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +203: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +204: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +205: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +206: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +207: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +208: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +209: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +210: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +211: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +212: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +213: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +214: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +215: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +216: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +217: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +218: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +219: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +220: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +221: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +222: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +223: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +224: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +225: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +226: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +227: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +228: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +229: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +230: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +231: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +232: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +233: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +234: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +235: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +236: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +237: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +238: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +239: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +240: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +241: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +242: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +243: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +244: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +245: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +246: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +247: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +248: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +249: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +250: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +251: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +252: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +253: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +254: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +255: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +256: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +257: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +258: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +259: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +260: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +261: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +262: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +263: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +264: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +265: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:03 +266: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +266: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:03 +267: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +268: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +269: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +270: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +271: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +272: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +273: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +274: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +275: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +276: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +277: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +278: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +279: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +280: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +281: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +282: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +283: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +284: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +285: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +285: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF usa PASTOR aunque la configuración guardada diga Miradent
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:03 +286: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +286: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF escribe un PDF con fecha y los mismos conteos que el CSV
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:03 +287: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +287: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF respeta los filtros de la pantalla y avisa cuántos de cuántos
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:03 +288: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +289: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +290: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +290: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF sin filtros no lee el total y no lo reporta
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:03 +291: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +292: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +292: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF un catálogo vacío también se escribe y se puede compartir
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:03 +293: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +294: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +295: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +296: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +297: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +298: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +299: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +300: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +301: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +301: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: los bytes son un PDF que se puede abrir
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:03 +302: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +302: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: un catálogo vacío también se dibuja sin reventar
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:03 +303: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +303: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: el PDF dibuja el QR solo en la línea que tiene código de barras
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:03 +304: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +304: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: un catálogo largo se pagina y numera sus páginas
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:03 +305: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:04 +306: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: ofrece exactamente dos acciones: plantilla y archivo
+00:04 +307: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: descargar plantilla usa el servicio de exportación y lo comparte
+00:04 +308: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: una falla al bajar la plantilla avisa y rehabilita el botón
+00:04 +309: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: elegir archivo muestra las filas válidas y los problemas
+00:04 +310: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: el interruptor ofrece importar solo las filas válidas
+00:05 +311: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: un encabezado que no coincide bloquea la importación
+00:05 +312: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: un artículo que ya existe en el catálogo se rechaza
+00:05 +313: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: revisar, abrir confirmación y cancelar no escribe nada
+00:05 +314: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: confirmar importa una vez, muestra progreso y bloquea repetir
+00:05 +315: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: con errores exige solo válidas y confirma las omisiones
+00:05 +316: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: el lote fallido se reporta con artículos, líneas y motivo
+00:05 +317: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: archivo de catálogo existente no ofrece una nueva alta
+00:05 +318: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: cancelar el selector no cambia nada
+00:05 +319: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: un archivo que no se puede leer avisa y no rompe la pantalla
+00:05 +320: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: un archivo vacío se explica como archivo vacío
+00:05 +321: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: las reglas del archivo se leen sin salir de la pantalla
+00:05 +322: All tests passed!

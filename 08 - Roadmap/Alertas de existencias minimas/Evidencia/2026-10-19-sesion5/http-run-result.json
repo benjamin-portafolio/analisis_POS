@@ -1,0 +1,70 @@
+{
+  "started_utc": "2026-10-19T15:26:08.359564+00:00",
+  "commands": [
+    {
+      "argv": [
+        "/Applications/Postgres.app/Contents/Versions/18/bin/initdb",
+        "-D",
+        "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos_s5_pg_2hzu4wwq/data",
+        "-U",
+        "minimum_stock_test",
+        "--auth=trust",
+        "--no-locale"
+      ],
+      "cwd": null,
+      "log": "initdb.log",
+      "exit": 0
+    },
+    {
+      "argv": [
+        "/Applications/Postgres.app/Contents/Versions/18/bin/pg_ctl",
+        "-D",
+        "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos_s5_pg_2hzu4wwq/data",
+        "-l",
+        "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos_s5_pg_2hzu4wwq/postgres.log",
+        "-o",
+        "-h 127.0.0.1 -p 52886 -k /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos_s5_pg_2hzu4wwq",
+        "-w",
+        "start"
+      ],
+      "cwd": null,
+      "log": "postgres-start.log",
+      "exit": 0
+    },
+    {
+      "argv": [
+        "/Applications/Postgres.app/Contents/Versions/18/bin/createdb",
+        "-h",
+        "127.0.0.1",
+        "-p",
+        "52886",
+        "-U",
+        "minimum_stock_test",
+        "pos_nest_test_minimum_stock_session5"
+      ],
+      "cwd": null,
+      "log": "createdb.log",
+      "exit": 0
+    },
+    {
+      "argv": [
+        "flutter",
+        "test",
+        "--reporter",
+        "expanded"
+      ],
+      "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+      "log": "flutter-completo-final.log",
+      "exit": 0
+    }
+  ],
+  "http_server_exits": {
+    "minimum": 0,
+    "tracking": 0,
+    "suppliers": 0,
+    "bulk": 0
+  },
+  "remaining_http_schemas": "0",
+  "postgres_stop_exit": 0,
+  "ended_utc": "2026-10-19T15:28:46.774545+00:00"
+}

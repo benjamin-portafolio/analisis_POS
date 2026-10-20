@@ -1,0 +1,2 @@
+rg: sin TODO/FIXME/UnimplementedError ni imports Drift/data local en aplicación/presentación de edición masiva (exit 1 = sin coincidencias).
+Dart analyze final sin incidencias; no se añadieron dependencias. Los helpers nuevos son usados por los tests/benchmark ejecutados.

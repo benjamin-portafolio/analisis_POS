@@ -1,0 +1,9 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand src/sync/product-suppliers.postgres.spec.ts
+
+Test Suites: 1 passed, 1 total
+Tests:       64 passed, 64 total
+Snapshots:   0 total
+Time:        2.369 s
+Ran all test suites matching src/sync/product-suppliers.postgres.spec.ts.

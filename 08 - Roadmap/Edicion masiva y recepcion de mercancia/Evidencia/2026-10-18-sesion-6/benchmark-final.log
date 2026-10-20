@@ -1,0 +1,3 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/tool/benchmarks/recepcion_masiva_verification.dart
+00:00 +0: M48: carga, filtro, revisión, commit y diario en SQLite real
+00:30 +1: All tests passed!

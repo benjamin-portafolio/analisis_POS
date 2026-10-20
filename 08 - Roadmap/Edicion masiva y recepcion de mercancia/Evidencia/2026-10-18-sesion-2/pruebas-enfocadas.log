@@ -1,0 +1,26 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart
+00:00 +0: standalone M07/M12/M23/M24 superpone solo lo pedido en un único evento
+00:00 +1: standalone M08/M09 costo sin proveedor y venta sola conservan parejas
+00:00 +2: standalone M13 estándar igual con pareja distinta o nueva no es no-op
+00:00 +3: standalone M14 precio idéntico conserva fecha; nuevo usa fecha UTC
+00:00 +4: standalone M05 costo cero válido y venta cero rechazada
+00:00 +5: standalone M25 estado idéntico o solo entrada no emite nada
+00:00 +6: standalone M15 conserva legado, conocido vacío y poblado
+00:00 +7: standalone M16 medido conserva configuración y referencia
+00:00 +8: standalone M19 rechaza destinos inválidos sin escribir
+00:00 +9: standalone M20 base obsoleta rechaza sin sustituir la base viva
+00:00 +10: standalone refs declaradas por modo y persistidas solo en server_sync
+00:00 +11: standalone M41 standalone no inicia transporte ni persiste refs
+00:00 +12: serverSync M07/M12/M23/M24 superpone solo lo pedido en un único evento
+00:00 +13: serverSync M08/M09 costo sin proveedor y venta sola conservan parejas
+00:00 +14: serverSync M13 estándar igual con pareja distinta o nueva no es no-op
+00:00 +15: serverSync M14 precio idéntico conserva fecha; nuevo usa fecha UTC
+00:00 +16: serverSync M05 costo cero válido y venta cero rechazada
+00:01 +17: serverSync M25 estado idéntico o solo entrada no emite nada
+00:01 +18: serverSync M15 conserva legado, conocido vacío y poblado
+00:01 +19: serverSync M16 medido conserva configuración y referencia
+00:01 +20: serverSync M19 rechaza destinos inválidos sin escribir
+00:01 +21: serverSync M20 base obsoleta rechaza sin sustituir la base viva
+00:01 +22: serverSync refs declaradas por modo y persistidas solo en server_sync
+00:01 +23: serverSync M42 conserva base pendiente y la promueve al aceptarse
+00:01 +24: All tests passed!

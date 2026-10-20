@@ -1,0 +1,252 @@
+[
+  {
+    "tracking": false,
+    "run": 1,
+    "validation_us": 7600,
+    "save_us": 140903,
+    "validation_sql": {
+      "selects": 2,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0
+    },
+    "save_sql": {
+      "selects": 1501,
+      "inserts": 1500,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 10
+    },
+    "batches": 10,
+    "events": 500,
+    "peak_rss_bytes_cumulative_process": 368574464
+  },
+  {
+    "tracking": false,
+    "run": 2,
+    "validation_us": 5935,
+    "save_us": 127625,
+    "validation_sql": {
+      "selects": 2,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0
+    },
+    "save_sql": {
+      "selects": 1501,
+      "inserts": 1500,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 10
+    },
+    "batches": 10,
+    "events": 500,
+    "peak_rss_bytes_cumulative_process": 368574464
+  },
+  {
+    "tracking": false,
+    "run": 3,
+    "validation_us": 5261,
+    "save_us": 123414,
+    "validation_sql": {
+      "selects": 2,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0
+    },
+    "save_sql": {
+      "selects": 1501,
+      "inserts": 1500,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 10
+    },
+    "batches": 10,
+    "events": 500,
+    "peak_rss_bytes_cumulative_process": 368574464
+  },
+  {
+    "tracking": false,
+    "run": 4,
+    "validation_us": 5008,
+    "save_us": 120898,
+    "validation_sql": {
+      "selects": 2,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0
+    },
+    "save_sql": {
+      "selects": 1501,
+      "inserts": 1500,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 10
+    },
+    "batches": 10,
+    "events": 500,
+    "peak_rss_bytes_cumulative_process": 368574464
+  },
+  {
+    "tracking": false,
+    "run": 5,
+    "validation_us": 5071,
+    "save_us": 109837,
+    "validation_sql": {
+      "selects": 2,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0
+    },
+    "save_sql": {
+      "selects": 1501,
+      "inserts": 1500,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 10
+    },
+    "batches": 10,
+    "events": 500,
+    "peak_rss_bytes_cumulative_process": 368574464
+  },
+  {
+    "tracking": true,
+    "run": 1,
+    "validation_us": 6022,
+    "save_us": 382196,
+    "validation_sql": {
+      "selects": 2,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0
+    },
+    "save_sql": {
+      "selects": 6501,
+      "inserts": 4000,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 510
+    },
+    "batches": 10,
+    "events": 1000,
+    "peak_rss_bytes_cumulative_process": 368574464
+  },
+  {
+    "tracking": true,
+    "run": 2,
+    "validation_us": 5623,
+    "save_us": 372337,
+    "validation_sql": {
+      "selects": 2,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0
+    },
+    "save_sql": {
+      "selects": 6501,
+      "inserts": 4000,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 510
+    },
+    "batches": 10,
+    "events": 1000,
+    "peak_rss_bytes_cumulative_process": 368574464
+  },
+  {
+    "tracking": true,
+    "run": 3,
+    "validation_us": 4879,
+    "save_us": 384351,
+    "validation_sql": {
+      "selects": 2,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0
+    },
+    "save_sql": {
+      "selects": 6501,
+      "inserts": 4000,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 510
+    },
+    "batches": 10,
+    "events": 1000,
+    "peak_rss_bytes_cumulative_process": 368574464
+  },
+  {
+    "tracking": true,
+    "run": 4,
+    "validation_us": 5719,
+    "save_us": 367734,
+    "validation_sql": {
+      "selects": 2,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0
+    },
+    "save_sql": {
+      "selects": 6501,
+      "inserts": 4000,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 510
+    },
+    "batches": 10,
+    "events": 1000,
+    "peak_rss_bytes_cumulative_process": 368574464
+  },
+  {
+    "tracking": true,
+    "run": 5,
+    "validation_us": 5303,
+    "save_us": 362617,
+    "validation_sql": {
+      "selects": 2,
+      "inserts": 0,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 0
+    },
+    "save_sql": {
+      "selects": 6501,
+      "inserts": 4000,
+      "updates": 0,
+      "deletes": 0,
+      "customs": 0,
+      "transactions": 510
+    },
+    "batches": 10,
+    "events": 1000,
+    "peak_rss_bytes_cumulative_process": 368574464
+  }
+]

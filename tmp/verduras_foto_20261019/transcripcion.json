@@ -1,0 +1,171 @@
+{
+  "fuente": "WhatsApp Image 2026-10-19 at 20.11.12.jpeg",
+  "productos": [
+    [
+      "Tomate",
+      25
+    ],
+    [
+      "Jitomate",
+      32
+    ],
+    [
+      "Lechuga",
+      18
+    ],
+    [
+      "Aguacate",
+      60
+    ],
+    [
+      "Zanahoria",
+      18
+    ],
+    [
+      "Chayote",
+      22
+    ],
+    [
+      "Calabaza",
+      26
+    ],
+    [
+      "Ejote",
+      30
+    ],
+    [
+      "Pepino",
+      22
+    ],
+    [
+      "Jícama",
+      32
+    ],
+    [
+      "Plátano",
+      20
+    ],
+    [
+      "Chile serrano",
+      40
+    ],
+    [
+      "Chile poblano",
+      40
+    ],
+    [
+      "Chile cuaresmeño",
+      40
+    ],
+    [
+      "Papa",
+      22
+    ],
+    [
+      "Manzana",
+      45
+    ],
+    [
+      "Guayaba",
+      45
+    ],
+    [
+      "Naranja",
+      20
+    ],
+    [
+      "Limón",
+      28
+    ],
+    [
+      "Plátano macho",
+      30
+    ],
+    [
+      "Mango",
+      36
+    ],
+    [
+      "Papaya",
+      30
+    ],
+    [
+      "Melón",
+      30
+    ],
+    [
+      "Cebolla",
+      34
+    ],
+    [
+      "Cebolla cambray",
+      60
+    ],
+    [
+      "Piña",
+      50
+    ],
+    [
+      "Ajo",
+      120
+    ],
+    [
+      "Uva",
+      100
+    ],
+    [
+      "Chile morrón",
+      40
+    ],
+    [
+      "Manzana R.",
+      55
+    ],
+    [
+      "Plátano dominico",
+      26
+    ],
+    [
+      "Mandarina",
+      36
+    ],
+    [
+      "Pera",
+      55
+    ],
+    [
+      "Chile",
+      50
+    ],
+    [
+      "Durazno",
+      65
+    ]
+  ],
+  "pendientes": [],
+  "excluidos": [
+    {
+      "producto": "Huevo",
+      "precio": 40,
+      "motivo": "Fuera de frutas y verduras."
+    },
+    {
+      "producto": "Bomba",
+      "precio": 3,
+      "motivo": "No se identifica como fruta o verdura por kilogramo."
+    },
+    {
+      "producto": "Calabaza d.",
+      "precio": null,
+      "motivo": "El usuario indicó conservar únicamente la calabaza con precio."
+    }
+  ],
+  "notas": [
+    "El usuario confirmó plátano macho a 30 y cebolla a 34 por kg.",
+    "Calabaza b. se normaliza a Calabaza a 26 por kg, según la indicación del usuario.",
+    "Manzana R. conserva la abreviatura de la foto.",
+    "Chile conserva el nombre genérico de la foto.",
+    "Unidad kg y categoría Verduras indicadas por el usuario.",
+    "No se proporcionaron costes, códigos ni existencias."
+  ]
+}

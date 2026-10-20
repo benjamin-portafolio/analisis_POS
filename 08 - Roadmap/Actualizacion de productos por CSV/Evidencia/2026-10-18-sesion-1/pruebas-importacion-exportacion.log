@@ -1,0 +1,179 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura un archivo vacío es un error, no un archivo sin filas
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura el encabezado tiene que coincidir exactamente
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura una columna desconocida es error y no se ignora
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura una columna obligatoria faltante es error
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura las columnas en otro orden no se aceptan
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura una fila con un número de campos distinto del encabezado
+00:00 +6: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +7: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +8: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +9: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +10: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +11: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +12: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +13: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +14: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +15: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +16: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +17: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +18: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +19: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +20: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +21: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +22: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +23: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +24: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +25: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +26: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +27: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +28: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +29: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +30: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +31: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +32: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +33: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +34: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +35: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +36: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +37: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +38: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +39: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +40: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +41: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +42: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +43: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +44: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +45: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +46: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +47: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +48: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +49: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +50: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +51: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +52: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +53: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +54: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +55: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_identity_test.dart: C01-C03 dos formatos explícitos; altas sin IDs no generan identidad
+00:00 +56: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +57: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +58: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +59: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +60: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +61: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +62: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +63: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +64: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +65: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +66: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +67: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +68: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +69: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +70: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +71: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +72: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +73: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +74: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:00 +75: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:00 +76: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +77: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +78: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +79: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +80: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +80: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:00 +81: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +82: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +83: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +84: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +85: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +86: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +87: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +88: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +89: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +90: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +91: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +92: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:00 +93: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +94: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +95: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +96: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +97: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +98: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +99: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +100: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +101: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +102: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:01 +103: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:01 +104: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +105: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +106: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +107: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +108: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +109: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +110: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +111: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +112: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +113: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +114: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +114: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF usa PASTOR aunque la configuración guardada diga Miradent
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +115: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +115: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF escribe un PDF con fecha y los mismos conteos que el CSV
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +115: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: los bytes son un PDF que se puede abrir
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +116: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +116: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF respeta los filtros de la pantalla y avisa cuántos de cuántos
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +117: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +117: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF sin filtros no lee el total y no lo reporta
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +118: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +119: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +119: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF un catálogo vacío también se escribe y se puede compartir
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +119: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: un catálogo vacío también se dibuja sin reventar
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +120: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +121: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +121: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: el PDF dibuja el QR solo en la línea que tiene código de barras
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +122: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +122: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: un catálogo largo se pagina y numera sus páginas
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +123: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +124: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:02 +125: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: ofrece exactamente dos acciones: plantilla y archivo
+00:02 +126: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: un lote fallido revierte todo y conserva los anteriores y posteriores
+00:02 +127: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: descargar plantilla usa el servicio de exportación y lo comparte
+00:03 +128: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: descargar plantilla usa el servicio de exportación y lo comparte
+00:03 +129: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: exportar y reimportar sin cambios no altera catálogo, saldos ni eventos
+00:03 +130: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart: una falla al bajar la plantilla avisa y rehabilita el botón
+00:03 +131: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +132: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +133: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +134: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +135: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +136: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +137: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +138: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +139: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +140: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +141: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +142: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +143: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:03 +144: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:04 +145: All tests passed!

@@ -1,0 +1,20 @@
+[
+  {
+    "repo": "flutter",
+    "tracked_exit_code": 0,
+    "new_source_files_checked": 56,
+    "whitespace_diagnostics": 0
+  },
+  {
+    "repo": "nest",
+    "tracked_exit_code": 0,
+    "new_source_files_checked": 0,
+    "whitespace_diagnostics": 0
+  },
+  {
+    "repo": "vault",
+    "tracked_exit_code": 0,
+    "new_source_files_checked": 25,
+    "whitespace_diagnostics": 0
+  }
+]

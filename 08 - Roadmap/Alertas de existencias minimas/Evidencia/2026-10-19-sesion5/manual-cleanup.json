@@ -1,0 +1,7 @@
+{
+  "app_process_stopped": true,
+  "isolated_directory_removed": true,
+  "final_sqlite_copy": "manual-final.sqlite",
+  "integrity_check": "ok",
+  "temporary_entry_point_removed_from_flutter": true
+}

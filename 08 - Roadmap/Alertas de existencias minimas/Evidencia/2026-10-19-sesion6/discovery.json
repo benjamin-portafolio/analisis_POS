@@ -1,0 +1,73 @@
+{
+  "flutter-devices": {
+    "command": [
+      "/Users/benjamin/Development/flutter/bin/flutter",
+      "devices",
+      "--machine",
+      "--device-timeout",
+      "20"
+    ],
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "started_at": "2026-10-19T09:48:56.162966-06:00",
+    "finished_at": "2026-10-19T09:49:17.741622-06:00",
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"name\": \"iPhone 17\",\n    \"id\": \"5A57FAD3-8535-4EE4-8D60-9E6E6DF87B50\",\n    \"isSupported\": true,\n    \"targetPlatform\": \"ios\",\n    \"emulator\": true,\n    \"sdk\": \"com.apple.CoreSimulator.SimRuntime.iOS-26-5\",\n    \"capabilities\": {\n      \"hotReload\": true,\n      \"hotRestart\": true,\n      \"screenshot\": true,\n      \"flutterExit\": true,\n      \"hardwareRendering\": false,\n      \"startPaused\": true\n    }\n  },\n  {\n    \"name\": \"macOS\",\n    \"id\": \"macos\",\n    \"isSupported\": true,\n    \"targetPlatform\": \"darwin\",\n    \"emulator\": false,\n    \"sdk\": \"macOS 27.0.1 26A434 darwin-arm64\",\n    \"capabilities\": {\n      \"hotReload\": true,\n      \"hotRestart\": true,\n      \"screenshot\": false,\n      \"flutterExit\": true,\n      \"hardwareRendering\": false,\n      \"startPaused\": true\n    }\n  },\n  {\n    \"name\": \"Chrome\",\n    \"id\": \"chrome\",\n    \"isSupported\": true,\n    \"targetPlatform\": \"web-javascript\",\n    \"emulator\": false,\n    \"sdk\": \"Google Chrome 154.0.8037.100\",\n    \"capabilities\": {\n      \"hotReload\": true,\n      \"hotRestart\": true,\n      \"screenshot\": false,\n      \"flutterExit\": false,\n      \"hardwareRendering\": false,\n      \"startPaused\": true\n    }\n  }\n]\n",
+    "stderr": ""
+  },
+  "adb-devices": {
+    "command": [
+      "/Users/benjamin/Library/Android/sdk/platform-tools/adb",
+      "devices",
+      "-l"
+    ],
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "started_at": "2026-10-19T09:48:56.164061-06:00",
+    "finished_at": "2026-10-19T09:48:56.176710-06:00",
+    "exit_code": 0,
+    "stdout": "List of devices attached\n\n",
+    "stderr": ""
+  },
+  "apple-devices": {
+    "command": [
+      "/usr/bin/xcrun",
+      "devicectl",
+      "list",
+      "devices",
+      "--json-output",
+      "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion6/apple-devices.json"
+    ],
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "started_at": "2026-10-19T09:48:56.163123-06:00",
+    "finished_at": "2026-10-19T09:48:56.401650-06:00",
+    "exit_code": 0,
+    "stdout": "Name                    Hostname   Identifier                                    State       Model                              Reality  \n---------------------   --------   -------------------------------------------   ---------   --------------------------------   ---------\niPad Pro 13-inch (M5)              132CDA8E-5B3C-4C18-A85C-9D70EE4BD385 (UDID)   shutdown    iPad Pro 13-inch (M5) (iPad17,4)   simulated\niPhone 17                          5A57FAD3-8535-4EE4-8D60-9E6E6DF87B50 (UDID)   connected   iPhone 17 (iPhone18,3)             simulated\niPhone 17                          7A546492-395D-4B2E-B4FB-75808BDEB390 (UDID)   shutdown    iPhone 17 (iPhone18,3)             simulated\niPhone 17 Pro                      16782DA8-C7E3-40BC-9CED-E1D5032AC89A (UDID)   shutdown    iPhone 17 Pro (iPhone18,1)         simulated\n",
+    "stderr": ""
+  },
+  "xctrace-devices": {
+    "command": [
+      "/usr/bin/xcrun",
+      "xctrace",
+      "list",
+      "devices"
+    ],
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "started_at": "2026-10-19T09:48:56.166903-06:00",
+    "finished_at": "2026-10-19T09:48:59.155931-06:00",
+    "exit_code": 0,
+    "stdout": "== Devices ==\nBenjamin’s MacBook Air (C046B31E-1E84-5E95-9998-37C9EE65F9CB)\n\n== Simulators ==\niPad (A16) Simulator (26.4) (3F65DCBC-496E-4CD0-936C-8D4531A3CB88)\niPad (A16) Simulator (26.5) (4472787C-63AB-4D81-86AE-7710FE1B3535)\niPad Air 11-inch (M4) Simulator (26.4) (3C31C4DE-4B95-4BF2-A2A9-C8F3516819D2)\niPad Air 11-inch (M4) Simulator (26.5) (C9CF8275-7536-432F-8A3F-476EB518F043)\niPad Air 13-inch (M4) Simulator (26.4) (55BDE91A-7CEC-418C-9D7F-01313CBA9EE7)\niPad Air 13-inch (M4) Simulator (26.5) (26B1707F-7F0F-4D01-941D-C8A5F7D2B184)\niPad Pro 11-inch (M5) Simulator (26.4) (D287A6A2-E63F-439C-87B8-EBA1DBAD6F87)\niPad Pro 11-inch (M5) Simulator (26.5) (1638A2D3-DD5E-4F47-A0F3-C0E417A7507C)\niPad Pro 13-inch (M5) Simulator (26.4) (132CDA8E-5B3C-4C18-A85C-9D70EE4BD385)\niPad Pro 13-inch (M5) Simulator (26.5) (3224E39A-8D5B-4780-9115-5D53D7554084)\niPad mini (A17 Pro) Simulator (26.4) (6495770A-E55F-4C2F-B23B-C02BD8720382)\niPad mini (A17 Pro) Simulator (26.5) (7A8CEFFC-0600-4199-B6F9-35671DD83659)\niPhone 17 Simulator (26.4) (7A546492-395D-4B2E-B4FB-75808BDEB390)\niPhone 17 Simulator (26.5) (5A57FAD3-8535-4EE4-8D60-9E6E6DF87B50)\niPhone 17 Pro Simulator (26.4) (44EC5612-D49E-4EDF-AF15-D25ADF07A34A)\niPhone 17 Pro Simulator (26.5) (16782DA8-C7E3-40BC-9CED-E1D5032AC89A)\niPhone 17 Pro Max Simulator (26.4) (685E0B21-EC7E-4CDC-8D59-8CF25596B377)\niPhone 17 Pro Max Simulator (26.5) (0AFFB00A-6334-4AD5-8849-211A141EAAFA)\niPhone 17e Simulator (26.4) (B306CBD7-5D48-45DD-9F99-8737D1B04904)\niPhone 17e Simulator (26.5) (74868BEB-D5C5-452C-91F1-9C3321E9F74E)\niPhone Air Simulator (26.4) (F3A65D8A-917B-4C73-8FB3-77AF31498D59)\niPhone Air Simulator (26.5) (A9656F32-11FC-41AF-A9B2-E379CEFA817B)\n",
+    "stderr": ""
+  },
+  "usb-devices": {
+    "command": [
+      "/usr/sbin/system_profiler",
+      "SPUSBDataType",
+      "-json"
+    ],
+    "cwd": "/Users/benjamin/Projects/POS/pos_flutter",
+    "started_at": "2026-10-19T09:48:56.165056-06:00",
+    "finished_at": "2026-10-19T09:48:56.376512-06:00",
+    "exit_code": 0,
+    "stdout": "{\n  \"SPUSBDataType\" : [\n\n  ]\n}",
+    "stderr": ""
+  }
+}

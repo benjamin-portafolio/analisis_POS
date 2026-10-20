@@ -1,0 +1,408 @@
+[
+  {
+    "url": "https://surtace.mayoreoenlinea.mx/products/aceite-cristal-500.js",
+    "data": {
+      "id": 10064269017281,
+      "title": "Aceite Cristal 500 ml",
+      "handle": "aceite-cristal-500",
+      "description": "<p>ACEITE CRISTAL  .500</p>",
+      "published_at": "2023-11-15T08:45:55-06:00",
+      "created_at": "2023-11-15T08:45:56-06:00",
+      "vendor": "CRISTAL",
+      "type": "ACEITE GIRASOL/CARTAMO",
+      "tags": [
+        "ACEITE CRISTAL  .500",
+        "ACEITE GIRASOL/CARTAMO",
+        "ACEITES Y GRASAS",
+        "CRISTAL"
+      ],
+      "price": 1835,
+      "price_min": 1835,
+      "price_max": 1950,
+      "available": true,
+      "price_varies": true,
+      "compare_at_price": null,
+      "compare_at_price_min": 0,
+      "compare_at_price_max": 0,
+      "compare_at_price_varies": false,
+      "variants": [
+        {
+          "id": 49819225653441,
+          "title": "1 - 11",
+          "option1": "1 - 11",
+          "option2": null,
+          "option3": null,
+          "sku": "0111001-1",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "name": "Aceite Cristal 500 ml - 1 - 11",
+          "public_title": "1 - 11",
+          "options": [
+            "1 - 11"
+          ],
+          "price": 1950,
+          "weight": 0,
+          "compare_at_price": null,
+          "inventory_management": "shopify",
+          "barcode": null,
+          "quantity_rule": {
+            "min": 1,
+            "max": null,
+            "increment": 1
+          },
+          "quantity_price_breaks": [],
+          "requires_selling_plan": false,
+          "selling_plan_allocations": []
+        },
+        {
+          "id": 49819225882817,
+          "title": "12 - 23",
+          "option1": "12 - 23",
+          "option2": null,
+          "option3": null,
+          "sku": "0111001-12",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "name": "Aceite Cristal 500 ml - 12 - 23",
+          "public_title": "12 - 23",
+          "options": [
+            "12 - 23"
+          ],
+          "price": 1865,
+          "weight": 0,
+          "compare_at_price": null,
+          "inventory_management": "shopify",
+          "barcode": null,
+          "quantity_rule": {
+            "min": 1,
+            "max": null,
+            "increment": 1
+          },
+          "quantity_price_breaks": [],
+          "requires_selling_plan": false,
+          "selling_plan_allocations": []
+        },
+        {
+          "id": 49647648178369,
+          "title": "24+",
+          "option1": "24+",
+          "option2": null,
+          "option3": null,
+          "sku": "0111001-24",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "name": "Aceite Cristal 500 ml - 24+",
+          "public_title": "24+",
+          "options": [
+            "24+"
+          ],
+          "price": 1835,
+          "weight": 0,
+          "compare_at_price": null,
+          "inventory_management": "shopify",
+          "barcode": null,
+          "quantity_rule": {
+            "min": 1,
+            "max": null,
+            "increment": 1
+          },
+          "quantity_price_breaks": [],
+          "requires_selling_plan": false,
+          "selling_plan_allocations": []
+        }
+      ],
+      "images": [
+        "//cdn.shopify.com/s/files/1/0621/2819/3729/files/0111001-aceite-cristal-500_f8ff92d2-ee3d-4861-8d4b-cf98f79933c2.png?v=1701974249"
+      ],
+      "featured_image": "//cdn.shopify.com/s/files/1/0621/2819/3729/files/0111001-aceite-cristal-500_f8ff92d2-ee3d-4861-8d4b-cf98f79933c2.png?v=1701974249",
+      "options": [
+        {
+          "name": "Piezas mayoreo",
+          "position": 1,
+          "values": [
+            "1 - 11",
+            "12 - 23",
+            "24+"
+          ]
+        }
+      ],
+      "url": "/products/aceite-cristal-500",
+      "media": [
+        {
+          "alt": null,
+          "id": 35719997817025,
+          "position": 1,
+          "preview_image": {
+            "aspect_ratio": 1.0,
+            "height": 1000,
+            "width": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0621/2819/3729/files/0111001-aceite-cristal-500_f8ff92d2-ee3d-4861-8d4b-cf98f79933c2.png?v=1701974249"
+          },
+          "aspect_ratio": 1.0,
+          "height": 1000,
+          "media_type": "image",
+          "src": "https://cdn.shopify.com/s/files/1/0621/2819/3729/files/0111001-aceite-cristal-500_f8ff92d2-ee3d-4861-8d4b-cf98f79933c2.png?v=1701974249",
+          "width": 1000
+        }
+      ],
+      "requires_selling_plan": false,
+      "selling_plan_groups": []
+    }
+  },
+  {
+    "url": "https://surtace.mayoreoenlinea.mx/products/aceite-123-500.js",
+    "data": {
+      "id": 10064268263617,
+      "title": "Aceite 123 500 ml",
+      "handle": "aceite-123-500",
+      "description": "<p>ACEITE 123 .500</p>",
+      "published_at": "2023-11-15T08:45:31-06:00",
+      "created_at": "2023-11-15T08:45:32-06:00",
+      "vendor": "1-2-3 (ACEITE)",
+      "type": "ACEITE GIRASOL/CARTAMO",
+      "tags": [
+        "1-2-3 (ACEITE)",
+        "ACEITE 123 .500",
+        "ACEITE GIRASOL/CARTAMO",
+        "ACEITES Y GRASAS",
+        "best seller",
+        "Productos con escala"
+      ],
+      "price": 2202,
+      "price_min": 2202,
+      "price_max": 2350,
+      "available": true,
+      "price_varies": true,
+      "compare_at_price": null,
+      "compare_at_price_min": 0,
+      "compare_at_price_max": 0,
+      "compare_at_price_varies": false,
+      "variants": [
+        {
+          "id": 50020153163969,
+          "title": "1 - 23",
+          "option1": "1 - 23",
+          "option2": null,
+          "option3": null,
+          "sku": "0111006-1",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "name": "Aceite 123 500 ml - 1 - 23",
+          "public_title": "1 - 23",
+          "options": [
+            "1 - 23"
+          ],
+          "price": 2350,
+          "weight": 0,
+          "compare_at_price": null,
+          "inventory_management": "shopify",
+          "barcode": null,
+          "quantity_rule": {
+            "min": 1,
+            "max": null,
+            "increment": 1
+          },
+          "quantity_price_breaks": [],
+          "requires_selling_plan": false,
+          "selling_plan_allocations": []
+        },
+        {
+          "id": 50020153196737,
+          "title": "24 - 47",
+          "option1": "24 - 47",
+          "option2": null,
+          "option3": null,
+          "sku": "0111006-24",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "name": "Aceite 123 500 ml - 24 - 47",
+          "public_title": "24 - 47",
+          "options": [
+            "24 - 47"
+          ],
+          "price": 2248,
+          "weight": 0,
+          "compare_at_price": null,
+          "inventory_management": "shopify",
+          "barcode": null,
+          "quantity_rule": {
+            "min": 1,
+            "max": null,
+            "increment": 1
+          },
+          "quantity_price_breaks": [],
+          "requires_selling_plan": false,
+          "selling_plan_allocations": []
+        },
+        {
+          "id": 50020153229505,
+          "title": "48+",
+          "option1": "48+",
+          "option2": null,
+          "option3": null,
+          "sku": "0111006-48",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "name": "Aceite 123 500 ml - 48+",
+          "public_title": "48+",
+          "options": [
+            "48+"
+          ],
+          "price": 2202,
+          "weight": 0,
+          "compare_at_price": null,
+          "inventory_management": "shopify",
+          "barcode": null,
+          "quantity_rule": {
+            "min": 1,
+            "max": null,
+            "increment": 1
+          },
+          "quantity_price_breaks": [],
+          "requires_selling_plan": false,
+          "selling_plan_allocations": []
+        }
+      ],
+      "images": [
+        "//cdn.shopify.com/s/files/1/0621/2819/3729/files/ACEITE123.500.png?v=1704819359"
+      ],
+      "featured_image": "//cdn.shopify.com/s/files/1/0621/2819/3729/files/ACEITE123.500.png?v=1704819359",
+      "options": [
+        {
+          "name": "Piezas mayoreo",
+          "position": 1,
+          "values": [
+            "1 - 23",
+            "24 - 47",
+            "48+"
+          ]
+        }
+      ],
+      "url": "/products/aceite-123-500",
+      "media": [
+        {
+          "alt": null,
+          "id": 35946233102529,
+          "position": 1,
+          "preview_image": {
+            "aspect_ratio": 1.0,
+            "height": 1035,
+            "width": 1035,
+            "src": "https://cdn.shopify.com/s/files/1/0621/2819/3729/files/ACEITE123.500.png?v=1704819359"
+          },
+          "aspect_ratio": 1.0,
+          "height": 1035,
+          "media_type": "image",
+          "src": "https://cdn.shopify.com/s/files/1/0621/2819/3729/files/ACEITE123.500.png?v=1704819359",
+          "width": 1035
+        }
+      ],
+      "requires_selling_plan": false,
+      "selling_plan_groups": []
+    }
+  },
+  {
+    "url": "https://lamimigb.com/products/aceite-cristal-1-5-lt.js",
+    "data": {
+      "id": 7124823736472,
+      "title": "Aceite Cristal c/1.5 lt /  (Edo Méx - CDMX)",
+      "handle": "aceite-cristal-1-5-lt",
+      "description": "<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\"><span data-mce-fragment=\"1\" mce-data-marked=\"1\">Aceite sin colesterol por su origen vegetal.</span></li>\n<li data-mce-fragment=\"1\">Bote de 1.5 lt</li>\n<li data-mce-fragment=\"1\">Marca: Cristal.</li>\n</ul>",
+      "published_at": "2021-11-20T11:48:29-06:00",
+      "created_at": "2021-11-17T12:56:29-06:00",
+      "vendor": "Soba",
+      "type": "Aceite Vegetal",
+      "tags": [
+        "ENVIOLOC",
+        "EnvioRep"
+      ],
+      "price": 8200,
+      "price_min": 8200,
+      "price_max": 8200,
+      "available": true,
+      "price_varies": false,
+      "compare_at_price": null,
+      "compare_at_price_min": 0,
+      "compare_at_price_max": 0,
+      "compare_at_price_varies": false,
+      "variants": [
+        {
+          "id": 41316037329048,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "7501048100248 nostock (4)",
+          "requires_shipping": true,
+          "taxable": false,
+          "featured_image": null,
+          "available": true,
+          "name": "Aceite Cristal c/1.5 lt /  (Edo Méx - CDMX)",
+          "public_title": null,
+          "options": [
+            "Default Title"
+          ],
+          "price": 8200,
+          "weight": 0,
+          "compare_at_price": null,
+          "inventory_management": "shopify",
+          "barcode": "7501048100248",
+          "quantity_rule": {
+            "min": 1,
+            "max": null,
+            "increment": 1
+          },
+          "quantity_price_breaks": [],
+          "requires_selling_plan": false,
+          "selling_plan_allocations": []
+        }
+      ],
+      "images": [
+        "//cdn.shopify.com/s/files/1/0461/2040/3096/products/019_0043_Capa-27.png?v=1637175697"
+      ],
+      "featured_image": "//cdn.shopify.com/s/files/1/0461/2040/3096/products/019_0043_Capa-27.png?v=1637175697",
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "url": "/products/aceite-cristal-1-5-lt",
+      "media": [
+        {
+          "alt": null,
+          "id": 28650278322328,
+          "position": 1,
+          "preview_image": {
+            "aspect_ratio": 1.0,
+            "height": 1000,
+            "width": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0461/2040/3096/products/019_0043_Capa-27.png?v=1637175697"
+          },
+          "aspect_ratio": 1.0,
+          "height": 1000,
+          "media_type": "image",
+          "src": "https://cdn.shopify.com/s/files/1/0461/2040/3096/products/019_0043_Capa-27.png?v=1637175697",
+          "width": 1000
+        }
+      ],
+      "requires_selling_plan": false,
+      "selling_plan_groups": []
+    }
+  }
+]

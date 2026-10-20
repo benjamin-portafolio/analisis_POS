@@ -1,0 +1,10 @@
+{
+  "command": [
+    "flutter",
+    "test",
+    "--reporter",
+    "expanded"
+  ],
+  "exit_code": 1,
+  "seconds": 128.14
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "pid": 36740,
+    "signal": "SIGTERM"
+  },
+  {
+    "pid": 38507,
+    "signal": "SIGTERM"
+  },
+  {
+    "pid": 38508,
+    "signal": "SIGTERM"
+  },
+  {
+    "process_states_after_stop": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "remaining_harness_schemas": "",
+    "exit_code": 0
+  },
+  {
+    "pg_stop_exit_code": 0,
+    "output": "waiting for server to shut down.... done\nserver stopped\n"
+  },
+  {
+    "runtime_removed": "/var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/pos-recepcion-s6-tfvoxv5q"
+  }
+]

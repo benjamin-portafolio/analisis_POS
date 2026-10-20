@@ -1,0 +1,102 @@
+{
+  "flutter": {
+    "initial_count": 41,
+    "preserved_count": 38,
+    "changed_by_session": [
+      "lib/data/local/import/articulo_import_csv.dart",
+      "test/application/commands/articulos/actualizar_articulo_csv_test.dart",
+      "test/data/local/import/articulo_import_identity_test.dart"
+    ],
+    "unexpected_changes": [],
+    "missing": [],
+    "preserved_files": [
+      "lib/application/commands/articulos/producto_command_service.dart",
+      "lib/application/import/articulo_catalog_import_service.dart",
+      "lib/application/import/articulo_import_batch_service.dart",
+      "lib/application/import/articulo_import_lote_fallido.dart",
+      "lib/application/import/articulo_import_progreso.dart",
+      "lib/core/di/data_dependencies.dart",
+      "lib/data/local/export/articulo_catalog_csv.dart",
+      "lib/data/local/export/drift_articulo_catalog_export_service.dart",
+      "lib/presentation/pages/caja/sale_barcode_scanner_screen.dart",
+      "lib/presentation/pages/gestion_inventario/carga_masiva/bulk_import_progress.dart",
+      "lib/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen.dart",
+      "lib/presentation/pages/gestion_inventario/inventory_management_screen.dart",
+      "test/application/import/articulo_import_batch_service_test.dart",
+      "test/data/local/export/drift_articulo_catalog_export_service_test.dart",
+      "test/data/local/import/articulo_import_csv_test.dart",
+      "test/data/local/import/articulo_import_csv_vuelta_test.dart",
+      "test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart",
+      "test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart",
+      "test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart",
+      "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+      "lib/application/commands/articulos/actualizar_articulo_csv_command.dart",
+      "lib/application/commands/articulos/actualizar_articulo_variante_csv_command.dart",
+      "lib/application/commands/articulos/producto_import_lote_result.dart",
+      "lib/application/import/articulo_csv_contract.dart",
+      "lib/application/import/articulo_import_actualizacion.dart",
+      "lib/application/import/articulo_import_catalog_reader.dart",
+      "lib/application/import/articulo_import_preparation_service.dart",
+      "lib/application/import/articulo_import_producto_error.dart",
+      "lib/application/import/articulo_import_producto_local.dart",
+      "lib/application/import/articulo_import_solicitud.dart",
+      "lib/application/import/articulo_import_variante_cambio.dart",
+      "lib/application/import/articulo_import_variante_local.dart",
+      "lib/data/local/import/drift_articulo_import_catalog_reader.dart",
+      "lib/presentation/pages/gestion_inventario/carga_masiva/bulk_import_review.dart",
+      "test/application/import/articulo_import_mixed_batch_service_test.dart",
+      "test/data/local/import/drift_articulo_import_preparation_test.dart",
+      "test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_persistence_test.dart",
+      "tool/benchmarks/articulo_import_baseline.dart"
+    ],
+    "new_git_paths": [
+      "lib/application/export/articulo_catalog_export_service.dart",
+      "tool/benchmarks/articulo_import_manual.dart",
+      "tool/benchmarks/articulo_import_verification.dart"
+    ]
+  },
+  "vault": {
+    "initial_count": 31,
+    "preserved_count": 30,
+    "changed_by_session": [
+      "08 - Roadmap/Actualizacion de productos por CSV/Estado y continuidad.md"
+    ],
+    "unexpected_changes": [],
+    "missing": [],
+    "preserved_files": [
+      "00 - Inicio/Mapa del vault.md",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/500-con-seguimiento.csv",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/500-sin-seguimiento.csv",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/Referencia de rendimiento.md",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/articulo_import_baseline.dart",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/baseline-ejecucion.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/baseline-resultados.json",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/dart-analyze-final.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/flutter-test-final.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/pruebas-importacion-escaneo.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/pruebas-importacion-exportacion.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-2/Verificacion del core.md",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-2/dart-analyze-final.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-2/flutter-test-final.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-2/pruebas-enfocadas.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/Verificacion de interfaz.md",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/dart-analyze-final.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/flutter-test-final.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/flutter-test-primer-intento.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/proveedores-reverificacion.log",
+      "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/pruebas-enfocadas.log",
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Estado y continuidad.md",
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Matriz de aceptacion.md",
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Plan de implementacion.md",
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/01 - Contrato y borrador.md",
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/02 - Edicion comercial.md",
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/03 - Recepcion y reintentos.md",
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/04 - Interfaz por tarea.md",
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/05 - Recepcion compacta y revision.md",
+      "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/06 - Verificacion y cierre.md"
+    ],
+    "new_git_paths": [
+      "08 - Roadmap/Actualizacion de productos por CSV/Matriz de aceptacion.md"
+    ]
+  }
+}

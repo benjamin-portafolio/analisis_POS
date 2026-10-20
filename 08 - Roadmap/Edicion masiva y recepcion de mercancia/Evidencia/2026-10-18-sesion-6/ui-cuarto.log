@@ -1,0 +1,87 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/edicion_masiva/recepcion_verificacion_test.dart
+00:00 +0: M47 accesibilidad en ambas vistas a 320.0 px, texto ampliado y nombres largos
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A SemanticsHandle was active at the end of the test.
+All SemanticsHandle instances must be disposed by calling dispose() on the SemanticsHandle.
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester._verifySemanticsHandlesWereDisposed (package:flutter_test/src/widget_tester.dart:1074:7)
+#1      WidgetTester._endOfTestVerifications (package:flutter_test/src/widget_tester.dart:1063:5)
+#2      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1698:22)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  M47 accesibilidad en ambas vistas a 320.0 px, texto ampliado y nombres largos
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:00 +0 -1: M47 accesibilidad en ambas vistas a 320.0 px, texto ampliado y nombres largos [E]
+  Test failed. See exception logs above.
+  The test description was: M47 accesibilidad en ambas vistas a 320.0 px, texto ampliado y nombres largos
+  
+00:00 +0 -1: M47 accesibilidad en ambas vistas a 360.0 px, texto ampliado y nombres largos
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A SemanticsHandle was active at the end of the test.
+All SemanticsHandle instances must be disposed by calling dispose() on the SemanticsHandle.
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester._verifySemanticsHandlesWereDisposed (package:flutter_test/src/widget_tester.dart:1074:7)
+#1      WidgetTester._endOfTestVerifications (package:flutter_test/src/widget_tester.dart:1063:5)
+#2      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1698:22)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  M47 accesibilidad en ambas vistas a 360.0 px, texto ampliado y nombres largos
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -2: M47 accesibilidad en ambas vistas a 360.0 px, texto ampliado y nombres largos [E]
+  Test failed. See exception logs above.
+  The test description was: M47 accesibilidad en ambas vistas a 360.0 px, texto ampliado y nombres largos
+  
+00:01 +0 -2: M47 accesibilidad en ambas vistas a 390.0 px, texto ampliado y nombres largos
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A SemanticsHandle was active at the end of the test.
+All SemanticsHandle instances must be disposed by calling dispose() on the SemanticsHandle.
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester._verifySemanticsHandlesWereDisposed (package:flutter_test/src/widget_tester.dart:1074:7)
+#1      WidgetTester._endOfTestVerifications (package:flutter_test/src/widget_tester.dart:1063:5)
+#2      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1698:22)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  M47 accesibilidad en ambas vistas a 390.0 px, texto ampliado y nombres largos
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -3: M47 accesibilidad en ambas vistas a 390.0 px, texto ampliado y nombres largos [E]
+  Test failed. See exception logs above.
+  The test description was: M47 accesibilidad en ambas vistas a 390.0 px, texto ampliado y nombres largos
+  
+00:01 +0 -3: M47 accesibilidad en ambas vistas a 800.0 px, texto ampliado y nombres largos
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A SemanticsHandle was active at the end of the test.
+All SemanticsHandle instances must be disposed by calling dispose() on the SemanticsHandle.
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester._verifySemanticsHandlesWereDisposed (package:flutter_test/src/widget_tester.dart:1074:7)
+#1      WidgetTester._endOfTestVerifications (package:flutter_test/src/widget_tester.dart:1063:5)
+#2      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1698:22)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  M47 accesibilidad en ambas vistas a 800.0 px, texto ampliado y nombres largos
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -4: M47 accesibilidad en ambas vistas a 800.0 px, texto ampliado y nombres largos [E]
+  Test failed. See exception logs above.
+  The test description was: M47 accesibilidad en ambas vistas a 800.0 px, texto ampliado y nombres largos
+  
+00:01 +0 -4: M48 listado real de 10000 variantes limita lecturas y campos construidos
+00:01 +1 -4: Some tests failed.

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "flutter",
+    "test",
+    "test/application/commands/edicion_masiva/recepcion_reapertura_test.dart",
+    "--reporter",
+    "expanded"
+  ],
+  "exit_code": 0,
+  "seconds": 21.72
+}

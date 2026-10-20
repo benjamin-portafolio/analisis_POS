@@ -1,0 +1,8 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/reports_screen_test.dart
+00:00 +0: total reactivo por cobro; incluye incidencias, excluye cambio y otros días
+00:00 +1: los ocho accesos rápidos aplican su rango y las flechas conservan su unidad
+00:00 +2: calendario aplica rango, muestra el período al pie y permite cancelar
+00:01 +3: elige rangos entre meses y un único día
+00:01 +4: error no se muestra como cero y permite reintentar
+00:01 +5: teléfono estrecho y texto grande permiten calendario, accesos y pie
+00:01 +6: All tests passed!

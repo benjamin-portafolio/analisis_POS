@@ -1,0 +1,52 @@
+[
+  {
+    "name": "iPhone 17",
+    "id": "5A57FAD3-8535-4EE4-8D60-9E6E6DF87B50",
+    "isSupported": true,
+    "targetPlatform": "ios",
+    "emulator": true,
+    "sdk": "com.apple.CoreSimulator.SimRuntime.iOS-26-5",
+    "capabilities": {
+      "hotReload": true,
+      "hotRestart": true,
+      "screenshot": true,
+      "flutterExit": true,
+      "hardwareRendering": false,
+      "startPaused": true
+    }
+  },
+  {
+    "name": "macOS",
+    "id": "macos",
+    "isSupported": true,
+    "targetPlatform": "darwin",
+    "emulator": false,
+    "sdk": "macOS 27.0.1 26A434 darwin-arm64",
+    "capabilities": {
+      "hotReload": true,
+      "hotRestart": true,
+      "screenshot": false,
+      "flutterExit": true,
+      "hardwareRendering": false,
+      "startPaused": true
+    }
+  },
+  {
+    "name": "Chrome",
+    "id": "chrome",
+    "isSupported": true,
+    "targetPlatform": "web-javascript",
+    "emulator": false,
+    "sdk": "Google Chrome 154.0.8037.100",
+    "capabilities": {
+      "hotReload": true,
+      "hotRestart": true,
+      "screenshot": false,
+      "flutterExit": false,
+      "hardwareRendering": false,
+      "startPaused": true
+    }
+  }
+]
+
+STDERR:

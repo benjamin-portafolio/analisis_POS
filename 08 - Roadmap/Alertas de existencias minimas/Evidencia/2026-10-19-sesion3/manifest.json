@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-19",
+  "baseline": "baseline.json",
+  "preservation": "preservation.json",
+  "results": {
+    "nest_build_exit": 0,
+    "nest_suites": 50,
+    "nest_passed": 587,
+    "nest_failed": 0,
+    "nest_skipped": 0,
+    "dart_analyze_exit": 0,
+    "flutter_passed": 2540,
+    "flutter_failed": 0,
+    "flutter_skipped": 0,
+    "http_passed": 23,
+    "minimum_http_passed": 7,
+    "http_server_exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "remaining_http_schemas": 0,
+    "postgres_stopped": true
+  },
+  "files": {
+    "nest": {
+      "root": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest",
+      "sha256": {
+        "src/sync/producto-event.handler.ts": "08d26668dcf224de2ce91a4088a236975efb46adfdf2a7942d745f28df3ca5c4",
+        "src/sync/payloads/supplier-event-identity.ts": "ad3e753463a3e11bf44a8a56214b147755e129e9e989f4e862e5fa268f8f5fe2",
+        "src/sync/product-suppliers.postgres.spec.ts": "c4d2a49cae81a9d8dba9b7410b066d054e0f3af0ef97ee2a185d2cc176a1010a",
+        "docs/minimum_stock_contract.md": "f0c0e708dd1dc603b3c24d44dafaa9f38bbb91b1c141377a35030e84b2894fa2"
+      }
+    },
+    "flutter": {
+      "root": "/Users/benjamin/Projects/POS/pos_flutter",
+      "sha256": {
+        "test/integration/minimum_stock_server_test.dart": "3fe17955ca27dc9a48bf825b829a27e27ad53195b599bedcc75804a3fc188a58",
+        "docs/architecture/minimum_stock_contract.md": "c8b0ac40787b4dfbae92d2a693672846070fe0f8f310defadad796b3a1bbf8ab",
+        "docs/architecture/offline_feature_flow.md": "f57457d433361edf50bb0c72295cbc40195010894f9d86911d92ce163cf08566"
+      }
+    },
+    "vault": {
+      "root": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis ",
+      "sha256": {
+        "08 - Roadmap/Alertas de existencias minimas/Matriz de aceptacion.md": "3d37885226c58bffe5893a4f0286bbdde9dac03ef40914bcda40ebc6fa6aef59",
+        "08 - Roadmap/Alertas de existencias minimas/Estado y continuidad.md": "8dbdbdafa87f227724242c88ac794990add15553b80470eb8ddbf63d16ae9ea4",
+        "03 - Dominio/Modulos/Articulos.md": "825b12a71f3cdddacc3783afbf2b04e8cf72505c6a64df1718afa663042b4245",
+        "05 - Datos/Catalogo e inventario.md": "16c897b663e972d0d1ebc9edbb309658d7a014cbd67ec9c4a0858ffd484f5123",
+        "04 - Sincronizacion/Flujo push pull.md": "951ff337456001c4accb0381eb2f8e92f47c95936dc112f83e07cc09513bcb57"
+      }
+    }
+  },
+  "evidence_sha256": {
+    "README.md": "54b987528c0b684dc9ecc3c6977339c02049d0e43d059bfb7db1bbe48504b9a9",
+    "baseline.json": "37e736fac46858bf03d3d3c4f3a8dca485c97ab0a5ebdf428a2eb6f949070416",
+    "checks.log": "4b20c4440e7abfec322ecfbf29c097d48414dc75329614f68d2fe20886f18c01",
+    "cleanup.log": "ebbd8c053cce59535bc772d8df6cb347562507d28bfcffb6a36d69d1d1fa6bb3",
+    "dart-analyze-definitivo.log": "647c0365bc804adf3eb128df7629b74b9b1cfe6ac56a0a04d7220f882242b155",
+    "dart-analyze.log": "c65bddefb1f5ea751f7d8a8b5c8aeb576102c9ac7220bdcd85121673c0178592",
+    "environment-public.json": "30553dcb5d3d207ac1cb957b861e61407760bab5cfe3702a5c209155a5cce95a",
+    "flutter-completo-final.log": "7f645a603675e4917cfaac4e4b768f8567030a4bfd40c82c1f9e41a2c1e64e0c",
+    "flutter-completo.log": "cc779aa855f986fe8aaa894ed930ed82baa051b47befc5fd030cf0ed6606f70f",
+    "flutter-http-definitivo.log": "bd07c38378a696953a90460a85207eca9310bd869f9ef6584b8db595319eac89",
+    "flutter-http-final.log": "7a753ecb171074c853d66f3af40be171984a20da1baaea83e54529e61553eb3b",
+    "flutter-http-final2.log": "68f8ccf219d75922b9b9e8b175916d8f6ecfd81001cc64274bba08611e197bf0",
+    "flutter-http-initial.log": "958f3728ade8007d178a9ace4db23ca72d1a6a7c8a91f1a64517aa1739fde5ef",
+    "flutter-version.log": "70da41d3bc9bb9734c86db9d1fbfa39a3d04a7bd0c51735a011aee7c79fd4993",
+    "initdb.log": "827f3cce5e6b24fce7762357628cd44267a17079dedc0eb9cb9adc1dc754266e",
+    "nest-build-final.log": "ae12676afe05805e5e508c39a36c613f3e48194907643abcb15896d65a51b732",
+    "nest-completo-final.log": "3d6d9f56b4bf208f1046ea9521a7869b99c45c3716d91aec5687033e1cfa26c5",
+    "nest-focal-final.log": "637eb87a0b2d26d2cd2d2f20b3c4c072a7e8f8559a8dd28abc9bf9c972bb9e4c",
+    "nest-focal-final2.log": "81968160e5186aa6a1e7b49ef2b5068618b5d979c784902c22bacabd7f8d6b4e",
+    "nest-focal.log": "7eec2252aea165375ed2d991f335866ecb59ad2727df09b7702a591b8dff0edc",
+    "postgres-summary.json": "5ff25cc8fabf5fbb714ccf76ad3957571355bd05b5da0adf54181a2cd5da8c4b",
+    "postgres-summary.sql": "df14b963c5ea4cd1be2813e59e6574d4ca5ad95e874eb5766b756267ad7aa1c2",
+    "preservation.json": "58e5785fc5c309671769fd687148ea95f0e845ef0beea17e7e0e4f92c119c9ec",
+    "server-bulk.log": "c644940a89e702a54217930e4746c9217c665a5cbb1dffe190ad83ff1ef7c1ee",
+    "server-suppliers.log": "8ea65de5d01b3e981c8157f289adbb010da25c1f429725caa7fd935c4094cf1b",
+    "server-tracking.log": "95219eb72320a620c5f607ab9d87a2a795f6d9294f8b845919ed637ba1d67e4e",
+    "server.log": "1dd1dce83c40cf6632a5622e45a6415eb6da40613e0143ae29eb73226f7159c5"
+  }
+}

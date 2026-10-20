@@ -1,0 +1,17 @@
+/Users/benjamin/Projects/POS/pos_flutter
+dart format --output=none --set-exit-if-changed lib/presentation/pages/gestion_inventario/articulos/article_form_screen.dart lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_result.dart lib/presentation/pages/gestion_inventario/articulos/models/articulo_preview_form.dart lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_command.dart lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart lib/presentation/pages/gestion_inventario/inventory_management_screen.dart lib/presentation/pages/informes/models/remaining_stock_item.dart lib/presentation/pages/informes/remaining_stock_screen.dart lib/presentation/pages/informes/widgets/remaining_stock_report_card.dart test/presentation/pages/informes/minimum_stock_ui_test.dart test/presentation/pages/informes/reports_screen_test.dart
+Formatted 11 files (0 changed) in 0.07 seconds.
+exit=0
+
+/Users/benjamin/Projects/POS/pos_flutter
+git diff --check
+exit=0
+
+/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis 
+git diff --check
+exit=0
+
+/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/pos-nest
+git diff --check
+exit=0
+

@@ -1,0 +1,10 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/integration/recepcion_masiva_server_test.dart
+00:00 +0: (setUpAll)
+00:00 +0: M43: respuesta real perdida, reapertura y mismos eventos sin duplicar entrada
+00:00 +1: M44: proveedor y bases pendientes se entregan por dependencias existentes
+00:01 +2: M44: health real sin capability conserva lote completo pendiente e intacto
+00:01 +3: M45: catálogo aceptado/entrada rechazada con restauración real
+00:01 +4: M45: catálogo rechazado/entrada aceptada con restauración real
+00:02 +5: M46: dos terminales, conflicto de catálogo y recurso; cadena restaurada sin repetir entradas
+00:02 +6: (tearDownAll)
+00:02 +6: All tests passed!

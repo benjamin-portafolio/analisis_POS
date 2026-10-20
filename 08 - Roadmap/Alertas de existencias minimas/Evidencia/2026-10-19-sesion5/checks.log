@@ -1,0 +1,20 @@
+2026-10-19 — comprobaciones finales, después de todas las aserciones de pruebas.
+
+Flutter: dart format --output=none --set-exit-if-changed test/presentation/pages/informes/minimum_stock_restore_test.dart
+Exit 0. Formatted 1 file (0 changed) in 0.01 seconds.
+
+Flutter: git diff --check
+Exit 0, salida vacía.
+NestJS: git diff --check
+Exit 0, salida vacía.
+Vault: git diff --check
+Exit 0, salida vacía.
+
+Flutter: dart analyze
+Exit 0. Analyzing pos_flutter... No issues found! (dart-analyze-definitivo.log)
+
+Flutter: flutter build macos --debug
+Exit 0. Built build/macos/Build/Products/Debug/pos_flutter.app (flutter-build-final.log)
+
+Sin lint/autofix global ni build_runner; esquema/generado sin cambios.
+Runtime completo: runtime.json. Cada comando de prueba tiene su log íntegro.

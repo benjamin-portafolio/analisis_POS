@@ -1,0 +1,312 @@
+--- /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/minimum-session4-85hoxk5j/flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_command.dart	2026-10-19 08:05:09
++++ /Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/models/articulo_form_command.dart	2026-10-19 08:05:50
+@@ -18,6 +18,7 @@
+             proveedores: variant.proveedores,
+             inventoryUnitId: variant.inventoryUnitId,
+             initialStockQuantity: variant.existenciaInicial,
++            minimumStock: variant.minimumStock,
+             recipeComponents: variant.recipeComponents
+                 .map(
+                   (component) => CrearArticuloRecipeComponentCommand(
+--- /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/minimum-session4-85hoxk5j/flutter/lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart	2026-10-19 08:05:09
++++ /Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/articulos/widgets/variant_editor_screen.dart	2026-10-19 08:20:47
+@@ -3,6 +3,7 @@
+ import 'package:flutter/material.dart';
+ import 'package:flutter/services.dart';
+ 
++import '../../../../../application/edicion_masiva/cambio_explicito.dart';
+ import '../../../../../application/config/app_config.dart';
+ import '../../../../../application/config/app_config_controller.dart';
+ import '../../../../../domain/articulos/proveedor_variante.dart';
+@@ -91,6 +92,8 @@
+   late final TextEditingController _priceController;
+   late final TextEditingController _costController;
+   late final TextEditingController _initialStockController;
++  late final TextEditingController _minimumStockController;
++  late final String _initialMinimumStockText;
+   late bool _trackingInventory;
+   late bool _recipeEnabled;
+   late List<RecipeComponentFormResult> _recipeComponents;
+@@ -115,6 +118,17 @@
+     _costController = TextEditingController(text: initial?.costoEstandar ?? '');
+     _initialStockController = TextEditingController(
+       text: initial?.existenciaInicial ?? '',
++    );
++    _initialMinimumStockText = initial?.minimumStock.establecer == true
++        ? initial!.minimumStock.valor ?? ''
++        : initial?.minimumStockAtomic == null
++        ? ''
++        : _codec.formatAtomic(
++            initial!.minimumStockAtomic!,
++            widget.inventoryUnit,
++          );
++    _minimumStockController = TextEditingController(
++      text: _initialMinimumStockText,
+     );
+     _trackingInventory = initial?.seguimientoExistencias ?? false;
+     _recipeComponents = List.of(initial?.recipeComponents ?? const []);
+@@ -157,6 +171,7 @@
+     _priceController.dispose();
+     _costController.dispose();
+     _initialStockController.dispose();
++    _minimumStockController.dispose();
+     super.dispose();
+   }
+ 
+@@ -401,6 +416,8 @@
+                           _buildLinkedInventoryResource()
+                         else
+                           _buildInitialStockField(),
++                        const SizedBox(height: 12),
++                        _buildMinimumStockField(),
+                       ],
+                     ],
+                   ),
+@@ -505,6 +522,36 @@
+     );
+   }
+ 
++  Widget _buildMinimumStockField() => TextFormField(
++    key: const Key('variant_minimum_stock_field'),
++    controller: _minimumStockController,
++    readOnly: widget.preview,
++    keyboardType: TextInputType.numberWithOptions(
++      decimal: widget.inventoryUnit.maximosDecimales > 0,
++    ),
++    inputFormatters: [
++      InventoryQuantityInputFormatter(widget.inventoryUnit.maximosDecimales),
++    ],
++    decoration: InputDecoration(
++      labelText: 'Existencia mínima',
++      floatingLabelBehavior: FloatingLabelBehavior.always,
++      suffixText: widget.inventoryUnit.simbolo,
++      helperText: 'Vacío desactiva el aviso. Cero es válido.',
++      border: InputBorder.none,
++    ),
++    validator: _validateInitialStock,
++  );
++
++  CambioExplicito<String?> get _minimumStockChange {
++    if (!_trackingInventory) return const CambioExplicito.conservar();
++    if (_minimumStockController.text == _initialMinimumStockText) {
++      return widget.initialValue?.minimumStock ??
++          const CambioExplicito.conservar();
++    }
++    final text = _minimumStockController.text.trim().replaceAll(',', '.');
++    return CambioExplicito.establecer(text.isEmpty ? null : text);
++  }
++
+   /// Bloque de la variante con recurso ya vinculado: saldo vigente y acceso al
+   /// registro de movimientos. No captura existencia inicial porque el recurso
+   /// ya existe y su saldo lo mueven los eventos de inventario.
+@@ -706,6 +753,8 @@
+           : _costController.text.trim().replaceAll(',', '.'),
+       codigoBarras: CodigoBarras.fromInput(_barcodeController.text).value,
+       inventoryUnitId: _trackingInventory ? widget.inventoryUnit.id : null,
++      minimumStockAtomic: widget.initialValue?.minimumStockAtomic,
++      minimumStock: _minimumStockChange,
+       existenciaInicial:
+           _trackingInventory &&
+               _linkedItemId == null &&
+--- /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/minimum-session4-85hoxk5j/flutter/lib/presentation/pages/gestion_inventario/inventory_management_screen.dart	2026-10-19 08:05:09
++++ /Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/inventory_management_screen.dart	2026-10-19 08:05:50
+@@ -623,6 +623,10 @@
+                 .watchRecursos()
+                 .first
+           : const <RecursoInventarioListado>[];
++      for (final resource in resources) {
++        final unit = resource.unidadPredeterminada;
++        if (!units.any((candidate) => candidate.id == unit.id)) units.add(unit);
++      }
+       final initial = ArticuloPreviewForm.fromDetalle(detail, resources);
+       if (!context.mounted || ModalRoute.of(context)?.isCurrent != true) {
+         return false;
+--- /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/minimum-session4-85hoxk5j/flutter/lib/presentation/pages/informes/models/remaining_stock_item.dart	2026-10-19 08:05:09
++++ /Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/models/remaining_stock_item.dart	2026-10-19 08:06:21
+@@ -1,6 +1,7 @@
+ import '../../../../domain/articulos/articulo_listado.dart';
+ import '../../../../domain/articulos/variante_listado.dart';
+ import '../../../../domain/inventario/recurso_inventario_listado.dart';
++import '../../../../domain/inventario/minimum_stock_policy.dart';
+ 
+ /// Una variante con seguimiento directo, en el orden entregado por el catálogo.
+ class RemainingStockItem {
+@@ -16,6 +17,19 @@
+   final VarianteListado variant;
+   final RecursoInventarioListado inventory;
+ 
++  int? get minimumStockAtomic => variant.minimumStockAtomic;
++
++  bool get isLow => const MinimumStockPolicy().isLow(
++    minimumStockAtomic: minimumStockAtomic,
++    quantityOnHandAtomic: inventory.existenciaAtomica,
++    // fromArticles admite únicamente productos y variantes activos.
++    productActive: true,
++    variantActive: true,
++    hasDirectTracking: variant.inventario != null,
++    inventoryItemActive:
++        inventory.activo && inventory.unidadPredeterminada.activa,
++  );
++
+   static List<RemainingStockItem> fromArticles(
+     List<ArticuloListado> articles,
+   ) => [
+--- /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/minimum-session4-85hoxk5j/flutter/lib/presentation/pages/informes/remaining_stock_screen.dart	2026-10-19 08:05:09
++++ /Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/remaining_stock_screen.dart	2026-10-19 08:06:21
+@@ -30,6 +30,7 @@
+ class _RemainingStockScreenState extends State<RemainingStockScreen> {
+   final _scrollController = ScrollController();
+   bool _openingVariant = false;
++  bool _onlyLowStock = false;
+   late Stream<List<ArticuloListado>> _articles = widget.repository
+       .watchArticulos();
+ 
+@@ -121,25 +122,61 @@
+                   return const Center(child: CircularProgressIndicator());
+                 }
+                 final items = RemainingStockItem.fromArticles(snapshot.data!);
+-                if (items.isEmpty) {
+-                  return const Center(
+-                    child: Padding(
+-                      padding: EdgeInsets.all(16),
+-                      child: Text(
+-                        'No hay variantes con seguimiento de existencias.',
+-                        textAlign: TextAlign.center,
++                final lowItems = items.where((item) => item.isLow).toList();
++                final visible = _onlyLowStock ? lowItems : items;
++                return Column(
++                  crossAxisAlignment: CrossAxisAlignment.stretch,
++                  children: [
++                    Padding(
++                      padding: const EdgeInsets.symmetric(horizontal: 16),
++                      child: Wrap(
++                        spacing: 8,
++                        runSpacing: 8,
++                        crossAxisAlignment: WrapCrossAlignment.center,
++                        children: [
++                          ChoiceChip(
++                            label: const Text('Todas'),
++                            selected: !_onlyLowStock,
++                            onSelected: (_) =>
++                                setState(() => _onlyLowStock = false),
++                          ),
++                          ChoiceChip(
++                            label: const Text('Existencias bajas'),
++                            selected: _onlyLowStock,
++                            onSelected: (_) =>
++                                setState(() => _onlyLowStock = true),
++                          ),
++                          Text('Existencias bajas: ${lowItems.length}'),
++                        ],
+                       ),
+                     ),
+-                  );
+-                }
+-                return ListView.builder(
+-                  controller: _scrollController,
+-                  itemCount: items.length,
+-                  itemBuilder: (context, index) => _RemainingStockRow(
+-                    key: ValueKey(items[index].variant.varianteId),
+-                    item: items[index],
+-                    onTap: () => _editVariant(items[index]),
+-                  ),
++                    Expanded(
++                      child: visible.isEmpty
++                          ? Center(
++                              child: Padding(
++                                padding: const EdgeInsets.all(16),
++                                child: Text(
++                                  _onlyLowStock
++                                      ? 'No hay variantes con existencias bajas.'
++                                      : 'No hay variantes con seguimiento de existencias.',
++                                  textAlign: TextAlign.center,
++                                ),
++                              ),
++                            )
++                          : ListView.builder(
++                              controller: _scrollController,
++                              itemCount: visible.length,
++                              itemBuilder: (context, index) =>
++                                  _RemainingStockRow(
++                                    key: ValueKey(
++                                      visible[index].variant.varianteId,
++                                    ),
++                                    item: visible[index],
++                                    onTap: () => _editVariant(visible[index]),
++                                  ),
++                            ),
++                    ),
++                  ],
+                 );
+               },
+             ),
+@@ -187,6 +224,7 @@
+                     style: Theme.of(context).textTheme.titleMedium,
+                   ),
+                   if (variantName.isNotEmpty) Text(variantName),
++                  if (item.isLow) const Chip(label: Text('Existencia baja')),
+                 ],
+               ),
+             ),
+@@ -195,10 +233,21 @@
+               flex: 2,
+               child: Align(
+                 alignment: Alignment.centerRight,
+-                child: Text(
+-                  '$quantity ${unit.simbolo}',
+-                  textAlign: TextAlign.end,
+-                  style: Theme.of(context).textTheme.titleMedium,
++                child: Column(
++                  crossAxisAlignment: CrossAxisAlignment.end,
++                  children: [
++                    Text(
++                      '$quantity ${unit.simbolo}',
++                      textAlign: TextAlign.end,
++                      style: Theme.of(context).textTheme.titleMedium,
++                    ),
++                    Text(
++                      item.minimumStockAtomic == null
++                          ? 'Sin mínimo'
++                          : 'Mínimo: ${_quantityCodec.formatAtomic(item.minimumStockAtomic!, unit)} ${unit.simbolo}',
++                      textAlign: TextAlign.end,
++                    ),
++                  ],
+                 ),
+               ),
+             ),
+--- /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/minimum-session4-85hoxk5j/flutter/lib/presentation/pages/informes/widgets/remaining_stock_report_card.dart	2026-10-19 08:05:09
++++ /Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/informes/widgets/remaining_stock_report_card.dart	2026-10-19 08:06:21
+@@ -60,11 +60,17 @@
+                     !snapshot.hasData) {
+                   return const Text('Cargando variantes…');
+                 }
+-                final count = RemainingStockItem.fromArticles(
+-                  snapshot.data!,
+-                ).length;
+-                return Text(
+-                  '$count ${count == 1 ? 'variante' : 'variantes'} con seguimiento',
++                final items = RemainingStockItem.fromArticles(snapshot.data!);
++                final count = items.length;
++                final lowCount = items.where((item) => item.isLow).length;
++                return Column(
++                  crossAxisAlignment: CrossAxisAlignment.start,
++                  children: [
++                    Text(
++                      '$count ${count == 1 ? 'variante' : 'variantes'} con seguimiento',
++                    ),
++                    Text('Existencias bajas: $lowCount'),
++                  ],
+                 );
+               },
+             ),
+--- /var/folders/04/yg6cpm0s6ndgdwzkk756x3nm0000gn/T/minimum-session4-85hoxk5j/flutter/test/presentation/pages/informes/reports_screen_test.dart	2026-10-19 08:05:09
++++ /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/reports_screen_test.dart	2026-10-19 08:24:55
+@@ -66,6 +66,8 @@
+   }
+ 
+   Future<void> openFilter(WidgetTester tester) async {
++    await tester.ensureVisible(find.byIcon(Icons.calendar_month));
++    await tester.pumpAndSettle();
+     await tester.tap(find.byIcon(Icons.calendar_month));
+     await tester.pumpAndSettle();
+   }

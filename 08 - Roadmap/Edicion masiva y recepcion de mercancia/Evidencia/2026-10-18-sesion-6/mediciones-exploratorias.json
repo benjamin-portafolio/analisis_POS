@@ -1,0 +1,3128 @@
+{
+  "build": "flutter test / debug / flutter_tester darwin-arm64",
+  "sqlite": "file-backed, fresh copy for every timed run",
+  "runs": [
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 20,
+      "run": 1,
+      "load": {
+        "ms": 7.983,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.577,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.607,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 28.903,
+        "selects": 292,
+        "writes": 100,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 305,
+        "history_rows": 27
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9815
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 20,
+      "run": 2,
+      "load": {
+        "ms": 7.011,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.503,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.556,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 28.654,
+        "selects": 292,
+        "writes": 100,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 305,
+        "history_rows": 27
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9815
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 20,
+      "run": 3,
+      "load": {
+        "ms": 8.706,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.374,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.574,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 28.554,
+        "selects": 292,
+        "writes": 100,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 305,
+        "history_rows": 27
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9815
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 20,
+      "run": 4,
+      "load": {
+        "ms": 6.261,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.439,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.87,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 35.769,
+        "selects": 292,
+        "writes": 100,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 305,
+        "history_rows": 27
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9815
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 20,
+      "run": 5,
+      "load": {
+        "ms": 7.107,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.335,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.534,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 30.216,
+        "selects": 292,
+        "writes": 100,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 305,
+        "history_rows": 27
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9815
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 100,
+      "run": 1,
+      "load": {
+        "ms": 8.77,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.419,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.544,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 136.635,
+        "selects": 1569,
+        "writes": 544,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1640,
+        "history_rows": 144
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53952
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 100,
+      "run": 2,
+      "load": {
+        "ms": 4.763,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.534,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.423,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 140.639,
+        "selects": 1569,
+        "writes": 544,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1640,
+        "history_rows": 144
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53952
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 100,
+      "run": 3,
+      "load": {
+        "ms": 9.775,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.327,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 2.302,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 131.553,
+        "selects": 1569,
+        "writes": 544,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1640,
+        "history_rows": 144
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53952
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 100,
+      "run": 4,
+      "load": {
+        "ms": 8.649,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.436,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.324,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 131.39,
+        "selects": 1569,
+        "writes": 544,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1640,
+        "history_rows": 144
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53952
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 100,
+      "run": 5,
+      "load": {
+        "ms": 10.667,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.34,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.369,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 129.619,
+        "selects": 1569,
+        "writes": 544,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1640,
+        "history_rows": 144
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53952
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 500,
+      "run": 1,
+      "load": {
+        "ms": 8.941,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.235,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 5.044,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 562.873,
+        "selects": 7841,
+        "writes": 2720,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 8200,
+        "history_rows": 720
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269760
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 500,
+      "run": 2,
+      "load": {
+        "ms": 8.264,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.281,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.895,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 571.868,
+        "selects": 7841,
+        "writes": 2720,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 8200,
+        "history_rows": 720
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269760
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 500,
+      "run": 3,
+      "load": {
+        "ms": 8.001,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.202,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 5.169,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 559.8,
+        "selects": 7841,
+        "writes": 2720,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 8200,
+        "history_rows": 720
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269760
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 500,
+      "run": 4,
+      "load": {
+        "ms": 8.033,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.282,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.546,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 572.366,
+        "selects": 7841,
+        "writes": 2720,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 8200,
+        "history_rows": 720
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269760
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 1000,
+      "capture_variants": 500,
+      "run": 5,
+      "load": {
+        "ms": 8.44,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.181,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.612,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 547.766,
+        "selects": 7841,
+        "writes": 2720,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 8200,
+        "history_rows": 720
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269760
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 20,
+      "run": 1,
+      "load": {
+        "ms": 22.278,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.249,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.389,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 26.802,
+        "selects": 292,
+        "writes": 100,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 305,
+        "history_rows": 27
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9815
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 20,
+      "run": 2,
+      "load": {
+        "ms": 24.411,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.21,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.509,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 25.811,
+        "selects": 292,
+        "writes": 100,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 305,
+        "history_rows": 27
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9815
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 20,
+      "run": 3,
+      "load": {
+        "ms": 22.821,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.156,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.393,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 25.913,
+        "selects": 292,
+        "writes": 100,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 305,
+        "history_rows": 27
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9815
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 20,
+      "run": 4,
+      "load": {
+        "ms": 22.244,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.178,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.355,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 25.225,
+        "selects": 292,
+        "writes": 100,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 305,
+        "history_rows": 27
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9815
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 20,
+      "run": 5,
+      "load": {
+        "ms": 22.749,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.285,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.4,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 25.484,
+        "selects": 292,
+        "writes": 100,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 305,
+        "history_rows": 27
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9815
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 100,
+      "run": 1,
+      "load": {
+        "ms": 22.424,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.132,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.049,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 126.717,
+        "selects": 1569,
+        "writes": 544,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1640,
+        "history_rows": 144
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53952
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 100,
+      "run": 2,
+      "load": {
+        "ms": 21.13,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.186,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.026,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 131.259,
+        "selects": 1569,
+        "writes": 544,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1640,
+        "history_rows": 144
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53952
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 100,
+      "run": 3,
+      "load": {
+        "ms": 22.172,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.488,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.072,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 129.826,
+        "selects": 1569,
+        "writes": 544,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1640,
+        "history_rows": 144
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53952
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 100,
+      "run": 4,
+      "load": {
+        "ms": 24.323,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.201,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.087,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 127.58,
+        "selects": 1569,
+        "writes": 544,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1640,
+        "history_rows": 144
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53952
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 100,
+      "run": 5,
+      "load": {
+        "ms": 23.099,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.265,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.988,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 125.903,
+        "selects": 1569,
+        "writes": 544,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1640,
+        "history_rows": 144
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53952
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 500,
+      "run": 1,
+      "load": {
+        "ms": 21.362,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.29,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.505,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 651.786,
+        "selects": 7841,
+        "writes": 2720,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 8200,
+        "history_rows": 720
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269760
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 500,
+      "run": 2,
+      "load": {
+        "ms": 22.146,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.223,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.439,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 649.812,
+        "selects": 7841,
+        "writes": 2720,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 8200,
+        "history_rows": 720
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269760
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 500,
+      "run": 3,
+      "load": {
+        "ms": 24.081,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.24,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.29,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 640.56,
+        "selects": 7841,
+        "writes": 2720,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 8200,
+        "history_rows": 720
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269760
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 500,
+      "run": 4,
+      "load": {
+        "ms": 22.801,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.227,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.37,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 647.824,
+        "selects": 7841,
+        "writes": 2720,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 8200,
+        "history_rows": 720
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269760
+    },
+    {
+      "mode": "standalone",
+      "catalog_variants": 10000,
+      "capture_variants": 500,
+      "run": 5,
+      "load": {
+        "ms": 22.989,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.197,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.547,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 646.846,
+        "selects": 7841,
+        "writes": 2720,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 8200,
+        "history_rows": 720
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269760
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 20,
+      "run": 1,
+      "load": {
+        "ms": 6.901,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.183,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.417,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 26.721,
+        "selects": 341,
+        "writes": 195,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 348,
+        "history_rows": 37
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9818
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 20,
+      "run": 2,
+      "load": {
+        "ms": 7.296,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.213,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.405,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 27.106,
+        "selects": 341,
+        "writes": 195,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 348,
+        "history_rows": 37
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9818
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 20,
+      "run": 3,
+      "load": {
+        "ms": 6.273,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.246,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.364,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 26.961,
+        "selects": 341,
+        "writes": 195,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 348,
+        "history_rows": 37
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9818
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 20,
+      "run": 4,
+      "load": {
+        "ms": 6.103,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.182,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.358,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 26.901,
+        "selects": 341,
+        "writes": 195,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 348,
+        "history_rows": 37
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9818
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 20,
+      "run": 5,
+      "load": {
+        "ms": 6.203,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.238,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.391,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 27.355,
+        "selects": 341,
+        "writes": 195,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 348,
+        "history_rows": 37
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9818
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 100,
+      "run": 1,
+      "load": {
+        "ms": 5.728,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.173,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.031,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 132.882,
+        "selects": 1833,
+        "writes": 1056,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1872,
+        "history_rows": 200
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53968
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 100,
+      "run": 2,
+      "load": {
+        "ms": 6.393,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.17,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.023,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 130.195,
+        "selects": 1833,
+        "writes": 1056,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1872,
+        "history_rows": 200
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53968
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 100,
+      "run": 3,
+      "load": {
+        "ms": 5.768,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.204,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.019,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 144.923,
+        "selects": 1833,
+        "writes": 1056,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1872,
+        "history_rows": 200
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53968
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 100,
+      "run": 4,
+      "load": {
+        "ms": 6.311,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.167,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.09,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 136.289,
+        "selects": 1833,
+        "writes": 1056,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1872,
+        "history_rows": 200
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53968
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 100,
+      "run": 5,
+      "load": {
+        "ms": 5.397,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.233,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.146,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 130.115,
+        "selects": 1833,
+        "writes": 1056,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1872,
+        "history_rows": 200
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53968
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 500,
+      "run": 1,
+      "load": {
+        "ms": 8.201,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.181,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.465,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 647.236,
+        "selects": 9161,
+        "writes": 5280,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 9360,
+        "history_rows": 1000
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269840
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 500,
+      "run": 2,
+      "load": {
+        "ms": 6.338,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.221,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.379,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 645.546,
+        "selects": 9161,
+        "writes": 5280,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 9360,
+        "history_rows": 1000
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269840
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 500,
+      "run": 3,
+      "load": {
+        "ms": 5.24,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.237,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.496,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 658.186,
+        "selects": 9161,
+        "writes": 5280,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 9360,
+        "history_rows": 1000
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269840
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 500,
+      "run": 4,
+      "load": {
+        "ms": 6.647,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.187,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.264,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 644.485,
+        "selects": 9161,
+        "writes": 5280,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 9360,
+        "history_rows": 1000
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269840
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 1000,
+      "capture_variants": 500,
+      "run": 5,
+      "load": {
+        "ms": 6.381,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 1.184,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.333,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 649.512,
+        "selects": 9161,
+        "writes": 5280,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 9360,
+        "history_rows": 1000
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269840
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 20,
+      "run": 1,
+      "load": {
+        "ms": 25.712,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.268,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.381,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 30.148,
+        "selects": 341,
+        "writes": 195,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 348,
+        "history_rows": 37
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9818
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 20,
+      "run": 2,
+      "load": {
+        "ms": 22.055,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.349,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.398,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 30.391,
+        "selects": 341,
+        "writes": 195,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 348,
+        "history_rows": 37
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9818
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 20,
+      "run": 3,
+      "load": {
+        "ms": 28.731,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.264,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.382,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 30.003,
+        "selects": 341,
+        "writes": 195,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 348,
+        "history_rows": 37
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9818
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 20,
+      "run": 4,
+      "load": {
+        "ms": 26.662,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.261,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.357,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 30.573,
+        "selects": 341,
+        "writes": 195,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 348,
+        "history_rows": 37
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9818
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 20,
+      "run": 5,
+      "load": {
+        "ms": 28.284,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.224,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 0.395,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 20,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 29.963,
+        "selects": 341,
+        "writes": 195,
+        "transactions_including_savepoints": 37,
+        "outer_transactions": 4,
+        "rows": 348,
+        "history_rows": 37
+      },
+      "events": 10,
+      "receipts": 7,
+      "product_operations": 3,
+      "journal_json_bytes": 9818
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 100,
+      "run": 1,
+      "load": {
+        "ms": 27.579,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.177,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.003,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 150.044,
+        "selects": 1833,
+        "writes": 1056,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1872,
+        "history_rows": 200
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53968
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 100,
+      "run": 2,
+      "load": {
+        "ms": 24.543,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.192,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.02,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 149.276,
+        "selects": 1833,
+        "writes": 1056,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1872,
+        "history_rows": 200
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53968
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 100,
+      "run": 3,
+      "load": {
+        "ms": 24.734,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.214,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.03,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 149.101,
+        "selects": 1833,
+        "writes": 1056,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1872,
+        "history_rows": 200
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53968
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 100,
+      "run": 4,
+      "load": {
+        "ms": 24.191,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.329,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.164,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 149.059,
+        "selects": 1833,
+        "writes": 1056,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1872,
+        "history_rows": 200
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53968
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 100,
+      "run": 5,
+      "load": {
+        "ms": 27.326,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.316,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 1.038,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 150.255,
+        "selects": 1833,
+        "writes": 1056,
+        "transactions_including_savepoints": 201,
+        "outer_transactions": 17,
+        "rows": 1872,
+        "history_rows": 200
+      },
+      "events": 56,
+      "receipts": 40,
+      "product_operations": 16,
+      "journal_json_bytes": 53968
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 500,
+      "run": 1,
+      "load": {
+        "ms": 25.667,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.181,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.298,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 766.498,
+        "selects": 9161,
+        "writes": 5280,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 9360,
+        "history_rows": 1000
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269840
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 500,
+      "run": 2,
+      "load": {
+        "ms": 28.92,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.239,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.695,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 823.924,
+        "selects": 9161,
+        "writes": 5280,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 9360,
+        "history_rows": 1000
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269840
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 500,
+      "run": 3,
+      "load": {
+        "ms": 27.753,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.212,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.387,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 775.425,
+        "selects": 9161,
+        "writes": 5280,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 9360,
+        "history_rows": 1000
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269840
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 500,
+      "run": 4,
+      "load": {
+        "ms": 26.133,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.17,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.584,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 774.62,
+        "selects": 9161,
+        "writes": 5280,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 9360,
+        "history_rows": 1000
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269840
+    },
+    {
+      "mode": "server_sync",
+      "catalog_variants": 10000,
+      "capture_variants": 500,
+      "run": 5,
+      "load": {
+        "ms": 28.345,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "filter": {
+        "ms": 3.247,
+        "selects": 2,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 100,
+        "history_rows": 0
+      },
+      "review": {
+        "ms": 4.28,
+        "selects": 4,
+        "writes": 0,
+        "transactions_including_savepoints": 1,
+        "outer_transactions": 1,
+        "rows": 500,
+        "history_rows": 0
+      },
+      "save": {
+        "ms": 762.804,
+        "selects": 9161,
+        "writes": 5280,
+        "transactions_including_savepoints": 1001,
+        "outer_transactions": 81,
+        "rows": 9360,
+        "history_rows": 1000
+      },
+      "events": 280,
+      "receipts": 200,
+      "product_operations": 80,
+      "journal_json_bytes": 269840
+    }
+  ],
+  "journal": [
+    {
+      "mode": "standalone",
+      "rows": 100,
+      "run": 1,
+      "ms": 0.951,
+      "intent_bytes": 85100,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 100,
+      "run": 2,
+      "ms": 0.927,
+      "intent_bytes": 85100,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 100,
+      "run": 3,
+      "ms": 0.972,
+      "intent_bytes": 85100,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 100,
+      "run": 4,
+      "ms": 0.936,
+      "intent_bytes": 85100,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 100,
+      "run": 5,
+      "ms": 1.055,
+      "intent_bytes": 85100,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 1000,
+      "run": 1,
+      "ms": 8.976,
+      "intent_bytes": 851000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 1000,
+      "run": 2,
+      "ms": 9.081,
+      "intent_bytes": 851000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 1000,
+      "run": 3,
+      "ms": 8.792,
+      "intent_bytes": 851000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 1000,
+      "run": 4,
+      "ms": 8.811,
+      "intent_bytes": 851000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 1000,
+      "run": 5,
+      "ms": 8.526,
+      "intent_bytes": 851000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 10000,
+      "run": 1,
+      "ms": 107.742,
+      "intent_bytes": 8510000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 10000,
+      "run": 2,
+      "ms": 105.929,
+      "intent_bytes": 8510000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 10000,
+      "run": 3,
+      "ms": 116.621,
+      "intent_bytes": 8510000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 10000,
+      "run": 4,
+      "ms": 92.278,
+      "intent_bytes": 8510000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "standalone",
+      "rows": 10000,
+      "run": 5,
+      "ms": 91.322,
+      "intent_bytes": 8510000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 100,
+      "run": 1,
+      "ms": 0.844,
+      "intent_bytes": 85200,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 100,
+      "run": 2,
+      "ms": 0.85,
+      "intent_bytes": 85200,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 100,
+      "run": 3,
+      "ms": 0.841,
+      "intent_bytes": 85200,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 100,
+      "run": 4,
+      "ms": 0.825,
+      "intent_bytes": 85200,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 100,
+      "run": 5,
+      "ms": 0.842,
+      "intent_bytes": 85200,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 1000,
+      "run": 1,
+      "ms": 8.43,
+      "intent_bytes": 852000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 1000,
+      "run": 2,
+      "ms": 8.694,
+      "intent_bytes": 852000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 1000,
+      "run": 3,
+      "ms": 9.036,
+      "intent_bytes": 852000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 1000,
+      "run": 4,
+      "ms": 8.781,
+      "intent_bytes": 852000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 1000,
+      "run": 5,
+      "ms": 8.802,
+      "intent_bytes": 852000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 10000,
+      "run": 1,
+      "ms": 99.862,
+      "intent_bytes": 8520000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 10000,
+      "run": 2,
+      "ms": 99.946,
+      "intent_bytes": 8520000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 10000,
+      "run": 3,
+      "ms": 102.338,
+      "intent_bytes": 8520000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 10000,
+      "run": 4,
+      "ms": 109.451,
+      "intent_bytes": 8520000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    },
+    {
+      "mode": "server_sync",
+      "rows": 10000,
+      "run": 5,
+      "ms": 102.297,
+      "intent_bytes": 8520000,
+      "selects": 1,
+      "writes": 0,
+      "transactions_including_savepoints": 0,
+      "outer_transactions": 0,
+      "history_rows": 0
+    }
+  ]
+}

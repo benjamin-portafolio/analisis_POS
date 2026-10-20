@@ -899,7 +899,7 @@ nota.
 | Componentes | UUID por fila y notas | PK compuesta por variante/recurso y cantidad | No tienen ciclo independiente ni notas en el alcance | Confirmado |
 | `inventory_items` | Tabla incluida en la propuesta | Referencia externa, no propiedad de Articulos | Inventario define unidad y saldo | Confirmado |
 | Balances | Incluidos | Fuera de la implementacion de Articulos | Pertenecen a Inventario | Confirmado |
-| Alertas/reposicion/politicas configurables | Incluidos | Retirar del esquema actual | No existen flujos ni reglas por recurso confirmados; solo podran volver mediante un analisis futuro | Confirmado |
+| Alertas/reposicion/politicas configurables | Incluidos | Retirar del esquema actual | No existen políticas por recurso confirmadas; el mínimo opcional por variante se implementa por el plan de Alertas de existencias mínimas, sin reintroducir políticas por recurso | Confirmado |
 | Lotes/vencimiento | Incluidos | Retirar del esquema actual | No se requiere trazabilidad por partida; solo podran volver mediante un analisis futuro | Confirmado |
 | Ventas y movimientos | Incluidos | Solo documentar contrato de dependencia | Pertenecen a Ventas e Inventario | Confirmado |
 | Evidencia de receta en `sale_items` | FK a una version | No usar `recipe_id`; capturar la definicion consumida | Los componentes son mutables y la venta debe conservar los realmente usados | Recomendacion |
@@ -3058,3 +3058,39 @@ solo standalone elegible con rollback/replay comprobados y restaura memoria exac
 Server_sync conserva recurso/balance; transporte HTTP/PG/SQLite y pull a cliente
 vacío están verificados en su alcance. UI de fase 4 y cierre de fase 5 pendientes;
 no se acredita uso físico ni despliegue. Evidencia y comandos: [[08 - Roadmap/Seguimiento de existencias/Evidencia/2026-10-04-correccion-fase3/Resultados|Corrección y verificación de fase 3, 2026-10-04]].
+
+## Existencias mínimas — implementadas, verificación física pendiente, 2026-10-19
+
+Mínimo opcional por variante implementado en sesiones 1–4 y verificado en sesión 5.
+`minimum_stock_atomic` es integer SQLite/bigint PostgreSQL nullable, rango
+0..9007199254740991; átomos de la unidad de inventario. Null desactiva; cero es
+válido; saldo físico <= mínimo avisa solo con producto/variante/recurso activos
+y seguimiento directo. Desvincular/receta conserva mínimo dormido. No se modifica
+saldo, movimientos, ventas ni clave de consumo por cambiar ese campo.
+
+Editor compartido desde Artículos/informe: unidad visible, conservar por defecto,
+cantidad explícita y vacío para retirar. Informe, filtro y contador derivan el
+aviso del stream de catálogo/balance con MinimumStockPolicy. CSV diez columnas
+(solo altas), doce (alta/actualización), edición masiva y recepción conservan
+valor/presencia; no incorporan captura ni nuevas columnas CSV.
+
+Ausencia legada distinta de null conocido. Producto creado/actualizado preservan
+conocimiento en todas sus variantes y en before/after; snapshot parcial o mezcla
+se rechazan. Un escritor legado no puede editar/borrar una base conocida. Undo,
+rechazo/conflicto, reentregas y restauración tardía conservan el estado correcto.
+Standalone mantiene not_required y cero refs persistidos/actividad remota.
+
+Sesión 5: 2567 Flutter aprobadas, incluidas 23 HTTP aisladas sin skips; analyze
+limpio y build macOS. Nest build/50 suites/587 PostgreSQL de sesión 3 conservados
+por hashes sin cambios de backend. Reapertura/restore integrados con informe en
+ambos modos; esquema anterior rechazado/reset de desarrollo y protección
+restaurada verificados. Manual en app completa macOS aislada con piezas/kg,
+venta 6→5, aviso, reposición 5→6, retirada, editar/vaciar y reapertura completados.
+A01–A41 verificados; A42 parcial: teléfono/tablet físico ausente, pendientes teclado
+decimal real, legibilidad, scroll y navegación. No hay cierre total.
+
+[[08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion5/README|Resultados y límites finales]] y
+[[08 - Roadmap/Alertas de existencias minimas/Matriz de aceptacion|Matriz A01–A42]].
+Despliegue futuro: receptor/esquema compatibles antes de escritores nuevos;
+esta tarea no despliega ni migra bases operativas. Alertas del sistema, compras
+automáticas y políticas por recurso siguen fuera de alcance.

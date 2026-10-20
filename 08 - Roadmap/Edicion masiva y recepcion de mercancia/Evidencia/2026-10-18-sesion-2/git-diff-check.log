@@ -1,0 +1,24 @@
+/Users/benjamin/Projects/POS/pos_flutter: git diff --check -> 0
+
+/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis : git diff --check -> 0
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/commands/articulos/editar_articulo_comercial_command.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/commands/articulos/editar_articulo_comercial_result.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/edicion_masiva/base_entrada_masiva.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/edicion_masiva/base_revision_masiva.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/edicion_masiva/cambio_explicito.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/edicion_masiva/cambio_variante_masiva.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/edicion_masiva/catalogo_edicion_masiva.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/edicion_masiva/clave_variante.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/edicion_masiva/entrada_mercancia_masiva.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/edicion_masiva/fila_catalogo_masivo.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/application/edicion_masiva/lectura_edicion_masiva.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/data/repositories/drift_catalogo_edicion_masiva.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/domain/articulos/importe_comercial_codec.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/edicion_masiva/borrador_edicion_masiva.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/edicion_masiva/fila_edicion_form.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/edicion_masiva/fila_revision_masiva.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/lib/presentation/pages/gestion_inventario/edicion_masiva/revision_edicion_masiva.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/editar_articulo_comercial_test.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/test/domain/articulos/importe_comercial_codec_test.dart
+Whitespace de archivo nuevo/verificado: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/edicion_masiva/borrador_edicion_masiva_test.dart
+Sin problemas de whitespace; no-index puede devolver 1 al comparar un archivo nuevo.

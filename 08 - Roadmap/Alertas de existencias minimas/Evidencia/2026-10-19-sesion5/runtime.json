@@ -1,0 +1,22 @@
+{
+  "flutter": {
+    "frameworkVersion": "3.41.6",
+    "channel": "stable",
+    "repositoryUrl": "https://github.com/flutter/flutter.git",
+    "frameworkRevision": "db50e20168db8fee486b9abf32fc912de3bc5b6a",
+    "frameworkCommitDate": "2026-03-25 16:21:00 -0700",
+    "engineRevision": "425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb",
+    "engineCommitDate": "2026-03-25 20:14:42.000Z",
+    "engineContentHash": "5cdd32777948fa7a648fac915f8da7120ac7e97a",
+    "engineBuildDate": "2026-03-25 13:38:44.157",
+    "dartSdkVersion": "3.11.4",
+    "devToolsVersion": "2.54.2",
+    "flutterVersion": "3.41.6",
+    "flutterRoot": "/opt/homebrew/share/flutter"
+  },
+  "node_npm_postgres": [
+    "v26.0.0",
+    "11.12.1",
+    "postgres (PostgreSQL) 18.4 (Postgres.app)"
+  ]
+}

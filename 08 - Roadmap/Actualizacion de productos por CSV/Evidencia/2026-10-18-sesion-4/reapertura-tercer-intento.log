@@ -1,0 +1,12 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart
+00:00 +0: standalone C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +1: serverSync C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +1 -1: serverSync C43 exportar, editar, reabrir, repetir y revertir en disco [E]
+  Expected: true
+    Actual: <false>
+  
+  package:matcher                                                              expect
+  package:flutter_test/src/widget_tester.dart 473:18                           expect
+  test/application/commands/articulos/actualizar_articulo_csv_test.dart 304:9  main.<fn>.<fn>
+  
+00:00 +1 -1: Some tests failed.

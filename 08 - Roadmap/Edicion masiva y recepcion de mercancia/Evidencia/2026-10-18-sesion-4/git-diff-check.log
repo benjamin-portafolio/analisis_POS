@@ -1,0 +1,6 @@
+Flutter: git diff --check -> 0
+Vault: git diff --check -> 0
+Fuentes Flutter sin seguimiento verificadas contra /dev/null: 48; sin problemas.
+Estado y continuidad.md: verificación de archivo nuevo completada.
+UI sin imports Drift; bulk_edit_option conserva callback null.
+Estado final: OK

@@ -1,0 +1,8 @@
+Analyzing pos_flutter...
+
+   info - test/integration/minimum_stock_server_test.dart:169:9 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - test/integration/minimum_stock_server_test.dart:419:9 - Statements in a for should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - test/integration/minimum_stock_server_test.dart:441:9 - Statements in a for should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - test/integration/minimum_stock_server_test.dart:476:9 - Statements in a for should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+
+4 issues found.

@@ -1,0 +1,9 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/product_supplier_ui_flow_test.dart
+00:00 +0: cancelar selector conserva relaciones y eventos SQLite
+00:02 +1: cancelar variante conserva relaciones y eventos SQLite
+00:03 +2: cancelar artículo conserva relaciones y eventos SQLite
+00:04 +3: seleccionar, guardar, reabrir, cambiar precio y retirar último desde UI
+00:07 +4: fallo atómico al guardar conserva borrador y reintento persiste una vez
+00:09 +5: alta de artículo desde menú guarda proveedores solo al finalizar
+00:10 +6: edición medida muestra y conserva referencia original al guardar precios
+00:11 +7: All tests passed!

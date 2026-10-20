@@ -1,0 +1,6 @@
+Analyzing pos_flutter...
+
+warning - tool/benchmarks/articulo_import_verification.dart:12:8 - Unused import: 'package:pos_flutter/application/import/articulo_catalog_import_service.dart'. Try removing the import directive. - unused_import
+   info - tool/benchmarks/articulo_import_verification.dart:55:13 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+
+2 issues found.

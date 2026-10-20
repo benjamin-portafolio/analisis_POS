@@ -1,0 +1,46 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand src/sync/product-suppliers.postgres.spec.ts
+
+FAIL src/sync/product-suppliers.postgres.spec.ts
+  ● Proveedores/productos: PostgreSQL, atomicidad y sync existente › mínimos: receptor y protocolo sobre PostgreSQL real › snapshot parcial y degradación no se canonicalizan eliminando mínimo
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 0
+
+      Array [
+        7,
+    -   7,
+      ]
+
+      1073 |             (v) => v.minimum_stock_atomic,
+      1074 |           ),
+    > 1075 |         ).toEqual([7, 7]);
+           |           ^
+      1076 |       });
+      1077 |       for (const retired of [false, true]) {
+      1078 |         it(`valor físico con metadata legada queda protegido (retirado=${retired})`, async () => {
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:1075:11)
+
+  ● Proveedores/productos: PostgreSQL, atomicidad y sync existente › mínimos: receptor y protocolo sobre PostgreSQL real › retiro, alta de variante y borrado conservan valores físicos y proveedores
+
+    TypeError: Cannot read properties of undefined (reading 'minimumStockAtomic')
+
+      1125 |         expect((await push(edit)).status).toBe('accepted');
+      1126 |         const removed = (await rows()).variants.find((v) => !v.active)!;
+    > 1127 |         expect(removed.minimumStockAtomic).toBe('5');
+           |                        ^
+      1128 |         expect(
+      1129 |           (await rows()).suppliers.filter((s) => s.variantId === removed.id),
+      1130 |         ).toEqual(before.suppliers.filter((s) => s.variantId === removed.id));
+
+      at Object.<anonymous> (sync/product-suppliers.postgres.spec.ts:1127:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 62 passed, 64 total
+Snapshots:   0 total
+Time:        1.897 s, estimated 2 s
+Ran all test suites matching src/sync/product-suppliers.postgres.spec.ts.

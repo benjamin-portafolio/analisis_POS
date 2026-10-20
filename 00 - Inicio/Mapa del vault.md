@@ -1,7 +1,7 @@
 ---
 tipo: indice
 estado: activo
-actualizado: 2026-10-18
+actualizado: 2026-10-19
 ---
 
 # Mapa del vault
@@ -34,6 +34,9 @@ Este vault organiza el analisis del POS offline-first. La idea es que cada decis
 21. [[08 - Roadmap/Impresion de tickets/Plan de implementacion|Plan de impresión de tickets Bluetooth en Android, en cuatro sesiones]]
 22. [[08 - Roadmap/Escaneo en inventario/Plan de implementacion|Plan de escaneo y asignación de códigos de barras en inventario, en tres sesiones]]
 23. [[08 - Roadmap/Actualizacion de productos por CSV/Plan de implementacion|Plan de alta y actualización de productos por CSV con IDs, en cuatro sesiones]]
+24. [[08 - Roadmap/Edicion masiva y recepcion de mercancia/Plan de implementacion|Plan de edición masiva y recepción compacta con costo, venta y existencias, en seis sesiones]]
+25. [[08 - Roadmap/Alertas de existencias minimas/Plan de implementacion|Plan de alertas de existencias mínimas por variante, en cinco sesiones]]
+26. [[08 - Roadmap/Carga masiva y sincronizacion/Plan de implementacion|Plan de carga CSV de hasta 200 filas, seguimiento y sincronización por paquetes]]
 
 ## Secciones
 
@@ -88,6 +91,8 @@ Este vault organiza el analisis del POS offline-first. La idea es que cada decis
 | Unidades y cantidades atomicas | Decidido; pendiente de implementar | [[02 - Decisiones/ADR-0012 Cantidades atomicas y unidades por dimension|ADR-0012]] |
 | Costo estandar por variante | Decidido; pendiente de implementar | [[02 - Decisiones/ADR-0013 Costo estandar opcional por variante|ADR-0013]] |
 | Seguimiento directo de existencias | Decidido e implementado en alta y edición de recursos | [[02 - Decisiones/ADR-0014 Seguimiento directo de existencias por variante|ADR-0014]] |
+| Alertas de existencias mínimas por variante | Implementadas; A01–A41 verificados, A42 parcial por hardware físico. Sesión 5: 2567 Flutter incluidas 23 HTTP sin skips, restore/manual macOS | [[08 - Roadmap/Alertas de existencias minimas/Plan de implementacion\|Plan en cinco sesiones]], [[08 - Roadmap/Alertas de existencias minimas/Estado y continuidad\|Continuidad]], [[08 - Roadmap/Alertas de existencias minimas/Evidencia/2026-10-19-sesion5/README\|Verificación final y pendiente físico]] |
+| Carga masiva CSV y seguimiento remoto | Plan documentado; implementación pendiente; hasta 200 filas y una carga pendiente a la vez en modo servidor | [[08 - Roadmap/Carga masiva y sincronizacion/Plan de implementacion\|Plan en cuatro fases]] |
 | Recuperación y descarte de recursos de seguimiento | Decidido; plan documentado, implementación pendiente | [[08 - Roadmap/Seguimiento de existencias/Plan de implementacion\|Plan en cinco fases]], [[02 - Decisiones/ADR-0017 Reutilizacion y descarte seguro de recursos de inventario\|ADR-0017]] |
 | Crecimiento de eventos | En analisis | [[05 - Datos/Crecimiento y retencion de eventos|Crecimiento y retencion de eventos]] |
 | Categorias | Implementado con pendientes identificados | [[03 - Dominio/Modulos/Categorias|Modulo Categorias]] |

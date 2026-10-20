@@ -1,0 +1,4 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_restore_test.dart
+00:00 +0: A36/A37 disco y restore integrados conservan aviso, presencia y undo (standalone)
+00:04 +1: A36/A37 disco y restore integrados conservan aviso, presencia y undo (serverSync)
+00:07 +2: All tests passed!

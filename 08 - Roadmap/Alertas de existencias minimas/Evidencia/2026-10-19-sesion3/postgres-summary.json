@@ -1,0 +1,20 @@
+{
+  "postgres": "PostgreSQL 18.4 (Postgres.app) on aarch64-apple-darwin23.6.0, compiled by Apple clang version 15.0.0 (clang-1500.3.9.4), 64-bit",
+  "event_statuses": {
+    "rejected": 76,
+    "conflict": 25,
+    "synced": 272
+  },
+  "conflicts": 13,
+  "minima": {
+    "5": 15,
+    "4": 6,
+    "9007199254740991": 6,
+    "11": 4,
+    "9": 6,
+    "null": 76
+  },
+  "confirmed_sales": 14,
+  "movements": 123,
+  "canonical_stock_events": 123
+}

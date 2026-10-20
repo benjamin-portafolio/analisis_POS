@@ -1,0 +1,9 @@
+nest: exit 0
+Checking formatting...
+All matched files use Prettier code style!
+
+flutter: exit 0
+Formatted 1 file (0 changed) in 0.01 seconds.
+
+vault: exit 0
+

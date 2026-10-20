@@ -1,0 +1,109 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart
+00:00 +0: constructores, preview y copyWith conservan la intención por defecto
+00:00 +1: A03/A18/A38 precarga, cero, vacío y varias variantes (standalone)
+00:03 +2: A02/A04/A05/A23/A40 venta, reposición y último resultado (standalone)
+00:04 +3: A39 cancelar mínimo y rechazar base obsoleta sin sustituirla (standalone)
+00:06 +4: A39 Artículos cancela el borrador y conserva la base al fallar (standalone)
+00:10 +5: A25 mínimo dormido se conserva y se recupera desde Artículos (standalone)
+00:13 +6: A06/A38 kg de inventario con venta en gramos en ambos accesos (standalone)
+00:16 +7: A19 alta sencilla sin mínimo y avanzada con dos mínimos (standalone)
+00:19 +8: A39 movimiento guardado sobrevive a cancelar el mínimo (standalone)
+00:20 +9: A14/A20/A41 lectura repetida y barcode no promueven base legada (standalone)
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown while running async test code:
+Bad state: El recurso 0ace6dc1-7405-403c-b7ba-8bfc2ef13a54 ya pertenece a otra variante.
+
+When the exception was thrown, this was the stack:
+#0      ProductoEventHandler._validateInventory (package:pos_flutter/application/sync/handlers/producto_event_handler.dart:257:9)
+<asynchronous suspension>
+#1      ProductoEventHandler.applyProductoCreado (package:pos_flutter/application/sync/handlers/producto_event_handler.dart:77:5)
+<asynchronous suspension>
+#2      ProductSupplierHarness.local.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/support/product_supplier_harness.dart:59:13)
+<asynchronous suspension>
+#3      DriftLocalEventStore.appendAndApplyBatchAtomically.<anonymous closure> (package:pos_flutter/data/local/drift/drift_local_event_store.dart:93:9)
+<asynchronous suspension>
+#4      DatabaseConnectionUser.transaction.<anonymous closure>.<anonymous closure> (package:drift/src/runtime/api/connection_user.dart:519:26)
+<asynchronous suspension>
+#5      DatabaseConnectionUser.transaction (package:drift/src/runtime/api/connection_user.dart:510:12)
+<asynchronous suspension>
+#6      DriftLocalEventStore.appendAndApplyBatchAtomically (package:pos_flutter/data/local/drift/drift_local_event_store.dart:82:5)
+<asynchronous suspension>
+#7      DriftLocalEventStore.appendAndApply (package:pos_flutter/data/local/drift/drift_local_event_store.dart:57:5)
+<asynchronous suspension>
+#8      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:528:9)
+<asynchronous suspension>
+#9      main.stockTest.<anonymous closure>.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:48:11)
+<asynchronous suspension>
+<asynchronous suspension>
+#11     main.stockTest.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:46:9)
+<asynchronous suspension>
+#12     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#13     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 2 frames from dart:async and package:stack_trace)
+
+The exception was caught asynchronously.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:20 +9 -1: A14/A20/A41 lectura repetida y barcode no promueven base legada (standalone) [E]
+  Test failed. See exception logs above.
+  The test description was: A14/A20/A41 lectura repetida y barcode no promueven base legada (standalone)
+  
+00:20 +9 -1: A38/A40 mínimo y distintivo con texto grande en Size(320.0, 740.0) (standalone)
+00:21 +10 -1: A38/A40 mínimo y distintivo con texto grande en Size(1024.0, 768.0) (standalone)
+00:22 +11 -1: A26 contador excluye recurso inactivo, variante retirada y producto (standalone)
+00:22 +12 -1: A03/A18/A38 precarga, cero, vacío y varias variantes (serverSync)
+00:24 +13 -1: A02/A04/A05/A23/A40 venta, reposición y último resultado (serverSync)
+00:26 +14 -1: A39 cancelar mínimo y rechazar base obsoleta sin sustituirla (serverSync)
+00:27 +15 -1: A39 Artículos cancela el borrador y conserva la base al fallar (serverSync)
+00:31 +16 -1: A25 mínimo dormido se conserva y se recupera desde Artículos (serverSync)
+00:34 +17 -1: A06/A38 kg de inventario con venta en gramos en ambos accesos (serverSync)
+00:37 +18 -1: A19 alta sencilla sin mínimo y avanzada con dos mínimos (serverSync)
+00:40 +19 -1: A39 movimiento guardado sobrevive a cancelar el mínimo (serverSync)
+00:41 +20 -1: A14/A20/A41 lectura repetida y barcode no promueven base legada (serverSync)
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown while running async test code:
+Bad state: El recurso 2ea0b4d0-8b7a-4358-89eb-df5bddbee922 ya pertenece a otra variante.
+
+When the exception was thrown, this was the stack:
+#0      ProductoEventHandler._validateInventory (package:pos_flutter/application/sync/handlers/producto_event_handler.dart:257:9)
+<asynchronous suspension>
+#1      ProductoEventHandler.applyProductoCreado (package:pos_flutter/application/sync/handlers/producto_event_handler.dart:77:5)
+<asynchronous suspension>
+#2      ProductSupplierHarness.local.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/support/product_supplier_harness.dart:59:13)
+<asynchronous suspension>
+#3      DriftLocalEventStore.appendAndApplyBatchAtomically.<anonymous closure> (package:pos_flutter/data/local/drift/drift_local_event_store.dart:93:9)
+<asynchronous suspension>
+#4      DatabaseConnectionUser.transaction.<anonymous closure>.<anonymous closure> (package:drift/src/runtime/api/connection_user.dart:519:26)
+<asynchronous suspension>
+#5      DatabaseConnectionUser.transaction (package:drift/src/runtime/api/connection_user.dart:510:12)
+<asynchronous suspension>
+#6      DriftLocalEventStore.appendAndApplyBatchAtomically (package:pos_flutter/data/local/drift/drift_local_event_store.dart:82:5)
+<asynchronous suspension>
+#7      DriftLocalEventStore.appendAndApply (package:pos_flutter/data/local/drift/drift_local_event_store.dart:57:5)
+<asynchronous suspension>
+#8      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:528:9)
+<asynchronous suspension>
+#9      main.stockTest.<anonymous closure>.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:48:11)
+<asynchronous suspension>
+<asynchronous suspension>
+#11     main.stockTest.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:46:9)
+<asynchronous suspension>
+#12     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#13     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 2 frames from dart:async and package:stack_trace)
+
+The exception was caught asynchronously.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:41 +20 -2: A14/A20/A41 lectura repetida y barcode no promueven base legada (serverSync) [E]
+  Test failed. See exception logs above.
+  The test description was: A14/A20/A41 lectura repetida y barcode no promueven base legada (serverSync)
+  
+00:41 +20 -2: A38/A40 mínimo y distintivo con texto grande en Size(320.0, 740.0) (serverSync)
+00:42 +21 -2: A38/A40 mínimo y distintivo con texto grande en Size(1024.0, 768.0) (serverSync)
+00:42 +22 -2: A26 contador excluye recurso inactivo, variante retirada y producto (serverSync)
+00:43 +23 -2: Some tests failed.

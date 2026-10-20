@@ -1,0 +1,50 @@
+[
+  {
+    "repo": "flutter",
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "repo": "flutter",
+    "command": "git diff --no-index --check /dev/null <new source>",
+    "files_checked": 56,
+    "diagnostics": 0
+  },
+  {
+    "repo": "nest",
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "repo": "nest",
+    "command": "git diff --no-index --check /dev/null <new source>",
+    "files_checked": 0,
+    "diagnostics": 0
+  },
+  {
+    "repo": "vault",
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "repo": "vault",
+    "command": "git diff --no-index --check /dev/null <new source>",
+    "files_checked": 24,
+    "diagnostics": 0
+  }
+]

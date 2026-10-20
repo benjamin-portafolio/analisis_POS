@@ -1,0 +1,7 @@
+  0s drift_dev on 3468 inputs; lib/application/backup/backup_manifest.dart
+  3s drift_dev on 3468 inputs: 259 skipped, 1 output, 8 same; spent 3s analyzing; lib/core/di/application_dependencies.dart
+  4s drift_dev on 3468 inputs: 579 skipped, 2 output, 54 same; spent 4s analyzing; test/application/commands/articulos/asignar_codigo_barras_variante_test.dart
+  5s drift_dev on 3468 inputs: 3087 skipped, 12 output, 242 same, 127 no-op; spent 4s analyzing
+  0s source_gen:combining_builder on 1734 inputs; lib/application/backup/backup_manifest.dart
+  0s source_gen:combining_builder on 1734 inputs: 1730 skipped, 4 no-op
+  Built with build_runner/aot in 6s; wrote 254 outputs.

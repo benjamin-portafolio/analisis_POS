@@ -20,6 +20,13 @@ La exportación incluirá `product_id` y `variant_id`. Las filas nuevas llevará
 ambos vacíos; las existentes conservarán los identificadores exportados.
 Ni el nombre ni el código de barras sustituirán a los IDs para actualizar.
 
+**Ampliación documental del 2026-10-19:** el usuario definió un máximo futuro de
+200 filas y una carga CSV pendiente a la vez en modo servidor, con conexión
+recomendada, seguimiento remoto y envío automático por paquetes. El alcance y
+las fases están en [[08 - Roadmap/Carga masiva y sincronizacion/Plan de implementacion|Carga masiva y sincronización]].
+Esa ampliación no está implementada. Las referencias a 500 filas de esta
+revisión y sus evidencias describen el contrato anterior y no se reescriben.
+
 Las reglas de alcance y compatibilidad siguientes son decisiones de diseño
 de esta primera entrega. No se atribuyen al usuario decisiones adicionales
 sobre inventario, eliminación o sincronización.

@@ -1,0 +1,15 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/integration/recepcion_masiva_server_test.dart
+test/integration/recepcion_masiva_server_test.dart:188:34: Error: The getter 'id' isn't defined for the type 'InventoryMovementRow'.
+ - 'InventoryMovementRow' is from 'package:pos_flutter/data/local/drift/app_database.dart' ('lib/data/local/drift/app_database.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'id'.
+        movements.where((m) => m.id == result.entradas.single.movementId),
+                                 ^^
+00:00 +0 -1: loading /Users/benjamin/Projects/POS/pos_flutter/test/integration/recepcion_masiva_server_test.dart [E]
+  Failed to load "/Users/benjamin/Projects/POS/pos_flutter/test/integration/recepcion_masiva_server_test.dart":
+  Compilation failed for testPath=/Users/benjamin/Projects/POS/pos_flutter/test/integration/recepcion_masiva_server_test.dart: test/integration/recepcion_masiva_server_test.dart:188:34: Error: The getter 'id' isn't defined for the type 'InventoryMovementRow'.
+   - 'InventoryMovementRow' is from 'package:pos_flutter/data/local/drift/app_database.dart' ('lib/data/local/drift/app_database.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'id'.
+          movements.where((m) => m.id == result.entradas.single.movementId),
+                                   ^^
+  .
+00:00 +0 -1: Some tests failed.

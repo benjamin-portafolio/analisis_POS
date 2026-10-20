@@ -1,0 +1,46 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/actualizar_articulo_csv_test.dart
+00:00 +0: standalone edición parcial conserva datos exactos (medido=false)
+00:00 +1: standalone edición parcial conserva datos exactos (medido=true)
+00:00 +2: standalone C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +3: standalone sameState normalizado no emite, ni cambia metadatos
+00:00 +4: standalone asocia categoría oficial y declara su referencia
+00:00 +5: standalone barcode compartido no impone unicidad ni modifica la omitida
+00:00 +6: standalone rechaza producto ausente dentro de la transacción
+00:00 +7: standalone rechaza producto inactivo dentro de la transacción
+00:00 +8: standalone rechaza variante ausente dentro de la transacción
+00:00 +9: standalone rechaza variante inactiva dentro de la transacción
+00:00 +10: standalone rechaza variante ajena dentro de la transacción
+00:00 +11: standalone rechaza base vacía dentro de la transacción
+00:00 +12: standalone rechaza base obsoleta dentro de la transacción
+00:00 +13: standalone valida colisión omitida sobre el agregado completo
+00:00 +14: standalone valida variante duplicada sobre el agregado completo
+00:00 +15: standalone valida lista vacía sobre el agregado completo
+00:00 +16: standalone valida precio inválido sobre el agregado completo
+00:00 +17: standalone valida barcode inválido sobre el agregado completo
+00:00 +18: standalone conserva proveedores conocidos vacíos
+00:00 +19: standalone conserva proveedores desconocidos
+00:00 +20: standalone el store valida refs incluso si no las persiste
+00:00 +21: standalone cambiar a server_sync no promueve historial standalone
+00:00 +22: serverSync edición parcial conserva datos exactos (medido=false)
+00:00 +23: serverSync edición parcial conserva datos exactos (medido=true)
+00:00 +24: serverSync C43 exportar, editar, reabrir, repetir y revertir en disco
+00:00 +25: serverSync sameState normalizado no emite, ni cambia metadatos
+00:00 +26: serverSync asocia categoría oficial y declara su referencia
+00:00 +27: serverSync barcode compartido no impone unicidad ni modifica la omitida
+00:01 +28: serverSync rechaza producto ausente dentro de la transacción
+00:01 +29: serverSync rechaza producto inactivo dentro de la transacción
+00:01 +30: serverSync rechaza variante ausente dentro de la transacción
+00:01 +31: serverSync rechaza variante inactiva dentro de la transacción
+00:01 +32: serverSync rechaza variante ajena dentro de la transacción
+00:01 +33: serverSync rechaza base vacía dentro de la transacción
+00:01 +34: serverSync rechaza base obsoleta dentro de la transacción
+00:01 +35: serverSync valida colisión omitida sobre el agregado completo
+00:01 +36: serverSync valida variante duplicada sobre el agregado completo
+00:01 +37: serverSync valida lista vacía sobre el agregado completo
+00:01 +38: serverSync valida precio inválido sobre el agregado completo
+00:01 +39: serverSync valida barcode inválido sobre el agregado completo
+00:01 +40: serverSync conserva proveedores conocidos vacíos
+00:01 +41: serverSync conserva proveedores desconocidos
+00:01 +42: serverSync el store valida refs incluso si no las persiste
+00:01 +43: serverSync mantiene base oficial y dependencia de base pendiente
+00:01 +44: All tests passed!

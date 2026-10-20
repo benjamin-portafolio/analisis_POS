@@ -1,0 +1,13 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand
+
+(node:88212) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:88212) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+
+Test Suites: 50 passed, 50 total
+Tests:       587 passed, 587 total
+Snapshots:   0 total
+Time:        18.47 s
+Ran all test suites.

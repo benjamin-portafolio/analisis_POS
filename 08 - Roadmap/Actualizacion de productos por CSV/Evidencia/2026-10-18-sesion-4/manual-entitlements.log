@@ -1,0 +1,3 @@
+Executable=/Users/benjamin/Projects/POS/pos_flutter/build/macos/Build/Products/Profile/pos_flutter.app/Contents/MacOS/pos_flutter
+warning: Specifying ':' in the path is deprecated and will not work in a future release
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.security.app-sandbox</key><true/><key>com.apple.security.cs.allow-jit</key><true/><key>com.apple.security.device.camera</key><true/><key>com.apple.security.get-task-allow</key><true/><key>com.apple.security.network.client</key><true/><key>com.apple.security.network.server</key><true/></dict></plist>

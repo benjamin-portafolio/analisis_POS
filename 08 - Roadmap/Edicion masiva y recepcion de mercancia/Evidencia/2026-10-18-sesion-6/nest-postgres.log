@@ -1,0 +1,11 @@
+
+> pos-nest@0.0.1 test
+> jest --runInBand inventory-event.handler producto-event.handler product-suppliers.postgres sync.service.spec --json --outputFile=/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis /08 - Roadmap/Edicion masiva y recepcion de mercancia/Evidencia/2026-10-18-sesion-6/nest-postgres.json
+
+
+Test Suites: 6 passed, 6 total
+Tests:       104 passed, 104 total
+Snapshots:   0 total
+Time:        2.378 s, estimated 3 s
+Ran all test suites matching inventory-event.handler|producto-event.handler|product-suppliers.postgres|sync.service.spec.
+Test results written to: ../analisis /08 - Roadmap/Edicion masiva y recepcion de mercancia/Evidencia/2026-10-18-sesion-6/nest-postgres.json

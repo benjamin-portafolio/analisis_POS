@@ -1,0 +1,16 @@
+{
+  "command": [
+    "flutter",
+    "test",
+    "test/domain/articulos/importe_comercial_codec_test.dart",
+    "test/presentation/pages/gestion_inventario/edicion_masiva",
+    "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+    "test/core/di/edicion_masiva_dependencies_test.dart",
+    "test/application/commands/articulos/editar_articulo_comercial_test.dart",
+    "test/application/commands/edicion_masiva",
+    "--reporter",
+    "expanded"
+  ],
+  "exit_code": 0,
+  "seconds": 16.52
+}

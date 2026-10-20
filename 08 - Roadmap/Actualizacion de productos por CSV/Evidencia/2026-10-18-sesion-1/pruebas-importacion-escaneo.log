@@ -1,0 +1,195 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: C04 C13 C26 preparar iguales/cambios/errores no escribe ninguna tabla
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_vuelta_test.dart: la plantilla descargada contiene ejemplos válidos sin categorías
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +6: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +7: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +8: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +9: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +10: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +11: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +12: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +13: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/drift_articulo_import_preparation_test.dart: 500 omitidos en catálogo de 10000: seis lecturas y cero escrituras
+00:00 +14: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:00 +15: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:01 +16: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:01 +17: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:01 +18: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:01 +19: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:01 +20: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:01 +21: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:01 +22: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:01 +23: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:01 +24: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 contrato con IDs preparado: catálogo real y round-trip sin cambios
+00:01 +25: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura 500 filas exactas sí se validan
+00:01 +26: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura 500 filas exactas sí se validan
+00:01 +27: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura 500 filas exactas sí se validan
+00:01 +28: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: estructura 500 filas exactas sí se validan
+00:01 +29: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +30: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +31: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +32: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +33: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +34: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +35: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +36: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +37: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +38: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +39: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +40: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +41: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +42: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +43: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +44: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +45: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +46: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +47: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +48: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +49: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +50: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +51: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +52: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +53: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +54: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +55: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +56: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +57: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +58: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +59: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +60: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +61: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +62: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +63: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +64: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +65: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +66: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +67: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +68: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +69: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +70: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +71: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +72: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +73: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +74: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +75: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: C29 plantilla/notas nuevas: IDs vacíos, conteos y reglas de existentes
+00:01 +76: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: conversión a centavos el punto decimal es el separador del contrato, no la coma
+00:01 +77: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el catálogo sale con BOM, separado por comas y el encabezado del contrato
+00:01 +78: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el catálogo sale con BOM, separado por comas y el encabezado del contrato
+00:01 +79: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el catálogo sale con BOM, separado por comas y el encabezado del contrato
+00:01 +80: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el catálogo sale con BOM, separado por comas y el encabezado del contrato
+00:01 +81: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el catálogo sale con BOM, separado por comas y el encabezado del contrato
+00:01 +82: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el catálogo sale con BOM, separado por comas y el encabezado del contrato
+00:01 +83: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el catálogo sale con BOM, separado por comas y el encabezado del contrato
+00:01 +84: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el catálogo sale con BOM, separado por comas y el encabezado del contrato
+00:01 +85: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/import/articulo_import_csv_test.dart: el archivo exportado vuelve a validarse sin cambios el catálogo exportado es un archivo de carga válido
+00:01 +86: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: escribe una fila por variante con las diez columnas del contrato
+00:01 +87: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: agrupa las variantes de un producto y las ordena por sort_order
+00:01 +88: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: la venta por fracción escribe la unidad de venta del código
+00:01 +89: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +90: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +91: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +92: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +93: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +94: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +95: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +96: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +97: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +98: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +99: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +100: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +101: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +102: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +103: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +103: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF usa PASTOR aunque la configuración guardada diga Miradent
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +104: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +104: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF escribe un PDF con fecha y los mismos conteos que el CSV
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +105: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +105: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF respeta los filtros de la pantalla y avisa cuántos de cuántos
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +106: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +106: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF sin filtros no lee el total y no lo reporta
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +107: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: agrupa por categoría y ordena los artículos alfabéticamente
+00:01 +107: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/drift_articulo_catalog_export_service_test.dart: el PDF un catálogo vacío también se escribe y se puede compartir
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +108: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +109: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +110: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +111: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +112: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +113: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +114: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +115: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +116: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +117: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +118: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +119: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +119: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: los bytes son un PDF que se puede abrir
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +120: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +120: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: un catálogo vacío también se dibuja sin reventar
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +121: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +121: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: el PDF dibuja el QR solo en la línea que tiene código de barras
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:01 +122: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:01 +122: /Users/benjamin/Projects/POS/pos_flutter/test/data/local/export/articulo_catalog_pdf_test.dart: un catálogo largo se pagina y numera sus páginas
+Helvetica has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+Helvetica-Bold has no Unicode support see https://github.com/DavBfr/dart_pdf/wiki/Fonts-Management
+00:02 +123: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.standalone
+00:02 +124: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: lector sobre + solo en Artículos; + conserva su menú
+00:03 +125: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: 500 filas generan 1000 eventos en orden, con 10 transacciones: AppMode.serverSync
+00:03 +126: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: una coincidencia abre edición ubicando la segunda variante, sin escribir
+00:03 +127: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: una coincidencia abre edición ubicando la segunda variante, sin escribir
+00:03 +128: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: una coincidencia abre edición ubicando la segunda variante, sin escribir
+00:03 +129: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: una coincidencia abre edición ubicando la segunda variante, sin escribir
+00:04 +130: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:04 +131: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:05 +132: /Users/benjamin/Projects/POS/pos_flutter/test/application/import/articulo_import_batch_service_test.dart: push entrega los 1000 eventos en POST de hasta 150 y respeta dependencias
+00:05 +133: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: búsqueda por artículo y variante, con/sin código y existencias; sin detalle por fila
+00:06 +134: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: confirma asignación y guarda localmente sin venta ni movimientos
+00:06 +135: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: confirma reemplazo y guarda localmente sin venta ni movimientos
+00:07 +136: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: CSV sin barcode: asigna, reabre y reemplaza conservando coincidencias compartidas en standalone
+00:10 +137: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: CSV sin barcode: asigna, reabre y reemplaza conservando coincidencias compartidas en serverSync
+00:12 +138: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: cancelar lector conserva todas las tablas
+00:12 +139: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: cancelar aviso conserva todas las tablas
+00:13 +140: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: cancelar selector conserva todas las tablas
+00:13 +141: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: cancelar confirmación conserva todas las tablas
+00:14 +142: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: base obsoleta recarga códigos y exige otra confirmación
+00:15 +143: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: asigna a variante sin nombre, sin barcode ni seguimiento de existencias
+00:16 +144: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: fallo de guardado conserva selección/código y permite reintentar
+00:17 +145: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: doble toque y salir durante guardado esperan un único comando
+00:17 +146: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: destino ya igual informa sin invocar comando
+00:18 +147: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: variante retirada entre confirmación y guardado se rechaza
+00:19 +148: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: código inválido texto-123 permite reescanear sin consultar ni escribir
+00:19 +149: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: código inválido 123456789012345678901234567890123 permite reescanear sin consultar ni escribir
+00:20 +150: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: lecturas vacías, repetidas y doble apertura producen una consulta
+00:20 +151: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: cámara MobileScannerErrorCode.permissionDenied permite cancelar y reabrir
+00:20 +152: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: cámara MobileScannerErrorCode.unsupported permite cancelar y reabrir
+00:21 +153: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: segundo plano detiene cámara, ignora callback y permite reanudar
+00:21 +154: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: permiso pendiente al pasar a segundo plano libera la cámara
+00:22 +155: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: permiso pendiente al cerrar libera la cámara
+00:22 +156: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: consulta exacta tardía de una ruta cerrada no navega ni escribe
+00:22 +157: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: detalle tardío tras cerrar edición no navega ni guarda
+00:23 +158: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: detalle tardío tras cerrar confirmación no navega ni guarda
+00:23 +159: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: error de consulta conserva código y permite reintentar
+00:24 +160: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: error de detalle conserva destino y código para recargar
+00:24 +161: /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart: selector muestra carga, error con reintento, vacío y búsqueda sin resultados
+00:25 +162: All tests passed!

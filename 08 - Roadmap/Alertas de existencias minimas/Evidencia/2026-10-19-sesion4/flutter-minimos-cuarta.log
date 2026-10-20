@@ -1,0 +1,77 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart
+00:00 +0: constructores, preview y copyWith conservan la intención por defecto
+00:00 +1: A03/A18/A38 precarga, cero, vacío y varias variantes (standalone)
+00:02 +2: A02/A04/A05/A23/A40 venta, reposición y último resultado (standalone)
+00:04 +3: A39 cancelar mínimo y rechazar base obsoleta sin sustituirla (standalone)
+00:05 +4: A39 Artículos cancela el borrador y conserva la base al fallar (standalone)
+00:10 +5: A25 mínimo dormido se conserva y se recupera desde Artículos (standalone)
+00:13 +6: A06/A38 kg de inventario con venta en gramos en ambos accesos (standalone)
+00:15 +7: A19 alta sencilla sin mínimo y avanzada con dos mínimos (standalone)
+00:18 +8: A39 movimiento guardado sobrevive a cancelar el mínimo (standalone)
+00:20 +9: A14/A20/A41 lectura repetida y barcode no promueven base legada (standalone)
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following FormatException was thrown while running async test code:
+Las dependencias inventory_item deben coincidir con los vínculos directos y componentes de receta.
+
+When the exception was thrown, this was the stack:
+#0      _validateInventoryDependencies (package:pos_flutter/application/sync/payloads/producto_creado_payload.dart:739:5)
+#1      new ProductoCreadoPayload.create (package:pos_flutter/application/sync/payloads/producto_creado_payload.dart:142:44)
+#2      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:508:47)
+<asynchronous suspension>
+#3      main.stockTest.<anonymous closure>.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:48:11)
+<asynchronous suspension>
+<asynchronous suspension>
+#5      main.stockTest.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:46:9)
+<asynchronous suspension>
+#6      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#7      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 2 frames from dart:async and package:stack_trace)
+
+The exception was caught asynchronously.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:20 +9 -1: A14/A20/A41 lectura repetida y barcode no promueven base legada (standalone) [E]
+  Test failed. See exception logs above.
+  The test description was: A14/A20/A41 lectura repetida y barcode no promueven base legada (standalone)
+  
+00:20 +9 -1: A26 contador excluye recurso inactivo, variante retirada y producto (standalone)
+00:20 +10 -1: A03/A18/A38 precarga, cero, vacío y varias variantes (serverSync)
+00:23 +11 -1: A02/A04/A05/A23/A40 venta, reposición y último resultado (serverSync)
+00:24 +12 -1: A39 cancelar mínimo y rechazar base obsoleta sin sustituirla (serverSync)
+00:25 +13 -1: A39 Artículos cancela el borrador y conserva la base al fallar (serverSync)
+00:29 +14 -1: A25 mínimo dormido se conserva y se recupera desde Artículos (serverSync)
+00:33 +15 -1: A06/A38 kg de inventario con venta en gramos en ambos accesos (serverSync)
+00:35 +16 -1: A19 alta sencilla sin mínimo y avanzada con dos mínimos (serverSync)
+00:38 +17 -1: A39 movimiento guardado sobrevive a cancelar el mínimo (serverSync)
+00:40 +18 -1: A14/A20/A41 lectura repetida y barcode no promueven base legada (serverSync)
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following FormatException was thrown while running async test code:
+Las dependencias inventory_item deben coincidir con los vínculos directos y componentes de receta.
+
+When the exception was thrown, this was the stack:
+#0      _validateInventoryDependencies (package:pos_flutter/application/sync/payloads/producto_creado_payload.dart:739:5)
+#1      new ProductoCreadoPayload.create (package:pos_flutter/application/sync/payloads/producto_creado_payload.dart:142:44)
+#2      main.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:508:47)
+<asynchronous suspension>
+#3      main.stockTest.<anonymous closure>.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:48:11)
+<asynchronous suspension>
+<asynchronous suspension>
+#5      main.stockTest.<anonymous closure> (file:///Users/benjamin/Projects/POS/pos_flutter/test/presentation/pages/informes/minimum_stock_ui_test.dart:46:9)
+<asynchronous suspension>
+#6      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#7      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 2 frames from dart:async and package:stack_trace)
+
+The exception was caught asynchronously.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:40 +18 -2: A14/A20/A41 lectura repetida y barcode no promueven base legada (serverSync) [E]
+  Test failed. See exception logs above.
+  The test description was: A14/A20/A41 lectura repetida y barcode no promueven base legada (serverSync)
+  
+00:40 +18 -2: A26 contador excluye recurso inactivo, variante retirada y producto (serverSync)
+00:40 +19 -2: Some tests failed.

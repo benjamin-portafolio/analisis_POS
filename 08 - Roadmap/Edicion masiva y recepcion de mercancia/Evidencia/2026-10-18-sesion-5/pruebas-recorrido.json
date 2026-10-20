@@ -1,0 +1,11 @@
+{
+  "command": [
+    "flutter",
+    "test",
+    "test/presentation/pages/gestion_inventario/edicion_masiva/recepcion_recorrido_test.dart",
+    "--reporter",
+    "expanded"
+  ],
+  "exit_code": 0,
+  "seconds": 2.29
+}

@@ -1,0 +1,374 @@
+{
+  "flutter": {
+    "root": "/Users/benjamin/Projects/POS/pos_flutter",
+    "head": "e5d9c7bbc581380d01ffe12088c317891573384f",
+    "files": [
+      {
+        "status": " M",
+        "path": "lib/application/commands/articulos/producto_command_service.dart",
+        "sha256": "c8b36be5c57d59c203d0f77c38a67c825df16928422a8d4e8166fd89b7d5290d"
+      },
+      {
+        "status": " M",
+        "path": "lib/application/import/articulo_catalog_import_service.dart",
+        "sha256": "58a519b2611726a271e52bcf2a506f59635f7c8758057b2b813afbd891eee61c"
+      },
+      {
+        "status": " M",
+        "path": "lib/application/import/articulo_import_batch_service.dart",
+        "sha256": "c745cae46f31b5d768936ea3d10b678c32506439f574ddf7f508b2306e853127"
+      },
+      {
+        "status": " M",
+        "path": "lib/application/import/articulo_import_lote_fallido.dart",
+        "sha256": "b4e17847b66486d74a5f7dd19581bbaa946531290bab6a2eb7ffa8ec0cca7a1a"
+      },
+      {
+        "status": " M",
+        "path": "lib/application/import/articulo_import_progreso.dart",
+        "sha256": "dc0b6dc92f3eade20f9d8acdc4a4fd5118654caf9355c7f112ed44a5993822e3"
+      },
+      {
+        "status": " M",
+        "path": "lib/core/di/data_dependencies.dart",
+        "sha256": "4e3f0b38122370a561b835c773b5b2d54fe673cd6b62319ad7657c206873eec7"
+      },
+      {
+        "status": " M",
+        "path": "lib/data/local/export/articulo_catalog_csv.dart",
+        "sha256": "e955846dbaa08f93c7fb2e2e21fc4d9bc1e044ae53c12114244a137b8e2b1d3c"
+      },
+      {
+        "status": " M",
+        "path": "lib/data/local/export/drift_articulo_catalog_export_service.dart",
+        "sha256": "2452a9fd845ac7a951334c9cec16523a6054893e087d5df3f464bbc627b2e9f7"
+      },
+      {
+        "status": " M",
+        "path": "lib/data/local/import/articulo_import_csv.dart",
+        "sha256": "0a41ba9d078017de5bdf0ac63c02d3b54d9f34612d4b0f677329cb58f84417d9"
+      },
+      {
+        "status": " M",
+        "path": "lib/presentation/pages/caja/sale_barcode_scanner_screen.dart",
+        "sha256": "251970a04a8ab5545c677029a0921b8a513e1ea2db7f285a9933295d7302a2eb"
+      },
+      {
+        "status": " M",
+        "path": "lib/presentation/pages/gestion_inventario/carga_masiva/bulk_import_progress.dart",
+        "sha256": "f342793a98085f43af4b7d03ee76ece57031da9c05ffbf3615e2929d446457c6"
+      },
+      {
+        "status": " M",
+        "path": "lib/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen.dart",
+        "sha256": "0eceef06b2eebca70551ae484ac7ecbf4f89be722dc4c3485b6d3a7e297b6315"
+      },
+      {
+        "status": " M",
+        "path": "lib/presentation/pages/gestion_inventario/inventory_management_screen.dart",
+        "sha256": "4372fcb0fd9043f2d2ab830401fb11c7f34b5358119d0addbbe37430cebab66c"
+      },
+      {
+        "status": " M",
+        "path": "test/application/import/articulo_import_batch_service_test.dart",
+        "sha256": "3f5821513823efaa00d53fdf04f626383fa99cc7cc0857d2a0df024640792ca5"
+      },
+      {
+        "status": " M",
+        "path": "test/data/local/export/drift_articulo_catalog_export_service_test.dart",
+        "sha256": "5aa913e8a355102ae6b6bd22e089790cf2b3c584aa61742f12a0653483d00abe"
+      },
+      {
+        "status": " M",
+        "path": "test/data/local/import/articulo_import_csv_test.dart",
+        "sha256": "ae1e986b7acd8212b3bc5776730ccfa69778733cd3592c2c77784a3cb4bd99bd"
+      },
+      {
+        "status": " M",
+        "path": "test/data/local/import/articulo_import_csv_vuelta_test.dart",
+        "sha256": "361a21ce3e37dc808528bf9041dbfab4c35a439c38308c542a30a3cfa3ac35d8"
+      },
+      {
+        "status": " M",
+        "path": "test/presentation/pages/caja/sale_barcode_scanner_screen_test.dart",
+        "sha256": "3a3458715bc62333a88512ec4cf2dfbba813a4aaa5e0bcd33f07ebb9c85073bd"
+      },
+      {
+        "status": " M",
+        "path": "test/presentation/pages/gestion_inventario/articulos/inventory_barcode_flow_test.dart",
+        "sha256": "fe5af581d106bc217773fc4fd6bf8aa3caf61d4395936409c373a8967ab3d02e"
+      },
+      {
+        "status": " M",
+        "path": "test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_screen_test.dart",
+        "sha256": "19708ad502c7d3bf583845b514feb5ad5034b0f5b8a0e8bc4a7d8fd6ed1a9052"
+      },
+      {
+        "status": " M",
+        "path": "test/presentation/pages/gestion_inventario/inventory_management_screen_test.dart",
+        "sha256": "113a6c9f1869b013d103a04c05ddfd2e3acafb8668eb4ce762b001e36ec792d3"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/commands/articulos/actualizar_articulo_csv_command.dart",
+        "sha256": "2947fdcf5c76a7cca1aa8f3442ceea99a40037e7b309510110cad5423723bd15"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/commands/articulos/actualizar_articulo_variante_csv_command.dart",
+        "sha256": "3bf2686c9903323356c6e39191ad42fb87366b88f52a22618dce559cb076e836"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/commands/articulos/producto_import_lote_result.dart",
+        "sha256": "b0d8d6cae2d26cbfc2acf4cc89a8fa06526bd9167c23b47bf68dc52ee7aebc0c"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/import/articulo_csv_contract.dart",
+        "sha256": "e3c27b1722d8bf01d46b0a0234780f0fb74bb87e8a7f2fe30af99ba3ba75cfe6"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/import/articulo_import_actualizacion.dart",
+        "sha256": "dfac9c3e8a1a55050112148a3eaa6b409c5f1b9bf9205af269ecc7ce7e0220ad"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/import/articulo_import_catalog_reader.dart",
+        "sha256": "32588c0706bd4dde0e16e8d70387e60c14f202e70015604eb306d5918bc6af53"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/import/articulo_import_preparation_service.dart",
+        "sha256": "9ca6963490543223a9659203ff5e1e3479fcb3a1f1b1df7db9afd5cdd92f1d9f"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/import/articulo_import_producto_error.dart",
+        "sha256": "791ea34fabe85526ff365e09ac23f66af9fad572c012c8f7e8247833433f6756"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/import/articulo_import_producto_local.dart",
+        "sha256": "24e0fdd9a916672787124e9c40f085761ac9d95dad0eefffd964716c8fc10d86"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/import/articulo_import_solicitud.dart",
+        "sha256": "a4cd84250d8b465db3b4f28ef007e9d3c4b56c375bfb8ecf009a915a143a6ba0"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/import/articulo_import_variante_cambio.dart",
+        "sha256": "720bef594393d384557e5fd34080d8c21fef215162cee5c96ea2f27da9173d51"
+      },
+      {
+        "status": "??",
+        "path": "lib/application/import/articulo_import_variante_local.dart",
+        "sha256": "ce84f3c0fd59e7e80419f02fa5d576bbe8a4d9933027ac0772b586aa3fb707bb"
+      },
+      {
+        "status": "??",
+        "path": "lib/data/local/import/drift_articulo_import_catalog_reader.dart",
+        "sha256": "070f9a3b3eeb53bbbdf04716aac909e36ddfba9e6e3aea273ec2bfd7c305f4c6"
+      },
+      {
+        "status": "??",
+        "path": "lib/presentation/pages/gestion_inventario/carga_masiva/bulk_import_review.dart",
+        "sha256": "27dd460e3d045d8e30b2a21a1e643c49de059cbee545f580d5c17222ad01d228"
+      },
+      {
+        "status": "??",
+        "path": "test/application/commands/articulos/actualizar_articulo_csv_test.dart",
+        "sha256": "3e25fdb1a56326a80606278fae41e563364044467b95fb8b0ede4b08ab7361d2"
+      },
+      {
+        "status": "??",
+        "path": "test/application/import/articulo_import_mixed_batch_service_test.dart",
+        "sha256": "33e6a657678621bfa1c040c0b30860962458d54658454068918eef51372265a9"
+      },
+      {
+        "status": "??",
+        "path": "test/data/local/import/articulo_import_identity_test.dart",
+        "sha256": "d66c876b7c200a75951d7710ca62d204e374922f6a78064554fc22fa0b0537b2"
+      },
+      {
+        "status": "??",
+        "path": "test/data/local/import/drift_articulo_import_preparation_test.dart",
+        "sha256": "a3163f24744a6d569ce2700099216c38720cb9923d703bffe4685edb8ca00c05"
+      },
+      {
+        "status": "??",
+        "path": "test/presentation/pages/gestion_inventario/carga_masiva/bulk_import_persistence_test.dart",
+        "sha256": "5fae470f979246b836146a0adab3a86270faec88d866053b1f3df38c6663b7c8"
+      },
+      {
+        "status": "??",
+        "path": "tool/benchmarks/articulo_import_baseline.dart",
+        "sha256": "39f7c03512208639b547dcf54337aa47ac0d0bbacb1cf6d56901857ab7025322"
+      }
+    ]
+  },
+  "vault": {
+    "root": "/Users/benjamin/Library/CloudStorage/GoogleDrive-benjamin94833@gmail.com/My Drive/Projects/POS/analisis ",
+    "head": "b077dc72cc81ddd991ed7cb36daecd6283368ab2",
+    "files": [
+      {
+        "status": " M",
+        "path": "00 - Inicio/Mapa del vault.md",
+        "sha256": "a5d79957506b095e463bb4eca3a8500085ec0428b011003e45a0f84ce9e032c0"
+      },
+      {
+        "status": " M",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Estado y continuidad.md",
+        "sha256": "348c074ece800a92e80c2b77f179120495d9171e87561b89ddc2192225b58224"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/500-con-seguimiento.csv",
+        "sha256": "cae7b94e508dd4e324b8282bdcb9dce33d59826ebe4a2191cccda9e4afb171a3"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/500-sin-seguimiento.csv",
+        "sha256": "8e4ca093a38b836463d56866ebe1e7f23ed6ec624814cb73b0721495d94f3d78"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/Referencia de rendimiento.md",
+        "sha256": "440b00ff72dec1bb21aa4dc82d185fbe4a008c6c868da5f2c7dc52872e82d3d7"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/articulo_import_baseline.dart",
+        "sha256": "978ee42247cff649187f9416f5aeb99ae510e478ac2f73e0af4f0c9770e60b74"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/baseline-ejecucion.log",
+        "sha256": "a6a834e55f174b361b65f7260c527563ca03858b33f1b4292157869ecf9d831f"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/baseline-resultados.json",
+        "sha256": "baef2917dd2d0d08d003a19dbcd509676f347e0075590a39cd50ca4e8b87d2ef"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/dart-analyze-final.log",
+        "sha256": "647c0365bc804adf3eb128df7629b74b9b1cfe6ac56a0a04d7220f882242b155"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/flutter-test-final.log",
+        "sha256": "85b41c5e9b8114424d06ba471ebca871dd145b22c7b99f342a17620d9cceb03d"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/pruebas-importacion-escaneo.log",
+        "sha256": "84f395cc6b59670bc3c1296870748b52c2494d1c666a6b53c6a50a0b56e74888"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-1/pruebas-importacion-exportacion.log",
+        "sha256": "0818621eb83b2776e5de418536a951bb70e88d99c2a9b6727ad92419fb9d3a06"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-2/Verificacion del core.md",
+        "sha256": "9459fe071a35596dfc26ba3cd1fb6edcc3a009f2cf6bb6476e37f15c2374ccd3"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-2/dart-analyze-final.log",
+        "sha256": "647c0365bc804adf3eb128df7629b74b9b1cfe6ac56a0a04d7220f882242b155"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-2/flutter-test-final.log",
+        "sha256": "6b569aba284a3748716be297f4440bd464827c086cdb51ad8fa32106d0ac5867"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-2/pruebas-enfocadas.log",
+        "sha256": "28d8c4e921b6a084c08e73f6de1450f7c645ebf1af6231cb9121e96d27dba3c7"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/Verificacion de interfaz.md",
+        "sha256": "2b57b6ed1d537ef4db7d0ef8f3bbf47534f6dfa0e046cb0b87fd1e981328cc54"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/dart-analyze-final.log",
+        "sha256": "647c0365bc804adf3eb128df7629b74b9b1cfe6ac56a0a04d7220f882242b155"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/flutter-test-final.log",
+        "sha256": "69c1fe9ed0d81723747b551ebe6cc99faa40738c35283b7c9c2296c0a76734cd"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/flutter-test-primer-intento.log",
+        "sha256": "472a39e85fb63f73e50bbc6ced84fa0ced961b94c69a916006925d5df6ec6a2f"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/proveedores-reverificacion.log",
+        "sha256": "8708497c910257b7979bec1fb225e0838dcfc0c7303a32a977851936e6fb6d99"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Actualizacion de productos por CSV/Evidencia/2026-10-18-sesion-3/pruebas-enfocadas.log",
+        "sha256": "8f2e5438ecefce5230a7924b6cb797f9dd352a5527470db026490c5045f7350b"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Edicion masiva y recepcion de mercancia/Estado y continuidad.md",
+        "sha256": "2b65712b8822f1a81840a8bbd84f3241d7cdb603878c56ec5248ddd2c44e6bcf"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Edicion masiva y recepcion de mercancia/Matriz de aceptacion.md",
+        "sha256": "5d853baddd5847251bdb49f004d2f047e4fcf2bc8452965d09691af03ff04d5c"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Edicion masiva y recepcion de mercancia/Plan de implementacion.md",
+        "sha256": "a73ea37af29b3c69dbb96d0550d0377bafaa2abaf9db424a3a1f14a4a3e49937"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/01 - Contrato y borrador.md",
+        "sha256": "21b796cf02705767f50523ffe6d7080babb059f90be5150b71bbb723e45de9f8"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/02 - Edicion comercial.md",
+        "sha256": "1ed00e217c08a9efa234579319d0808d19324317074be5ec64a8f45ef15b9039"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/03 - Recepcion y reintentos.md",
+        "sha256": "0a7df91047910b7d136e2c8cba11dff1da1e5ef43c23614a28b9e7604738a793"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/04 - Interfaz por tarea.md",
+        "sha256": "e15e2ecd4c841c70b7d5f1e1d9d351dd33fbf947a18bb0f3831758cccb15f982"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/05 - Recepcion compacta y revision.md",
+        "sha256": "4d109556a8f149ce326fb948a6121aced37c148aeebd2076ea7bcfa0bdc2436a"
+      },
+      {
+        "status": "??",
+        "path": "08 - Roadmap/Edicion masiva y recepcion de mercancia/Sesiones/06 - Verificacion y cierre.md",
+        "sha256": "871ddefd24b39fed1f69c2a2b7b7f6408d63e366b8ac4625d5870e79fde987fd"
+      }
+    ]
+  }
+}

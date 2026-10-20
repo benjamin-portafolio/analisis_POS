@@ -1,0 +1,11 @@
+{
+  "command": [
+    "flutter",
+    "test",
+    "--concurrency=2",
+    "--reporter",
+    "expanded"
+  ],
+  "exit_code": 0,
+  "seconds": 174.81
+}

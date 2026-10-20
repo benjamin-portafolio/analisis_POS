@@ -1,0 +1,115 @@
+{
+  "04-minimos-editados": {
+    "unchanged_tables": {
+      "inventory_balances": true,
+      "inventory_movements": true,
+      "sales": true,
+      "sale_items": true,
+      "sale_payments": true,
+      "event_refs": true
+    },
+    "not_required_all_events": true,
+    "no_alert_event": true,
+    "variants": [
+      {
+        "name": "Sesión 5 medido",
+        "id": "4c8d867b-540b-4a41-bafc-b711d5a17adf",
+        "minimum_stock_atomic": 6001,
+        "default_unit_id": "10000000-0000-4000-8000-000000000003",
+        "quantity_on_hand_atomic": 6000
+      },
+      {
+        "name": "Sesión 5 piezas",
+        "id": "24712b68-00be-46a6-8154-41544cd65fcf",
+        "minimum_stock_atomic": 6,
+        "default_unit_id": "10000000-0000-4000-8000-000000000001",
+        "quantity_on_hand_atomic": 6
+      }
+    ]
+  },
+  "05-piezas-retirado": {
+    "unchanged_tables": {
+      "inventory_balances": true,
+      "inventory_movements": true,
+      "sales": true,
+      "sale_items": true,
+      "sale_payments": true,
+      "event_refs": true
+    },
+    "not_required_all_events": true,
+    "no_alert_event": true,
+    "variants": [
+      {
+        "name": "Sesión 5 medido",
+        "id": "4c8d867b-540b-4a41-bafc-b711d5a17adf",
+        "minimum_stock_atomic": 6001,
+        "default_unit_id": "10000000-0000-4000-8000-000000000003",
+        "quantity_on_hand_atomic": 6000
+      },
+      {
+        "name": "Sesión 5 piezas",
+        "id": "24712b68-00be-46a6-8154-41544cd65fcf",
+        "minimum_stock_atomic": null,
+        "default_unit_id": "10000000-0000-4000-8000-000000000001",
+        "quantity_on_hand_atomic": 6
+      }
+    ]
+  },
+  "06-ambos-retirados": {
+    "unchanged_tables": {
+      "inventory_balances": true,
+      "inventory_movements": true,
+      "sales": true,
+      "sale_items": true,
+      "sale_payments": true,
+      "event_refs": true
+    },
+    "not_required_all_events": true,
+    "no_alert_event": true,
+    "variants": [
+      {
+        "name": "Sesión 5 medido",
+        "id": "4c8d867b-540b-4a41-bafc-b711d5a17adf",
+        "minimum_stock_atomic": null,
+        "default_unit_id": "10000000-0000-4000-8000-000000000003",
+        "quantity_on_hand_atomic": 6000
+      },
+      {
+        "name": "Sesión 5 piezas",
+        "id": "24712b68-00be-46a6-8154-41544cd65fcf",
+        "minimum_stock_atomic": null,
+        "default_unit_id": "10000000-0000-4000-8000-000000000001",
+        "quantity_on_hand_atomic": 6
+      }
+    ]
+  },
+  "07-reapertura-null": {
+    "unchanged_tables": {
+      "inventory_balances": true,
+      "inventory_movements": true,
+      "sales": true,
+      "sale_items": true,
+      "sale_payments": true,
+      "event_refs": true
+    },
+    "not_required_all_events": true,
+    "no_alert_event": true,
+    "variants": [
+      {
+        "name": "Sesión 5 medido",
+        "id": "4c8d867b-540b-4a41-bafc-b711d5a17adf",
+        "minimum_stock_atomic": null,
+        "default_unit_id": "10000000-0000-4000-8000-000000000003",
+        "quantity_on_hand_atomic": 6000
+      },
+      {
+        "name": "Sesión 5 piezas",
+        "id": "24712b68-00be-46a6-8154-41544cd65fcf",
+        "minimum_stock_atomic": null,
+        "default_unit_id": "10000000-0000-4000-8000-000000000001",
+        "quantity_on_hand_atomic": 6
+      }
+    ]
+  },
+  "last_reopen_exact": true
+}

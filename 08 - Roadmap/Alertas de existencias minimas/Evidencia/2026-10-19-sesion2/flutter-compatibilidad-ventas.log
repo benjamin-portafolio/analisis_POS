@@ -1,0 +1,82 @@
+00:00 +0: loading /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: (setUpAll)
+00:00 +0: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A16/A18/A24/A31/A32 mínimo, no-op, conservar, cero y retirar
+00:00 +1: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo null, commit completo y reintento persistente
+00:00 +2: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo null, commit completo y reintento persistente
+00:00 +3: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo null, commit completo y reintento persistente
+00:00 +4: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A24 cambiar mínimo no invalida consumo capturado en venta abierta
+00:00 +5: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo 10000, commit completo y reintento persistente
+00:00 +6: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo 10000, commit completo y reintento persistente
+00:00 +7: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A10/A13–A17 legado conserva presencia, promoción sin evento y rechazo de escritor antiguo
+00:00 +8: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: efectivo 20000, commit completo y reintento persistente
+00:01 +9: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A29/A30 undo recupera ausencia exacta y una restauración tardía respeta base posterior
+00:01 +10: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: serverSync: efectivo null, commit completo y reintento persistente
+00:01 +11: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A23/A41 repositorio observable y recepción evalúan saldo vigente sin eventos de alerta
+00:01 +12: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A23/A41 repositorio observable y recepción evalúan saldo vigente sin eventos de alerta
+00:01 +13: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: serverSync: efectivo 20000, commit completo y reintento persistente
+00:01 +14: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A19/A26/A28 variantes comparten base y retirada conserva mínimo
+00:01 +15: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: none measured=false conserva consumo histórico y half-up
+00:01 +16: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A34 reproducción legada seguida de actual y duplicados conserva estado
+00:01 +17: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: none measured=true conserva consumo histórico y half-up
+00:01 +18: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: none measured=true conserva consumo histórico y half-up
+00:01 +19: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A37/A41 reapertura en disco conserva valores, conocimiento y lecturas puras
+00:01 +20: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A37/A41 reapertura en disco conserva valores, conocimiento y lecturas puras
+00:01 +21: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: standalone A37/A41 reapertura en disco conserva valores, conocimiento y lecturas puras
+00:01 +22: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: recipe measured=false conserva consumo histórico y half-up
+00:01 +23: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: serverSync A16/A18/A24/A31/A32 mínimo, no-op, conservar, cero y retirar
+00:01 +24: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: recipe measured=true conserva consumo histórico y half-up
+00:01 +25: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: serverSync A06/A07/A19 unidad de inventario exacta y validación atómica
+00:01 +26: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: insuficiente, límites, vacío y borrador modificado conservan borrador
+00:01 +27: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: serverSync A20/A25/A26 barcode, receta, retiro y recuperación conservan umbral dormido
+00:01 +28: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización doble toque solo crea un pago
+00:01 +29: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: serverSync A24 cambiar mínimo no invalida consumo capturado en venta abierta
+00:01 +30: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización fallo después de movimientos revierte evento, pago, saldo y conserva borrador
+00:01 +31: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización fallo después de movimientos revierte evento, pago, saldo y conserva borrador
+00:01 +32: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: serverSync A10/A13–A17 legado conserva presencia, promoción sin evento y rechazo de escritor antiguo
+00:01 +33: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización reinicio offline, reconocimiento de push y pull propio sin doble consumo
+00:01 +34: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización reinicio offline, reconocimiento de push y pull propio sin doble consumo
+00:01 +35: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: serverSync A23/A41 repositorio observable y recepción evalúan saldo vigente sin eventos de alerta
+00:01 +36: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización pull otro dispositivo crea venta autocontenida y deduplica sale_id
+00:01 +37: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: serverSync A19/A26/A28 variantes comparten base y retirada conserva mínimo
+00:01 +38: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización standalone: cobro y arranque no instancian monitor ni producen tráfico sync
+00:01 +39: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: serverSync A34 reproducción legada seguida de actual y duplicados conserva estado
+00:01 +40: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización push espera dependencia en otro lote y respuesta perdida reintenta IDs estables
+00:01 +41: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización push espera dependencia en otro lote y respuesta perdida reintenta IDs estables
+00:02 +42: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: serverSync A37/A41 reapertura en disco conserva valores, conocimiento y lecturas puras
+00:02 +43: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/articulos/minimum_stock_local_test.dart: serverSync A37/A41 reapertura en disco conserva valores, conocimiento y lecturas puras
+00:02 +44: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización push rejected deja visibles pago y consumo
+00:02 +45: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: cash: atomicidad, reinicio y sincronización push rejected deja visibles pago y consumo
+00:02 +46: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer: atomicidad, reinicio y sincronización doble toque solo crea un pago
+00:02 +47: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer: atomicidad, reinicio y sincronización fallo después de movimientos revierte evento, pago, saldo y conserva borrador
+00:02 +48: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer: atomicidad, reinicio y sincronización reinicio offline, reconocimiento de push y pull propio sin doble consumo
+00:02 +49: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer: atomicidad, reinicio y sincronización pull otro dispositivo crea venta autocontenida y deduplica sale_id
+00:02 +50: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer: atomicidad, reinicio y sincronización standalone: cobro y arranque no instancian monitor ni producen tráfico sync
+00:02 +51: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer: atomicidad, reinicio y sincronización push espera dependencia en otro lote y respuesta perdida reintenta IDs estables
+00:02 +52: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer: atomicidad, reinicio y sincronización push conflict deja visibles pago y consumo
+00:02 +53: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer: atomicidad, reinicio y sincronización push rejected deja visibles pago y consumo
+00:02 +54: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: limpieza de dependencias en conflicto no elimina cobro ni referencias
+00:02 +55: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: receta conocida cambió antes del cobro: revisión sin perder borrador
+00:02 +56: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: un consumo redondeado a cero conserva configuración sin movimiento
+00:02 +57: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: precio capturado se conserva; desactivación conocida exige revisión
+00:02 +58: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: dependencias pendientes/irresolubles y rechazo conservan cobro y consumo
+00:02 +59: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: caja habilitada: cobro y cambio usan solo importe aplicado
+00:02 +60: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: caja: crédito y transferencia excluidos; abono cash asociado una vez
+00:02 +61: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: caja: fallo después del handler revierte cobro, movimiento y conserva borrador
+00:02 +62: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: standalone: crédito FIFO, anticipos, reinicio y refs
+00:02 +63: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: serverSync: crédito FIFO, anticipos, reinicio y refs
+00:03 +64: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: abono: doble envío con mismo id es idempotente, otro importe se rechaza
+00:03 +65: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: crédito exige cliente y no acepta efectivo; transacción conserva borrador
+00:03 +66: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: pull: abono recibido antes de venta converge y los ecos no duplican
+00:03 +67: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer AppMode.standalone referencia longitud null: persiste, refs y reinicio
+00:03 +68: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer AppMode.standalone referencia longitud 0: persiste, refs y reinicio
+00:03 +69: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer AppMode.standalone referencia longitud 3: persiste, refs y reinicio
+00:03 +70: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer AppMode.standalone referencia longitud 11: persiste, refs y reinicio
+00:03 +71: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer AppMode.standalone referencia longitud 500: persiste, refs y reinicio
+00:03 +72: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer AppMode.serverSync referencia longitud null: persiste, refs y reinicio
+00:03 +73: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer AppMode.serverSync referencia longitud 0: persiste, refs y reinicio
+00:03 +74: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer AppMode.serverSync referencia longitud 3: persiste, refs y reinicio
+00:03 +75: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer AppMode.serverSync referencia longitud 11: persiste, refs y reinicio
+00:03 +76: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: transfer AppMode.serverSync referencia longitud 500: persiste, refs y reinicio
+00:03 +77: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: contrato de transferencia rechaza método, importe, cambio, referencia y admite legado
+00:03 +78: /Users/benjamin/Projects/POS/pos_flutter/test/application/commands/ventas/venta_command_service_test.dart: lectura común: aplicado sin cambio, abonos una vez, anticipos y fechas propias
+00:03 +79: All tests passed!

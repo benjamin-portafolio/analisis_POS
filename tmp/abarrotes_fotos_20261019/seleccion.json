@@ -1,0 +1,683 @@
+{
+  "date": "2026-10-19",
+  "products": [
+    {
+      "name": "La Costeña Puré de tomate condimentado 210 g",
+      "presentation": "Caja 210 g",
+      "price": 10,
+      "code": "7501017005611",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 10,
+      "catalogUrl": "https://www.chedraui.com.mx/pure-de-tomate-la-costena-condimentado-210g-3042965/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78787129/7501017005611_00.jpg?v=639274269313100000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Marca y tamaño visibles",
+      "note": "Corresponde a puré tomate chico. Precio 10 también escrito en el envase."
+    },
+    {
+      "name": "La Costeña Puré de tomate condimentado 350 g",
+      "presentation": "Caja 350 g",
+      "price": 12,
+      "code": "076397007106",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 17.5,
+      "catalogUrl": "https://www.chedraui.com.mx/pure-de-tomate-la-costena-condimentado-350g-3042975/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78584359/76397007106_00.jpg?v=639269939877970000",
+      "codeMethod": "UPC-A del nombre de imagen comercial, normalizado con cero inicial",
+      "identification": "Marca y tamaño visibles",
+      "note": "Corresponde a puré tomate grande. Precio 12 también escrito en el envase."
+    },
+    {
+      "name": "Valentina Salsa picante etiqueta amarilla 370 ml",
+      "presentation": "Botella de vidrio 370 ml",
+      "price": 18,
+      "code": "097339000054",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 16,
+      "catalogUrl": "https://www.chedraui.com.mx/salsa-valentina-etiqueta-amarilla-picante-de-370ml-3042845/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78787104/97339000054_00.jpg?v=639274269176600000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio; UPC-A normalizado con cero inicial",
+      "identification": "Presentación probable",
+      "note": "La marca y la variante se apoyan en la foto 2 y la etiqueta del estante Amarilla. El volumen se infiere del envase y del catálogo; cotejar."
+    },
+    {
+      "name": "Valentina Salsa muy picante etiqueta negra 370 ml",
+      "presentation": "Botella de vidrio 370 ml",
+      "price": 18,
+      "code": "097339000061",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 24,
+      "catalogUrl": "https://www.chedraui.com.mx/salsa-valentina-etiqueta-negra-muy-picante-de-370ml-3042854/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78786683/97339000061_00.jpg?v=639274268518730000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio; UPC-A normalizado con cero inicial",
+      "identification": "Presentación probable",
+      "note": "Etiqueta negra visible en foto 2. Volumen inferido del envase y del catálogo; cotejar."
+    },
+    {
+      "catalogPrice": null,
+      "catalogUrl": "",
+      "codeMethod": "Fabricante: STICK de 16 g, distinto del código del ESTUCHE",
+      "name": "Nescafé Clásico Café soluble sobre 16 g",
+      "presentation": "Sobre individual 16 g",
+      "price": 16,
+      "code": "7506475126908",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "codeSource": "https://promos.nestle.com.mx/nescafe/node/91",
+      "identification": "Gramaje probable; confirmar",
+      "note": "La leyenda del exhibidor en foto 3 parece indicar sobres de 16 g. Existen sobres de 14 g con código 7501000911783; si el físico dice 14 g, sustituir nombre y código antes de cargar. No usar el código del exhibidor."
+    },
+    {
+      "name": "Nescafé Clásico Café soluble bolsa 28 g",
+      "presentation": "Bolsa resellable 28 g",
+      "price": 30,
+      "code": "7501000912612",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 35,
+      "catalogUrl": "https://www.chedraui.com.mx/cafe-soluble-nescafe-clasico-bolsa-28g-3361141/p",
+      "codeSource": "https://promos.nestle.com.mx/nescafe/node/91",
+      "codeMethod": "Fabricante: Doypack 28 g",
+      "identification": "Presentación probable",
+      "note": "Bolsa con 30 escrito en foto 3. Gramaje seleccionado del catálogo, no legible con certeza en la fotografía; cotejar."
+    },
+    {
+      "name": "Nescafé Clásico Café soluble frasco 42 g",
+      "presentation": "Frasco 42 g",
+      "price": 46,
+      "code": "7501000912803",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 49.5,
+      "catalogUrl": "https://www.chedraui.com.mx/cafe-soluble-nescafe-clasico-42g-3820416/p",
+      "codeSource": "https://promos.nestle.com.mx/nescafe/node/91",
+      "codeMethod": "Fabricante: frasco 42 g",
+      "identification": "Presentación probable",
+      "note": "Frasco pequeño de foto 3. Se selecciona 42 g por el formato; verificar contenido en el envase."
+    },
+    {
+      "name": "Coffee Mate Original Cremador en polvo 160 g",
+      "presentation": "Bote 160 g",
+      "price": 40,
+      "code": "7501058619228",
+      "priceSource": "Foto 3: WhatsApp Image 2026-10-19 at 18.02.57.jpeg",
+      "priceOrigin": "Precio escrito en envase",
+      "catalogPrice": 39,
+      "catalogUrl": "https://www.chedraui.com.mx/sustituto-de-crema-para-cafe-coffee-mate-polvo-original-160g-3397486/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78234543/7501058619228_00.jpg?v=639263932227630000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Marca y presentación identificadas",
+      "note": "Precio 40 escrito sobre el bote rojo en foto 3. No se aplica el precio de Nutella a este producto."
+    },
+    {
+      "catalogPrice": null,
+      "catalogUrl": "",
+      "codeMethod": "Código publicado por el comercio",
+      "name": "Coffee Mate Original Cremador en polvo sobre 34 g",
+      "presentation": "Sobre individual 34 g",
+      "price": 12,
+      "code": "7501000913282",
+      "priceSource": "https://www.farmaciasguadalajara.com/alimentos/cremas-para-cafe/sustituto-de-crema-coffe-mate-para-cafe-en-polvo-sabor-original--34-gr.-1337505.html",
+      "priceOrigin": "Referencia pública de internet",
+      "codeSource": "https://tiendasupersol.com/products/7501000913282",
+      "identification": "Contenido visible en exhibidor",
+      "note": "La foto 2 y la foto 3 indican 10 sobres de 34 g. Se carga un sobre individual a precio de referencia, no la caja de 10. Super Sol también publica 12 por sobre."
+    },
+    {
+      "name": "Nescafé Cappuccino Original Caja con 6 sobres de 20 g",
+      "presentation": "Caja 120 g (6 sobres de 20 g)",
+      "price": 69,
+      "code": "7501058629135",
+      "priceSource": "https://www.chedraui.com.mx/cafe-soluble-nescafe-cappuccino-original-6-sobres-de-20gcu-3487669/p",
+      "priceOrigin": "Referencia pública de internet",
+      "catalogPrice": 69,
+      "catalogUrl": "https://www.chedraui.com.mx/cafe-soluble-nescafe-cappuccino-original-6-sobres-de-20gcu-3487669/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78787764/7501058629135_00.jpg?v=639274271747370000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Presentación probable",
+      "note": "Caja visible en foto 1. Se interpreta como caja cerrada de 6 sobres. Si el negocio vende sobres sueltos, usar código individual 7501058629128 y definir su precio; no vender cada sobre a 69."
+    },
+    {
+      "name": "Nescafé Dolca Café soluble frasco 46 g",
+      "presentation": "Frasco 46 g",
+      "price": 36,
+      "code": "7501058620002",
+      "priceSource": "Foto 1: precio 36 escrito en el frasco de tapa amarilla",
+      "priceOrigin": "Precio escrito en envase",
+      "catalogPrice": 43,
+      "catalogUrl": "https://www.chedraui.com.mx/cafe-soluble-nescafe-dolca-46g-3397837/p",
+      "codeSource": "https://promos.nestle.com.mx/nescafe/node/91",
+      "codeMethod": "Fabricante: Dolca 46 g",
+      "identification": "Presentación probable",
+      "note": "Dolca identificado por etiqueta amarilla. Tamaño 46 g inferido por envase y catálogo; cotejar."
+    },
+    {
+      "name": "Pronto Flan vainilla con caramelo 136 g",
+      "presentation": "Caja 136 g; rinde 1 litro",
+      "price": 19,
+      "code": "7501200480515",
+      "priceSource": "Foto 3: WhatsApp Image 2026-10-19 at 18.02.57.jpeg",
+      "priceOrigin": "Precio escrito en envase",
+      "catalogPrice": 14,
+      "catalogUrl": "https://www.chedraui.com.mx/flan-pronto-sabor-vainilla-con-caramelo-136g-3244734/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78533434/7501200480515_00.jpg?v=639269297694770000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Marca y tamaño visibles",
+      "note": "Se conserva 19 escrito en la caja. No se aplica Gelatinas 15 de la lista a este flan."
+    },
+    {
+      "name": "McCormick Mermelada de fresa 450 g",
+      "presentation": "Frasco 450 g",
+      "price": 50,
+      "code": "7501003309808",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 42,
+      "catalogUrl": "https://www.chedraui.com.mx/mermelada-mccormick-de-fresa-450-g-3409883/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78533492/7501003309808_00.jpg?v=639269297868770000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Presentación probable",
+      "note": "Marca y sabor visibles en el frasco grande de foto 1. Gramaje seleccionado según formato del catálogo; verificar que no sea 980 g."
+    },
+    {
+      "name": "McCormick Mermelada de fresa 270 g",
+      "presentation": "Frasco 270 g",
+      "price": 29,
+      "code": "7501003336125",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 29,
+      "catalogUrl": "https://www.chedraui.com.mx/mermelada-mccormick-de-fresa-270-g-3042424/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78796974/7501003336125_00.jpg?v=639274299715330000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Marca y tamaño por confirmar",
+      "note": "Frasco chico de espaldas con fresas en foto 1. Identificación McCormick 270 g probable por la etiqueta y el catálogo; cotejar marca y gramaje antes de importar."
+    },
+    {
+      "name": "Clásicos Cerillos Cajilla con 50",
+      "presentation": "Cajilla individual con 50 cerillos",
+      "price": 3,
+      "code": "75036553",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 4,
+      "catalogUrl": "https://www.chedraui.com.mx/cerillos-clasicos-cajilla-con-50-cerillos-3536291/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/77974777/75036553_00.jpg?v=639259629072100000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Marca visible; cantidad probable",
+      "note": "Se carga una cajilla, no el paquete de 5 o 10 cajillas. Verificar que el reverso físico tenga el EAN-8 citado."
+    },
+    {
+      "catalogPrice": null,
+      "catalogUrl": "",
+      "codeMethod": "Código publicado por el comercio",
+      "name": "Kola Loka Pegamento tradicional 2 g",
+      "presentation": "Tubo individual 2 g",
+      "price": 27,
+      "code": "7501102610003",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "codeSource": "https://www.officemax.com.mx/pegamento-kola-loka-2gr-7501102610003/p",
+      "identification": "Presentación probable",
+      "note": "Exhibidor Kola Loka y tubos con tapa verde visibles en fotos 1 y 2. Se selecciona tubo tradicional de 2 g; no Goterito de 3.5 g ni Brocha de 5 g."
+    },
+    {
+      "catalogPrice": null,
+      "catalogUrl": "https://www.mccormick.mx/producto/te-de-limon",
+      "codeMethod": "Sin código individual verificable; se deja vacío",
+      "name": "McCormick Té de limón sobre individual",
+      "presentation": "Un sobre de infusión; gramaje por confirmar",
+      "price": 3,
+      "code": "",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "codeSource": "",
+      "identification": "Sabor visible; venta por sobre inferida",
+      "note": "La caja de la foto 1 dice Té de Limón 30 g. El precio 3 se interpreta por un sobre, no por la caja. No se reutiliza el código de barras de la caja."
+    },
+    {
+      "catalogPrice": null,
+      "catalogUrl": "https://www.mccormick.mx/producto/te-de-manzanilla",
+      "codeMethod": "Sin código individual verificable; se deja vacío",
+      "name": "McCormick Té de manzanilla sobre individual",
+      "presentation": "Un sobre de infusión; gramaje por confirmar",
+      "price": 3,
+      "code": "",
+      "priceSource": "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "codeSource": "",
+      "identification": "Ingrediente visible; venta por sobre inferida",
+      "note": "La caja amarilla muestra MANZANILLA en ingredientes. El precio 3 se interpreta por un sobre, no por la caja. No se reutiliza el código de barras de la caja."
+    },
+    {
+      "name": "Doña María Mole verde en pasta 230 g",
+      "presentation": "Frasco 230 g",
+      "price": 56,
+      "code": "7501003149138",
+      "priceSource": "https://www.chedraui.com.mx/mole-dona-maria-verde-en-pasta-230g-3043240/p",
+      "priceOrigin": "Referencia pública de internet",
+      "catalogPrice": 56,
+      "catalogUrl": "https://www.chedraui.com.mx/mole-dona-maria-verde-en-pasta-230g-3043240/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78488472/7501003149138_00.jpg?v=639268417983100000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Presentación probable",
+      "note": "Frasco de etiqueta verde y tapa amarilla en foto 1 y foto 5. Marca visible, variedad y contenido inferidos por etiqueta y catálogo; cotejar antes de importar."
+    },
+    {
+      "name": "Doña María Mole rojo listo para servir 360 g",
+      "presentation": "Caja 360 g",
+      "price": 22,
+      "code": "7501003100085",
+      "priceSource": "https://www.chedraui.com.mx/mole-dona-maria-listo-para-servir-360-g-3621827/p",
+      "priceOrigin": "Referencia pública de internet",
+      "catalogPrice": 22,
+      "catalogUrl": "https://www.chedraui.com.mx/mole-dona-maria-listo-para-servir-360-g-3621827/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78584552/7501003100085_00.jpg?v=639269940760230000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Presentación probable",
+      "note": "Caja alta color beige junto al mole en foto 1. Presentación seleccionada del catálogo; cotejar variedad y contenido. No confundir con el frasco en pasta."
+    },
+    {
+      "catalogPrice": null,
+      "catalogUrl": "",
+      "codeMethod": "Código publicado por el comercio",
+      "name": "Cristal Aceite vegetal 1.5 L",
+      "presentation": "Botella 1.5 L",
+      "price": 70,
+      "code": "7501048100248",
+      "priceSource": "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "codeSource": "https://lamimigb.com/products/aceite-cristal-1-5-lt",
+      "identification": "Marca y volumen escritos en lista",
+      "note": "La lista dice Cristal 1,5 L. Se selecciona aceite vegetal, no aceite de maíz. Envase no visible para cotejar la formulación."
+    },
+    {
+      "name": "Cristal Aceite vegetal mixto 1 L",
+      "presentation": "Botella 1 L",
+      "price": 42,
+      "code": "7501048100163",
+      "priceSource": "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 39,
+      "catalogUrl": "https://www.chedraui.com.mx/aceite-cristal-mixto-1-l-3009897/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78124824/7501048100163_00.jpg?v=639262173280200000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Marca y volumen escritos en lista",
+      "note": "Envase no visible. Se selecciona aceite vegetal mixto del catálogo; cotejar formulación con el físico."
+    },
+    {
+      "catalogPrice": null,
+      "catalogUrl": "https://surtace.mayoreoenlinea.mx/products/aceite-cristal-500",
+      "codeMethod": "Código publicado en factura de 2018; referencia histórica a cotejar físicamente",
+      "name": "Cristal Aceite vegetal 500 ml",
+      "presentation": "Botella 500 ml",
+      "price": 25,
+      "code": "7501048100200",
+      "priceSource": "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "codeSource": "https://www.zapopan.gob.mx/wp-content/uploads/2018/09/JUNIO-2018.pdf",
+      "identification": "Marca y volumen escritos en lista",
+      "note": "Se interpreta 500L como 500 ml. Presentación vigente encontrada en Surtace. El código solo se pudo respaldar con una factura histórica, por lo que requiere escaneo físico."
+    },
+    {
+      "name": "1-2-3 Aceite vegetal 1 L",
+      "presentation": "Botella 1 L",
+      "price": 42,
+      "code": "75002343",
+      "priceSource": "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "catalogPrice": 42,
+      "catalogUrl": "https://www.chedraui.com.mx/aceite-123-vegetal-123-1l-3009948/p",
+      "codeSource": "https://chedrauimx.vteximg.com.br/arquivos/ids/78786235/75002343_00.jpg?v=639274266723470000",
+      "codeMethod": "GTIN completo en el nombre de imagen del catálogo del comercio",
+      "identification": "Marca y volumen escritos en lista",
+      "note": "Código EAN-8 del envase de 1 litro. Envase no visible en la foto; cotejar."
+    },
+    {
+      "catalogPrice": null,
+      "catalogUrl": "",
+      "codeMethod": "Código publicado por el comercio",
+      "name": "1-2-3 Aceite vegetal 500 ml",
+      "presentation": "Botella 500 ml",
+      "price": 25,
+      "code": "75005443",
+      "priceSource": "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "priceOrigin": "Lista manuscrita del negocio",
+      "codeSource": "https://www.lagranbodega.com.mx/aceite-vegetal-comestible-1-2-3-500-ml/p",
+      "identification": "Marca y volumen escritos en lista",
+      "note": "Se interpreta 500L como 500 ml. EAN-8 publicado en la imagen comercial de la botella individual, respaldado también por Garis."
+    }
+  ],
+  "pending": [
+    [
+      "Choco Milk",
+      7,
+      "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "Falta gramaje y presentación",
+      "Podría ser sobre de polvo. No asignar automáticamente la bolsa de 65 g ni el bote de 160 g.",
+      "https://www.chedraui.com.mx/chocolate-chocomilk-65g-3884308/p"
+    ],
+    [
+      "Palomitas",
+      16,
+      "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "Faltan marca, sabor y gramaje",
+      "No se distingue si son palomitas para microondas o una bolsa de botana.",
+      ""
+    ],
+    [
+      "Vasos",
+      35,
+      "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "Faltan marca, capacidad, material y piezas",
+      "Hay bolsas de desechables en foto 1, pero no se lee la presentación.",
+      ""
+    ],
+    [
+      "Nutella frasco",
+      42,
+      "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "Falta tamaño; verificar lectura del precio",
+      "La escritura parece Nutella Frasco 42; el último dígito es poco claro y podría leerse 48. No confundir con Coffee Mate 40. Existe frasco de 200 g en catálogo, sin evidencia de que sea el del negocio.",
+      "https://www.chedraui.com.mx/crema-de-avellanas-nutella-200g-3444754/p"
+    ],
+    [
+      "Café Legal",
+      10,
+      "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "Faltan tipo de café y gramaje",
+      "Hay opciones soluble de 10 g, molido de 28 g y porciones de 2 g. El rótulo por sí solo no permite seleccionar un código.",
+      "https://www.lagranbodega.com.mx/despensa/cafe-te-y-sustitutos/cafe-soluble/legal"
+    ],
+    [
+      "Harina de arroz",
+      18,
+      "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "Faltan marca y peso",
+      "No se distingue la cara del paquete para seleccionar una presentación.",
+      ""
+    ],
+    [
+      "Gelatinas",
+      15,
+      "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "Faltan marca, sabor y peso",
+      "No confundir con el flan Pronto 136 g que tiene precio escrito de 19.",
+      ""
+    ],
+    [
+      "Servilletas",
+      18,
+      "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "Faltan marca, tamaño y cantidad",
+      "Las bolsas parcialmente visibles no permiten confirmar un SKU.",
+      ""
+    ],
+    [
+      "Papel aluminio M.",
+      55,
+      "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "Faltan marca, metros y ancho",
+      "M. podría indicar mediano, una marca u otra abreviatura.",
+      ""
+    ],
+    [
+      "Maizena",
+      15,
+      "Foto 4: WhatsApp Image 2026-10-19 at 18.03.00.jpeg",
+      "Faltan tipo, sabor y gramaje",
+      "Puede ser fécula natural o mezcla para atole de varios sabores, con códigos diferentes.",
+      ""
+    ],
+    [
+      "Pañal",
+      8,
+      "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "Faltan marca, talla y modalidad de venta",
+      "Podría venderse por pieza suelta. No asignar el código de una bolsa completa a una pieza.",
+      ""
+    ],
+    [
+      "Maruchan",
+      18,
+      "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "Faltan sabor, gramaje y envase",
+      "No crear un sabor de camarón, pollo o res sin evidencia.",
+      ""
+    ],
+    [
+      "Nutrioli",
+      40,
+      "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "Falta volumen y variedad de aceite",
+      "Hay varias capacidades. El precio no permite distinguirlas.",
+      ""
+    ],
+    [
+      "La Botanera chica",
+      18,
+      "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "Faltan volumen y variante",
+      "Se encontraron clásica 354 ml y 500 ml, y muy picante 370 g. Conservar 18 sin asignar un código hasta identificar el envase.",
+      "https://www.chedraui.com.mx/salsa-la-botanera-clasica-500ml-3596913/p"
+    ],
+    [
+      "Nutri",
+      22,
+      "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "Faltan volumen y variedad",
+      "No asumir un producto lácteo de 1 litro ni una fórmula específica.",
+      ""
+    ],
+    [
+      "Alpura",
+      28,
+      "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "Faltan volumen y tipo de leche",
+      "Entera, deslactosada y otras variedades usan códigos distintos.",
+      ""
+    ],
+    [
+      "Santa Clara",
+      32,
+      "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "Faltan volumen y tipo de leche",
+      "No asumir entera de 1 litro solo por el precio.",
+      ""
+    ],
+    [
+      "Alpura sabores",
+      36,
+      "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "Faltan volumen y sabor",
+      "Se requiere identificar chocolate, fresa, vainilla u otra variedad.",
+      ""
+    ],
+    [
+      "La Botanera grande",
+      35,
+      "Foto 5: WhatsApp Image 2026-10-19 at 18.03.07.jpeg",
+      "Faltan volumen y variante",
+      "El catálogo ofrece clásica de 1 kg y otras variantes de 1 L. No asumir que G significa una de ellas.",
+      "https://www.chedraui.com.mx/salsa-la-botanera-clasica-1kg-3480788/p"
+    ],
+    [
+      "Palmolive Optims 4 Extra Intensivo 2 en 1",
+      null,
+      "Foto 2: cajas de shampoo",
+      "Falta precio y confirmar unidad de venta",
+      "La caja visible indica 48 sobres de 10 ml y promoción 2x1. Confirmar si se venden 10 ml o el par de sobres; no usar el código de la caja para cada sobre.",
+      "https://www.superya.com.mx/productos/%3D%3DAUVZ0cWtGZXJFbZpXTWJVU/"
+    ],
+    [
+      "McCormick Té en caja verde",
+      3,
+      "Fotos 1 y 3; precio de té en foto 4",
+      "Falta confirmar sabor",
+      "Probablemente hierbabuena. El color por sí solo no basta. El precio 3 se interpreta por sobre.",
+      "https://www.chedraui.com.mx/te-mccormick-hierbabuena-con-25-sobres-3089917/p"
+    ],
+    [
+      "McCormick Té en caja azul",
+      3,
+      "Fotos 1 y 3; precio de té en foto 4",
+      "Falta confirmar sabor",
+      "Podría ser tila. Nombre frontal oculto. El precio 3 se interpreta por sobre.",
+      ""
+    ],
+    [
+      "McCormick Té en caja café",
+      3,
+      "Fotos 1 y 3; precio de té en foto 4",
+      "Falta confirmar sabor",
+      "Podría ser canela a la manzana u otra infusión. El precio 3 se interpreta por sobre.",
+      "https://www.chedraui.com.mx/te-mccormick-de-canela-a-la-manzana-25-sobres-3044883/p"
+    ]
+  ],
+  "transcription": [
+    [
+      "Choco Milk",
+      7
+    ],
+    [
+      "Palomitas",
+      16
+    ],
+    [
+      "Vasos",
+      35
+    ],
+    [
+      "Valentina",
+      18
+    ],
+    [
+      "Pure tomate ch",
+      10
+    ],
+    [
+      "Pure tomate G",
+      12
+    ],
+    [
+      "Nescafe ch",
+      16
+    ],
+    [
+      "Nescafe Bolsa",
+      30
+    ],
+    [
+      "Nescafe Frasco",
+      46
+    ],
+    [
+      "Nutella Frasco",
+      42
+    ],
+    [
+      "Cafe Legal",
+      10
+    ],
+    [
+      "Té",
+      3
+    ],
+    [
+      "Mermelada fresa G",
+      50
+    ],
+    [
+      "Mermelada chica",
+      29
+    ],
+    [
+      "Cerillos",
+      3
+    ],
+    [
+      "Kola loka",
+      27
+    ],
+    [
+      "Arina de Arroz",
+      18
+    ],
+    [
+      "Gelatinas",
+      15
+    ],
+    [
+      "Servilletas",
+      18
+    ],
+    [
+      "Aluminio M.",
+      55
+    ],
+    [
+      "Maizenas",
+      15
+    ],
+    [
+      "Pañal",
+      8
+    ],
+    [
+      "Maruchas",
+      18
+    ],
+    [
+      "Cristal 1,5L",
+      70
+    ],
+    [
+      "Cristal 1L",
+      42
+    ],
+    [
+      "Cristal 500L",
+      25
+    ],
+    [
+      "Nutrioli",
+      40
+    ],
+    [
+      "123 1L",
+      42
+    ],
+    [
+      "123 500L",
+      25
+    ],
+    [
+      "Botanera",
+      18
+    ],
+    [
+      "Nutri",
+      22
+    ],
+    [
+      "alpura",
+      28
+    ],
+    [
+      "Santa Clara",
+      32
+    ],
+    [
+      "Alpura sabores",
+      36
+    ],
+    [
+      "Botanera G",
+      35
+    ]
+  ]
+}

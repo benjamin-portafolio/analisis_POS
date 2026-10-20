@@ -1,0 +1,758 @@
+[
+  {
+    "mode": "standalone",
+    "catalog": 1000,
+    "capture": 20,
+    "phases": {
+      "load": {
+        "median_ms": 6.976,
+        "min_ms": 4.863,
+        "max_ms": 8.245,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 1.404,
+        "min_ms": 1.283,
+        "max_ms": 1.677,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 0.57,
+        "min_ms": 0.534,
+        "max_ms": 0.658,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 20,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 28.474,
+        "min_ms": 26.014,
+        "max_ms": 30.937,
+        "counts": {
+          "selects": 299,
+          "writes": 100,
+          "transactions_including_savepoints": 37,
+          "outer_transactions": 4,
+          "returned_rows": 312,
+          "history_rows": 34
+        }
+      }
+    },
+    "events": 10,
+    "receipts": 7,
+    "operations": 3,
+    "journal_json_bytes": 9815
+  },
+  {
+    "mode": "standalone",
+    "catalog": 1000,
+    "capture": 100,
+    "phases": {
+      "load": {
+        "median_ms": 7.843,
+        "min_ms": 5.142,
+        "max_ms": 8.33,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 1.302,
+        "min_ms": 1.282,
+        "max_ms": 1.339,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 1.255,
+        "min_ms": 1.226,
+        "max_ms": 1.401,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 123.072,
+        "min_ms": 121.319,
+        "max_ms": 127.102,
+        "counts": {
+          "selects": 1609,
+          "writes": 544,
+          "transactions_including_savepoints": 201,
+          "outer_transactions": 17,
+          "returned_rows": 1680,
+          "history_rows": 184
+        }
+      }
+    },
+    "events": 56,
+    "receipts": 40,
+    "operations": 16,
+    "journal_json_bytes": 53952
+  },
+  {
+    "mode": "standalone",
+    "catalog": 1000,
+    "capture": 500,
+    "phases": {
+      "load": {
+        "median_ms": 8.002,
+        "min_ms": 6.812,
+        "max_ms": 8.591,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 1.244,
+        "min_ms": 1.222,
+        "max_ms": 1.27,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 4.648,
+        "min_ms": 4.488,
+        "max_ms": 5.528,
+        "counts": {
+          "selects": 4,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 500,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 562.225,
+        "min_ms": 555.123,
+        "max_ms": 589.58,
+        "counts": {
+          "selects": 8041,
+          "writes": 2720,
+          "transactions_including_savepoints": 1001,
+          "outer_transactions": 81,
+          "returned_rows": 8400,
+          "history_rows": 920
+        }
+      }
+    },
+    "events": 280,
+    "receipts": 200,
+    "operations": 80,
+    "journal_json_bytes": 269760
+  },
+  {
+    "mode": "standalone",
+    "catalog": 10000,
+    "capture": 20,
+    "phases": {
+      "load": {
+        "median_ms": 23.799,
+        "min_ms": 23.26,
+        "max_ms": 24.29,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 3.274,
+        "min_ms": 3.243,
+        "max_ms": 3.355,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 0.38,
+        "min_ms": 0.369,
+        "max_ms": 0.425,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 20,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 26.156,
+        "min_ms": 25.689,
+        "max_ms": 27.357,
+        "counts": {
+          "selects": 299,
+          "writes": 100,
+          "transactions_including_savepoints": 37,
+          "outer_transactions": 4,
+          "returned_rows": 312,
+          "history_rows": 34
+        }
+      }
+    },
+    "events": 10,
+    "receipts": 7,
+    "operations": 3,
+    "journal_json_bytes": 9815
+  },
+  {
+    "mode": "standalone",
+    "catalog": 10000,
+    "capture": 100,
+    "phases": {
+      "load": {
+        "median_ms": 22.715,
+        "min_ms": 21.827,
+        "max_ms": 25.298,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 3.271,
+        "min_ms": 3.26,
+        "max_ms": 3.322,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 1.014,
+        "min_ms": 0.986,
+        "max_ms": 1.028,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 130.086,
+        "min_ms": 129.242,
+        "max_ms": 137.007,
+        "counts": {
+          "selects": 1609,
+          "writes": 544,
+          "transactions_including_savepoints": 201,
+          "outer_transactions": 17,
+          "returned_rows": 1680,
+          "history_rows": 184
+        }
+      }
+    },
+    "events": 56,
+    "receipts": 40,
+    "operations": 16,
+    "journal_json_bytes": 53952
+  },
+  {
+    "mode": "standalone",
+    "catalog": 10000,
+    "capture": 500,
+    "phases": {
+      "load": {
+        "median_ms": 25.897,
+        "min_ms": 22.661,
+        "max_ms": 28.514,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 3.258,
+        "min_ms": 3.244,
+        "max_ms": 3.33,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 4.498,
+        "min_ms": 4.437,
+        "max_ms": 4.591,
+        "counts": {
+          "selects": 4,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 500,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 654.032,
+        "min_ms": 645.477,
+        "max_ms": 678.358,
+        "counts": {
+          "selects": 8041,
+          "writes": 2720,
+          "transactions_including_savepoints": 1001,
+          "outer_transactions": 81,
+          "returned_rows": 8400,
+          "history_rows": 920
+        }
+      }
+    },
+    "events": 280,
+    "receipts": 200,
+    "operations": 80,
+    "journal_json_bytes": 269760
+  },
+  {
+    "mode": "server_sync",
+    "catalog": 1000,
+    "capture": 20,
+    "phases": {
+      "load": {
+        "median_ms": 8.461,
+        "min_ms": 4.848,
+        "max_ms": 8.974,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 1.176,
+        "min_ms": 1.168,
+        "max_ms": 1.225,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 0.367,
+        "min_ms": 0.342,
+        "max_ms": 0.425,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 20,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 25.961,
+        "min_ms": 25.59,
+        "max_ms": 27.184,
+        "counts": {
+          "selects": 341,
+          "writes": 195,
+          "transactions_including_savepoints": 37,
+          "outer_transactions": 4,
+          "returned_rows": 348,
+          "history_rows": 37
+        }
+      }
+    },
+    "events": 10,
+    "receipts": 7,
+    "operations": 3,
+    "journal_json_bytes": 9818
+  },
+  {
+    "mode": "server_sync",
+    "catalog": 1000,
+    "capture": 100,
+    "phases": {
+      "load": {
+        "median_ms": 5.714,
+        "min_ms": 5.029,
+        "max_ms": 5.913,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 1.165,
+        "min_ms": 1.154,
+        "max_ms": 1.195,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 1.036,
+        "min_ms": 0.971,
+        "max_ms": 1.189,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 130.912,
+        "min_ms": 129.936,
+        "max_ms": 131.779,
+        "counts": {
+          "selects": 1833,
+          "writes": 1056,
+          "transactions_including_savepoints": 201,
+          "outer_transactions": 17,
+          "returned_rows": 1872,
+          "history_rows": 200
+        }
+      }
+    },
+    "events": 56,
+    "receipts": 40,
+    "operations": 16,
+    "journal_json_bytes": 53968
+  },
+  {
+    "mode": "server_sync",
+    "catalog": 1000,
+    "capture": 500,
+    "phases": {
+      "load": {
+        "median_ms": 5.619,
+        "min_ms": 4.462,
+        "max_ms": 6.066,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 1.179,
+        "min_ms": 1.13,
+        "max_ms": 1.402,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 4.61,
+        "min_ms": 4.31,
+        "max_ms": 4.95,
+        "counts": {
+          "selects": 4,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 500,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 640.71,
+        "min_ms": 637.098,
+        "max_ms": 651.827,
+        "counts": {
+          "selects": 9161,
+          "writes": 5280,
+          "transactions_including_savepoints": 1001,
+          "outer_transactions": 81,
+          "returned_rows": 9360,
+          "history_rows": 1000
+        }
+      }
+    },
+    "events": 280,
+    "receipts": 200,
+    "operations": 80,
+    "journal_json_bytes": 269840
+  },
+  {
+    "mode": "server_sync",
+    "catalog": 10000,
+    "capture": 20,
+    "phases": {
+      "load": {
+        "median_ms": 27.887,
+        "min_ms": 22.301,
+        "max_ms": 28.567,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 3.241,
+        "min_ms": 3.154,
+        "max_ms": 3.339,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 0.377,
+        "min_ms": 0.344,
+        "max_ms": 0.388,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 20,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 29.646,
+        "min_ms": 29.575,
+        "max_ms": 30.606,
+        "counts": {
+          "selects": 341,
+          "writes": 195,
+          "transactions_including_savepoints": 37,
+          "outer_transactions": 4,
+          "returned_rows": 348,
+          "history_rows": 37
+        }
+      }
+    },
+    "events": 10,
+    "receipts": 7,
+    "operations": 3,
+    "journal_json_bytes": 9818
+  },
+  {
+    "mode": "server_sync",
+    "catalog": 10000,
+    "capture": 100,
+    "phases": {
+      "load": {
+        "median_ms": 27.661,
+        "min_ms": 24.868,
+        "max_ms": 28.353,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 3.212,
+        "min_ms": 3.155,
+        "max_ms": 3.505,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 1.013,
+        "min_ms": 0.994,
+        "max_ms": 1.111,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 153.88,
+        "min_ms": 148.288,
+        "max_ms": 163.653,
+        "counts": {
+          "selects": 1833,
+          "writes": 1056,
+          "transactions_including_savepoints": 201,
+          "outer_transactions": 17,
+          "returned_rows": 1872,
+          "history_rows": 200
+        }
+      }
+    },
+    "events": 56,
+    "receipts": 40,
+    "operations": 16,
+    "journal_json_bytes": 53968
+  },
+  {
+    "mode": "server_sync",
+    "catalog": 10000,
+    "capture": 500,
+    "phases": {
+      "load": {
+        "median_ms": 27.67,
+        "min_ms": 25.714,
+        "max_ms": 28.123,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "filter": {
+        "median_ms": 3.197,
+        "min_ms": 3.143,
+        "max_ms": 3.414,
+        "counts": {
+          "selects": 2,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 100,
+          "history_rows": 0
+        }
+      },
+      "review": {
+        "median_ms": 4.357,
+        "min_ms": 4.259,
+        "max_ms": 4.506,
+        "counts": {
+          "selects": 4,
+          "writes": 0,
+          "transactions_including_savepoints": 1,
+          "outer_transactions": 1,
+          "returned_rows": 500,
+          "history_rows": 0
+        }
+      },
+      "save": {
+        "median_ms": 762.808,
+        "min_ms": 759.693,
+        "max_ms": 774.284,
+        "counts": {
+          "selects": 9161,
+          "writes": 5280,
+          "transactions_including_savepoints": 1001,
+          "outer_transactions": 81,
+          "returned_rows": 9360,
+          "history_rows": 1000
+        }
+      }
+    },
+    "events": 280,
+    "receipts": 200,
+    "operations": 80,
+    "journal_json_bytes": 269840
+  }
+]
